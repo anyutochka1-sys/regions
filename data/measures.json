@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "notice": "Публикуются только меры, подтвержденные официальным источником или НПА.",
+  "measures": [
+    {
+      "id": "unified",
+      "title": "Единое пособие",
+      "level": "federal",
+      "status": "active",
+      "legal_basis": [
+        "Постановление Правительства РФ от 16.12.2022 № 2330"
+      ],
+      "source_id": "sfr",
+      "verified": "2026-09-29",
+      "review_status": "verified"
+    }
+  ]
+}
