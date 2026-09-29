@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Бесплатный навигатор выплат и льгот для семей по регионам России">
+<title>Анна про пособия | Меры поддержки семьи</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header><div class="brand"><b>Анна</b><span>ПРО ПОСОБИЯ</span></div><div class="badge">БЕСПЛАТНО</div></header>
+<main>
+<section class="hero">
+<div><p class="eyebrow">НАВИГАТОР МЕР ПОДДЕРЖКИ</p><h1>Узнайте, какие выплаты и льготы стоит проверить вашей семье</h1><p class="lead">Укажите регион и состав семьи. Сайт покажет федеральные и региональные меры, которые могут относиться к вашей ситуации.</p></div>
+<div class="hero-card"><span>Федеральные</span><strong>+</strong><span>Региональные</span><small>в одном месте</small></div>
+</section>
+<section class="form-card">
+<h2>Расскажите о семье</h2><p class="muted">Это не заявление и не проверка права на выплату. Данные никуда не отправляются.</p>
+<form id="familyForm">
+<label>Регион<select id="region" required><option value="">Выберите регион</option><option>Красноярский край</option><option>Самарская область</option><option disabled>Другие регионы добавляются</option></select></label>
+<div class="grid2"><label>Членов семьи<input id="members" type="number" min="1" max="20" value="4" required></label><label>Детей<input id="children" type="number" min="0" max="15" value="2" required></label></div>
+<div id="ages"></div>
+<div class="toggles"><label><input id="pregnant" type="checkbox"> Сейчас есть беременность</label><label><input id="disabledChild" type="checkbox"> Есть ребёнок с инвалидностью</label></div>
+<button type="submit">Показать меры поддержки</button>
+</form>
+</section>
+<section id="results" class="hidden">
+<div class="result-head"><div><p class="eyebrow">РЕЗУЛЬТАТ</p><h2>Что стоит проверить</h2></div><button class="ghost" id="edit">Изменить данные</button></div>
+<p id="summary" class="summary"></p><div id="cards"></div>
+<div class="help"><p class="eyebrow">НУЖНА ПРОВЕРКА ИМЕННО ВАШЕЙ СИТУАЦИИ?</p><h2>Справочник показывает варианты. Я могу проверить вашу семью по условиям.</h2>
+<div class="services"><article><h3>Разбор одного вопроса</h3><strong>1 500 ₽</strong><p>Когда нужно разобраться в одном конкретном вопросе.</p></article><article><h3>Персональная консультация</h3><strong>2 900 ₽</strong><p>Когда нужно подробно разобрать вашу ситуацию.</p></article><article class="featured"><span>ПОЛНАЯ ПРОВЕРКА</span><h3>Аудит выплат семьи</h3><strong>4 900 ₽</strong><p>Проверим всё, что может быть доступно вашей семье.</p></article></div>
+<p class="contact">Ссылки на запись подключим к вашим страницам консультаций.</p></div>
+</section>
+</main>
+<footer><b>Анна про пособия</b><p>Информация носит справочный характер. Для назначения мер поддержки учитываются все условия конкретной программы. Проверяйте актуальность по официальным источникам.</p></footer>
+<script src="app.js"></script></body></html>
