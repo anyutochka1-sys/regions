@@ -1,0 +1,51 @@
+{
+  "generated": "2026-09-29",
+  "total": 15,
+  "verified": 14,
+  "needs_review": 1,
+  "by_level": {
+    "federal": 13,
+    "regional": 1
+  },
+  "by_region": {
+    "RU": 13,
+    "Самарская область": 1
+  },
+  "missing_optional": {
+    "frequency": [
+      "unified",
+      "birth-grant",
+      "care-1-5",
+      "maternity-capital",
+      "maternity-monthly",
+      "annual-family-payment",
+      "bir",
+      "pregnant-wife-serviceman",
+      "serviceman-child",
+      "disabled-child-care",
+      "foster-transfer",
+      "mother-heroine-edv",
+      "disabled-child-days",
+      "samara-multichild-meals"
+    ],
+    "application": [
+      "unified",
+      "birth-grant",
+      "care-1-5",
+      "maternity-capital",
+      "maternity-monthly",
+      "annual-family-payment",
+      "bir",
+      "pregnant-wife-serviceman",
+      "serviceman-child",
+      "disabled-child-care",
+      "foster-transfer",
+      "mother-heroine-edv",
+      "disabled-child-days",
+      "samara-multichild-meals"
+    ],
+    "amount": [
+      "unified"
+    ]
+  }
+}
