@@ -56,7 +56,27 @@
         "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/edinoe_posobie/",
         "https://sfr.gov.ru/files/id/press_center/pr/liflet/2026/4_Edinoe_posobie_na_detey_2026.pdf",
         "https://sfr.gov.ru/files/id/press_center/pr/liflet/2026/12_Otsenka_nujdaemosti_pri_naznachenii_edinogo_posobiya_2026.pdf"
-      ]
+      ],
+      "amount": {
+        "type": "variants",
+        "variants": [
+          {
+            "label": "Базовый размер",
+            "amount": "50% регионального прожиточного минимума для соответствующей категории"
+          },
+          {
+            "label": "Повышенный размер",
+            "amount": "75% регионального прожиточного минимума, если после 50% среднедушевой доход остаётся ниже ПМ"
+          },
+          {
+            "label": "Максимальный размер",
+            "amount": "100% регионального прожиточного минимума, если после 75% среднедушевой доход остаётся ниже ПМ"
+          }
+        ],
+        "note": "Для ребёнка используется ПМ на ребёнка; для беременной женщины — ПМ трудоспособного населения."
+      },
+      "frequency": "monthly",
+      "application": "Заявление: Госуслуги, клиентская служба СФР или МФЦ (в предусмотренных случаях)."
     },
     {
       "id": "birth-grant",
