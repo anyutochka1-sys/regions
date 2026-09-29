@@ -189,6 +189,36 @@
       ],
       "verified": "2026-09-29",
       "review_status": "verified"
+    },
+    {
+      "id": "annual-family-payment",
+      "title": "Ежегодная семейная выплата работающим родителям",
+      "level": "federal",
+      "status": "active",
+      "jurisdiction": "RU",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "amount": {
+        "type": "formula",
+        "note": "Разница между расчётным НДФЛ за предыдущий год и налогом, рассчитанным с того же дохода по ставке 6%."
+      },
+      "eligibility": {
+        "children_min": 2,
+        "parent_working": true,
+        "income_limit": "среднедушевой доход ниже 1,5 регионального прожиточного минимума",
+        "application_window": "1 июня – 1 октября"
+      },
+      "legal_basis": [
+        {
+          "title": "Федеральный закон от 13.07.2024 № 179-ФЗ",
+          "role": "Ежегодная семейная выплата гражданам РФ, имеющим двух и более детей"
+        }
+      ],
+      "official_urls": [
+        "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/ezhegodnaya_semejnaya_vyplata"
+      ],
+      "verified": "2026-09-29",
+      "review_status": "verified"
     }
   ],
   "fields": {
