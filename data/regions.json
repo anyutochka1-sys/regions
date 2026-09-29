@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "regions": [
+    {
+      "id": "24",
+      "name": "Красноярский край",
+      "source_ids": [
+        "krsk-law",
+        "krsk-gov"
+      ],
+      "status": "source_setup"
+    },
+    {
+      "id": "63",
+      "name": "Самарская область",
+      "source_ids": [
+        "samara-law",
+        "samara-gov"
+      ],
+      "status": "source_setup"
+    }
+  ]
+}
