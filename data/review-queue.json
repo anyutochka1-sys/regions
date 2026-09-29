@@ -24,6 +24,62 @@
         "компенсация родительской платы"
       ],
       "status": "official_act_required"
+    },
+    {
+      "jurisdiction": "54",
+      "region": "Новосибирская область",
+      "topic": "областной семейный капитал",
+      "status": "needs_research",
+      "priority": "high"
+    },
+    {
+      "jurisdiction": "54",
+      "region": "Новосибирская область",
+      "topic": "выплаты многодетным семьям",
+      "status": "needs_research",
+      "priority": "high"
+    },
+    {
+      "jurisdiction": "54",
+      "region": "Новосибирская область",
+      "topic": "меры при рождении третьего и последующих детей",
+      "status": "needs_research",
+      "priority": "high"
+    },
+    {
+      "jurisdiction": "54",
+      "region": "Новосибирская область",
+      "topic": "льготы на питание и обучение",
+      "status": "needs_research",
+      "priority": "high"
+    },
+    {
+      "jurisdiction": "54",
+      "region": "Новосибирская область",
+      "topic": "компенсации ЖКУ многодетным",
+      "status": "needs_research",
+      "priority": "high"
+    },
+    {
+      "jurisdiction": "54",
+      "region": "Новосибирская область",
+      "topic": "меры при отсутствии места в детском саду",
+      "status": "needs_research",
+      "priority": "high"
+    },
+    {
+      "jurisdiction": "54",
+      "region": "Новосибирская область",
+      "topic": "выплаты при рождении нескольких детей",
+      "status": "needs_research",
+      "priority": "high"
+    },
+    {
+      "jurisdiction": "54",
+      "region": "Новосибирская область",
+      "topic": "региональные пособия малоимущим семьям с детьми",
+      "status": "needs_research",
+      "priority": "high"
     }
   ]
 }
