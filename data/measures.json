@@ -385,6 +385,67 @@
       ],
       "verified": "2026-09-29",
       "review_status": "verified"
+    },
+    {
+      "id": "mother-heroine-edv",
+      "title": "Ежемесячная денежная выплата женщине со званием «Мать-героиня»",
+      "level": "federal",
+      "status": "active",
+      "jurisdiction": "RU",
+      "effective_from": "2026-02-01",
+      "effective_to": null,
+      "amount": {
+        "type": "fixed",
+        "value": 76458.4,
+        "currency": "RUB",
+        "note": "Размер после индексации с 1 февраля 2026 года."
+      },
+      "eligibility": {
+        "special_category": "mother_heroine"
+      },
+      "legal_basis": [
+        {
+          "title": "Федеральный закон от 28.11.2025 № 435-ФЗ",
+          "role": "Право на ежемесячную денежную выплату"
+        },
+        {
+          "title": "Указ Президента РФ от 15.08.2022 № 558",
+          "role": "Звание «Мать-героиня»"
+        }
+      ],
+      "official_urls": [
+        "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/"
+      ],
+      "verified": "2026-09-29",
+      "review_status": "verified"
+    },
+    {
+      "id": "disabled-child-days",
+      "title": "Дополнительные оплачиваемые выходные для ухода за ребёнком с инвалидностью",
+      "level": "federal",
+      "status": "active",
+      "jurisdiction": "RU",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "amount": {
+        "type": "benefit",
+        "note": "До 4 дополнительных оплачиваемых выходных дней в месяц; предусмотрена возможность накопления дней по установленным правилам."
+      },
+      "eligibility": {
+        "disabled_child": true,
+        "parent_employed": true
+      },
+      "legal_basis": [
+        {
+          "title": "Трудовой кодекс РФ, статья 262",
+          "role": "Дополнительные выходные дни лицам, осуществляющим уход за детьми с инвалидностью"
+        }
+      ],
+      "official_urls": [
+        "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/dop_vihodnie_po_uhody_za_detmi_invalidami/"
+      ],
+      "verified": "2026-09-29",
+      "review_status": "verified"
     }
   ],
   "fields": {
