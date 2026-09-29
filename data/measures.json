@@ -478,6 +478,34 @@
       ],
       "verified": "2026-09-29",
       "review_status": "verified"
+    },
+    {
+      "id": "samara-multichild-utilities",
+      "title": "Мера поддержки многодетных семей по оплате ЖКУ",
+      "level": "regional",
+      "status": "active",
+      "jurisdiction": "Самарская область",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "amount": {
+        "type": "benefit",
+        "note": "Региональная льгота/компенсация расходов на жилое помещение и коммунальные услуги. Конкретный размер зависит от действующих региональных правил и состава расходов."
+      },
+      "eligibility": {
+        "special_category": "large_family",
+        "housing_utilities": true
+      },
+      "legal_basis": [
+        {
+          "title": "Региональное законодательство Самарской области о социальной поддержке многодетных семей",
+          "role": "Основание льготы по ЖКУ; реквизиты актуальной редакции подлежат контролю мониторингом"
+        }
+      ],
+      "official_urls": [
+        "https://gusotok.samregion.ru/aktsii/kak-platit-za-zhku-menshe-lgoty-i-subsidii/"
+      ],
+      "verified": "2026-09-29",
+      "review_status": "verified"
     }
   ],
   "fields": {
