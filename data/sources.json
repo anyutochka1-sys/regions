@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "last_reviewed": "2026-09-29",
+  "sources": [
+    {
+      "id": "pravo",
+      "name": "Официальный интернет-портал правовой информации",
+      "type": "primary",
+      "url": "https://publication.pravo.gov.ru/",
+      "check": "daily"
+    },
+    {
+      "id": "sfr",
+      "name": "Социальный фонд России",
+      "type": "official_agency",
+      "url": "https://sfr.gov.ru/",
+      "check": "daily"
+    }
+  ]
+}
