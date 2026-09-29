@@ -8,7 +8,14 @@
       "level": "federal",
       "status": "active",
       "legal_basis": [
-        "Постановление Правительства РФ от 16.12.2022 № 2330"
+        {
+          "title": "Постановление Правительства РФ от 16.12.2022 № 2330",
+          "role": "Правила назначения и выплаты единого пособия"
+        },
+        {
+          "title": "Официальные разъяснения СФР на 2026 год",
+          "role": "Актуальные условия применения"
+        }
       ],
       "source_id": "sfr",
       "verified": "2026-09-29",
@@ -22,7 +29,34 @@
         "needs_property_test": true,
         "needs_employment_rule_check": true
       },
-      "notes": "Карточка должна отображаться как мера для проверки, а не как подтверждение права."
+      "notes": "Карточка должна отображаться как мера для проверки, а не как подтверждение права.",
+      "rules": [
+        {
+          "id": "age",
+          "effective_from": "2023-01-01",
+          "value": "ребёнок младше 17 лет либо беременность при постановке на учёт до 12 недель"
+        },
+        {
+          "id": "income_floor",
+          "effective_from": "2026-01-01",
+          "value": "минимальный доход трудоспособного члена семьи 8 МРОТ за расчётный период, если нет объективной причины"
+        },
+        {
+          "id": "alimony_imputation",
+          "effective_from": "2026-03-01",
+          "value": "для предусмотренных правилами случаев алименты рассчитываются с использованием среднемесячной номинальной зарплаты по региону"
+        },
+        {
+          "id": "care_zero_income",
+          "effective_from": "2026-07-21",
+          "value": "уход за нетрудоспособным учитывается как объективная причина при соблюдении обновлённых требований к родству"
+        }
+      ],
+      "official_urls": [
+        "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/edinoe_posobie/",
+        "https://sfr.gov.ru/files/id/press_center/pr/liflet/2026/4_Edinoe_posobie_na_detey_2026.pdf",
+        "https://sfr.gov.ru/files/id/press_center/pr/liflet/2026/12_Otsenka_nujdaemosti_pri_naznachenii_edinogo_posobiya_2026.pdf"
+      ]
     }
   ],
   "fields": {
