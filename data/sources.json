@@ -47,6 +47,20 @@
       "url": "https://pravo.samregion.ru/",
       "jurisdiction": "Самарская область",
       "check": "daily"
+    },
+    {
+      "id": "nso-social",
+      "name": "Министерство труда и социального развития Новосибирской области",
+      "url": "https://nszn.nso.ru",
+      "jurisdiction": "54",
+      "check": "daily"
+    },
+    {
+      "id": "nso-gov",
+      "name": "Правительство Новосибирской области",
+      "url": "https://www.nso.ru",
+      "jurisdiction": "54",
+      "check": "daily"
     }
   ]
 }
