@@ -57,6 +57,138 @@
         "https://sfr.gov.ru/files/id/press_center/pr/liflet/2026/4_Edinoe_posobie_na_detey_2026.pdf",
         "https://sfr.gov.ru/files/id/press_center/pr/liflet/2026/12_Otsenka_nujdaemosti_pri_naznachenii_edinogo_posobiya_2026.pdf"
       ]
+    },
+    {
+      "id": "birth-grant",
+      "title": "Единовременное пособие при рождении ребёнка",
+      "level": "federal",
+      "status": "active",
+      "jurisdiction": "RU",
+      "effective_from": "2026-02-01",
+      "effective_to": null,
+      "amount": {
+        "type": "fixed",
+        "value": 28450.45,
+        "currency": "RUB",
+        "note": "Без районного коэффициента"
+      },
+      "eligibility": {
+        "event": "birth",
+        "per_child": true
+      },
+      "legal_basis": [
+        {
+          "title": "Федеральный закон от 19.05.1995 № 81-ФЗ",
+          "role": "Государственные пособия гражданам, имеющим детей"
+        }
+      ],
+      "official_urls": [
+        "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/edinovremennoe_posobie_pri_rozhdenii_rebenka/"
+      ],
+      "verified": "2026-09-29",
+      "review_status": "verified"
+    },
+    {
+      "id": "care-1-5",
+      "title": "Ежемесячное пособие по уходу за ребёнком до 1,5 лет",
+      "level": "federal",
+      "status": "active",
+      "jurisdiction": "RU",
+      "effective_from": "2026-02-01",
+      "effective_to": null,
+      "amount": {
+        "type": "range",
+        "min": 10669.64,
+        "max": 83021.18,
+        "currency": "RUB",
+        "note": "Для работающих 40% среднего заработка в установленных пределах; условия для неработающих отличаются"
+      },
+      "eligibility": {
+        "child_max_months": 18
+      },
+      "legal_basis": [
+        {
+          "title": "Федеральный закон от 19.05.1995 № 81-ФЗ",
+          "role": "Государственные пособия гражданам, имеющим детей"
+        }
+      ],
+      "official_urls": [
+        "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/ezhemesyachnoe_posobie_po_uhodu_za_rebenkom/"
+      ],
+      "verified": "2026-09-29",
+      "review_status": "verified"
+    },
+    {
+      "id": "maternity-capital",
+      "title": "Материнский (семейный) капитал",
+      "level": "federal",
+      "status": "active",
+      "jurisdiction": "RU",
+      "effective_from": "2026-02-01",
+      "effective_to": null,
+      "amount": {
+        "type": "variants",
+        "variants": [
+          {
+            "value": 728921.9,
+            "note": "Основной размер в предусмотренных законом случаях"
+          },
+          {
+            "value": 234321.27,
+            "note": "Доплата при появлении второго ребёнка, если право на маткапитал возникло на первого"
+          },
+          {
+            "value": 963243.17,
+            "note": "Полный размер в предусмотренных законом случаях на второго/последующего ребёнка"
+          }
+        ],
+        "currency": "RUB"
+      },
+      "eligibility": {
+        "needs_history_check": true,
+        "citizenship_check": true
+      },
+      "legal_basis": [
+        {
+          "title": "Федеральный закон от 29.12.2006 № 256-ФЗ",
+          "role": "Дополнительные меры государственной поддержки семей, имеющих детей"
+        }
+      ],
+      "official_urls": [
+        "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/materinskij_kapital/",
+        "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/materinskij_kapital/razmer"
+      ],
+      "verified": "2026-09-29",
+      "review_status": "verified"
+    },
+    {
+      "id": "maternity-monthly",
+      "title": "Ежемесячная выплата из материнского капитала на ребёнка до 3 лет",
+      "level": "federal",
+      "status": "active",
+      "jurisdiction": "RU",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "amount": {
+        "type": "regional_child_living_minimum"
+      },
+      "eligibility": {
+        "child_max_years": 3,
+        "income_limit": "не более 2 прожиточных минимумов на душу населения в регионе",
+        "certificate_required": true,
+        "can_be_for_each_child_under_3": true
+      },
+      "legal_basis": [
+        {
+          "title": "Федеральный закон от 29.12.2006 № 256-ФЗ",
+          "role": "Распоряжение средствами материнского капитала"
+        }
+      ],
+      "official_urls": [
+        "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/materinskij_kapital/ezhemesyachnaya_vyplata"
+      ],
+      "verified": "2026-09-29",
+      "review_status": "verified"
     }
   ],
   "fields": {
