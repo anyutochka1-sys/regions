@@ -312,6 +312,79 @@
       ],
       "verified": "2026-09-29",
       "review_status": "verified"
+    },
+    {
+      "id": "disabled-child-care",
+      "title": "Ежемесячная выплата по уходу за ребёнком с инвалидностью",
+      "level": "federal",
+      "status": "active",
+      "jurisdiction": "RU",
+      "effective_from": "2026-02-01",
+      "effective_to": null,
+      "amount": {
+        "type": "fixed",
+        "value": 11563.2,
+        "currency": "RUB",
+        "note": "Увеличивается на районный коэффициент, если он применяется."
+      },
+      "eligibility": {
+        "disabled_child": true,
+        "child_max_years": 17,
+        "caregiver_conditions": true
+      },
+      "legal_basis": [
+        {
+          "title": "Указ Президента РФ от 26.02.2013 № 175",
+          "role": "Ежемесячные выплаты лицам, осуществляющим уход"
+        },
+        {
+          "title": "Указ Президента РФ от 29.12.2024 № 1125",
+          "role": "Изменения порядка выплаты"
+        }
+      ],
+      "official_urls": [
+        "https://sfr.gov.ru/grazhdanam/invalidam/vyplaty_i_lgoty/viplati_po_uhody-get_viplati_po_uhody/ev_month/"
+      ],
+      "verified": "2026-09-29",
+      "review_status": "verified"
+    },
+    {
+      "id": "foster-transfer",
+      "title": "Единовременное пособие при передаче ребёнка на воспитание в семью",
+      "level": "federal",
+      "status": "active",
+      "jurisdiction": "RU",
+      "effective_from": "2026-02-01",
+      "effective_to": null,
+      "amount": {
+        "type": "variants",
+        "variants": [
+          {
+            "value": 28450.45,
+            "note": "Общий размер"
+          },
+          {
+            "value": 217384.58,
+            "note": "При усыновлении ребёнка с инвалидностью, ребёнка старше 8 лет либо нескольких детей, являющихся братьями/сёстрами"
+          }
+        ],
+        "currency": "RUB",
+        "note": "В районах, где установлен районный коэффициент, сумма увеличивается."
+      },
+      "eligibility": {
+        "special_category": "adoption_guardianship_foster"
+      },
+      "legal_basis": [
+        {
+          "title": "Федеральный закон от 19.05.1995 № 81-ФЗ",
+          "role": "Государственные пособия гражданам, имеющим детей"
+        }
+      ],
+      "official_urls": [
+        "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/edinovremennoe_posobie_pri_peredache_rebenka_na_vospitanie_v_semyu/"
+      ],
+      "verified": "2026-09-29",
+      "review_status": "verified"
     }
   ],
   "fields": {
