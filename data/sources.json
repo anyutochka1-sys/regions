@@ -15,6 +15,38 @@
       "type": "official_agency",
       "url": "https://sfr.gov.ru/",
       "check": "daily"
+    },
+    {
+      "id": "krsk-law",
+      "name": "Красноярский край — официальный портал правовой информации",
+      "type": "regional_primary",
+      "url": "https://zakon.krskstate.ru/",
+      "jurisdiction": "Красноярский край",
+      "check": "daily"
+    },
+    {
+      "id": "krsk-gov",
+      "name": "Красноярский край — официальный портал",
+      "type": "regional_official",
+      "url": "https://www.krskstate.ru/",
+      "jurisdiction": "Красноярский край",
+      "check": "daily"
+    },
+    {
+      "id": "samara-gov",
+      "name": "Правительство Самарской области",
+      "type": "regional_official",
+      "url": "https://www.samregion.ru/",
+      "jurisdiction": "Самарская область",
+      "check": "daily"
+    },
+    {
+      "id": "samara-law",
+      "name": "Самарская область — официальное опубликование нормативных актов",
+      "type": "regional_primary",
+      "url": "https://pravo.samregion.ru/",
+      "jurisdiction": "Самарская область",
+      "check": "daily"
     }
   ]
 }
