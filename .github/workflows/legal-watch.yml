@@ -1,0 +1,48 @@
+name: Legal source watch
+on:
+  schedule:
+    - cron: "17 1 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check official source fingerprints
+        shell: bash
+        run: |
+          mkdir -p data/watch
+          python - <<'PY'
+          import hashlib,json,urllib.request,datetime,pathlib
+          sources=json.load(open("data/sources.json",encoding="utf-8"))["sources"]
+          out={}
+          for s in sources:
+              try:
+                  req=urllib.request.Request(s["url"],headers={"User-Agent":"regions-legal-watch/1.0"})
+                  body=urllib.request.urlopen(req,timeout=30).read()
+                  out[s["id"]]={"sha256":hashlib.sha256(body).hexdigest(),"checked":datetime.date.today().isoformat(),"ok":True}
+              except Exception as e:
+                  out[s["id"]]={"checked":datetime.date.today().isoformat(),"ok":False,"error":str(e)[:200]}
+          p=pathlib.Path("data/watch/current.json")
+          old=json.load(open(p,encoding="utf-8")) if p.exists() else {}
+          changed=[k for k,v in out.items() if k in old and old[k].get("sha256") and v.get("sha256")!=old[k].get("sha256")]
+          json.dump(out,open(p,"w",encoding="utf-8"),ensure_ascii=False,indent=2)
+          pathlib.Path("data/watch/changed.txt").write_text("\n".join(changed),encoding="utf-8")
+          PY
+      - name: Commit monitoring state
+        run: |
+          git config user.name "regions-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/watch
+          git diff --cached --quiet || (git commit -m "chore: update legal source watch" && git push)
+      - name: Create review issue when source changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -s data/watch/changed.txt ]; then
+            CHANGED=$(tr '\n' ', ' < data/watch/changed.txt)
+            gh issue create --title "Проверить изменения официальных источников" --body "Автопроверка обнаружила изменение источников: $CHANGED. Перед изменением карточек нужно сверить новый НПА/редакцию и дату вступления в силу."
+          fi
