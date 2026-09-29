@@ -6,6 +6,12 @@ const measures=[
 {type:"Региональная",region:"Самарская область",title:"Меры поддержки семей Самарской области",min:0,max:17,text:"Региональные выплаты и льготы зависят от категории семьи и конкретной меры. База будет наполняться только по официальным источникам.",extra:"Раздел готовится"}];
 const children=document.querySelector("#children"),ages=document.querySelector("#ages");
 function drawAges(){let n=Math.max(0,Math.min(15,+children.value||0));ages.innerHTML=n?'<h3>Возраст детей</h3><div class="age-grid">'+Array.from({length:n},(_,i)=>'<label>Ребёнок '+(i+1)+'<input class="age" type="number" min="0" max="30" step="0.1" placeholder="лет" required></label>').join("")+'</div>':""}children.addEventListener("input",drawAges);drawAges();
+const extra=document.querySelector("#extraQuestions");
+function drawExtra(){
+ const n=+children.value||0;
+ extra.innerHTML='<details><summary>Уточнить ситуацию семьи</summary><div class="grid2"><label>Возраст мамы<input id="motherAge" type="number" min="14" max="80" placeholder="Необязательно"></label><label>Дети родились одновременно?<select id="multipleBirth"><option value="">Не относится</option><option value="yes">Да</option><option value="no">Нет</option></select></label></div><label><input id="student1822" type="checkbox"> Есть ребёнок 18–22 лет, который учится очно</label></details>';
+}
+children.addEventListener("input",drawExtra);drawExtra();
 document.querySelector("#familyForm").addEventListener("submit",e=>{e.preventDefault();let region=document.querySelector("#region").value,member=+document.querySelector("#members").value,kids=+children.value,aa=[...document.querySelectorAll(".age")].map(x=>+x.value),preg=document.querySelector("#pregnant").checked,dis=document.querySelector("#disabledChild").checked;
 let relevant=measures.filter(m=>(!m.region||m.region===region)&&(aa.some(a=>a>=m.min&&a<=m.max)||(preg&&m.title==="Единое пособие")));
 document.querySelector("#summary").textContent=region+" • членов семьи: "+member+" • детей: "+kids+(preg?" • беременность":"")+(dis?" • есть ребёнок с инвалидностью":"")+". Ниже меры, которые стоит проверить по указанным данным.";
