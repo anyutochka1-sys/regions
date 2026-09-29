@@ -1,5 +1,5 @@
 {
-  "schema": 1,
+  "schema": 2,
   "notice": "Публикуются только меры, подтвержденные официальным источником или НПА.",
   "measures": [
     {
@@ -12,7 +12,27 @@
       ],
       "source_id": "sfr",
       "verified": "2026-09-29",
-      "review_status": "verified"
+      "review_status": "verified",
+      "jurisdiction": "RU",
+      "effective_from": "2023-01-01",
+      "effective_to": null,
+      "eligibility": {
+        "pregnancy_or_child_under_17": true,
+        "needs_income_test": true,
+        "needs_property_test": true,
+        "needs_employment_rule_check": true
+      },
+      "notes": "Карточка должна отображаться как мера для проверки, а не как подтверждение права."
     }
-  ]
+  ],
+  "fields": {
+    "effective_from": "Дата вступления правила в силу",
+    "effective_to": "Дата окончания, если есть",
+    "jurisdiction": "Территория действия",
+    "eligibility": "Машиночитаемые условия",
+    "legal_basis": "НПА и пункты",
+    "source_id": "Официальный источник",
+    "verified": "Дата ручной проверки",
+    "review_status": "verified | needs_review"
+  }
 }
