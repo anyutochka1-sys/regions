@@ -446,6 +446,38 @@
       ],
       "verified": "2026-09-29",
       "review_status": "verified"
+    },
+    {
+      "id": "samara-multichild-meals",
+      "title": "Бесплатное одноразовое питание детям из многодетных семей",
+      "level": "regional",
+      "status": "active",
+      "jurisdiction": "Самарская область",
+      "effective_from": "2024-01-01",
+      "effective_to": null,
+      "amount": {
+        "type": "benefit",
+        "note": "Бесплатное одноразовое питание в предусмотренных региональными актами образовательных организациях."
+      },
+      "eligibility": {
+        "special_category": "large_family",
+        "education": true
+      },
+      "legal_basis": [
+        {
+          "title": "Постановление Правительства Самарской области от 19.03.2024 № 170",
+          "role": "Обеспечение одноразовым питанием детей из многодетных семей"
+        },
+        {
+          "title": "Распоряжение министерства образования и науки Самарской области от 20.03.2024 № 337-р",
+          "role": "Перечень документов для предоставления бесплатного питания"
+        }
+      ],
+      "official_urls": [
+        "https://www.edutlt.samregion.ru/mery-socialnoy-podderjki"
+      ],
+      "verified": "2026-09-29",
+      "review_status": "verified"
     }
   ],
   "fields": {
