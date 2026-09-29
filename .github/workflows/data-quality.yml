@@ -1,0 +1,40 @@
+name: Data quality
+on:
+  push:
+    paths:
+      - "data/measures.json"
+  pull_request:
+    paths:
+      - "data/measures.json"
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Validate verified measures
+        run: |
+          python - <<'PY'
+          import json, sys, datetime
+          with open("data/measures.json", encoding="utf-8") as f:
+              data=json.load(f)
+          errors=[]
+          ids=set()
+          for m in data.get("measures",[]):
+              mid=m.get("id")
+              if not mid: errors.append("measure without id")
+              elif mid in ids: errors.append(f"duplicate id: {mid}")
+              ids.add(mid)
+              if m.get("review_status")=="verified":
+                  for key in ("title","level","jurisdiction","effective_from","legal_basis","official_urls"):
+                      if not m.get(key): errors.append(f"{mid}: missing {key}")
+                  for u in m.get("official_urls",[]):
+                      if not str(u).startswith("https://"): errors.append(f"{mid}: non-https official URL")
+          if errors:
+              print("\n".join(errors))
+              sys.exit(1)
+          print("Verified measures passed quality checks.")
+          PY
