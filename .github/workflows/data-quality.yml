@@ -44,7 +44,10 @@ jobs:
                       errors.append(f"{mid}: pregnancy_weeks_min set without pregnancy=true")
                   if m.get("effective_to") and m.get("effective_from") and m["effective_to"] < m["effective_from"]:
                       errors.append(f"{mid}: effective_to earlier than effective_from")
-                  approved=("sfr.gov.ru","publication.pravo.gov.ru","pravo.gov.ru","samregion.ru","krskstate.ru")
+                  with open("data/sources.json", encoding="utf-8") as sf:
+                      src=json.load(sf)
+                  from urllib.parse import urlparse
+                  approved=tuple(sorted({urlparse(s.get("url","")).hostname for s in src.get("sources",[]) if urlparse(s.get("url","")).hostname}))
                   for u in m.get("official_urls",[]):
                       if not str(u).startswith("https://"): errors.append(f"{mid}: non-https official URL")
                       if not any(host in str(u) for host in approved):
