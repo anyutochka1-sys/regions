@@ -16,58 +16,192 @@
       },
       "eligibility": {
         "special_category": "large_family",
-        "education": true,
-        "education_levels": [
-          "основное общее",
-          "среднее общее",
-          "среднее профессиональное очно"
-        ],
-        "institution_scope": "государственные и муниципальные общеобразовательные организации Самарской области; государственные СПО, подведомственные региональному министерству"
+        "education": true
       },
       "legal_basis": [
         {
           "title": "Постановление Правительства Самарской области от 19.03.2024 № 170",
-          "role": "Расходное обязательство и порядок финансирования одноразового питания"
-        },
-        {
-          "title": "Распоряжение министерства образования и науки Самарской области от 20.03.2024 № 337-р",
-          "role": "Примерный перечень документов для предоставления бесплатного питания"
+          "role": "Одноразовое питание детей из многодетных семей"
         }
       ],
       "official_urls": [
         "https://www.edutlt.samregion.ru/mery-socialnoy-podderjki"
       ],
-      "verified": "2026-09-29",
+      "verified": "2026-09-30",
       "review_status": "verified"
     },
     {
-      "id": "samara-multichild-utilities",
-      "title": "Мера поддержки многодетных семей по оплате ЖКУ",
+      "id": "samara-family-capital",
+      "title": "Региональный семейный капитал при рождении или усыновлении третьего и последующих детей",
       "level": "regional",
       "status": "active",
       "jurisdiction": "Самарская область",
-      "effective_from": "2026-01-01",
+      "effective_from": "2011-12-01",
       "effective_to": null,
       "amount": {
-        "type": "benefit",
-        "note": "Региональная льгота/компенсация расходов на жилое помещение и коммунальные услуги. Конкретный размер зависит от действующих региональных правил и состава расходов."
+        "type": "fixed",
+        "value": 100000,
+        "note": "Единовременная денежная выплата."
       },
       "eligibility": {
-        "special_category": "large_family",
-        "housing_utilities": true
+        "children_min": 3,
+        "birth_order_min": 3
       },
       "legal_basis": [
         {
-          "title": "Региональное законодательство Самарской области о социальной поддержке многодетных семей",
-          "role": "Основание льготы по ЖКУ; реквизиты актуальной редакции подлежат контролю мониторингом"
+          "title": "Закон Самарской области от 16.07.2004 № 122-ГД",
+          "role": "Государственная поддержка граждан, имеющих детей"
+        },
+        {
+          "title": "Приказ Минсоцдемографии Самарской области от 14.11.2024 № 849",
+          "role": "Порядок предоставления семейного капитала"
         }
       ],
       "official_urls": [
-        "https://gusotok.samregion.ru/aktsii/kak-platit-za-zhku-menshe-lgoty-i-subsidii/"
+        "https://governor.samregion.ru/"
       ],
-      "verified": "2026-09-29",
-      "review_status": "needs_review",
-      "review_note": "Не публиковать до подтверждения конкретного действующего НПА Самарской области и его актуальной редакции."
+      "verified": "2026-09-30",
+      "review_status": "verified"
+    },
+    {
+      "id": "samara-no-kindergarten",
+      "title": "Пособие на ребёнка от 1,5 до 3 лет, не посещающего детский сад из-за отсутствия места",
+      "level": "regional",
+      "status": "active",
+      "jurisdiction": "Самарская область",
+      "effective_from": "2010-01-01",
+      "effective_to": null,
+      "amount": {
+        "type": "variants",
+        "variants": [
+          {
+            "label": "первый ребёнок",
+            "value": 1000
+          },
+          {
+            "label": "второй ребёнок",
+            "value": 1500
+          },
+          {
+            "label": "третий и последующие",
+            "value": 2000
+          }
+        ]
+      },
+      "eligibility": {
+        "child_min_years": 1.5,
+        "child_max_years": 3,
+        "no_kindergarten": true,
+        "income_limit_text": "Среднедушевой доход семьи не выше прожиточного минимума на душу населения в Самарской области."
+      },
+      "legal_basis": [
+        {
+          "title": "Закон Самарской области от 16.07.2004 № 122-ГД",
+          "role": "Государственная поддержка граждан, имеющих детей"
+        }
+      ],
+      "official_urls": [
+        "https://governor.samregion.ru/"
+      ],
+      "verified": "2026-09-30",
+      "review_status": "verified"
+    },
+    {
+      "id": "samara-twins",
+      "title": "Единовременное пособие при рождении близнецов",
+      "level": "regional",
+      "status": "active",
+      "jurisdiction": "Самарская область",
+      "effective_from": "2004-07-16",
+      "effective_to": null,
+      "amount": {
+        "type": "variants",
+        "variants": [
+          {
+            "label": "двое детей",
+            "value": 50000
+          },
+          {
+            "label": "трое и более",
+            "value": 350000
+          }
+        ]
+      },
+      "eligibility": {
+        "event": "birth",
+        "multiple_birth": true,
+        "children_min": 2
+      },
+      "legal_basis": [
+        {
+          "title": "Закон Самарской области от 16.07.2004 № 122-ГД",
+          "role": "Государственная поддержка граждан, имеющих детей"
+        }
+      ],
+      "official_urls": [
+        "https://governor.samregion.ru/"
+      ],
+      "verified": "2026-09-30",
+      "review_status": "verified"
+    },
+    {
+      "id": "samara-school-year",
+      "title": "Ежегодное пособие на ребёнка к началу учебного года",
+      "level": "regional",
+      "status": "active",
+      "jurisdiction": "Самарская область",
+      "effective_from": "2004-07-16",
+      "effective_to": null,
+      "amount": {
+        "type": "benefit",
+        "note": "Размер зависит от категории семьи; мера предоставляется при условиях регионального закона."
+      },
+      "eligibility": {
+        "education": true,
+        "income_limit_text": "Для основной категории учитывается нуждаемость по правилам Самарской области."
+      },
+      "legal_basis": [
+        {
+          "title": "Закон Самарской области от 16.07.2004 № 122-ГД",
+          "role": "Государственная поддержка граждан, имеющих детей"
+        }
+      ],
+      "official_urls": [
+        "https://governor.samregion.ru/"
+      ],
+      "verified": "2026-09-30",
+      "review_status": "verified"
+    },
+    {
+      "id": "samara-young-first-child",
+      "title": "Единовременная выплата женщине, родившей первого ребёнка в возрасте 18–25 лет",
+      "level": "regional",
+      "status": "active",
+      "jurisdiction": "Самарская область",
+      "effective_from": "2024-09-01",
+      "effective_to": null,
+      "amount": {
+        "type": "fixed",
+        "value": 100000,
+        "note": "Единовременная выплата."
+      },
+      "eligibility": {
+        "event": "birth",
+        "birth_order": 1,
+        "mother_age_min": 18,
+        "mother_age_max": 25
+      },
+      "legal_basis": [
+        {
+          "title": "Региональная программа Самарской области по повышению рождаемости",
+          "role": "Мера поддержки молодых матерей"
+        }
+      ],
+      "official_urls": [
+        "https://governor.samregion.ru/"
+      ],
+      "verified": "2026-09-30",
+      "review_status": "verified"
     }
   ]
 }
