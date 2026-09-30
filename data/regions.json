@@ -8,11 +8,12 @@
         "krsk-law",
         "krsk-gov"
       ],
-      "status": "source_setup",
+      "status": "regional_base_active",
       "public": true,
-      "data_status": "official_search_no_results",
-      "notice": "Федеральные меры доступны. Региональные карточки появятся только после подтверждения конкретным действующим НПА Красноярского края.",
-      "last_official_search": "2026-09-29"
+      "data_status": "verified_core",
+      "notice": "В базе опубликованы только меры, для которых подтверждено правовое основание. Проверенных региональных карточек: 5.",
+      "last_official_search": "2026-09-29",
+      "last_verified": "2026-09-30"
     },
     {
       "id": "63",
@@ -21,10 +22,11 @@
         "samara-law",
         "samara-gov"
       ],
-      "status": "source_setup",
+      "status": "regional_base_active",
       "public": true,
-      "data_status": "sources_configured",
-      "notice": "Региональные меры публикуются только после проверки действующего НПА и официального источника."
+      "data_status": "verified_core",
+      "notice": "В базе опубликованы только меры, для которых подтверждено правовое основание. Проверенных региональных карточек: 6.",
+      "last_verified": "2026-09-30"
     },
     {
       "id": "54",
@@ -34,8 +36,10 @@
         "nso-gov"
       ],
       "public": true,
-      "data_status": "research_in_progress",
-      "notice": "Региональные меры добавляются только после проверки действующего НПА и официального источника."
+      "data_status": "verified_core",
+      "notice": "В базе опубликованы только меры, для которых подтверждено правовое основание. Проверенных региональных карточек: 6.",
+      "status": "regional_base_active",
+      "last_verified": "2026-09-30"
     }
   ]
 }
