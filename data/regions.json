@@ -11,10 +11,10 @@
       "status": "regional_base_active",
       "public": true,
       "data_status": "verified_core",
-      "notice": "Опубликованы 8 карточек с подтверждёнными основными условиями. Полная проверка региона продолжается; спорные карточки не показываются.",
+      "notice": "Опубликованы 3 карточки, прошедшие текущую проверку данных. Полная юридическая проверка региона продолжается; остальные карточки ожидают подтверждения.",
       "last_official_search": "2026-09-30",
       "last_verified": "2026-09-30",
-      "verified_measures_count": 8,
+      "verified_measures_count": 3,
       "review_status": "in_progress",
       "review_file": "data/reviews/24-krasnoyarsk.json"
     },
