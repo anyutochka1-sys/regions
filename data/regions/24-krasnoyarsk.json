@@ -16,8 +16,7 @@
         "note": "Размер на 2026 год."
       },
       "eligibility": {
-        "children_min": 3,
-        "special_category": "large_family"
+        "children_min": 3
       },
       "legal_basis": [
         {
@@ -26,10 +25,16 @@
         }
       ],
       "official_urls": [
-        "https://zakon.krskstate.ru/"
+        "https://epp.genproc.gov.ru/ru/proc_24/mass-media/news/main/e8480643/"
       ],
       "verified": "2026-09-30",
-      "review_status": "verified"
+      "review_status": "verified",
+      "verification_scope": "Подтверждены существование меры и указанные основные условия; полная проверка редакции НПА продолжается.",
+      "conditions": [
+        "Третий или последующий ребёнок родился либо усыновлён начиная с 1 июля 2011 года.",
+        "Капитал предоставляется однократно при соблюдении условий закона."
+      ],
+      "frequency": "once"
     },
     {
       "id": "krsk-matcap-first-young",
@@ -46,9 +51,8 @@
       },
       "eligibility": {
         "children_min": 1,
-        "mother_age_max": 23,
-        "event": "birth",
-        "birth_order": 1
+        "birth_order": 1,
+        "mother_age_at_birth_max": 23
       },
       "legal_basis": [
         {
@@ -57,10 +61,16 @@
         }
       ],
       "official_urls": [
-        "https://zakon.krskstate.ru/"
+        "https://t.me/s/krskstate?before=11657"
       ],
       "verified": "2026-09-30",
-      "review_status": "verified"
+      "review_status": "verified",
+      "verification_scope": "Подтверждены существование меры и указанные основные условия; полная проверка редакции НПА продолжается.",
+      "conditions": [
+        "Первый ребёнок родился начиная с 1 января 2025 года.",
+        "Маме на дату рождения ребёнка было не более 23 лет включительно. Нынешний возраст мамы не исключает право."
+      ],
+      "frequency": "once"
     },
     {
       "id": "krsk-school-multichild",
@@ -73,13 +83,13 @@
       "amount": {
         "type": "fixed",
         "value": 10620,
-        "note": "На ребёнка школьного возраста, с последующей индексацией."
+        "note": "Базовая сумма на 2026 год. Дополнительно применяется районный коэффициент."
       },
       "eligibility": {
         "special_category": "large_family",
         "child_min_years": 7,
-        "child_max_years": 17,
-        "education": true
+        "education": true,
+        "child_max_years_exclusive": 18
       },
       "legal_basis": [
         {
@@ -88,10 +98,15 @@
         }
       ],
       "official_urls": [
-        "https://zakon.krskstate.ru/"
+        "https://gnkk.ru/articles/vechnye-czennosti-rossii/"
       ],
       "verified": "2026-09-30",
-      "review_status": "verified"
+      "review_status": "verified",
+      "verification_scope": "Подтверждены существование меры и указанные основные условия; полная проверка редакции НПА продолжается.",
+      "conditions": [
+        "Выплата на ребёнка школьного возраста; необходимо обучение в школе."
+      ],
+      "frequency": "annual"
     },
     {
       "id": "krsk-utilities-multichild",
@@ -125,10 +140,15 @@
         }
       ],
       "official_urls": [
-        "https://zakon.krskstate.ru/"
+        "https://www.admkrsk.ru/citytoday/socialprotection/Pages/mnogodet.aspx?accessability=off"
       ],
       "verified": "2026-09-30",
-      "review_status": "verified"
+      "review_status": "verified",
+      "verification_scope": "Подтверждены существование меры и указанные основные условия; полная проверка редакции НПА продолжается.",
+      "conditions": [
+        "Компенсация рассчитывается с учётом установленных норм; процент не означает возврат этой доли любой суммы в квитанции."
+      ],
+      "frequency": "monthly"
     },
     {
       "id": "krsk-multiple-birth",
@@ -158,7 +178,74 @@
         "https://zakon.krskstate.ru/"
       ],
       "verified": "2026-09-30",
-      "review_status": "verified"
+      "review_status": "needs_review",
+      "verification_scope": "Подтверждены существование меры и указанные основные условия; полная проверка редакции НПА продолжается.",
+      "amount_review_status": "conflicting_sources",
+      "review_note": "Официальная публикация указывает 74 506 ₽, региональная программа — 74 507 ₽. Нужны действующий порядок расчёта и срок обращения; до разрешения расхождения карточка скрыта."
+    },
+    {
+      "level": "regional",
+      "status": "active",
+      "jurisdiction": "Красноярский край",
+      "verified": "2026-09-30",
+      "review_status": "verified",
+      "verification_scope": "Подтверждены основные условия по официальному разъяснению. Полная проверка НПА продолжается.",
+      "id": "krsk-land-certificate",
+      "title": "Земельный сертификат взамен бесплатного участка для многодетной семьи",
+      "amount": {
+        "type": "fixed",
+        "value": 216609,
+        "note": "Целевая выплата взамен участка, с согласия семьи."
+      },
+      "eligibility": {
+        "special_category": "large_family"
+      },
+      "conditions": [
+        "Нужно состоять в очереди на участок для индивидуального жилищного строительства.",
+        "Не менее 3 лет в очереди для нуждающихся в жилье либо не менее 10 лет для остальных.",
+        "Получение сертификата заменяет предоставление участка."
+      ],
+      "frequency": "once",
+      "application": "Заявление в управление социальной защиты населения по месту жительства.",
+      "legal_basis": [
+        {
+          "title": "Постановление Правительства Красноярского края от 27.12.2022 № 1179-п"
+        }
+      ],
+      "official_urls": [
+        "https://www.admkrsk.ru/citytoday/property/Pages/Lgots.aspx"
+      ]
+    },
+    {
+      "level": "regional",
+      "status": "active",
+      "jurisdiction": "Красноярский край",
+      "verified": "2026-09-30",
+      "review_status": "verified",
+      "verification_scope": "Подтверждены основные условия по официальному разъяснению. Полная проверка НПА продолжается.",
+      "id": "krsk-kindergarten-fee",
+      "title": "Компенсация части родительской платы за детский сад",
+      "amount": {
+        "type": "formula",
+        "note": "Часть родительской платы компенсируется по правилам края. Размер зависит от очерёдности ребёнка и расчётной платы."
+      },
+      "eligibility": {
+        "children_min": 1,
+        "income_limit_text": "Среднедушевой доход семьи — не более 1,5 прожиточного минимума для соответствующей территории края."
+      },
+      "conditions": [
+        "Ребёнок посещает детский сад, родитель вносит плату за присмотр и уход.",
+        "Сначала оплачивается детский сад, затем назначается компенсация."
+      ],
+      "application": "Подать заявление и документы в детский сад, который посещает ребёнок.",
+      "legal_basis": [
+        {
+          "title": "Закон Красноярского края от 26.06.2014 № 6-2519, статья 15"
+        }
+      ],
+      "official_urls": [
+        "https://krasobr.admkrsk.ru/?page_id=975"
+      ]
     }
   ]
 }
