@@ -103,7 +103,7 @@
         "https://gnkk.ru/articles/vechnye-czennosti-rossii/"
       ],
       "verified": "2026-09-30",
-      "review_status": "verified",
+      "review_status": "needs_review",
       "verification_scope": "Подтверждены существование меры и указанные основные условия; полная проверка редакции НПА продолжается.",
       "conditions": [
         "Многодетная семья либо семья, в которой оба родителя имеют инвалидность, либо неполная семья с родителем с инвалидностью.",
@@ -114,7 +114,7 @@
         "https://base.garant.ru/18610483/31de5683116b8d79b08fa2d768e33df6/",
         "https://base.garant.ru/73406947/f7ee959fd36b5699076b35abf4f52c5c/"
       ],
-      "review_note": "Проверены категории и формы обучения по тексту нормы в поисковом индексе; полный текст актуальной редакции ещё недоступен."
+      "review_note": "Основные сведения найдены; дата вступления применимой редакции и полный набор условий требуют подтверждения."
     },
     {
       "id": "krsk-utilities-multichild",
@@ -196,7 +196,7 @@
       "status": "active",
       "jurisdiction": "Красноярский край",
       "verified": "2026-09-30",
-      "review_status": "verified",
+      "review_status": "needs_review",
       "verification_scope": "Подтверждены основные условия по официальному разъяснению. Полная проверка НПА продолжается.",
       "id": "krsk-land-certificate",
       "title": "Земельный сертификат взамен бесплатного участка для многодетной семьи",
@@ -222,14 +222,15 @@
       ],
       "official_urls": [
         "https://www.admkrsk.ru/citytoday/property/Pages/Lgots.aspx"
-      ]
+      ],
+      "review_note": "Основные сведения найдены; дата вступления применимой редакции и полный набор условий требуют подтверждения."
     },
     {
       "level": "regional",
       "status": "active",
       "jurisdiction": "Красноярский край",
       "verified": "2026-09-30",
-      "review_status": "verified",
+      "review_status": "needs_review",
       "verification_scope": "Подтверждены основные условия по официальному разъяснению. Полная проверка НПА продолжается.",
       "id": "krsk-kindergarten-fee",
       "title": "Компенсация части родительской платы за детский сад",
@@ -253,14 +254,15 @@
       ],
       "official_urls": [
         "https://krasobr.admkrsk.ru/?page_id=975"
-      ]
+      ],
+      "review_note": "Основные сведения найдены; дата вступления применимой редакции и полный набор условий требуют подтверждения."
     },
     {
       "level": "regional",
       "status": "active",
       "jurisdiction": "Красноярский край",
       "verified": "2026-09-30",
-      "review_status": "verified",
+      "review_status": "needs_review",
       "verification_scope": "Подтверждены основные условия по НПА и информации государственного колледжа. Полная проверка региона продолжается.",
       "eligibility": {
         "special_category": "orphan_student"
@@ -290,14 +292,15 @@
       ],
       "source_urls": [
         "https://krasnoyarsk-pravo.ru/postanovlenie/2026/07/28/n-583-p/"
-      ]
+      ],
+      "review_note": "Основные сведения найдены; дата вступления применимой редакции и полный набор условий требуют подтверждения."
     },
     {
       "level": "regional",
       "status": "active",
       "jurisdiction": "Красноярский край",
       "verified": "2026-09-30",
-      "review_status": "verified",
+      "review_status": "needs_review",
       "verification_scope": "Подтверждены основные условия по НПА и информации государственного колледжа. Полная проверка региона продолжается.",
       "eligibility": {
         "special_category": "orphan_student"
@@ -324,7 +327,8 @@
         {
           "title": "Постановление Правительства края от 17.09.2019 № 480-п"
         }
-      ]
+      ],
+      "review_note": "Основные сведения найдены; дата вступления применимой редакции и полный набор условий требуют подтверждения."
     }
   ]
 }
