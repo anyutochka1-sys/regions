@@ -1,0 +1,472 @@
+{
+  "measures": [
+    {
+      "id": "unified",
+      "title": "Единое пособие",
+      "level": "federal",
+      "status": "active",
+      "legal_basis": [
+        {
+          "title": "Постановление Правительства РФ от 16.12.2022 № 2330",
+          "role": "Правила назначения и выплаты единого пособия"
+        },
+        {
+          "title": "Официальные разъяснения СФР на 2026 год",
+          "role": "Актуальные условия применения"
+        }
+      ],
+      "source_id": "sfr",
+      "verified": "2026-09-29",
+      "review_status": "verified",
+      "jurisdiction": "RU",
+      "effective_from": "2023-01-01",
+      "effective_to": null,
+      "eligibility": {
+        "pregnancy_or_child_under_17": true,
+        "needs_income_test": true,
+        "needs_property_test": true,
+        "needs_employment_rule_check": true,
+        "income_limit_text": "Среднедушевой доход семьи — не выше 1 прожиточного минимума на душу населения в регионе.",
+        "employment_rule_text": "Для трудоспособных членов семьи действует минимальный доход за расчётный период (правило 8 МРОТ) либо должна быть объективная причина отсутствия/недостатка дохода.",
+        "property_rule_text": "Имущество семьи должно укладываться в установленные ограничения."
+      },
+      "notes": "Карточка должна отображаться как мера для проверки, а не как подтверждение права.",
+      "rules": [
+        {
+          "id": "age",
+          "effective_from": "2023-01-01",
+          "value": "ребёнок младше 17 лет либо беременность при постановке на учёт до 12 недель"
+        },
+        {
+          "id": "income_floor",
+          "effective_from": "2026-01-01",
+          "value": "минимальный доход трудоспособного члена семьи 8 МРОТ за расчётный период, если нет объективной причины"
+        },
+        {
+          "id": "alimony_imputation",
+          "effective_from": "2026-03-01",
+          "value": "для предусмотренных правилами случаев алименты рассчитываются с использованием среднемесячной номинальной зарплаты по региону"
+        },
+        {
+          "id": "care_zero_income",
+          "effective_from": "2026-07-21",
+          "value": "уход за нетрудоспособным учитывается как объективная причина при соблюдении обновлённых требований к родству"
+        }
+      ],
+      "official_urls": [
+        "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/edinoe_posobie/",
+        "https://sfr.gov.ru/files/id/press_center/pr/liflet/2026/4_Edinoe_posobie_na_detey_2026.pdf",
+        "https://sfr.gov.ru/files/id/press_center/pr/liflet/2026/12_Otsenka_nujdaemosti_pri_naznachenii_edinogo_posobiya_2026.pdf"
+      ],
+      "amount": {
+        "type": "variants",
+        "variants": [
+          {
+            "label": "Базовый размер",
+            "amount": "50% регионального прожиточного минимума для соответствующей категории"
+          },
+          {
+            "label": "Повышенный размер",
+            "amount": "75% регионального прожиточного минимума, если после 50% среднедушевой доход остаётся ниже ПМ"
+          },
+          {
+            "label": "Максимальный размер",
+            "amount": "100% регионального прожиточного минимума, если после 75% среднедушевой доход остаётся ниже ПМ"
+          }
+        ],
+        "note": "Для ребёнка используется ПМ на ребёнка; для беременной женщины — ПМ трудоспособного населения."
+      },
+      "frequency": "monthly",
+      "application": "Заявление: Госуслуги, клиентская служба СФР или МФЦ (в предусмотренных случаях)."
+    },
+    {
+      "id": "birth-grant",
+      "title": "Единовременное пособие при рождении ребёнка",
+      "level": "federal",
+      "status": "active",
+      "jurisdiction": "RU",
+      "effective_from": "2026-02-01",
+      "effective_to": null,
+      "amount": {
+        "type": "fixed",
+        "value": 28450.45,
+        "currency": "RUB",
+        "note": "Без районного коэффициента"
+      },
+      "eligibility": {
+        "event": "birth",
+        "per_child": true
+      },
+      "legal_basis": [
+        {
+          "title": "Федеральный закон от 19.05.1995 № 81-ФЗ",
+          "role": "Государственные пособия гражданам, имеющим детей"
+        }
+      ],
+      "official_urls": [
+        "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/edinovremennoe_posobie_pri_rozhdenii_rebenka/"
+      ],
+      "verified": "2026-09-29",
+      "review_status": "verified"
+    },
+    {
+      "id": "care-1-5",
+      "title": "Ежемесячное пособие по уходу за ребёнком до 1,5 лет",
+      "level": "federal",
+      "status": "active",
+      "jurisdiction": "RU",
+      "effective_from": "2026-02-01",
+      "effective_to": null,
+      "amount": {
+        "type": "range",
+        "min": 10669.64,
+        "max": 83021.18,
+        "currency": "RUB",
+        "note": "Для работающих 40% среднего заработка в установленных пределах; условия для неработающих отличаются"
+      },
+      "eligibility": {
+        "child_max_months": 18
+      },
+      "legal_basis": [
+        {
+          "title": "Федеральный закон от 19.05.1995 № 81-ФЗ",
+          "role": "Государственные пособия гражданам, имеющим детей"
+        }
+      ],
+      "official_urls": [
+        "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/ezhemesyachnoe_posobie_po_uhodu_za_rebenkom/"
+      ],
+      "verified": "2026-09-29",
+      "review_status": "verified"
+    },
+    {
+      "id": "maternity-capital",
+      "title": "Материнский (семейный) капитал",
+      "level": "federal",
+      "status": "active",
+      "jurisdiction": "RU",
+      "effective_from": "2026-02-01",
+      "effective_to": null,
+      "amount": {
+        "type": "variants",
+        "variants": [
+          {
+            "value": 728921.9,
+            "note": "Основной размер в предусмотренных законом случаях"
+          },
+          {
+            "value": 234321.27,
+            "note": "Доплата при появлении второго ребёнка, если право на маткапитал возникло на первого"
+          },
+          {
+            "value": 963243.17,
+            "note": "Полный размер в предусмотренных законом случаях на второго/последующего ребёнка"
+          }
+        ],
+        "currency": "RUB"
+      },
+      "eligibility": {
+        "needs_history_check": true,
+        "citizenship_check": true
+      },
+      "legal_basis": [
+        {
+          "title": "Федеральный закон от 29.12.2006 № 256-ФЗ",
+          "role": "Дополнительные меры государственной поддержки семей, имеющих детей"
+        }
+      ],
+      "official_urls": [
+        "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/materinskij_kapital/",
+        "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/materinskij_kapital/razmer"
+      ],
+      "verified": "2026-09-29",
+      "review_status": "verified"
+    },
+    {
+      "id": "maternity-monthly",
+      "title": "Ежемесячная выплата из материнского капитала на ребёнка до 3 лет",
+      "level": "federal",
+      "status": "active",
+      "jurisdiction": "RU",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "amount": {
+        "type": "regional_child_living_minimum"
+      },
+      "eligibility": {
+        "child_max_years": 3,
+        "income_limit": "не более 2 прожиточных минимумов на душу населения в регионе",
+        "certificate_required": true,
+        "can_be_for_each_child_under_3": true
+      },
+      "legal_basis": [
+        {
+          "title": "Федеральный закон от 29.12.2006 № 256-ФЗ",
+          "role": "Распоряжение средствами материнского капитала"
+        }
+      ],
+      "official_urls": [
+        "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/materinskij_kapital/ezhemesyachnaya_vyplata"
+      ],
+      "verified": "2026-09-29",
+      "review_status": "verified"
+    },
+    {
+      "id": "annual-family-payment",
+      "title": "Ежегодная семейная выплата работающим родителям",
+      "level": "federal",
+      "status": "active",
+      "jurisdiction": "RU",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "amount": {
+        "type": "formula",
+        "note": "Разница между расчётным НДФЛ за предыдущий год и налогом, рассчитанным с того же дохода по ставке 6%."
+      },
+      "eligibility": {
+        "children_min": 2,
+        "parent_working": true,
+        "income_limit": "среднедушевой доход ниже 1,5 регионального прожиточного минимума",
+        "application_window": "1 июня – 1 октября"
+      },
+      "legal_basis": [
+        {
+          "title": "Федеральный закон от 13.07.2024 № 179-ФЗ",
+          "role": "Ежегодная семейная выплата гражданам РФ, имеющим двух и более детей"
+        }
+      ],
+      "official_urls": [
+        "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/ezhegodnaya_semejnaya_vyplata"
+      ],
+      "verified": "2026-09-29",
+      "review_status": "verified"
+    },
+    {
+      "id": "bir",
+      "title": "Пособие по беременности и родам",
+      "level": "federal",
+      "status": "active",
+      "jurisdiction": "RU",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "amount": {
+        "type": "calculated",
+        "note": "Размер зависит от статуса получателя, заработка, продолжительности отпуска и установленных пределов."
+      },
+      "eligibility": {
+        "pregnancy": true,
+        "needs_status_check": true
+      },
+      "legal_basis": [
+        {
+          "title": "Федеральный закон от 19.05.1995 № 81-ФЗ",
+          "role": "Государственные пособия гражданам, имеющим детей"
+        },
+        {
+          "title": "Федеральный закон от 29.12.2006 № 255-ФЗ",
+          "role": "Обязательное социальное страхование"
+        }
+      ],
+      "official_urls": [
+        "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/posobie_po_beremennosti_i_rodam/"
+      ],
+      "verified": "2026-09-29",
+      "review_status": "verified"
+    },
+    {
+      "id": "pregnant-wife-serviceman",
+      "title": "Единовременное пособие беременной жене военнослужащего по призыву",
+      "level": "federal",
+      "status": "active",
+      "jurisdiction": "RU",
+      "effective_from": "2026-02-01",
+      "effective_to": null,
+      "amount": {
+        "type": "fixed",
+        "value": 45054.23,
+        "currency": "RUB",
+        "note": "До применения районного коэффициента, если он предусмотрен."
+      },
+      "eligibility": {
+        "pregnancy": true,
+        "special_category": "wife_of_conscript",
+        "pregnancy_weeks_min": 25.714285714285715
+      },
+      "legal_basis": [
+        {
+          "title": "Федеральный закон от 19.05.1995 № 81-ФЗ",
+          "role": "Государственные пособия гражданам, имеющим детей"
+        }
+      ],
+      "official_urls": [
+        "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/edinovremennoe_posobie_beremennoi_zhene_voennosluzhashego/"
+      ],
+      "verified": "2026-09-29",
+      "review_status": "verified"
+    },
+    {
+      "id": "serviceman-child",
+      "title": "Ежемесячное пособие на ребёнка военнослужащего по призыву",
+      "level": "federal",
+      "status": "active",
+      "jurisdiction": "RU",
+      "effective_from": "2026-02-01",
+      "effective_to": null,
+      "amount": {
+        "type": "fixed",
+        "value": 19308.96,
+        "currency": "RUB",
+        "note": "До применения районного коэффициента, если он предусмотрен."
+      },
+      "eligibility": {
+        "child_max_years": 3,
+        "special_category": "child_of_conscript"
+      },
+      "legal_basis": [
+        {
+          "title": "Федеральный закон от 19.05.1995 № 81-ФЗ",
+          "role": "Государственные пособия гражданам, имеющим детей"
+        }
+      ],
+      "official_urls": [
+        "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/ezhemesyachnoe_posobie_na_rebenka_voennosluzhashego/"
+      ],
+      "verified": "2026-09-29",
+      "review_status": "verified"
+    },
+    {
+      "id": "disabled-child-care",
+      "title": "Ежемесячная выплата по уходу за ребёнком с инвалидностью",
+      "level": "federal",
+      "status": "active",
+      "jurisdiction": "RU",
+      "effective_from": "2026-02-01",
+      "effective_to": null,
+      "amount": {
+        "type": "fixed",
+        "value": 11563.2,
+        "currency": "RUB",
+        "note": "Увеличивается на районный коэффициент, если он применяется."
+      },
+      "eligibility": {
+        "disabled_child": true,
+        "child_max_years": 17,
+        "caregiver_conditions": true
+      },
+      "legal_basis": [
+        {
+          "title": "Указ Президента РФ от 26.02.2013 № 175",
+          "role": "Ежемесячные выплаты лицам, осуществляющим уход"
+        },
+        {
+          "title": "Указ Президента РФ от 29.12.2024 № 1125",
+          "role": "Изменения порядка выплаты"
+        }
+      ],
+      "official_urls": [
+        "https://sfr.gov.ru/grazhdanam/invalidam/vyplaty_i_lgoty/viplati_po_uhody-get_viplati_po_uhody/ev_month/"
+      ],
+      "verified": "2026-09-29",
+      "review_status": "verified"
+    },
+    {
+      "id": "foster-transfer",
+      "title": "Единовременное пособие при передаче ребёнка на воспитание в семью",
+      "level": "federal",
+      "status": "active",
+      "jurisdiction": "RU",
+      "effective_from": "2026-02-01",
+      "effective_to": null,
+      "amount": {
+        "type": "variants",
+        "variants": [
+          {
+            "value": 28450.45,
+            "note": "Общий размер"
+          },
+          {
+            "value": 217384.58,
+            "note": "При усыновлении ребёнка с инвалидностью, ребёнка старше 8 лет либо нескольких детей, являющихся братьями/сёстрами"
+          }
+        ],
+        "currency": "RUB",
+        "note": "В районах, где установлен районный коэффициент, сумма увеличивается."
+      },
+      "eligibility": {
+        "special_category": "adoption_guardianship_foster"
+      },
+      "legal_basis": [
+        {
+          "title": "Федеральный закон от 19.05.1995 № 81-ФЗ",
+          "role": "Государственные пособия гражданам, имеющим детей"
+        }
+      ],
+      "official_urls": [
+        "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/edinovremennoe_posobie_pri_peredache_rebenka_na_vospitanie_v_semyu/"
+      ],
+      "verified": "2026-09-29",
+      "review_status": "verified"
+    },
+    {
+      "id": "mother-heroine-edv",
+      "title": "Ежемесячная денежная выплата женщине со званием «Мать-героиня»",
+      "level": "federal",
+      "status": "active",
+      "jurisdiction": "RU",
+      "effective_from": "2026-02-01",
+      "effective_to": null,
+      "amount": {
+        "type": "fixed",
+        "value": 76458.4,
+        "currency": "RUB",
+        "note": "Размер после индексации с 1 февраля 2026 года."
+      },
+      "eligibility": {
+        "special_category": "mother_heroine"
+      },
+      "legal_basis": [
+        {
+          "title": "Федеральный закон от 28.11.2025 № 435-ФЗ",
+          "role": "Право на ежемесячную денежную выплату"
+        },
+        {
+          "title": "Указ Президента РФ от 15.08.2022 № 558",
+          "role": "Звание «Мать-героиня»"
+        }
+      ],
+      "official_urls": [
+        "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/"
+      ],
+      "verified": "2026-09-29",
+      "review_status": "verified"
+    },
+    {
+      "id": "disabled-child-days",
+      "title": "Дополнительные оплачиваемые выходные для ухода за ребёнком с инвалидностью",
+      "level": "federal",
+      "status": "active",
+      "jurisdiction": "RU",
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "amount": {
+        "type": "benefit",
+        "note": "До 4 дополнительных оплачиваемых выходных дней в месяц; предусмотрена возможность накопления дней по установленным правилам."
+      },
+      "eligibility": {
+        "disabled_child": true,
+        "parent_employed": true
+      },
+      "legal_basis": [
+        {
+          "title": "Трудовой кодекс РФ, статья 262",
+          "role": "Дополнительные выходные дни лицам, осуществляющим уход за детьми с инвалидностью"
+        }
+      ],
+      "official_urls": [
+        "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/dop_vihodnie_po_uhody_za_detmi_invalidami/"
+      ],
+      "verified": "2026-09-29",
+      "review_status": "verified"
+    }
+  ]
+}
