@@ -52,14 +52,30 @@
       "id": "nso-social",
       "name": "Министерство труда и социального развития Новосибирской области",
       "url": "https://nszn.nso.ru",
-      "jurisdiction": "54",
+      "jurisdiction": "Новосибирская область",
       "check": "daily"
     },
     {
       "id": "nso-gov",
       "name": "Правительство Новосибирской области",
       "url": "https://www.nso.ru",
-      "jurisdiction": "54",
+      "jurisdiction": "Новосибирская область",
+      "check": "daily"
+    },
+    {
+      "id": "samara-governor",
+      "name": "Портал Губернатора Самарской области",
+      "type": "regional_official",
+      "url": "https://governor.samregion.ru/",
+      "jurisdiction": "Самарская область",
+      "check": "daily"
+    },
+    {
+      "id": "samara-edu",
+      "name": "Официальный образовательный портал Самарской области",
+      "type": "regional_official",
+      "url": "https://www.edutlt.samregion.ru/",
+      "jurisdiction": "Самарская область",
       "check": "daily"
     }
   ]
