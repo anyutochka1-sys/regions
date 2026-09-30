@@ -1,5 +1,164 @@
 {
   "region_id": "24",
   "region": "Красноярский край",
-  "measures": []
+  "measures": [
+    {
+      "id": "krsk-matcap-3plus",
+      "title": "Краевой материнский (семейный) капитал на третьего и последующих детей",
+      "level": "regional",
+      "status": "active",
+      "jurisdiction": "Красноярский край",
+      "effective_from": "2011-07-01",
+      "effective_to": null,
+      "amount": {
+        "type": "fixed",
+        "value": 196470,
+        "note": "Размер на 2026 год."
+      },
+      "eligibility": {
+        "children_min": 3,
+        "special_category": "large_family"
+      },
+      "legal_basis": [
+        {
+          "title": "Закон Красноярского края от 09.06.2011 № 12-5937",
+          "role": "Краевой материнский (семейный) капитал"
+        }
+      ],
+      "official_urls": [
+        "https://zakon.krskstate.ru/"
+      ],
+      "verified": "2026-09-30",
+      "review_status": "verified"
+    },
+    {
+      "id": "krsk-matcap-first-young",
+      "title": "Краевой материнский капитал на первого ребёнка для молодой мамы",
+      "level": "regional",
+      "status": "active",
+      "jurisdiction": "Красноярский край",
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "amount": {
+        "type": "fixed",
+        "value": 106200,
+        "note": "Размер, указанный в региональной программе на 2026 год."
+      },
+      "eligibility": {
+        "children_min": 1,
+        "mother_age_max": 23,
+        "event": "birth",
+        "birth_order": 1
+      },
+      "legal_basis": [
+        {
+          "title": "Закон Красноярского края от 09.06.2011 № 12-5937",
+          "role": "Дополнительные меры поддержки семей с детьми"
+        }
+      ],
+      "official_urls": [
+        "https://zakon.krskstate.ru/"
+      ],
+      "verified": "2026-09-30",
+      "review_status": "verified"
+    },
+    {
+      "id": "krsk-school-multichild",
+      "title": "Ежегодная выплата на подготовку к школе детям из многодетной семьи",
+      "level": "regional",
+      "status": "active",
+      "jurisdiction": "Красноярский край",
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "amount": {
+        "type": "fixed",
+        "value": 10620,
+        "note": "На ребёнка школьного возраста, с последующей индексацией."
+      },
+      "eligibility": {
+        "special_category": "large_family",
+        "child_min_years": 7,
+        "child_max_years": 17,
+        "education": true
+      },
+      "legal_basis": [
+        {
+          "title": "Закон Красноярского края от 09.12.2010 № 11-5393",
+          "role": "Социальная поддержка семей, имеющих детей"
+        }
+      ],
+      "official_urls": [
+        "https://zakon.krskstate.ru/"
+      ],
+      "verified": "2026-09-30",
+      "review_status": "verified"
+    },
+    {
+      "id": "krsk-utilities-multichild",
+      "title": "Компенсация оплаты жилья и коммунальных услуг многодетным семьям",
+      "level": "regional",
+      "status": "active",
+      "jurisdiction": "Красноярский край",
+      "effective_from": "2005-01-01",
+      "effective_to": null,
+      "amount": {
+        "type": "variants",
+        "variants": [
+          {
+            "label": "3–4 ребёнка",
+            "amount": "30% расходов"
+          },
+          {
+            "label": "5 и более детей",
+            "amount": "50% расходов"
+          }
+        ]
+      },
+      "eligibility": {
+        "special_category": "large_family",
+        "children_min": 3
+      },
+      "legal_basis": [
+        {
+          "title": "Закон Красноярского края от 17.12.2004 № 13-2804",
+          "role": "Социальная поддержка при оплате жилья и коммунальных услуг"
+        }
+      ],
+      "official_urls": [
+        "https://zakon.krskstate.ru/"
+      ],
+      "verified": "2026-09-30",
+      "review_status": "verified"
+    },
+    {
+      "id": "krsk-multiple-birth",
+      "title": "Единовременное пособие при одновременном рождении двух и более детей",
+      "level": "regional",
+      "status": "active",
+      "jurisdiction": "Красноярский край",
+      "effective_from": "2011-01-01",
+      "effective_to": null,
+      "amount": {
+        "type": "fixed",
+        "value": 74507,
+        "note": "На каждого ребёнка в 2026 году; применяется районный коэффициент."
+      },
+      "eligibility": {
+        "event": "birth",
+        "multiple_birth": true,
+        "children_min": 2
+      },
+      "legal_basis": [
+        {
+          "title": "Закон Красноярского края от 09.12.2010 № 11-5393",
+          "role": "Социальная поддержка семей, имеющих детей"
+        }
+      ],
+      "official_urls": [
+        "https://zakon.krskstate.ru/"
+      ],
+      "verified": "2026-09-30",
+      "review_status": "verified"
+    }
+  ]
 }
