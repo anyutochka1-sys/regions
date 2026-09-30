@@ -2,10 +2,12 @@ name: Data quality
 on:
   push:
     paths:
-      - "data/measures.json"
+      - "data/federal.json"
+      - "data/regions/*.json"
   pull_request:
     paths:
-      - "data/measures.json"
+      - "data/federal.json"
+      - "data/regions/*.json"
   workflow_dispatch:
 jobs:
   validate:
@@ -18,12 +20,15 @@ jobs:
       - name: Validate verified measures
         run: |
           python - <<'PY'
-          import json, sys, datetime
-          with open("data/measures.json", encoding="utf-8") as f:
-              data=json.load(f)
+          import json, sys, datetime, glob
+          files=["data/federal.json"]+sorted(glob.glob("data/regions/*.json"))
           errors=[]
           ids=set()
-          for m in data.get("measures",[]):
+          measures=[]
+          for path in files:
+              with open(path, encoding="utf-8") as f:
+                  measures.extend(json.load(f).get("measures",[]))
+          for m in measures:
               mid=m.get("id")
               if not mid: errors.append("measure without id")
               elif mid in ids: errors.append(f"duplicate id: {mid}")
@@ -62,5 +67,5 @@ jobs:
           if errors:
               print("\n".join(errors))
               sys.exit(1)
-          print("Verified measures passed quality checks.")
+          print(f"Verified measures passed quality checks across {len(files)} data files.")
           PY
