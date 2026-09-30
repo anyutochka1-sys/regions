@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "last_reviewed": "2026-09-29",
+  "last_reviewed": "2026-09-30",
   "sources": [
     {
       "id": "pravo",
@@ -77,6 +77,54 @@
       "url": "https://www.edutlt.samregion.ru/",
       "jurisdiction": "Самарская область",
       "check": "daily"
+    },
+    {
+      "id": "krsk-prosecutor",
+      "name": "Прокуратура Красноярского края",
+      "url": "https://epp.genproc.gov.ru/ru/proc_24/",
+      "type": "official_agency",
+      "jurisdiction": "Красноярский край",
+      "check": "weekly"
+    },
+    {
+      "id": "krsk-gov-channel",
+      "name": "Официальный канал Правительства Красноярского края",
+      "url": "https://t.me/krskstate",
+      "type": "regional_official_channel",
+      "jurisdiction": "Красноярский край",
+      "check": "weekly"
+    },
+    {
+      "id": "krsk-gazette",
+      "name": "Официальная краевая газета «Наш Красноярский край»",
+      "url": "https://gnkk.ru/",
+      "type": "regional_official_media",
+      "jurisdiction": "Красноярский край",
+      "check": "weekly"
+    },
+    {
+      "id": "krsk-city",
+      "name": "Администрация Красноярска",
+      "url": "https://www.admkrsk.ru/",
+      "type": "municipal_official",
+      "jurisdiction": "Красноярский край",
+      "check": "weekly"
+    },
+    {
+      "id": "krsk-city-edu",
+      "name": "Главное управление образования Красноярска",
+      "url": "https://krasobr.admkrsk.ru/",
+      "type": "municipal_official",
+      "jurisdiction": "Красноярский край",
+      "check": "weekly"
+    },
+    {
+      "id": "krsk-college",
+      "name": "Красноярский колледж",
+      "url": "https://krascollege.ru/",
+      "type": "state_educational_organization",
+      "jurisdiction": "Красноярский край",
+      "check": "weekly"
     }
   ]
 }
