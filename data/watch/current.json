@@ -1,0 +1,42 @@
+{
+  "pravo": {
+    "checked": "2026-09-30",
+    "ok": false,
+    "error": "<urlopen error timed out>"
+  },
+  "sfr": {
+    "sha256": "096dacc3dbeed1bdfc01fd3fd86fa9f30672b78b41b26670443185e174c7c559",
+    "checked": "2026-09-30",
+    "ok": true
+  },
+  "krsk-law": {
+    "checked": "2026-09-30",
+    "ok": false,
+    "error": "<urlopen error timed out>"
+  },
+  "krsk-gov": {
+    "checked": "2026-09-30",
+    "ok": false,
+    "error": "<urlopen error timed out>"
+  },
+  "samara-gov": {
+    "checked": "2026-09-30",
+    "ok": false,
+    "error": "<urlopen error timed out>"
+  },
+  "samara-law": {
+    "checked": "2026-09-30",
+    "ok": false,
+    "error": "<urlopen error timed out>"
+  },
+  "nso-social": {
+    "sha256": "13fcb666a7d52967a2a8bc47ece5e51052868fc5b121e396efa83abd9c1d1b41",
+    "checked": "2026-09-30",
+    "ok": true
+  },
+  "nso-gov": {
+    "checked": "2026-09-30",
+    "ok": false,
+    "error": "HTTP Error 502: Bad Gateway"
+  }
+}
