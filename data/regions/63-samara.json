@@ -27,8 +27,11 @@
       "official_urls": [
         "https://www.edutlt.samregion.ru/mery-socialnoy-podderjki"
       ],
-      "verified": "2026-09-30",
-      "review_status": "verified"
+      "review_status": "needs_review",
+      "last_reviewed": "2026-10-01",
+      "full_legal_review_complete": false,
+      "verification_scope": "Проверены основные сведения; действующие порядки и приложения проверяются отдельно.",
+      "review_note": "Нужен полный действующий порядок назначения, включая изменения 2026 года. Карточка сохранена для проверки."
     },
     {
       "id": "samara-family-capital",
@@ -58,10 +61,19 @@
         }
       ],
       "official_urls": [
-        "https://governor.samregion.ru/"
+        "https://sociosam.ru/service/СОЦИАЛЬНАЯ ПОДДЕРЖКА СЕМЕЙ С ДЕТЬМИ/mnogodetnaya-semya/"
       ],
-      "verified": "2026-09-30",
-      "review_status": "verified"
+      "verified": "2026-10-01",
+      "review_status": "verified",
+      "last_reviewed": "2026-10-01",
+      "full_legal_review_complete": false,
+      "verification_scope": "Проверены основные условия по тексту закона и сведениям органа соцзащиты. Полная проверка действующих регламентов ещё не завершена.",
+      "conditions": [
+        "Заявитель и ребёнок — граждане РФ; проживание или пребывание в Самарской области.",
+        "Третий или последующий ребёнок родился или усыновлён после 30 ноября 2011 года.",
+        "Выплата предоставляется однократно; право отца или усыновителя зависит от предусмотренного законом основания."
+      ],
+      "frequency": "Единовременно"
     },
     {
       "id": "samara-no-kindergarten",
@@ -101,10 +113,18 @@
         }
       ],
       "official_urls": [
-        "https://governor.samregion.ru/"
+        "https://sociosam.ru/service/СОЦИАЛЬНАЯ ПОДДЕРЖКА СЕМЕЙ С ДЕТЬМИ/mnogodetnaya-semya/"
       ],
-      "verified": "2026-09-30",
-      "review_status": "verified"
+      "verified": "2026-10-01",
+      "review_status": "verified",
+      "last_reviewed": "2026-10-01",
+      "full_legal_review_complete": false,
+      "verification_scope": "Проверены основные условия по тексту закона и сведениям органа соцзащиты. Полная проверка действующих регламентов ещё не завершена.",
+      "conditions": [
+        "Отсутствие места или дошкольной образовательной организации должно подтверждаться уполномоченным органом.",
+        "Очередность рождения определяется с учётом правил закона; для детей под опекой и в приёмной семье применяются отдельные правила."
+      ],
+      "frequency": "Ежемесячно"
     },
     {
       "id": "samara-twins",
@@ -112,7 +132,7 @@
       "level": "regional",
       "status": "active",
       "jurisdiction": "Самарская область",
-      "effective_from": "2004-07-16",
+      "effective_from": "2005-01-01",
       "effective_to": null,
       "amount": {
         "type": "variants",
@@ -130,19 +150,29 @@
       "eligibility": {
         "event": "birth",
         "multiple_birth": true,
-        "children_min": 2
+        "children_min": 2,
+        "child_max_months": 6
       },
       "legal_basis": [
         {
           "title": "Закон Самарской области от 16.07.2004 № 122-ГД",
-          "role": "Государственная поддержка граждан, имеющих детей"
+          "role": "Статьи 22.12–22.14: пособие при рождении близнецов"
         }
       ],
       "official_urls": [
-        "https://governor.samregion.ru/"
+        "https://sociosam.ru/service/СОЦИАЛЬНАЯ ПОДДЕРЖКА СЕМЕЙ С ДЕТЬМИ/mnogodetnaya-semya/"
       ],
-      "verified": "2026-09-30",
-      "review_status": "verified"
+      "verified": "2026-10-01",
+      "review_status": "verified",
+      "last_reviewed": "2026-10-01",
+      "full_legal_review_complete": false,
+      "verification_scope": "Проверены основные условия по тексту закона и сведениям органа соцзащиты. Полная проверка действующих регламентов ещё не завершена.",
+      "conditions": [
+        "Обратиться необходимо в течение шести месяцев со дня рождения близнецов.",
+        "Пособие получает один родитель или заменяющее его лицо; второму родителю повторно не выплачивается.",
+        "Размер не зависит от дохода семьи."
+      ],
+      "frequency": "Единовременно"
     },
     {
       "id": "samara-school-year",
@@ -150,15 +180,25 @@
       "level": "regional",
       "status": "active",
       "jurisdiction": "Самарская область",
-      "effective_from": "2004-07-16",
+      "effective_from": "2005-09-01",
       "effective_to": null,
       "amount": {
-        "type": "benefit",
-        "note": "Размер зависит от категории семьи; мера предоставляется при условиях регионального закона."
+        "type": "variants",
+        "variants": [
+          {
+            "label": "Семья с доходом не выше ПМ на душу населения",
+            "value": 200
+          },
+          {
+            "label": "Предусмотренные законом льготные категории",
+            "value": 1000
+          }
+        ]
       },
       "eligibility": {
         "education": true,
-        "income_limit_text": "Для основной категории учитывается нуждаемость по правилам Самарской области."
+        "income_limit_text": "Для выплаты 200 руб. доход не выше ПМ на душу населения; для льготных категорий с выплатой 1000 руб. проверяются отдельные основания.",
+        "child_max_years": 18
       },
       "legal_basis": [
         {
@@ -167,10 +207,19 @@
         }
       ],
       "official_urls": [
-        "https://governor.samregion.ru/"
+        "https://sociosam.ru/service/СОЦИАЛЬНАЯ ПОДДЕРЖКА СЕМЕЙ С ДЕТЬМИ/mnogodetnaya-semya/"
       ],
-      "verified": "2026-09-30",
-      "review_status": "verified"
+      "verified": "2026-10-01",
+      "review_status": "verified",
+      "last_reviewed": "2026-10-01",
+      "full_legal_review_complete": false,
+      "verification_scope": "Проверены основные условия по тексту закона и сведениям органа соцзащиты. Полная проверка действующих регламентов ещё не завершена.",
+      "conditions": [
+        "Ребёнок не старше 18 лет живёт совместно с заявителем и обучается в расположенной в Самарской области школе по аккредитованной общеобразовательной программе.",
+        "1000 руб.: женщина с четырьмя и более несовершеннолетними детьми; отец четырёх и более детей без матери по основаниям закона; одинокая мать троих и более детей; законный представитель ребёнка-сироты; родитель с инвалидностью I или II группы.",
+        "Обращение — в течение шести месяцев с начала соответствующего учебного года; при нескольких основаниях выплата предоставляется по одному."
+      ],
+      "frequency": "Ежегодно"
     },
     {
       "id": "samara-young-first-child",
@@ -200,8 +249,11 @@
       "official_urls": [
         "https://governor.samregion.ru/"
       ],
-      "verified": "2026-09-30",
-      "review_status": "verified"
+      "review_status": "needs_review",
+      "last_reviewed": "2026-10-01",
+      "full_legal_review_complete": false,
+      "verification_scope": "Проверены основные сведения; действующие порядки и приложения проверяются отдельно.",
+      "review_note": "Нужен полный действующий порядок назначения, включая изменения 2026 года. Карточка сохранена для проверки."
     }
   ]
 }
