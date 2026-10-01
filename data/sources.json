@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "last_reviewed": "2026-09-30",
+  "last_reviewed": "2026-10-01",
   "sources": [
     {
       "id": "pravo",
@@ -124,6 +124,14 @@
       "url": "https://krascollege.ru/",
       "type": "state_educational_organization",
       "jurisdiction": "Красноярский край",
+      "check": "weekly"
+    },
+    {
+      "id": "samara-social-services",
+      "name": "ГКУ СО Главное управление социальной защиты населения Самарского округа",
+      "type": "regional_official",
+      "url": "https://sociosam.ru/",
+      "jurisdiction": "Самарская область",
       "check": "weekly"
     }
   ]
