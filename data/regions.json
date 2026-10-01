@@ -23,13 +23,16 @@
       "name": "Самарская область",
       "source_ids": [
         "samara-law",
-        "samara-gov"
+        "samara-gov",
+        "samara-social-services"
       ],
       "status": "regional_base_active",
       "public": true,
       "data_status": "verified_core",
-      "notice": "В базе опубликованы только меры, для которых подтверждено правовое основание. Проверенных региональных карточек: 6.",
-      "last_verified": "2026-09-30"
+      "notice": "Опубликованы 4 карточки с проверенными основными сведениями. Все 96 упоминаний исходного документа сохранены в списке проверки, включая повторы и меры других уровней. Полная проверка регламентов продолжается; ещё 2 карточки требуют актуальных порядков.",
+      "last_verified": "2026-10-01",
+      "review_file": "data/reviews/63-samara.json",
+      "review_status": "awaiting_sources"
     },
     {
       "id": "54",
