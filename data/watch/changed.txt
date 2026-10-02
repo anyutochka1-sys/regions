@@ -1,2 +1,8 @@
 sfr
 nso-social
+krsk-prosecutor
+krsk-gov-channel
+krsk-gazette
+krsk-city
+krsk-city-edu
+krsk-college
