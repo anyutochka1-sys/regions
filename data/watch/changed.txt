@@ -1,4 +1,3 @@
-sfr
 nso-social
 samara-edu
 krsk-prosecutor
