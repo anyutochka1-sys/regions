@@ -1821,5 +1821,43 @@
       "samara-young-first-child"
     ],
     "full_legal_review_complete": false
-  }
+  },
+  "monitoring_runs": [
+    {
+      "date": "2026-10-05",
+      "baseline_checked_at": "2026-10-01",
+      "result": "incomplete_official_source_access",
+      "confirmed_changes": [],
+      "public_cards_changed": [],
+      "full_legal_review_complete": false,
+      "scope": "Мониторинг текущих карточек и списка проверки; первоначальная полная юридическая проверка не завершена.",
+      "unavailable_sources": [
+        "https://publication.pravo.gov.ru/document/6301202608310003",
+        "https://publication.pravo.gov.ru/document/6301202608310005",
+        "https://pravo.samregion.ru/",
+        "https://samregion.ru/",
+        "https://minsocdem.samregion.ru/",
+        "https://samadm.ru/",
+        "https://tgl.ru/"
+      ],
+      "limitations": "Недоступность обязательных полных официальных редакций не позволяет подтвердить отсутствие изменений. Поисковые выдержки и зеркала не использованы для изменения карточек. Статусы ранее проверенных карточек не понижены только из-за технической недоступности источников.",
+      "follow_up": [
+        "Сверить полные редакции №222/493, №821/494, №1060 и закона №122-ГД; нормы с 01.04.2027 не применять ранее срока.",
+        "Повторить сверку мер СВО и актов Самары и Тольятти после восстановления доступа."
+      ],
+      "observations": [
+        {
+          "source_item": "4.5",
+          "request_groups": [
+            1,
+            11
+          ],
+          "status": "needs_review",
+          "source_url": "https://sociosam.ru/news/11%20000%20%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D0%B9%20%D0%BD%D0%B0%20%D1%88%D0%BA%D0%BE%D0%BB%D1%8C%D0%BD%D1%83%D1%8E%20%D0%B8%20%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D1%83%D1%8E%20%D1%84%D0%BE%D1%80%D0%BC%D1%83.php",
+          "publication_date": "2026-09-30",
+          "observation": "Орган соцзащиты сообщает о 11 000 руб. на форму и приёме заявлений до 31 октября. Сумма уже присутствует в исходном перечне; это не доказательство нового изменения. Полные условия и НПА остаются непроверенными; публичная карточка не создана."
+        }
+      ]
+    }
+  ]
 }
