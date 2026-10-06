@@ -1,87 +1,87 @@
 {
   "pravo": {
-    "checked": "2026-10-05",
+    "checked": "2026-10-06",
     "ok": false,
     "error": "<urlopen error timed out>"
   },
   "sfr": {
-    "sha256": "20dea0da79b270501cdf424ffd6faa192e43f37a33a8f7e2c150f6c058cfd72f",
-    "checked": "2026-10-05",
+    "sha256": "3bb69d05f99421552f794a07278f16751aea1d3169994aad87c180dc92fb4625",
+    "checked": "2026-10-06",
     "ok": true
   },
   "krsk-law": {
-    "checked": "2026-10-05",
+    "checked": "2026-10-06",
     "ok": false,
     "error": "<urlopen error timed out>"
   },
   "krsk-gov": {
-    "checked": "2026-10-05",
+    "checked": "2026-10-06",
     "ok": false,
     "error": "<urlopen error timed out>"
   },
   "samara-gov": {
-    "checked": "2026-10-05",
+    "checked": "2026-10-06",
     "ok": false,
     "error": "<urlopen error timed out>"
   },
   "samara-law": {
-    "checked": "2026-10-05",
+    "checked": "2026-10-06",
     "ok": false,
     "error": "<urlopen error timed out>"
   },
   "nso-social": {
-    "sha256": "2b0e07439af0456583e7c8cf79663ecf9c6ed58009205459cf5aade0985f3717",
-    "checked": "2026-10-05",
+    "sha256": "3b1f56aa342be114b686f5c3fe0417a6a2a7418a0fcb2a23071c064793e064a2",
+    "checked": "2026-10-06",
     "ok": true
   },
   "nso-gov": {
-    "checked": "2026-10-05",
+    "checked": "2026-10-06",
     "ok": false,
-    "error": "HTTP Error 502: Bad Gateway"
+    "error": "<urlopen error timed out>"
   },
   "samara-governor": {
     "sha256": "b29762277ce89204bfec18e54315f53a5d5f76fbd2d799a38d72f462441a91ab",
-    "checked": "2026-10-05",
+    "checked": "2026-10-06",
     "ok": true
   },
   "samara-edu": {
-    "sha256": "23cd89990d1916ac23d12c5a86ec693675819da01041987e51c90d9a85e89e1c",
-    "checked": "2026-10-05",
-    "ok": true
+    "checked": "2026-10-06",
+    "ok": false,
+    "error": "<urlopen error timed out>"
   },
   "krsk-prosecutor": {
-    "sha256": "e48dda75af2a4bcddb378274ed3ddb8de170d693718cb40af2a0669cc2a54b01",
-    "checked": "2026-10-05",
+    "sha256": "d8a2351af68075db52f363b0eee21f628df51d78c3940fd2d4e951b1fd45c26e",
+    "checked": "2026-10-06",
     "ok": true
   },
   "krsk-gov-channel": {
-    "sha256": "bcabd8565f58233121ac10b13d91b6539286fd2c4840bff54474e6dae73ab4f1",
-    "checked": "2026-10-05",
+    "sha256": "67e2d83166f34a08f7a3bfbf81cd3f4317e1bcd36f838957ffb6b4f013d510b7",
+    "checked": "2026-10-06",
     "ok": true
   },
   "krsk-gazette": {
-    "sha256": "d56d73a0fe2db239fa86fad0d67e262075cb0216235eef801a7ebfed8132ffce",
-    "checked": "2026-10-05",
+    "sha256": "09d9bfd45d18d676ecc82795e9656cd463e07bf189a42d16c63032ce02f74900",
+    "checked": "2026-10-06",
     "ok": true
   },
   "krsk-city": {
-    "sha256": "78e2339194534f4ddf0e06aab212ade0eabffafed679c72946a45c5750a61436",
-    "checked": "2026-10-05",
+    "sha256": "f9c5cb44cfa53856b42005692a79221ad4513f7bf5ab03fc7fac56bd9220052b",
+    "checked": "2026-10-06",
     "ok": true
   },
   "krsk-city-edu": {
-    "sha256": "182e1dc601fcea66d5cc6ad523993caaf571639865ce1118fb45155926ee063d",
-    "checked": "2026-10-05",
+    "sha256": "7912e6c96942ea2175a0aff2d28daad21466e30250e6527e603ed564ee2ba58b",
+    "checked": "2026-10-06",
     "ok": true
   },
   "krsk-college": {
-    "sha256": "437413503e56934149af6a587da94bb1d08020d8d4fcd18e953a44f46d1c4f0a",
-    "checked": "2026-10-05",
+    "sha256": "528b5b57b3f8f45ebbfa8362fbad22e9883f0cb067c9d98758d1f8a501defdef",
+    "checked": "2026-10-06",
     "ok": true
   },
   "samara-social-services": {
-    "sha256": "c86116a3c9b8765333d6e2239c5b74558a335096fc571e96c32f5db48324b6c7",
-    "checked": "2026-10-05",
-    "ok": true
+    "checked": "2026-10-06",
+    "ok": false,
+    "error": "<urlopen error timed out>"
   }
 }

@@ -1,4 +1,6 @@
+sfr
 nso-social
+samara-edu
 krsk-prosecutor
 krsk-gov-channel
 krsk-gazette
