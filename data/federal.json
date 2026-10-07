@@ -125,7 +125,7 @@
         "note": "Для работающих 40% среднего заработка в установленных пределах; условия для неработающих отличаются"
       },
       "eligibility": {
-        "child_max_months": 18
+        "child_max_months_exclusive": 18
       },
       "legal_basis": [
         {
@@ -194,10 +194,10 @@
         "type": "regional_child_living_minimum"
       },
       "eligibility": {
-        "child_max_years": 3,
         "income_limit": "не более 2 прожиточных минимумов на душу населения в регионе",
         "certificate_required": true,
-        "can_be_for_each_child_under_3": true
+        "can_be_for_each_child_under_3": true,
+        "child_max_years_exclusive": 3
       },
       "legal_basis": [
         {
@@ -319,8 +319,8 @@
         "note": "До применения районного коэффициента, если он предусмотрен."
       },
       "eligibility": {
-        "child_max_years": 3,
-        "special_category": "child_of_conscript"
+        "special_category": "child_of_conscript",
+        "child_max_years_exclusive": 3
       },
       "legal_basis": [
         {
@@ -350,8 +350,8 @@
       },
       "eligibility": {
         "disabled_child": true,
-        "child_max_years": 17,
-        "caregiver_conditions": true
+        "caregiver_conditions": true,
+        "child_max_years_exclusive": 18
       },
       "legal_basis": [
         {
