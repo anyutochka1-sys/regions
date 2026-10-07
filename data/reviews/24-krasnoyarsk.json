@@ -3530,6 +3530,22 @@
       "follow_up": [
         "Повторить сверку региональных НПА, архивных переходов, мер СВО и муниципальных актов после восстановления доступа."
       ]
+    },
+    {
+      "date": "2026-10-07",
+      "baseline_monitoring_date": "2026-10-05",
+      "result": "incomplete_official_source_access",
+      "confirmed_changes": [],
+      "public_cards_changed": [],
+      "full_legal_review_complete": false,
+      "unavailable_sources": [
+        "https://zakon.krskstate.ru/",
+        "https://szn24.ru/",
+        "https://www.krskstate.ru/"
+      ],
+      "access_attempts": "Повторная проверка через поиск и открытие страниц. Для порталов правовых актов выполнена дополнительная попытка HTTP: ответ 502. Отсутствие изменений не подтверждено.",
+      "future_effective_date_guard": "Нормы с 01.04.2027 не применялись. №222/493, №821/494, №1060 и №122-ГД требуют доступных полных официальных редакций.",
+      "observations": []
     }
   ]
 }
