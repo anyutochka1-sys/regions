@@ -1858,6 +1858,37 @@
           "observation": "Орган соцзащиты сообщает о 11 000 руб. на форму и приёме заявлений до 31 октября. Сумма уже присутствует в исходном перечне; это не доказательство нового изменения. Полные условия и НПА остаются непроверенными; публичная карточка не создана."
         }
       ]
+    },
+    {
+      "date": "2026-10-07",
+      "baseline_monitoring_date": "2026-10-05",
+      "result": "incomplete_official_source_access",
+      "confirmed_changes": [],
+      "public_cards_changed": [],
+      "full_legal_review_complete": false,
+      "unavailable_sources": [
+        "https://publication.pravo.gov.ru/document/6301202608310003",
+        "https://publication.pravo.gov.ru/document/6301202608310005",
+        "https://pravo.samregion.ru/",
+        "https://minsocdem.samregion.ru/"
+      ],
+      "access_attempts": "Повторная проверка через поиск и открытие страниц. Для порталов правовых актов выполнена дополнительная попытка HTTP: ответ 502. Отсутствие изменений не подтверждено.",
+      "future_effective_date_guard": "Нормы с 01.04.2027 не применялись. №222/493, №821/494, №1060 и №122-ГД требуют доступных полных официальных редакций.",
+      "observations": [
+        {
+          "source_item": "13.15",
+          "request_groups": [
+            27
+          ],
+          "status": "needs_review",
+          "publication_date": "2026-10-06",
+          "source_url": "https://citytraffic.ru/2026/10/408864/giteli-samarskoi-oblasti-smogyt-polychat",
+          "source_type": "media_discovery_only",
+          "reported_change": "Предполагаемое продление периода предоставления соцвыплаты на газификацию с 2028 до 2029 года.",
+          "required_primary_document": "Поправка к постановлению Правительства Самарской области от 26.10.2021 №811: номер, полная официальная публикация, дата вступления в силу.",
+          "publication_decision": "Не подтверждено официальным НПА; карточка не создана и суммы не опубликованы."
+        }
+      ]
     }
   ]
 }
