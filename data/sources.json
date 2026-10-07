@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "last_reviewed": "2026-10-01",
+  "last_reviewed": "2026-10-07",
   "sources": [
     {
       "id": "pravo",
@@ -132,6 +132,22 @@
       "type": "regional_official",
       "url": "https://sociosam.ru/",
       "jurisdiction": "Самарская область",
+      "check": "weekly"
+    },
+    {
+      "id": "krsk-csp",
+      "name": "Краевое государственное автономное учреждение «Центр спортивной подготовки»",
+      "url": "https://www.krascsp.ru/",
+      "type": "state_sports_organization",
+      "jurisdiction": "Красноярский край",
+      "check": "weekly"
+    },
+    {
+      "id": "krsk-rcss",
+      "name": "Краевое государственное автономное учреждение «Региональный центр спортивных сооружений»",
+      "url": "https://rcsskrsk.ru/",
+      "type": "state_sports_organization",
+      "jurisdiction": "Красноярский край",
       "check": "weekly"
     }
   ]
