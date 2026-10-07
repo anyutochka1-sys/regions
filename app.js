@@ -24,9 +24,29 @@ function preliminaryHtml(regionMeta){const info=preliminary[regionMeta?.id];if(!
  return '<section class="preliminary"><h3 class="group-title">Предварительные сведения по региону</h3><p class="small">Здесь собраны темы и перечни из открытых источников. Размеры, сроки и действующие условия ещё уточняются. Этот раздел не является персональной подборкой.</p>'+topicHtml+(sources||authority?'<details class="notice"><summary>Источники и контакты по региону</summary>'+authority+(sources?'<ul>'+sources+'</ul>':"")+'</details>':"")+'</section>';
 }
 function isCurrentlyEffective(m){const now=new Date();now.setHours(0,0,0,0);if(m.effective_from){const from=new Date(m.effective_from+"T00:00:00");if(from>now)return false}if(m.effective_to){const to=new Date(m.effective_to+"T23:59:59");if(to<now)return false}return true}
+function birthConditionsFit(q,ctx,now=new Date()){
+ if(q.birth_order==null&&q.birth_date_min==null&&q.mother_age_at_birth_max==null&&q.mother_age_at_birth_min==null)return true;
+ // Для меры на первого ребёнка проверяем старшего, а не последнего рождённого.
+ const ordered=[...ctx.ages].sort((a,b)=>b-a);
+ const candidates=q.birth_order!=null?(ordered[q.birth_order-1]!=null?[ordered[q.birth_order-1]]:[]):ordered;
+ return candidates.some(age=>{
+   // Ввод возраста в годах задаёт интервал, а не точную дату рождения.
+   const latestBirth=new Date(now);latestBirth.setFullYear(latestBirth.getFullYear()-Math.floor(age));
+   if(q.birth_date_min&&latestBirth<new Date(q.birth_date_min+"T00:00:00"))return false;
+   // Разница полных возрастов может отличаться от возраста при рождении на год.
+   if(ctx.motherAge){
+     const youngestPossible=ctx.motherAge-Math.floor(age)-1;
+     const oldestPossible=ctx.motherAge+1-Math.floor(age);
+     if(q.mother_age_at_birth_max!=null&&youngestPossible>q.mother_age_at_birth_max)return false;
+     if(q.mother_age_at_birth_min!=null&&oldestPossible<q.mother_age_at_birth_min)return false;
+   }
+   return true;
+ });
+}
 function fits(m,ctx){
  if(m.jurisdiction&&m.jurisdiction!=="RU"&&m.jurisdiction!==ctx.region)return false;
  const q=m.eligibility||{};
+ if(!birthConditionsFit(q,ctx))return false;
  if(q.children_min&&ctx.kids<q.children_min)return false;
  if(q.child_max_months!=null&&!ctx.ages.some(a=>a*12<=q.child_max_months))return false;
  if(q.child_max_years!=null&&!ctx.ages.some(a=>a<=q.child_max_years))return false;

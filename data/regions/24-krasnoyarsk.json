@@ -62,7 +62,8 @@
       "eligibility": {
         "children_min": 1,
         "birth_order": 1,
-        "mother_age_at_birth_max": 23
+        "mother_age_at_birth_max": 23,
+        "birth_date_min": "2025-01-01"
       },
       "legal_basis": [
         {
