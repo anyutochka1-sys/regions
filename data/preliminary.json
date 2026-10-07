@@ -1,0 +1,1639 @@
+{
+  "schema": 1,
+  "updated": "2026-10-07",
+  "notice": "Предварительные сведения не являются подтверждением действующей меры или индивидуального права. Точные условия сверяются отдельно.",
+  "regions": {
+    "10": {
+      "region_id": "10",
+      "region": "Республика Карелия",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://gov.karelia.ru/power/executive/minsoc/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "11": {
+      "region_id": "11",
+      "region": "Республика Коми",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://mintrudsoc.rkomi.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "12": {
+      "region_id": "12",
+      "region": "Республика Марий Эл",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://mari-el.gov.ru/ministries/minsoc/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "13": {
+      "region_id": "13",
+      "region": "Республика Мордовия",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [
+        {
+          "id": "13-public-0",
+          "title": "Поддержка семей с детьми: региональный перечень",
+          "description": "Найден открытый перечень мер поддержки. Состав перечня, действующие условия и отдельные выплаты ещё сверяются.",
+          "source_url": "https://e-mordovia.ru/for-smi/all-news/semyam-s-detmi-rasskazali-o-deystvuyushchikh-merakh-sotsialnoy-podderzhki-v-respublike/",
+          "source_title": "Семьям с детьми рассказали о действующих мерах социальной поддержки в республике | Правительство Республики Мордовия",
+          "source_kind": "official",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "page_or_search_available"
+        }
+      ],
+      "materials": [],
+      "authority": {
+        "url": "https://e-mordovia.ru/gosudarstvennaya-vlast-rm/ministerstva-i-vedomstva/minsoc/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "14": {
+      "region_id": "14",
+      "region": "Республика Саха (Якутия)",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://mintrud.sakha.gov.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "15": {
+      "region_id": "15",
+      "region": "Республика Северная Осетия — Алания",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://minsotc.alania.gov.ru",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "16": {
+      "region_id": "16",
+      "region": "Республика Татарстан",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [
+        {
+          "id": "16-public-0",
+          "title": "Поддержка при рождении одновременно трёх и более детей",
+          "description": "В открытом источнике есть сведения об этой мере. Актуальные условия, размер и порядок оформления ещё проверяются.",
+          "source_url": "https://www.garant.ru/hotlaw/tatarstan/2257781/",
+          "source_title": "Указ Раиса Республики Татарстан от 8 сентября 2026 г. № 732 \"О внесении изменений в Указ Президента Республики Татарстан \"О дополнительных мерах социальной подд",
+          "source_kind": "public_legal_reference",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "page_or_search_available"
+        }
+      ],
+      "materials": [],
+      "authority": {
+        "url": "https://mtsz.tatarstan.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "17": {
+      "region_id": "17",
+      "region": "Республика Тыва",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [
+        {
+          "id": "17-public-0",
+          "title": "Поддержка семей с детьми: региональный перечень",
+          "description": "Найден открытый перечень мер поддержки. Состав перечня, действующие условия и отдельные выплаты ещё сверяются.",
+          "source_url": "https://mintrudtuva.ru/%D0%BE-%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B8-%D1%81%D0%B5%D0%BC%D0%B5%D0%B9-%D1%81-%D0%B4%D0%B5%D1%82%D1%8C%D0%BC%D0%B8/",
+          "source_title": "О социальной поддержки семей с детьми в Республике ...",
+          "source_kind": "official",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "search_excerpt_only"
+        }
+      ],
+      "materials": [],
+      "authority": {
+        "url": "https://mintrudtuva.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "18": {
+      "region_id": "18",
+      "region": "Удмуртская Республика",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://minsoc18.ru/about/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "19": {
+      "region_id": "19",
+      "region": "Республика Хакасия",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://r-19.ru/society/7635/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "20": {
+      "region_id": "20",
+      "region": "Чеченская Республика",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://www.mtchr.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "21": {
+      "region_id": "21",
+      "region": "Чувашская Республика",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://mintrud.cap.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "22": {
+      "region_id": "22",
+      "region": "Алтайский край",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://www.aksp.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "23": {
+      "region_id": "23",
+      "region": "Краснодарский край",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://szn.krasnodar.ru/contacts/contacts_details",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "24": {
+      "region_id": "24",
+      "region": "Красноярский край",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://szn24.ru/contacts",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "25": {
+      "region_id": "25",
+      "region": "Приморский край",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://soctrud.primorsky.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "26": {
+      "region_id": "26",
+      "region": "Ставропольский край",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://minsoc26.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "27": {
+      "region_id": "27",
+      "region": "Хабаровский край",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [
+        {
+          "id": "27-public-0",
+          "title": "Краевой материнский капитал",
+          "description": "В открытом источнике есть сведения об этой мере. Актуальные условия, размер и порядок оформления ещё проверяются.",
+          "source_url": "https://kguhb.mszn27.ru/node/126841",
+          "source_title": "Расширены направления использования средств краевого ...",
+          "source_kind": "official",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "search_excerpt_only"
+        }
+      ],
+      "materials": [],
+      "authority": {
+        "url": "https://mszn27.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "28": {
+      "region_id": "28",
+      "region": "Амурская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://szn.amurobl.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "29": {
+      "region_id": "29",
+      "region": "Архангельская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://dvinaland.ru/gov/iogv/mintrud/contacts/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "30": {
+      "region_id": "30",
+      "region": "Астраханская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://minsoctrud.astrobl.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "31": {
+      "region_id": "31",
+      "region": "Белгородская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://minsoc31.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "32": {
+      "region_id": "32",
+      "region": "Брянская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://www.uszn032.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "33": {
+      "region_id": "33",
+      "region": "Владимирская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://mtzn.avo.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "34": {
+      "region_id": "34",
+      "region": "Волгоградская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://uszn.volgograd.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "35": {
+      "region_id": "35",
+      "region": "Вологодская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://socium.gov35.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "36": {
+      "region_id": "36",
+      "region": "Воронежская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://govvrn.ru/org/ministerstvo/minsoczaschity-vo",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "37": {
+      "region_id": "37",
+      "region": "Ивановская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://szn.ivanovoobl.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "38": {
+      "region_id": "38",
+      "region": "Иркутская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [
+        {
+          "id": "38-public-0",
+          "title": "Пособие на школьную форму",
+          "description": "В открытом источнике есть сведения об этой мере. Актуальные условия, размер и порядок оформления ещё проверяются.",
+          "source_url": "https://irkopeka3.ru/2026/08/28/%D0%BA%D0%B0%D0%BA%D0%B8%D0%B5-%D0%BC%D0%B5%D1%80%D1%8B-%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B8-%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D1%83%D1%8E%D1%82-%D0%B2-%D0%B8%D1%80%D0%BA%D1%83/",
+          "source_title": "Какие меры поддержки действуют в Иркутской области для сбора ребенка в школу… » Межрайонное управление министерства социального развития, опеки и попечительства",
+          "source_kind": "official",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "page_or_search_available"
+        },
+        {
+          "id": "38-public-1",
+          "title": "Поддержка в оплате школьного питания",
+          "description": "В открытом источнике есть сведения об этой мере. Актуальные условия, размер и порядок оформления ещё проверяются.",
+          "source_url": "https://irkopeka3.ru/2026/08/28/%D0%BA%D0%B0%D0%BA%D0%B8%D0%B5-%D0%BC%D0%B5%D1%80%D1%8B-%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B8-%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D1%83%D1%8E%D1%82-%D0%B2-%D0%B8%D1%80%D0%BA%D1%83/",
+          "source_title": "Какие меры поддержки действуют в Иркутской области для сбора ребенка в школу… » Межрайонное управление министерства социального развития, опеки и попечительства",
+          "source_kind": "official",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "page_or_search_available"
+        }
+      ],
+      "materials": [],
+      "authority": {
+        "url": "https://irkobl.ru/sites/society/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "39": {
+      "region_id": "39",
+      "region": "Калининградская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [
+        {
+          "id": "39-public-0",
+          "title": "Выплата при рождении ребёнка в студенческой семье",
+          "description": "В открытом источнике есть сведения об этой мере. Актуальные условия, размер и порядок оформления ещё проверяются.",
+          "source_url": "https://www.garant.ru/hotlaw/kaliningrad/2247127/",
+          "source_title": "Постановление Правительства Калининградской области от 25 августа 2026 г. N 282-п \"О дополнительной мере социальной поддержки в виде единовременной выплаты при ",
+          "source_kind": "public_legal_reference",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "page_or_search_available"
+        }
+      ],
+      "materials": [],
+      "authority": {
+        "url": "https://social.gov39.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "40": {
+      "region_id": "40",
+      "region": "Калужская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://mintrud.admoblkaluga.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "41": {
+      "region_id": "41",
+      "region": "Камчатский край",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://kamgov.ru/mintrud",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "42": {
+      "region_id": "42",
+      "region": "Кемеровская область — Кузбасс",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://www.dsznko.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "43": {
+      "region_id": "43",
+      "region": "Кировская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://www.kirovreg.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "44": {
+      "region_id": "44",
+      "region": "Костромская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [
+        {
+          "id": "44-public-0",
+          "title": "Поддержка семей с детьми: региональный перечень",
+          "description": "Найден открытый перечень мер поддержки. Состав перечня, действующие условия и отдельные выплаты ещё сверяются.",
+          "source_url": "https://socdep.kostroma.gov.ru/gosudarstvennye-programmy/sotsialnaya-podderzhka-semey-imeyushchikh-detey/",
+          "source_title": "Социальная поддержка семей, имеющих детей",
+          "source_kind": "official",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "page_or_search_available"
+        }
+      ],
+      "materials": [],
+      "authority": {
+        "url": "https://socdep.kostroma.gov.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "45": {
+      "region_id": "45",
+      "region": "Курганская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [
+        {
+          "id": "45-public-0",
+          "title": "Поддержка семей с детьми: региональный перечень",
+          "description": "Найден открытый перечень мер поддержки. Состав перечня, действующие условия и отдельные выплаты ещё сверяются.",
+          "source_url": "https://sz.gov45.ru/news/mery-podderzhki-dlya-semey-s-detmi/",
+          "source_title": "Меры поддержки для семей с детьми",
+          "source_kind": "official",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "page_or_search_available"
+        }
+      ],
+      "materials": [],
+      "authority": {
+        "url": "https://sz.gov45.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "46": {
+      "region_id": "46",
+      "region": "Курская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://trudzan.kursk.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "47": {
+      "region_id": "47",
+      "region": "Ленинградская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://kszn.lenobl.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "48": {
+      "region_id": "48",
+      "region": "Липецкая область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [
+        {
+          "id": "48-public-0",
+          "title": "Дополнительная поддержка молодых семей с детьми",
+          "description": "В открытом источнике есть сведения об этой мере. Актуальные условия, размер и порядок оформления ещё проверяются.",
+          "source_url": "https://www.garant.ru/hotlaw/liptesk/1958793/",
+          "source_title": "Закон Липецкой области от 25 декабря 2025 г. N 756-ОЗ \"Об отдельных вопросах социальной поддержки молодых семей, имеющих детей\" | Горячие документы. Липецкая об",
+          "source_kind": "public_legal_reference",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "page_or_search_available"
+        }
+      ],
+      "materials": [],
+      "authority": {
+        "url": "https://usp.admlr.lipetsk.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "49": {
+      "region_id": "49",
+      "region": "Магаданская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://mintrud.49gov.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "50": {
+      "region_id": "50",
+      "region": "Московская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://msr.mosreg.ru",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "51": {
+      "region_id": "51",
+      "region": "Мурманская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://minsoc.gov-murman.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "52": {
+      "region_id": "52",
+      "region": "Нижегородская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://minsocium.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "53": {
+      "region_id": "53",
+      "region": "Новгородская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [
+        {
+          "id": "53-public-0",
+          "title": "Поддержка многодетных семей: региональный перечень",
+          "description": "Найден открытый перечень мер поддержки. Состав перечня, действующие условия и отдельные выплаты ещё сверяются.",
+          "source_url": "https://mintrud.novreg.ru/services/vyplaty-i-posobiya/seme-i-detyam/mery-sotsialnoy-podderzhki-mnogodetnykh-semey/",
+          "source_title": "Меры социальной поддержки многодетных семей",
+          "source_kind": "official",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "page_or_search_available"
+        }
+      ],
+      "materials": [],
+      "authority": {
+        "url": "https://mintrud.novreg.ru",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "54": {
+      "region_id": "54",
+      "region": "Новосибирская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://mtsr.nso.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "55": {
+      "region_id": "55",
+      "region": "Омская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://mtsr.omskportal.ru/oiv/mtsr",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "56": {
+      "region_id": "56",
+      "region": "Оренбургская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://msr.orb.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "57": {
+      "region_id": "57",
+      "region": "Орловская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://www.dszn57.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "58": {
+      "region_id": "58",
+      "region": "Пензенская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [
+        {
+          "id": "58-public-0",
+          "title": "Региональный семейный капитал",
+          "description": "В открытом источнике есть сведения об этой мере. Актуальные условия, размер и порядок оформления ещё проверяются.",
+          "source_url": "https://trud.pnzreg.ru/news/obshchestvo/7158/",
+          "source_title": "В Пензе начали принимать документы для предоставления регионального семейного капитала",
+          "source_kind": "official",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "search_excerpt_only"
+        }
+      ],
+      "materials": [],
+      "authority": {
+        "url": "https://trud.pnzreg.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "59": {
+      "region_id": "59",
+      "region": "Пермский край",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://minsoc.permkrai.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "60": {
+      "region_id": "60",
+      "region": "Псковская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://trud.pskov.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "61": {
+      "region_id": "61",
+      "region": "Ростовская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [
+        {
+          "id": "61-public-0",
+          "title": "Поддержка семей с детьми: региональный перечень",
+          "description": "Найден открытый перечень мер поддержки. Состав перечня, действующие условия и отдельные выплаты ещё сверяются.",
+          "source_url": "https://www.donland.ru/activity/2070/",
+          "source_title": "Социальная поддержка семей с детьми",
+          "source_kind": "official",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "page_or_search_available"
+        }
+      ],
+      "materials": [],
+      "authority": {
+        "url": "https://mintrud.donland.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "62": {
+      "region_id": "62",
+      "region": "Рязанская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [
+        {
+          "id": "62-public-0",
+          "title": "Поддержка многодетных семей: региональный перечень",
+          "description": "Найден открытый перечень мер поддержки. Состав перечня, действующие условия и отдельные выплаты ещё сверяются.",
+          "source_url": "https://upr.ryazanszn.ru/news/v-shtabe-obshchestvennoy-podderzhki-v-ryazanskoy-oblasti-partii-edinaya-rossiya-proshel",
+          "source_title": "В Штабе общественной поддержки в Рязанской области партии «Единая Россия» прошел круглый стол партпроекта «Крепкая семья» | Управление социальной защиты населен",
+          "source_kind": "official",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "page_or_search_available"
+        }
+      ],
+      "materials": [],
+      "authority": {
+        "url": "https://mintrudsoc.ryazan.gov.ru",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "63": {
+      "region_id": "63",
+      "region": "Самарская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://minsocdem.samregion.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "64": {
+      "region_id": "64",
+      "region": "Саратовская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://social.saratov.gov.ru/contact/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "65": {
+      "region_id": "65",
+      "region": "Сахалинская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://msz.sakhalin.gov.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "66": {
+      "region_id": "66",
+      "region": "Свердловская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://msp.midural.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "67": {
+      "region_id": "67",
+      "region": "Смоленская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://socrazvitie.admin-smolensk.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "68": {
+      "region_id": "68",
+      "region": "Тамбовская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://uprsoc.tmbreg.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "69": {
+      "region_id": "69",
+      "region": "Тверская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [
+        {
+          "id": "69-public-0",
+          "title": "Региональный материнский капитал",
+          "description": "В открытом источнике есть сведения об этой мере. Актуальные условия, размер и порядок оформления ещё проверяются.",
+          "source_url": "https://minsemya.tverreg.ru/mery-podderzhki-semey-s-detmi/rozhdenie-malysha/regionalnyy-materinskiy-semeynyy-kapital-/?special=y",
+          "source_title": "Региональный материнский (семейный) капитал при ...",
+          "source_kind": "official",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "page_or_search_available"
+        }
+      ],
+      "materials": [],
+      "authority": {
+        "url": "https://минсоцзащиты.тверскаяобласть.рф/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "70": {
+      "region_id": "70",
+      "region": "Томская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [
+        {
+          "id": "70-public-0",
+          "title": "Поддержка семей с детьми: региональный перечень",
+          "description": "Найден открытый перечень мер поддержки. Состав перечня, действующие условия и отдельные выплаты ещё сверяются.",
+          "source_url": "https://dszn.tomsk.gov.ru/pages/front/view/id/29391",
+          "source_title": "Меры социальной поддержки для семей с детьми в Томской области | Департамент социальной защиты населения Томской области",
+          "source_kind": "official",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "page_or_search_available"
+        }
+      ],
+      "materials": [],
+      "authority": {
+        "url": "https://dszn.tomsk.gov.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "71": {
+      "region_id": "71",
+      "region": "Тульская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [
+        {
+          "id": "71-public-0",
+          "title": "Бесплатный прокат детских вещей",
+          "description": "В открытом источнике есть сведения об этой мере. Актуальные условия, размер и порядок оформления ещё проверяются.",
+          "source_url": "https://deti.gov.ru/Press-Centr/region-news/22831",
+          "source_title": "В Тульской области расширена возможность бесплатного проката детских товаров для семей с маленькими детьми - УПОЛНОМОЧЕННЫЙ ПРИ ПРЕЗИДЕНТЕ РОССИЙСКОЙ ФЕДЕРАЦИИ ",
+          "source_kind": "official",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "page_or_search_available"
+        }
+      ],
+      "materials": [],
+      "authority": {
+        "url": "https://mintrud.tularegion.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "72": {
+      "region_id": "72",
+      "region": "Тюменская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://soc.admtyumen.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "73": {
+      "region_id": "73",
+      "region": "Ульяновская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://sobes73.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "74": {
+      "region_id": "74",
+      "region": "Челябинская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [
+        {
+          "id": "74-public-0",
+          "title": "Выплата на приобретение автомобиля многодетной семье",
+          "description": "В открытом источнике есть сведения об этой мере. Актуальные условия, размер и порядок оформления ещё проверяются.",
+          "source_url": "https://kurchuszn74.ru/%D0%BA%D1%83%D1%80%D1%87%D0%B0%D1%82%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B5-%D1%83%D1%81%D0%B7%D0%BD-%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%B8-%D0%B3-%D1%87%D0%B5-416/",
+          "source_title": "Курчатовское УСЗН Администрации г. Челябинска (2026-04-14 14:01:42 GMT+05:00) — Курчатовское управление социальной защиты населения Администрации города Челябин",
+          "source_kind": "official",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "page_or_search_available"
+        }
+      ],
+      "materials": [],
+      "authority": {
+        "url": "https://minsoc.gov74.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "75": {
+      "region_id": "75",
+      "region": "Забайкальский край",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://minsoc.75.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "76": {
+      "region_id": "76",
+      "region": "Ярославская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [
+        {
+          "id": "76-public-0",
+          "title": "Выплата при рождении ребёнка молодой маме",
+          "description": "В открытом источнике есть сведения об этой мере. Актуальные условия, размер и порядок оформления ещё проверяются.",
+          "source_url": "https://portal.yarregion.ru/depts-ddh/press-center/news/detail.php?ELEMENT_CODE=s-1-yanvarya-2026-goda-vvedena-edinovremennaya-vyplata-v-razmere-200-tysyach-rubley-pri-rozhdenii-re",
+          "source_title": "С 1 января 2026 года введена единовременная выплата в размере 200 тысяч рублей при рождении ребенка",
+          "source_kind": "official",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "page_or_search_available"
+        }
+      ],
+      "materials": [],
+      "authority": {
+        "url": "https://portal.yarregion.ru/depts-dtspn/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "77": {
+      "region_id": "77",
+      "region": "Москва",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [
+        {
+          "id": "77-public-0",
+          "title": "Поддержка семей с детьми: городской перечень",
+          "description": "Найден открытый перечень мер поддержки. Состав перечня, действующие условия и отдельные выплаты ещё сверяются.",
+          "source_url": "https://www.mos.ru/upload/documents/oiv/xkhnnkvbims_fblkcy_lhpmnvc_hxaqr_4.pdf",
+          "source_title": "СОЦИАЛЬНАЯ ПОДДЕРЖКА СЕМЕЙ С ДЕТЬМИ",
+          "source_kind": "official",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "page_or_search_available"
+        }
+      ],
+      "materials": [],
+      "authority": {
+        "url": "https://dszn.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "78": {
+      "region_id": "78",
+      "region": "Санкт-Петербург",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [
+        {
+          "id": "78-public-0",
+          "title": "Региональный материнский капитал",
+          "description": "В открытом источнике есть сведения об этой мере. Актуальные условия, размер и порядок оформления ещё проверяются.",
+          "source_url": "https://gu.spb.ru/knowledge-base/O-regionalnyj-materinskij-kapital/",
+          "source_title": "Региональный материнский капитал",
+          "source_kind": "official",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "page_or_search_available"
+        },
+        {
+          "id": "78-public-1",
+          "title": "Поддержка многодетных семей: городской перечень",
+          "description": "Найден открытый перечень мер поддержки. Состав перечня, действующие условия и отдельные выплаты ещё сверяются.",
+          "source_url": "https://gu.spb.ru/knowledge-base/O-vyplaty-mnogodetnym-semyam/",
+          "source_title": "Выплаты многодетным семьям",
+          "source_kind": "official",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "page_or_search_available"
+        }
+      ],
+      "materials": [],
+      "authority": {
+        "url": "https://www.gov.spb.ru/gov/otrasl/trud/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "79": {
+      "region_id": "79",
+      "region": "Еврейская автономная область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://social.eao.ru",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "80": {
+      "region_id": "80",
+      "region": "Донецкая Народная Республика",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [
+        {
+          "id": "80-public-0",
+          "title": "Поддержка многодетных семей: региональный перечень",
+          "description": "Найден открытый перечень мер поддержки. Состав перечня, действующие условия и отдельные выплаты ещё сверяются.",
+          "source_url": "https://xn--80azg.xn--80ahqgjaddr.xn--p1ai/2025-07-07/200-rz-o-merah-sotsialnoj-podderzhki-mnogodetnyh-semej-v-donetskoj-narodnoj-respublike-dejstvuyushhaya-redaktsiya-po-sostoyaniyu-na-02-06-2026-g.html",
+          "source_title": "200-РЗ | О мерах социальной поддержки многодетных семей в Донецкой Народной Республике (действующая редакция по состоянию на 02.06.2026 г.) | Законодательство",
+          "source_kind": "official",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "page_or_search_available"
+        }
+      ],
+      "materials": [],
+      "authority": {
+        "url": "https://xn--80azg.xn--80ahqgjaddr.xn--p1ai/2025-07-07/200-rz-o-merah-sotsialnoj-podderzhki-mnogodetnyh-semej-v-donetskoj-narodnoj-respublike-dejstvuyushhaya-redaktsiya-po-sostoyaniyu-na-02-06-2026-g.html",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "81": {
+      "region_id": "81",
+      "region": "Луганская Народная Республика",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://base.garant.ru/412895733/",
+        "kind": "public_legal_reference",
+        "directory_source": null
+      }
+    },
+    "83": {
+      "region_id": "83",
+      "region": "Ненецкий автономный округ",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://medsoc.adm-nao.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "84": {
+      "region_id": "84",
+      "region": "Херсонская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://gov.khogov.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "85": {
+      "region_id": "85",
+      "region": "Запорожская область",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://zo.gov.ru/mains/sitemap",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "86": {
+      "region_id": "86",
+      "region": "Ханты-Мансийский автономный округ — Югра",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://deptrud.admhmao.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "87": {
+      "region_id": "87",
+      "region": "Чукотский автономный округ",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://чукотка.рф/depsocpol/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "89": {
+      "region_id": "89",
+      "region": "Ямало-Ненецкий автономный округ",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://dszn.yanao.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "91": {
+      "region_id": "91",
+      "region": "Республика Крым",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://mtrud.rk.gov.ru",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "92": {
+      "region_id": "92",
+      "region": "Севастополь",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://dszn.sev.gov.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "01": {
+      "region_id": "01",
+      "region": "Республика Адыгея",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [
+        {
+          "id": "01-public-0",
+          "title": "Выплата при рождении первого или второго ребёнка молодой маме",
+          "description": "В открытом источнике есть сведения об этой мере. Актуальные условия, размер и порядок оформления ещё проверяются.",
+          "source_url": "https://navigator.adygheya.gov.ru/category/40/",
+          "source_title": "Социальный навигатор",
+          "source_kind": "official",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "page_or_search_available"
+        },
+        {
+          "id": "01-public-1",
+          "title": "Выплата беременным студенткам",
+          "description": "В открытом источнике есть сведения об этой мере. Актуальные условия, размер и порядок оформления ещё проверяются.",
+          "source_url": "https://navigator.adygheya.gov.ru/category/40/",
+          "source_title": "Социальный навигатор",
+          "source_kind": "official",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "page_or_search_available"
+        },
+        {
+          "id": "01-public-2",
+          "title": "Выплата молодой семье при рождении третьего или последующего ребёнка",
+          "description": "В открытом источнике есть сведения об этой мере. Актуальные условия, размер и порядок оформления ещё проверяются.",
+          "source_url": "https://navigator.adygheya.gov.ru/actions/254/",
+          "source_title": "Социальный навигатор",
+          "source_kind": "official",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "page_or_search_available"
+        }
+      ],
+      "materials": [],
+      "authority": {
+        "url": "https://navigator.adygheya.gov.ru/category/40/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "02": {
+      "region_id": "02",
+      "region": "Республика Башкортостан",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://mintrud.bashkortostan.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "03": {
+      "region_id": "03",
+      "region": "Республика Бурятия",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://egov-buryatia.ru/minsoc/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "04": {
+      "region_id": "04",
+      "region": "Республика Алтай",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [
+        {
+          "id": "04-public-0",
+          "title": "Субсидия на оплату жилья и коммунальных услуг",
+          "description": "Найдена страница регионального ведомства о жилищной субсидии. Это мера с федеральным основанием и региональным порядком применения; условия проверяются.",
+          "source_url": "https://www.mt04.ru/otdely/otdel-po-predostavleniyu-mer-sotsialnoy-podderzhki/?ELEMENT_ID=967",
+          "source_title": "21. Субсидия на оплату жилого помещения и коммунальных услуг",
+          "source_kind": "official",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "search_excerpt_only"
+        }
+      ],
+      "materials": [],
+      "authority": {
+        "url": "https://www.mt04.ru",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "05": {
+      "region_id": "05",
+      "region": "Республика Дагестан",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [
+        {
+          "id": "05-public-0",
+          "title": "Поддержка при рождении нескольких детей одновременно",
+          "description": "В открытом источнике есть сведения об этой мере. Актуальные условия, размер и порядок оформления ещё проверяются.",
+          "source_url": "https://dagmintrud.ru/news/mery-sotsialnoy-podderzhki-predusmotrennyh-zakonodatelstvom-dlya-semey-s-detmi-74683",
+          "source_title": "Меры социальной поддержки предусмотренных законодательством для семей с детьми. - Министерство труда и социального развития Республики Дагестан",
+          "source_kind": "official",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "search_excerpt_only"
+        }
+      ],
+      "materials": [],
+      "authority": {
+        "url": "https://dagmintrud.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "06": {
+      "region_id": "06",
+      "region": "Республика Ингушетия",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://mintrudri.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "07": {
+      "region_id": "07",
+      "region": "Кабардино-Балкарская Республика",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [
+        {
+          "id": "07-public-0",
+          "title": "Компенсация родительской платы за детский сад",
+          "description": "В открытом источнике есть сведения об этой мере. Актуальные условия, размер и порядок оформления ещё проверяются.",
+          "source_url": "https://mintrud.kbr.ru/activity/lgoty-i-vyplaty/semyam-s-detmi/kompensatsiya-chasti-roditelskoy-platy-za-soderzhanie-rebenka-v-detskom-doshkolnom-uchrezhdenii.html",
+          "source_title": "Министерство труда и социальной защиты",
+          "source_kind": "official",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "search_excerpt_only"
+        }
+      ],
+      "materials": [],
+      "authority": {
+        "url": "https://mintrud.kbr.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "08": {
+      "region_id": "08",
+      "region": "Республика Калмыкия",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [],
+      "materials": [],
+      "authority": {
+        "url": "https://minsoc08.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    },
+    "09": {
+      "region_id": "09",
+      "region": "Карачаево-Черкесская Республика",
+      "found_at": "2026-10-07",
+      "status": "preliminary_collection",
+      "full_review_complete": false,
+      "topics": [
+        {
+          "id": "09-public-0",
+          "title": "Поддержка семей с детьми: региональный перечень",
+          "description": "Найден открытый перечень мер поддержки. Состав перечня, действующие условия и отдельные выплаты ещё сверяются.",
+          "source_url": "https://www.mintrudkchr.ru/page/gosudarstvennaya-podderzhka-semey-s-detmi",
+          "source_title": "Выплаты семьям с детьми | Министерство труда и социального развития КЧР",
+          "source_kind": "official",
+          "review_status": "preliminary",
+          "found_at": "2026-10-07",
+          "full_review_complete": false,
+          "source_access_status": "page_or_search_available"
+        }
+      ],
+      "materials": [],
+      "authority": {
+        "url": "https://www.mintrudkchr.ru/",
+        "kind": "official_directory",
+        "directory_source": "https://mintrud.gov.ru/social/default/index"
+      }
+    }
+  }
+}
