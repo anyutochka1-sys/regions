@@ -16,6 +16,7 @@
 <form id="familyForm">
 <div class="form-section"><div class="step-title"><span>1</span><h3>Где вы живёте?</h3></div>
 <label for="region">Ваш регион</label><input id="region" list="regionOptions" autocomplete="off" placeholder="Начните вводить название региона" required aria-describedby="regionHint"><datalist id="regionOptions"></datalist><p id="regionHint" class="field-hint">Например, Красноярский край или Самарская область.</p></div>
+<div id="municipalityWrap" hidden><label for="municipality">Живёте в самом Красноярске?</label><select id="municipality"><option value="">Пока не уточнять</option><option value="Красноярск">Да, в городе Красноярске</option><option value="other">Нет, в другом населённом пункте</option></select><p class="field-hint">Ответ нужен для городских выплат, которые не действуют во всём крае.</p></div>
 <div class="form-section"><div class="step-title"><span>2</span><h3>Кто есть в вашей семье?</h3></div>
 <input id="members" type="hidden" value="4">
 <label for="children">Сколько у вас детей?</label><input id="children" type="number" inputmode="numeric" min="0" max="15" step="1" value="0" required aria-describedby="childrenHint"><p id="childrenHint" class="field-hint">Если пока ждёте первого малыша, оставьте 0.</p>
@@ -39,7 +40,7 @@
 </section>
 <section id="results" class="hidden" aria-labelledby="resultsTitle" aria-live="polite">
 <div class="result-head"><div><p class="eyebrow">ВАША ПОДБОРКА</p><h2 id="resultsTitle">Что стоит проверить</h2></div><button class="ghost" id="edit">Изменить ответы</button></div>
-<p id="summary" class="summary"></p><div id="regionalStatus"></div><div id="cards"></div>
+<p class="field-hint"><a href="./krasnoyarsk-audit.html">Весь перечень Красноярского края: условия, повторы и отменённые меры →</a></p><p id="summary" class="summary"></p><div id="regionalStatus"></div><div id="cards"></div>
 <div class="help"><p class="eyebrow">ЕСЛИ НУЖНО РАЗОБРАТЬСЯ ВМЕСТЕ</p><h2>Помогу проверить вашу ситуацию</h2><p class="muted">Разберём условия выплат и ваши вопросы на консультации.</p>
 <div class="services">
 <article><h3>Один вопрос</h3><strong>1 500 ₽</strong><p>Разберём один конкретный вопрос о выплатах или льготах.</p><a class="cta" href="https://t.me/annaproposobiya" target="_blank" rel="noopener">Задать вопрос</a></article>
