@@ -283,7 +283,7 @@
       "name": "Красноярский край",
       "public": true,
       "status": "regional_base_active",
-      "data_status": "verified_core",
+      "data_status": "confirmed_catalog_pending_documents",
       "review_status": "in_progress",
       "source_ids": [
         "krsk-law",
@@ -296,7 +296,10 @@
       "review_file": "data/reviews/24-krasnoyarsk.json",
       "data_file": "24-krasnoyarsk.json",
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "catalog_cards": 76,
+      "confirmed_source_items": 77,
+      "last_checked": "2026-10-08"
     },
     {
       "id": "45",

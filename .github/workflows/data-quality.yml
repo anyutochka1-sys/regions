@@ -33,8 +33,11 @@ jobs:
               if not mid: errors.append("measure without id")
               elif mid in ids: errors.append(f"duplicate id: {mid}")
               ids.add(mid)
-              if m.get("review_status")=="verified":
-                  for key in ("title","level","jurisdiction","effective_from","legal_basis","official_urls"):
+              if m.get("review_status") in ("verified", "conditions_confirmed"):
+                  required=("title","level","jurisdiction","legal_basis","official_urls","verified")
+                  if m.get("review_status")=="verified": required+=("effective_from",)
+                  if m.get("review_status")=="conditions_confirmed": required+=("evidence_documents","source_review_items","verification_scope")
+                  for key in required:
                       if not m.get(key): errors.append(f"{mid}: missing {key}")
                   q=m.get("eligibility") or {}
                   cmy=q.get("child_max_years")
@@ -69,3 +72,4 @@ jobs:
               sys.exit(1)
           print(f"Verified measures passed quality checks across {len(files)} data files.")
           PY
+

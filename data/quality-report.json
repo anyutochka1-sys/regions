@@ -4,5 +4,7 @@
   "invalid_verified_count": 0,
   "invalid_verified": [],
   "validation_scope": "Автоматическая проверка структуры, обязательных полей, реестра источников и согласованности данных в data/federal.json и трёх файлах регионов. Не является полной юридической проверкой каждого региона.",
-  "checked_data_files": 4
+  "checked_data_files": 4,
+  "conditions_confirmed_count": 66,
+  "krasnoyarsk_catalog_cards": 76
 }

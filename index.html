@@ -5,7 +5,7 @@
 <meta name="description" content="Найдите выплаты и льготы для семьи в вашем регионе. Бесплатный навигатор Анны про пособия.">
 <meta name="theme-color" content="#f7f8f4">
 <title>Выплаты и льготы для семьи · Анна про пособия</title>
-<link rel="stylesheet" href="styles.css?v=20261008-twins-v5">
+<link rel="stylesheet" href="styles.css?v=20261008-catalog-v6">
 </head>
 <body>
 <header><a class="brand" href="./" aria-label="Анна про пособия — главная"><b>Анна</b><span>ПРО ПОСОБИЯ</span></a><span class="badge">Бесплатный справочник</span></header>
@@ -16,7 +16,7 @@
 <form id="familyForm">
 <div class="form-section"><div class="step-title"><span>1</span><h3>Где вы живёте?</h3></div>
 <label for="region">Ваш регион</label><input id="region" list="regionOptions" autocomplete="off" placeholder="Начните вводить название региона" required aria-describedby="regionHint"><datalist id="regionOptions"></datalist><p id="regionHint" class="field-hint">Например, Красноярский край или Самарская область.</p></div>
-<div id="municipalityWrap" hidden><label for="municipality">Живёте в самом Красноярске?</label><select id="municipality"><option value="">Пока не уточнять</option><option value="Красноярск">Да, в городе Красноярске</option><option value="other">Нет, в другом населённом пункте</option></select><p class="field-hint">Ответ нужен для городских выплат, которые не действуют во всём крае.</p></div>
+<div id="municipalityWrap" hidden><label for="municipality">Где в Красноярском крае вы живёте?</label><select id="municipality"><option value="">Пока не уточнять</option><option value="Красноярск">Да, в городе Красноярске</option><option value="other">Другой населённый пункт, кроме Таймыра</option><option value="taimyrRural">Сельская местность Таймыра</option><option value="Дудинка">Дудинка</option><option value="Диксон">Диксон</option><option value="taimyrOther">Другая территория Таймыра</option></select><p class="field-hint">Ответ нужен для городских выплат и отдельных мер Таймыра.</p></div>
 <div class="form-section"><div class="step-title"><span>2</span><h3>Кто есть в вашей семье?</h3></div>
 <input id="members" type="hidden" value="4">
 <label for="children">Сколько у вас детей?</label><input id="children" type="number" inputmode="numeric" min="0" max="15" step="1" value="0" required aria-describedby="childrenHint"><p id="childrenHint" class="field-hint">Если пока ждёте первого малыша, оставьте 0.</p>
@@ -34,10 +34,11 @@
 <label><input id="conscriptFamily" type="checkbox"> Муж или отец ребёнка служит по призыву</label>
 <label><input id="fosterFamily" type="checkbox"> Есть усыновлённый ребёнок, опека или приёмная семья</label>
 <label><input id="motherHeroine" type="checkbox"> Есть звание «Мать-героиня»</label>
-</fieldset></div></details>
+</fieldset><label for="incomeBand">Доход на одного члена семьи относительно прожиточного минимума</label><select id="incomeBand"><option value="">Не знаю / не уточнять</option><option value="0">Меньше 1 ПМ</option><option value="1">От 1 до менее 1,25 ПМ</option><option value="1.25">От 1,25 до менее 1,5 ПМ</option><option value="1.5">От 1,5 до менее 2 ПМ</option><option value="2">2 ПМ и выше</option></select><p class="field-hint">Учитывается ПМ на душу населения для вашей территории. При неизвестном доходе это условие останется в карточке; пограничные значения требуют точного расчёта.</p><div id="regionalQuestions"></div></div></details>
 <div class="form-action"><button id="showMeasures" type="submit">Посмотреть выплаты и льготы <span aria-hidden="true">→</span></button><p id="privacyNote" class="privacy-note">Без регистрации. Ответы остаются в вашем браузере.</p></div>
 </form>
 </section>
+<section id="regionCatalog" hidden><details class="catalog"><summary id="catalogTitle">Весь каталог региона</summary><p class="field-hint">Это общий справочник, а не ваша персональная подборка. Здесь можно найти меру и прочитать условия, даже если вы пока не заполнили анкету.</p><label for="catalogSearch">Найти меру в каталоге</label><input id="catalogSearch" type="search" placeholder="Например, ипотека, проезд или детский сад"><div id="catalogCards"></div><p id="catalogEmpty" hidden>По этому запросу ничего не найдено.</p></details></section>
 <section id="results" class="hidden" aria-labelledby="resultsTitle" aria-live="polite">
 <div class="result-head"><div><p class="eyebrow">ВАША ПОДБОРКА</p><h2 id="resultsTitle">Что стоит проверить</h2></div><button class="ghost" id="edit">Изменить ответы</button></div>
 <p class="field-hint"><a href="./krasnoyarsk-audit.html">Весь перечень Красноярского края: условия, повторы и отменённые меры →</a></p><p id="summary" class="summary"></p><div id="regionalStatus"></div><div id="cards"></div>
@@ -49,4 +50,4 @@
 </div><p class="contact">Напишите мне в Telegram — обсудим, какая помощь вам нужна.</p></div>
 </section>
 </main><footer><b>Анна про пособия</b><p>Справочник помогает найти варианты поддержки. Назначение зависит от всех условий программы. Региональная база постепенно пополняется.</p></footer>
-<script src="app.js?v=20261008-twins-v5"></script></body></html>
+<script src="app.js?v=20261008-catalog-v6"></script></body></html>
