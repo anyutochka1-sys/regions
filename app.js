@@ -53,6 +53,7 @@ function fits(m,ctx){
  if(q.child_max_years!=null&&!ctx.ages.some(a=>a<=q.child_max_years))return false;
  if(q.child_max_years_exclusive!=null&&!ctx.ages.some(a=>a<q.child_max_years_exclusive))return false;
  if(q.child_min_years!=null&&!ctx.ages.some(a=>a>=q.child_min_years&&(q.child_max_years==null||a<=q.child_max_years)&&(q.child_max_years_exclusive==null||a<q.child_max_years_exclusive)))return false;
+ if(q.children_in_age_range_min!=null&&ctx.ages.filter(a=>(q.child_min_years==null||a>=q.child_min_years)&&(q.child_max_years==null||a<=q.child_max_years)&&(q.child_max_years_exclusive==null||a<q.child_max_years_exclusive)).length<q.children_in_age_range_min)return false;
  if(q.event==="birth"&&!ctx.ages.some(a=>a<1))return false;
  if(q.pregnancy&&!ctx.preg)return false;
  if(q.pregnancy_weeks_min!=null&&ctx.pregnancyWeeks>0&&ctx.pregnancyWeeks<q.pregnancy_weeks_min)return false;
