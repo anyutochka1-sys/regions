@@ -6,3 +6,5 @@ krsk-gazette
 krsk-city
 krsk-city-edu
 krsk-college
+krsk-csp
+krsk-rcss
