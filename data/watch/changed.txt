@@ -1,10 +1,12 @@
 sfr
 nso-social
+samara-edu
 krsk-prosecutor
 krsk-gov-channel
 krsk-gazette
 krsk-city
 krsk-city-edu
 krsk-college
+samara-social-services
 krsk-csp
 krsk-rcss
