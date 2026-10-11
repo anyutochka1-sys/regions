@@ -2,52 +2,23 @@
 <html lang="ru">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Найдите выплаты и льготы для семьи в вашем регионе. Бесплатный навигатор Анны про пособия.">
+<meta name="description" content="Найдите выплаты и льготы для семьи в вашем регионе. Бесплатный справочник Анны про пособия.">
 <meta name="theme-color" content="#f7f8f4">
 <title>Выплаты и льготы для семьи · Анна про пособия</title>
-<link rel="stylesheet" href="styles.css?v=20261008-catalog-v6">
+<link rel="stylesheet" href="styles.css?v=20261011-directory-v1">
 </head>
 <body>
 <header><a class="brand" href="./" aria-label="Анна про пособия — главная"><b>Анна</b><span>ПРО ПОСОБИЯ</span></a><span class="badge">Бесплатный справочник</span></header>
 <main>
-<section class="hero"><p class="eyebrow">ПОДДЕРЖКА СЕМЕЙ · ВСЕ РЕГИОНЫ</p><h1>Выплаты и льготы<br>для вашей семьи</h1><p class="lead">Выберите регион и расскажите немного о семье. Покажем, на какие меры поддержки стоит обратить внимание.</p></section>
-<section class="form-card" aria-labelledby="formTitle">
-<div class="form-intro"><h2 id="formTitle">Найдём подходящие варианты</h2><p class="muted">Можно отметить и беременность, и детей.</p></div>
-<form id="familyForm">
-<div class="form-section"><div class="step-title"><span>1</span><h3>Где вы живёте?</h3></div>
-<label for="region">Ваш регион</label><input id="region" list="regionOptions" autocomplete="off" placeholder="Начните вводить название региона" required aria-describedby="regionHint"><datalist id="regionOptions"></datalist><p id="regionHint" class="field-hint">Например, Красноярский край или Самарская область.</p></div>
-<div id="municipalityWrap" hidden><label for="municipality">Где в Красноярском крае вы живёте?</label><select id="municipality"><option value="">Пока не уточнять</option><option value="Красноярск">Да, в городе Красноярске</option><option value="other">Другой населённый пункт, кроме Таймыра</option><option value="taimyrRural">Сельская местность Таймыра</option><option value="Дудинка">Дудинка</option><option value="Диксон">Диксон</option><option value="taimyrOther">Другая территория Таймыра</option></select><p class="field-hint">Ответ нужен для городских выплат и отдельных мер Таймыра.</p></div>
-<div class="form-section"><div class="step-title"><span>2</span><h3>Кто есть в вашей семье?</h3></div>
-<input id="members" type="hidden" value="4">
-<label for="children">Сколько у вас детей?</label><input id="children" type="number" inputmode="numeric" min="0" max="15" step="1" value="0" required aria-describedby="childrenHint"><p id="childrenHint" class="field-hint">Если пока ждёте первого малыша, оставьте 0.</p>
-<div id="ages"></div>
-<div class="toggles"><label class="check-card"><input id="pregnant" type="checkbox"><span><strong>Я беременна</strong><small>Учтём поддержку будущих мам</small></span></label><label class="check-card"><input id="disabledChild" type="checkbox"><span><strong>Есть ребёнок с инвалидностью</strong><small>Учтём дополнительные меры</small></span></label></div>
-</div>
-<details class="optional"><summary><span><strong>Добавить особенности семьи</strong><small>Многодетность, учёба, опека и другие обстоятельства</small></span><span class="plus" aria-hidden="true">+</span></summary>
-<div class="optional-body"><p class="field-hint">Отметьте только то, что относится к вам. Остальное можно пропустить.</p>
-<div id="extraQuestions"></div>
-<fieldset class="context-box"><legend>Дополнительные обстоятельства</legend>
-<label><input id="largeFamily" type="checkbox"> Семья имеет статус многодетной</label>
-<label><input id="schoolChild" type="checkbox"> Есть ребёнок, который учится в школе или очно в колледже</label>
-<label><input id="kindergartenAttendance" type="checkbox"> Есть ребёнок, который посещает детский сад, и вы оплачиваете присмотр и уход</label>
-<label><input id="noKindergarten" type="checkbox"> Ребёнок не посещает детский сад из-за отсутствия места</label>
-<label><input id="conscriptFamily" type="checkbox"> Муж или отец ребёнка служит по призыву</label>
-<label><input id="fosterFamily" type="checkbox"> Есть усыновлённый ребёнок, опека или приёмная семья</label>
-<label><input id="motherHeroine" type="checkbox"> Есть звание «Мать-героиня»</label>
-</fieldset><label for="incomeBand">Доход на одного члена семьи относительно прожиточного минимума</label><select id="incomeBand"><option value="">Не знаю / не уточнять</option><option value="0">Меньше 1 ПМ</option><option value="1">От 1 до менее 1,25 ПМ</option><option value="1.25">От 1,25 до менее 1,5 ПМ</option><option value="1.5">От 1,5 до менее 2 ПМ</option><option value="2">2 ПМ и выше</option></select><p class="field-hint">Учитывается ПМ на душу населения для вашей территории. При неизвестном доходе это условие останется в карточке; пограничные значения требуют точного расчёта.</p><div id="regionalQuestions"></div></div></details>
-<div class="form-action"><button id="showMeasures" type="submit">Посмотреть выплаты и льготы <span aria-hidden="true">→</span></button><p id="privacyNote" class="privacy-note">Без регистрации. Ответы остаются в вашем браузере.</p></div>
-</form>
-</section>
-<section id="regionCatalog" hidden><details class="catalog"><summary id="catalogTitle">Весь каталог региона</summary><p class="field-hint">Это общий справочник, а не ваша персональная подборка. Здесь можно найти меру и прочитать условия, даже если вы пока не заполнили анкету.</p><label for="catalogSearch">Найти меру в каталоге</label><input id="catalogSearch" type="search" placeholder="Например, ипотека, проезд или детский сад"><div id="catalogCards"></div><p id="catalogEmpty" hidden>По этому запросу ничего не найдено.</p></details></section>
-<section id="results" class="hidden" aria-labelledby="resultsTitle" aria-live="polite">
-<div class="result-head"><div><p class="eyebrow">ВАША ПОДБОРКА</p><h2 id="resultsTitle">Что стоит проверить</h2></div><button class="ghost" id="edit">Изменить ответы</button></div>
-<p class="field-hint"><a href="./krasnoyarsk-audit.html">Весь перечень Красноярского края: условия, повторы и отменённые меры →</a></p><p id="summary" class="summary"></p><div id="regionalStatus"></div><div id="cards"></div>
-<div class="help"><p class="eyebrow">ЕСЛИ НУЖНО РАЗОБРАТЬСЯ ВМЕСТЕ</p><h2>Помогу проверить вашу ситуацию</h2><p class="muted">Разберём условия выплат и ваши вопросы на консультации.</p>
+<section class="hero"><p class="eyebrow">ВЫПЛАТЫ · ЛЬГОТЫ · ПРАВА СЕМЬИ</p><h1>Что есть<br>в вашем регионе</h1><p class="lead">Выберите регион — покажем выплаты и льготы, собранные в справочнике. В каждой карточке — краткие условия и размер поддержки.</p></section>
+<section class="form-card" aria-labelledby="formTitle"><h2 id="formTitle">Выберите регион</h2><form id="regionForm"><label for="region">Ваш регион</label><input id="region" list="regionOptions" autocomplete="off" placeholder="Начните вводить название" required aria-describedby="regionHint"><datalist id="regionOptions"></datalist><p class="field-hint" id="regionHint">Например, Красноярский край или Самарская область.</p><div class="form-action"><button id="showMeasures" type="submit">Показать выплаты и льготы</button><p id="loadingNote" class="privacy-note" role="status">Загружаем список регионов…</p></div></form></section>
+<section id="results" hidden aria-labelledby="resultsTitle"><div class="result-head"><div><p class="eyebrow">СПРАВОЧНИК РЕГИОНА</p><h2 id="resultsTitle"></h2><p id="directoryCount" class="summary"></p></div></div><p class="directory-intro">Здесь собраны меры для разных семей. Откройте карточку, чтобы узнать, кому она предназначена. Местные льготы действуют только на указанной территории.</p><div id="regionalStatus" class="field-hint"></div>
+<div class="audit-invite"><div><strong>Хотите понять, что положено вашей семье?</strong><p>На аудите проверю вашу ситуацию, уже оформленные выплаты и то, что можно получить дополнительно.</p></div><a href="#familyAudit">Подробнее об аудите →</a></div>
+<label for="directorySearch">Найти выплату или льготу</label><input id="directorySearch" type="search" placeholder="Например, маткапитал, детский сад или жильё"><div id="cards"></div><p id="searchEmpty" hidden role="status">Ничего не найдено. Попробуйте другое слово.</p><div id="preliminary"></div></section>
+<section id="familyAudit" class="help"><p class="eyebrow">ПОМОЩЬ В ВАШЕЙ СИТУАЦИИ</p><h2>Разберём, что положено вашей семье</h2><p class="muted">Справочник показывает, какие меры существуют. На консультации или аудите проверю условия именно для вас, сроки обращения и нужные документы.</p>
 <div class="services">
-<article><h3>Один вопрос</h3><strong>1 500 ₽</strong><p>Разберём один конкретный вопрос о выплатах или льготах.</p><a class="cta" href="https://t.me/annaproposobiya" target="_blank" rel="noopener">Задать вопрос</a></article>
-<article><h3>Консультация</h3><strong>2 900 ₽</strong><p>Подробно обсудим вашу ситуацию и условия поддержки.</p><a class="cta secondary" href="https://t.me/annaproposobiya" target="_blank" rel="noopener">Записаться</a></article>
-<article class="featured"><span>ПОДРОБНЫЙ РАЗБОР</span><h3>Аудит выплат семьи</h3><strong>4 900 ₽</strong><p>Проверим выплаты и льготы, которые могут быть доступны семье.</p><a class="cta secondary" href="https://t.me/annaproposobiya" target="_blank" rel="noopener">Заказать аудит</a></article>
-</div><p class="contact">Напишите мне в Telegram — обсудим, какая помощь вам нужна.</p></div>
-</section>
-</main><footer><b>Анна про пособия</b><p>Справочник помогает найти варианты поддержки. Назначение зависит от всех условий программы. Региональная база постепенно пополняется.</p></footer>
-<script src="app.js?v=20261008-catalog-v6"></script></body></html>
+<article><h3>Один вопрос</h3><strong>1 500 ₽</strong><p>Отвечу на один конкретный вопрос о выплатах или льготах.</p><a class="cta" href="https://t.me/annaproposobiya" target="_blank" rel="noopener">Задать вопрос</a></article>
+<article><h3>Консультация</h3><strong>2 900 ₽</strong><p>Разберём вашу ситуацию и условия нужных выплат.</p><a class="cta secondary" href="https://t.me/annaproposobiya" target="_blank" rel="noopener">Записаться</a></article>
+<article class="featured"><span>ПОДРОБНЫЙ РАЗБОР</span><h3>Аудит выплат семьи</h3><strong>4 900 ₽</strong><p>Разберу вашу семью: что положено, что уже оформлено и какие выплаты можно получить дополнительно. Проверю условия, сроки и документы.</p><a class="cta secondary" href="https://t.me/annaproposobiya" target="_blank" rel="noopener">Заказать аудит</a></article>
+</div><p class="contact">Напишите мне в Telegram — обсудим, какая помощь вам нужна.</p>
+</section></main><footer><b>Анна про пособия</b><p>Перечень выплат и льгот по регионам. База пополняется. Назначение зависит от условий каждой программы.</p></footer><script src="app.js?v=20261011-directory-v1"></script></body></html>

@@ -1,97 +1,52 @@
-let measures=[];let regions=[];let preliminary={};
-const children=document.querySelector("#children"),ages=document.querySelector("#ages"),extra=document.querySelector("#extraQuestions");
-const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-function drawAges(){const previous=[...document.querySelectorAll(".age")].map(x=>x.value);let n=Math.max(0,Math.min(15,Math.trunc(+children.value||0)));ages.innerHTML=n?'<h3>Возраст детей, в годах</h3><p class="field-hint">Для ребёнка младше года укажите возраст дробью: например, 0,5 для 6 месяцев.</p><div class="age-grid">'+Array.from({length:n},(_,i)=>'<label>Ребёнок '+(i+1)+'<input class="age" type="number" inputmode="decimal" min="0" max="30" step="0.1" value="'+esc(previous[i]||"")+'" placeholder="Например, 3" required></label>').join("")+'</div>':""}
-function drawExtra(){extra.innerHTML='<label id="pregnancyWeeksWrap" style="display:none">Срок беременности, недель<input id="pregnancyWeeks" type="number" min="1" max="45" step="1" placeholder="Например, 26"></label><div class="grid2"><label>Возраст мамы<input id="motherAge" type="number" min="14" max="80" placeholder="Необязательно"></label><label>Дети родились одновременно?<select id="multipleBirth"><option value="">Не относится</option><option value="yes">Да</option><option value="no">Нет</option></select></label></div><label><input id="singleMother" type="checkbox"> Мать имеет статус одинокой матери либо вы опекун её ребёнка</label><label><input id="studentFamily" type="checkbox"> Оба родителя состоят в браке и учатся очно</label><label><input id="disabledParents" type="checkbox"> Оба родителя или единственный родитель имеют инвалидность</label><label><input id="orphanStudent" type="checkbox"> Проверить меры для учащегося из числа детей-сирот или оставшихся без попечения родителей</label><label><input id="student1822" type="checkbox"> Есть ребёнок 18–22 лет, который учится очно</label>'}
-children.addEventListener("input",()=>{drawAges();syncPregnancyWeeks()});function syncPregnancyWeeks(){const w=document.querySelector("#pregnancyWeeksWrap");if(w)w.style.display=document.querySelector("#pregnant").checked?"flex":"none"}document.querySelector("#pregnant").addEventListener("change",syncPregnancyWeeks);drawAges();drawExtra();syncPregnancyWeeks();
-let loadedRegion="";
-function regionDataFile(regionName){const r=regions.find(x=>x.name===regionName);return r?.data_file?"./data/regions/"+r.data_file:""}
-async function loadMeasures(regionName=""){try{
- const [fr,rr,pr]=await Promise.all([fetch("./data/federal.json",{cache:"no-store"}),fetch("./data/regions.json",{cache:"no-store"}),fetch("./data/preliminary.json",{cache:"no-store"})]);
- if(!fr.ok||!rr.ok)throw Error("database");
- const fd=await fr.json(),rd=await rr.json();regions=rd.regions||[];populateRegions();restoreRegion();syncMunicipality();
- preliminary=pr.ok?(await pr.json()).regions||{}:{};
- let regional=[];const file=regionDataFile(regionName);
- if(file){const rg=await fetch(file,{cache:"no-store"});if(!rg.ok)throw Error("regional");const gd=await rg.json();regional=gd.measures||[];renderProfileQuestions(gd.profile_questions||[])}
- measures=[...(fd.measures||[]),...regional].filter(x=>x.status==="active"&&["verified","conditions_confirmed"].includes(x.review_status));loadedRegion=regionName||"";renderCatalog(regional,regionName);return true;
- }catch(e){measures=[];loadedRegion="";document.querySelector("#cards").innerHTML='<p>База мер временно не загрузилась. Попробуйте обновить страницу.</p>';return false}}
+let regions=[],federal=[],preliminary={},requestId=0;
+const input=document.querySelector('#region'),button=document.querySelector('#showMeasures'),results=document.querySelector('#results');
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+async function getJson(url){const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error('load');return r.json()}
+function publicMeasures(items){return items.filter(m=>m.status==='active'&&['verified','conditions_confirmed'].includes(m.review_status)&&isCurrentlyEffective(m))}
+const ready=(async()=>{
+ const [rr,ff,pp]=await Promise.all([getJson('./data/regions.json'),getJson('./data/federal.json'),getJson('./data/preliminary.json').catch(()=>({regions:{}}))]);
+ regions=rr.regions||[];federal=ff.measures||[];preliminary=pp.regions||{};
+ document.querySelector('#regionOptions').innerHTML=regions.filter(r=>r.public!==false).map(r=>'<option value="'+esc(r.name)+'"></option>').join('');
+ document.querySelector('#loadingNote').textContent='Без регистрации. Достаточно выбрать регион.';
+})().catch(()=>{document.querySelector('#loadingNote').textContent='Не удалось загрузить список регионов. Обновите страницу.';throw Error('initial-load')});
+function pickedRegion(){return regions.find(r=>r.name.toLocaleLowerCase('ru')===input.value.trim().toLocaleLowerCase('ru'))}
+async function showRegion(scroll=false){
+ const ticket=++requestId;button.disabled=true;button.textContent='Загружаем перечень…';results.hidden=true;
+ try{
+  await ready;const region=pickedRegion();if(!region){input.setCustomValidity('Выберите регион из подсказок под полем.');input.reportValidity();return}
+  input.setCustomValidity('');input.value=region.name;
+  const data=region.data_file?await getJson('./data/regions/'+region.data_file):{measures:[]};if(ticket!==requestId)return;
+  const local=publicMeasures(data.measures||[]),fed=publicMeasures(federal);
+  const group=(title,items)=>items.length?'<section class="directory-group"><h3 class="group-title">'+esc(title)+' <span class="count">'+items.length+'</span></h3>'+items.map(m=>'<div data-search="'+esc((m.title+' '+(m.conditions||[]).join(' ')).toLocaleLowerCase('ru'))+'">'+renderCard(m)+'</div>').join('')+'</section>':'';
+  let cards=group('Федеральные выплаты и льготы',fed)+group('Краевые и областные меры',local.filter(m=>m.level!=='municipal'));
+  for(const city of new Set(local.filter(m=>m.level==='municipal').map(m=>m.municipality||'Отдельные территории')))cards+=group('Местные меры — '+city,local.filter(m=>m.level==='municipal'&&(m.municipality||'Отдельные территории')===city));
+  document.querySelector('#cards').innerHTML=cards;
+  document.querySelector('#resultsTitle').textContent=region.name;
+  document.querySelector('#directoryCount').textContent=fed.length+' федеральных · '+local.length+' региональных и местных карточек';
+  document.querySelector('#regionalStatus').innerHTML='<p>'+ (local.length?'Показаны все действующие карточки, добавленные в справочник для этого региона.':'Региональные меры пока собираются. Ниже доступны федеральные выплаты и льготы.')+' Перечень пополняется.</p>'+(region.id==='24'?'<p><a href="./krasnoyarsk-audit.html">Посмотреть сверку перечня Красноярского края →</a></p>':'');
+  document.querySelector('#preliminary').innerHTML=preliminaryHtml(region);
+  document.querySelector('#directorySearch').value='';document.querySelector('#searchEmpty').hidden=true;
+  const url=new URL(location.href);url.searchParams.set('region',region.name);history.replaceState(null,'',url);
+  results.hidden=false;if(scroll)results.scrollIntoView({behavior:'smooth',block:'start'});
+ }catch(e){if(ticket!==requestId)return;results.hidden=false;document.querySelector('#resultsTitle').textContent='Не удалось загрузить перечень';document.querySelector('#directoryCount').textContent='Попробуйте ещё раз.';document.querySelector('#cards').innerHTML='';document.querySelector('#regionalStatus').innerHTML='';document.querySelector('#preliminary').innerHTML='';}
+ finally{if(ticket===requestId){button.disabled=false;button.textContent='Показать выплаты и льготы'}}
+}
+document.querySelector('#regionForm').addEventListener('submit',e=>{e.preventDefault();showRegion(true)});
+input.addEventListener('input',()=>{input.setCustomValidity('');requestId++;button.disabled=false;button.textContent='Показать выплаты и льготы';results.hidden=true});
+input.addEventListener('change',async()=>{try{await ready;if(pickedRegion())showRegion(false)}catch(e){}});
+document.querySelector('#directorySearch').addEventListener('input',e=>{const term=e.target.value.trim().toLocaleLowerCase('ru');let count=0;for(const row of document.querySelectorAll('[data-search]')){row.hidden=!row.dataset.search.includes(term);if(!row.hidden)count++}for(const group of document.querySelectorAll('.directory-group'))group.hidden=![...group.querySelectorAll('[data-search]')].some(r=>!r.hidden);document.querySelector('#searchEmpty').hidden=count>0});
+ready.then(()=>{const initial=new URL(location.href).searchParams.get('region');if(initial){input.value=initial;if(pickedRegion())showRegion(false)}}).catch(()=>{});
+
 function preliminaryHtml(regionMeta){const info=preliminary[regionMeta?.id];if(!info)return "";
  const topics=info.topics||[],materials=info.materials||[];
  const link=(url,label)=>/^https?:\/\//.test(url||"")?'<a href="'+esc(url)+'" target="_blank" rel="noopener">'+esc(label)+' ↗</a>':"";
  const topicHtml=topics.map(t=>'<article class="measure compact"><details><summary><span>'+esc(t.title)+'</span><span class="chev">Условия уточняются</span></summary><div class="measure-details"><p>'+esc(t.description)+'</p><p class="small">Эти сведения относятся ко всему региону. Соответствие вашей ситуации ещё не проверено.</p><p>'+link(t.source_url,t.source_kind==="official"?"Официальный источник":"Открытый правовой источник")+'</p><p class="small">Добавлено: '+esc(t.found_at)+'. Юридическая проверка не завершена.</p></div></details></article>').join("");
  const sources=materials.map(m=>'<li>'+link(m.url,m.title)+'</li>').join("");
  const authority=info.authority?'<p>'+link(info.authority.url,info.authority.kind==="public_legal_reference"?"Открытый источник по региону":"Региональное ведомство: сведения и контакты")+'</p>':"";
- return '<section class="preliminary"><h3 class="group-title">Предварительные сведения по региону</h3><p class="small">Здесь собраны темы и перечни из открытых источников. Размеры, сроки и действующие условия ещё уточняются. Этот раздел не является персональной подборкой.</p>'+topicHtml+(sources||authority?'<details class="notice"><summary>Источники и контакты по региону</summary>'+authority+(sources?'<ul>'+sources+'</ul>':"")+'</details>':"")+'</section>';
+ return '<section class="preliminary"><h3 class="group-title">Предварительные сведения по региону</h3><p class="small">Здесь собраны темы и перечни из открытых источников. Размеры, сроки и действующие условия ещё уточняются. Эти сведения пока уточняются.</p>'+topicHtml+(sources||authority?'<details class="notice"><summary>Источники и контакты по региону</summary>'+authority+(sources?'<ul>'+sources+'</ul>':"")+'</details>':"")+'</section>';
 }
 function isCurrentlyEffective(m){const now=new Date();now.setHours(0,0,0,0);if(m.effective_from){const from=new Date(m.effective_from+"T00:00:00");if(from>now)return false}if(m.effective_to){const to=new Date(m.effective_to+"T23:59:59");if(to<now)return false}return true}
-function birthConditionsFit(q,ctx,now=new Date()){
- if(q.birth_order==null&&q.birth_date_min==null&&q.mother_age_at_birth_max==null&&q.mother_age_at_birth_min==null)return true;
- // Для меры на первого ребёнка проверяем старшего, а не последнего рождённого.
- if((q.mother_age_at_birth_min!=null||q.mother_age_at_birth_max!=null)&&!ctx.motherAge)return false;
- const ordered=[...ctx.ages].sort((a,b)=>b-a);
- const candidates=q.birth_order!=null?(ordered[q.birth_order-1]!=null?[ordered[q.birth_order-1]]:[]):ordered;
- return candidates.some(age=>{
-   // Ввод возраста в годах задаёт интервал, а не точную дату рождения.
-   const latestBirth=new Date(now);latestBirth.setFullYear(latestBirth.getFullYear()-Math.floor(age));
-   if(q.birth_date_min&&latestBirth<new Date(q.birth_date_min+"T00:00:00"))return false;
-   // Разница полных возрастов может отличаться от возраста при рождении на год.
-   if(ctx.motherAge){
-     const youngestPossible=ctx.motherAge-Math.floor(age)-1;
-     const oldestPossible=ctx.motherAge+1-Math.floor(age);
-     if(q.mother_age_at_birth_max!=null&&youngestPossible>q.mother_age_at_birth_max)return false;
-     if(q.mother_age_at_birth_min!=null&&oldestPossible<q.mother_age_at_birth_min)return false;
-   }
-   return true;
- });
-}
-function hasLargeFamily(ctx){return Boolean(ctx.largeFamily)||ctx.ages.filter(a=>a<18).length+(ctx.student1822&&ctx.ages.some(a=>a>=18&&a<23)?1:0)>=3}
-function fits(m,ctx){
- if(m.jurisdiction&&m.jurisdiction!=="RU"&&m.jurisdiction!==ctx.region)return false;
- if(m.level==="municipal"&&m.municipality!==ctx.municipality)return false;
- const q=m.eligibility||{};
- if(!birthConditionsFit(q,ctx))return false;
- const flag=k=>k==="largeFamily"?hasLargeFamily(ctx):Boolean(ctx.profile?.[k]);
- if(q.required_flags?.some(k=>!flag(k)))return false;
- if(q.any_flags?.length&&!q.any_flags.some(flag))return false;
- if(q.income_max!=null&&ctx.incomeLower!=null&&ctx.incomeLower>=q.income_max)return false;
- const taimyr=["taimyrRural","Дудинка","Диксон","taimyrOther"].includes(ctx.municipality);
- if(q.location_scope==="taimyr"&&!taimyr)return false;
- if(q.location_scope==="not_taimyr"&&(!ctx.municipality||taimyr))return false;
- if(q.children_min&&ctx.kids<q.children_min)return false;
- if(q.child_max_months_exclusive!=null&&!ctx.ages.some(a=>a*12<q.child_max_months_exclusive))return false;
- if(q.child_max_months!=null&&!ctx.ages.some(a=>a*12<=q.child_max_months))return false;
- if(q.child_max_years!=null&&!ctx.ages.some(a=>a<=q.child_max_years))return false;
- if(q.child_max_years_exclusive!=null&&!ctx.ages.some(a=>a<q.child_max_years_exclusive))return false;
- if(q.child_min_years!=null&&!ctx.ages.some(a=>a>=q.child_min_years&&(q.child_max_years==null||a<=q.child_max_years)&&(q.child_max_years_exclusive==null||a<q.child_max_years_exclusive)))return false;
- if(q.children_in_age_range_min!=null&&ctx.ages.filter(a=>(q.child_min_years==null||a>=q.child_min_years)&&(q.child_max_years==null||a<=q.child_max_years)&&(q.child_max_years_exclusive==null||a<q.child_max_years_exclusive)).length<q.children_in_age_range_min)return false;
- if(q.event==="birth"&&!ctx.ages.some(a=>a<1))return false;
- if(q.pregnancy&&!ctx.preg)return false;
- if(q.pregnancy_weeks_min!=null&&ctx.pregnancyWeeks>0&&ctx.pregnancyWeeks<q.pregnancy_weeks_min)return false;
- if(q.disabled_child&&!ctx.dis)return false;
- if(q.special_category==="wife_of_conscript"&&!(ctx.preg&&ctx.conscript))return false;
- if(q.special_category==="child_of_conscript"&&!ctx.conscript)return false;
- if(q.special_category==="adoption_guardianship_foster"&&!ctx.foster)return false;
- if(q.special_category==="mother_heroine"&&!ctx.motherHeroine)return false;
- if(q.special_category==="large_family"&&!hasLargeFamily(ctx))return false;
- if(q.large_family_or_disabled_parents&&!(hasLargeFamily(ctx)||ctx.disabledParents))return false;
- if(q.school_age_hint&&!ctx.schoolChild&&!ctx.ages.some(a=>a>=6&&a<18))return false;
- if(q.special_category==="student_family_or_single_mother"&&!(ctx.singleMother||ctx.studentFamily))return false;
- if(q.special_category==="orphan_student"&&!ctx.orphanStudent)return false;
- if(q.multiple_birth&&!ctx.multipleBirth)return false;
- if(q.no_kindergarten&&!ctx.noKindergarten)return false;
- if(q.kindergarten_attendance&&!ctx.kindergartenAttendance)return false;
- if(q.mother_age_min!=null&&ctx.motherAge&&ctx.motherAge<q.mother_age_min)return false;
- if(q.mother_age_max!=null&&ctx.motherAge&&ctx.motherAge>q.mother_age_max)return false;
- /* Занятость, обучение и ЖКУ оставляем условиями карточки, а не причинами скрыть меру. */
- if(m.id==="unified"&&!ctx.preg&&!ctx.ages.some(a=>a<17))return false;
- return true;
-}
-function updateUrl(region){try{const u=new URL(location.href);u.searchParams.set("region",region);history.replaceState(null,"",u)}catch(e){}}
-function populateRegions(){const el=document.querySelector("#regionOptions");if(!el||!regions.length)return;el.innerHTML=regions.filter(r=>r.public!==false).map(r=>'<option value="'+esc(r.name)+'"></option>').join("");}
-function restoreRegion(){try{const r=new URL(location.href).searchParams.get("region");if(r&&!document.querySelector("#region").value&&regions.some(x=>x.name===r))document.querySelector("#region").value=r}catch(e){}}
-function syncMunicipality(){const wrap=document.querySelector("#municipalityWrap");if(wrap)wrap.hidden=document.querySelector("#region").value.trim().toLocaleLowerCase("ru")!=="красноярский край"}
-document.querySelector("#region").addEventListener("input",e=>{e.target.setCustomValidity("");syncMunicipality();if(loadedRegion&&e.target.value!==loadedRegion){document.querySelector("#regionCatalog").hidden=true;renderProfileQuestions([])}});
-document.querySelector("#region").addEventListener("change",async e=>{const picked=regions.find(r=>r.name.toLocaleLowerCase("ru")===e.target.value.trim().toLocaleLowerCase("ru"));if(picked&&picked.name!==loadedRegion){e.target.value=picked.name;await loadMeasures(picked.name)}});
+
 function money(v){return new Intl.NumberFormat("ru-RU",{maximumFractionDigits:2}).format(v)+" ₽"}
 function amountText(a){
  if(!a)return"";
@@ -111,22 +66,4 @@ function applicationText(m){const x=m.application||m.how_to_apply||m.apply||null
 function frequencyText(m){const f=m.frequency||m.payment_frequency||"";const map={monthly:"Ежемесячно",once:"Единовременно",annual:"Ежегодно",yearly:"Ежегодно"};return map[f]||f}
 function shortConditions(m){const q=m.eligibility||{};const out=[...(m.conditions||[])];if(q.child_max_years_exclusive!=null)out.push("Возраст ребёнка: младше "+q.child_max_years_exclusive+" лет");if(q.children_min)out.push("Детей в семье: от "+q.children_min);if(q.child_min_years!=null)out.push("Возраст ребёнка: от "+q.child_min_years+" лет");if(q.child_max_months_exclusive!=null)out.push("Возраст ребёнка: младше "+q.child_max_months_exclusive+" месяцев");else if(q.child_max_months!=null)out.push("Возраст ребёнка: до "+q.child_max_months+" месяцев");else if(q.child_max_years!=null)out.push("Возраст ребёнка: до "+q.child_max_years+" лет");if(q.pregnancy_weeks_min!=null)out.push("Беременность: от "+Math.ceil(q.pregnancy_weeks_min)+" недель");if(q.special_category==="large_family")out.push("Нужен статус многодетной семьи");if(q.special_category==="mother_heroine")out.push("Нужно звание «Мать-героиня»");if(q.special_category==="wife_of_conscript")out.push("Супруг проходит военную службу по призыву");if(q.special_category==="child_of_conscript")out.push("Отец ребёнка проходит военную службу по призыву");if(q.special_category==="adoption_guardianship_foster")out.push("Усыновление / опека / попечительство / приёмная семья");if(q.disabled_child)out.push("Ребёнок с инвалидностью");if(q.multiple_birth)out.push("Двое или более детей родились одновременно");if(q.no_kindergarten)out.push("Ребёнок не посещает детский сад из-за отсутствия места");if(q.mother_age_min!=null||q.mother_age_max!=null)out.push("Возраст мамы: "+(q.mother_age_min!=null?"от "+q.mother_age_min+" ":"")+(q.mother_age_max!=null?"до "+q.mother_age_max+" лет":""));if(q.education)out.push("Учитывается обучение ребёнка");if(q.income_limit_text||q.income_limit)out.push(q.income_limit_text||q.income_limit);if(q.parent_employed||q.parent_working)out.push("Для работающего родителя; условия занятости и уплаты НДФЛ проверяются отдельно");if(q.application_window)out.push("Срок подачи заявления: "+q.application_window);if(q.employment_rule_text)out.push(q.employment_rule_text);if(q.property_rule_text)out.push(q.property_rule_text);return out}
 function measureDetails(m){const q=m.eligibility||{};const rows=[];if(q.children_min)rows.push("Детей: от "+q.children_min);if(q.child_max_years!=null)rows.push("Возраст ребёнка: до "+q.child_max_years+" лет");if(q.child_max_months!=null)rows.push("Возраст ребёнка: до "+q.child_max_months+" мес.");if(q.pregnancy_weeks_min!=null)rows.push("Срок беременности: от "+Math.ceil(q.pregnancy_weeks_min)+" недель");if(q.parent_employed||q.parent_working)rows.push("Учитывается официальная занятость родителя");if(q.education)rows.push("Учитывается обучение ребёнка");return rows}
-function renderCard(m){const laws=legalBasisHtml(m);const url=sourceLink(m);const details=[];const amt=amountText(m.amount);if(amt)details.push('<p><strong>'+esc(amt)+'</strong></p>');const cond=shortConditions(m);if(cond.length)details.push('<div class="conditions"><strong>Основные условия:</strong><ul>'+cond.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul></div>');if(applicationText(m))details.push('<p><strong>Как оформить:</strong> '+esc(applicationText(m))+'</p>');if(frequencyText(m))details.push('<p class="small"><strong>Периодичность:</strong> '+esc(frequencyText(m))+'</p>');if(m.effective_from)details.push('<p class="small"><strong>'+esc(m.effective_from_label||"Действует с")+'</strong> '+esc(effectiveText(m))+'</p>');if((m.level==="regional"||m.level==="municipal")&&sourceDate(m))details.push('<p class="small">Дата сверки основных условий: '+esc(sourceDate(m))+'.</p>');details.push('<p class="small">Для назначения учитываются и другие условия программы. Подборка не заменяет проверку права на выплату.</p>');if(url||laws)details.push('<details class="source-disclosure"><summary>Источники и правовые основания</summary>'+laws+url+'</details>');return '<article class="measure compact"><details><summary><span class="measure-label"><span class="measure-name">'+esc(m.title)+'</span>'+(amt?'<span class="measure-teaser">'+esc(amt.replace(/^Размер: /,""))+'</span>':"")+'</span><span class="chev">Подробнее ↓</span></summary><div class="measure-details">'+details.join('')+'</div></details></article>'}
-document.querySelector("#familyForm").addEventListener("submit",async e=>{e.preventDefault();const regionInput=document.querySelector("#region");regionInput.value=regionInput.value.trim();const picked=regions.find(x=>x.name.toLocaleLowerCase("ru")===regionInput.value.toLocaleLowerCase("ru"));if(!picked){regionInput.setCustomValidity("Выберите регион из подсказок под полем.");regionInput.reportValidity();return}regionInput.value=picked.name;const submitButton=document.querySelector("#showMeasures");submitButton.disabled=true;submitButton.textContent="Ищем меры поддержки…";try{const ctx={profile:Object.fromEntries([...document.querySelectorAll("[data-profile]")].map(el=>[el.dataset.profile,el.checked])),incomeLower:document.querySelector("#incomeBand")?.value?Number(document.querySelector("#incomeBand").value):null,student1822:document.querySelector("#student1822")?.checked||false,municipality:document.querySelector("#municipality")?.value||"",region:document.querySelector("#region").value,members:+document.querySelector("#members").value,kids:+children.value,ages:[...document.querySelectorAll(".age")].map(x=>+x.value),preg:document.querySelector("#pregnant").checked,pregnancyWeeks:+(document.querySelector("#pregnancyWeeks")?.value||0),singleMother:document.querySelector("#singleMother")?.checked||false,studentFamily:document.querySelector("#studentFamily")?.checked||false,disabledParents:document.querySelector("#disabledParents")?.checked||false,orphanStudent:document.querySelector("#orphanStudent")?.checked||false,motherAge:+(document.querySelector("#motherAge")?.value||0),multipleBirth:document.querySelector("#multipleBirth")?.value==="yes",dis:document.querySelector("#disabledChild").checked,conscript:document.querySelector("#conscriptFamily")?.checked||false,foster:document.querySelector("#fosterFamily")?.checked||false,motherHeroine:document.querySelector("#motherHeroine")?.checked||false,employed:document.querySelector("#employedParent")?.checked||false,largeFamily:document.querySelector("#largeFamily")?.checked||false,schoolChild:document.querySelector("#schoolChild")?.checked||false,noKindergarten:document.querySelector("#noKindergarten")?.checked||false,kindergartenAttendance:document.querySelector("#kindergartenAttendance")?.checked||false,housingUtilities:document.querySelector("#housingUtilities")?.checked||false};if(loadedRegion!==ctx.region){const ok=await loadMeasures(ctx.region);if(!ok){document.querySelector("#results").classList.remove("hidden");document.querySelector("#regionalStatus").textContent="Не удалось загрузить базу. Обновите страницу и попробуйте ещё раз.";return}}updateUrl(ctx.region);const relevant=measures.filter(m=>isCurrentlyEffective(m)&&fits(m,ctx));const regionMeta=regions.find(r=>r.name===ctx.region);const regionalCount=relevant.filter(x=>x.level==="regional"||x.level==="municipal").length;const federalTotal=measures.filter(m=>m.level==="federal"&&isCurrentlyEffective(m)).length;const regionalTotal=measures.filter(m=>(m.level==="regional"||m.level==="municipal")&&isCurrentlyEffective(m)).length;document.querySelector("#regionalStatus").innerHTML='<div class="notice"><strong>Карточки с подтверждёнными основными условиями доступны в базе.</strong><p>Всего в базе: '+federalTotal+' федеральных и '+regionalTotal+' региональных и муниципальных карточек для выбранного региона. По вашим ответам показано карточек: федеральных — '+relevant.filter(m=>m.level==="federal").length+', региональных и муниципальных — '+regionalCount+'.</p><p>В подборку входят только меры, которые не исключены указанными вами ответами. Другие условия назначения нужно проверить в карточке.</p>'+(regionMeta&&regionMeta.data_status!=="verified_complete"?'<p>Для Красноярского края перенесены подтверждённые позиции полученного семейного перечня. Неподтверждённые вопросы находятся отдельно в сверке. Для других регионов перечень продолжает пополняться.</p>':"")+'</div>';if(ctx.region==="Красноярский край"){document.querySelector("#regionalStatus").insertAdjacentHTML("beforeend",'<p><a href="./krasnoyarsk-audit.html">Сверка всех 95 позиций исходного перечня края →</a></p>'+(!ctx.municipality?'<p>Чтобы учесть городские выплаты, уточните в анкете, живёте ли вы в самом Красноярске.</p>':""))}document.querySelector("#summary").textContent=ctx.region+" • детей: "+ctx.kids+(ctx.preg?" • беременность":"")+(ctx.dis?" • есть ребёнок с инвалидностью":"")+". Откройте карточку, чтобы посмотреть условия.";const fed=relevant.filter(x=>x.level==="federal"),reg=relevant.filter(x=>x.level==="regional"),municipal=relevant.filter(x=>x.level==="municipal");const group=(t,a)=>a.length?'<h3 class="group-title">'+t+' <span class="count">'+a.length+'</span></h3>'+a.map(renderCard).join(""):"";document.querySelector("#cards").innerHTML=group("Федеральные меры",fed)+group("Региональные меры",reg)+[...new Set(municipal.map(x=>x.municipality||""))].map(city=>group("Муниципальные меры"+(city?" — "+esc(city):""),municipal.filter(x=>(x.municipality||"")===city))).join("")+(relevant.length?"":'<p>По введённым данным в проверенной базе пока нет подходящих карточек.</p>');document.querySelector("#cards").insertAdjacentHTML("beforeend",preliminaryHtml(regionMeta));document.querySelector("#results").classList.remove("hidden");document.querySelector("#results").scrollIntoView({behavior:"smooth"})}finally{submitButton.disabled=false;submitButton.innerHTML='Посмотреть выплаты и льготы <span aria-hidden="true">→</span>'}});
-document.querySelector("#edit").onclick=()=>document.querySelector(".form-card").scrollIntoView({behavior:"smooth"});
-loadMeasures(new URL(location.href).searchParams.get("region")||"");
-
-function renderProfileQuestions(questions){
- const box=document.querySelector("#regionalQuestions");if(!box)return;
- const old=Object.fromEntries([...box.querySelectorAll("[data-profile]")].map(e=>[e.dataset.profile,e.checked]));
- const groups=[...new Set(questions.map(q=>q.group))];
- box.innerHTML=questions.length?'<p class="field-hint">Специальные меры появятся в подборке после уточнения обстоятельств. Можно открыть только нужную тему. Весь каталог доступен ниже.</p>'+groups.map(group=>'<details class="profile-group"><summary>'+esc(group)+'</summary>'+questions.filter(q=>q.group===group).map(q=>'<label><input type="checkbox" data-profile="'+esc(q.id)+'"'+(old[q.id]?' checked':'')+'> '+esc(q.label)+'</label>').join('')+'</details>').join(''):'';
-}
-function renderCatalog(items,regionName){
- const box=document.querySelector("#regionCatalog");if(!box)return;
- const active=items.filter(m=>m.status==="active"&&["verified","conditions_confirmed"].includes(m.review_status)&&isCurrentlyEffective(m));
- box.hidden=!active.length;document.querySelector("#catalogTitle").textContent='Весь каталог: '+regionName+' · '+active.length+' карточек';
- document.querySelector("#catalogCards").innerHTML=active.map(m=>'<div data-catalog-text="'+esc((m.title+' '+(m.conditions||[]).join(' ')).toLocaleLowerCase('ru'))+'">'+renderCard(m)+'</div>').join('');
- document.querySelector("#catalogSearch").value='';document.querySelector("#catalogEmpty").hidden=true;
-}
-document.querySelector("#catalogSearch").addEventListener("input",e=>{const term=e.target.value.trim().toLocaleLowerCase('ru');let count=0;for(const row of document.querySelectorAll('[data-catalog-text]')){row.hidden=!row.dataset.catalogText.includes(term);if(!row.hidden)count++}document.querySelector("#catalogEmpty").hidden=count>0});
+function renderCard(m){const laws=legalBasisHtml(m);const url=sourceLink(m);const details=[];const amt=amountText(m.amount);if(amt)details.push('<p><strong>'+esc(amt)+'</strong></p>');const cond=shortConditions(m);if(cond.length)details.push('<div class="conditions"><strong>Основные условия:</strong><ul>'+cond.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul></div>');if(applicationText(m))details.push('<p><strong>Как оформить:</strong> '+esc(applicationText(m))+'</p>');if(frequencyText(m))details.push('<p class="small"><strong>Периодичность:</strong> '+esc(frequencyText(m))+'</p>');if(m.effective_from)details.push('<p class="small"><strong>'+esc(m.effective_from_label||"Действует с")+'</strong> '+esc(effectiveText(m))+'</p>');if((m.level==="regional"||m.level==="municipal")&&sourceDate(m))details.push('<p class="small">Дата сверки основных условий: '+esc(sourceDate(m))+'.</p>');details.push('<p class="small">Для назначения учитываются и другие условия программы. Право на выплату зависит от всех условий программы.</p>');if(url||laws)details.push('<details class="source-disclosure"><summary>Источники и правовые основания</summary>'+laws+url+'</details>');return '<article class="measure compact"><details><summary><span class="measure-label"><span class="measure-name">'+esc(m.title)+'</span>'+(amt?'<span class="measure-teaser">'+esc(amt.replace(/^Размер: /,""))+'</span>':"")+'</span><span class="chev">Подробнее ↓</span></summary><div class="measure-details">'+details.join('')+'</div></details></article>'}
