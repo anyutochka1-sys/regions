@@ -499,6 +499,154 @@
       "source_review_items": [
         "perm-review-twins"
       ]
+    },
+    {
+      "id": "perm-museum-family",
+      "title": "Бесплатный вход в Пермский краеведческий музей",
+      "level": "regional",
+      "jurisdiction": "Пермский край",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "full_legal_review_complete": false,
+      "verification_scope": "Проверены актуальные опубликованные условия конкретного учреждения. Льгота не распространяется автоматически на все учреждения края.",
+      "amount": {
+        "type": "benefit",
+        "note": "Входной билет без оплаты."
+      },
+      "tags": [
+        "multi",
+        "disability",
+        "svo"
+      ],
+      "conditions": [
+        "Право на бесплатный вход имеют многодетные семьи, дети-инвалиды, инвалиды I и II групп с одним сопровождающим, а также участники СВО и члены их семей по перечню музея. Достаточно одного из этих оснований.",
+        "Льгота действует на самостоятельный осмотр выставок и экспозиций музея и его филиалов в любой день работы. Условия экскурсий отличаются."
+      ],
+      "application": "Предъявите в кассе документ, подтверждающий льготную категорию. Для многодетных — удостоверение семьи; музей также принимает предусмотренное его правилами цифровое подтверждение.",
+      "frequency": "В любой день работы музея",
+      "legal_basis": [
+        {
+          "title": "Положение ГКБУК «Пермский краеведческий музей» от 07.08.2026 № 208-ОС",
+          "role": "Правила льготного посещения учреждения"
+        }
+      ],
+      "official_urls": [
+        "https://museumperm.ru/page/pricelist_benefits",
+        "https://museumperm.ru/uploads/2026/08/07/c67d2672908ef8e863094b97f53ea552.pdf"
+      ],
+      "evidence_documents": [
+        {
+          "url": "https://museumperm.ru/page/pricelist_benefits",
+          "type": "official_institution_rules",
+          "reviewed_at": "2026-10-11"
+        },
+        {
+          "url": "https://museumperm.ru/uploads/2026/08/07/c67d2672908ef8e863094b97f53ea552.pdf",
+          "type": "official_institution_rules",
+          "reviewed_at": "2026-10-11"
+        }
+      ],
+      "source_review_items": [
+        "perm-review-museum-family"
+      ]
+    },
+    {
+      "id": "perm-museum-students",
+      "title": "Бесплатный день в музее для школьников и студентов",
+      "level": "regional",
+      "jurisdiction": "Пермский край",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "full_legal_review_complete": false,
+      "verification_scope": "Проверены актуальные опубликованные условия конкретного учреждения. Льгота не распространяется автоматически на все учреждения края.",
+      "amount": {
+        "type": "benefit",
+        "note": "Входной билет без оплаты."
+      },
+      "tags": [
+        "school",
+        "students"
+      ],
+      "conditions": [
+        "Для посетителей от 14 до 18 лет и студентов предусмотрен бесплатный вход каждую третью среду месяца.",
+        "Речь о Пермском краеведческом музее и его филиалах. Экскурсионное обслуживание оплачивается отдельно."
+      ],
+      "application": "Получите льготный входной билет в кассе, подтвердив возраст или обучение. Перед поездкой проверьте расписание выбранного филиала.",
+      "frequency": "Третья среда каждого месяца",
+      "legal_basis": [
+        {
+          "title": "Положение ГКБУК «Пермский краеведческий музей» от 07.08.2026 № 208-ОС",
+          "role": "Правила льготного посещения учреждения"
+        }
+      ],
+      "official_urls": [
+        "https://museumperm.ru/page/pricelist_benefits",
+        "https://museumperm.ru/uploads/2026/08/07/c67d2672908ef8e863094b97f53ea552.pdf"
+      ],
+      "evidence_documents": [
+        {
+          "url": "https://museumperm.ru/page/pricelist_benefits",
+          "type": "official_institution_rules",
+          "reviewed_at": "2026-10-11"
+        },
+        {
+          "url": "https://museumperm.ru/uploads/2026/08/07/c67d2672908ef8e863094b97f53ea552.pdf",
+          "type": "official_institution_rules",
+          "reviewed_at": "2026-10-11"
+        }
+      ],
+      "source_review_items": [
+        "perm-review-museum-students"
+      ]
+    },
+    {
+      "id": "perm-zoo-multi",
+      "title": "Бесплатный вход в Пермский зоопарк для многодетных",
+      "level": "regional",
+      "jurisdiction": "Пермский край",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "full_legal_review_complete": false,
+      "verification_scope": "Проверены актуальные опубликованные условия конкретного учреждения. Льгота не распространяется автоматически на все учреждения края.",
+      "amount": {
+        "type": "benefit",
+        "note": "Входной билет без оплаты."
+      },
+      "tags": [
+        "multi"
+      ],
+      "conditions": [
+        "Мера действует для членов многодетной семьи.",
+        "С 15 августа 2026 года вход бесплатный в любой день работы зоопарка."
+      ],
+      "application": "Получите билет у кассира: покажите удостоверение многодетной семьи, в том числе электронное с QR-кодом, и паспорт посетителя от 14 лет либо свидетельство о рождении ребёнка младше 14 лет.",
+      "frequency": "В любой день работы зоопарка",
+      "legal_basis": [
+        {
+          "title": "Официальное сообщение ГКАУК «Пермский зоопарк» от 14.08.2026 об изменении льгот с 15.08.2026",
+          "role": "Правила льготного посещения учреждения"
+        }
+      ],
+      "official_urls": [
+        "https://zoo.perm.ru/news/2026/08/14/2114"
+      ],
+      "evidence_documents": [
+        {
+          "url": "https://zoo.perm.ru/news/2026/08/14/2114",
+          "type": "official_institution_rules",
+          "reviewed_at": "2026-10-11"
+        }
+      ],
+      "source_review_items": [
+        "perm-review-zoo-multi"
+      ],
+      "effective_from": "2026-08-15"
     }
   ]
 }

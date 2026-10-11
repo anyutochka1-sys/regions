@@ -504,14 +504,17 @@
       "data_file": "59-perm.json",
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
-      "catalog_cards": 9,
+      "catalog_cards": 12,
       "last_checked": "2026-10-11",
-      "notice": "Опубликованы девять карточек с подтверждёнными основными условиями. Проверка всего региона продолжается.",
+      "notice": "Опубликованы 12 краевых карточек с подтверждёнными основными условиями. Оставшиеся вопросы по исходному документу собраны в отдельном списке.",
       "review_file": "data/reviews/59-perm.json",
       "source_ids": [
         "perm-csv",
-        "perm-law"
-      ]
+        "perm-law",
+        "perm-museum",
+        "perm-zoo"
+      ],
+      "clarification_file": "data/reviews/59-perm-clarifications.md"
     },
     {
       "id": "25",

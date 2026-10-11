@@ -173,6 +173,22 @@
       "url": "https://zakon.zsperm.ru/",
       "jurisdiction": "Пермский край",
       "check": "weekly"
+    },
+    {
+      "id": "perm-museum",
+      "name": "Пермский краеведческий музей",
+      "url": "https://museumperm.ru/",
+      "type": "state_cultural_organization",
+      "jurisdiction": "Пермский край",
+      "check": "weekly"
+    },
+    {
+      "id": "perm-zoo",
+      "name": "Пермский зоопарк",
+      "url": "https://zoo.perm.ru/",
+      "type": "state_cultural_organization",
+      "jurisdiction": "Пермский край",
+      "check": "weekly"
     }
   ]
 }
