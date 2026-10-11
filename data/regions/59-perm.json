@@ -1,0 +1,504 @@
+{
+  "region_id": "59",
+  "region": "Пермский край",
+  "updated": "2026-10-11",
+  "full_review_complete": false,
+  "measures": [
+    {
+      "id": "perm-nursing",
+      "title": "Пособие кормящей маме",
+      "level": "regional",
+      "jurisdiction": "Пермский край",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "full_legal_review_complete": false,
+      "verification_scope": "Подтверждены основные условия и опубликованный размер по сведениям краевого Центра социальных выплат. Полная сверка действующих регламентов и всех исключений продолжается.",
+      "amount": {
+        "type": "fixed",
+        "value": 4236.05
+      },
+      "conditions": [
+        "Семья признана нуждающейся; доход на человека ниже краевого прожиточного минимума.",
+        "Подтверждено грудное вскармливание."
+      ],
+      "tags": [
+        "babies",
+        "low_income",
+        "health"
+      ],
+      "frequency": "Единовременно",
+      "application": "Признание семьи нуждающейся — через МФЦ или Госуслуги. Сведения о грудном вскармливании запрашивает Центр социальных выплат.",
+      "legal_basis": [
+        {
+          "title": "Закон Пермской области от 09.09.1996 № 533-83",
+          "role": "Социальная поддержка семей с детьми"
+        },
+        {
+          "title": "Постановление Правительства Пермского края от 30.12.2022 № 1176-п",
+          "role": "Порядок предоставления поддержки"
+        },
+        {
+          "title": "Постановление Правительства Пермского края от 17.04.2024 № 218-п",
+          "role": "Признание семьи нуждающейся"
+        }
+      ],
+      "official_urls": [
+        "https://xn--59-dlc3dya.xn--p1ai/payments-and-compensation/family/priznanie-semi-nuzhdayushcheysya-v-merakh-sotsialnoy-podderzhki/",
+        "https://www.xn--59-dlc3dya.xn--p1ai/news/s-1-iyulya-2026-goda-proindeksirovan-ryad-vyplat/"
+      ],
+      "evidence_documents": [
+        {
+          "url": "https://xn--59-dlc3dya.xn--p1ai/payments-and-compensation/family/priznanie-semi-nuzhdayushcheysya-v-merakh-sotsialnoy-podderzhki/",
+          "type": "official_service_information",
+          "reviewed_at": "2026-10-11"
+        },
+        {
+          "url": "https://www.xn--59-dlc3dya.xn--p1ai/news/s-1-iyulya-2026-goda-proindeksirovan-ryad-vyplat/",
+          "type": "official_service_information",
+          "reviewed_at": "2026-10-11"
+        }
+      ],
+      "source_review_items": [
+        "perm-review-nursing"
+      ]
+    },
+    {
+      "id": "perm-school-meals",
+      "title": "Бесплатное питание школьникам из нуждающихся семей",
+      "level": "regional",
+      "jurisdiction": "Пермский край",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "full_legal_review_complete": false,
+      "verification_scope": "Подтверждены основные условия и опубликованный размер по сведениям краевого Центра социальных выплат. Полная сверка действующих регламентов и всех исключений продолжается.",
+      "amount": {
+        "type": "benefit",
+        "note": "Питание без оплаты."
+      },
+      "conditions": [
+        "Семья признана нуждающейся; доход на человека ниже краевого прожиточного минимума.",
+        "Ребёнок учится в образовательной организации."
+      ],
+      "tags": [
+        "school",
+        "low_income",
+        "multi"
+      ],
+      "frequency": "В период обучения",
+      "application": "Начните с признания семьи нуждающейся через МФЦ или Госуслуги. Порядок предоставления конкретной льготы уточните в Центре социальных выплат.",
+      "legal_basis": [
+        {
+          "title": "Закон Пермской области от 09.09.1996 № 533-83",
+          "role": "Социальная поддержка семей с детьми"
+        },
+        {
+          "title": "Постановление Правительства Пермского края от 30.12.2022 № 1176-п",
+          "role": "Порядок предоставления поддержки"
+        },
+        {
+          "title": "Постановление Правительства Пермского края от 17.04.2024 № 218-п",
+          "role": "Признание семьи нуждающейся"
+        }
+      ],
+      "official_urls": [
+        "https://xn--59-dlc3dya.xn--p1ai/payments-and-compensation/family/priznanie-semi-nuzhdayushcheysya-v-merakh-sotsialnoy-podderzhki/"
+      ],
+      "evidence_documents": [
+        {
+          "url": "https://xn--59-dlc3dya.xn--p1ai/payments-and-compensation/family/priznanie-semi-nuzhdayushcheysya-v-merakh-sotsialnoy-podderzhki/",
+          "type": "official_service_information",
+          "reviewed_at": "2026-10-11"
+        }
+      ],
+      "source_review_items": [
+        "perm-review-school-meals"
+      ]
+    },
+    {
+      "id": "perm-students-payment",
+      "title": "Выплата многодетным на учащегося от 17 до 23 лет",
+      "level": "regional",
+      "jurisdiction": "Пермский край",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "full_legal_review_complete": false,
+      "verification_scope": "Подтверждены основные условия и опубликованный размер по сведениям краевого Центра социальных выплат. Полная сверка действующих регламентов и всех исключений продолжается.",
+      "amount": {
+        "type": "fixed",
+        "value": 589.36
+      },
+      "conditions": [
+        "Нуждающаяся многодетная семья с удостоверением.",
+        "Возраст от 17 до 23 лет; очное обучение."
+      ],
+      "tags": [
+        "multi",
+        "students",
+        "school",
+        "low_income"
+      ],
+      "frequency": "Ежемесячно",
+      "application": "Начните с признания семьи нуждающейся через МФЦ или Госуслуги. Порядок предоставления конкретной льготы уточните в Центре социальных выплат.",
+      "legal_basis": [
+        {
+          "title": "Закон Пермской области от 09.09.1996 № 533-83",
+          "role": "Социальная поддержка семей с детьми"
+        },
+        {
+          "title": "Постановление Правительства Пермского края от 30.12.2022 № 1176-п",
+          "role": "Порядок предоставления поддержки"
+        },
+        {
+          "title": "Постановление Правительства Пермского края от 17.04.2024 № 218-п",
+          "role": "Признание семьи нуждающейся"
+        }
+      ],
+      "official_urls": [
+        "https://xn--59-dlc3dya.xn--p1ai/payments-and-compensation/family/priznanie-semi-nuzhdayushcheysya-v-merakh-sotsialnoy-podderzhki/",
+        "https://www.xn--59-dlc3dya.xn--p1ai/news/s-1-iyulya-2026-goda-proindeksirovan-ryad-vyplat/"
+      ],
+      "evidence_documents": [
+        {
+          "url": "https://xn--59-dlc3dya.xn--p1ai/payments-and-compensation/family/priznanie-semi-nuzhdayushcheysya-v-merakh-sotsialnoy-podderzhki/",
+          "type": "official_service_information",
+          "reviewed_at": "2026-10-11"
+        },
+        {
+          "url": "https://www.xn--59-dlc3dya.xn--p1ai/news/s-1-iyulya-2026-goda-proindeksirovan-ryad-vyplat/",
+          "type": "official_service_information",
+          "reviewed_at": "2026-10-11"
+        }
+      ],
+      "source_review_items": [
+        "perm-review-students-payment"
+      ]
+    },
+    {
+      "id": "perm-utilities",
+      "title": "Компенсация коммунальных расходов многодетным",
+      "level": "regional",
+      "jurisdiction": "Пермский край",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "full_legal_review_complete": false,
+      "verification_scope": "Подтверждены основные условия и опубликованный размер по сведениям краевого Центра социальных выплат. Полная сверка действующих регламентов и всех исключений продолжается.",
+      "amount": {
+        "type": "fixed",
+        "value": 449.33,
+        "note": "На каждого члена семьи."
+      },
+      "conditions": [
+        "Нуждающаяся многодетная семья с удостоверением."
+      ],
+      "tags": [
+        "multi",
+        "housing",
+        "low_income"
+      ],
+      "frequency": "Ежемесячно",
+      "application": "Начните с признания семьи нуждающейся через МФЦ или Госуслуги. Порядок предоставления конкретной льготы уточните в Центре социальных выплат.",
+      "legal_basis": [
+        {
+          "title": "Закон Пермской области от 09.09.1996 № 533-83",
+          "role": "Социальная поддержка семей с детьми"
+        },
+        {
+          "title": "Постановление Правительства Пермского края от 30.12.2022 № 1176-п",
+          "role": "Порядок предоставления поддержки"
+        },
+        {
+          "title": "Постановление Правительства Пермского края от 17.04.2024 № 218-п",
+          "role": "Признание семьи нуждающейся"
+        }
+      ],
+      "official_urls": [
+        "https://xn--59-dlc3dya.xn--p1ai/payments-and-compensation/family/priznanie-semi-nuzhdayushcheysya-v-merakh-sotsialnoy-podderzhki/"
+      ],
+      "evidence_documents": [
+        {
+          "url": "https://xn--59-dlc3dya.xn--p1ai/payments-and-compensation/family/priznanie-semi-nuzhdayushcheysya-v-merakh-sotsialnoy-podderzhki/",
+          "type": "official_service_information",
+          "reviewed_at": "2026-10-11"
+        }
+      ],
+      "source_review_items": [
+        "perm-review-utilities"
+      ]
+    },
+    {
+      "id": "perm-extra-education",
+      "title": "Компенсация платы за музыкальную, художественную или спортивную школу",
+      "level": "regional",
+      "jurisdiction": "Пермский край",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "full_legal_review_complete": false,
+      "verification_scope": "Подтверждены основные условия и опубликованный размер по сведениям краевого Центра социальных выплат. Полная сверка действующих регламентов и всех исключений продолжается.",
+      "amount": {
+        "type": "benefit",
+        "note": "Возмещение 50% родительской платы."
+      },
+      "conditions": [
+        "Нуждающаяся многодетная семья с удостоверением.",
+        "Государственная или муниципальная школа дополнительного образования."
+      ],
+      "tags": [
+        "multi",
+        "school",
+        "low_income"
+      ],
+      "frequency": "По расходам на обучение",
+      "application": "Начните с признания семьи нуждающейся через МФЦ или Госуслуги. Порядок предоставления конкретной льготы уточните в Центре социальных выплат.",
+      "legal_basis": [
+        {
+          "title": "Закон Пермской области от 09.09.1996 № 533-83",
+          "role": "Социальная поддержка семей с детьми"
+        },
+        {
+          "title": "Постановление Правительства Пермского края от 30.12.2022 № 1176-п",
+          "role": "Порядок предоставления поддержки"
+        },
+        {
+          "title": "Постановление Правительства Пермского края от 17.04.2024 № 218-п",
+          "role": "Признание семьи нуждающейся"
+        }
+      ],
+      "official_urls": [
+        "https://xn--59-dlc3dya.xn--p1ai/payments-and-compensation/family/priznanie-semi-nuzhdayushcheysya-v-merakh-sotsialnoy-podderzhki/"
+      ],
+      "evidence_documents": [
+        {
+          "url": "https://xn--59-dlc3dya.xn--p1ai/payments-and-compensation/family/priznanie-semi-nuzhdayushcheysya-v-merakh-sotsialnoy-podderzhki/",
+          "type": "official_service_information",
+          "reviewed_at": "2026-10-11"
+        }
+      ],
+      "source_review_items": [
+        "perm-review-extra-education"
+      ]
+    },
+    {
+      "id": "perm-waste",
+      "title": "Освобождение многодетных от платы за вывоз мусора",
+      "level": "regional",
+      "jurisdiction": "Пермский край",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "full_legal_review_complete": false,
+      "verification_scope": "Подтверждены основные условия и опубликованный размер по сведениям краевого Центра социальных выплат. Полная сверка действующих регламентов и всех исключений продолжается.",
+      "amount": {
+        "type": "benefit",
+        "note": "Полное освобождение от платы за обращение с ТКО."
+      },
+      "conditions": [
+        "Нуждающаяся многодетная семья с удостоверением."
+      ],
+      "tags": [
+        "multi",
+        "housing",
+        "low_income"
+      ],
+      "frequency": "В период права на льготу",
+      "application": "Начните с признания семьи нуждающейся через МФЦ или Госуслуги. Порядок предоставления конкретной льготы уточните в Центре социальных выплат.",
+      "legal_basis": [
+        {
+          "title": "Закон Пермской области от 09.09.1996 № 533-83",
+          "role": "Социальная поддержка семей с детьми"
+        },
+        {
+          "title": "Постановление Правительства Пермского края от 30.12.2022 № 1176-п",
+          "role": "Порядок предоставления поддержки"
+        },
+        {
+          "title": "Постановление Правительства Пермского края от 17.04.2024 № 218-п",
+          "role": "Признание семьи нуждающейся"
+        }
+      ],
+      "official_urls": [
+        "https://xn--59-dlc3dya.xn--p1ai/payments-and-compensation/family/priznanie-semi-nuzhdayushcheysya-v-merakh-sotsialnoy-podderzhki/"
+      ],
+      "evidence_documents": [
+        {
+          "url": "https://xn--59-dlc3dya.xn--p1ai/payments-and-compensation/family/priznanie-semi-nuzhdayushcheysya-v-merakh-sotsialnoy-podderzhki/",
+          "type": "official_service_information",
+          "reviewed_at": "2026-10-11"
+        }
+      ],
+      "source_review_items": [
+        "perm-review-waste"
+      ]
+    },
+    {
+      "id": "perm-student-birth",
+      "title": "Выплата при рождении ребёнка студентке",
+      "level": "regional",
+      "jurisdiction": "Пермский край",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "full_legal_review_complete": false,
+      "verification_scope": "Подтверждены основные условия и опубликованный размер по сведениям краевого Центра социальных выплат. Полная сверка действующих регламентов и всех исключений продолжается.",
+      "amount": {
+        "type": "fixed",
+        "value": 148283
+      },
+      "conditions": [
+        "Мама — гражданка РФ, живёт в крае; ребёнок родился в Пермском крае с 01.01.2025 по 31.12.2027.",
+        "Обучение в колледже или вузе либо его прекращение в течение 9 месяцев перед месяцем рождения. Форма обучения любая."
+      ],
+      "tags": [
+        "students",
+        "babies"
+      ],
+      "frequency": "Единовременно",
+      "application": "Заявление в МФЦ; понадобятся паспорт, сведения о рождении и обучении.",
+      "legal_basis": [
+        {
+          "title": "Закон Пермской области от 09.09.1996 № 533-83, статья 19.1"
+        },
+        {
+          "title": "Постановление Правительства Пермского края от 16.01.2025 № 12-п"
+        }
+      ],
+      "official_urls": [
+        "https://xn--59-dlc3dya.xn--p1ai/payments-and-compensation/family/edinovremennaya-denezhnaya-vyplata-pri-rozhdenii-rebenka-v-permskom-krae/",
+        "https://zakon.zsperm.ru/?ELEMENT_ID=5343"
+      ],
+      "evidence_documents": [
+        {
+          "url": "https://xn--59-dlc3dya.xn--p1ai/payments-and-compensation/family/edinovremennaya-denezhnaya-vyplata-pri-rozhdenii-rebenka-v-permskom-krae/",
+          "type": "official_service_information",
+          "reviewed_at": "2026-10-11"
+        },
+        {
+          "url": "https://zakon.zsperm.ru/?ELEMENT_ID=5343",
+          "type": "official_service_information",
+          "reviewed_at": "2026-10-11"
+        }
+      ],
+      "source_review_items": [
+        "perm-review-student-birth"
+      ]
+    },
+    {
+      "id": "perm-svo-birth",
+      "title": "Выплата при рождении ребёнка супруге участника СВО",
+      "level": "regional",
+      "jurisdiction": "Пермский край",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "full_legal_review_complete": false,
+      "verification_scope": "Подтверждены основные условия и опубликованный размер по сведениям краевого Центра социальных выплат. Полная сверка действующих регламентов и всех исключений продолжается.",
+      "amount": {
+        "type": "fixed",
+        "value": 148283
+      },
+      "conditions": [
+        "Ребёнок родился в Пермском крае в 2026 году; мама постоянно живёт в крае.",
+        "Брак с отцом зарегистрирован на дату рождения или обращения.",
+        "Обращение во время участия отца в СВО либо после исключения из рядов военнослужащих после 01.03.2024."
+      ],
+      "tags": [
+        "svo",
+        "babies"
+      ],
+      "frequency": "Единовременно",
+      "application": "Заявление в МФЦ или на Госуслугах. Для семей погибших участников СВО предусмотрены отдельные основания — уточните их в Центре социальных выплат.",
+      "legal_basis": [
+        {
+          "title": "Закон Пермской области от 09.09.1996 № 533-83, статья 19.1"
+        },
+        {
+          "title": "Закон Пермского края от 12.12.2025 № 487-ПК",
+          "role": "Продление основания на рождения в 2026 году"
+        }
+      ],
+      "official_urls": [
+        "https://www.xn--59-dlc3dya.xn--p1ai/news/semyam-uchastnikov-spetsialnoy-voennoy-operatsii-predostavlyaetsya-edinovremennaya-denezhnaya-vyplat/",
+        "https://zakon.zsperm.ru/data/docs/2025/8811076/389792.pdf"
+      ],
+      "evidence_documents": [
+        {
+          "url": "https://www.xn--59-dlc3dya.xn--p1ai/news/semyam-uchastnikov-spetsialnoy-voennoy-operatsii-predostavlyaetsya-edinovremennaya-denezhnaya-vyplat/",
+          "type": "official_service_information",
+          "reviewed_at": "2026-10-11"
+        },
+        {
+          "url": "https://zakon.zsperm.ru/data/docs/2025/8811076/389792.pdf",
+          "type": "official_service_information",
+          "reviewed_at": "2026-10-11"
+        }
+      ],
+      "source_review_items": [
+        "perm-review-svo-birth"
+      ]
+    },
+    {
+      "id": "perm-twins",
+      "title": "Выплата при рождении двойни, тройни и более детей",
+      "level": "regional",
+      "jurisdiction": "Пермский край",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-11",
+      "last_reviewed": "2026-10-11",
+      "full_legal_review_complete": false,
+      "verification_scope": "Подтверждены основные условия и опубликованный размер по сведениям краевого Центра социальных выплат. Полная сверка действующих регламентов и всех исключений продолжается.",
+      "amount": {
+        "type": "fixed",
+        "value": 148282,
+        "note": "На каждого ребёнка; размер по сообщению Центра социальных выплат об индексации с 01.07.2026."
+      },
+      "conditions": [
+        "Семья живёт в Пермском крае; одновременно родились двое или более детей."
+      ],
+      "tags": [
+        "babies"
+      ],
+      "frequency": "Единовременно",
+      "application": "Заявление в МФЦ или на Госуслугах; нужны сведения о рождении детей.",
+      "legal_basis": [
+        {
+          "title": "Закон Пермской области от 09.09.1996 № 533-83, статья 17"
+        },
+        {
+          "title": "Постановление Правительства Пермского края от 30.12.2022 № 1176-п"
+        }
+      ],
+      "official_urls": [
+        "https://xn--59-dlc3dya.xn--p1ai/payments-and-compensation/family/vyplata-edinovremennogo-posobiya-semyam-pri-mnogoplodnom-rozhdenii-trekh-i-bolee-detey/",
+        "https://www.xn--59-dlc3dya.xn--p1ai/news/s-1-iyulya-2026-goda-proindeksirovan-ryad-vyplat/"
+      ],
+      "evidence_documents": [
+        {
+          "url": "https://xn--59-dlc3dya.xn--p1ai/payments-and-compensation/family/vyplata-edinovremennogo-posobiya-semyam-pri-mnogoplodnom-rozhdenii-trekh-i-bolee-detey/",
+          "type": "official_service_information",
+          "reviewed_at": "2026-10-11"
+        },
+        {
+          "url": "https://www.xn--59-dlc3dya.xn--p1ai/news/s-1-iyulya-2026-goda-proindeksirovan-ryad-vyplat/",
+          "type": "official_service_information",
+          "reviewed_at": "2026-10-11"
+        }
+      ],
+      "source_review_items": [
+        "perm-review-twins"
+      ]
+    }
+  ]
+}

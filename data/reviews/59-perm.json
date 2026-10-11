@@ -1,0 +1,187 @@
+{
+  "region_id": "59",
+  "reviewed_at": "2026-10-11",
+  "full_review_complete": false,
+  "published_cards": 9,
+  "scope": "Основные условия по официальным страницам; полные тексты всех действующих порядков не сверены.",
+  "items": [
+    {
+      "id": "perm-review-nursing",
+      "measure_id": "perm-nursing",
+      "status": "conditions_confirmed",
+      "evidence_urls": [
+        "https://xn--59-dlc3dya.xn--p1ai/payments-and-compensation/family/priznanie-semi-nuzhdayushcheysya-v-merakh-sotsialnoy-podderzhki/",
+        "https://www.xn--59-dlc3dya.xn--p1ai/news/s-1-iyulya-2026-goda-proindeksirovan-ryad-vyplat/"
+      ]
+    },
+    {
+      "id": "perm-review-school-meals",
+      "measure_id": "perm-school-meals",
+      "status": "conditions_confirmed",
+      "evidence_urls": [
+        "https://xn--59-dlc3dya.xn--p1ai/payments-and-compensation/family/priznanie-semi-nuzhdayushcheysya-v-merakh-sotsialnoy-podderzhki/"
+      ]
+    },
+    {
+      "id": "perm-review-students-payment",
+      "measure_id": "perm-students-payment",
+      "status": "conditions_confirmed",
+      "evidence_urls": [
+        "https://xn--59-dlc3dya.xn--p1ai/payments-and-compensation/family/priznanie-semi-nuzhdayushcheysya-v-merakh-sotsialnoy-podderzhki/",
+        "https://www.xn--59-dlc3dya.xn--p1ai/news/s-1-iyulya-2026-goda-proindeksirovan-ryad-vyplat/"
+      ]
+    },
+    {
+      "id": "perm-review-utilities",
+      "measure_id": "perm-utilities",
+      "status": "conditions_confirmed",
+      "evidence_urls": [
+        "https://xn--59-dlc3dya.xn--p1ai/payments-and-compensation/family/priznanie-semi-nuzhdayushcheysya-v-merakh-sotsialnoy-podderzhki/"
+      ]
+    },
+    {
+      "id": "perm-review-extra-education",
+      "measure_id": "perm-extra-education",
+      "status": "conditions_confirmed",
+      "evidence_urls": [
+        "https://xn--59-dlc3dya.xn--p1ai/payments-and-compensation/family/priznanie-semi-nuzhdayushcheysya-v-merakh-sotsialnoy-podderzhki/"
+      ]
+    },
+    {
+      "id": "perm-review-waste",
+      "measure_id": "perm-waste",
+      "status": "conditions_confirmed",
+      "evidence_urls": [
+        "https://xn--59-dlc3dya.xn--p1ai/payments-and-compensation/family/priznanie-semi-nuzhdayushcheysya-v-merakh-sotsialnoy-podderzhki/"
+      ]
+    },
+    {
+      "id": "perm-review-student-birth",
+      "measure_id": "perm-student-birth",
+      "status": "conditions_confirmed",
+      "evidence_urls": [
+        "https://xn--59-dlc3dya.xn--p1ai/payments-and-compensation/family/edinovremennaya-denezhnaya-vyplata-pri-rozhdenii-rebenka-v-permskom-krae/",
+        "https://zakon.zsperm.ru/?ELEMENT_ID=5343"
+      ]
+    },
+    {
+      "id": "perm-review-svo-birth",
+      "measure_id": "perm-svo-birth",
+      "status": "conditions_confirmed",
+      "evidence_urls": [
+        "https://www.xn--59-dlc3dya.xn--p1ai/news/semyam-uchastnikov-spetsialnoy-voennoy-operatsii-predostavlyaetsya-edinovremennaya-denezhnaya-vyplat/",
+        "https://zakon.zsperm.ru/data/docs/2025/8811076/389792.pdf"
+      ]
+    },
+    {
+      "id": "perm-review-twins",
+      "measure_id": "perm-twins",
+      "status": "conditions_confirmed",
+      "evidence_urls": [
+        "https://xn--59-dlc3dya.xn--p1ai/payments-and-compensation/family/vyplata-edinovremennogo-posobiya-semyam-pri-mnogoplodnom-rozhdenii-trekh-i-bolee-detey/",
+        "https://www.xn--59-dlc3dya.xn--p1ai/news/s-1-iyulya-2026-goda-proindeksirovan-ryad-vyplat/"
+      ]
+    }
+  ],
+  "source_sections": [
+    {
+      "title": "1. Общие сведения и федеральные выплаты",
+      "status": "needs_review"
+    },
+    {
+      "title": "2. «Большая семья Прикамья» — главная региональная выплата",
+      "status": "needs_review"
+    },
+    {
+      "title": "3. «Мастеровая семья Прикамья»",
+      "status": "needs_review"
+    },
+    {
+      "title": "4. Ежегодная семейная выплата (возврат НДФЛ)",
+      "status": "needs_review"
+    },
+    {
+      "title": "5. Пособия на детей малоимущим семьям",
+      "status": "needs_review"
+    },
+    {
+      "title": "6. Многодетные семьи",
+      "status": "needs_review"
+    },
+    {
+      "title": "7. Земля и жильё",
+      "status": "needs_review"
+    },
+    {
+      "title": "8. Питание в школах",
+      "status": "needs_review"
+    },
+    {
+      "title": "9. Детские сады",
+      "status": "needs_review"
+    },
+    {
+      "title": "10. Дети-инвалиды",
+      "status": "needs_review"
+    },
+    {
+      "title": "11. Опека, приёмные семьи и дети-сироты",
+      "status": "needs_review"
+    },
+    {
+      "title": "12. Оздоровление и отдых",
+      "status": "needs_review"
+    },
+    {
+      "title": "13. Соцконтракт",
+      "status": "needs_review"
+    },
+    {
+      "title": "14. Семьи участников СВО",
+      "status": "needs_review"
+    },
+    {
+      "title": "15. Налоги",
+      "status": "needs_review"
+    },
+    {
+      "title": "16. Награды и прочее",
+      "status": "needs_review"
+    },
+    {
+      "title": "17. Сводная таблица основных нормативных актов",
+      "status": "needs_review"
+    },
+    {
+      "title": "18. Куда обращаться",
+      "status": "needs_review"
+    }
+  ],
+  "clarifications": [
+    {
+      "topic": "Большая семья Прикамья / Мастеровая семья Прикамья",
+      "status": "not_confirmed",
+      "note": "Названия и обещанные 5000 ежемесячно / 300000 за первенца не подтверждены просмотренными официальными страницами. Не публиковать до поиска НПА."
+    },
+    {
+      "topic": "Ежегодная семейная выплата",
+      "status": "incorrect_classification",
+      "note": "В справочнике названа региональной. Проверять как федеральную меру; не создавать региональный дубль."
+    },
+    {
+      "topic": "8 МРОТ",
+      "status": "incorrect_condition",
+      "note": "В справочнике указан максимальный доход всей семьи. Не переносить эту формулировку в карточки."
+    },
+    {
+      "topic": "Двойня",
+      "status": "outdated_service_amount",
+      "note": "Страница услуги содержит 140153, новость об индексации с 01.07.2026 — 148282. Использован позднейший размер; требуется окончательная сверка бюджетного акта."
+    },
+    {
+      "topic": "Остальные темы",
+      "status": "needs_review",
+      "note": "Земля, жильё, детсад, инвалидность, опека, отдых, соцконтракт, налоги и награды требуют проверки актуальных оснований. Неподтверждённые суммы не перенесены."
+    }
+  ]
+}

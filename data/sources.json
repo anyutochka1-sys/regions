@@ -149,6 +149,30 @@
       "type": "state_sports_organization",
       "jurisdiction": "Красноярский край",
       "check": "weekly"
+    },
+    {
+      "id": "perm-csv",
+      "name": "Центр социальных выплат и компенсаций Пермского края",
+      "type": "regional_official",
+      "url": "https://xn--59-dlc3dya.xn--p1ai/",
+      "jurisdiction": "Пермский край",
+      "check": "weekly"
+    },
+    {
+      "id": "perm-csv-www",
+      "name": "Центр социальных выплат — адрес с www",
+      "type": "regional_official",
+      "url": "https://www.xn--59-dlc3dya.xn--p1ai/",
+      "jurisdiction": "Пермский край",
+      "check": "weekly"
+    },
+    {
+      "id": "perm-law",
+      "name": "Законодательное Собрание Пермского края",
+      "type": "regional_official",
+      "url": "https://zakon.zsperm.ru/",
+      "jurisdiction": "Пермский край",
+      "check": "weekly"
     }
   ]
 }
