@@ -1,0 +1,123 @@
+{
+  "imported_at": "2026-10-11",
+  "sources": [
+    {
+      "path": "data/reviews/imports/16-source-20261011.json",
+      "source_filename": "mery_podderzhki_semei_tatarstan.docx",
+      "region_ids": [
+        "16"
+      ],
+      "sections": 21,
+      "status": "pending_primary_source_review"
+    },
+    {
+      "path": "data/reviews/imports/74-source-20261011.json",
+      "source_filename": "mery_podderzhki_semei_chelyabinskaya_oblast (1).docx",
+      "region_ids": [
+        "74"
+      ],
+      "sections": 23,
+      "status": "pending_primary_source_review"
+    },
+    {
+      "path": "data/reviews/imports/36-source-20261011.json",
+      "source_filename": "mery_podderzhki_semei_voronezhskaya_oblast.docx",
+      "region_ids": [
+        "36"
+      ],
+      "sections": 18,
+      "status": "pending_primary_source_review"
+    },
+    {
+      "path": "data/reviews/imports/59-source-20261011.json",
+      "source_filename": "mery_podderzhki_semei_perm_kray.docx",
+      "region_ids": [
+        "59"
+      ],
+      "sections": 18,
+      "status": "pending_primary_source_review"
+    },
+    {
+      "path": "data/reviews/imports/66-source-20261011.json",
+      "source_filename": "mery_podderzhki_semei_sverdlovskaya_oblast.docx",
+      "region_ids": [
+        "66"
+      ],
+      "sections": 20,
+      "status": "pending_primary_source_review"
+    },
+    {
+      "path": "data/reviews/imports/72-source-20261011.json",
+      "source_filename": "mery_podderzhki_semei_tyumenskaya_oblast.docx",
+      "region_ids": [
+        "72"
+      ],
+      "sections": 32,
+      "status": "pending_primary_source_review"
+    },
+    {
+      "path": "data/reviews/imports/52-source-20261011.json",
+      "source_filename": "mery_podderzhki_semei_nizhegorodskaya_oblast.docx",
+      "region_ids": [
+        "52"
+      ],
+      "sections": 19,
+      "status": "pending_primary_source_review"
+    },
+    {
+      "path": "data/reviews/imports/47-source-20261011.json",
+      "source_filename": "mery_podderzhki_semei_leningradskaya_oblast (1).docx",
+      "region_ids": [
+        "47"
+      ],
+      "sections": 19,
+      "status": "pending_primary_source_review"
+    },
+    {
+      "path": "data/reviews/imports/61-source-20261011.json",
+      "source_filename": "mery_podderzhki_semei_rostovskaya_oblast.docx",
+      "region_ids": [
+        "61"
+      ],
+      "sections": 0,
+      "status": "empty_source"
+    },
+    {
+      "path": "data/reviews/imports/02-source-20261011.json",
+      "source_filename": "mery_podderzhki_semei_bashkortostan.docx",
+      "region_ids": [
+        "02"
+      ],
+      "sections": 17,
+      "status": "pending_primary_source_review"
+    },
+    {
+      "path": "data/reviews/imports/24-source-20261011.json",
+      "source_filename": "mery_podderzhki_semei_krasnoyarskiy_kray.docx",
+      "region_ids": [
+        "24"
+      ],
+      "sections": 21,
+      "status": "pending_primary_source_review"
+    },
+    {
+      "path": "data/reviews/imports/23-source-20261011.json",
+      "source_filename": "mery_podderzhki_semei_krasnodarskiy_kray.docx",
+      "region_ids": [
+        "23"
+      ],
+      "sections": 17,
+      "status": "pending_primary_source_review"
+    },
+    {
+      "path": "data/reviews/imports/77-source-20261011.json",
+      "source_filename": "posobiya_moskva_i_mo_2026.docx",
+      "region_ids": [
+        "77",
+        "50"
+      ],
+      "sections": 17,
+      "status": "pending_primary_source_review"
+    }
+  ]
+}

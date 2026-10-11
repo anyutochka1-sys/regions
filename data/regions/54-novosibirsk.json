@@ -33,7 +33,11 @@
         "https://nszn.nso.ru/"
       ],
       "verified": "2026-09-30",
-      "review_status": "verified"
+      "review_status": "verified",
+      "tags": [
+        "multi",
+        "school"
+      ]
     },
     {
       "id": "nso-utilities-multichild",
@@ -65,7 +69,11 @@
         "https://nszn.nso.ru/"
       ],
       "verified": "2026-09-30",
-      "review_status": "verified"
+      "review_status": "verified",
+      "tags": [
+        "multi",
+        "housing"
+      ]
     },
     {
       "id": "nso-land-multichild",
@@ -97,7 +105,11 @@
         "https://www.nso.ru/"
       ],
       "verified": "2026-09-30",
-      "review_status": "verified"
+      "review_status": "verified",
+      "tags": [
+        "multi",
+        "housing"
+      ]
     },
     {
       "id": "nso-first-grade",
@@ -125,7 +137,10 @@
         "https://nszn.nso.ru/"
       ],
       "verified": "2026-09-30",
-      "review_status": "verified"
+      "review_status": "verified",
+      "tags": [
+        "multi"
+      ]
     },
     {
       "id": "nso-university",
@@ -154,7 +169,11 @@
         "https://nszn.nso.ru/"
       ],
       "verified": "2026-09-30",
-      "review_status": "verified"
+      "review_status": "verified",
+      "tags": [
+        "multi",
+        "students"
+      ]
     },
     {
       "id": "nso-multiple-birth",
@@ -183,7 +202,10 @@
         "https://nszn.nso.ru/"
       ],
       "verified": "2026-09-30",
-      "review_status": "verified"
+      "review_status": "verified",
+      "tags": [
+        "babies"
+      ]
     }
   ]
 }

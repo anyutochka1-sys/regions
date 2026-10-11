@@ -1,0 +1,76 @@
+{
+  "categories": [
+    {
+      "id": "multi",
+      "label": "Многодетные"
+    },
+    {
+      "id": "school",
+      "label": "Школьники"
+    },
+    {
+      "id": "pregnancy",
+      "label": "Беременные"
+    },
+    {
+      "id": "babies",
+      "label": "Малыши и рождение"
+    },
+    {
+      "id": "kindergarten",
+      "label": "Детский сад"
+    },
+    {
+      "id": "disability",
+      "label": "Инвалидность и ОВЗ"
+    },
+    {
+      "id": "low_income",
+      "label": "Малоимущие"
+    },
+    {
+      "id": "svo",
+      "label": "Семьи участников СВО"
+    },
+    {
+      "id": "orphans",
+      "label": "Дети-сироты"
+    },
+    {
+      "id": "guardians",
+      "label": "Опека и усыновление"
+    },
+    {
+      "id": "students",
+      "label": "Студенты"
+    },
+    {
+      "id": "single_parent",
+      "label": "Одинокие родители"
+    },
+    {
+      "id": "housing",
+      "label": "Жильё и ЖКУ"
+    },
+    {
+      "id": "health",
+      "label": "Здоровье"
+    },
+    {
+      "id": "recreation",
+      "label": "Отдых детей"
+    },
+    {
+      "id": "taxes",
+      "label": "Налоги"
+    },
+    {
+      "id": "work",
+      "label": "Работа и обучение"
+    },
+    {
+      "id": "young_family",
+      "label": "Молодые семьи"
+    }
+  ]
+}

@@ -77,7 +77,13 @@
         "note": "Для ребёнка используется ПМ на ребёнка; для беременной женщины — ПМ трудоспособного населения."
       },
       "frequency": "monthly",
-      "application": "Заявление: Госуслуги, клиентская служба СФР или МФЦ (в предусмотренных случаях)."
+      "application": "Заявление: Госуслуги, клиентская служба СФР или МФЦ (в предусмотренных случаях).",
+      "tags": [
+        "low_income",
+        "school",
+        "pregnancy",
+        "babies"
+      ]
     },
     {
       "id": "birth-grant",
@@ -107,7 +113,10 @@
         "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/edinovremennoe_posobie_pri_rozhdenii_rebenka/"
       ],
       "verified": "2026-09-29",
-      "review_status": "verified"
+      "review_status": "verified",
+      "tags": [
+        "babies"
+      ]
     },
     {
       "id": "care-1-5",
@@ -137,7 +146,10 @@
         "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/ezhemesyachnoe_posobie_po_uhodu_za_rebenkom/"
       ],
       "verified": "2026-09-29",
-      "review_status": "verified"
+      "review_status": "verified",
+      "tags": [
+        "babies"
+      ]
     },
     {
       "id": "maternity-capital",
@@ -180,7 +192,8 @@
         "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/materinskij_kapital/razmer"
       ],
       "verified": "2026-09-29",
-      "review_status": "verified"
+      "review_status": "verified",
+      "tags": []
     },
     {
       "id": "maternity-monthly",
@@ -209,7 +222,10 @@
         "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/materinskij_kapital/ezhemesyachnaya_vyplata"
       ],
       "verified": "2026-09-29",
-      "review_status": "verified"
+      "review_status": "verified",
+      "tags": [
+        "babies"
+      ]
     },
     {
       "id": "annual-family-payment",
@@ -239,7 +255,8 @@
         "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/ezhegodnaya_semejnaya_vyplata"
       ],
       "verified": "2026-09-29",
-      "review_status": "verified"
+      "review_status": "verified",
+      "tags": []
     },
     {
       "id": "bir",
@@ -271,7 +288,10 @@
         "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/posobie_po_beremennosti_i_rodam/"
       ],
       "verified": "2026-09-29",
-      "review_status": "verified"
+      "review_status": "verified",
+      "tags": [
+        "pregnancy"
+      ]
     },
     {
       "id": "pregnant-wife-serviceman",
@@ -302,7 +322,10 @@
         "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/edinovremennoe_posobie_beremennoi_zhene_voennosluzhashego/"
       ],
       "verified": "2026-09-29",
-      "review_status": "verified"
+      "review_status": "verified",
+      "tags": [
+        "pregnancy"
+      ]
     },
     {
       "id": "serviceman-child",
@@ -332,7 +355,8 @@
         "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/ezhemesyachnoe_posobie_na_rebenka_voennosluzhashego/"
       ],
       "verified": "2026-09-29",
-      "review_status": "verified"
+      "review_status": "verified",
+      "tags": []
     },
     {
       "id": "disabled-child-care",
@@ -367,7 +391,10 @@
         "https://sfr.gov.ru/grazhdanam/invalidam/vyplaty_i_lgoty/viplati_po_uhody-get_viplati_po_uhody/ev_month/"
       ],
       "verified": "2026-09-29",
-      "review_status": "verified"
+      "review_status": "verified",
+      "tags": [
+        "disability"
+      ]
     },
     {
       "id": "foster-transfer",
@@ -405,7 +432,11 @@
         "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/edinovremennoe_posobie_pri_peredache_rebenka_na_vospitanie_v_semyu/"
       ],
       "verified": "2026-09-29",
-      "review_status": "verified"
+      "review_status": "verified",
+      "tags": [
+        "guardians",
+        "health"
+      ]
     },
     {
       "id": "mother-heroine-edv",
@@ -438,7 +469,8 @@
         "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/"
       ],
       "verified": "2026-09-29",
-      "review_status": "verified"
+      "review_status": "verified",
+      "tags": []
     },
     {
       "id": "disabled-child-days",
@@ -466,7 +498,10 @@
         "https://sfr.gov.ru/grazhdanam/semyam_s_detmi/dop_vihodnie_po_uhody_za_detmi_invalidami/"
       ],
       "verified": "2026-09-29",
-      "review_status": "verified"
+      "review_status": "verified",
+      "tags": [
+        "disability"
+      ]
     }
   ]
 }
