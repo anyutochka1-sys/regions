@@ -4277,6 +4277,33 @@
       "access_attempts": "Повторная проверка через поиск и открытие страниц. Для порталов правовых актов выполнена дополнительная попытка HTTP: ответ 502. Отсутствие изменений не подтверждено.",
       "future_effective_date_guard": "Нормы с 01.04.2027 не применялись. №222/493, №821/494, №1060 и №122-ГД требуют доступных полных официальных редакций.",
       "observations": []
+    },
+    {
+      "date": "2026-10-12",
+      "baseline_monitoring_date": "2026-10-07",
+      "result": "incomplete_official_source_access",
+      "confirmed_changes": [],
+      "public_cards_changed": [],
+      "full_legal_review_complete": false,
+      "repositories_read": [
+        "data/regions/24-krasnoyarsk.json",
+        "data/reviews/24-krasnoyarsk.json"
+      ],
+      "checks": {
+        "official_publication_portal": "502 Bad Gateway / connection refused",
+        "regional_legal_portal": "zakon.krskstate.ru 502 Bad Gateway / connection refused",
+        "regional_government": "krskstate.ru unavailable",
+        "social_agency": "szn24.ru unavailable; SFR Krasnoyarsk checked",
+        "municipalities": "Krasnoyarsk administration search checked",
+        "tax_and_social_funds": "ФНС/СФР publications checked; no confirmed regional card change found"
+      },
+      "limitations": "Обязательные полные официальные редакции недоступны. Поисковые фрагменты и СМИ использовались только для поиска кандидатов, не для подтверждения изменений.",
+      "observations": [
+        {
+          "status": "no_new_confirmed_change",
+          "lead": "После 07.10.2026 подтверждённых изменений карточек, архивных переходов, мер СВО и муниципальных мер не установлено; отсутствие изменений окончательно не подтверждено из-за недоступности порталов НПА."
+        }
+      ]
     }
   ],
   "whole_scope_audit": {
