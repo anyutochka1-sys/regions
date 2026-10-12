@@ -1,0 +1,151 @@
+{
+  "region_id": "03",
+  "region": "Республика Бурятия",
+  "last_checked": "2026-10-12",
+  "coverage_note": "Опубликованы три карточки с подтверждёнными основными условиями. Полное наполнение и сверка НПА продолжаются.",
+  "measures": [
+    {
+      "level": "regional",
+      "jurisdiction": "Республика Бурятия",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-12",
+      "verification_scope": "Основные условия и размер сверены по действующим разъяснениям РГУ ЦСПН. Полная сверка редакций НПА и индивидуального права продолжается.",
+      "evidence_documents": [
+        "Официальная страница РГУ «Центр социальной поддержки населения» Республики Бурятия, прочитана 12.10.2026"
+      ],
+      "effective_from": null,
+      "effective_to": null,
+      "id": "buryatia-regional-capital-second",
+      "title": "Региональный материнский капитал на второго ребёнка (ДФО)",
+      "amount": {
+        "type": "formula",
+        "note": "30% соответствующего федерального маткапитала. С 01.02.2026: 218 676,57 ₽ при рождении второго ребёнка в 2019 году; 288 972,95 ₽ при рождении с 2020 года."
+      },
+      "eligibility": {
+        "birth_order": 2,
+        "birth_date_min": "2019-01-01",
+        "birth_date_max": "2030-12-31"
+      },
+      "conditions": [
+        "Второй ребёнок родился или усыновлён в период с 1 января 2019 года по 31 декабря 2030 года.",
+        "Получатель — мать (усыновительница) либо отец, являющийся единственным родителем, с гражданством РФ.",
+        "Нужно постоянное проживание (пребывание) получателя в Бурятии.",
+        "Предоставляется однократно, без учёта доходов семьи."
+      ],
+      "frequency": "once",
+      "application": "Подразделение РГУ ЦСПН по месту жительства, МФЦ или Госуслуги.",
+      "legal_basis": [
+        {
+          "title": "Постановление Правительства Республики Бурятия от 05.03.2019 № 93"
+        }
+      ],
+      "official_urls": [
+        "https://www.xn--m1adft.xn--p1ai/soczialnyie-vyiplatyi/soczialnaya-podderzhka-semej-s-detmi/vyiplatyi-na-detej/regionalnyij-materinskij-(semejnyij)-kapital-v-svyazi-s-rozhdeniem-(usyinovleniem)-vtorogo-rebenka.html"
+      ],
+      "source_review_items": [
+        "03-2.2"
+      ],
+      "tags": [
+        "babies",
+        "guardians"
+      ]
+    },
+    {
+      "level": "regional",
+      "jurisdiction": "Республика Бурятия",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-12",
+      "verification_scope": "Основные условия и размер сверены по действующим разъяснениям РГУ ЦСПН. Полная сверка редакций НПА и индивидуального права продолжается.",
+      "evidence_documents": [
+        "Официальная страница РГУ «Центр социальной поддержки населения» Республики Бурятия, прочитана 12.10.2026"
+      ],
+      "effective_from": null,
+      "effective_to": null,
+      "id": "buryatia-republic-capital-third",
+      "title": "Республиканский материнский капитал многодетной семье",
+      "amount": {
+        "type": "fixed",
+        "value": 83914,
+        "note": "Размер с 1 февраля 2026 года по официальному разъяснению РГУ ЦСПН."
+      },
+      "eligibility": {
+        "children_min": 3,
+        "birth_order": 3,
+        "birth_date_min": "2013-01-01",
+        "income_limit_text": "Среднедушевой доход ниже 1,5 ПМ на душу населения в Бурятии. В 2026 году порог — 30 966 ₽."
+      },
+      "conditions": [
+        "В семье не менее трёх несовершеннолетних детей, включая усыновлённых.",
+        "Третий или последующий ребёнок родился (усыновлён) начиная с 1 января 2013 года.",
+        "Порядок проверки дохода, распоряжения средствами и исключения уточняются при оформлении."
+      ],
+      "frequency": "once",
+      "application": "Подразделение РГУ ЦСПН по месту жительства: выдача справки и распоряжение средствами по установленному порядку.",
+      "legal_basis": [
+        {
+          "title": "Постановление Правительства Республики Бурятия от 14.01.2013 № 2 — порядок предоставления республиканского материнского (семейного) капитала"
+        }
+      ],
+      "official_urls": [
+        "https://xn--m1adft.xn--p1ai/novsti/informacziya-po-vyidache-i-zamene-spravki-o-predostavlenii-respublikanskogo-materinskogo-(semejnogo)-kapitala.html"
+      ],
+      "source_review_items": [
+        "03-3.1"
+      ],
+      "tags": [
+        "multi",
+        "babies",
+        "low_income",
+        "guardians"
+      ]
+    },
+    {
+      "level": "regional",
+      "jurisdiction": "Республика Бурятия",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-12",
+      "verification_scope": "Основные условия и размер сверены по действующим разъяснениям РГУ ЦСПН. Полная сверка редакций НПА и индивидуального права продолжается.",
+      "evidence_documents": [
+        "Официальная страница РГУ «Центр социальной поддержки населения» Республики Бурятия, прочитана 12.10.2026"
+      ],
+      "effective_from": null,
+      "effective_to": null,
+      "id": "buryatia-kindergarten-compensation",
+      "title": "Компенсация части родительской платы за детский сад",
+      "amount": {
+        "type": "formula",
+        "note": "20% родительской платы на первого ребёнка, 50% — на второго, 70% — на третьего и последующих. Применяются условия регионального порядка."
+      },
+      "eligibility": {
+        "income_limit_text": "Среднедушевой доход семьи не превышает 1,5 ПМ на душу населения в Бурятии."
+      },
+      "conditions": [
+        "Ребёнок посещает организацию, реализующую программу дошкольного образования, родительская плата внесена.",
+        "Обращается один из родителей или законных представителей, внесший плату.",
+        "Для очередности учитываются дети по правилам регионального порядка, включая опеку и приёмную семью.",
+        "Официальная страница предусматривает сведения о доходах за три последних календарных месяца перед месяцем заявления."
+      ],
+      "frequency": "monthly",
+      "application": "ОСЗН по месту жительства, МФЦ, почтой либо через Госуслуги.",
+      "legal_basis": [
+        {
+          "title": "Постановление Правительства Республики Бурятия от 19.03.2008 № 118 — компенсация родительской платы"
+        }
+      ],
+      "official_urls": [
+        "https://www.xn--m1adft.xn--p1ai/soczialnyie-vyiplatyi/soczialnaya-podderzhka-semej-s-detmi/kompensacziya-chasti-roditelskoj-platyi-za-prismotr-i-uxod-za-rebenkom-v-gosudarstvennyix-i-municzipalnyix-obrazovatelnyix-uchrezhdeniyax.html"
+      ],
+      "source_review_items": [
+        "03-3.10-kg"
+      ],
+      "tags": [
+        "kindergarten",
+        "low_income",
+        "guardians"
+      ]
+    }
+  ]
+}

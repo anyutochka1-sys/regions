@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "last_reviewed": "2026-10-07",
+  "last_reviewed": "2026-10-12",
   "sources": [
     {
       "id": "pravo",
@@ -204,6 +204,22 @@
       "type": "regional_official",
       "url": "https://centrmsp72.ru/",
       "jurisdiction": "Тюменская область",
+      "check": "weekly"
+    },
+    {
+      "id": "buryatia-cspn",
+      "name": "РГУ «Центр социальной поддержки населения» Республики Бурятия",
+      "type": "regional_official",
+      "url": "https://xn--m1adft.xn--p1ai/",
+      "jurisdiction": "Республика Бурятия",
+      "check": "weekly"
+    },
+    {
+      "id": "buryatia-cspn-www",
+      "name": "РГУ «Центр социальной поддержки населения» Республики Бурятия",
+      "type": "regional_official",
+      "url": "https://www.xn--m1adft.xn--p1ai/",
+      "jurisdiction": "Республика Бурятия",
       "check": "weekly"
     }
   ]
