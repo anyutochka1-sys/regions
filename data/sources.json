@@ -189,6 +189,14 @@
       "type": "state_cultural_organization",
       "jurisdiction": "Пермский край",
       "check": "weekly"
+    },
+    {
+      "id": "tatar-social",
+      "name": "Минтрудсоцзащиты Республики Татарстан",
+      "type": "regional_official",
+      "url": "https://mtsz.tatarstan.ru/",
+      "jurisdiction": "Республика Татарстан",
+      "check": "weekly"
     }
   ]
 }

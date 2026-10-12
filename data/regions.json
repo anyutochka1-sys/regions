@@ -696,12 +696,19 @@
       "id": "16",
       "name": "Республика Татарстан",
       "public": true,
-      "status": "regional_collection_started",
-      "data_status": "preliminary",
-      "review_status": "queued",
-      "data_file": null,
+      "status": "regional_base_active",
+      "data_status": "confirmed_catalog_pending_documents",
+      "review_status": "in_progress",
+      "data_file": "16-tatarstan.json",
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 1
+      "preliminary_topics_count": 1,
+      "catalog_cards": 8,
+      "last_checked": "2026-10-12",
+      "notice": "Опубликованы восемь республиканских карточек с подтверждёнными основными условиями. Остальные условия и документы уточняются.",
+      "review_file": "data/reviews/16-tatarstan.json",
+      "source_ids": [
+        "tatar-social"
+      ]
     },
     {
       "id": "17",
