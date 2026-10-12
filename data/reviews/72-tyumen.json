@@ -1,0 +1,333 @@
+{
+  "region_id": "72",
+  "reviewed_at": "2026-10-12",
+  "full_review_complete": false,
+  "published_cards": 10,
+  "scope": "Десять карточек с подтверждёнными основными условиями. Обзор разобран по всем 32 разделам; полная правовая сверка региона не завершена.",
+  "items": [
+    {
+      "id": "tyumen-review-social-benefit",
+      "measure_id": "tyumen-social-benefit",
+      "status": "conditions_confirmed",
+      "source_section_index": 5,
+      "evidence_urls": [
+        "https://centrmsp72.ru/userfiles/files/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B1%D1%83%D0%BA%D0%BB%D0%B5%D1%82%20%D0%9C%D0%A1%D0%9F%202026.pdf",
+        "https://centrmsp72.ru/article/poddergka-semey-s-detmi"
+      ]
+    },
+    {
+      "id": "tyumen-review-milk",
+      "measure_id": "tyumen-milk",
+      "status": "conditions_confirmed",
+      "source_section_index": 7,
+      "evidence_urls": [
+        "https://centrmsp72.ru/userfiles/files/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B1%D1%83%D0%BA%D0%BB%D0%B5%D1%82%20%D0%9C%D0%A1%D0%9F%202026.pdf",
+        "https://centrmsp72.ru/article/poddergka-semey-s-detmi"
+      ]
+    },
+    {
+      "id": "tyumen-review-school-clothes",
+      "measure_id": "tyumen-school-clothes",
+      "status": "conditions_confirmed",
+      "source_section_index": 9,
+      "evidence_urls": [
+        "https://centrmsp72.ru/userfiles/files/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B1%D1%83%D0%BA%D0%BB%D0%B5%D1%82%20%D0%9C%D0%A1%D0%9F%202026.pdf",
+        "https://centrmsp72.ru/article/poddergka-semey-s-detmi"
+      ]
+    },
+    {
+      "id": "tyumen-review-housing",
+      "measure_id": "tyumen-housing",
+      "status": "conditions_confirmed",
+      "source_section_index": 9,
+      "evidence_urls": [
+        "https://centrmsp72.ru/article/meri-sotsialnoy-poddergki-semey-s-detmi",
+        "https://centrmsp72.ru/userfiles/files/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B1%D1%83%D0%BA%D0%BB%D0%B5%D1%82%20%D0%9C%D0%A1%D0%9F%202026.pdf"
+      ]
+    },
+    {
+      "id": "tyumen-review-tko",
+      "measure_id": "tyumen-tko",
+      "status": "conditions_confirmed",
+      "source_section_index": 9,
+      "evidence_urls": [
+        "https://centrmsp72.ru/article/vozmeshchenie-rashodov-na-platu-za-kommunalnuyu-uslugu-po-obrashcheniyu-s-tverdimi-kommunalnimi-othodami"
+      ]
+    },
+    {
+      "id": "tyumen-review-school-transport",
+      "measure_id": "tyumen-school-transport",
+      "status": "conditions_confirmed",
+      "source_section_index": 9,
+      "evidence_urls": [
+        "https://centrmsp72.ru/article/meri-sotsialnoy-poddergki-semey-s-detmi",
+        "https://centrmsp72.ru/article/prinyatie-resheniya-o-predostavlenii-besplatnogo-proezda-na-avtomobilnom-transporte-obshchego-polzovaniya-v-gorodskom-i-prigorodnom-soobshchenii-po-lgotnomu-osnovaniyu-libo-po-predostavleniyu-viplati-denegnoy-kompensatsii-po-lgotnomu-osnovaniyu"
+      ]
+    },
+    {
+      "id": "tyumen-review-triplets-housing",
+      "measure_id": "tyumen-triplets-housing",
+      "status": "conditions_confirmed",
+      "source_section_index": 10,
+      "evidence_urls": [
+        "https://centrmsp72.ru/article/meri-sotsialnoy-poddergki-semey-s-detmi",
+        "https://centrmsp72.ru/userfiles/files/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B1%D1%83%D0%BA%D0%BB%D0%B5%D1%82%20%D0%9C%D0%A1%D0%9F%202026.pdf"
+      ]
+    },
+    {
+      "id": "tyumen-review-multi-medicines",
+      "measure_id": "tyumen-multi-medicines",
+      "status": "conditions_confirmed",
+      "source_section_index": 9,
+      "evidence_urls": [
+        "https://centrmsp72.ru/userfiles/files/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B1%D1%83%D0%BA%D0%BB%D0%B5%D1%82%20%D0%9C%D0%A1%D0%9F%202026.pdf"
+      ]
+    },
+    {
+      "id": "tyumen-review-kindergarten",
+      "measure_id": "tyumen-kindergarten",
+      "status": "conditions_confirmed",
+      "source_section_index": 18,
+      "evidence_urls": [
+        "https://centrmsp72.ru/userfiles/files/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B1%D1%83%D0%BA%D0%BB%D0%B5%D1%82%20%D0%9C%D0%A1%D0%9F%202026.pdf"
+      ]
+    },
+    {
+      "id": "tyumen-review-social-contract",
+      "measure_id": "tyumen-social-contract",
+      "status": "conditions_confirmed",
+      "source_section_index": 23,
+      "evidence_urls": [
+        "https://centrmsp72.ru/article/okazanie-gosudarstvennoy-sotsialnoy-pomoshchi-na-osnovanii-sotsialnogo-kontrakta",
+        "https://centrmsp72.ru/article/meri-sotsialnoy-poddergki-semey-s-detmi"
+      ]
+    }
+  ],
+  "source_sections": [
+    {
+      "title": "1. ОБЩИЕ СВЕДЕНИЯ И КЛЮЧЕВЫЕ ВЕЛИЧИНЫ 2026 ГОДА",
+      "source_index": 0,
+      "status": "needs_review",
+      "note": "Разделить федеральные и региональные правила. ПМ 2026: 18939/20644/18371 подтверждены памяткой. Районные коэффициенты и суммы СФР сверить отдельно; федеральные карточки не дублировать.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "2. РЕГИОНАЛЬНЫЙ МАТЕРИНСКИЙ (СЕМЕЙНЫЙ) КАПИТАЛ",
+      "source_index": 1,
+      "status": "needs_review",
+      "note": "Суммы 150000 на первого и 100000 на третьего подтверждены. Нужен полный действующий № 503-п: круг получателей, пять лет проживания и студенческое исключение, срок до трёх лет, усыновление, однократность и очерёдность при многоплодных родах. Фразу «первый не учитывается» не публиковать без закона.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "3. ЕЖЕМЕСЯЧНЫЕ И ЕДИНОВРЕМЕННЫЕ РЕГИОНАЛЬНЫЕ ВЫПЛАТЫ",
+      "source_index": 2,
+      "status": "group_heading",
+      "note": "Общий заголовок: проверяется по подразделам ниже.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "3.1. Ежемесячная денежная выплата на третьего ребёнка и последующих детей",
+      "source_index": 3,
+      "status": "needs_review",
+      "note": "Выплата № 411-п для родившихся не позднее 31.12.2022 и до трёх лет не может продолжаться в 2026 году: все дети уже достигли трёх лет. Нужна редакция прекращения для архива, не для действующего каталога.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "3.2. Доплата 5 000 руб. из регионального маткапитала",
+      "source_index": 4,
+      "status": "needs_review",
+      "note": "5000 рублей — направление расходования капитала, а не отдельное пособие. Нужен № 503-п: возможно ли назначение в 2026 без старой ЕДВ, сроки и остаток капитала.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "3.3. Государственная социальная помощь малоимущим",
+      "source_index": 5,
+      "status": "partially_covered",
+      "note": "Опубликовано пособие 2000 рублей. Есть расхождение по студентам до 23 лет: FAQ ограничивает многодетными, памятка 2026 такого ограничения не содержит. Нужна действующая норма, срок и возможность повторного назначения.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "3.4. Материальная помощь на питание беременных, кормящих матерей и детей до 3 лет",
+      "source_index": 6,
+      "status": "needs_review",
+      "note": "Сумма 10000 подтверждена; порог дохода расходится: общая страница Центра МСП указывает ПМ на душу (18939), памятка 2026 и FAQ — ПМ трудоспособного (20644). Нужен полный порядок материальной помощи и медицинские показания. Пока не публиковать спорный порог.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "3.5. Выплата на молочные продукты детского питания (дети 1–2 лет)",
+      "source_index": 7,
+      "status": "partially_covered",
+      "note": "Опубликованы выплаты до двух лет и особые суммы Уватского округа. Нужны полный порядок, подтверждение строгого порога дохода, период назначения и пересчёт при достижении года.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "3.6. Федеральные выплаты (СФР)",
+      "source_index": 8,
+      "status": "needs_review",
+      "note": "Федеральные меры включены в общий каталог. В документе есть неверные или старые суммы СФР; сверить официальные суммы и коэффициенты, не создавать региональные дубли.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "4. МНОГОДЕТНЫЕ СЕМЬИ (3 и более детей до 18 лет / до 23 лет при очном обучении)",
+      "source_index": 9,
+      "status": "partially_covered",
+      "note": "Опубликованы форма, ЖКУ, ТКО, проезд и лекарства до шести лет. Нужны действующие порядки, возраст многодетности, доходы и исключения. Отдельно проверить скидку 50% на СПО по № 1012-п, музеи и первоочередное зачисление — обзор не подтверждает универсальное право.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "5. ВЫПЛАТЫ ПРИ РОЖДЕНИИ ТРОЙНИ И МНОЖЕСТВЕННЫХ РОДАХ",
+      "source_index": 10,
+      "status": "partially_covered",
+      "note": "Опубликованы основные условия жилья при тройне. Нужны полный порядок выплаты, формула суммы, площадь, срок обращения и требования к приобретаемому жилью.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "6. ЖИЛИЩНЫЕ МЕРЫ",
+      "source_index": 11,
+      "status": "group_heading",
+      "note": "Общий заголовок: проверяется по подразделам ниже.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "6.1. Земельный участок / денежная компенсация многодетным",
+      "source_index": 12,
+      "status": "needs_review",
+      "note": "Нужны действующие № 64 и № 340-п: очередь, пять лет проживания, нуждаемость, право на замену участка выплатой, суммы по муниципалитетам и сроки обращения. Пример суммы для Тюмени не переносить на всю область.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "6.2. Социальные выплаты молодым семьям на жильё",
+      "source_index": 13,
+      "status": "needs_review",
+      "note": "В обзоре акт от 25.09.2026 указан без номера и смешаны закон и постановление. Нужны полный акт и муниципальные правила: возраст, очередь, нуждаемость и платёжеспособность.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "6.3. Газификация жилья",
+      "source_index": 14,
+      "status": "needs_review",
+      "note": "Нужно основание предела 156000, категории, подтверждённые расходы и порядок газификации; не считать предел гарантированной выплатой.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "6.4. Субсидии на оплату ЖКУ",
+      "source_index": 15,
+      "status": "needs_review",
+      "note": "Нужен действующий порядок жилищной субсидии: стандарт доли расходов, доход, состав семьи, площадь и задолженность. Не смешивать с опубликованной компенсацией 30% многодетным.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "7. БЕСПЛАТНОЕ ПИТАНИЕ В ШКОЛАХ И ДЕТСКИХ САДАХ",
+      "source_index": 16,
+      "status": "group_heading",
+      "note": "Общий заголовок: проверяется по подразделам ниже.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "7.1. Питание школьников",
+      "source_index": 17,
+      "status": "needs_review",
+      "note": "Нужны редакции № 423-п, № 750-п и муниципального № 59-пк: категории, доход, число приёмов пищи, обучение на дому. Норматив 107,70/246,10 на день — не выплата родителю; городские суммы не применять ко всей области.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "7.2. Компенсация родительской платы за детский сад",
+      "source_index": 18,
+      "status": "partially_covered",
+      "note": "Опубликована базовая компенсация 20/50/70. Нужны расчётная база, учитываемые дети, доход и местные правила, освобождение СВО; повышение платы Тюмени с 01.10.2026 подтвердить городским актом.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "8. ДЕТИ-ИНВАЛИДЫ И ДЕТИ С ОВЗ",
+      "source_index": 19,
+      "status": "needs_review",
+      "note": "Нужны действующие региональные порядки реабилитации, лекарств и проезда; федеральный сертификат и выплаты ухода сверить по СФР, суммы из обзора не обещать.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "9. ОПЕКА, ПОПЕЧИТЕЛЬСТВО, ПРИЁМНЫЕ СЕМЬИ",
+      "source_index": 20,
+      "status": "needs_review",
+      "note": "Нужны № 183-пк и изменения: содержание подопечных, вознаграждение по договору и надбавки 2026. Не обещать вознаграждение всем опекунам, включая безвозмездную опеку.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "10. ДЕТИ-СИРОТЫ",
+      "source_index": 21,
+      "status": "needs_review",
+      "note": "Нужен № 39-п: жилищная очередь и компенсация найма. Право на жильё не прекращается автоматически после 23 лет; сверить условия для состоящих на учёте старше этого возраста.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "11. ОЗДОРОВЛЕНИЕ И ОТДЫХ ДЕТЕЙ",
+      "source_index": 22,
+      "status": "needs_review",
+      "note": "Нужны полные № 567-п, № 915-п и № 772-п: категории бесплатных путёвок, софинансирование, возраст, очередь, места и срок кампании 2026. Разделить отдых и медицинскую реабилитацию.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "12. СОЦИАЛЬНЫЙ КОНТРАКТ (2026)",
+      "source_index": 23,
+      "status": "partially_covered",
+      "note": "Опубликованы направления и предельные суммы. FAQ 2025 ограничивает направление ТЖС пятью детьми, обзор этого не отражает. Нужен действующий порядок 2026: доходы, ограничения ТЖС, выплаты поиска работы и специальные правила демобилизованным участникам СВО.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "13. НАЛОГОВЫЕ ЛЬГОТЫ",
+      "source_index": 24,
+      "status": "group_heading",
+      "note": "Общий заголовок: проверяется по подразделам ниже.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "13.1. Транспортный налог (Закон Тюменской области от 19.11.2002 № 93)",
+      "source_index": 25,
+      "status": "needs_review",
+      "note": "Нужна редакция областного закона № 93 на 2026 и подтверждение ФНС: мощность, один автомобиль, многодетность, инвалидность, СВО и электромобили. Не переносить льготу отдельного муниципалитета на весь регион.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "13.2. Налог на имущество и земельный налог (федеральные, НК РФ)",
+      "source_index": 26,
+      "status": "needs_review",
+      "note": "Федеральные и муниципальные имущественные льготы разделить. Вычеты НДФЛ в обзоре устарели: проверить по действующему НК РФ, не публиковать 3000 на третьего как актуальную общую норму.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "14. СЕМЬИ УЧАСТНИКОВ СВО (региональные меры)",
+      "source_index": 27,
+      "status": "needs_review",
+      "note": "Нужны № 750-п, № 235-п, № 366-п и изменения: вид службы, статус семьи, круг детей, сроки и суммы. Пособия жене и ребёнку призывника нельзя автоматически распространить на мобилизованных; 100000 контрактнику сверить по дате.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "15. ЕЖЕГОДНАЯ СЕМЕЙНАЯ ВЫПЛАТА (ЕСВ)",
+      "source_index": 28,
+      "status": "needs_review",
+      "note": "Ежегодная семейная выплата федеральная. Проверить действующие правила СФР и срок заявления; не добавлять как областную меру.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "16. ПРОЧИЕ МЕРЫ",
+      "source_index": 29,
+      "status": "needs_review",
+      "note": "Нужны конкретные действующие основания социальной няни, регионального пособия, бесплатной парковки Тюмени и скидки СПО. Разделить областные, муниципальные и переходные программы.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "17. СВОДНАЯ ТАБЛИЦА ОСНОВНЫХ НОРМАТИВНЫХ АКТОВ ТЮМЕНСКОЙ ОБЛАСТИ",
+      "source_index": 30,
+      "status": "needs_review",
+      "note": "Сводная таблица из документа прочитана. Нужны именно действующие тексты спорных актов, а не повтор этого обзора; неполный акт 25.09.2026 установить по номеру.",
+      "reviewed_at": "2026-10-12"
+    },
+    {
+      "title": "18. КУДА ОБРАЩАТЬСЯ",
+      "source_index": 31,
+      "status": "needs_review",
+      "note": "Подтверждён контакт Центра МСП 8-800-100-00-01. Перед публикацией местных контактов сверить официальный муниципальный справочник.",
+      "reviewed_at": "2026-10-12"
+    }
+  ],
+  "clarifications_destination": "Общий файл «Документы и уточнения по регионам», лист «Что найти»"
+}

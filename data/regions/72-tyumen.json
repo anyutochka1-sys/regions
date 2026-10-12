@@ -1,0 +1,547 @@
+{
+  "region_id": "72",
+  "region": "Тюменская область",
+  "updated": "2026-10-12",
+  "full_review_complete": false,
+  "measures": [
+    {
+      "id": "tyumen-social-benefit",
+      "title": "Социальное пособие семьям с низким доходом",
+      "amount": {
+        "type": "fixed",
+        "value": 2000,
+        "note": "На каждого ребёнка; размер на 2026 год."
+      },
+      "tags": [
+        "low_income",
+        "babies",
+        "school",
+        "students"
+      ],
+      "conditions": [
+        "Проживание в Тюменской области. ХМАО и ЯНАО — отдельные регионы с собственными правилами.",
+        "Доход на человека по независящим от семьи причинам ниже прожиточного минимума на душу населения — 18 939 ₽ в 2026 году.",
+        "Для детей до 18 лет; возможность назначения студенту очной формы до 23 лет уточните при обращении."
+      ],
+      "application": "Подайте заявление в орган социальной защиты по месту жительства или через региональный портал госуслуг Тюменской области. Перечень документов уточните в Центре МСП: 8-800-100-00-01.",
+      "frequency": "Единовременно",
+      "level": "regional",
+      "jurisdiction": "Тюменская область",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-12",
+      "last_reviewed": "2026-10-12",
+      "full_legal_review_complete": false,
+      "verification_scope": "Основные условия сверены по материалам ГКУ ТО «Центр МСП», включая памятку 2026 года. Полные редакции порядков, исключения и основания отказа требуют дополнительной сверки.",
+      "legal_basis": [
+        {
+          "title": "Закон Тюменской области от 28.12.2004 № 331 «О социальной поддержке отдельных категорий граждан в Тюменской области»",
+          "role": "Основное основание поддержки"
+        }
+      ],
+      "official_urls": [
+        "https://centrmsp72.ru/userfiles/files/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B1%D1%83%D0%BA%D0%BB%D0%B5%D1%82%20%D0%9C%D0%A1%D0%9F%202026.pdf",
+        "https://centrmsp72.ru/article/poddergka-semey-s-detmi"
+      ],
+      "evidence_documents": [
+        {
+          "url": "https://centrmsp72.ru/userfiles/files/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B1%D1%83%D0%BA%D0%BB%D0%B5%D1%82%20%D0%9C%D0%A1%D0%9F%202026.pdf",
+          "type": "official_information_booklet",
+          "reviewed_at": "2026-10-12",
+          "access_note": "Просмотрена памятка 2026 года или текст официальной страницы Центра МСП."
+        },
+        {
+          "url": "https://centrmsp72.ru/article/poddergka-semey-s-detmi",
+          "type": "official_service_information",
+          "reviewed_at": "2026-10-12",
+          "access_note": "Просмотрена памятка 2026 года или текст официальной страницы Центра МСП."
+        }
+      ],
+      "source_review_items": [
+        "tyumen-review-social-benefit"
+      ]
+    },
+    {
+      "id": "tyumen-milk",
+      "title": "Выплата на молочное питание ребёнка до 2 лет",
+      "amount": {
+        "type": "benefit",
+        "note": "До года — 1 212,65 ₽; от года до двух — 606,34 ₽. В Уватском муниципальном округе — 1 581,72 ₽ и 790,88 ₽ соответственно."
+      },
+      "tags": [
+        "babies",
+        "health",
+        "low_income"
+      ],
+      "conditions": [
+        "Проживание в Тюменской области. ХМАО и ЯНАО — отдельные регионы с собственными правилами.",
+        "Ребёнку ещё нет 2 лет.",
+        "Доход на человека ниже прожиточного минимума трудоспособного населения — 20 644 ₽ в 2026 году."
+      ],
+      "application": "Подайте заявление в орган социальной защиты по месту жительства или через региональный портал госуслуг Тюменской области. Перечень документов уточните в Центре МСП: 8-800-100-00-01.",
+      "frequency": "Ежемесячно",
+      "level": "regional",
+      "jurisdiction": "Тюменская область",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-12",
+      "last_reviewed": "2026-10-12",
+      "full_legal_review_complete": false,
+      "verification_scope": "Основные условия сверены по материалам ГКУ ТО «Центр МСП», включая памятку 2026 года. Полные редакции порядков, исключения и основания отказа требуют дополнительной сверки.",
+      "legal_basis": [
+        {
+          "title": "Закон Тюменской области от 28.12.2004 № 331 «О социальной поддержке отдельных категорий граждан в Тюменской области»",
+          "role": "Основное основание поддержки"
+        }
+      ],
+      "official_urls": [
+        "https://centrmsp72.ru/userfiles/files/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B1%D1%83%D0%BA%D0%BB%D0%B5%D1%82%20%D0%9C%D0%A1%D0%9F%202026.pdf",
+        "https://centrmsp72.ru/article/poddergka-semey-s-detmi"
+      ],
+      "evidence_documents": [
+        {
+          "url": "https://centrmsp72.ru/userfiles/files/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B1%D1%83%D0%BA%D0%BB%D0%B5%D1%82%20%D0%9C%D0%A1%D0%9F%202026.pdf",
+          "type": "official_information_booklet",
+          "reviewed_at": "2026-10-12",
+          "access_note": "Просмотрена памятка 2026 года или текст официальной страницы Центра МСП."
+        },
+        {
+          "url": "https://centrmsp72.ru/article/poddergka-semey-s-detmi",
+          "type": "official_service_information",
+          "reviewed_at": "2026-10-12",
+          "access_note": "Просмотрена памятка 2026 года или текст официальной страницы Центра МСП."
+        }
+      ],
+      "source_review_items": [
+        "tyumen-review-milk"
+      ]
+    },
+    {
+      "id": "tyumen-school-clothes",
+      "title": "Выплата на школьную и спортивную форму многодетным",
+      "amount": {
+        "type": "fixed",
+        "value": 18371,
+        "note": "На каждого школьника; размер на 2026 год."
+      },
+      "tags": [
+        "multi",
+        "school",
+        "low_income"
+      ],
+      "conditions": [
+        "Проживание в Тюменской области. ХМАО и ЯНАО — отдельные регионы с собственными правилами.",
+        "Ребёнок из многодетной семьи учится по общеобразовательной программе.",
+        "Доход на человека ниже прожиточного минимума трудоспособного населения — 20 644 ₽ в 2026 году."
+      ],
+      "application": "Подайте заявление в орган социальной защиты по месту жительства или через региональный портал госуслуг Тюменской области. Перечень документов уточните в Центре МСП: 8-800-100-00-01.",
+      "frequency": "Ежегодно",
+      "level": "regional",
+      "jurisdiction": "Тюменская область",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-12",
+      "last_reviewed": "2026-10-12",
+      "full_legal_review_complete": false,
+      "verification_scope": "Основные условия сверены по материалам ГКУ ТО «Центр МСП», включая памятку 2026 года. Полные редакции порядков, исключения и основания отказа требуют дополнительной сверки.",
+      "legal_basis": [
+        {
+          "title": "Закон Тюменской области от 28.12.2004 № 331 «О социальной поддержке отдельных категорий граждан в Тюменской области»",
+          "role": "Основное основание поддержки"
+        }
+      ],
+      "official_urls": [
+        "https://centrmsp72.ru/userfiles/files/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B1%D1%83%D0%BA%D0%BB%D0%B5%D1%82%20%D0%9C%D0%A1%D0%9F%202026.pdf",
+        "https://centrmsp72.ru/article/poddergka-semey-s-detmi"
+      ],
+      "evidence_documents": [
+        {
+          "url": "https://centrmsp72.ru/userfiles/files/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B1%D1%83%D0%BA%D0%BB%D0%B5%D1%82%20%D0%9C%D0%A1%D0%9F%202026.pdf",
+          "type": "official_information_booklet",
+          "reviewed_at": "2026-10-12",
+          "access_note": "Просмотрена памятка 2026 года или текст официальной страницы Центра МСП."
+        },
+        {
+          "url": "https://centrmsp72.ru/article/poddergka-semey-s-detmi",
+          "type": "official_service_information",
+          "reviewed_at": "2026-10-12",
+          "access_note": "Просмотрена памятка 2026 года или текст официальной страницы Центра МСП."
+        }
+      ],
+      "source_review_items": [
+        "tyumen-review-school-clothes"
+      ]
+    },
+    {
+      "id": "tyumen-housing",
+      "title": "Компенсация многодетным за жильё и коммунальные услуги",
+      "amount": {
+        "type": "benefit",
+        "note": "30% расходов в пределах установленных норм и тарифов."
+      },
+      "tags": [
+        "multi",
+        "housing",
+        "low_income"
+      ],
+      "conditions": [
+        "Проживание в Тюменской области. ХМАО и ЯНАО — отдельные регионы с собственными правилами.",
+        "Семья имеет статус многодетной.",
+        "Доход на человека не выше прожиточного минимума трудоспособного населения в области — 20 644 ₽ в 2026 году.",
+        "Расчёт производится по нормативам; это не возврат 30% любой суммы в квитанции."
+      ],
+      "application": "Подайте заявление в орган социальной защиты по месту жительства или через региональный портал госуслуг Тюменской области. Перечень документов уточните в Центре МСП: 8-800-100-00-01.",
+      "frequency": "За периоды начисления расходов",
+      "level": "regional",
+      "jurisdiction": "Тюменская область",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-12",
+      "last_reviewed": "2026-10-12",
+      "full_legal_review_complete": false,
+      "verification_scope": "Основные условия сверены по материалам ГКУ ТО «Центр МСП», включая памятку 2026 года. Полные редакции порядков, исключения и основания отказа требуют дополнительной сверки.",
+      "legal_basis": [
+        {
+          "title": "Закон Тюменской области от 28.12.2004 № 331 «О социальной поддержке отдельных категорий граждан в Тюменской области»",
+          "role": "Основное основание поддержки"
+        }
+      ],
+      "official_urls": [
+        "https://centrmsp72.ru/article/meri-sotsialnoy-poddergki-semey-s-detmi",
+        "https://centrmsp72.ru/userfiles/files/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B1%D1%83%D0%BA%D0%BB%D0%B5%D1%82%20%D0%9C%D0%A1%D0%9F%202026.pdf"
+      ],
+      "evidence_documents": [
+        {
+          "url": "https://centrmsp72.ru/article/meri-sotsialnoy-poddergki-semey-s-detmi",
+          "type": "official_service_information",
+          "reviewed_at": "2026-10-12",
+          "access_note": "Просмотрена памятка 2026 года или текст официальной страницы Центра МСП."
+        },
+        {
+          "url": "https://centrmsp72.ru/userfiles/files/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B1%D1%83%D0%BA%D0%BB%D0%B5%D1%82%20%D0%9C%D0%A1%D0%9F%202026.pdf",
+          "type": "official_information_booklet",
+          "reviewed_at": "2026-10-12",
+          "access_note": "Просмотрена памятка 2026 года или текст официальной страницы Центра МСП."
+        }
+      ],
+      "source_review_items": [
+        "tyumen-review-housing"
+      ]
+    },
+    {
+      "id": "tyumen-tko",
+      "title": "Компенсация многодетным за вывоз мусора",
+      "amount": {
+        "type": "benefit",
+        "note": "100% тарифа на каждого ребёнка и 30% на каждого родителя; не больше фактических расходов."
+      },
+      "tags": [
+        "multi",
+        "housing",
+        "low_income"
+      ],
+      "conditions": [
+        "Проживание в Тюменской области. ХМАО и ЯНАО — отдельные регионы с собственными правилами.",
+        "Семья имеет статус многодетной; дети живут совместно с родителем или законным представителем.",
+        "Доход на человека не выше прожиточного минимума трудоспособного населения в области — 20 644 ₽ в 2026 году.",
+        "Проверяются доходы и уважительные причины их отсутствия; имущественный критерий не применяется."
+      ],
+      "application": "Подайте заявление в орган социальной защиты по месту жительства или через региональный портал госуслуг Тюменской области. Перечень документов уточните в Центре МСП: 8-800-100-00-01.",
+      "frequency": "Ежеквартальная выплата",
+      "level": "regional",
+      "jurisdiction": "Тюменская область",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-12",
+      "last_reviewed": "2026-10-12",
+      "full_legal_review_complete": false,
+      "verification_scope": "Основные условия сверены по материалам ГКУ ТО «Центр МСП», включая памятку 2026 года. Полные редакции порядков, исключения и основания отказа требуют дополнительной сверки.",
+      "legal_basis": [
+        {
+          "title": "Закон Тюменской области от 28.12.2004 № 331 «О социальной поддержке отдельных категорий граждан в Тюменской области»",
+          "role": "Основное основание поддержки"
+        }
+      ],
+      "official_urls": [
+        "https://centrmsp72.ru/article/vozmeshchenie-rashodov-na-platu-za-kommunalnuyu-uslugu-po-obrashcheniyu-s-tverdimi-kommunalnimi-othodami"
+      ],
+      "evidence_documents": [
+        {
+          "url": "https://centrmsp72.ru/article/vozmeshchenie-rashodov-na-platu-za-kommunalnuyu-uslugu-po-obrashcheniyu-s-tverdimi-kommunalnimi-othodami",
+          "type": "official_service_information",
+          "reviewed_at": "2026-10-12",
+          "access_note": "Просмотрена памятка 2026 года или текст официальной страницы Центра МСП."
+        }
+      ],
+      "source_review_items": [
+        "tyumen-review-tko"
+      ]
+    },
+    {
+      "id": "tyumen-school-transport",
+      "title": "Бесплатный проезд школьникам из многодетных семей",
+      "amount": {
+        "type": "benefit",
+        "note": "Льготная транспортная карта или денежная компенсация."
+      },
+      "tags": [
+        "multi",
+        "school",
+        "low_income"
+      ],
+      "conditions": [
+        "Проживание в Тюменской области. ХМАО и ЯНАО — отдельные регионы с собственными правилами.",
+        "Школьник из многодетной малоимущей семьи.",
+        "Доход на человека не выше прожиточного минимума трудоспособного населения в области — 20 644 ₽ в 2026 году.",
+        "Городские и пригородные маршруты. Оформление отдельных междугородних внутрирайонных маршрутов уточните в МФЦ."
+      ],
+      "application": "Подайте заявление в орган социальной защиты по месту жительства или через региональный портал госуслуг Тюменской области. Перечень документов уточните в Центре МСП: 8-800-100-00-01. Транспортную карту выдают в МФЦ.",
+      "frequency": "По поездкам либо денежная компенсация",
+      "level": "regional",
+      "jurisdiction": "Тюменская область",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-12",
+      "last_reviewed": "2026-10-12",
+      "full_legal_review_complete": false,
+      "verification_scope": "Основные условия сверены по материалам ГКУ ТО «Центр МСП», включая памятку 2026 года. Полные редакции порядков, исключения и основания отказа требуют дополнительной сверки.",
+      "legal_basis": [
+        {
+          "title": "Закон Тюменской области от 28.12.2004 № 331 «О социальной поддержке отдельных категорий граждан в Тюменской области»",
+          "role": "Основное основание поддержки"
+        }
+      ],
+      "official_urls": [
+        "https://centrmsp72.ru/article/meri-sotsialnoy-poddergki-semey-s-detmi",
+        "https://centrmsp72.ru/article/prinyatie-resheniya-o-predostavlenii-besplatnogo-proezda-na-avtomobilnom-transporte-obshchego-polzovaniya-v-gorodskom-i-prigorodnom-soobshchenii-po-lgotnomu-osnovaniyu-libo-po-predostavleniyu-viplati-denegnoy-kompensatsii-po-lgotnomu-osnovaniyu"
+      ],
+      "evidence_documents": [
+        {
+          "url": "https://centrmsp72.ru/article/meri-sotsialnoy-poddergki-semey-s-detmi",
+          "type": "official_service_information",
+          "reviewed_at": "2026-10-12",
+          "access_note": "Просмотрена памятка 2026 года или текст официальной страницы Центра МСП."
+        },
+        {
+          "url": "https://centrmsp72.ru/article/prinyatie-resheniya-o-predostavlenii-besplatnogo-proezda-na-avtomobilnom-transporte-obshchego-polzovaniya-v-gorodskom-i-prigorodnom-soobshchenii-po-lgotnomu-osnovaniyu-libo-po-predostavleniyu-viplati-denegnoy-kompensatsii-po-lgotnomu-osnovaniyu",
+          "type": "official_service_information",
+          "reviewed_at": "2026-10-12",
+          "access_note": "Просмотрена памятка 2026 года или текст официальной страницы Центра МСП."
+        }
+      ],
+      "source_review_items": [
+        "tyumen-review-school-transport"
+      ]
+    },
+    {
+      "id": "tyumen-triplets-housing",
+      "title": "Помощь на жильё при рождении трёх детей одновременно",
+      "amount": {
+        "type": "benefit",
+        "note": "Целевая выплата на приобретение жилья или улучшение жилищных условий. Размер рассчитывается индивидуально."
+      },
+      "tags": [
+        "multi",
+        "babies",
+        "housing"
+      ],
+      "conditions": [
+        "В семье одновременно родились трое или более детей.",
+        "Оба родителя — граждане РФ и состоят в зарегистрированном браке; также может обратиться единственный родитель — гражданин РФ.",
+        "Проживание в Тюменской области не менее пяти лет перед подачей заявления."
+      ],
+      "application": "Подайте заявление в орган социальной защиты по месту жительства или через региональный портал госуслуг Тюменской области. Перечень документов уточните в Центре МСП: 8-800-100-00-01.",
+      "frequency": "Единовременно",
+      "level": "regional",
+      "jurisdiction": "Тюменская область",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-12",
+      "last_reviewed": "2026-10-12",
+      "full_legal_review_complete": false,
+      "verification_scope": "Основные условия сверены по материалам ГКУ ТО «Центр МСП», включая памятку 2026 года. Полные редакции порядков, исключения и основания отказа требуют дополнительной сверки.",
+      "legal_basis": [
+        {
+          "title": "Закон Тюменской области от 28.12.2004 № 331 «О социальной поддержке отдельных категорий граждан в Тюменской области»",
+          "role": "Основное основание поддержки"
+        }
+      ],
+      "official_urls": [
+        "https://centrmsp72.ru/article/meri-sotsialnoy-poddergki-semey-s-detmi",
+        "https://centrmsp72.ru/userfiles/files/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B1%D1%83%D0%BA%D0%BB%D0%B5%D1%82%20%D0%9C%D0%A1%D0%9F%202026.pdf"
+      ],
+      "evidence_documents": [
+        {
+          "url": "https://centrmsp72.ru/article/meri-sotsialnoy-poddergki-semey-s-detmi",
+          "type": "official_service_information",
+          "reviewed_at": "2026-10-12",
+          "access_note": "Просмотрена памятка 2026 года или текст официальной страницы Центра МСП."
+        },
+        {
+          "url": "https://centrmsp72.ru/userfiles/files/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B1%D1%83%D0%BA%D0%BB%D0%B5%D1%82%20%D0%9C%D0%A1%D0%9F%202026.pdf",
+          "type": "official_information_booklet",
+          "reviewed_at": "2026-10-12",
+          "access_note": "Просмотрена памятка 2026 года или текст официальной страницы Центра МСП."
+        }
+      ],
+      "source_review_items": [
+        "tyumen-review-triplets-housing"
+      ]
+    },
+    {
+      "id": "tyumen-multi-medicines",
+      "title": "Бесплатные лекарства детям до 6 лет из многодетных семей",
+      "amount": {
+        "type": "benefit",
+        "note": "Лекарства по рецепту врача."
+      },
+      "tags": [
+        "multi",
+        "babies",
+        "health"
+      ],
+      "conditions": [
+        "Проживание в Тюменской области. ХМАО и ЯНАО — отдельные регионы с собственными правилами.",
+        "Ребёнок из многодетной семьи; ему ещё нет 6 лет.",
+        "Препараты назначает врач; получить можно по льготному рецепту."
+      ],
+      "application": "Обратитесь к педиатру в медицинской организации по месту жительства.",
+      "frequency": "По медицинским назначениям",
+      "level": "regional",
+      "jurisdiction": "Тюменская область",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-12",
+      "last_reviewed": "2026-10-12",
+      "full_legal_review_complete": false,
+      "verification_scope": "Основные условия сверены по материалам ГКУ ТО «Центр МСП», включая памятку 2026 года. Полные редакции порядков, исключения и основания отказа требуют дополнительной сверки.",
+      "legal_basis": [
+        {
+          "title": "Закон Тюменской области от 28.12.2004 № 331 «О социальной поддержке отдельных категорий граждан в Тюменской области»",
+          "role": "Основное основание поддержки"
+        },
+        {
+          "title": "Постановление Правительства Тюменской области от 01.06.2023 № 332-п",
+          "role": "Порядок лекарственного обеспечения"
+        }
+      ],
+      "official_urls": [
+        "https://centrmsp72.ru/userfiles/files/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B1%D1%83%D0%BA%D0%BB%D0%B5%D1%82%20%D0%9C%D0%A1%D0%9F%202026.pdf"
+      ],
+      "evidence_documents": [
+        {
+          "url": "https://centrmsp72.ru/userfiles/files/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B1%D1%83%D0%BA%D0%BB%D0%B5%D1%82%20%D0%9C%D0%A1%D0%9F%202026.pdf",
+          "type": "official_information_booklet",
+          "reviewed_at": "2026-10-12",
+          "access_note": "Просмотрена памятка 2026 года или текст официальной страницы Центра МСП."
+        }
+      ],
+      "source_review_items": [
+        "tyumen-review-multi-medicines"
+      ]
+    },
+    {
+      "id": "tyumen-kindergarten",
+      "title": "Компенсация платы за детский сад",
+      "amount": {
+        "type": "benefit",
+        "note": "20% — на первого ребёнка, 50% — на второго, 70% — на третьего и последующих. Расчётную сумму уточните в детском саду."
+      },
+      "tags": [
+        "kindergarten",
+        "multi"
+      ],
+      "conditions": [
+        "Проживание в Тюменской области. ХМАО и ЯНАО — отдельные регионы с собственными правилами.",
+        "Родитель вносит плату за присмотр и уход за ребёнком в дошкольной организации.",
+        "Порядок расчёта, учитываемых детей и документы проверяет дошкольная организация."
+      ],
+      "application": "Обратитесь в детский сад, который посещает ребёнок.",
+      "frequency": "По расходам на детский сад",
+      "level": "regional",
+      "jurisdiction": "Тюменская область",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-12",
+      "last_reviewed": "2026-10-12",
+      "full_legal_review_complete": false,
+      "verification_scope": "Основные условия сверены по материалам ГКУ ТО «Центр МСП», включая памятку 2026 года. Полные редакции порядков, исключения и основания отказа требуют дополнительной сверки.",
+      "legal_basis": [
+        {
+          "title": "Закон Тюменской области от 28.12.2004 № 331 «О социальной поддержке отдельных категорий граждан в Тюменской области»",
+          "role": "Основное основание поддержки"
+        }
+      ],
+      "official_urls": [
+        "https://centrmsp72.ru/userfiles/files/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B1%D1%83%D0%BA%D0%BB%D0%B5%D1%82%20%D0%9C%D0%A1%D0%9F%202026.pdf"
+      ],
+      "evidence_documents": [
+        {
+          "url": "https://centrmsp72.ru/userfiles/files/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B1%D1%83%D0%BA%D0%BB%D0%B5%D1%82%20%D0%9C%D0%A1%D0%9F%202026.pdf",
+          "type": "official_information_booklet",
+          "reviewed_at": "2026-10-12",
+          "access_note": "Просмотрена памятка 2026 года или текст официальной страницы Центра МСП."
+        }
+      ],
+      "source_review_items": [
+        "tyumen-review-kindergarten"
+      ]
+    },
+    {
+      "id": "tyumen-social-contract",
+      "title": "Социальный контракт для семьи с низким доходом",
+      "amount": {
+        "type": "benefit",
+        "note": "До 350 000 ₽ на своё дело; до 200 000 ₽ на личное подсобное хозяйство. Также предусмотрена помощь при поиске работы и трудной жизненной ситуации."
+      },
+      "tags": [
+        "low_income",
+        "work",
+        "multi"
+      ],
+      "conditions": [
+        "Проживание в Тюменской области. ХМАО и ЯНАО — отдельные регионы с собственными правилами.",
+        "Российское гражданство. Доход на человека по независящим причинам ниже регионального прожиточного минимума на душу населения.",
+        "Нужно заключить социальный контракт и выполнять программу социальной адаптации; предельная сумма не назначается автоматически.",
+        "Для направления «трудная жизненная ситуация» Центр МСП указывает семьи с пятью и более детьми до 18 лет или до 23 лет при очном обучении."
+      ],
+      "application": "Подайте заявление в орган социальной защиты по месту жительства или через региональный портал госуслуг Тюменской области. Перечень документов уточните в Центре МСП: 8-800-100-00-01.",
+      "frequency": "По условиям социального контракта",
+      "level": "regional",
+      "jurisdiction": "Тюменская область",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-12",
+      "last_reviewed": "2026-10-12",
+      "full_legal_review_complete": false,
+      "verification_scope": "Основные условия сверены по материалам ГКУ ТО «Центр МСП», включая памятку 2026 года. Полные редакции порядков, исключения и основания отказа требуют дополнительной сверки.",
+      "legal_basis": [
+        {
+          "title": "Закон Тюменской области от 28.12.2004 № 331 «О социальной поддержке отдельных категорий граждан в Тюменской области»",
+          "role": "Основное основание поддержки"
+        }
+      ],
+      "official_urls": [
+        "https://centrmsp72.ru/article/okazanie-gosudarstvennoy-sotsialnoy-pomoshchi-na-osnovanii-sotsialnogo-kontrakta",
+        "https://centrmsp72.ru/article/meri-sotsialnoy-poddergki-semey-s-detmi"
+      ],
+      "evidence_documents": [
+        {
+          "url": "https://centrmsp72.ru/article/okazanie-gosudarstvennoy-sotsialnoy-pomoshchi-na-osnovanii-sotsialnogo-kontrakta",
+          "type": "official_service_information",
+          "reviewed_at": "2026-10-12",
+          "access_note": "Просмотрена памятка 2026 года или текст официальной страницы Центра МСП."
+        },
+        {
+          "url": "https://centrmsp72.ru/article/meri-sotsialnoy-poddergki-semey-s-detmi",
+          "type": "official_service_information",
+          "reviewed_at": "2026-10-12",
+          "access_note": "Просмотрена памятка 2026 года или текст официальной страницы Центра МСП."
+        }
+      ],
+      "source_review_items": [
+        "tyumen-review-social-contract"
+      ]
+    }
+  ]
+}

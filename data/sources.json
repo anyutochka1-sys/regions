@@ -197,6 +197,14 @@
       "url": "https://mtsz.tatarstan.ru/",
       "jurisdiction": "Республика Татарстан",
       "check": "weekly"
+    },
+    {
+      "id": "tyumen-msp",
+      "name": "ГКУ Тюменской области «Центр обеспечения мер социальной поддержки»",
+      "type": "regional_official",
+      "url": "https://centrmsp72.ru/",
+      "jurisdiction": "Тюменская область",
+      "check": "weekly"
     }
   ]
 }
