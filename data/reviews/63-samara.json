@@ -1889,6 +1889,48 @@
           "publication_decision": "Не подтверждено официальным НПА; карточка не создана и суммы не опубликованы."
         }
       ]
+    },
+    {
+      "date": "2026-10-12",
+      "baseline_monitoring_date": "2026-10-07",
+      "result": "incomplete_official_source_access",
+      "confirmed_changes": [],
+      "public_cards_changed": [],
+      "full_legal_review_complete": false,
+      "repositories_read": [
+        "data/regions/63-samara.json",
+        "data/reviews/63-samara.json"
+      ],
+      "checks": {
+        "official_publication_portal": "502 Bad Gateway / connection refused",
+        "regional_legal_portal": "pravo.samregion.ru unavailable",
+        "regional_government": "samregion.ru unavailable",
+        "social_agency": "sociosam.ru unavailable; SFR Samara checked",
+        "municipalities": "Tolyatti official site checked; Samara administration unavailable",
+        "tax_and_social_funds": "ФНС/СФР publications checked; no confirmed regional card change found"
+      },
+      "limitations": "Обязательные полные официальные редакции недоступны. Поисковые фрагменты и СМИ использовались только для поиска кандидатов, не для подтверждения изменений.",
+      "observations": [
+        {
+          "source_item": "13.15",
+          "request_groups": [
+            27
+          ],
+          "status": "needs_review",
+          "publication_date": "2026-10-06",
+          "lead": "Сообщение о продлении выплаты на газификацию до 2029 года остаётся неподтверждённым полным официальным НПА; карточка не создана."
+        },
+        {
+          "request_groups": [
+            3,
+            4,
+            2,
+            1
+          ],
+          "status": "no_new_confirmed_change",
+          "lead": "Новые изменения к №222/493, №821/494, №1060 и закону №122-ГД не подтверждены; нормы с 01.04.2027 не применялись."
+        }
+      ]
     }
   ]
 }
