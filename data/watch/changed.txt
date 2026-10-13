@@ -1,3 +1,4 @@
+sfr
 nso-social
 krsk-prosecutor
 krsk-gov-channel
@@ -6,3 +7,7 @@ krsk-city
 krsk-city-edu
 krsk-college
 samara-social-services
+krsk-csp
+krsk-rcss
+perm-law
+perm-museum
