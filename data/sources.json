@@ -221,6 +221,22 @@
       "url": "https://www.xn--m1adft.xn--p1ai/",
       "jurisdiction": "Республика Бурятия",
       "check": "weekly"
+    },
+    {
+      "id": "yakutia-uszn",
+      "url": "https://usznykt.ru/",
+      "name": "ГКУ РС(Я) УСЗН и труда г. Якутска при Минтруде РС(Я)",
+      "type": "regional_official",
+      "jurisdiction": "Республика Саха (Якутия)",
+      "check": "weekly"
+    },
+    {
+      "id": "yakutia-parliament-media",
+      "url": "https://www.sakhaparliament.ru/",
+      "name": "Официальное издание «Саха Парламент», учредитель — Аппарат Государственного собрания (Ил Тумэн) РС(Я)",
+      "type": "regional_official_media",
+      "jurisdiction": "Республика Саха (Якутия)",
+      "check": "weekly"
     }
   ]
 }
