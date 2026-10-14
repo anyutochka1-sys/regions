@@ -91,7 +91,6 @@
       "name": "Официальный канал Правительства Красноярского края",
       "url": "https://t.me/krskstate",
       "type": "regional_official_channel",
-      "jurisdiction": "Красноярский край",
       "check": "weekly"
     },
     {
@@ -283,8 +282,7 @@
       "name": "Официальный источник — xn--h1alcedd.xn--d1aqf.xn--p1ai",
       "url": "https://xn--h1alcedd.xn--d1aqf.xn--p1ai/",
       "type": "official_agency",
-      "check": "daily",
-      "jurisdiction": "Магаданская область"
+      "check": "daily"
     },
     {
       "id": "far-east-cspnpk-ru",
@@ -348,6 +346,142 @@
       "type": "official_agency",
       "check": "daily",
       "jurisdiction": "Хабаровский край"
+    },
+    {
+      "id": "regions-oct14-usznval-ru",
+      "name": "Официальный источник — usznval.ru",
+      "url": "https://usznval.ru/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Белгородская область"
+    },
+    {
+      "id": "regions-oct14-belregion-ru",
+      "name": "Официальный источник — belregion.ru",
+      "url": "https://belregion.ru/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Белгородская область"
+    },
+    {
+      "id": "regions-oct14-zakonbelregion-ru",
+      "name": "Официальный источник — zakonbelregion.ru",
+      "url": "https://zakonbelregion.ru/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Белгородская область"
+    },
+    {
+      "id": "regions-oct14-mso-kursk-ru",
+      "name": "Официальный источник — mso.kursk.ru",
+      "url": "https://mso.kursk.ru/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Курская область"
+    },
+    {
+      "id": "regions-oct14-adm2-rkursk-ru",
+      "name": "Официальный источник — adm2.rkursk.ru",
+      "url": "https://adm2.rkursk.ru/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Курская область"
+    },
+    {
+      "id": "regions-oct14-mydocuments36-ru",
+      "name": "Официальный источник — mydocuments36.ru",
+      "url": "https://mydocuments36.ru/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Воронежская область"
+    },
+    {
+      "id": "regions-oct14-www-govvrn-ru",
+      "name": "Официальный источник — www.govvrn.ru",
+      "url": "https://www.govvrn.ru/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Воронежская область"
+    },
+    {
+      "id": "regions-oct14-xn--80aapampemcchfmo7a3c9ehj-xn--p1ai",
+      "name": "Официальный источник — xn--80aapampemcchfmo7a3c9ehj.xn--p1ai",
+      "url": "https://xn--80aapampemcchfmo7a3c9ehj.xn--p1ai/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Воронежская область"
+    },
+    {
+      "id": "regions-oct14-schekino-ru",
+      "name": "Официальный источник — schekino.ru",
+      "url": "https://schekino.ru/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Тульская область"
+    },
+    {
+      "id": "regions-oct14-xn--80atapud1a-xn--p1ai",
+      "name": "Официальный источник — xn--80atapud1a.xn--p1ai",
+      "url": "https://xn--80atapud1a.xn--p1ai/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Чукотский автономный округ"
+    },
+    {
+      "id": "regions-oct14-www-xn--80atapud1a-xn--p1ai",
+      "name": "Официальный источник — www.xn--80atapud1a.xn--p1ai",
+      "url": "https://www.xn--80atapud1a.xn--p1ai/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Чукотский автономный округ"
+    },
+    {
+      "id": "regions-oct14-uspnongudai-ru",
+      "name": "Официальный источник — uspnongudai.ru",
+      "url": "https://uspnongudai.ru/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Республика Алтай"
+    },
+    {
+      "id": "regions-oct14-www-uspnongudai-ru",
+      "name": "Официальный источник — www.uspnongudai.ru",
+      "url": "https://www.uspnongudai.ru/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Республика Алтай"
+    },
+    {
+      "id": "regions-oct14-rubtsovsk-org",
+      "name": "Официальный источник — rubtsovsk.org",
+      "url": "https://rubtsovsk.org/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Алтайский край"
+    },
+    {
+      "id": "regions-oct14-mfc22-ru",
+      "name": "Официальный источник — mfc22.ru",
+      "url": "https://mfc22.ru/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Алтайский край"
+    },
+    {
+      "id": "regions-oct14-pravo-govvrn-ru",
+      "name": "Официальный источник — pravo.govvrn.ru",
+      "url": "https://pravo.govvrn.ru/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Воронежская область"
+    },
+    {
+      "id": "regions-oct14-talcrb-zdrav36-ru",
+      "name": "Официальный источник — talcrb.zdrav36.ru",
+      "url": "https://talcrb.zdrav36.ru/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Воронежская область"
     }
   ]
 }

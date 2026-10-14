@@ -1,0 +1,176 @@
+{
+  "schema": 1,
+  "region_id": "04",
+  "jurisdiction": "Республика Алтай",
+  "updated": "2026-10-14",
+  "measures": [
+    {
+      "level": "regional",
+      "jurisdiction": "Республика Алтай",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-14",
+      "effective_from": null,
+      "effective_to": null,
+      "verification_scope": "Основные условия подтверждены официальным разъяснением. Полная сверка действующей редакции НПА, всех исключений и процедуры не завершена.",
+      "evidence_documents": [
+        "Официальная страница https://uspnongudai.ru/deyatelnost/naznacheniya-i-vyplaty-mer-sotspodderzhki/materinskiy-kapital/; прочитана или проверена в поисковом индексе 14.10.2026",
+        "Официальная страница https://www.uspnongudai.ru/news/opeka/1181/; прочитана или проверена в поисковом индексе 14.10.2026",
+        "Меры_поддержки_семей_Республика_Алтай.docx"
+      ],
+      "frequency": "once",
+      "id": "altai-republic-capital",
+      "title": "Республиканский материнский капитал",
+      "amount": {
+        "type": "variants",
+        "variants": [
+          {
+            "label": "Третий ребёнок с 01.01.2026",
+            "value": 150000
+          },
+          {
+            "label": "Четвёртый или последующий с 01.01.2026",
+            "value": 100000
+          }
+        ],
+        "note": "Размеры для новых прав 2026 года по разъяснению УСПН. Старые права 2011–2025 и их остатки рассчитываются отдельно."
+      },
+      "eligibility": {
+        "children_min": 3,
+        "birth_date_min": "2026-01-01"
+      },
+      "conditions": [
+        "Заявитель — гражданин РФ на день рождения ребёнка, проживает в Республике Алтай не менее года; ребёнок приобрёл гражданство РФ по рождению.",
+        "Ранее сертификат по республиканской программе не получен. Новые размеры относятся к третьему либо четвёртому и последующим детям с 01.01.2026.",
+        "Разрешены жильё, образование и адаптация ребёнка с инвалидностью; конкретное направление и срок распоряжения проверяются при подаче."
+      ],
+      "application": "УСПН по месту жительства или пребывания: оформление права и отдельное распоряжение средствами.",
+      "legal_basis": [
+        {
+          "title": "Закон Республики Алтай от 08.07.2011 № 44-РЗ — реквизиты подтверждены УСПН"
+        }
+      ],
+      "official_urls": [
+        "https://uspnongudai.ru/deyatelnost/naznacheniya-i-vyplaty-mer-sotspodderzhki/materinskiy-kapital/",
+        "https://www.uspnongudai.ru/news/opeka/1181/"
+      ],
+      "source_review_items": [
+        "04-1"
+      ],
+      "tags": [
+        "multi",
+        "babies",
+        "housing"
+      ]
+    },
+    {
+      "level": "regional",
+      "jurisdiction": "Республика Алтай",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-14",
+      "effective_from": null,
+      "effective_to": null,
+      "verification_scope": "Основные условия подтверждены официальным разъяснением. Полная сверка действующей редакции НПА, всех исключений и процедуры не завершена.",
+      "evidence_documents": [
+        "Официальная страница https://uspnongudai.ru/deyatelnost/naznacheniya-i-vyplaty-mer-sotspodderzhki/mery-sotsialnoy-podderzhki-dlya-mnogodetnykh-semey/; прочитана или проверена в поисковом индексе 14.10.2026",
+        "Меры_поддержки_семей_Республика_Алтай.docx"
+      ],
+      "frequency": "monthly",
+      "id": "altai-republic-utilities",
+      "title": "Компенсация коммунальных услуг многодетным семьям",
+      "amount": {
+        "type": "formula",
+        "note": "В пределах нормативов потребления: 30 % при 3–4 детях, 40 % при 5–6, 50 % при 7 и более."
+      },
+      "eligibility": {
+        "children_min": 3
+      },
+      "conditions": [
+        "Семья с тремя и более детьми; очное обучение продлевает учитываемый возраст до 23 лет.",
+        "Компенсируется оплата коммунальных услуг в пределах нормативов, а не любой размер квитанции.",
+        "Если есть иное основание льготы, семья выбирает одно основание."
+      ],
+      "application": "Заявление в УСПН по месту жительства; назначение с месяца обращения.",
+      "legal_basis": [
+        {
+          "title": "Закон Республики Алтай от 11.10.2005 №70-РЗ — указан в официальном разъяснении УСПН"
+        },
+        {
+          "title": "Постановление Правительства РА от 08.08.2019 №212 — реквизиты из исходника, действующая редакция отдельно не прочитана"
+        }
+      ],
+      "official_urls": [
+        "https://uspnongudai.ru/deyatelnost/naznacheniya-i-vyplaty-mer-sotspodderzhki/mery-sotsialnoy-podderzhki-dlya-mnogodetnykh-semey/"
+      ],
+      "source_review_items": [
+        "04-4.1"
+      ],
+      "tags": [
+        "multi",
+        "housing"
+      ]
+    },
+    {
+      "level": "regional",
+      "jurisdiction": "Республика Алтай",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-14",
+      "effective_from": null,
+      "effective_to": null,
+      "verification_scope": "Основные условия подтверждены официальным разъяснением. Полная сверка действующей редакции НПА, всех исключений и процедуры не завершена.",
+      "evidence_documents": [
+        "Официальная страница https://uspnongudai.ru/deyatelnost/naznacheniya-i-vyplaty-mer-sotspodderzhki/mery-sotsialnoy-podderzhki-dlya-mnogodetnykh-semey/; прочитана или проверена в поисковом индексе 14.10.2026",
+        "Меры_поддержки_семей_Республика_Алтай.docx"
+      ],
+      "frequency": "yearly",
+      "id": "altai-republic-solid-fuel",
+      "title": "Компенсация твёрдого топлива многодетным семьям",
+      "amount": {
+        "type": "variants",
+        "variants": [
+          {
+            "label": "3–4 ребёнка: за год",
+            "value": 4573.35
+          },
+          {
+            "label": "5–6 детей: за год",
+            "value": 6098.2
+          },
+          {
+            "label": "7 и более: за год",
+            "value": 7623.04
+          }
+        ],
+        "note": "По официальному УСПН на 2026 год. Возможна ежемесячная форма; ежегодную и ежемесячную формы нельзя складывать."
+      },
+      "eligibility": {
+        "children_min": 3
+      },
+      "conditions": [
+        "Многодетная семья живёт в доме с печным отоплением.",
+        "Оформляется установленная форма компенсации на топливо; она не означает одновременное получение всех вариантов."
+      ],
+      "application": "Заявление в УСПН с документами о личности и праве на поддержку.",
+      "legal_basis": [
+        {
+          "title": "Закон Республики Алтай от 11.10.2005 №70-РЗ — указан в официальном разъяснении УСПН"
+        },
+        {
+          "title": "Постановление Правительства РА от 08.08.2019 №212 — реквизиты из исходника, отдельно не прочитано"
+        }
+      ],
+      "official_urls": [
+        "https://uspnongudai.ru/deyatelnost/naznacheniya-i-vyplaty-mer-sotspodderzhki/mery-sotsialnoy-podderzhki-dlya-mnogodetnykh-semey/"
+      ],
+      "source_review_items": [
+        "04-4.1-fuel"
+      ],
+      "tags": [
+        "multi",
+        "housing"
+      ]
+    }
+  ]
+}
