@@ -1,0 +1,64 @@
+{
+  "id": "libfile_acc595b7ef408191af900145bea5e1a2",
+  "origin": "user_uploaded_docx",
+  "original_filename": "Меры_поддержки_семей_Алтайский_край.docx",
+  "library_file_id": "libfile_acc595b7ef408191af900145bea5e1a2",
+  "file_id": "file_00000000a4dc824696535c3082dc565e",
+  "received_at": "2026-10-14T03:57:42.657893Z",
+  "region_ids": [
+    "22"
+  ],
+  "original_sha256": "6274916750df9e730932342eee44749151f2a153b3d08bbafd8decee40a94a80",
+  "original_size_bytes": 41057,
+  "paragraph_count": 53,
+  "table_count": 1,
+  "text_sha256": "e07ae8bbf123fee890259ce623790a59f2a644a078d455f867e06a256c05e37a",
+  "text_characters": 7958,
+  "text_file": "data/intake/texts/e07ae8bbf123fee890259ce623790a59f2a644a078d455f867e06a256c05e37a.txt",
+  "review_status": "review_incomplete",
+  "verification_note": "Приём исходника не означает подтверждение сумм и условий. Публикационные решения принимаются отдельно.",
+  "sections": [
+    {
+      "title": "1. Единовременные выплаты при рождении детей",
+      "offset": 372
+    },
+    {
+      "title": "2. Ежемесячные выплаты",
+      "offset": 1724
+    },
+    {
+      "title": "3. Ипотечные меры",
+      "offset": 2232
+    },
+    {
+      "title": "4. Жилищные меры и земля",
+      "offset": 2744
+    },
+    {
+      "title": "5. Меры многодетным семьям (закон № 46-ЗС «О социальной поддержке многодетных семей»)",
+      "offset": 3188
+    },
+    {
+      "title": "6. Налоговые льготы",
+      "offset": 4001
+    },
+    {
+      "title": "7. Опека, приёмные семьи (закон № 78-ЗС)",
+      "offset": 4449
+    },
+    {
+      "title": "8. Соцконтракт",
+      "offset": 5053
+    },
+    {
+      "title": "9. Сводная таблица ключевых мер",
+      "offset": 5320
+    },
+    {
+      "title": "10. Перечень использованных нормативных актов Алтайского края",
+      "offset": 6388
+    }
+  ],
+  "content_blocks_count": 54,
+  "content_status": "text_received"
+}

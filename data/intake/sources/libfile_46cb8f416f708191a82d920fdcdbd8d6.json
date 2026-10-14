@@ -1,0 +1,104 @@
+{
+  "id": "libfile_46cb8f416f708191a82d920fdcdbd8d6",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_vladimirskaya_oblast.docx",
+  "library_file_id": "libfile_46cb8f416f708191a82d920fdcdbd8d6",
+  "file_id": "file_00000000448c8246906af2c9e3bb16f4",
+  "received_at": "2026-10-14T04:20:08.262520Z",
+  "region_ids": [
+    "33"
+  ],
+  "original_sha256": "77ee0436b86bfe686c6d1beb48f084259b8eb9da06118371d0c7abbaec6220e6",
+  "original_size_bytes": 45759,
+  "paragraph_count": 117,
+  "table_count": 5,
+  "text_sha256": "1f5323de94d87a557ae9af78f68f9c9f5867c86503288ab241c7587dcf718352",
+  "text_characters": 16644,
+  "text_file": "data/intake/texts/1f5323de94d87a557ae9af78f68f9c9f5867c86503288ab241c7587dcf718352.txt",
+  "review_status": "review_incomplete",
+  "verification_note": "Приём исходника не означает подтверждение сумм и условий. Публикационные решения принимаются отдельно.",
+  "sections": [
+    {
+      "title": "1. Общие сведения и федеральные меры",
+      "offset": 329
+    },
+    {
+      "title": "2. Областной материнский (семейный) капитал — 95 000 руб.",
+      "offset": 1641
+    },
+    {
+      "title": "3. Единовременные выплаты при рождении (закон № 127-ОЗ)",
+      "offset": 2559
+    },
+    {
+      "title": "4. Выплата 300 000 руб. молодой семье за третьего ребёнка",
+      "offset": 3186
+    },
+    {
+      "title": "5. Выплата взамен бесплатного земельного участка — 289 401 руб.",
+      "offset": 3823
+    },
+    {
+      "title": "6. ЕДВ на третьего ребёнка до 3 лет",
+      "offset": 4313
+    },
+    {
+      "title": "7. Многодетные семьи — закон от 02.10.2007 № 120-ОЗ",
+      "offset": 4896
+    },
+    {
+      "title": "8. Питание беременных, кормящих женщин и детей до 3 лет",
+      "offset": 5959
+    },
+    {
+      "title": "9. Жильё: программа «Молодая семья»",
+      "offset": 6301
+    },
+    {
+      "title": "10. Бесплатное питание в школах",
+      "offset": 7189
+    },
+    {
+      "title": "11. Детские сады",
+      "offset": 8268
+    },
+    {
+      "title": "12. Дети-инвалиды",
+      "offset": 8560
+    },
+    {
+      "title": "13. Опека, приёмные семьи и дети-сироты",
+      "offset": 9247
+    },
+    {
+      "title": "14. Оздоровление и отдых",
+      "offset": 10221
+    },
+    {
+      "title": "15. Социальный контракт",
+      "offset": 11139
+    },
+    {
+      "title": "16. Участники СВО и их семьи",
+      "offset": 11675
+    },
+    {
+      "title": "17. Налоговые льготы",
+      "offset": 13592
+    },
+    {
+      "title": "18. Прочие меры",
+      "offset": 14568
+    },
+    {
+      "title": "19. Сводная таблица нормативных актов",
+      "offset": 14982
+    },
+    {
+      "title": "20. Контакты",
+      "offset": 16228
+    }
+  ],
+  "content_blocks_count": 122,
+  "content_status": "text_received"
+}

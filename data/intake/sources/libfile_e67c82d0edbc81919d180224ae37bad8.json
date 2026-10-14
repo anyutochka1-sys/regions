@@ -1,0 +1,23 @@
+{
+  "id": "libfile_e67c82d0edbc81919d180224ae37bad8",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_rostovskaya_oblast(1).docx",
+  "library_file_id": "libfile_e67c82d0edbc81919d180224ae37bad8",
+  "file_id": "file_0000000002f4824686243f50891c45b7",
+  "received_at": "2026-10-14T04:20:56.927276Z",
+  "region_ids": [
+    "61"
+  ],
+  "original_sha256": "42b2fec586a81c15aebd7ec10cb382cb98a7e04aceea4038670ee80eed489857",
+  "original_size_bytes": 36745,
+  "paragraph_count": 1,
+  "table_count": 0,
+  "text_sha256": "41d3a81bf7da1ebca19fd13dc622456bc047621ee46dd96cf39986b4e1799ec2",
+  "text_characters": 59,
+  "text_file": "data/intake/texts/41d3a81bf7da1ebca19fd13dc622456bc047621ee46dd96cf39986b4e1799ec2.txt",
+  "review_status": "review_incomplete",
+  "verification_note": "Приём исходника не означает подтверждение сумм и условий. Публикационные решения принимаются отдельно.",
+  "sections": [],
+  "content_blocks_count": 1,
+  "content_status": "title_only"
+}

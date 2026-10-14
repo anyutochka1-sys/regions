@@ -1,0 +1,88 @@
+{
+  "id": "libfile_8015da6743808191a0a1e9b49f6067ed",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_chelyabinskaya_oblast.docx",
+  "library_file_id": "libfile_8015da6743808191a0a1e9b49f6067ed",
+  "file_id": "file_00000000234881fd84fe3f685d422e93",
+  "received_at": "2026-09-30T14:18:52.854409Z",
+  "region_ids": [
+    "74"
+  ],
+  "original_sha256": "ad6823b79e74706c5b48702fb1afbfdfe8188ca5371ccaa2880e9d401edb0b72",
+  "original_size_bytes": 45639,
+  "paragraph_count": 290,
+  "table_count": 1,
+  "text_sha256": "131bf7a2c01ee75f317a0e2dea9fc15be889e6deb46cf1f83b6b26e553799853",
+  "text_characters": 22280,
+  "text_file": "data/intake/texts/131bf7a2c01ee75f317a0e2dea9fc15be889e6deb46cf1f83b6b26e553799853.txt",
+  "review_status": "review_incomplete",
+  "verification_note": "Приём исходника не означает подтверждение сумм и условий. Публикационные решения принимаются отдельно.",
+  "sections": [
+    {
+      "title": "1. Областной материнский (семейный) капитал",
+      "offset": 139
+    },
+    {
+      "title": "2. Студенческий (семейный) капитал",
+      "offset": 1354
+    },
+    {
+      "title": "3. Единовременные и ежемесячные выплаты",
+      "offset": 2449
+    },
+    {
+      "title": "4. Меры поддержки многодетных семей",
+      "offset": 4146
+    },
+    {
+      "title": "5. Жилищные меры",
+      "offset": 6179
+    },
+    {
+      "title": "6. Компенсация родительской платы за детский сад",
+      "offset": 8233
+    },
+    {
+      "title": "7. Бесплатное питание в школах",
+      "offset": 9332
+    },
+    {
+      "title": "8. Поддержка детей-инвалидов и их семей",
+      "offset": 10639
+    },
+    {
+      "title": "9. Социальный контракт",
+      "offset": 12242
+    },
+    {
+      "title": "10. Налоговые льготы",
+      "offset": 12952
+    },
+    {
+      "title": "11. Знак отличия «Материнская слава»",
+      "offset": 13883
+    },
+    {
+      "title": "12. Поддержка детей-сирот",
+      "offset": 14401
+    },
+    {
+      "title": "13. Поддержка семей участников СВО",
+      "offset": 15289
+    },
+    {
+      "title": "14. Ежегодная семейная выплата (ЕСВ)",
+      "offset": 18071
+    },
+    {
+      "title": "15. Сводная таблица нормативных актов",
+      "offset": 18444
+    },
+    {
+      "title": "16. Контакты для обращения",
+      "offset": 21703
+    }
+  ],
+  "content_blocks_count": 291,
+  "content_status": "text_received"
+}

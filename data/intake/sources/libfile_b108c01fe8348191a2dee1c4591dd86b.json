@@ -1,0 +1,92 @@
+{
+  "id": "libfile_b108c01fe8348191a2dee1c4591dd86b",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_krasnodarskiy_kray(1).docx",
+  "library_file_id": "libfile_b108c01fe8348191a2dee1c4591dd86b",
+  "file_id": "file_00000000be288246b27b2c651a68cb46",
+  "received_at": "2026-10-14T04:20:56.500901Z",
+  "region_ids": [
+    "23"
+  ],
+  "original_sha256": "e516b2698ad4dc2da1584912c8bdf3b0f326cba53709821ca85ab67f4a9b3c3b",
+  "original_size_bytes": 42987,
+  "paragraph_count": 90,
+  "table_count": 1,
+  "text_sha256": "b0a1600a2240744e33d913973f26c22bbe348831c4a6b7572b0d0064b90830ad",
+  "text_characters": 12195,
+  "text_file": "data/intake/texts/b0a1600a2240744e33d913973f26c22bbe348831c4a6b7572b0d0064b90830ad.txt",
+  "review_status": "review_incomplete",
+  "verification_note": "Приём исходника не означает подтверждение сумм и условий. Публикационные решения принимаются отдельно.",
+  "sections": [
+    {
+      "title": "1. Общие сведения: ключевые федеральные параметры",
+      "offset": 297
+    },
+    {
+      "title": "2. Краевой материнский капитал — 167 135 руб. на третьего и каждого последующего",
+      "offset": 1424
+    },
+    {
+      "title": "3. Ежемесячная выплата на третьего ребёнка до трёх лет",
+      "offset": 2203
+    },
+    {
+      "title": "4. Новое краевое пособие семьям с детьми (закон № 5523-КЗ от 21.05.2026)",
+      "offset": 2514
+    },
+    {
+      "title": "5. Единовременные и адресные выплаты",
+      "offset": 2979
+    },
+    {
+      "title": "6. Меры поддержки многодетных семей",
+      "offset": 3655
+    },
+    {
+      "title": "7. Жилищные меры",
+      "offset": 4745
+    },
+    {
+      "title": "8. Питание в школах",
+      "offset": 5552
+    },
+    {
+      "title": "9. Поддержка детей-инвалидов",
+      "offset": 5990
+    },
+    {
+      "title": "10. Опека, приёмные семьи, дети-сироты",
+      "offset": 6422
+    },
+    {
+      "title": "11. Оздоровление и отдых детей",
+      "offset": 7256
+    },
+    {
+      "title": "12. Социальный контракт",
+      "offset": 7694
+    },
+    {
+      "title": "13. Поддержка семей участников СВО",
+      "offset": 8026
+    },
+    {
+      "title": "14. Налоговые льготы",
+      "offset": 8840
+    },
+    {
+      "title": "15. Единая выплата семьям с двумя детьми и прочие меры",
+      "offset": 9541
+    },
+    {
+      "title": "16. Сводная таблица основных нормативных актов",
+      "offset": 9897
+    },
+    {
+      "title": "17. Куда обращаться",
+      "offset": 11690
+    }
+  ],
+  "content_blocks_count": 91,
+  "content_status": "text_received"
+}

@@ -1,0 +1,96 @@
+{
+  "id": "libfile_af8295c5645481919495612c3e369887",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_kurskaya_oblast.docx",
+  "library_file_id": "libfile_af8295c5645481919495612c3e369887",
+  "file_id": "file_000000001720824684fbf63ba2d407dd",
+  "received_at": "2026-10-14T03:57:42.075567Z",
+  "region_ids": [
+    "46"
+  ],
+  "original_sha256": "8a8dc709ab0637a26fc52c3b78f1e0ea05e4bfe1f6326cd570140c1564ffe79c",
+  "original_size_bytes": 46269,
+  "paragraph_count": 141,
+  "table_count": 1,
+  "text_sha256": "dfe3d87770404b9e4cfcb2afa401b4f6f94e570ddb4f1aa7b8f1c7e90184f6cd",
+  "text_characters": 18057,
+  "text_file": "data/intake/texts/dfe3d87770404b9e4cfcb2afa401b4f6f94e570ddb4f1aa7b8f1c7e90184f6cd.txt",
+  "review_status": "review_incomplete",
+  "verification_note": "Приём исходника не означает подтверждение сумм и условий. Публикационные решения принимаются отдельно.",
+  "sections": [
+    {
+      "title": "1. Общие сведения: ключевые параметры 2026 года",
+      "offset": 113
+    },
+    {
+      "title": "2. Областной материнский капитал",
+      "offset": 2017
+    },
+    {
+      "title": "3. Выплаты при рождении третьего ребёнка и последующих",
+      "offset": 3102
+    },
+    {
+      "title": "4. Пособия малоимущим семьям",
+      "offset": 3946
+    },
+    {
+      "title": "5. Земля и компенсация взамен участка",
+      "offset": 4812
+    },
+    {
+      "title": "6. Меры поддержки многодетных семей",
+      "offset": 5129
+    },
+    {
+      "title": "7. Жильё для молодых семей",
+      "offset": 5976
+    },
+    {
+      "title": "8. Питание в школах",
+      "offset": 6694
+    },
+    {
+      "title": "9. Детские сады",
+      "offset": 7553
+    },
+    {
+      "title": "10. Дети-инвалиды",
+      "offset": 7751
+    },
+    {
+      "title": "11. Опека, приёмные семьи, усыновление",
+      "offset": 9009
+    },
+    {
+      "title": "12. Оздоровление и отдых детей",
+      "offset": 10485
+    },
+    {
+      "title": "13. Социальный контракт",
+      "offset": 11347
+    },
+    {
+      "title": "14. Семьи участников СВО и пострадавшие от обстрелов",
+      "offset": 11659
+    },
+    {
+      "title": "15. Налоговые льготы для семей с детьми",
+      "offset": 13233
+    },
+    {
+      "title": "16. Прочие меры",
+      "offset": 14314
+    },
+    {
+      "title": "17. Сводная таблица нормативных актов",
+      "offset": 14804
+    },
+    {
+      "title": "18. Куда обращаться",
+      "offset": 16829
+    }
+  ],
+  "content_blocks_count": 142,
+  "content_status": "text_received"
+}

@@ -1,0 +1,100 @@
+{
+  "id": "libfile_654b16a627fc819182748aeefa97f4c3",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_bryanskaya_oblast.docx",
+  "library_file_id": "libfile_654b16a627fc819182748aeefa97f4c3",
+  "file_id": "file_000000007b6482469809241b9c846c83",
+  "received_at": "2026-10-14T04:20:08.191212Z",
+  "region_ids": [
+    "32"
+  ],
+  "original_sha256": "635a6fcca199b3697a53155b62e02d59f1d2b4d8462e8075edaeb8cdf0a27491",
+  "original_size_bytes": 48463,
+  "paragraph_count": 145,
+  "table_count": 1,
+  "text_sha256": "1f979803c05c3fcf1a2ace3d9f976694dad4361ea82a1a6019786236a01531e7",
+  "text_characters": 22156,
+  "text_file": "data/intake/texts/1f979803c05c3fcf1a2ace3d9f976694dad4361ea82a1a6019786236a01531e7.txt",
+  "review_status": "review_incomplete",
+  "verification_note": "Приём исходника не означает подтверждение сумм и условий. Публикационные решения принимаются отдельно.",
+  "sections": [
+    {
+      "title": "1. Общие сведения и федеральные меры",
+      "offset": 108
+    },
+    {
+      "title": "2. Единовременные выплаты при рождении (региональные)",
+      "offset": 2609
+    },
+    {
+      "title": "3. Областной материнский (семейный) капитал",
+      "offset": 3501
+    },
+    {
+      "title": "4. Земля и выплата взамен участка",
+      "offset": 4764
+    },
+    {
+      "title": "5. Молодые семьи: жильё и выплаты",
+      "offset": 5612
+    },
+    {
+      "title": "6. Многодетные семьи: комплекс мер (ст. 13.2 закона № 12-З)",
+      "offset": 6539
+    },
+    {
+      "title": "7. Питание в школах (г. Брянск)",
+      "offset": 8039
+    },
+    {
+      "title": "8. Детские сады",
+      "offset": 8773
+    },
+    {
+      "title": "9. Дети-инвалиды",
+      "offset": 9196
+    },
+    {
+      "title": "10. Опека, приёмные семьи, сироты",
+      "offset": 10090
+    },
+    {
+      "title": "11. Оздоровление детей",
+      "offset": 11462
+    },
+    {
+      "title": "12. Социальный контракт",
+      "offset": 12377
+    },
+    {
+      "title": "13. Семьи участников СВО",
+      "offset": 12838
+    },
+    {
+      "title": "14. Чернобыльский блок (регион пострадавший)",
+      "offset": 14375
+    },
+    {
+      "title": "15. Студенческие семьи и беременные студентки",
+      "offset": 16335
+    },
+    {
+      "title": "16. Налоги",
+      "offset": 17188
+    },
+    {
+      "title": "17. Двойня и тройня: сводка выплат",
+      "offset": 18439
+    },
+    {
+      "title": "18. Сводная таблица нормативных актов",
+      "offset": 18937
+    },
+    {
+      "title": "19. Контакты и порядок обращения",
+      "offset": 21244
+    }
+  ],
+  "content_blocks_count": 146,
+  "content_status": "text_received"
+}

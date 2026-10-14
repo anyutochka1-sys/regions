@@ -1,0 +1,97 @@
+{
+  "id": "libfile_88b098ab597c8191a4ff7c6a3d074389",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_voronezhskaya_oblast.docx",
+  "library_file_id": "libfile_88b098ab597c8191a4ff7c6a3d074389",
+  "file_id": "file_00000000ab3881f496e98f880787a5a0",
+  "received_at": "2026-10-11T07:28:29.494665Z",
+  "region_ids": [
+    "36"
+  ],
+  "original_sha256": "caebdfc6eb24606ef93af58209fd83fff67b00e7edbbb0bbfbd659485a2c0259",
+  "original_size_bytes": 42982,
+  "paragraph_count": 103,
+  "table_count": 1,
+  "text_sha256": "5668c03eeaccc55d40aeb8c1dd09b43e169fd4f3ee37e70f998ecf628e33eabe",
+  "text_characters": 12777,
+  "text_file": "data/intake/texts/5668c03eeaccc55d40aeb8c1dd09b43e169fd4f3ee37e70f998ecf628e33eabe.txt",
+  "review_status": "review_incomplete",
+  "verification_note": "Приём исходника не означает подтверждение сумм и условий. Публикационные решения принимаются отдельно.",
+  "sections": [
+    {
+      "title": "1. Общие сведения и федеральные меры",
+      "offset": 353
+    },
+    {
+      "title": "2. Региональный материнский капитал Воронежской области",
+      "offset": 1736
+    },
+    {
+      "title": "3. Выплата матерям до 28 лет за второго ребёнка",
+      "offset": 2441
+    },
+    {
+      "title": "4. Выплаты многодетным семьям: ежемесячные и единовременные",
+      "offset": 2979
+    },
+    {
+      "title": "5. Многодетные семьи: льготы и меры поддержки",
+      "offset": 3787
+    },
+    {
+      "title": "6. Жилищные меры",
+      "offset": 5202
+    },
+    {
+      "title": "7. Питание в школах",
+      "offset": 6216
+    },
+    {
+      "title": "8. Компенсация родительской платы за детский сад",
+      "offset": 6764
+    },
+    {
+      "title": "9. Дети-инвалиды",
+      "offset": 7269
+    },
+    {
+      "title": "10. Беременные женщины и питание детей раннего возраста",
+      "offset": 7729
+    },
+    {
+      "title": "11. Опека, приёмные семьи, дети-сироты",
+      "offset": 8228
+    },
+    {
+      "title": "12. Оздоровление и отдых",
+      "offset": 8762
+    },
+    {
+      "title": "13. Социальный контракт",
+      "offset": 9093
+    },
+    {
+      "title": "14. Семьи участников СВО",
+      "offset": 9406
+    },
+    {
+      "title": "15. Налоговые льготы",
+      "offset": 10031
+    },
+    {
+      "title": "16. ЕСВ и прочие меры",
+      "offset": 10556
+    },
+    {
+      "title": "17. Сводная таблица нормативных актов",
+      "offset": 10805
+    },
+    {
+      "title": "18. Куда обращаться",
+      "offset": 12186
+    }
+  ],
+  "content_blocks_count": 104,
+  "content_status": "text_received",
+  "same_text_as": "libfile_e40229b5f0d08191aa851e30e24f47e3"
+}

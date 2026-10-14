@@ -1,0 +1,96 @@
+{
+  "id": "libfile_99173bd56bb4819180c98da067813a68",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_kaluzhskaya_oblast.docx",
+  "library_file_id": "libfile_99173bd56bb4819180c98da067813a68",
+  "file_id": "file_00000000238482468311090aadacb20c",
+  "received_at": "2026-10-14T04:20:08.211228Z",
+  "region_ids": [
+    "40"
+  ],
+  "original_sha256": "82b9525b067d536fefdb8989e5098391fcb0f8ca00ed00fa926ce18a8356bbb5",
+  "original_size_bytes": 44869,
+  "paragraph_count": 105,
+  "table_count": 1,
+  "text_sha256": "779436a3696b3eacf784fa7f0bbffd7ed9c8f4646f7524917a781de72e8c4dd5",
+  "text_characters": 15880,
+  "text_file": "data/intake/texts/779436a3696b3eacf784fa7f0bbffd7ed9c8f4646f7524917a781de72e8c4dd5.txt",
+  "review_status": "review_incomplete",
+  "verification_note": "Приём исходника не означает подтверждение сумм и условий. Публикационные решения принимаются отдельно.",
+  "sections": [
+    {
+      "title": "1. Общие сведения: базовые величины 2026 года",
+      "offset": 243
+    },
+    {
+      "title": "2. Региональный материнский капитал",
+      "offset": 2216
+    },
+    {
+      "title": "3. Ежемесячная выплата на третьего и последующих детей до 3 лет",
+      "offset": 2906
+    },
+    {
+      "title": "4. Ежемесячное пособие на ребёнка (классическое)",
+      "offset": 3361
+    },
+    {
+      "title": "5. Многодетные семьи: закон № 8-ОЗ и 18 мер поддержки",
+      "offset": 3917
+    },
+    {
+      "title": "6. Земельные участки и жильё",
+      "offset": 5449
+    },
+    {
+      "title": "7. Питание в школах",
+      "offset": 7038
+    },
+    {
+      "title": "8. Детские сады",
+      "offset": 7823
+    },
+    {
+      "title": "9. Дети-инвалиды",
+      "offset": 8224
+    },
+    {
+      "title": "10. Опека, приёмные семьи, сироты",
+      "offset": 8678
+    },
+    {
+      "title": "11. Оздоровление и отдых",
+      "offset": 9623
+    },
+    {
+      "title": "12. Социальный контракт",
+      "offset": 10032
+    },
+    {
+      "title": "13. Поддержка участников СВО и их семей",
+      "offset": 10491
+    },
+    {
+      "title": "14. Налоговые льготы",
+      "offset": 11555
+    },
+    {
+      "title": "15. Награды и прочие меры",
+      "offset": 12366
+    },
+    {
+      "title": "16. Сводная таблица нормативных актов",
+      "offset": 12715
+    },
+    {
+      "title": "17. Куда обращаться",
+      "offset": 14530
+    },
+    {
+      "title": "18. Важные оговорки",
+      "offset": 15214
+    }
+  ],
+  "content_blocks_count": 106,
+  "content_status": "text_received"
+}

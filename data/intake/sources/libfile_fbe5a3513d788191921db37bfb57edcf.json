@@ -1,0 +1,97 @@
+{
+  "id": "libfile_fbe5a3513d788191921db37bfb57edcf",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_perm_kray.docx",
+  "library_file_id": "libfile_fbe5a3513d788191921db37bfb57edcf",
+  "file_id": "file_00000000704882469261c20a0723c1df",
+  "received_at": "2026-10-11T07:28:28.575713Z",
+  "region_ids": [
+    "59"
+  ],
+  "original_sha256": "2ee257304ae25928ef780d3b395aa653d7b2dad7a11566f9c29933874f3863e9",
+  "original_size_bytes": 42347,
+  "paragraph_count": 77,
+  "table_count": 2,
+  "text_sha256": "271f4f08c04a66487d921597aeb9be607e7ce4381bd69c04dbe21c038b5aa9c6",
+  "text_characters": 9431,
+  "text_file": "data/intake/texts/271f4f08c04a66487d921597aeb9be607e7ce4381bd69c04dbe21c038b5aa9c6.txt",
+  "review_status": "review_incomplete",
+  "verification_note": "Приём исходника не означает подтверждение сумм и условий. Публикационные решения принимаются отдельно.",
+  "sections": [
+    {
+      "title": "1. Общие сведения и федеральные выплаты",
+      "offset": 351
+    },
+    {
+      "title": "2. «Большая семья Прикамья» — главная региональная выплата",
+      "offset": 1408
+    },
+    {
+      "title": "3. «Мастеровая семья Прикамья»",
+      "offset": 1987
+    },
+    {
+      "title": "4. Ежегодная семейная выплата (возврат НДФЛ)",
+      "offset": 2400
+    },
+    {
+      "title": "5. Пособия на детей малоимущим семьям",
+      "offset": 2784
+    },
+    {
+      "title": "6. Многодетные семьи",
+      "offset": 3320
+    },
+    {
+      "title": "7. Земля и жильё",
+      "offset": 3960
+    },
+    {
+      "title": "8. Питание в школах",
+      "offset": 4584
+    },
+    {
+      "title": "9. Детские сады",
+      "offset": 4950
+    },
+    {
+      "title": "10. Дети-инвалиды",
+      "offset": 5316
+    },
+    {
+      "title": "11. Опека, приёмные семьи и дети-сироты",
+      "offset": 5729
+    },
+    {
+      "title": "12. Оздоровление и отдых",
+      "offset": 6274
+    },
+    {
+      "title": "13. Соцконтракт",
+      "offset": 6600
+    },
+    {
+      "title": "14. Семьи участников СВО",
+      "offset": 6906
+    },
+    {
+      "title": "15. Налоги",
+      "offset": 7503
+    },
+    {
+      "title": "16. Награды и прочее",
+      "offset": 7976
+    },
+    {
+      "title": "17. Сводная таблица основных нормативных актов",
+      "offset": 8302
+    },
+    {
+      "title": "18. Куда обращаться",
+      "offset": 9107
+    }
+  ],
+  "content_blocks_count": 79,
+  "content_status": "text_received",
+  "same_text_as": "libfile_48bc053afdb08191859bdb796010b3a0"
+}

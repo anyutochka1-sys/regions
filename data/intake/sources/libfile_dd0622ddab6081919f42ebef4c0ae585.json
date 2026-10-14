@@ -1,0 +1,104 @@
+{
+  "id": "libfile_dd0622ddab6081919f42ebef4c0ae585",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_ryazanskaya_oblast.docx",
+  "library_file_id": "libfile_dd0622ddab6081919f42ebef4c0ae585",
+  "file_id": "file_00000000d23c82469bf8ad413ecc427c",
+  "received_at": "2026-10-14T04:20:08.520818Z",
+  "region_ids": [
+    "62"
+  ],
+  "original_sha256": "1a13498a006936e7042428e117c08b4fb58e71e0152204c89958a69ebb0e9368",
+  "original_size_bytes": 44944,
+  "paragraph_count": 117,
+  "table_count": 1,
+  "text_sha256": "13295ddbea8434ba9c830c445c433304c548fde308b0b3a47859655edc3987cb",
+  "text_characters": 15417,
+  "text_file": "data/intake/texts/13295ddbea8434ba9c830c445c433304c548fde308b0b3a47859655edc3987cb.txt",
+  "review_status": "review_incomplete",
+  "verification_note": "Приём исходника не означает подтверждение сумм и условий. Публикационные решения принимаются отдельно.",
+  "sections": [
+    {
+      "title": "1. Общие сведения: базовые цифры 2026 года",
+      "offset": 80
+    },
+    {
+      "title": "2. Региональный материнский капитал",
+      "offset": 1881
+    },
+    {
+      "title": "3. Региональные выплаты при рождении ребёнка",
+      "offset": 2762
+    },
+    {
+      "title": "4. Компенсация найма жилья молодым семьям",
+      "offset": 3671
+    },
+    {
+      "title": "5. Ежемесячная выплата на третьего ребёнка до 3 лет",
+      "offset": 4089
+    },
+    {
+      "title": "6. Пособие на ребёнка до 16 лет (закон № 91-ОЗ, ст. 11)",
+      "offset": 4374
+    },
+    {
+      "title": "7. Питание беременных, кормящих матерей и детей до 3 лет",
+      "offset": 5064
+    },
+    {
+      "title": "8. Многодетные семьи: меры поддержки",
+      "offset": 5422
+    },
+    {
+      "title": "9. Земля и жильё",
+      "offset": 6794
+    },
+    {
+      "title": "10. Питание в школах",
+      "offset": 7826
+    },
+    {
+      "title": "11. Детские сады",
+      "offset": 8582
+    },
+    {
+      "title": "12. Дети-инвалиды",
+      "offset": 9005
+    },
+    {
+      "title": "13. Опека, приёмные семьи, сироты",
+      "offset": 9791
+    },
+    {
+      "title": "14. Оздоровление и отдых детей",
+      "offset": 10519
+    },
+    {
+      "title": "15. Социальный контракт",
+      "offset": 11113
+    },
+    {
+      "title": "16. Семьи участников СВО",
+      "offset": 11631
+    },
+    {
+      "title": "17. Налоговые льготы",
+      "offset": 12461
+    },
+    {
+      "title": "18. Награды и поощрения",
+      "offset": 13188
+    },
+    {
+      "title": "19. Сводная таблица нормативных актов",
+      "offset": 13737
+    },
+    {
+      "title": "20. Куда обращаться",
+      "offset": 14791
+    }
+  ],
+  "content_blocks_count": 118,
+  "content_status": "text_received"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "libfile_56f9b237dec08191a47205dfe53b719e",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_lipetskaya_oblast.docx",
+  "library_file_id": "libfile_56f9b237dec08191a47205dfe53b719e",
+  "file_id": "file_00000000e9e08246a606082c8f28a3f4",
+  "received_at": "2026-10-14T03:57:42.026989Z",
+  "region_ids": [
+    "48"
+  ],
+  "original_sha256": "816e22b9707a9ce676e1a7540c2e77ef78ef6eb3ec90ec8ca0167201dfc35b54",
+  "original_size_bytes": 43552,
+  "paragraph_count": 121,
+  "table_count": 1,
+  "text_sha256": "ecf6b616bcfff7bf327145fc50fc1dcbfc37e776eb53b2c6fd4a75d796b7d70d",
+  "text_characters": 12839,
+  "text_file": "data/intake/texts/ecf6b616bcfff7bf327145fc50fc1dcbfc37e776eb53b2c6fd4a75d796b7d70d.txt",
+  "review_status": "review_incomplete",
+  "verification_note": "Приём исходника не означает подтверждение сумм и условий. Публикационные решения принимаются отдельно.",
+  "sections": [
+    {
+      "title": "1. Общие сведения и федеральные меры",
+      "offset": 305
+    },
+    {
+      "title": "2. Областной материнский капитал",
+      "offset": 1541
+    },
+    {
+      "title": "3. Выплата 300 000 руб. за третьего ребёнка молодой семье",
+      "offset": 2342
+    },
+    {
+      "title": "4. Выплата 85 000 руб. матерям 18–24 лет за первенца",
+      "offset": 2791
+    },
+    {
+      "title": "5. Выплаты при рождении двойни и тройни",
+      "offset": 3086
+    },
+    {
+      "title": "6. Ежемесячная выплата на третьего и последующих детей до 3 лет",
+      "offset": 3546
+    },
+    {
+      "title": "7. Классическое ежемесячное пособие на ребёнка",
+      "offset": 3814
+    },
+    {
+      "title": "8. Меры для многодетных семей (3 и более детей до 18 лет)",
+      "offset": 4342
+    },
+    {
+      "title": "9. Награды и премии родителям",
+      "offset": 5107
+    },
+    {
+      "title": "10. Земельные участки и жильё",
+      "offset": 5380
+    },
+    {
+      "title": "11. Питание в школах",
+      "offset": 6501
+    },
+    {
+      "title": "12. Детские сады",
+      "offset": 7087
+    },
+    {
+      "title": "13. Дети-инвалиды",
+      "offset": 7464
+    },
+    {
+      "title": "14. Опека, приёмные семьи, дети-сироты",
+      "offset": 7967
+    },
+    {
+      "title": "15. Оздоровление и лагеря",
+      "offset": 8854
+    },
+    {
+      "title": "16. Социальный контракт",
+      "offset": 9245
+    },
+    {
+      "title": "17. Семьи участников СВО",
+      "offset": 9611
+    },
+    {
+      "title": "18. Налоговые льготы",
+      "offset": 10239
+    },
+    {
+      "title": "19. Прочие меры",
+      "offset": 10874
+    },
+    {
+      "title": "20. Сводная таблица нормативных актов",
+      "offset": 11278
+    },
+    {
+      "title": "21. Куда обращаться",
+      "offset": 12364
+    }
+  ],
+  "content_blocks_count": 122,
+  "content_status": "text_received"
+}

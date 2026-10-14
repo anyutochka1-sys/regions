@@ -1,0 +1,92 @@
+{
+  "id": "libfile_db78841dbe308191bab7f57bbe6a0cbe",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_bashkortostan(1).docx",
+  "library_file_id": "libfile_db78841dbe308191bab7f57bbe6a0cbe",
+  "file_id": "file_0000000003908246aac6c18e529205c2",
+  "received_at": "2026-10-14T04:20:55.637257Z",
+  "region_ids": [
+    "02"
+  ],
+  "original_sha256": "c5dd88b3e7394ef4930fdb0e045083e5eaad2b2e0bc31982f91776d18155b3af",
+  "original_size_bytes": 46140,
+  "paragraph_count": 96,
+  "table_count": 1,
+  "text_sha256": "1eeb11433ebe8cbfef2a6bd94ed569b8124fa65702cacf88bf3cd9663a17b327",
+  "text_characters": 18467,
+  "text_file": "data/intake/texts/1eeb11433ebe8cbfef2a6bd94ed569b8124fa65702cacf88bf3cd9663a17b327.txt",
+  "review_status": "review_incomplete",
+  "verification_note": "Приём исходника не означает подтверждение сумм и условий. Публикационные решения принимаются отдельно.",
+  "sections": [
+    {
+      "title": "1. ОБЩИЕ СВЕДЕНИЯ (ФЕДЕРАЛЬНЫЕ МЕРЫ В РЕСПУБЛИКЕ)",
+      "offset": 961
+    },
+    {
+      "title": "2. ЕДИНОВРЕМЕННАЯ ВЫПЛАТА МНОГОДЕТНЫМ СЕМЬЯМ С 8 И БОЛЕЕ ДЕТЬМИ (АНАЛОГ РЕГИОНАЛЬНОГО МАТКАПИТАЛА)",
+      "offset": 2907
+    },
+    {
+      "title": "3. ЕЖЕМЕСЯЧНЫЕ ВЫПЛАТЫ НА ТРЕТЬЕГО И ПОСЛЕДУЮЩЕГО РЕБЁНКА И ПРИ МНОГОПЛОДНОЙ БЕРЕМЕННОСТИ",
+      "offset": 3621
+    },
+    {
+      "title": "4. ЕЖЕМЕСЯЧНОЕ ПОСОБИЕ НА РЕБЁНКА (МАЛОИМУЩИМ)",
+      "offset": 4659
+    },
+    {
+      "title": "5. МНОГОДЕТНЫЕ СЕМЬИ — ЖИЛИЩНЫЕ И ЗЕМЕЛЬНЫЕ МЕРЫ",
+      "offset": 5950
+    },
+    {
+      "title": "6. МНОГОДЕТНЫЕ СЕМЬИ — ЖИЛИЩНО-КОММУНАЛЬНЫЕ И ПРОЧИЕ ЛЬГОТЫ",
+      "offset": 6833
+    },
+    {
+      "title": "7. ПИТАНИЕ В ШКОЛАХ",
+      "offset": 7406
+    },
+    {
+      "title": "8. ДЕТСКИЕ САДЫ",
+      "offset": 8695
+    },
+    {
+      "title": "9. ДЕТИ-ИНВАЛИДЫ И ДЕТИ С ОВЗ",
+      "offset": 9319
+    },
+    {
+      "title": "10. ОПЕКА, ПРИЁМНЫЕ СЕМЬИ, ДЕТИ-СИРОТЫ",
+      "offset": 9830
+    },
+    {
+      "title": "11. ОЗДОРОВЛЕНИЕ И ОТДЫХ",
+      "offset": 11007
+    },
+    {
+      "title": "12. СЕМЬИ УЧАСТНИКОВ СВО (ПЕРЕЧЕНЬ ИЗ БОЛЕЕ 56 МЕР)",
+      "offset": 11533
+    },
+    {
+      "title": "13. СОЦИАЛЬНЫЙ КОНТРАКТ (АСПК)",
+      "offset": 13410
+    },
+    {
+      "title": "14. НАЛОГОВЫЕ ЛЬГОТЫ",
+      "offset": 14167
+    },
+    {
+      "title": "15. ПРОЧИЕ МЕРЫ",
+      "offset": 15418
+    },
+    {
+      "title": "16. СВОДНАЯ ТАБЛИЦА НОРМАТИВНЫХ АКТОВ",
+      "offset": 15754
+    },
+    {
+      "title": "17. КУДА ОБРАЩАТЬСЯ",
+      "offset": 18017
+    }
+  ],
+  "content_blocks_count": 97,
+  "content_status": "text_received"
+}

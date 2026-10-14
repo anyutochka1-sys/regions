@@ -1,0 +1,88 @@
+{
+  "id": "libfile_88287504cbb481919bc62fa8c4db5d8a",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_leningradskaya_oblast.docx",
+  "library_file_id": "libfile_88287504cbb481919bc62fa8c4db5d8a",
+  "file_id": "file_00000000b04c8246a15a7f1d3c58330e",
+  "received_at": "2026-10-14T04:20:56.588686Z",
+  "region_ids": [
+    "47"
+  ],
+  "original_sha256": "35663232ec0d749bd8e03dd05d59bb2dffd7ca35e969868e3d04d31911e5e404",
+  "original_size_bytes": 43728,
+  "paragraph_count": 110,
+  "table_count": 1,
+  "text_sha256": "9c0a99ccd5239d9b53c3a766fca6e45283d64656111b5e5e1098ee4d91fe267a",
+  "text_characters": 14381,
+  "text_file": "data/intake/texts/9c0a99ccd5239d9b53c3a766fca6e45283d64656111b5e5e1098ee4d91fe267a.txt",
+  "review_status": "review_incomplete",
+  "verification_note": "Приём исходника не означает подтверждение сумм и условий. Публикационные решения принимаются отдельно.",
+  "sections": [
+    {
+      "title": "1. Региональный материнский (семейный) капитал",
+      "offset": 1195
+    },
+    {
+      "title": "2. Единовременные выплаты при рождении детей",
+      "offset": 2130
+    },
+    {
+      "title": "3. Ежемесячные выплаты",
+      "offset": 3137
+    },
+    {
+      "title": "4. Многодетные семьи (3 и более детей, включая обучающихся до 23 лет)",
+      "offset": 4413
+    },
+    {
+      "title": "5. Награды родителям",
+      "offset": 6004
+    },
+    {
+      "title": "6. Дети-инвалиды и дети с редкими заболеваниями",
+      "offset": 6188
+    },
+    {
+      "title": "7. Жилищные меры и молодые семьи",
+      "offset": 6668
+    },
+    {
+      "title": "8. Бесплатное питание в школах",
+      "offset": 7129
+    },
+    {
+      "title": "9. Оздоровление и отдых",
+      "offset": 7723
+    },
+    {
+      "title": "10. Социальный контракт",
+      "offset": 8117
+    },
+    {
+      "title": "11. Дети-сироты и дети, оставшиеся без попечения родителей",
+      "offset": 8358
+    },
+    {
+      "title": "12. Семьи участников специальной военной операции",
+      "offset": 8778
+    },
+    {
+      "title": "13. Налоговые льготы",
+      "offset": 9751
+    },
+    {
+      "title": "14. Ежегодная семейная выплата (федеральная, ЕСВ)",
+      "offset": 10144
+    },
+    {
+      "title": "15. Компенсация родительской платы за детский сад",
+      "offset": 10436
+    },
+    {
+      "title": "16. Прочие меры",
+      "offset": 10725
+    }
+  ],
+  "content_blocks_count": 111,
+  "content_status": "text_received"
+}

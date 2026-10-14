@@ -16,7 +16,13 @@
       "review_file": "data/reviews/22-altai-krai.json",
       "last_checked": "2026-10-14",
       "conditions_confirmed_count": 1,
-      "notice": "Карточек с подтверждёнными основными условиями: 1. Полное наполнение и проверка НПА продолжаются."
+      "notice": "Карточек с подтверждёнными основными условиями: 1. Полное наполнение и проверка НПА продолжаются.",
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "28",
@@ -31,7 +37,13 @@
       "review_file": "data/reviews/28-amur.json",
       "last_checked": "2026-10-14",
       "conditions_confirmed_count": 4,
-      "notice": "Карточек с подтверждёнными основными условиями: 4. Полное наполнение и проверка НПА продолжаются."
+      "notice": "Карточек с подтверждёнными основными условиями: 4. Полное наполнение и проверка НПА продолжаются.",
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "29",
@@ -42,7 +54,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "30",
@@ -53,7 +71,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "31",
@@ -68,7 +92,13 @@
       "review_file": "data/reviews/31-belgorod.json",
       "last_checked": "2026-10-14",
       "conditions_confirmed_count": 2,
-      "notice": "Карточек с подтверждёнными основными условиями: 2. Полное наполнение и проверка НПА продолжаются."
+      "notice": "Карточек с подтверждёнными основными условиями: 2. Полное наполнение и проверка НПА продолжаются.",
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "32",
@@ -79,7 +109,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "33",
@@ -90,7 +126,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "34",
@@ -101,7 +143,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "35",
@@ -112,7 +160,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "36",
@@ -127,7 +181,13 @@
       "review_file": "data/reviews/36-voronezh.json",
       "last_checked": "2026-10-14",
       "conditions_confirmed_count": 1,
-      "notice": "Карточек с подтверждёнными основными условиями: 1. Полное наполнение и проверка НПА продолжаются."
+      "notice": "Карточек с подтверждёнными основными условиями: 1. Полное наполнение и проверка НПА продолжаются.",
+      "source_intake": {
+        "received": true,
+        "source_count": 3,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "80",
@@ -138,7 +198,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 1
+      "preliminary_topics_count": 1,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "79",
@@ -149,7 +215,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "75",
@@ -164,7 +236,13 @@
       "review_file": "data/reviews/75-zabaikal.json",
       "last_checked": "2026-10-14",
       "conditions_confirmed_count": 5,
-      "notice": "Карточек с подтверждёнными основными условиями: 5. Полное наполнение и проверка НПА продолжаются."
+      "notice": "Карточек с подтверждёнными основными условиями: 5. Полное наполнение и проверка НПА продолжаются.",
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "85",
@@ -175,7 +253,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "37",
@@ -186,7 +270,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "38",
@@ -197,7 +287,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 2
+      "preliminary_topics_count": 2,
+      "source_intake": {
+        "received": true,
+        "source_count": 2,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "07",
@@ -208,7 +304,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 1
+      "preliminary_topics_count": 1,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "39",
@@ -219,7 +321,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 1
+      "preliminary_topics_count": 1,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "40",
@@ -230,7 +338,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "41",
@@ -245,7 +359,13 @@
       "review_file": "data/reviews/41-kamchatka.json",
       "last_checked": "2026-10-14",
       "conditions_confirmed_count": 2,
-      "notice": "Карточек с подтверждёнными основными условиями: 2. Полное наполнение и проверка НПА продолжаются."
+      "notice": "Карточек с подтверждёнными основными условиями: 2. Полное наполнение и проверка НПА продолжаются.",
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "09",
@@ -256,7 +376,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 1
+      "preliminary_topics_count": 1,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "42",
@@ -267,7 +393,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "43",
@@ -278,7 +410,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "44",
@@ -289,7 +427,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 1
+      "preliminary_topics_count": 1,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "23",
@@ -300,7 +444,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": true,
+        "source_count": 2,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "24",
@@ -323,7 +473,13 @@
       "preliminary_topics_count": 0,
       "catalog_cards": 76,
       "confirmed_source_items": 77,
-      "last_checked": "2026-10-08"
+      "last_checked": "2026-10-08",
+      "source_intake": {
+        "received": true,
+        "source_count": 3,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "45",
@@ -334,7 +490,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 1
+      "preliminary_topics_count": 1,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "46",
@@ -349,7 +511,13 @@
       "review_file": "data/reviews/46-kursk.json",
       "last_checked": "2026-10-14",
       "conditions_confirmed_count": 1,
-      "notice": "Карточек с подтверждёнными основными условиями: 1. Полное наполнение и проверка НПА продолжаются."
+      "notice": "Карточек с подтверждёнными основными условиями: 1. Полное наполнение и проверка НПА продолжаются.",
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "47",
@@ -360,7 +528,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": true,
+        "source_count": 3,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "48",
@@ -375,7 +549,13 @@
       "review_file": "data/reviews/48-lipetsk.json",
       "last_checked": "2026-10-14",
       "conditions_confirmed_count": 0,
-      "notice": "Карточек с подтверждёнными основными условиями: 0. Полное наполнение и проверка НПА продолжаются."
+      "notice": "Карточек с подтверждёнными основными условиями: 0. Полное наполнение и проверка НПА продолжаются.",
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "81",
@@ -386,7 +566,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "49",
@@ -401,7 +587,13 @@
       "review_file": "data/reviews/49-magadan.json",
       "last_checked": "2026-10-14",
       "conditions_confirmed_count": 1,
-      "notice": "Карточек с подтверждёнными основными условиями: 1. Полное наполнение и проверка НПА продолжаются."
+      "notice": "Карточек с подтверждёнными основными условиями: 1. Полное наполнение и проверка НПА продолжаются.",
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "77",
@@ -412,7 +604,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 1
+      "preliminary_topics_count": 1,
+      "source_intake": {
+        "received": true,
+        "source_count": 2,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "50",
@@ -423,7 +621,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": true,
+        "source_count": 2,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "51",
@@ -434,7 +638,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "83",
@@ -445,7 +655,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "52",
@@ -456,7 +672,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": true,
+        "source_count": 2,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "53",
@@ -467,7 +689,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 1
+      "preliminary_topics_count": 1,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "54",
@@ -484,7 +712,13 @@
       "last_verified": "2026-09-30",
       "data_file": "54-novosibirsk.json",
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "55",
@@ -495,7 +729,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "56",
@@ -506,7 +746,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "57",
@@ -517,7 +763,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "58",
@@ -528,7 +780,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 1
+      "preliminary_topics_count": 1,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "59",
@@ -550,7 +808,13 @@
         "perm-museum",
         "perm-zoo"
       ],
-      "clarification_file": "data/reviews/59-perm-clarifications.md"
+      "clarification_file": "data/reviews/59-perm-clarifications.md",
+      "source_intake": {
+        "received": true,
+        "source_count": 2,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "25",
@@ -565,7 +829,13 @@
       "review_file": "data/reviews/25-primorye.json",
       "last_checked": "2026-10-14",
       "conditions_confirmed_count": 4,
-      "notice": "Карточек с подтверждёнными основными условиями: 4. Полное наполнение и проверка НПА продолжаются."
+      "notice": "Карточек с подтверждёнными основными условиями: 4. Полное наполнение и проверка НПА продолжаются.",
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "60",
@@ -576,7 +846,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "01",
@@ -587,7 +863,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 3
+      "preliminary_topics_count": 3,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "04",
@@ -602,7 +884,13 @@
       "review_file": "data/reviews/04-altai-republic.json",
       "last_checked": "2026-10-14",
       "conditions_confirmed_count": 3,
-      "notice": "Карточек с подтверждёнными основными условиями: 3. Полное наполнение и проверка НПА продолжаются."
+      "notice": "Карточек с подтверждёнными основными условиями: 3. Полное наполнение и проверка НПА продолжаются.",
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "02",
@@ -613,7 +901,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": true,
+        "source_count": 2,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "03",
@@ -628,7 +922,13 @@
       "review_file": "data/reviews/03-buryatia.json",
       "last_checked": "2026-10-12",
       "conditions_confirmed_count": 3,
-      "notice": "Три карточки с подтверждёнными основными условиями. Полное наполнение и проверка НПА продолжаются."
+      "notice": "Три карточки с подтверждёнными основными условиями. Полное наполнение и проверка НПА продолжаются.",
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "05",
@@ -639,7 +939,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 1
+      "preliminary_topics_count": 1,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "06",
@@ -650,7 +956,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "08",
@@ -661,7 +973,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "10",
@@ -672,7 +990,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "11",
@@ -683,7 +1007,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "91",
@@ -694,7 +1024,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "12",
@@ -705,7 +1041,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "13",
@@ -716,7 +1058,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 1
+      "preliminary_topics_count": 1,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "14",
@@ -731,7 +1079,13 @@
       "review_file": "data/reviews/14-yakutia.json",
       "last_checked": "2026-10-12",
       "conditions_confirmed_count": 4,
-      "notice": "Четыре карточки с подтверждёнными основными условиями. Полное наполнение и проверка НПА продолжаются."
+      "notice": "Четыре карточки с подтверждёнными основными условиями. Полное наполнение и проверка НПА продолжаются.",
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "15",
@@ -742,7 +1096,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "16",
@@ -760,7 +1120,13 @@
       "review_file": "data/reviews/16-tatarstan.json",
       "source_ids": [
         "tatar-social"
-      ]
+      ],
+      "source_intake": {
+        "received": true,
+        "source_count": 2,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "17",
@@ -771,7 +1137,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 1
+      "preliminary_topics_count": 1,
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "19",
@@ -782,7 +1154,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "61",
@@ -793,7 +1171,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 1
+      "preliminary_topics_count": 1,
+      "source_intake": {
+        "received": true,
+        "source_count": 2,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "62",
@@ -804,7 +1188,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 1
+      "preliminary_topics_count": 1,
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "63",
@@ -823,7 +1213,13 @@
       "review_file": "data/reviews/63-samara.json",
       "data_file": "63-samara.json",
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "78",
@@ -834,7 +1230,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 2
+      "preliminary_topics_count": 2,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "64",
@@ -845,7 +1247,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "65",
@@ -860,7 +1268,13 @@
       "review_file": "data/reviews/65-sakhalin.json",
       "last_checked": "2026-10-14",
       "conditions_confirmed_count": 3,
-      "notice": "Карточек с подтверждёнными основными условиями: 3. Полное наполнение и проверка НПА продолжаются."
+      "notice": "Карточек с подтверждёнными основными условиями: 3. Полное наполнение и проверка НПА продолжаются.",
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "66",
@@ -871,7 +1285,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": true,
+        "source_count": 2,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "92",
@@ -882,7 +1302,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "67",
@@ -893,7 +1319,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "26",
@@ -904,7 +1336,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "68",
@@ -919,7 +1357,13 @@
       "review_file": "data/reviews/68-tambov.json",
       "last_checked": "2026-10-14",
       "conditions_confirmed_count": 0,
-      "notice": "Карточек с подтверждёнными основными условиями: 0. Полное наполнение и проверка НПА продолжаются."
+      "notice": "Карточек с подтверждёнными основными условиями: 0. Полное наполнение и проверка НПА продолжаются.",
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "69",
@@ -930,7 +1374,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 1
+      "preliminary_topics_count": 1,
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "70",
@@ -941,7 +1391,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 1
+      "preliminary_topics_count": 1,
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "71",
@@ -956,7 +1412,13 @@
       "review_file": "data/reviews/71-tula.json",
       "last_checked": "2026-10-14",
       "conditions_confirmed_count": 1,
-      "notice": "Карточек с подтверждёнными основными условиями: 1. Полное наполнение и проверка НПА продолжаются."
+      "notice": "Карточек с подтверждёнными основными условиями: 1. Полное наполнение и проверка НПА продолжаются.",
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "72",
@@ -974,7 +1436,13 @@
       "review_file": "data/reviews/72-tyumen.json",
       "source_ids": [
         "tyumen-msp"
-      ]
+      ],
+      "source_intake": {
+        "received": true,
+        "source_count": 2,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "18",
@@ -985,7 +1453,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "73",
@@ -996,7 +1470,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "27",
@@ -1011,7 +1491,13 @@
       "review_file": "data/reviews/27-khabarovsk.json",
       "last_checked": "2026-10-14",
       "conditions_confirmed_count": 3,
-      "notice": "Карточек с подтверждёнными основными условиями: 3. Полное наполнение и проверка НПА продолжаются."
+      "notice": "Карточек с подтверждёнными основными условиями: 3. Полное наполнение и проверка НПА продолжаются.",
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "86",
@@ -1022,7 +1508,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "84",
@@ -1033,7 +1525,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "74",
@@ -1044,7 +1542,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 1
+      "preliminary_topics_count": 1,
+      "source_intake": {
+        "received": true,
+        "source_count": 3,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "20",
@@ -1055,7 +1559,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "21",
@@ -1066,7 +1576,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "87",
@@ -1081,7 +1597,13 @@
       "review_file": "data/reviews/87-chukotka.json",
       "last_checked": "2026-10-14",
       "conditions_confirmed_count": 2,
-      "notice": "Карточек с подтверждёнными основными условиями: 2. Полное наполнение и проверка НПА продолжаются."
+      "notice": "Карточек с подтверждёнными основными условиями: 2. Полное наполнение и проверка НПА продолжаются.",
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "89",
@@ -1092,7 +1614,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "source_intake": {
+        "received": false,
+        "source_count": 0,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     },
     {
       "id": "76",
@@ -1103,7 +1631,13 @@
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 1
+      "preliminary_topics_count": 1,
+      "source_intake": {
+        "received": true,
+        "source_count": 1,
+        "index_file": "data/intake/index.json",
+        "last_inventory": "2026-10-14"
+      }
     }
   ]
 }

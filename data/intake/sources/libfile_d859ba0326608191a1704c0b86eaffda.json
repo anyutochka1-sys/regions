@@ -1,0 +1,109 @@
+{
+  "id": "libfile_d859ba0326608191a1704c0b86eaffda",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_tatarstan.docx",
+  "library_file_id": "libfile_d859ba0326608191a1704c0b86eaffda",
+  "file_id": "file_0000000028808210b5c13f221e18a943",
+  "received_at": "2026-10-11T07:28:28.752600Z",
+  "region_ids": [
+    "16"
+  ],
+  "original_sha256": "98990acb0ba8f1c1b7acfa2cb8ccab835af00ad421642f42fe7e1b8f0fc3c635",
+  "original_size_bytes": 47259,
+  "paragraph_count": 159,
+  "table_count": 1,
+  "text_sha256": "d733cb344f95d37a7957d303b7b772997fc2d8ddef884a553fa8bb9aed7244c1",
+  "text_characters": 19801,
+  "text_file": "data/intake/texts/d733cb344f95d37a7957d303b7b772997fc2d8ddef884a553fa8bb9aed7244c1.txt",
+  "review_status": "review_incomplete",
+  "verification_note": "Приём исходника не означает подтверждение сумм и условий. Публикационные решения принимаются отдельно.",
+  "sections": [
+    {
+      "title": "1. ОБЩИЕ СВЕДЕНИЯ",
+      "offset": 134
+    },
+    {
+      "title": "2. ВЫПЛАТЫ ПРИ РОЖДЕНИИ РЕБЁНКА (СЕЛЬСКАЯ МЕСТНОСТЬ)",
+      "offset": 1507
+    },
+    {
+      "title": "3. ПОДАРОК НОВОРОЖДЕННОМУ",
+      "offset": 2140
+    },
+    {
+      "title": "4. ТРОЙНЯ И БОЛЕЕ",
+      "offset": 2832
+    },
+    {
+      "title": "5. МНОГОДЕТНЫЕ СЕМЬИ (3 И БОЛЕЕ ДЕТЕЙ)",
+      "offset": 3352
+    },
+    {
+      "title": "6. СЕМЬИ С ПЯТЬЮ И БОЛЕЕ ДЕТЬМИ",
+      "offset": 4679
+    },
+    {
+      "title": "7. ПОСОБИЕ НА РЕБЁНКА И МЕДИЦИНА",
+      "offset": 5093
+    },
+    {
+      "title": "8. ЗЕМЕЛЬНЫЕ УЧАСТКИ И ВЫПЛАТА ВЗАРМЕН",
+      "offset": 5888
+    },
+    {
+      "title": "9. МОЛОДЫЕ СЕМЬИ И ЖИЛЬЁ",
+      "offset": 6930
+    },
+    {
+      "title": "10. ДЕТИ-ИНВАЛИДЫ",
+      "offset": 7806
+    },
+    {
+      "title": "11. ОПЕКА, ПРИЁМНЫЕ СЕМЬИ, УСЫНОВЛЕНИЕ",
+      "offset": 8579
+    },
+    {
+      "title": "12. ДЕТСКИЙ САД: КОМПЕНСАЦИИ",
+      "offset": 9352
+    },
+    {
+      "title": "13. ПИТАНИЕ В ШКОЛАХ",
+      "offset": 10218
+    },
+    {
+      "title": "14. ОЗДОРОВЛЕНИЕ И ОТДЫХ",
+      "offset": 11190
+    },
+    {
+      "title": "15. СОЦИАЛЬНЫЙ КОНТРАКТ",
+      "offset": 12122
+    },
+    {
+      "title": "16. СЕМЬИ УЧАСТНИКОВ СВО",
+      "offset": 12806
+    },
+    {
+      "title": "17. ДЕТИ-СИРОТЫ",
+      "offset": 14679
+    },
+    {
+      "title": "18. НАЛОГОВЫЕ ЛЬГОТЫ",
+      "offset": 15488
+    },
+    {
+      "title": "19. МУНИЦИПАЛЬНЫЕ МЕРЫ (ПРИМЕРЫ 2025–2026)",
+      "offset": 16269
+    },
+    {
+      "title": "20. СВОДНАЯ ТАБЛИЦА НОРМАТИВНЫХ АКТОВ",
+      "offset": 16897
+    },
+    {
+      "title": "21. КУДА ОБРАЩАТЬСЯ",
+      "offset": 19341
+    }
+  ],
+  "content_blocks_count": 160,
+  "content_status": "text_received",
+  "same_text_as": "libfile_b7e1f710d8a88191bda751db7e06592b"
+}
