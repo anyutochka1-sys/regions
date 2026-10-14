@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "last_reviewed": "2026-10-12",
+  "last_reviewed": "2026-10-14",
   "sources": [
     {
       "id": "pravo",
@@ -237,6 +237,117 @@
       "type": "regional_official_media",
       "jurisdiction": "Республика Саха (Якутия)",
       "check": "weekly"
+    },
+    {
+      "id": "far-east-www-mihuszn-ru",
+      "name": "Официальный источник — www.mihuszn.ru",
+      "url": "https://www.mihuszn.ru/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Амурская область"
+    },
+    {
+      "id": "far-east-uszn-svob-ru",
+      "name": "Официальный источник — uszn-svob.ru",
+      "url": "https://uszn-svob.ru/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Амурская область"
+    },
+    {
+      "id": "far-east-soczashita-chita-ru",
+      "name": "Официальный источник — soczashita-chita.ru",
+      "url": "https://soczashita-chita.ru/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Забайкальский край"
+    },
+    {
+      "id": "far-east-zskk-ru",
+      "name": "Официальный источник — zskk.ru",
+      "url": "https://zskk.ru/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Камчатский край"
+    },
+    {
+      "id": "far-east-www-mydoc49-ru",
+      "name": "Официальный источник — www.mydoc49.ru",
+      "url": "https://www.mydoc49.ru/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Магаданская область"
+    },
+    {
+      "id": "far-east-xn--h1alcedd-xn--d1aqf-xn--p1ai",
+      "name": "Официальный источник — xn--h1alcedd.xn--d1aqf.xn--p1ai",
+      "url": "https://xn--h1alcedd.xn--d1aqf.xn--p1ai/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Магаданская область"
+    },
+    {
+      "id": "far-east-cspnpk-ru",
+      "name": "Официальный источник — cspnpk.ru",
+      "url": "https://cspnpk.ru/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Приморский край"
+    },
+    {
+      "id": "far-east-deti-gov-ru",
+      "name": "Официальный источник — deti.gov.ru",
+      "url": "https://deti.gov.ru/",
+      "type": "official_agency",
+      "check": "daily"
+    },
+    {
+      "id": "far-east-msz-sakhalin-gov-ru",
+      "name": "Официальный источник — msz.sakhalin.gov.ru",
+      "url": "https://msz.sakhalin.gov.ru/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Сахалинская область"
+    },
+    {
+      "id": "far-east-minzdrav-sakhalin-gov-ru",
+      "name": "Официальный источник — minzdrav.sakhalin.gov.ru",
+      "url": "https://minzdrav.sakhalin.gov.ru/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Сахалинская область"
+    },
+    {
+      "id": "far-east-mszn27-ru",
+      "name": "Официальный источник — mszn27.ru",
+      "url": "https://mszn27.ru/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Хабаровский край"
+    },
+    {
+      "id": "far-east-kgkucspnkms-mszn27-ru",
+      "name": "Официальный источник — kgkucspnkms.mszn27.ru",
+      "url": "https://kgkucspnkms.mszn27.ru/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Хабаровский край"
+    },
+    {
+      "id": "far-east-mfc27-ru",
+      "name": "Официальный источник — mfc27.ru",
+      "url": "https://mfc27.ru/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Хабаровский край"
+    },
+    {
+      "id": "far-east-duma-khv-ru",
+      "name": "Официальный источник — duma.khv.ru",
+      "url": "https://duma.khv.ru/",
+      "type": "official_agency",
+      "check": "daily",
+      "jurisdiction": "Хабаровский край"
     }
   ]
 }

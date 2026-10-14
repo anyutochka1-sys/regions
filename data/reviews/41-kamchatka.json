@@ -1,0 +1,266 @@
+{
+  "schema": 1,
+  "region_id": "41",
+  "jurisdiction": "Камчатский край",
+  "received": "2026-10-14",
+  "last_checked": "2026-10-14",
+  "source_document": "Меры_поддержки_семей_Камчатский_край.docx",
+  "source_text_file": "docs/kamchatka-submitted-2026-10-14.md",
+  "status": "in_progress",
+  "coverage_note": "Полученный обзор сохранён целиком. Опубликованы только карточки с подтверждёнными основными условиями; полная проверка действующих НПА и наполнение региона продолжаются.",
+  "items": [
+    {
+      "id": "41-1",
+      "region": "Камчатский край",
+      "title": "Закон КК от 06.06.2011 № 615 «О краевом материнском (семейном) капитале» (ред. с расширением на первого ребёнка с 2026 г.)",
+      "source_section": "1",
+      "action": "Первенец: проверить актуальную сумму2026 вместо61384 за2025, срок обращения и приказ№66-Н от19.10.2023 по официальному навигатору. Выплата малоимущим около3000 и питание1788 требуют отдельных НПА/индексаций.",
+      "status": "needs_review",
+      "official_urls": [],
+      "received_file": "Меры_поддержки_семей_Камчатский_край.docx"
+    },
+    {
+      "id": "41-2-first",
+      "region": "Камчатский край",
+      "title": "Раздел 2-first",
+      "source_section": "2-first",
+      "action": "Первенец расширен для рождений с01.01.2025, а не только с2026; проживание3 года до обращения, не до рождения. 160975 ₽ требует актуального постановления.",
+      "status": "needs_review",
+      "official_urls": [
+        "https://zskk.ru/press-center/news/novosti-organizatsii/v-kamchatskom-krae-rasshirili-perechen-kategoriy-zhenshchin-imeyushchikh-pravo-na-kraevoy-materinski/?ELEMENT_CODE=v-kamchatskom-krae-rasshirili-perechen-kategoriy-zhenshchin-imeyushchikh-pravo-na-kraevoy-materinski&SECTION_CODE=novosti-organizatsii&month=06&year=2025",
+        "https://zskk.ru/press-center/news/novosti-organizatsii/v-kamchatskom-krae-rasshireny-vozmozhnosti-ispolzovaniya-regionalnogo-materinskogo-kapitala/?ELEMENT_CODE=v-kamchatskom-krae-rasshireny-vozmozhnosti-ispolzovaniya-regionalnogo-materinskogo-kapitala&SECTION_CODE=novosti-organizatsii&month=06&year=2026"
+      ],
+      "received_file": "Меры_поддержки_семей_Камчатский_край.docx",
+      "linked_measures": [
+        "kamchatka-capital-first"
+      ]
+    },
+    {
+      "id": "41-2-second",
+      "region": "Камчатский край",
+      "title": "Раздел 2-second",
+      "source_section": "2-second",
+      "action": "Указ№62 о многодетных и ППРФ№190 не заменяют региональное основание капитала на второго. Нижняя сумма привязана к2019, не к отсутствию капитала на первого.",
+      "status": "needs_review",
+      "official_urls": [],
+      "received_file": "Меры_поддержки_семей_Камчатский_край.docx"
+    },
+    {
+      "id": "41-2-directions",
+      "region": "Камчатский край",
+      "title": "Раздел 2-directions",
+      "source_section": "2-directions",
+      "action": "Добавить подтверждённое направление ежемесячных выплат из краевого капитала до3лет; не выдавать за отдельное пособие. Сверить остальные8 направлений, возраст авто,6месяцев, газификацию и медпроезд.",
+      "status": "needs_review",
+      "official_urls": [],
+      "received_file": "Меры_поддержки_семей_Камчатский_край.docx"
+    },
+    {
+      "id": "41-3",
+      "region": "Камчатский край",
+      "title": "Закон КК от 27.06.2012 № 80 «О социальной поддержке семей… при рождении третьего ребенка или последующих детей до достижения ребенком возраста трех лет»",
+      "source_section": "3",
+      "action": "Ипотека приостановлена по странице оператора; земля/соцнаём: проверить право, возраст,3года проживания и нуждаемость. Выплата вместо земли рассчитывается по текущему РМК,350498 — только2024.",
+      "status": "needs_review",
+      "official_urls": [
+        "https://zskk.ru/press-center/news/novosti-organizatsii/mnogodetnye-semi-v-kamchatskom-krae-mogut-poluchit-dengi-vmesto-zemli-pod-stroitelstvo-doma/",
+        "https://xn--h1alcedd.xn--d1aqf.xn--p1ai/instructions/dopolnitelnaya-pomoshch-mnogodetnym-semyam-kak-poluchit-do-550-tysyach-rubley/",
+        "https://centrmilkovo.ru/page.php?id_level_1=31&level=1"
+      ],
+      "received_file": "Меры_поддержки_семей_Камчатский_край.docx",
+      "linked_measures": [
+        "kamchatka-land-substitute",
+        "kamchatka-mortgage-550"
+      ]
+    },
+    {
+      "id": "41-4",
+      "region": "Камчатский край",
+      "title": "Закон КК от 26.06.2024 № 385 «О дополнительной мере социальной поддержки семей, имеющих детей, в части погашения обязательств по ипотечным жилищным кредитам (займам)»",
+      "source_section": "4",
+      "action": "Многодетные: отдельно проверить3000/200/100/400, ЖКУ30/50%, второй ребёнок2026, питание/культуру/приоритеты, двойня18тыс/тройня31–41тыс/ежемесячные10–23тыс, авто1,3млн и награду300тыс. Не считать базовые суммы текущими без индексации.",
+      "status": "needs_review",
+      "official_urls": [],
+      "received_file": "Меры_поддержки_семей_Камчатский_край.docx"
+    },
+    {
+      "id": "41-4-third",
+      "region": "Камчатский край",
+      "title": "Раздел 4-third",
+      "source_section": "4-third",
+      "action": "№80: проверить период рождений и продление на2026. Доход и возраст без периода создают ложную доступность.",
+      "status": "needs_review",
+      "official_urls": [],
+      "received_file": "Меры_поддержки_семей_Камчатский_край.docx"
+    },
+    {
+      "id": "41-5",
+      "region": "Камчатский край",
+      "title": "Закон КК от 03.03.2021 № 562 «О предоставлении земельных участков в собственность граждан…, имеющих трех и более детей»",
+      "source_section": "5",
+      "action": "10322 ₽ ребёнок-инвалид и619107 ₽ транспорт: нужны точные акты, период и критерии медпоказаний.",
+      "status": "needs_review",
+      "official_urls": [],
+      "received_file": "Меры_поддержки_семей_Камчатский_край.docx"
+    },
+    {
+      "id": "41-6",
+      "region": "Камчатский край",
+      "title": "Закон КК от 04.12.2008 № 165 «Об установлении порядка выплаты и размеров денежных средств на содержание детей, находящихся под опекой или попечительством…»",
+      "source_section": "6",
+      "action": "Опека/приёмная семья/сироты: проверить№165/122, индексированные суммы и порядок640-П, не ограничиваться общим упоминанием.",
+      "status": "needs_review",
+      "official_urls": [],
+      "received_file": "Меры_поддержки_семей_Камчатский_край.docx"
+    },
+    {
+      "id": "41-7",
+      "region": "Камчатский край",
+      "title": "Закон КК от 18.09.2008 № 122 «О дополнительных гарантиях… детям-сиротам и детям, оставшимся без попечения родителей»",
+      "source_section": "7",
+      "action": "Соцконтракт: ссылка на ПМ за2квартал предыдущего года устарела; получить действующий2026 порядок и размеры.",
+      "status": "needs_review",
+      "official_urls": [],
+      "received_file": "Меры_поддержки_семей_Камчатский_край.docx"
+    },
+    {
+      "id": "41-8",
+      "region": "Камчатский край",
+      "title": "Закон КК от 22.11.2002 № 689 «О транспортном налоге в Камчатском крае» (ред. 2025–2026)",
+      "source_section": "8",
+      "action": "Транспортный налог: проверить корректный акт — №689 датирован до образования края, точную мощность/ТС/условия. Федеральные налоговые вычеты не публиковать как региональные.",
+      "status": "needs_review",
+      "official_urls": [],
+      "received_file": "Меры_поддержки_семей_Камчатский_край.docx"
+    },
+    {
+      "id": "41-9-10",
+      "region": "Камчатский край",
+      "title": "Раздел 9-10",
+      "source_section": "9-10",
+      "action": "Сводка и списокНПА — вспомогательные разделы. В исходнике kamsoccentr.ru ошибочно назван центром выплат: это центр «Семья»; официальный центр выплат — kamsoc.ru.",
+      "status": "needs_review",
+      "official_urls": [],
+      "received_file": "Меры_поддержки_семей_Камчатский_край.docx"
+    },
+    {
+      "id": "41-2-monthly",
+      "region": "Камчатский край",
+      "title": "Ежемесячная выплата из краевого материнского капитала",
+      "source_section": "2-monthly",
+      "action": "Основные условия карточки сверены; получить полную действующую редакцию правового основания, проверить исключения, документы и сроки рассмотрения.",
+      "status": "needs_document",
+      "official_urls": [
+        "https://zskk.ru/press-center/news/novosti-organizatsii/v-kamchatskom-krae-rasshireny-vozmozhnosti-ispolzovaniya-regionalnogo-materinskogo-kapitala/?ELEMENT_CODE=v-kamchatskom-krae-rasshireny-vozmozhnosti-ispolzovaniya-regionalnogo-materinskogo-kapitala&SECTION_CODE=novosti-organizatsii&month=06&year=2026"
+      ],
+      "received_file": "Меры_поддержки_семей_Камчатский_край.docx",
+      "linked_measures": [
+        "kamchatka-capital-monthly"
+      ]
+    }
+  ],
+  "unpublished_candidates": [
+    {
+      "id": "kamchatka-capital-first",
+      "title": "Краевой материнский капитал на первого ребёнка",
+      "level": "regional",
+      "jurisdiction": "Камчатский край",
+      "status": "active",
+      "review_status": "needs_review",
+      "verified": "2026-10-14",
+      "effective_from": null,
+      "effective_to": null,
+      "frequency": "once",
+      "amount": {
+        "type": "formula",
+        "note": "Индексируемый размер по Закону №615 и постановлению №186-П. Сумма 160 975 ₽ из исходника не подтверждена актуальным актом 2026 года."
+      },
+      "eligibility": {
+        "birth_order": 1,
+        "birth_date_min": "2025-01-01",
+        "birth_date_max": "2030-12-31"
+      },
+      "conditions": [
+        "Все женщины независимо от возраста и семейного положения, у которых первый ребёнок родился с 01.01.2025 по 31.12.2030.",
+        "Гражданство РФ на день рождения ребёнка и проживание в крае не менее трёх лет до обращения.",
+        "Для отдельных жителей новых регионов предусмотрено исключение из общего требования."
+      ],
+      "application": "Обратиться в региональный центр социальных выплат или МФЦ.",
+      "legal_basis": [
+        {
+          "title": "Закон Камчатского края от 06.06.2011 №615"
+        },
+        {
+          "title": "Закон Камчатского края от 25.12.2025 №545 — расширение круга получателей"
+        },
+        {
+          "title": "Постановление Правительства Камчатского края от 25.04.2019 №186-П"
+        }
+      ],
+      "official_urls": [
+        "https://zskk.ru/press-center/news/novosti-organizatsii/v-kamchatskom-krae-rasshirili-perechen-kategoriy-zhenshchin-imeyushchikh-pravo-na-kraevoy-materinski/?ELEMENT_CODE=v-kamchatskom-krae-rasshirili-perechen-kategoriy-zhenshchin-imeyushchikh-pravo-na-kraevoy-materinski&SECTION_CODE=novosti-organizatsii&month=06&year=2025",
+        "https://zskk.ru/press-center/news/novosti-organizatsii/v-kamchatskom-krae-rasshireny-vozmozhnosti-ispolzovaniya-regionalnogo-materinskogo-kapitala/?ELEMENT_CODE=v-kamchatskom-krae-rasshireny-vozmozhnosti-ispolzovaniya-regionalnogo-materinskogo-kapitala&SECTION_CODE=novosti-organizatsii&month=06&year=2026"
+      ],
+      "evidence_documents": [
+        "Законодательное Собрание: страница прочитана при проверке (23.12.2025), страница прочитана при проверке (25.02.2026)",
+        "Меры_поддержки_семей_Камчатский_край.docx"
+      ],
+      "source_review_items": [
+        "41-2-first"
+      ],
+      "tags": [
+        "babies"
+      ],
+      "verification_scope": "Основные условия и период рождения подтверждены ЗС; точный размер 2026 и все способы распоряжения не сверены."
+    },
+    {
+      "id": "kamchatka-mortgage-550",
+      "title": "Доплата на погашение ипотеки многодетным семьям",
+      "level": "regional",
+      "jurisdiction": "Камчатский край",
+      "status": "suspended",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-14",
+      "effective_from": "2024-01-01",
+      "effective_to": "2026-12-31",
+      "frequency": "once",
+      "amount": {
+        "type": "formula",
+        "note": "До 550 000 ₽ в пределах остатка задолженности, дополнительно к федеральным 450 000 ₽."
+      },
+      "eligibility": {
+        "birth_order": 3,
+        "birth_date_min": "2024-01-01",
+        "birth_date_max": "2026-12-31"
+      },
+      "conditions": [
+        "Третий или последующий ребёнок родился с 01.01.2024 по 2026-12-31.",
+        "Ипотечный договор заключён до 2027-07-01; объект недвижимости расположен в регионе.",
+        "Реализовано право на федеральную выплату; деньги перечисляются кредитору.",
+        "Официальная страница ДОМ.РФ сообщает о приостановке до доведения лимитов на 2026 год. Перед подачей нужно проверить возобновление финансирования."
+      ],
+      "application": "Обратиться в региональный центр социальных выплат или МФЦ.",
+      "legal_basis": [
+        {
+          "title": "Закон Камчатского края от 26.06.2024 №385"
+        }
+      ],
+      "official_urls": [
+        "https://xn--h1alcedd.xn--d1aqf.xn--p1ai/instructions/dopolnitelnaya-pomoshch-mnogodetnym-semyam-kak-poluchit-do-550-tysyach-rubley/",
+        "https://centrmilkovo.ru/page.php?id_level_1=31&level=1"
+      ],
+      "evidence_documents": [
+        "Официальный оператор ДОМ.РФ, обновление 28.04.2026: страница прочитана при проверке (Магадан), страница прочитана при проверке (Камчатка). Актуальное возобновление не подтверждено.",
+        "Меры_поддержки_семей_Камчатский_край.docx"
+      ],
+      "source_review_items": [
+        "41-3"
+      ],
+      "tags": [
+        "multi",
+        "housing"
+      ],
+      "verification_scope": "Подтверждены программа и периоды; из-за сообщения оператора о приостановке не показывать как действующую без оговорки. Полный текст последней редакции регионального закона не прочитан."
+    }
+  ]
+}

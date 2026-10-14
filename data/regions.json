@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "coverage_note": "Все регионы доступны для выбора. Наполнение и юридическая проверка неполные.",
   "regions": [
     {
@@ -18,12 +18,16 @@
       "id": "28",
       "name": "Амурская область",
       "public": true,
-      "status": "regional_collection_started",
-      "data_status": "preliminary",
-      "review_status": "queued",
-      "data_file": null,
+      "status": "regional_base_active",
+      "data_status": "confirmed_catalog_pending_documents",
+      "review_status": "in_progress",
+      "data_file": "28-amur.json",
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "review_file": "data/reviews/28-amur.json",
+      "last_checked": "2026-10-14",
+      "conditions_confirmed_count": 4,
+      "notice": "Карточек с подтверждёнными основными условиями: 4. Полное наполнение и проверка НПА продолжаются."
     },
     {
       "id": "29",
@@ -139,12 +143,16 @@
       "id": "75",
       "name": "Забайкальский край",
       "public": true,
-      "status": "regional_collection_started",
-      "data_status": "preliminary",
-      "review_status": "queued",
-      "data_file": null,
+      "status": "regional_base_active",
+      "data_status": "confirmed_catalog_pending_documents",
+      "review_status": "in_progress",
+      "data_file": "75-zabaikal.json",
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "review_file": "data/reviews/75-zabaikal.json",
+      "last_checked": "2026-10-14",
+      "conditions_confirmed_count": 5,
+      "notice": "Карточек с подтверждёнными основными условиями: 5. Полное наполнение и проверка НПА продолжаются."
     },
     {
       "id": "85",
@@ -216,12 +224,16 @@
       "id": "41",
       "name": "Камчатский край",
       "public": true,
-      "status": "regional_collection_started",
-      "data_status": "preliminary",
-      "review_status": "queued",
-      "data_file": null,
+      "status": "regional_base_active",
+      "data_status": "confirmed_catalog_pending_documents",
+      "review_status": "in_progress",
+      "data_file": "41-kamchatka.json",
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "review_file": "data/reviews/41-kamchatka.json",
+      "last_checked": "2026-10-14",
+      "conditions_confirmed_count": 2,
+      "notice": "Карточек с подтверждёнными основными условиями: 2. Полное наполнение и проверка НПА продолжаются."
     },
     {
       "id": "09",
@@ -360,12 +372,16 @@
       "id": "49",
       "name": "Магаданская область",
       "public": true,
-      "status": "regional_collection_started",
-      "data_status": "preliminary",
-      "review_status": "queued",
-      "data_file": null,
+      "status": "regional_base_active",
+      "data_status": "confirmed_catalog_pending_documents",
+      "review_status": "in_progress",
+      "data_file": "49-magadan.json",
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "review_file": "data/reviews/49-magadan.json",
+      "last_checked": "2026-10-14",
+      "conditions_confirmed_count": 1,
+      "notice": "Карточек с подтверждёнными основными условиями: 1. Полное наполнение и проверка НПА продолжаются."
     },
     {
       "id": "77",
@@ -520,12 +536,16 @@
       "id": "25",
       "name": "Приморский край",
       "public": true,
-      "status": "regional_collection_started",
-      "data_status": "preliminary",
-      "review_status": "queued",
-      "data_file": null,
+      "status": "regional_base_active",
+      "data_status": "confirmed_catalog_pending_documents",
+      "review_status": "in_progress",
+      "data_file": "25-primorye.json",
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "review_file": "data/reviews/25-primorye.json",
+      "last_checked": "2026-10-14",
+      "conditions_confirmed_count": 4,
+      "notice": "Карточек с подтверждёнными основными условиями: 4. Полное наполнение и проверка НПА продолжаются."
     },
     {
       "id": "60",
@@ -807,12 +827,16 @@
       "id": "65",
       "name": "Сахалинская область",
       "public": true,
-      "status": "regional_collection_started",
-      "data_status": "preliminary",
-      "review_status": "queued",
-      "data_file": null,
+      "status": "regional_base_active",
+      "data_status": "confirmed_catalog_pending_documents",
+      "review_status": "in_progress",
+      "data_file": "65-sakhalin.json",
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0
+      "preliminary_topics_count": 0,
+      "review_file": "data/reviews/65-sakhalin.json",
+      "last_checked": "2026-10-14",
+      "conditions_confirmed_count": 3,
+      "notice": "Карточек с подтверждёнными основными условиями: 3. Полное наполнение и проверка НПА продолжаются."
     },
     {
       "id": "66",
@@ -946,12 +970,16 @@
       "id": "27",
       "name": "Хабаровский край",
       "public": true,
-      "status": "regional_collection_started",
-      "data_status": "preliminary",
-      "review_status": "queued",
-      "data_file": null,
+      "status": "regional_base_active",
+      "data_status": "confirmed_catalog_pending_documents",
+      "review_status": "in_progress",
+      "data_file": "27-khabarovsk.json",
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 1
+      "preliminary_topics_count": 1,
+      "review_file": "data/reviews/27-khabarovsk.json",
+      "last_checked": "2026-10-14",
+      "conditions_confirmed_count": 3,
+      "notice": "Карточек с подтверждёнными основными условиями: 3. Полное наполнение и проверка НПА продолжаются."
     },
     {
       "id": "86",

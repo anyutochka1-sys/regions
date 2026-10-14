@@ -1,0 +1,218 @@
+{
+  "schema": 1,
+  "region_id": "25",
+  "jurisdiction": "Приморский край",
+  "updated": "2026-10-14",
+  "measures": [
+    {
+      "level": "regional",
+      "jurisdiction": "Приморский край",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-14",
+      "effective_from": null,
+      "effective_to": null,
+      "verification_scope": "Подтверждены основные условия по официальным страницам органа социальной защиты. Это разъяснения, а не тексты НПА; полная сверка действующих редакций НПА и исключений не завершена.",
+      "evidence_documents": [
+        "Официальная страница https://cspnpk.ru/msp_mnogodet/edinovremennaya-vyplata-pri-rozhdenii-pervogo-rebenka-i-doplata-k-edinovremennoj-vyplate/; прочитана 2026-10-14",
+        "Официальная страница https://cspnpk.ru/news/34-mery-podderzhki-polagayutsya-semyam-s-detmi-v-primore/; прочитана 2026-10-14",
+        "Меры_поддержки_семей_Приморский_край.docx"
+      ],
+      "frequency": "once",
+      "id": "primorye-first-birth",
+      "title": "Единовременная выплата при рождении первого ребёнка",
+      "amount": {
+        "type": "formula",
+        "note": "Два детских прожиточных минимума Приморского края за год рождения ребёнка; для родившихся в 2026 году — 43 722 ₽."
+      },
+      "eligibility": {
+        "birth_order": 1,
+        "birth_date_min": "2019-01-01",
+        "birth_date_max": "2026-12-31",
+        "application_window": "Шесть месяцев со дня рождения"
+      },
+      "conditions": [
+        "Мать — гражданка РФ, постоянно проживавшая в крае при рождении ребёнка. Отец получает выплату в предусмотренных случаях утраты матерью права.",
+        "Первый ребёнок родился с 01.01.2019 по 31.12.2026.",
+        "Обращение — в течение шести месяцев после рождения. Доплата для матерей 18–25 лет относится только к рождениям 2019–2024 годов."
+      ],
+      "application": "Региональный портал Госуслуг Приморья, услуга 9789 / цель 21871; срок рассмотрения и проактивный порядок сверить по № 976-пп.",
+      "legal_basis": [
+        {
+          "title": "Закон Приморского края от 13.02.2019 № 448-КЗ"
+        },
+        {
+          "title": "Постановление Правительства Приморского края от 24.12.2025 № 976-пп (реквизиты из исходника; редакция отдельно не прочитана)"
+        }
+      ],
+      "official_urls": [
+        "https://cspnpk.ru/msp_mnogodet/edinovremennaya-vyplata-pri-rozhdenii-pervogo-rebenka-i-doplata-k-edinovremennoj-vyplate/",
+        "https://cspnpk.ru/news/34-mery-podderzhki-polagayutsya-semyam-s-detmi-v-primore/"
+      ],
+      "source_review_items": [
+        "25-1.1"
+      ],
+      "tags": [
+        "babies"
+      ]
+    },
+    {
+      "level": "regional",
+      "jurisdiction": "Приморский край",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-14",
+      "effective_from": null,
+      "effective_to": null,
+      "verification_scope": "Подтверждены основные условия по официальным страницам органа социальной защиты. Это разъяснения, а не тексты НПА; полная сверка действующих редакций НПА и исключений не завершена.",
+      "evidence_documents": [
+        "Официальная страница https://cspnpk.ru/msp_mnogodet/regionalnyj-materinskij-semejnyj-kapital-pri-rozhdenii-vtorogo-rebenka/; прочитана 2026-10-14",
+        "Официальная страница https://cspnpk.ru/voprosi_otveti/rmk-2-rebenok/; прочитана 2026-10-14",
+        "Меры_поддержки_семей_Приморский_край.docx"
+      ],
+      "frequency": "once",
+      "id": "primorye-capital-second",
+      "title": "Региональный материнский капитал на второго ребёнка",
+      "amount": {
+        "type": "formula",
+        "note": "30% федерального материнского капитала на дату рождения второго ребёнка. Сумму 288 972,95 ₽ нельзя автоматически применять ко всем годам рождения."
+      },
+      "eligibility": {
+        "birth_order": 2,
+        "birth_date_min": "2019-01-01",
+        "birth_date_max": "2026-12-31"
+      },
+      "conditions": [
+        "Второй ребёнок родился с 01.01.2019 по 31.12.2026 и имеет гражданство РФ по рождению.",
+        "Мать — гражданка РФ на дату рождения и постоянно проживает в Приморье. Отец — в установленных случаях.",
+        "Средства направляются на разрешённые цели: жильё, образование, присмотр, общежитие, адаптация ребёнка с инвалидностью."
+      ],
+      "application": "Региональный портал: услуга 9790 / цель 15424 для установления права; распоряжение — отдельными заявлениями по направлению. Предельные сроки распоряжения требуют сверки порядка.",
+      "legal_basis": [
+        {
+          "title": "Закон Приморского края от 13.02.2019 № 448-КЗ"
+        },
+        {
+          "title": "Постановление Правительства Приморского края от 18.12.2020 № 1053-пп (реквизиты из исходника; редакция отдельно не прочитана)"
+        }
+      ],
+      "official_urls": [
+        "https://cspnpk.ru/msp_mnogodet/regionalnyj-materinskij-semejnyj-kapital-pri-rozhdenii-vtorogo-rebenka/",
+        "https://cspnpk.ru/voprosi_otveti/rmk-2-rebenok/"
+      ],
+      "source_review_items": [
+        "25-2.1"
+      ],
+      "tags": [
+        "babies",
+        "housing"
+      ]
+    },
+    {
+      "level": "regional",
+      "jurisdiction": "Приморский край",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-14",
+      "effective_from": null,
+      "effective_to": null,
+      "verification_scope": "Подтверждены основные условия по официальным страницам органа социальной защиты. Это разъяснения, а не тексты НПА; полная сверка действующих редакций НПА и исключений не завершена.",
+      "evidence_documents": [
+        "Официальная страница https://cspnpk.ru/mera/regionalnyj-materinskij-semejnyj-kapital-pri-rozhdenii-usynovlenii-tretego-i-posleduyushhego-rebenka-detej/; прочитана 2026-10-14",
+        "Официальная страница https://cspnpk.ru/voprosi_otveti/rmk-3-reb/; прочитана 2026-10-14",
+        "Официальная страница https://cspnpk.ru/news/34-mery-podderzhki-polagayutsya-semyam-s-detmi-v-primore/; прочитана 2026-10-14",
+        "Меры_поддержки_семей_Приморский_край.docx"
+      ],
+      "frequency": "once",
+      "id": "primorye-capital-third",
+      "title": "Региональный материнский капитал на третьего и последующих детей",
+      "amount": {
+        "type": "formula",
+        "note": "Размер для рождений 2026 года — 248 393 ₽. Для рождений с 2021 года определяется на дату рождения; для более ранних рождений при неиспользованном до 2021 года праве — на дату обращения."
+      },
+      "eligibility": {
+        "birth_order": 3,
+        "birth_date_min": "2012-01-01"
+      },
+      "conditions": [
+        "Рождение или усыновление третьего либо последующего ребёнка с 01.01.2012; гражданство РФ и проживание в Приморье.",
+        "Право — у матери, мужчины — единственного усыновителя и иных получателей по порядку.",
+        "Средства доступны после рождения на жильё, ремонт, образование, медицинские услуги и другие разрешённые цели."
+      ],
+      "application": "Установление права — ЦСПН / региональный портал; распоряжение — отдельное заявление получателя или представителя. Можно использовать в любое время после рождения, по правилам направления.",
+      "legal_basis": [
+        {
+          "title": "Закон Приморского края от 23.11.2018 № 392-КЗ, статья 9"
+        },
+        {
+          "title": "Постановление Правительства Приморского края от 05.06.2020 № 509-пп"
+        }
+      ],
+      "official_urls": [
+        "https://cspnpk.ru/mera/regionalnyj-materinskij-semejnyj-kapital-pri-rozhdenii-usynovlenii-tretego-i-posleduyushhego-rebenka-detej/",
+        "https://cspnpk.ru/voprosi_otveti/rmk-3-reb/",
+        "https://cspnpk.ru/news/34-mery-podderzhki-polagayutsya-semyam-s-detmi-v-primore/"
+      ],
+      "source_review_items": [
+        "25-2.2"
+      ],
+      "tags": [
+        "multi",
+        "babies",
+        "housing"
+      ]
+    },
+    {
+      "level": "regional",
+      "jurisdiction": "Приморский край",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-14",
+      "effective_from": null,
+      "effective_to": null,
+      "verification_scope": "Подтверждены основные условия по официальным страницам органа социальной защиты. Это разъяснения, а не тексты НПА; полная сверка действующих редакций НПА и исключений не завершена.",
+      "evidence_documents": [
+        "Официальная страница https://cspnpk.ru/mera/edinovremennaya-vyplata-semyam-s-novorozhdennymi-detmi/; прочитана 2026-10-14",
+        "Официальная страница https://cspnpk.ru/news/34-mery-podderzhki-polagayutsya-semyam-s-detmi-v-primore/; прочитана 2026-10-14",
+        "Меры_поддержки_семей_Приморский_край.docx"
+      ],
+      "frequency": "once",
+      "id": "primorye-newborn-payment",
+      "title": "Единовременная выплата семьям с новорождёнными детьми",
+      "amount": {
+        "type": "fixed",
+        "value": 10000
+      },
+      "eligibility": {
+        "birth_date_min": "2026-01-01",
+        "birth_date_max": "2027-12-31",
+        "application_window": "Шесть месяцев со дня рождения"
+      },
+      "conditions": [
+        "На каждого ребёнка, родившегося в 2026–2027 годах; обратиться нужно в течение шести месяцев.",
+        "Заявитель — родитель, гражданин РФ, постоянно проживавший в крае на дату рождения. Ребёнок — гражданин РФ, рождение зарегистрировано в Приморье.",
+        "Среднедушевой доход не выше прожиточного минимума на душу населения на дату обращения."
+      ],
+      "application": "ЦСПН по месту жительства: заявление и сведения по установленному порядку. Канал электронной подачи и срок принятия решения дополнительно сверить.",
+      "legal_basis": [
+        {
+          "title": "Закон Приморского края от 11.10.2022 № 211-КЗ"
+        },
+        {
+          "title": "Постановление Правительства Приморского края от 23.01.2026 № 21-пп (реквизиты из исходника; редакция отдельно не прочитана)"
+        }
+      ],
+      "official_urls": [
+        "https://cspnpk.ru/mera/edinovremennaya-vyplata-semyam-s-novorozhdennymi-detmi/",
+        "https://cspnpk.ru/news/34-mery-podderzhki-polagayutsya-semyam-s-detmi-v-primore/"
+      ],
+      "source_review_items": [
+        "25-1.2"
+      ],
+      "tags": [
+        "babies",
+        "low_income"
+      ]
+    }
+  ]
+}

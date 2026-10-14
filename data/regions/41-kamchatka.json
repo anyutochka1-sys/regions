@@ -1,0 +1,98 @@
+{
+  "schema": 1,
+  "region_id": "41",
+  "jurisdiction": "Камчатский край",
+  "updated": "2026-10-14",
+  "measures": [
+    {
+      "id": "kamchatka-capital-monthly",
+      "title": "Ежемесячная выплата из краевого материнского капитала",
+      "level": "regional",
+      "jurisdiction": "Камчатский край",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-14",
+      "effective_from": null,
+      "effective_to": null,
+      "frequency": "monthly",
+      "amount": {
+        "type": "formula",
+        "note": "Один прожиточный минимум для детей в Камчатском крае: 32 333 ₽ в 2026 году."
+      },
+      "eligibility": {},
+      "conditions": [
+        "Направление средств краевого маткапитала на первого, второго или последующего ребёнка до трёх лет.",
+        "Среднедушевой доход семьи не выше двух ПМ на душу населения: 66 666 ₽ в 2026 году.",
+        "Расходуется остаток краевого маткапитала; это не отдельное пособие сверх суммы сертификата."
+      ],
+      "application": "Обратиться в региональный центр социальных выплат или МФЦ.",
+      "legal_basis": [
+        {
+          "title": "Закон Камчатского края от 06.06.2011 №615, изменения приняты на 56-й сессии в феврале 2026 года"
+        }
+      ],
+      "official_urls": [
+        "https://zskk.ru/press-center/news/novosti-organizatsii/v-kamchatskom-krae-rasshireny-vozmozhnosti-ispolzovaniya-regionalnogo-materinskogo-kapitala/?ELEMENT_CODE=v-kamchatskom-krae-rasshireny-vozmozhnosti-ispolzovaniya-regionalnogo-materinskogo-kapitala&SECTION_CODE=novosti-organizatsii&month=06&year=2026"
+      ],
+      "evidence_documents": [
+        "Законодательное Собрание Камчатского края, 25.02.2026: страница прочитана при проверке",
+        "Меры_поддержки_семей_Камчатский_край.docx"
+      ],
+      "source_review_items": [
+        "41-2-monthly"
+      ],
+      "tags": [
+        "babies"
+      ],
+      "verification_scope": "Подтверждены основные условия и формула официальным сообщением ЗС. Номер февральского закона и подробный порядок назначения ещё не получены."
+    },
+    {
+      "id": "kamchatka-land-substitute",
+      "title": "Выплата многодетным семьям вместо земельного участка",
+      "level": "regional",
+      "jurisdiction": "Камчатский край",
+      "status": "active",
+      "review_status": "conditions_confirmed",
+      "verified": "2026-10-14",
+      "effective_from": null,
+      "effective_to": null,
+      "frequency": "once",
+      "amount": {
+        "type": "formula",
+        "note": "Два краевых материнских капитала за третьего ребёнка; сумма 350 498 ₽ относится к 2024 году и не используется как размер 2026 года."
+      },
+      "eligibility": {
+        "children_min": 3
+      },
+      "conditions": [
+        "Получатели — граждане РФ с тремя и более детьми, имеющие право на бесплатный земельный участок по краевому закону.",
+        "Выбирают денежную выплату взамен участка.",
+        "Разрешены покупка жилья или участка под ИЖС, строительство, реконструкция, первоначальный взнос или погашение ипотеки."
+      ],
+      "application": "Обратиться в региональный центр социальных выплат или МФЦ.",
+      "legal_basis": [
+        {
+          "title": "Закон Камчатского края от 03.03.2021 №562"
+        },
+        {
+          "title": "Постановление Правительства Камчатского края от 01.03.2024 №82-П"
+        }
+      ],
+      "official_urls": [
+        "https://zskk.ru/press-center/news/novosti-organizatsii/mnogodetnye-semi-v-kamchatskom-krae-mogut-poluchit-dengi-vmesto-zemli-pod-stroitelstvo-doma/"
+      ],
+      "evidence_documents": [
+        "Законодательное Собрание, 27.03.2024: страница прочитана при проверке",
+        "Меры_поддержки_семей_Камчатский_край.docx"
+      ],
+      "source_review_items": [
+        "41-3"
+      ],
+      "tags": [
+        "multi",
+        "housing"
+      ],
+      "verification_scope": "Подтверждены программа, формула, направления и действующий с марта 2024 порядок. Требования учёта нуждаемости, срок проживания и изменения после 2024 требуют проверки."
+    }
+  ]
+}
