@@ -1,5 +1,6 @@
 sfr
 nso-social
+samara-edu
 krsk-prosecutor
 krsk-gov-channel
 krsk-gazette
@@ -9,3 +10,6 @@ krsk-college
 samara-social-services
 krsk-csp
 perm-law
+tyumen-msp
+yakutia-uszn
+yakutia-parliament-media
