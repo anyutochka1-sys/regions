@@ -1,4 +1,3 @@
-sfr
 nso-social
 samara-edu
 krsk-prosecutor
@@ -8,12 +7,7 @@ krsk-city
 krsk-city-edu
 krsk-college
 samara-social-services
-krsk-csp
-krsk-rcss
 perm-law
-perm-museum
-perm-zoo
-tyumen-msp
 yakutia-uszn
 yakutia-parliament-media
 far-east-soczashita-chita-ru
@@ -21,10 +15,7 @@ far-east-zskk-ru
 far-east-xn--h1alcedd-xn--d1aqf-xn--p1ai
 far-east-cspnpk-ru
 far-east-deti-gov-ru
-far-east-duma-khv-ru
-regions-oct14-usznval-ru
 regions-oct14-xn--80aapampemcchfmo7a3c9ehj-xn--p1ai
-regions-oct14-schekino-ru
 regions-oct14-xn--80atapud1a-xn--p1ai
 regions-oct14-uspnongudai-ru
 regions-oct14-rubtsovsk-org
