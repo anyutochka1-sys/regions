@@ -1777,19 +1777,20 @@
       "name": "Чувашская Республика",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
-        "received": false,
-        "usable_overview_received": false,
-        "source_count": 0,
-        "unique_text_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
         "last_inventory": "2026-10-19"
-      }
+      },
+      "review_file": "data/reviews/21-chuvashia.json"
     },
     {
       "id": "87",

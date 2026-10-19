@@ -3,18 +3,13 @@
   "updated": "2026-10-19",
   "scope": "Все доступные региональные обзоры из полного перечня файлов и шесть ранее сохранённых текстов из чатов; три архива первичных актов учтены отдельно. Наличие обзора отделено от юридической проверки и публикации.",
   "total_regions": 89,
-  "regions_with_usable_overview": 88,
-  "missing_count": 1,
-  "missing_regions": [
-    {
-      "region_id": "21",
-      "region": "Чувашская Республика"
-    }
-  ],
-  "source_file_count": 179,
+  "regions_with_usable_overview": 89,
+  "missing_count": 0,
+  "missing_regions": [],
+  "source_file_count": 180,
   "chat_text_count": 6,
-  "source_versions": 185,
-  "unique_texts": 100,
+  "source_versions": 186,
+  "unique_texts": 101,
   "new_source_versions_collected": 86,
   "new_unique_texts": 19,
   "archives": {
@@ -1397,14 +1392,16 @@
     {
       "region_id": "21",
       "region": "Чувашская Республика",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
-      "review_status": "queued",
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "source_ids": [
+        "libfile_190ca4330f3c819193cfbb394d566188"
+      ],
+      "review_status": "source_received_pending_review",
       "public_card_count": 0,
-      "status": "not_received",
-      "unique_text_count": 0,
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
       "last_inventory": "2026-10-19"
     },
     {
@@ -1461,12 +1458,12 @@
     "Федеральные меры и отдельные правовые акты не заменяют региональный обзор.",
     "Число собранных обзоров не является числом полностью проверенных и опубликованных регионов."
   ],
-  "last_intake_at": "2026-10-19T07:47:06Z",
-  "latest_import_file": "data/reviews/imports/2026-10-19-final-4-files.json",
+  "last_intake_at": "2026-10-19T07:56:01Z",
+  "latest_import_file": "data/reviews/imports/2026-10-19-chuvashia.json",
   "latest_intake": {
-    "file_count": 4,
-    "unique_regions_count": 4,
-    "new_regions_count": 3,
-    "canonical_text_count": 4
+    "file_count": 1,
+    "unique_regions_count": 1,
+    "new_regions_count": 1,
+    "canonical_text_count": 1
   }
 }

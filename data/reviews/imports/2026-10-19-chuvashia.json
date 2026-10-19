@@ -1,0 +1,178 @@
+{
+  "schema": 1,
+  "received_at": "2026-10-19T07:56:01Z",
+  "publication_status": "source_received_pending_review",
+  "documents": [
+    {
+      "source_id": "libfile_190ca4330f3c819193cfbb394d566188",
+      "region_id": "21",
+      "region": "Чувашская Республика",
+      "filename": "mery_podderzhki_semei_chuvashia.docx",
+      "text_file": "data/intake/texts/0b93ed7c0199e72ecef1b2c5d3279a1dcc44b451d1abae05a37edf001cbd9398.txt",
+      "text_sha256": "0b93ed7c0199e72ecef1b2c5d3279a1dcc44b451d1abae05a37edf001cbd9398",
+      "duplicate_text_of": null,
+      "paragraph_count": 139,
+      "table_count": 1,
+      "review_file": "data/reviews/21-chuvashia.json",
+      "sections": [
+        {
+          "number": "1",
+          "title": "Прожиточный минимум на 2026 год",
+          "normalized_title": "прожиточный минимум на 2026 год",
+          "review_item": "21-source-topic-cf411d41b736",
+          "scope": "reference_or_federal"
+        },
+        {
+          "number": "2",
+          "title": "Федеральный материнский капитал и разовая выплата из него",
+          "normalized_title": "федеральный материнский капитал и разовая выплата из него",
+          "review_item": "21-source-topic-23b65532c494",
+          "scope": "reference_or_federal"
+        },
+        {
+          "number": "3",
+          "title": "Республиканский материнский (семейный) капитал — «лесенка» по датам распоряжения",
+          "normalized_title": "республиканский материнский (семейный) капитал — «лесенка» по датам распоряжения",
+          "review_item": "21-source-topic-318e01ee26fe",
+          "scope": "regional_review"
+        },
+        {
+          "number": "4",
+          "title": "Новые выплаты 2026 года: 300 тыс. молодым семьям и 100 тыс. студенткам",
+          "normalized_title": "новые выплаты 2026 года: 300 тыс. молодым семьям и 100 тыс. студенткам",
+          "review_item": "21-source-topic-4ae987930c6b",
+          "scope": "regional_review"
+        },
+        {
+          "number": "5",
+          "title": "Единое пособие",
+          "normalized_title": "единое пособие",
+          "review_item": "21-source-topic-0a3784ae1a74",
+          "scope": "reference_or_federal"
+        },
+        {
+          "number": "6",
+          "title": "ЕДВ на третьего ребёнка до 3 лет",
+          "normalized_title": "едв на третьего ребёнка до 3 лет",
+          "review_item": "21-source-topic-bbfcec1c9cc2",
+          "scope": "regional_review"
+        },
+        {
+          "number": "7",
+          "title": "Региональное ежемесячное пособие на ребёнка",
+          "normalized_title": "региональное ежемесячное пособие на ребёнка",
+          "review_item": "21-source-topic-17aba7513177",
+          "scope": "regional_review"
+        },
+        {
+          "number": "8",
+          "title": "Пособия по беременности, на питание, декрет безработным",
+          "normalized_title": "пособия по беременности, на питание, декрет безработным",
+          "review_item": "21-source-topic-8bd2a57a33d4",
+          "scope": "regional_review"
+        },
+        {
+          "number": "9",
+          "title": "Многодетные семьи: базовый пакет",
+          "normalized_title": "многодетные семьи: базовый пакет",
+          "review_item": "21-source-topic-d81d86e3d556",
+          "scope": "regional_review"
+        },
+        {
+          "number": "10",
+          "title": "Земля или деньги: 250 000 руб. взамен участка",
+          "normalized_title": "земля или деньги: 250 000 руб. взамен участка",
+          "review_item": "21-source-topic-b6cf39c497f9",
+          "scope": "regional_review"
+        },
+        {
+          "number": "11",
+          "title": "Опека и приёмные семьи",
+          "normalized_title": "опека и приёмные семьи",
+          "review_item": "21-source-topic-05856f0dfcd4",
+          "scope": "regional_review"
+        },
+        {
+          "number": "12",
+          "title": "СВО: единовременная выплата за контракт",
+          "normalized_title": "сво: единовременная выплата за контракт",
+          "review_item": "21-source-topic-9462640cd721",
+          "scope": "regional_review"
+        },
+        {
+          "number": "13",
+          "title": "СВО: ранения, инвалидность, гибель",
+          "normalized_title": "сво: ранения, инвалидность, гибель",
+          "review_item": "21-source-topic-fe8f4c28195d",
+          "scope": "regional_review"
+        },
+        {
+          "number": "14",
+          "title": "СВО: прочие меры",
+          "normalized_title": "сво: прочие меры",
+          "review_item": "21-source-topic-608d926554ae",
+          "scope": "regional_review"
+        },
+        {
+          "number": "15",
+          "title": "Транспортный налог",
+          "normalized_title": "транспортный налог",
+          "review_item": "21-source-topic-fe49d3648447",
+          "scope": "regional_review"
+        },
+        {
+          "number": "16",
+          "title": "Ежегодная семейная налоговая выплата",
+          "normalized_title": "ежегодная семейная налоговая выплата",
+          "review_item": "21-source-topic-fc088e90eb7e",
+          "scope": "reference_or_federal"
+        },
+        {
+          "number": "17",
+          "title": "Социальный контракт",
+          "normalized_title": "социальный контракт",
+          "review_item": "21-source-topic-a8227180b9c4",
+          "scope": "regional_review"
+        },
+        {
+          "number": "18",
+          "title": "Газификация: субсидия до 100 000 руб.",
+          "normalized_title": "газификация: субсидия до 100 000 руб.",
+          "review_item": "21-source-topic-b2e19cb37c4a",
+          "scope": "regional_review"
+        },
+        {
+          "number": "19",
+          "title": "Прочие меры",
+          "normalized_title": "прочие меры",
+          "review_item": "21-source-topic-ed0c0490b460",
+          "scope": "regional_review"
+        },
+        {
+          "number": "20",
+          "title": "Сводная таблица ключевых актов",
+          "normalized_title": "сводная таблица ключевых актов",
+          "review_item": "21-source-topic-7c5605898a58",
+          "scope": "reference_or_federal"
+        },
+        {
+          "number": "21",
+          "title": "Оговорки и что проверить перед обращением",
+          "normalized_title": "оговорки и что проверить перед обращением",
+          "review_item": "21-source-topic-ae93c0bc9798",
+          "scope": "reference_or_federal"
+        }
+      ]
+    }
+  ],
+  "note": "Полученные обзоры сохранены как источники. Их наличие не подтверждает действующие размеры и условия. Публичные проверенные карточки этим импортом не изменяются.",
+  "file_count": 1,
+  "unique_regions_count": 1,
+  "new_region_ids": [
+    "21"
+  ],
+  "new_regions_count": 1,
+  "regions_with_usable_overview": 89,
+  "missing_regions": [],
+  "canonical_text_count": 1
+}

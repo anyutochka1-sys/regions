@@ -2,10 +2,10 @@
   "schema": 1,
   "updated": "2026-10-19",
   "scope": "Все доступные ранее и сейчас присланные региональные обзоры и тексты. Факт приёма отдельно от проверки и публикации.",
-  "source_count": 185,
-  "unique_text_count": 100,
-  "received_regions_count": 88,
-  "not_received_regions_count": 1,
+  "source_count": 186,
+  "unique_text_count": 101,
+  "received_regions_count": 89,
+  "not_received_regions_count": 0,
   "regions": [
     {
       "region_id": "22",
@@ -1381,14 +1381,16 @@
     {
       "region_id": "21",
       "region": "Чувашская Республика",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
-      "review_status": "queued",
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "source_ids": [
+        "libfile_190ca4330f3c819193cfbb394d566188"
+      ],
+      "review_status": "source_received_pending_review",
       "public_card_count": 0,
-      "status": "not_received",
-      "unique_text_count": 0,
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
       "last_inventory": "2026-10-19"
     },
     {
@@ -4161,7 +4163,24 @@
       "original_docx_sha256": "9d1ca5c0e9a05cd775f8a2d865b2421884c90902444169ba660968d986e7296f",
       "duplicate_text_of": "libfile_ab661e010de48191b71d98844196ff45",
       "usable_overview": true
+    },
+    {
+      "id": "libfile_190ca4330f3c819193cfbb394d566188",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_chuvashia.docx",
+      "region_ids": [
+        "21"
+      ],
+      "received_at": "2026-10-19T07:56:01Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/0b93ed7c0199e72ecef1b2c5d3279a1dcc44b451d1abae05a37edf001cbd9398.txt",
+      "text_sha256": "0b93ed7c0199e72ecef1b2c5d3279a1dcc44b451d1abae05a37edf001cbd9398",
+      "extracted_text_sha256": "0b93ed7c0199e72ecef1b2c5d3279a1dcc44b451d1abae05a37edf001cbd9398",
+      "normalized_text_sha256": "1ef0fb1f9d9a226f94bab4cea6c2f0e9f8deea7c48ca254c5565285aa410b70d",
+      "original_docx_sha256": "bd0a1cf8c03de780ae7b2afaf796895fe0bdecd75fbd07abefc96fd3c15f419a",
+      "duplicate_text_of": null,
+      "usable_overview": true
     }
   ],
-  "usable_overview_regions_count": 88
+  "usable_overview_regions_count": 89
 }
