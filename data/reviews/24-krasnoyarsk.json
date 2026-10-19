@@ -4304,6 +4304,73 @@
           "lead": "После 07.10.2026 подтверждённых изменений карточек, архивных переходов, мер СВО и муниципальных мер не установлено; отсутствие изменений окончательно не подтверждено из-за недоступности порталов НПА."
         }
       ]
+    },
+    {
+      "date": "2026-10-19",
+      "baseline_monitoring_date": "2026-10-12",
+      "result": "incomplete_official_source_access",
+      "confirmed_changes": [],
+      "public_cards_changed": [],
+      "full_legal_review_complete": false,
+      "data_blob_sha": "97d0faa144523dbc00ee91812e89894c0ae641a9",
+      "source_access": [
+        {
+          "url": "https://zakon.krskstate.ru/",
+          "result": "timeout"
+        },
+        {
+          "url": "https://publication.pravo.gov.ru/",
+          "result": "timeout"
+        },
+        {
+          "url": "https://zakon.krskstate.ru/0/doc/126733",
+          "result": "unavailable"
+        },
+        {
+          "url": "https://szn24.ru/",
+          "result": "timeout"
+        },
+        {
+          "url": "https://www.admkrsk.ru/",
+          "result": "available"
+        },
+        {
+          "url": "https://sfr.gov.ru/branches/krasnoyarsk/",
+          "result": "available"
+        },
+        {
+          "url": "https://www.nalog.gov.ru/rn24/about_fts/docs/4292245/",
+          "result": "available"
+        }
+      ],
+      "scope": "Текущие карточки и перечень проверки прочитаны; выполнен поиск новых НПА, архивных переходов, мер СВО и муниципальных изменений. Полная постатейная сверка не завершена из-за недоступности обязательных официальных текстов.",
+      "limitations": "Поисковые фрагменты, СМИ и обзоры используются для обнаружения документов, не для подтверждения действующей полной редакции. Не установлено отсутствие изменений.",
+      "future_effective_date_guard": "Самарские нормы с 01.04.2027 не применены. Сведения о будущих изменениях сохранены отдельно от текущих правил.",
+      "observations": [
+        {
+          "source_items": [
+            20,
+            21
+          ],
+          "status": "needs_review",
+          "document": "Приказ Минсоцполитики Красноярского края от 05.10.2026 №103-Н",
+          "discovery_url": "https://base.garant.ru/415016900/",
+          "observation": "В обзоре найдено изменение регламентов, в том числе по удостоверениям «Материнская слава». Возможное изменение сроков дубликатов и межведомственных запросов; полный официальный текст, публикация и применимость требуют сверки. Сроки карточек не менялись."
+        },
+        {
+          "status": "needs_review",
+          "document": "Постановление от 22.09.2026 №748-п к госпрограмме №507-п",
+          "discovery_url": "https://www.consultant.ru/law/review/reg/rlaw/rlaw1232026-10-09.html",
+          "reported_effective_from": "2027-01-01",
+          "observation": "Найдено описание будущего финансирования/направлений госпрограммы; суммы индивидуальных выплат этим не подтверждены, к текущему периоду не применено."
+        },
+        {
+          "scope": "svo_items",
+          "status": "needs_review",
+          "official_url": "https://zakon.krskstate.ru/0/doc/126733",
+          "observation": "Найден заголовок поправок в сфере поддержки семей участников СВО. Полный документ недоступен; дата, номер и применимость не установлены."
+        }
+      ]
     }
   ],
   "whole_scope_audit": {
