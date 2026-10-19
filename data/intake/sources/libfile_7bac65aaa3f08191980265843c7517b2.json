@@ -1,0 +1,17 @@
+{
+  "id": "libfile_7bac65aaa3f08191980265843c7517b2",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_sverdlovskaya_oblast (2).docx",
+  "region_ids": [
+    "66"
+  ],
+  "received_at": "2026-10-19T07:29:48Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/9004a3547a14e753c4204a0ef98af447cffa3eac76e732cbef010990bf3dc480.txt",
+  "text_sha256": "9004a3547a14e753c4204a0ef98af447cffa3eac76e732cbef010990bf3dc480",
+  "extracted_text_sha256": "9004a3547a14e753c4204a0ef98af447cffa3eac76e732cbef010990bf3dc480",
+  "normalized_text_sha256": "8957b81776152caa65333e83f6b3a0b75e4058bdb2a4e5c0746e5af1d3c5bc02",
+  "original_docx_sha256": "ea6db3bee60dfa53def1cbf0f41ab8b2f239306dea126dabe96025849d2e6acf",
+  "duplicate_text_of": null,
+  "usable_overview": true
+}

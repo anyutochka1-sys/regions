@@ -1,0 +1,17 @@
+{
+  "id": "libfile_cd903e04111c8191a09e847275c6f3e1",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_ulyanovskaya_oblast.docx",
+  "region_ids": [
+    "73"
+  ],
+  "received_at": "2026-10-19T07:29:48Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/1273bc37f76fb67380111d9840ce8e6d6095892769a81704e7f0f2a76f2be906.txt",
+  "text_sha256": "1273bc37f76fb67380111d9840ce8e6d6095892769a81704e7f0f2a76f2be906",
+  "extracted_text_sha256": "1273bc37f76fb67380111d9840ce8e6d6095892769a81704e7f0f2a76f2be906",
+  "normalized_text_sha256": "19fc74697dec97c674ad82629145741f7de2c2e3f316d63bab6af0c5bd368912",
+  "original_docx_sha256": "d6a25290a561137d595044d2bf6fba30db0a557cc568e02a22ec50ddda6c73ff",
+  "duplicate_text_of": null,
+  "usable_overview": true
+}

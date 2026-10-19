@@ -1,0 +1,17 @@
+{
+  "id": "libfile_74e7bd657d588191b4f040e1c36795a8",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_kabardino_balkariya.docx",
+  "region_ids": [
+    "07"
+  ],
+  "received_at": "2026-10-19T07:29:48Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/5c95ba04b4e53c35c1e2387ce498c159d040d7424b41f65dc8577c4e834c949e.txt",
+  "text_sha256": "5c95ba04b4e53c35c1e2387ce498c159d040d7424b41f65dc8577c4e834c949e",
+  "extracted_text_sha256": "5c95ba04b4e53c35c1e2387ce498c159d040d7424b41f65dc8577c4e834c949e",
+  "normalized_text_sha256": "fa78a7b4fd6e17a6c357515410320f0e0c98a2b301fef32d74e828d6a6106472",
+  "original_docx_sha256": "4f20b04c167aaaa39051fde3bbadb841e87c53797f5a8b4565ed6686993d0757",
+  "duplicate_text_of": null,
+  "usable_overview": true
+}

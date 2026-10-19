@@ -1,0 +1,17 @@
+{
+  "id": "libfile_08a6ecf0e9ac8191bd8471b77350de3b",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_ingushetia.docx",
+  "region_ids": [
+    "06"
+  ],
+  "received_at": "2026-10-19T07:29:48Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/33eb2466e2c347aa2688ed18e4bd2bd4874c7d15e0b5117c7d852b851498d22b.txt",
+  "text_sha256": "33eb2466e2c347aa2688ed18e4bd2bd4874c7d15e0b5117c7d852b851498d22b",
+  "extracted_text_sha256": "33eb2466e2c347aa2688ed18e4bd2bd4874c7d15e0b5117c7d852b851498d22b",
+  "normalized_text_sha256": "987a089e30e4d15ec1fdb227c05da80bdc75668560938316136e3697030768be",
+  "original_docx_sha256": "1549f6a88ba019430ff38574e8ccc15fd415f98162cec6ce83dddd0a9dcf9a20",
+  "duplicate_text_of": null,
+  "usable_overview": true
+}

@@ -1,0 +1,17 @@
+{
+  "id": "libfile_c6b1a2c0c2dc819183f9cb7ea00903fa",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_udmurtiya.docx",
+  "region_ids": [
+    "18"
+  ],
+  "received_at": "2026-10-19T07:29:48Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/fd3e704a1e9e023753042f3611bbaccb60206ca4fb072e6fd0a58bf15e8c0826.txt",
+  "text_sha256": "fd3e704a1e9e023753042f3611bbaccb60206ca4fb072e6fd0a58bf15e8c0826",
+  "extracted_text_sha256": "fd3e704a1e9e023753042f3611bbaccb60206ca4fb072e6fd0a58bf15e8c0826",
+  "normalized_text_sha256": "5088eef883c56f172927cf01740947379039626452a78b421c82365d239a4ba0",
+  "original_docx_sha256": "79d6f9a162f8536805f6a2c539f877652f50c65f6a13775447578610644a7eec",
+  "duplicate_text_of": null,
+  "usable_overview": true
+}

@@ -1,0 +1,17 @@
+{
+  "id": "libfile_2aa3acfbc0988191b7d658f860c7c270",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_mordovia.docx",
+  "region_ids": [
+    "13"
+  ],
+  "received_at": "2026-10-19T07:29:48Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/7dd2a2b9fc9b2fe616ad1e65a95f107504afb57030d6bfed0f47be56bc221a15.txt",
+  "text_sha256": "7dd2a2b9fc9b2fe616ad1e65a95f107504afb57030d6bfed0f47be56bc221a15",
+  "extracted_text_sha256": "7dd2a2b9fc9b2fe616ad1e65a95f107504afb57030d6bfed0f47be56bc221a15",
+  "normalized_text_sha256": "99eece18f2d996e868e849e49ff842e47482b47fdff0d13c9be9b47ab7c04321",
+  "original_docx_sha256": "915e37b84cbc6dcd09b786d20bcad87b9dffdcf94969d29a6786bb19be8d55f2",
+  "duplicate_text_of": null,
+  "usable_overview": true
+}

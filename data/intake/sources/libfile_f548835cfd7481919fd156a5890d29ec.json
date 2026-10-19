@@ -1,0 +1,17 @@
+{
+  "id": "libfile_f548835cfd7481919fd156a5890d29ec",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_dagestan.docx",
+  "region_ids": [
+    "05"
+  ],
+  "received_at": "2026-10-19T07:29:48Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/e61e4d485508f1f165ada14177875f5b5f015d027fafebfecf04add36b9ae60c.txt",
+  "text_sha256": "e61e4d485508f1f165ada14177875f5b5f015d027fafebfecf04add36b9ae60c",
+  "extracted_text_sha256": "e61e4d485508f1f165ada14177875f5b5f015d027fafebfecf04add36b9ae60c",
+  "normalized_text_sha256": "4c894ede4f20af5e1621e56b7d433797fc0313ca60a4bbb483bc614498bb2b2e",
+  "original_docx_sha256": "3e22a10e8ac415b91d642e70b173a45104cc0e064451d1a71ff1997595629760",
+  "duplicate_text_of": null,
+  "usable_overview": true
+}

@@ -1,0 +1,17 @@
+{
+  "id": "libfile_afcc85482b188191aab2118bdbb6de59",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_karachaevo_cherkesiya.docx",
+  "region_ids": [
+    "09"
+  ],
+  "received_at": "2026-10-19T07:29:48Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/5abddf258d07cba7b49c8d614998690a5952e9767d6cd60ba538c57ad93ddc10.txt",
+  "text_sha256": "5abddf258d07cba7b49c8d614998690a5952e9767d6cd60ba538c57ad93ddc10",
+  "extracted_text_sha256": "5abddf258d07cba7b49c8d614998690a5952e9767d6cd60ba538c57ad93ddc10",
+  "normalized_text_sha256": "df0ecd324cef3b69789c2eca833fc91e54e7fb7c6ef5c1a8d8e0b7df65507f55",
+  "original_docx_sha256": "3a0cb9b930d494198ecae5193991dac9efcc4cf088c99de35df6e6c347588be2",
+  "duplicate_text_of": null,
+  "usable_overview": true
+}

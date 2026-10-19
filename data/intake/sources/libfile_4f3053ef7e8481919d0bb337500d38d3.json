@@ -1,0 +1,17 @@
+{
+  "id": "libfile_4f3053ef7e8481919d0bb337500d38d3",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_severnaya_osetia.docx",
+  "region_ids": [
+    "15"
+  ],
+  "received_at": "2026-10-19T07:29:48Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/436a37e8c6b08f160ac5a708c6504f2daf8c36df0c01d9783ff1b9fa2cac61f2.txt",
+  "text_sha256": "436a37e8c6b08f160ac5a708c6504f2daf8c36df0c01d9783ff1b9fa2cac61f2",
+  "extracted_text_sha256": "436a37e8c6b08f160ac5a708c6504f2daf8c36df0c01d9783ff1b9fa2cac61f2",
+  "normalized_text_sha256": "a16c210cc3b04cb96293f4deef73f1403678b9ef077a526179772f6f2084d7a5",
+  "original_docx_sha256": "50d137fb679c742f32471ceb0241e2c2384a7d18f4d4ebc52581553b90b13c3c",
+  "duplicate_text_of": null,
+  "usable_overview": true
+}

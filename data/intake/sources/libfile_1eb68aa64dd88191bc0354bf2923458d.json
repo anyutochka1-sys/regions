@@ -1,0 +1,17 @@
+{
+  "id": "libfile_1eb68aa64dd88191bc0354bf2923458d",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_chechnya.docx",
+  "region_ids": [
+    "20"
+  ],
+  "received_at": "2026-10-19T07:29:48Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/92b2abc8f53aeffc13406995197d4d6866f78b1f9f4cc4369b43cc19e9eaba9e.txt",
+  "text_sha256": "92b2abc8f53aeffc13406995197d4d6866f78b1f9f4cc4369b43cc19e9eaba9e",
+  "extracted_text_sha256": "92b2abc8f53aeffc13406995197d4d6866f78b1f9f4cc4369b43cc19e9eaba9e",
+  "normalized_text_sha256": "d387b0e0414eb16117ae75b0c4d33c33824e5183b3e6654ae8b0c970d976810d",
+  "original_docx_sha256": "b6beff83ee224cb780c179e51ad6c0f192a6465470ad4b05ea7c5f4e56cec361",
+  "duplicate_text_of": null,
+  "usable_overview": true
+}

@@ -1,0 +1,17 @@
+{
+  "id": "libfile_13b05469a7b4819198ff3f3c2ea51d20",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_penzenskaya_oblast.docx",
+  "region_ids": [
+    "58"
+  ],
+  "received_at": "2026-10-19T07:29:48Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/8ac2c7510a56c9de4c0ed57e172e3e861823b5d144dddb0eb000696ce4a6fa92.txt",
+  "text_sha256": "8ac2c7510a56c9de4c0ed57e172e3e861823b5d144dddb0eb000696ce4a6fa92",
+  "extracted_text_sha256": "8ac2c7510a56c9de4c0ed57e172e3e861823b5d144dddb0eb000696ce4a6fa92",
+  "normalized_text_sha256": "fcebf17f12aa3df8f21a1eda2d7732427366010439186d8b3374967a05310705",
+  "original_docx_sha256": "2c0bbdaa189e385cfb41ec8c92c5846e713cba8cf15bf6e752d6e6133ebeee75",
+  "duplicate_text_of": null,
+  "usable_overview": true
+}

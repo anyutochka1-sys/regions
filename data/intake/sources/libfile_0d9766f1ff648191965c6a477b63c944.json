@@ -1,0 +1,17 @@
+{
+  "id": "libfile_0d9766f1ff648191965c6a477b63c944",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_stavropolskiy_krai.docx",
+  "region_ids": [
+    "26"
+  ],
+  "received_at": "2026-10-19T07:29:48Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/4b8d8c7658004ed84199f951a957349d05b11980aedd307633b35e1c5e12a847.txt",
+  "text_sha256": "4b8d8c7658004ed84199f951a957349d05b11980aedd307633b35e1c5e12a847",
+  "extracted_text_sha256": "4b8d8c7658004ed84199f951a957349d05b11980aedd307633b35e1c5e12a847",
+  "normalized_text_sha256": "b7649eee5163d48f81e9405bd6f4076c01308a1747b1048f27c2bf6cab089077",
+  "original_docx_sha256": "37273fe86c05266639e54674fd3db2910282da4e5ed84751e364902b5a03dd4e",
+  "duplicate_text_of": null,
+  "usable_overview": true
+}

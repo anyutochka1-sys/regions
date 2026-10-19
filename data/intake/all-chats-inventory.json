@@ -3,8 +3,8 @@
   "updated": "2026-10-19",
   "scope": "Все доступные региональные обзоры из полного перечня файлов и шесть ранее сохранённых текстов из чатов; три архива первичных актов учтены отдельно. Наличие обзора отделено от юридической проверки и публикации.",
   "total_regions": 89,
-  "regions_with_usable_overview": 70,
-  "missing_count": 19,
+  "regions_with_usable_overview": 85,
+  "missing_count": 4,
   "missing_regions": [
     {
       "region_id": "29",
@@ -15,78 +15,18 @@
       "region": "Вологодская область"
     },
     {
-      "region_id": "07",
-      "region": "Кабардино-Балкарская Республика"
-    },
-    {
-      "region_id": "09",
-      "region": "Карачаево-Черкесская Республика"
-    },
-    {
-      "region_id": "43",
-      "region": "Кировская область"
-    },
-    {
       "region_id": "44",
       "region": "Костромская область"
-    },
-    {
-      "region_id": "45",
-      "region": "Курганская область"
-    },
-    {
-      "region_id": "56",
-      "region": "Оренбургская область"
-    },
-    {
-      "region_id": "58",
-      "region": "Пензенская область"
-    },
-    {
-      "region_id": "05",
-      "region": "Республика Дагестан"
-    },
-    {
-      "region_id": "06",
-      "region": "Республика Ингушетия"
-    },
-    {
-      "region_id": "12",
-      "region": "Республика Марий Эл"
-    },
-    {
-      "region_id": "13",
-      "region": "Республика Мордовия"
-    },
-    {
-      "region_id": "15",
-      "region": "Республика Северная Осетия — Алания"
-    },
-    {
-      "region_id": "26",
-      "region": "Ставропольский край"
-    },
-    {
-      "region_id": "18",
-      "region": "Удмуртская Республика"
-    },
-    {
-      "region_id": "73",
-      "region": "Ульяновская область"
-    },
-    {
-      "region_id": "20",
-      "region": "Чеченская Республика"
     },
     {
       "region_id": "21",
       "region": "Чувашская Республика"
     }
   ],
-  "source_file_count": 156,
+  "source_file_count": 175,
   "chat_text_count": 6,
-  "source_versions": 162,
-  "unique_texts": 80,
+  "source_versions": 181,
+  "unique_texts": 97,
   "new_source_versions_collected": 86,
   "new_unique_texts": 19,
   "archives": {
@@ -362,14 +302,16 @@
     {
       "region_id": "07",
       "region": "Кабардино-Балкарская Республика",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
-      "review_status": "queued",
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "source_ids": [
+        "libfile_74e7bd657d588191b4f040e1c36795a8"
+      ],
+      "review_status": "source_received_pending_review",
       "public_card_count": 0,
-      "status": "not_received",
-      "unique_text_count": 0,
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
       "last_inventory": "2026-10-19"
     },
     {
@@ -420,14 +362,16 @@
     {
       "region_id": "09",
       "region": "Карачаево-Черкесская Республика",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
-      "review_status": "queued",
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "source_ids": [
+        "libfile_afcc85482b188191aab2118bdbb6de59"
+      ],
+      "review_status": "source_received_pending_review",
       "public_card_count": 0,
-      "status": "not_received",
-      "unique_text_count": 0,
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
       "last_inventory": "2026-10-19"
     },
     {
@@ -448,14 +392,17 @@
     {
       "region_id": "43",
       "region": "Кировская область",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
-      "review_status": "queued",
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 2,
+      "source_ids": [
+        "libfile_8d64b10102948191905c4616de6f9df8",
+        "libfile_11270e2565988191b4de0ca6ebb747b3"
+      ],
+      "review_status": "source_received_pending_review",
       "public_card_count": 0,
-      "status": "not_received",
-      "unique_text_count": 0,
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
       "last_inventory": "2026-10-19"
     },
     {
@@ -511,14 +458,16 @@
     {
       "region_id": "45",
       "region": "Курганская область",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
-      "review_status": "queued",
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "source_ids": [
+        "libfile_4cf71964246c8191a494ec529bf15ea0"
+      ],
+      "review_status": "source_received_pending_review",
       "public_card_count": 0,
-      "status": "not_received",
-      "unique_text_count": 0,
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
       "last_inventory": "2026-10-19"
     },
     {
@@ -739,14 +688,16 @@
     {
       "region_id": "56",
       "region": "Оренбургская область",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
-      "review_status": "queued",
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "source_ids": [
+        "libfile_260b4953630081919bbb3971234c1a2e"
+      ],
+      "review_status": "source_received_pending_review",
       "public_card_count": 0,
-      "status": "not_received",
-      "unique_text_count": 0,
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
       "last_inventory": "2026-10-19"
     },
     {
@@ -767,14 +718,16 @@
     {
       "region_id": "58",
       "region": "Пензенская область",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
-      "review_status": "queued",
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "source_ids": [
+        "libfile_13b05469a7b4819198ff3f3c2ea51d20"
+      ],
+      "review_status": "source_received_pending_review",
       "public_card_count": 0,
-      "status": "not_received",
-      "unique_text_count": 0,
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
       "last_inventory": "2026-10-19"
     },
     {
@@ -890,27 +843,31 @@
     {
       "region_id": "05",
       "region": "Республика Дагестан",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
-      "review_status": "queued",
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "source_ids": [
+        "libfile_f548835cfd7481919fd156a5890d29ec"
+      ],
+      "review_status": "source_received_pending_review",
       "public_card_count": 0,
-      "status": "not_received",
-      "unique_text_count": 0,
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
       "last_inventory": "2026-10-19"
     },
     {
       "region_id": "06",
       "region": "Республика Ингушетия",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
-      "review_status": "queued",
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "source_ids": [
+        "libfile_08a6ecf0e9ac8191bd8471b77350de3b"
+      ],
+      "review_status": "source_received_pending_review",
       "public_card_count": 0,
-      "status": "not_received",
-      "unique_text_count": 0,
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
       "last_inventory": "2026-10-19"
     },
     {
@@ -984,27 +941,31 @@
     {
       "region_id": "12",
       "region": "Республика Марий Эл",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
-      "review_status": "queued",
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "source_ids": [
+        "libfile_bf590e771c548191b6f8812cf82bd4f1"
+      ],
+      "review_status": "source_received_pending_review",
       "public_card_count": 0,
-      "status": "not_received",
-      "unique_text_count": 0,
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
       "last_inventory": "2026-10-19"
     },
     {
       "region_id": "13",
       "region": "Республика Мордовия",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
-      "review_status": "queued",
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "source_ids": [
+        "libfile_2aa3acfbc0988191b7d658f860c7c270"
+      ],
+      "review_status": "source_received_pending_review",
       "public_card_count": 0,
-      "status": "not_received",
-      "unique_text_count": 0,
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
       "last_inventory": "2026-10-19"
     },
     {
@@ -1025,14 +986,16 @@
     {
       "region_id": "15",
       "region": "Республика Северная Осетия — Алания",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
-      "review_status": "queued",
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "source_ids": [
+        "libfile_4f3053ef7e8481919d0bb337500d38d3"
+      ],
+      "review_status": "source_received_pending_review",
       "public_card_count": 0,
-      "status": "not_received",
-      "unique_text_count": 0,
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
       "last_inventory": "2026-10-19"
     },
     {
@@ -1185,15 +1148,17 @@
       "region": "Свердловская область",
       "received": true,
       "usable_overview_received": true,
-      "source_count": 2,
+      "source_count": 4,
       "source_ids": [
         "libfile_be215fa80cd881918f315adcd914ad61",
-        "libfile_fde618374d9c8191927b26fe9c6b4df2"
+        "libfile_fde618374d9c8191927b26fe9c6b4df2",
+        "libfile_7bac65aaa3f08191980265843c7517b2",
+        "libfile_0c49d2efb4f08191872996341c956ddd"
       ],
-      "review_status": "queued",
+      "review_status": "source_received_pending_review",
       "public_card_count": 0,
       "status": "received_review_incomplete",
-      "unique_text_count": 1,
+      "unique_text_count": 2,
       "last_inventory": "2026-10-19"
     },
     {
@@ -1232,14 +1197,16 @@
     {
       "region_id": "26",
       "region": "Ставропольский край",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
-      "review_status": "queued",
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "source_ids": [
+        "libfile_0d9766f1ff648191965c6a477b63c944"
+      ],
+      "review_status": "source_received_pending_review",
       "public_card_count": 0,
-      "status": "not_received",
-      "unique_text_count": 0,
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
       "last_inventory": "2026-10-19"
     },
     {
@@ -1321,27 +1288,31 @@
     {
       "region_id": "18",
       "region": "Удмуртская Республика",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
-      "review_status": "queued",
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "source_ids": [
+        "libfile_c6b1a2c0c2dc819183f9cb7ea00903fa"
+      ],
+      "review_status": "source_received_pending_review",
       "public_card_count": 0,
-      "status": "not_received",
-      "unique_text_count": 0,
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
       "last_inventory": "2026-10-19"
     },
     {
       "region_id": "73",
       "region": "Ульяновская область",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
-      "review_status": "queued",
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "source_ids": [
+        "libfile_cd903e04111c8191a09e847275c6f3e1"
+      ],
+      "review_status": "source_received_pending_review",
       "public_card_count": 0,
-      "status": "not_received",
-      "unique_text_count": 0,
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
       "last_inventory": "2026-10-19"
     },
     {
@@ -1400,29 +1371,32 @@
       "region": "Челябинская область",
       "received": true,
       "usable_overview_received": true,
-      "source_count": 3,
+      "source_count": 4,
       "source_ids": [
         "libfile_bb9d33832198819190c0b074f562575c",
         "libfile_f25114c97f0c8191ba9713d269566896",
-        "libfile_8015da6743808191a0a1e9b49f6067ed"
+        "libfile_8015da6743808191a0a1e9b49f6067ed",
+        "libfile_ab661e010de48191b71d98844196ff45"
       ],
-      "review_status": "queued",
+      "review_status": "source_received_pending_review",
       "public_card_count": 0,
       "status": "received_review_incomplete",
-      "unique_text_count": 2,
+      "unique_text_count": 3,
       "last_inventory": "2026-10-19"
     },
     {
       "region_id": "20",
       "region": "Чеченская Республика",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
-      "review_status": "queued",
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "source_ids": [
+        "libfile_1eb68aa64dd88191bc0354bf2923458d"
+      ],
+      "review_status": "source_received_pending_review",
       "public_card_count": 0,
-      "status": "not_received",
-      "unique_text_count": 0,
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
       "last_inventory": "2026-10-19"
     },
     {
@@ -1491,5 +1465,13 @@
     "Опись отражает доступные файлы и сохранённые тексты чатов. Отсутствие обзора не означает, что в регионе нет мер поддержки.",
     "Федеральные меры и отдельные правовые акты не заменяют региональный обзор.",
     "Число собранных обзоров не является числом полностью проверенных и опубликованных регионов."
-  ]
+  ],
+  "last_intake_at": "2026-10-19T07:29:48Z",
+  "latest_import_file": "data/reviews/imports/2026-10-19-additional-19-files.json",
+  "latest_intake": {
+    "file_count": 19,
+    "unique_regions_count": 17,
+    "new_regions_count": 15,
+    "canonical_text_count": 17
+  }
 }

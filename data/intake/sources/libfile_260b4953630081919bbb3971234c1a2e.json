@@ -1,0 +1,17 @@
+{
+  "id": "libfile_260b4953630081919bbb3971234c1a2e",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_orenburgskaya_oblast.docx",
+  "region_ids": [
+    "56"
+  ],
+  "received_at": "2026-10-19T07:29:48Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/802794c6bb3669d51d7a49726138c43913a8c8ad6e20fec5381868c03e04b088.txt",
+  "text_sha256": "802794c6bb3669d51d7a49726138c43913a8c8ad6e20fec5381868c03e04b088",
+  "extracted_text_sha256": "802794c6bb3669d51d7a49726138c43913a8c8ad6e20fec5381868c03e04b088",
+  "normalized_text_sha256": "772ff5b55eab255282b400c1974459d9d7979130e76c90ba66857d9f9c2bc952",
+  "original_docx_sha256": "706e587c00a7f0825b8f6536289560acb426b88081f64096bd734a78e976f876",
+  "duplicate_text_of": null,
+  "usable_overview": true
+}

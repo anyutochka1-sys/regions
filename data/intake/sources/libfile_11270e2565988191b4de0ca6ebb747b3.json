@@ -1,0 +1,17 @@
+{
+  "id": "libfile_11270e2565988191b4de0ca6ebb747b3",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_kirovskaya_oblast (1).docx",
+  "region_ids": [
+    "43"
+  ],
+  "received_at": "2026-10-19T07:29:48Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/4bb1cbb4d9ae0d78b93d467ccee87791399cf574906ffaa8522259a7783c300a.txt",
+  "text_sha256": "4bb1cbb4d9ae0d78b93d467ccee87791399cf574906ffaa8522259a7783c300a",
+  "extracted_text_sha256": "4bb1cbb4d9ae0d78b93d467ccee87791399cf574906ffaa8522259a7783c300a",
+  "normalized_text_sha256": "9fe5dd68354299034d7186888aeecd038ff406648d7736c6321f29a94be0e033",
+  "original_docx_sha256": "f957841090eca516b286b8937464e83fb76facbb9fbaf1dac18cd33b085de824",
+  "duplicate_text_of": "libfile_8d64b10102948191905c4616de6f9df8",
+  "usable_overview": true
+}

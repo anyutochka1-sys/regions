@@ -277,8 +277,10 @@
       "full_review_complete": false,
       "source_intake_received": true,
       "usable_overview_received": true,
-      "source_count": 3,
-      "inventory_file": "data/intake/all-chats-inventory.json"
+      "source_count": 4,
+      "inventory_file": "data/intake/all-chats-inventory.json",
+      "last_source_received": "2026-10-19",
+      "review_file": "data/reviews/74-chelyabinsk.json"
     },
     {
       "region_id": "77",
@@ -660,7 +662,7 @@
     {
       "region_id": "07",
       "region": "Кабардино-Балкарская Республика",
-      "status": "queued",
+      "status": "source_received_pending_review",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -673,10 +675,12 @@
         "муниципальные и редкие меры"
       ],
       "full_review_complete": false,
-      "source_intake_received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "inventory_file": "data/intake/all-chats-inventory.json"
+      "source_intake_received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "inventory_file": "data/intake/all-chats-inventory.json",
+      "last_source_received": "2026-10-19",
+      "review_file": "data/reviews/07-kabardino-balkaria.json"
     },
     {
       "region_id": "39",
@@ -744,7 +748,7 @@
     {
       "region_id": "09",
       "region": "Карачаево-Черкесская Республика",
-      "status": "queued",
+      "status": "source_received_pending_review",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -757,10 +761,12 @@
         "муниципальные и редкие меры"
       ],
       "full_review_complete": false,
-      "source_intake_received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "inventory_file": "data/intake/all-chats-inventory.json"
+      "source_intake_received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "inventory_file": "data/intake/all-chats-inventory.json",
+      "last_source_received": "2026-10-19",
+      "review_file": "data/reviews/09-karachay-cherkessia.json"
     },
     {
       "region_id": "42",
@@ -786,7 +792,7 @@
     {
       "region_id": "43",
       "region": "Кировская область",
-      "status": "queued",
+      "status": "source_received_pending_review",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -799,10 +805,12 @@
         "муниципальные и редкие меры"
       ],
       "full_review_complete": false,
-      "source_intake_received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "inventory_file": "data/intake/all-chats-inventory.json"
+      "source_intake_received": true,
+      "usable_overview_received": true,
+      "source_count": 2,
+      "inventory_file": "data/intake/all-chats-inventory.json",
+      "last_source_received": "2026-10-19",
+      "review_file": "data/reviews/43-kirov.json"
     },
     {
       "region_id": "44",
@@ -849,7 +857,7 @@
     {
       "region_id": "45",
       "region": "Курганская область",
-      "status": "queued",
+      "status": "source_received_pending_review",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -862,10 +870,12 @@
         "муниципальные и редкие меры"
       ],
       "full_review_complete": false,
-      "source_intake_received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "inventory_file": "data/intake/all-chats-inventory.json"
+      "source_intake_received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "inventory_file": "data/intake/all-chats-inventory.json",
+      "last_source_received": "2026-10-19",
+      "review_file": "data/reviews/45-kurgan.json"
     },
     {
       "region_id": "46",
@@ -1095,7 +1105,7 @@
     {
       "region_id": "56",
       "region": "Оренбургская область",
-      "status": "queued",
+      "status": "source_received_pending_review",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -1108,10 +1118,12 @@
         "муниципальные и редкие меры"
       ],
       "full_review_complete": false,
-      "source_intake_received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "inventory_file": "data/intake/all-chats-inventory.json"
+      "source_intake_received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "inventory_file": "data/intake/all-chats-inventory.json",
+      "last_source_received": "2026-10-19",
+      "review_file": "data/reviews/56-orenburg.json"
     },
     {
       "region_id": "57",
@@ -1137,7 +1149,7 @@
     {
       "region_id": "58",
       "region": "Пензенская область",
-      "status": "queued",
+      "status": "source_received_pending_review",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -1150,10 +1162,12 @@
         "муниципальные и редкие меры"
       ],
       "full_review_complete": false,
-      "source_intake_received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "inventory_file": "data/intake/all-chats-inventory.json"
+      "source_intake_received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "inventory_file": "data/intake/all-chats-inventory.json",
+      "last_source_received": "2026-10-19",
+      "review_file": "data/reviews/58-penza.json"
     },
     {
       "region_id": "59",
@@ -1305,7 +1319,7 @@
     {
       "region_id": "05",
       "region": "Республика Дагестан",
-      "status": "queued",
+      "status": "source_received_pending_review",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -1318,15 +1332,17 @@
         "муниципальные и редкие меры"
       ],
       "full_review_complete": false,
-      "source_intake_received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "inventory_file": "data/intake/all-chats-inventory.json"
+      "source_intake_received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "inventory_file": "data/intake/all-chats-inventory.json",
+      "last_source_received": "2026-10-19",
+      "review_file": "data/reviews/05-dagestan.json"
     },
     {
       "region_id": "06",
       "region": "Республика Ингушетия",
-      "status": "queued",
+      "status": "source_received_pending_review",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -1339,10 +1355,12 @@
         "муниципальные и редкие меры"
       ],
       "full_review_complete": false,
-      "source_intake_received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "inventory_file": "data/intake/all-chats-inventory.json"
+      "source_intake_received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "inventory_file": "data/intake/all-chats-inventory.json",
+      "last_source_received": "2026-10-19",
+      "review_file": "data/reviews/06-ingushetia.json"
     },
     {
       "region_id": "08",
@@ -1431,7 +1449,7 @@
     {
       "region_id": "12",
       "region": "Республика Марий Эл",
-      "status": "queued",
+      "status": "source_received_pending_review",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -1444,15 +1462,17 @@
         "муниципальные и редкие меры"
       ],
       "full_review_complete": false,
-      "source_intake_received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "inventory_file": "data/intake/all-chats-inventory.json"
+      "source_intake_received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "inventory_file": "data/intake/all-chats-inventory.json",
+      "last_source_received": "2026-10-19",
+      "review_file": "data/reviews/12-mari-el.json"
     },
     {
       "region_id": "13",
       "region": "Республика Мордовия",
-      "status": "queued",
+      "status": "source_received_pending_review",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -1465,10 +1485,12 @@
         "муниципальные и редкие меры"
       ],
       "full_review_complete": false,
-      "source_intake_received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "inventory_file": "data/intake/all-chats-inventory.json"
+      "source_intake_received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "inventory_file": "data/intake/all-chats-inventory.json",
+      "last_source_received": "2026-10-19",
+      "review_file": "data/reviews/13-mordovia.json"
     },
     {
       "region_id": "14",
@@ -1494,7 +1516,7 @@
     {
       "region_id": "15",
       "region": "Республика Северная Осетия — Алания",
-      "status": "queued",
+      "status": "source_received_pending_review",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -1507,10 +1529,12 @@
         "муниципальные и редкие меры"
       ],
       "full_review_complete": false,
-      "source_intake_received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "inventory_file": "data/intake/all-chats-inventory.json"
+      "source_intake_received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "inventory_file": "data/intake/all-chats-inventory.json",
+      "last_source_received": "2026-10-19",
+      "review_file": "data/reviews/15-north-ossetia.json"
     },
     {
       "region_id": "16",
@@ -1698,8 +1722,10 @@
       "full_review_complete": false,
       "source_intake_received": true,
       "usable_overview_received": true,
-      "source_count": 2,
-      "inventory_file": "data/intake/all-chats-inventory.json"
+      "source_count": 4,
+      "inventory_file": "data/intake/all-chats-inventory.json",
+      "last_source_received": "2026-10-19",
+      "review_file": "data/reviews/66-sverdlovsk.json"
     },
     {
       "region_id": "92",
@@ -1746,7 +1772,7 @@
     {
       "region_id": "26",
       "region": "Ставропольский край",
-      "status": "queued",
+      "status": "source_received_pending_review",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -1759,10 +1785,12 @@
         "муниципальные и редкие меры"
       ],
       "full_review_complete": false,
-      "source_intake_received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "inventory_file": "data/intake/all-chats-inventory.json"
+      "source_intake_received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "inventory_file": "data/intake/all-chats-inventory.json",
+      "last_source_received": "2026-10-19",
+      "review_file": "data/reviews/26-stavropol.json"
     },
     {
       "region_id": "68",
@@ -1872,7 +1900,7 @@
     {
       "region_id": "18",
       "region": "Удмуртская Республика",
-      "status": "queued",
+      "status": "source_received_pending_review",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -1885,15 +1913,17 @@
         "муниципальные и редкие меры"
       ],
       "full_review_complete": false,
-      "source_intake_received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "inventory_file": "data/intake/all-chats-inventory.json"
+      "source_intake_received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "inventory_file": "data/intake/all-chats-inventory.json",
+      "last_source_received": "2026-10-19",
+      "review_file": "data/reviews/18-udmurtia.json"
     },
     {
       "region_id": "73",
       "region": "Ульяновская область",
-      "status": "queued",
+      "status": "source_received_pending_review",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -1906,10 +1936,12 @@
         "муниципальные и редкие меры"
       ],
       "full_review_complete": false,
-      "source_intake_received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "inventory_file": "data/intake/all-chats-inventory.json"
+      "source_intake_received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "inventory_file": "data/intake/all-chats-inventory.json",
+      "last_source_received": "2026-10-19",
+      "review_file": "data/reviews/73-ulyanovsk.json"
     },
     {
       "region_id": "27",
@@ -1987,7 +2019,7 @@
     {
       "region_id": "20",
       "region": "Чеченская Республика",
-      "status": "queued",
+      "status": "source_received_pending_review",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -2000,10 +2032,12 @@
         "муниципальные и редкие меры"
       ],
       "full_review_complete": false,
-      "source_intake_received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "inventory_file": "data/intake/all-chats-inventory.json"
+      "source_intake_received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "inventory_file": "data/intake/all-chats-inventory.json",
+      "last_source_received": "2026-10-19",
+      "review_file": "data/reviews/20-chechnya.json"
     },
     {
       "region_id": "21",

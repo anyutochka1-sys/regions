@@ -1,0 +1,17 @@
+{
+  "id": "libfile_bf590e771c548191b6f8812cf82bd4f1",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_marii_el.docx",
+  "region_ids": [
+    "12"
+  ],
+  "received_at": "2026-10-19T07:29:48Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/b0454f5e74ad5086aaf0ee33fce11eb4d315b0158bd4b108473346b0f9ea72f8.txt",
+  "text_sha256": "b0454f5e74ad5086aaf0ee33fce11eb4d315b0158bd4b108473346b0f9ea72f8",
+  "extracted_text_sha256": "b0454f5e74ad5086aaf0ee33fce11eb4d315b0158bd4b108473346b0f9ea72f8",
+  "normalized_text_sha256": "7fa6fabf5adb5609a4021356d73332fcd12fe8638c1db626503b308ad7147f98",
+  "original_docx_sha256": "a2faea5cc2be363a70c06aeddc693e974a66e47a65cefba6b4ebe0cb6dbfba80",
+  "duplicate_text_of": null,
+  "usable_overview": true
+}

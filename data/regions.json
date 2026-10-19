@@ -338,19 +338,20 @@
       "name": "Кабардино-Балкарская Республика",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 1,
       "source_intake": {
-        "received": false,
-        "usable_overview_received": false,
-        "source_count": 0,
-        "unique_text_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
         "last_inventory": "2026-10-19"
-      }
+      },
+      "review_file": "data/reviews/07-kabardino-balkaria.json"
     },
     {
       "id": "39",
@@ -418,19 +419,20 @@
       "name": "Карачаево-Черкесская Республика",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 1,
       "source_intake": {
-        "received": false,
-        "usable_overview_received": false,
-        "source_count": 0,
-        "unique_text_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
         "last_inventory": "2026-10-19"
-      }
+      },
+      "review_file": "data/reviews/09-karachay-cherkessia.json"
     },
     {
       "id": "42",
@@ -456,19 +458,20 @@
       "name": "Кировская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
-        "received": false,
-        "usable_overview_received": false,
-        "source_count": 0,
-        "unique_text_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 2,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
         "last_inventory": "2026-10-19"
-      }
+      },
+      "review_file": "data/reviews/43-kirov.json"
     },
     {
       "id": "44",
@@ -544,19 +547,20 @@
       "name": "Курганская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 1,
       "source_intake": {
-        "received": false,
-        "usable_overview_received": false,
-        "source_count": 0,
-        "unique_text_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
         "last_inventory": "2026-10-19"
-      }
+      },
+      "review_file": "data/reviews/45-kurgan.json"
     },
     {
       "id": "46",
@@ -831,19 +835,20 @@
       "name": "Оренбургская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
-        "received": false,
-        "usable_overview_received": false,
-        "source_count": 0,
-        "unique_text_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
         "last_inventory": "2026-10-19"
-      }
+      },
+      "review_file": "data/reviews/56-orenburg.json"
     },
     {
       "id": "57",
@@ -869,19 +874,20 @@
       "name": "Пензенская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 1,
       "source_intake": {
-        "received": false,
-        "usable_overview_received": false,
-        "source_count": 0,
-        "unique_text_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
         "last_inventory": "2026-10-19"
-      }
+      },
+      "review_file": "data/reviews/58-penza.json"
     },
     {
       "id": "59",
@@ -1044,38 +1050,40 @@
       "name": "Республика Дагестан",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 1,
       "source_intake": {
-        "received": false,
-        "usable_overview_received": false,
-        "source_count": 0,
-        "unique_text_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
         "last_inventory": "2026-10-19"
-      }
+      },
+      "review_file": "data/reviews/05-dagestan.json"
     },
     {
       "id": "06",
       "name": "Республика Ингушетия",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
-        "received": false,
-        "usable_overview_received": false,
-        "source_count": 0,
-        "unique_text_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
         "last_inventory": "2026-10-19"
-      }
+      },
+      "review_file": "data/reviews/06-ingushetia.json"
     },
     {
       "id": "08",
@@ -1158,38 +1166,40 @@
       "name": "Республика Марий Эл",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
-        "received": false,
-        "usable_overview_received": false,
-        "source_count": 0,
-        "unique_text_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
         "last_inventory": "2026-10-19"
-      }
+      },
+      "review_file": "data/reviews/12-mari-el.json"
     },
     {
       "id": "13",
       "name": "Республика Мордовия",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 1,
       "source_intake": {
-        "received": false,
-        "usable_overview_received": false,
-        "source_count": 0,
-        "unique_text_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
         "last_inventory": "2026-10-19"
-      }
+      },
+      "review_file": "data/reviews/13-mordovia.json"
     },
     {
       "id": "14",
@@ -1219,19 +1229,20 @@
       "name": "Республика Северная Осетия — Алания",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
-        "received": false,
-        "usable_overview_received": false,
-        "source_count": 0,
-        "unique_text_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
         "last_inventory": "2026-10-19"
-      }
+      },
+      "review_file": "data/reviews/15-north-ossetia.json"
     },
     {
       "id": "16",
@@ -1436,11 +1447,12 @@
       "source_intake": {
         "received": true,
         "usable_overview_received": true,
-        "source_count": 2,
-        "unique_text_count": 1,
+        "source_count": 4,
+        "unique_text_count": 2,
         "index_file": "data/intake/index.json",
         "last_inventory": "2026-10-19"
-      }
+      },
+      "review_file": "data/reviews/66-sverdlovsk.json"
     },
     {
       "id": "92",
@@ -1485,19 +1497,20 @@
       "name": "Ставропольский край",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
-        "received": false,
-        "usable_overview_received": false,
-        "source_count": 0,
-        "unique_text_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
         "last_inventory": "2026-10-19"
-      }
+      },
+      "review_file": "data/reviews/26-stavropol.json"
     },
     {
       "id": "68",
@@ -1614,38 +1627,40 @@
       "name": "Удмуртская Республика",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
-        "received": false,
-        "usable_overview_received": false,
-        "source_count": 0,
-        "unique_text_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
         "last_inventory": "2026-10-19"
-      }
+      },
+      "review_file": "data/reviews/18-udmurtia.json"
     },
     {
       "id": "73",
       "name": "Ульяновская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
-        "received": false,
-        "usable_overview_received": false,
-        "source_count": 0,
-        "unique_text_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
         "last_inventory": "2026-10-19"
-      }
+      },
+      "review_file": "data/reviews/73-ulyanovsk.json"
     },
     {
       "id": "27",
@@ -1727,30 +1742,32 @@
       "source_intake": {
         "received": true,
         "usable_overview_received": true,
-        "source_count": 3,
-        "unique_text_count": 2,
+        "source_count": 4,
+        "unique_text_count": 3,
         "index_file": "data/intake/index.json",
         "last_inventory": "2026-10-19"
-      }
+      },
+      "review_file": "data/reviews/74-chelyabinsk.json"
     },
     {
       "id": "20",
       "name": "Чеченская Республика",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
-        "received": false,
-        "usable_overview_received": false,
-        "source_count": 0,
-        "unique_text_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
         "last_inventory": "2026-10-19"
-      }
+      },
+      "review_file": "data/reviews/20-chechnya.json"
     },
     {
       "id": "21",

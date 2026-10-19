@@ -1,0 +1,17 @@
+{
+  "id": "libfile_4cf71964246c8191a494ec529bf15ea0",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_kurganskaya_oblast.docx",
+  "region_ids": [
+    "45"
+  ],
+  "received_at": "2026-10-19T07:29:48Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/9973d256a3b47f17c3fc1371e2b0dc3e025d6814c4a6b93db56619abde2a8987.txt",
+  "text_sha256": "9973d256a3b47f17c3fc1371e2b0dc3e025d6814c4a6b93db56619abde2a8987",
+  "extracted_text_sha256": "9973d256a3b47f17c3fc1371e2b0dc3e025d6814c4a6b93db56619abde2a8987",
+  "normalized_text_sha256": "ace97107a44f59036ad29bbb2f966e66b36aa00992c222a23acf8379610b5cb6",
+  "original_docx_sha256": "64a10542fbba23970a02a8135aefebbae74284ce9b66682f1fb3a20928852b15",
+  "duplicate_text_of": null,
+  "usable_overview": true
+}
