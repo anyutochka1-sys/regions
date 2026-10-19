@@ -1,0 +1,2790 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-19",
+  "scope": "Перепроверка 40 позиций, ранее ошибочно представленных как запросы ручной подгрузки.",
+  "method": "Поиск по реквизитам; повторный поиск при слабой выдаче; открытие найденных страниц и альтернатив. Доступная страница, поисковая выдержка, копия акта и полная действующая редакция различаются. Наличие/актуальность полного текста не устанавливались автоматически по совпадению номера.",
+  "documents_checked": 40,
+  "page_open_attempts": 118,
+  "user_help_requests_confirmed": 0,
+  "note": "Ни по одной позиции не доказано, что дальнейшее самостоятельное получение невозможно. Ноль означает отсутствие подтверждённых запросов помощи, а не наличие всех проверенных действующих текстов.",
+  "items": [
+    {
+      "document_id": "22-doc-capital",
+      "query": "\"Алтайского края\" \"31.08.2011\" \"100-ЗС\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Закон Алтайского края от 31.08.2011 N 100-ЗС",
+          "url": "https://www.aksp.ru/docs/npa_gosuslugi/2025/08/100zs.pdf",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "О материнском (семейном) капитале в Алтайском крае",
+          "url": "https://docs.cntd.ru/document/453110171",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Алтайского края от 31.08.2011 № 100-ЗС \"О ...",
+          "url": "https://base.garant.ru/7337398/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Алтайского края от 31.08.2011 N 100-ЗС (ред. от ...",
+          "url": "https://www.consultant.ru/regbase/cgi/online.cgi?req=doc%3Bbase%3DRLAW016%3Bn%3D75012",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Краевой материнский капитал в Алтайском крае и ...",
+          "url": "https://materinskiy-semeyniy-kapital.ru/regionalnyj_materinskij_kapital_i_socialnaja_podderzhka_mnogodetnyh_semej/altajskij_kraj/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Распоряжение средствами регионального материнского ...",
+          "url": "https://mfc22.ru/family/services-family/6840/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Региональный материнский капитал в Алтайском крае",
+          "url": "https://gogov.ru/mf-region/altkr",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "О материнском (семейном) капитале в Алтайском крае",
+          "url": "https://pravo.gov.ru/proxy/ips/?backlink=1&docbody=&nd=168019995&prevDoc=168097767&rdk=5&refoid=168097768",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/7337398/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://www.aksp.ru/docs/npa_gosuslugi/2025/08/100zs.pdf",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 0
+        },
+        {
+          "url": "https://www.consultant.ru/regbase/cgi/online.cgi?req=doc%3Bbase%3DRLAW016%3Bn%3D75012",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 1
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "22-doc-capital-use",
+      "query": "\"Алтайского края\" \"10.11.2011\" \"646\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Постановление Администрации Алтайского края от 10.11.2011 N 646 \"Об утверждении порядков направления средств (части средств) материнского (семейного) капитала в Алтайском крае\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/7338774/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Администрации Алтайского края от 10.11.2011 N 646 \"Об утверждении порядков направления средств (части средств) материнского (семейного) капитала в Алтайском крае\" | ГАРАНТ",
+          "url": "https://base.garant.ru/7470745/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Администрации Алтайского края от 10.11.2011 N 646 \"Об утверждении порядков направления средств (части средств) материнского (семейного) капитала в Алтайском крае\" | ГАРАНТ",
+          "url": "https://base.garant.ru/7482567/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Администрации Алтайского края от 10.11.2011 N 646 \"Об утверждении порядков направления средств (части средств) материнского (семейного) капитала в Алтайском крае\" | ГАРАНТ",
+          "url": "https://base.garant.ru/7484841/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Администрации Алтайского края от 10.11.2011 N 646 \"Об утверждении порядков направления средств (части средств) материнского (семейного) капитала в Алтайском крае\" | ГАРАНТ",
+          "url": "https://base.garant.ru/7458908/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Администрации Алтайского края от 10.11.2011 № 646 - Сейчас.ру",
+          "url": "https://lawmix.ru/zakonodatelstvo/2045560",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Администрации Алтайского края от 10.11.2011 N 647 \"Об утверждении Положения о порядке предоставления материнского (семейного) капитала в Алтайском крае\" | ГАРАНТ",
+          "url": "https://base.garant.ru/7483038/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Алтайского края от 23.01.2026 N 19",
+          "url": "https://alt-pravo.ru/postanovlenie/2026/01/23/n-19/",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/7338774/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://lawmix.ru/zakonodatelstvo/2045560",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 0
+        },
+        {
+          "url": "https://alt-pravo.ru/postanovlenie/2026/01/23/n-19/",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 241
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "22-doc-families",
+      "query": "\"Алтайского края\" \"29.03.2024\" \"16-ЗС\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Закон Алтайского края от 29.03.2024 N 16-ЗС \"О мерах социальной поддержки многодетных семей в Алтайском крае\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/408803075/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "4 июня 2024 г.",
+          "url": "https://barnaul.press/upload/iblock/a32/cra1zj0793nb7yngq3knkph4ub0gm3uf/078.pdf",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Презентация PowerPoint",
+          "url": "https://akzs.ru/upload/iblock/8b7/iucpgpgd35eyl7vp8fh5sgfhnme8xmn4/%D0%98%D1%82%D0%BE%D0%B3%D0%B8%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D0%90%D0%BB%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D0%BA%D1%80%D0%B0%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE%20%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%D0%BE%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%A1%D0%BE%D0%B1%D1%80%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B7%D0%B0%202024%20%D0%B3%D0%BE%D0%B4%20%28%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F%29.pdf",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Доклад о результатах деятельности Уполномоченного по правам ребенка в Алтайском крае и соблюдении прав и законных интересов детей в Алтайском крае в 2020 году",
+          "url": "https://deti.gov.ru/uploads/magic/ru-RU/Document-0-381-src-1750674134.9229.pdf",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "2024 25\nдекабря\nвторник\n№ 101\n(15932)\nОформить под",
+          "url": "https://rubtsovskmv.ru/wp-content/uploads/2025/01/%E2%84%96101-%D0%BE%D1%82-25-%D0%B4%D0%B5%D0%BA%D0%B0%D0%B1%D1%80%D1%8F-2024.pdf",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Статья 1. Понятие многодетной семьи. Закон Алтайского края от 29.03.2024 N 16-ЗС \"О мерах социальной поддержки многодетных семей в Алтайском крае\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/408803075/1cafb24d049dcd1e7707a22d98e9858f/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Статья 4. Обязанность родителей (опекунов, попечителей), получающих меры социальной поддержки. Закон Алтайского края от 29.03.2024 N 16-ЗС \"О мерах социальной поддержки многодетных семей в Алтайском крае\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/408803075/1b93c134b90c6071b4dc3f495464b753/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Компенсация части родительской платы за присмотр и уход за детьми в дошкольных образовательных организациях БАРНАУЛ :: Официальный сайт города",
+          "url": "https://new.barnaul.org/advisor/nuzhna-pomoshch/kompensatsiya/",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/408803075/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://barnaul.press/upload/iblock/a32/cra1zj0793nb7yngq3knkph4ub0gm3uf/078.pdf",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 0
+        },
+        {
+          "url": "https://akzs.ru/upload/iblock/8b7/iucpgpgd35eyl7vp8fh5sgfhnme8xmn4/%D0%98%D1%82%D0%BE%D0%B3%D0%B8%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D0%90%D0%BB%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D0%BA%D1%80%D0%B0%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE%20%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%D0%BE%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%A1%D0%BE%D0%B1%D1%80%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B7%D0%B0%202024%20%D0%B3%D0%BE%D0%B4%20%28%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F%29.pdf",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 2474
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "22-doc-school",
+      "query": "\"Алтайского края\" \"19.04.2017\" \"125\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Постановление Правительства Алтайского края от 19.04.2017 № 125 - Сейчас.ру",
+          "url": "https://lawmix.ru/zakonodatelstvo/2630522",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "ПРАВИТЕЛЬСТВО АЛТАЙСКОГО  КРАЯ",
+          "url": "https://kokld.edu22.info/images/documents/shkolnoe_pitanie/postanovlenie-pravitelstva-ak-125-ot-19-04-2017.pdf",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Алтайского края от 19.04.2017 № 125 - Сейчас.ру",
+          "url": "https://www.lawmix.ru/zakonodatelstvo/2630522",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Алтайского края от 27.07.2022 N 269 \"О внесении изменений в постановление Администрации Алтайского края от 17.04.2014 N 184, постановление Правительства Алтайского края от 19.04.2017 N 125\" | ГАРАНТ",
+          "url": "https://base.garant.ru/405063599/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Алтайского края от 04.04.2022 N 109 \"О внесении изменений в постановление Администрации Алтайского края от 17.04.2014 N 184, постановление Правительства Алтайского края от 19.04.2017 N 125\" | ГАРАНТ",
+          "url": "https://base.garant.ru/403818464/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Услуга: Предоставление меры социальной поддержки при рождении одновременно троих и более детей",
+          "url": "https://portal.mfc22.ru/portal/service/info?id=307",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "от 16.12.2016 № 425 «Об утверждении критериев нуждаемости при предоставлении компенсации части платы, взимаемой с родителей (законных представителей) за присмотр и уход за детьми, осваивающими образовательные программы дошкольного образования в образовательных организациях Алтайского края»;",
+          "url": "https://www.akzs.ru/upload/iblock/d73/i7i5sq8r220q9onmacuef0go49612xlj/%D0%9F%D0%B5%D1%80%D0%B5%D1%87%D0%B5%D0%BD%D1%8C%20%D0%9D%D0%9F%D0%90.pdf",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Приложение. Изменения, которые вносятся в постановление Администрации Алтайского края от 17.04.2014 N 184, постановление Правительства Алтайского края от 19.04.2017 N 125. Постановление Правительства Алтайского края от 27.07.2022 N 269 \"О внесении изменений в постановление Администрации Алтайского края от 17.04.2014 N 184, постановление Правительст",
+          "url": "https://base.garant.ru/405063599/53f89421bbdaf741eb2d1ecc4ddb4c33/",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://lawmix.ru/zakonodatelstvo/2630522",
+          "kind": "selected_search_result",
+          "page_readable": true,
+          "line_count": 1104
+        },
+        {
+          "url": "https://kokld.edu22.info/images/documents/shkolnoe_pitanie/postanovlenie-pravitelstva-ak-125-ot-19-04-2017.pdf",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 0
+        },
+        {
+          "url": "https://www.lawmix.ru/zakonodatelstvo/2630522",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 1105
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "22-doc-meals",
+      "query": "\"Алтайского края\" \"02.04.2024\" \"85\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Постановление Правительства Алтайского края от 02.04.2024 N 85 \"Об утверждении Порядка обеспечения бесплатным одноразовым горячим питанием детей из многодетных семей\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/408819607/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Приложение. Порядок обеспечения бесплатным одноразовым горячим питанием детей из многодетных семей. Постановление Правительства Алтайского края от 02.04.2024 N 85 \"Об утверждении Порядка обеспечения бсплатным одноразовым горячим питанием детей из многодетных семей\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/408819607/53f89421bbdaf741eb2d1ecc4ddb4c33/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "| ПУБЛИЧНЫЙ ДОКЛАД КОМИТЕТА ПО ОБРАЗОВАНИЮ АДМИНИ- СТРАЦИИ",
+          "url": "https://slavg-obr.ru/Obr_sistema/publichnyj_doklad_za_2023-2024_uch-god.pdf",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Презентация PowerPoint",
+          "url": "https://akzs.ru/upload/iblock/8b7/iucpgpgd35eyl7vp8fh5sgfhnme8xmn4/%D0%98%D1%82%D0%BE%D0%B3%D0%B8%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D0%90%D0%BB%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D0%BA%D1%80%D0%B0%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE%20%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%D0%BE%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%A1%D0%BE%D0%B1%D1%80%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B7%D0%B0%202024%20%D0%B3%D0%BE%D0%B4%20%28%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F%29.pdf",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "МЫ НА САЙТЕ BARNAUL.PRESS",
+          "url": "https://barnaul.press/upload/iblock/f54/ez48bzwuqd5qvc3euaf9p31iwaammaud/065_A.pdf",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Бесплатное питание для школьников",
+          "url": "https://klmkomitet.edu22.info/besplatnoe-pitanie-dlya-shkolnikov",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Алтайского края от 26.12.2024 N 522 \"О внесении изменения в постановление Правительства Алтайского края от 02.04.2024 N 85\" | ГАРАНТ",
+          "url": "https://base.garant.ru/411226191/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "МУНИЦИПАЛЬНОЕ БЮДЖЕТНОЕ ОБЩЕОБРАЗОВАТЕЛЬНОЕ",
+          "url": "https://planeta.gosuslugi.ru/netcat_files/47/2522/prikaz_Ob_ustanovlenii_stoimosti_pitaniya_s_12.01.26.pdf",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/408819607/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://slavg-obr.ru/Obr_sistema/publichnyj_doklad_za_2023-2024_uch-god.pdf",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 3149
+        },
+        {
+          "url": "https://akzs.ru/upload/iblock/8b7/iucpgpgd35eyl7vp8fh5sgfhnme8xmn4/%D0%98%D1%82%D0%BE%D0%B3%D0%B8%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D0%90%D0%BB%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D0%BA%D1%80%D0%B0%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE%20%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%D0%BE%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%A1%D0%BE%D0%B1%D1%80%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B7%D0%B0%202024%20%D0%B3%D0%BE%D0%B4%20%28%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F%29.pdf",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 2474
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "22-doc-land",
+      "query": "\"Алтайского края\" \"09.11.2015\" \"98-ЗС\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Закон Алтайского края от 09.11.2015 № 98-ЗС \"О бесплатном предоставлении в собственность земельных участков\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/7377102/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Земельные отношения",
+          "url": "https://mamontovo22.ru/index.php/ru/arenda",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Газета Павловского района                 Суббота, 5 апреля 2025 г. №13 (11805)               Издается с 1 июля 1931",
+          "url": "https://pavlovsk-lib.ru/wp-content/uploads/2025/07/5-aprelya-2025_compressed.pdf",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Алтайского края от 09.11.2015 № 98-ЗС - Сейчас.ру",
+          "url": "https://www.lawmix.ru/zakonodatelstvo/2039067_1",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "ПОСТАНОВЛЕНИЕ от 09.09.2026 № 2178 \"Об утверждении перечня земельных участков, подлежащих предоставлению гражданам для индивидуального жилищного строительства или ведения личного подсобного хозяйства в соответствии с законом Алтайского края\" БИЙСК :: Правовой портал Администрации города Бийска",
+          "url": "https://irbis.biysk22.ru/pravovye-akty-administratsii-goroda-biyska/postanovlenie-ot-09-09-2026-2178-ob-utverzhdenii-perechnya-zemelnykh-uchastkov-podlezhashchikh-predo/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Алтайского края от 09.11.2015 № 98-ЗС - Сейчас.ру",
+          "url": "https://www.lawmix.ru/zakonodatelstvo/2039067_3",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Протокол № 1",
+          "url": "https://volchiha22.ru/get/10317",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Статья 7. Порядок предоставления земельных участков гражданам. Закон Алтайского края от 09.11.2015 № 98-ЗС \"О бесплатном предоставлении в собственность земельных участков\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/7377102/e88847e78ccd9fdb54482c7fa15982bf/",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/7377102/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://pavlovsk-lib.ru/wp-content/uploads/2025/07/5-aprelya-2025_compressed.pdf",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 4051
+        },
+        {
+          "url": "https://www.lawmix.ru/zakonodatelstvo/2039067_1",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 275
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "22-doc-land-payment",
+      "query": "\"Алтайского края\" \"30.11.2022\" \"451\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Приложение. Порядок предоставления компенсационной выплаты взамен предоставления земельного участка в собственность бесплатно. Постановление Правительства Алтайского рая от 30.11.2022 N 451 \"Об утверждении Порядка предоставления компенсационной выплаты взамен предоставления земельного участка в собственность бесплатно\" (с изменениями и дополнениями",
+          "url": "https://base.garant.ru/405843585/53f89421bbdaf741eb2d1ecc4ddb4c33/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Алтайского края от 30.11.2022 N 451 \"Об утверждении Порядка предоставления компенсационной выплаты взамен предоставления земельного участка в собственность бесплатно\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/405843585/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Алтайского края от 23.01.2026 N 19 \"О внесении изменений в постановление Администрации Алтайского края от 10.11.2011 N 646, постановление Правительства Алтайского края от 30.11.2022 N 451\" | ГАРАНТ",
+          "url": "https://base.garant.ru/413523518/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "УПРАВЛЕНИЕ",
+          "url": "https://vodocanal.biysk22.ru/wp-content/uploads/2012/10/%D0%A0%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5-457_25.11.2022-%D1%82%D0%B0%D1%80%D0%B8%D1%84-%D0%BD%D0%B0-%D0%BF%D0%B8%D1%82%D1%8C%D0%B5%D0%B2%D1%83%D1%8E-%D0%B2%D0%BE%D0%B4%D1%83-%D0%BD%D0%B0-2023-%D0%B3%D0%BE%D0%B4.pdf",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Алтайского края от 23.01.2026 N 19",
+          "url": "https://alt-pravo.ru/postanovlenie/2026/01/23/n-19/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Информация для многодетных семей, состоящих на учёте для предоставления земельного участка | РУБЦОВСК",
+          "url": "https://www.rubtsovsk.org/node/informaciya-dlya-mnogodetnykh-semey-sostoyashchikh-na-uchyote-dlya-predostavleniya-zemelnogo",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "МЫ НА САЙТЕ BARNAUL.PRESS",
+          "url": "https://barnaul.press/upload/iblock/b14/iq8esia5v5i538ceom98w4er6mqmx5a6/070_A.pdf",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Алтайский край: список измененных документов. Выпуск за 30 января 2026 года \\ Обзоры законодательства \\ КонсультантПлюс",
+          "url": "https://www.consultant.ru/law/review/reg/rlawc/rlawc0162026-01-30.html",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/405843585/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://vodocanal.biysk22.ru/wp-content/uploads/2012/10/%D0%A0%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5-457_25.11.2022-%D1%82%D0%B0%D1%80%D0%B8%D1%84-%D0%BD%D0%B0-%D0%BF%D0%B8%D1%82%D1%8C%D0%B5%D0%B2%D1%83%D1%8E-%D0%B2%D0%BE%D0%B4%D1%83-%D0%BD%D0%B0-2023-%D0%B3%D0%BE%D0%B4.pdf",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 0
+        },
+        {
+          "url": "https://akzs.ru/upload/iblock/bac/wln7j60s16x3wwirsujoatp2ptef9vul/%D0%94%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4.pdf",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 7031
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "22-doc-tax",
+      "query": "\"Алтайского края\" \"10.10.2002\" \"66-ЗС\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Справочная информация о ставках и льготах по имущественным налогам | ФНС России | 77 город Москва",
+          "url": "https://www.nalog.gov.ru/rn77/service/tax/d1510413/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон от 10.10.2002 № 66-ЗС | ФНС России | 22 Алтайский край",
+          "url": "https://www.nalog.gov.ru/rn22/about_fts/docs/4470661/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Справочная информация о ставках и льготах по имущественным налогам | ФНС России | 22 Алтайский край",
+          "url": "https://www.nalog.gov.ru/rn22/service/tax/d1286839/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Алтайского края от 10.10.2002 N 66-ЗС — Редакция от 30.11.2017 — Контур.Экстерн",
+          "url": "https://www.kontur-extern.ru/info/normativ/document/122/7375-zakon-altayskogo-kraya-ot-10-10-2002-n-66-zs",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Алтайского края от 10.10.2002 N 66-ЗС — Редакция от 05.10.2018 — Контур.Экстерн",
+          "url": "https://www.kontur-extern.ru/info/normativ/document/122/15587-zakon-altayskogo-kraya-ot-10-10-2002-n-66-zs",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Справочная информация о ставках и льготах по имущественным налогам | ФНС России | 77 город Москва",
+          "url": "https://www.nalog.gov.ru/rn77/service/tax/d1113371/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Алтайского края от 10.10.2002 N 66-ЗС — Редакция от 31.08.2022 — Контур.Экстерн",
+          "url": "https://www.kontur-extern.ru/info/normativ/document/122/25963-zakon-altayskogo-kraya-ot-10-10-2002-n-66-zs",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Алтайского края от 10.10.2002 N 66-ЗС — Редакция от 29.11.2024 — Контур.Экстерн",
+          "url": "https://www.kontur-extern.ru/info/normativ/document/122/26743-zakon-altayskogo-kraya-ot-10-10-2002-n-66-zs",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://www.nalog.gov.ru/rn22/about_fts/docs/4470661/",
+          "kind": "selected_search_result",
+          "page_readable": true,
+          "line_count": 160
+        },
+        {
+          "url": "https://www.kontur-extern.ru/info/normativ/document/122/7375-zakon-altayskogo-kraya-ot-10-10-2002-n-66-zs",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 143
+        },
+        {
+          "url": "https://www.kontur-extern.ru/info/normativ/document/122/15587-zakon-altayskogo-kraya-ot-10-10-2002-n-66-zs",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 141
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "22-doc-child",
+      "query": "\"Алтайского края\" \"15.10.2004\" \"34-ЗС\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Закон Алтайского края от 15.10.2004 N 34-ЗС \"О ежемесячном пособии на ребенка\" | ГАРАНТ",
+          "url": "https://base.garant.ru/7482098/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Алтайского края от 15.10.2004 N 34-ЗС \"О ежемесячном пособии на ребенка\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/7309978/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Алтайского края от 15.10.2004 № 34-ЗС - Сейчас.ру",
+          "url": "https://www.lawmix.ru/zakonodatelstvo/2040513",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Статья 2. Право на ежемесячное пособие на ребенка. Закон Алтайского края от 15.10.2004 N 34-ЗС \"О ежемесячном пособии на ребенка\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/7309978/741609f9002bd54a24e5c49cb5af953b/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Алтайского края от 15.10.2004 № 34-ЗС - Сейчас.ру",
+          "url": "https://lawmix.ru/zakonodatelstvo/2040513",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "3 \n \n \n ПРИЛОЖЕНИЕ \nк постановлению Алтайского  \nк",
+          "url": "https://akzs.ru/upload/iblock/88b/eodgefn2gohh7b3zg0u6r6eh3lq7b7af/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%94%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4%D0%B0%20%D0%BE%20%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D0%B8%20%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%D0%BE%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%B0%20%D0%90%D0%BB%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D0%BA%D1%80%D0%B0%D1%8F%20%D0%B2%202022%20%D0%B3%D0%BE%D0%B4%D1%83%20%D0%B8%20%D0%BF%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0%D1%85%20%D0%B5%D0%B3%D0%BE%20%D1%81%D0%BE%D0%B2%D0%B5%D1%80%D1%88%D0%B5%D0%BD%D1%81%D1%82%D0%B2%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.pdf",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Законодательные меры в области охраны прав детства | Статья в журнале «Молодой ученый»",
+          "url": "https://moluch.ru/archive/279/62904",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Алтайского края от 15.10.2004 N 34-ЗС \"О ежемесячном пособии на ребенка\" (принят Постановлением АКСНД от 11.10.2004 N 340) - КонсультантПлюс",
+          "url": "https://www.consultant.ru/regbase/cgi/online.cgi?base=RLAW016&dst=100039&n=11216&req=doc",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/7309978/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://www.lawmix.ru/zakonodatelstvo/2040513",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 738
+        },
+        {
+          "url": "https://lawmix.ru/zakonodatelstvo/2040513",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 0
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "22-doc-guardians",
+      "query": "\"Алтайского края\" \"10.04.2007\" \"29-ЗС\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Закон Алтайского края от 10.04.2007 N 29-ЗС \"О порядке и размере выплаты денежных средств детям-сиротам и детям, оставшимся без попечения родителей, на содержание в семье опекуна (попечителя), приемной семье\" | ГАРАНТ",
+          "url": "https://base.garant.ru/7484786/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Правовая грамотность - О ПОРЯДКЕ И РАЗМЕРЕ ВЫПЛАТЫ ДЕНЕЖНЫХ СРЕДСТВ ДЕТЯМ-СИРОТАМ И ДЕТЯМ, ОСТАВШИМСЯ БЕЗ ПОПЕЧЕНИЯ РОДИТЕЛЕЙ, НА СОДЕРЖАНИЕ В СЕМЬЕ ОПЕКУНА (ПОПЕЧИТЕЛЯ), ПРИЕМНОЙ СЕМЬЕ",
+          "url": "https://pravo.slavbibl.ru/socium/%D1%81%D0%B5%D0%BC%D1%8C%D0%B5/%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5-%D0%B0%D0%BA%D1%82%D1%8B-%D0%B0%D0%BB%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%BA%D1%80%D0%B0%D1%8F/%D0%BE-%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%BA%D0%B5-%D0%B8-%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%D0%B5-%D0%B2%D1%8B%D0%BF%D0%BB%D0%B0%D1%82%D1%8B-%D0%B4%D0%B5%D0%BD%D0%B5%D0%B6%D0%BD%D1%8B%D1%85-%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2-%D0%B4%D0%B5%D1%82%D1%8F%D0%BC-%D1%81%D0%B8%D1%80%D0%BE%D1%82%D0%B0%D0%BC-%D0%B8-%D0%B4%D0%B5%D1%82%D1%8F%D0%BC%2C-%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D1%88%D0%B8%D0%BC%D1%81%D1%8F-%D0%B1%D0%B5%D0%B7-%D0%BF%D0%BE%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D1%80%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9%2C-%D0%BD%D0%B0-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B2-%D1%81%D0%B5%D0%BC%D1%8C%D0%B5-%D0%BE%D0%BF%D0%B5%D0%BA%D1%83%D0%BD%D0%B0-%28%D0%BF%D0%BE%D0%BF%D0%B5%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D1%8F%29%2C-%D0%BF%D1%80%D0%B8%D0%B5%D0%BC%D0%BD%D0%BE%D0%B9-%D1%81%D0%B5%D0%BC%D1%8C%D0%B5",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Алтайского края от 10.04.2007 N 29-ЗС \"О порядке и размере выплаты денежных средств детям-сиротам и детям, оставшимся без попечения родителей, на содержание в семье опекуна (попечителя), приемной семье\" | ГАРАНТ",
+          "url": "https://base.garant.ru/7470902/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Алтайского края от 10.04.2007 № 29-ЗС - Сейчас.ру",
+          "url": "https://www.lawmix.ru/zakonodatelstvo/2040138",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Алтайского края от 10.04.2007 № 29-ЗС - Сейчас.ру",
+          "url": "https://lawmix.ru/zakonodatelstvo/2040138",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "3 \n \n \n ПРИЛОЖЕНИЕ \nк постановлению Алтайского  \nк",
+          "url": "https://akzs.ru/upload/iblock/88b/eodgefn2gohh7b3zg0u6r6eh3lq7b7af/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%94%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4%D0%B0%20%D0%BE%20%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D0%B8%20%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%D0%BE%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%B0%20%D0%90%D0%BB%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D0%BA%D1%80%D0%B0%D1%8F%20%D0%B2%202022%20%D0%B3%D0%BE%D0%B4%D1%83%20%D0%B8%20%D0%BF%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0%D1%85%20%D0%B5%D0%B3%D0%BE%20%D1%81%D0%BE%D0%B2%D0%B5%D1%80%D1%88%D0%B5%D0%BD%D1%81%D1%82%D0%B2%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.pdf",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Опека и попечительство",
+          "url": "https://bsk.edu22.info/index.php/opeka-i-popechitelstvo",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Опека и попечительство — Комитет по образованию и делам молодежи",
+          "url": "https://komaltobr.ru/wordpress/opeka-i-popechitelstvo/",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/7484786/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://www.lawmix.ru/zakonodatelstvo/2040138",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 668
+        },
+        {
+          "url": "https://lawmix.ru/zakonodatelstvo/2040138",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 1
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "22-doc-foster",
+      "query": "\"Алтайского края\" \"25.12.2009\" \"110-ЗС\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Статья 1. Закон Алтайского края от 25.12.2009 N 110-ЗС \"О вознаграждении приемных родителей\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/7329854/1cafb24d049dcd1e7707a22d98e9858f/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Федеральное и региональное законодательство",
+          "url": "https://komitet-kluchy.edu22.info/index.php/opeka-i-popechitelstvo/federalnoe-i-regionalnoe-zakonodatelstvo",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Меры социальной поддержки",
+          "url": "https://koupr.edu22.info/images/%D0%BC%D0%B5%D1%80%D1%8B-%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B8.pdf",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Алтайского края от 25.12.2009 № 110-ЗС - Сейчас.ру",
+          "url": "https://www.lawmix.ru/zakonodatelstvo/2039754",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Опека и попечительство — Комитет по образованию и делам молодежи",
+          "url": "https://komaltobr.ru/wordpress/opeka-i-popechitelstvo/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Комитет администрации г. Славгорода Алтайского края по образованию - Опека и попечительство",
+          "url": "https://slavg-obr.ru/index/opeka_i_popechitelstvo/0-17",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "2",
+          "url": "https://old.akzs.ru/cache/2279-itogi_2009.pdf",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "3 \n \n \n ПРИЛОЖЕНИЕ \nк постановлению Алтайского  \nк",
+          "url": "https://akzs.ru/upload/iblock/88b/eodgefn2gohh7b3zg0u6r6eh3lq7b7af/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%94%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4%D0%B0%20%D0%BE%20%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D0%B8%20%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%D0%BE%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%B0%20%D0%90%D0%BB%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D0%BA%D1%80%D0%B0%D1%8F%20%D0%B2%202022%20%D0%B3%D0%BE%D0%B4%D1%83%20%D0%B8%20%D0%BF%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0%D1%85%20%D0%B5%D0%B3%D0%BE%20%D1%81%D0%BE%D0%B2%D0%B5%D1%80%D1%88%D0%B5%D0%BD%D1%81%D1%82%D0%B2%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.pdf",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://www.lawmix.ru/zakonodatelstvo/2039754",
+          "kind": "selected_search_result",
+          "page_readable": true,
+          "line_count": 333
+        },
+        {
+          "url": "https://koupr.edu22.info/images/%D0%BC%D0%B5%D1%80%D1%8B-%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B8.pdf",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 0
+        },
+        {
+          "url": "https://old.akzs.ru/cache/2279-itogi_2009.pdf",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 2810
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "22-doc-foster-procedure",
+      "query": "\"Алтайского края\" \"21.06.2007\" \"277\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Постановление Администрации Алтайского края от 21.06.2007 N 277 \"Об утверждении Положения о порядке и условиях выплаты вознаграждения приемным родителям в Алтайском крае\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/7317988/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Администрации Алтайского края от 21.06.2007 N 277 \"Об утверждении Положения о порядке и условиях выплаты вознаграждения приемным родителям приемным родителям в Алтайском крае\" | ГАРАНТ",
+          "url": "https://base.garant.ru/7482985/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Администрации Алтайского",
+          "url": "https://komitet-shl.ucoz.ru/opeka/postanovlenie_administracii_altajskogo-277.pdf",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Администрации Алтайского края от 21.06.2007 № 277 - Сейчас.ру",
+          "url": "https://www.lawmix.ru/zakonodatelstvo/2049152",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Приложение. Изменения, которые вносятся в некоторые акты Администрации Алтайского края. Постановление Правительства Алтайского края от 15.03.2017 N 80 \"О некоторых актах Администрации Алтайского края\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/44310134/53f89421bbdaf741eb2d1ecc4ddb4c33/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Региональные меры социальной поддержки приемных семей в сравнении с федеральным законодательством: опыт Алтайского края",
+          "url": "https://www.apni.ru/article/15308-regionalnye-mery-socialnoj-podderzhki-priemnyh-semej-v-sravnenii-s-federalnym-zakonodatelstvom-opyt-altajskogo-kraya",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Федеральное и региональное законодательство",
+          "url": "https://komitet-kluchy.edu22.info/index.php/opeka-i-popechitelstvo/federalnoe-i-regionalnoe-zakonodatelstvo",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Виртуальная справка СПРОСИ ОБ АЛТАЕ - Архив вопросов и ответов",
+          "url": "https://bibl.rubtsovsk.ru/questions/archive.html?page=310",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/7317988/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://komitet-shl.ucoz.ru/opeka/postanovlenie_administracii_altajskogo-277.pdf",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 0
+        },
+        {
+          "url": "https://www.lawmix.ru/zakonodatelstvo/2049152",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 0
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "22-doc-adoption",
+      "query": "\"Алтайского края\" \"08.05.2014\" \"57\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Указ Губернатора Алтайского края от 08.05.2014 N 57 \"Об утверждении Положения о порядке назначения и выплаты в Алтайском крае единовременного пособия гражданам, усыновившим детей\" | ГАРАНТ",
+          "url": "https://base.garant.ru/7473251/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Указ Губернатора Алтайского края от 08.05.2014 N 57 \"Об утверждении Положения о порядке назначения и выплаты в Алтайском крае единовременного пособия гражданам, усыновившим детей\" | ГАРАНТ",
+          "url": "https://base.garant.ru/7484818/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Указ Губернатора Алтайского края от 08.05.2014 № 57 - Сейчас.ру",
+          "url": "https://www.lawmix.ru/zakonodatelstvo/2057264",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Нормативно-правовые документы",
+          "url": "https://baevoobr.edu22.info/opeka-i-popechitelstvo/normativno-pravovye-dokumenty",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Комитет администрации г. Славгорода Алтайского края по образованию - Опека и попечительство",
+          "url": "https://slavg-obr.ru/index/opeka_i_popechitelstvo/0-17",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Общая информация по соцзащите",
+          "url": "https://www.kalmanka-adm.ru/General_information_on_social_protection/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Все последние новости Барнаула и Алтайского края за 8 Мая 2014 | Аргументы и Факты",
+          "url": "https://altai.aif.ru/all/2014-05-08",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Указ Губернатора Алтайского края от 04.12.2014 N 165 \"О внесении изменений в указ Губернатора Алтайского края от 08.05.2014 N 57\" | ГАРАНТ",
+          "url": "https://base.garant.ru/7367278/",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/7473251/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://www.lawmix.ru/zakonodatelstvo/2057264",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 359
+        },
+        {
+          "url": "https://xn--80aj3aega.xn--p1ai/files/issue/private/kommersant/2015/167-2015/raw_issue/kommersant-2015-167-2015.pdf",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 1
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "22-doc-contract",
+      "query": "\"Алтайского края\" \"25.12.2023\" \"27/Пр/384\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Приказ Министерства социальной защиты Алтайского края от 25.12.2023 N 27/Пр/384 \"Об утверждении Порядка предоставления материальной помощи на основании социального контракта\" | ГАРАНТ",
+          "url": "https://base.garant.ru/411756901/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Приказ Министерства социальной защиты Алтайского края от 25.12.2023 N 27/Пр/384 \"Об утверждении Порядка предоставления материальной помощи на основании социального контракта\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/408297575/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Приказ Алтайский край № 27/Пр/384 от 25.12.2023 — меры СВО",
+          "url": "https://xn--b1agjdtacacymm6ivb.xn--p1ai/poleznoe/zakonodatelstvo/prikaz-altayskiy-kray-27-pr-384.html",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Приложение 4. Социальный контракт. Приказ Министерства социальной защиты Алтайского края от 25.12.2023 N 27/Пр/384 \"Об утверждении Порядка предоставления материальной помощи на основании социального контракта\" | ГАРАНТ",
+          "url": "https://base.garant.ru/411756901/d8b01b57742d3a84cbe3048d71fc60a9/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Приложение 2. Социальный контракт. Приказ Министерства социальной защиты Алтайского края от 25.12.2023 N 27/Пр/384 \"Об утверждении Порядка предоставления материальной помощи на основании социального контракта\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/408297575/56ae36fc84d31bc2f9c0b07177fa16a9/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Приказ Министерства социальной защиты Алтайского края от 28.05.2025 N 27/Пр/461 \"О внесении изменений в приказы Министерства социальной защиты Алтайского края от 25.12.2023 N 27/Пр/384, от 04.06.2024 N 27/Пр/222\" | ГАРАНТ",
+          "url": "https://base.garant.ru/412082696/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Алтайский край: список измененных документов. Выпуск за 10 апреля 2026 года \\ Обзоры законодательства \\ КонсультантПлюс",
+          "url": "https://www.consultant.ru/law/review/reg/rlawc/rlawc0162026-04-10.html",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Приказ Министерства социальной защиты Алтайского края от 02.04.2026 N 27/Пр/189 \"О внесении изменения в приказ Министерства социальной защиты Алтайского края от 25.12.2023 N 27/Пр/384\" | ГАРАНТ",
+          "url": "https://base.garant.ru/414003333/",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/408297575/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://xn--b1agjdtacacymm6ivb.xn--p1ai/poleznoe/zakonodatelstvo/prikaz-altayskiy-kray-27-pr-384.html",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 634
+        },
+        {
+          "url": "https://www.consultant.ru/regbase/cgi/online.cgi?base=RLAW016&dst=100017&n=120239&req=doc",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 56
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "22-doc-budget",
+      "query": "\"Алтайского края\" \"01.12.2025\" \"95-ЗС\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Закон Алтайского края от 1 декабря 2025 г. N 95-ЗС \"О краевом бюджете на 2026 год и на плановый период 2027 и 2028 годов\" (документ не вступил в силу) | Горячие документы. Алтайский край: ГАРАНТ.РУ",
+          "url": "https://www.garant.ru/hotlaw/altai/1941602/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Алтайского края от 29.12.2025 N 526 \"О мерах по реализации закона Алтайского края \"О краевом бюджете на 2026 год и на плановый период 2027 и 2028 годов\" | ГАРАНТ",
+          "url": "https://base.garant.ru/413397300/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Новое в законодательстве Алтайского края. Выпуск за 5 декабря 2025 года \\ Обзоры законодательства \\ КонсультантПлюс",
+          "url": "https://www.consultant.ru/law/review/reg/rlaw/rlaw0162025-12-05.html",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Горячие документы. Алтайский край. Декабрь 2025 | ГАРАНТ.РУ",
+          "url": "https://www.garant.ru/hotlaw/altai/archive/2025/12/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постоянные комитеты восьмого созыва (2021-2026 гг.)",
+          "url": "https://www.akzs.ru/akzs/committees/detailinfo/106154/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Алтайский край: список измененных документов. Выпуск за 26 июня 2026 года \\ Обзоры законодательства \\ КонсультантПлюс",
+          "url": "https://www.consultant.ru/law/review/reg/rlawc/rlawc0162026-06-26.html",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Горячие документы. Алтайский край. 6 декабря 2025 | ГАРАНТ.РУ",
+          "url": "https://www.garant.ru/hotlaw/altai/archive/2025/12/06/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Сорок пятая сессия Алтайского краевого Законодательного Собрания",
+          "url": "https://www.akzs.ru/activitys/sessions/2689/",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://www.garant.ru/hotlaw/altai/1941602/",
+          "kind": "selected_search_result",
+          "page_readable": true,
+          "line_count": 175
+        },
+        {
+          "url": "https://docs.cntd.ru/document/406976335",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 0
+        },
+        {
+          "url": "https://xn--b1afa0agiw9a6d.xn--p1ai/wp-content/uploads/2025/03/reshenie-%E2%84%96-145-ob-ispolnenii-byudzheta-2024.pdf",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 0
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "22-doc-kindergarten-payment",
+      "query": "\"Алтайского края\" \"13.12.2023\" \"68-П\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Приказ Министерства образования и науки Алтайского края от 13.12.2023 N 68-П \"Об утверждении Полжения о порядке и условиях компенсации части платы, взимаемой с родителей (законных представителей) за присмотр и уход за ребенком в образовательных организациях Алтайского края, реализующих образовательную программу дошкольного образования\" (с изменения",
+          "url": "https://base.garant.ru/408196165/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Документы",
+          "url": "https://xn--274-mdd4c4a.xn--p1ai/?page_id=24",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Приложение 1. Согласие на обработку персональных данных. Приказ Министерства образования и науки Алтайского края от 13.12.2023 N 68-П \"Об утверждении Положения о порядке и условиях компенсации части платы, взимаемой с родителей (законных представителей) за присмотр и уход за ребенком в образовательных организациях Алтайского края, реализующих образ",
+          "url": "https://base.garant.ru/408196165/b89690251be5277812a78962f6302560/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Документы – МБДОУ \"Детский сад № 234\"",
+          "url": "https://xn----234-4ve0acg4alk4gej.xn--p1ai/?page_id=68",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Приказ Министерства образования и науки Алтайского края от 13 декабря 2023 г. N 68-П \"Об утверждении…",
+          "url": "https://madou280.ru/wp-content/uploads/2024/09/%D0%9F%D1%80%D0%B8%D0%BA%D0%B0%D0%B7-%D0%9C%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%B0-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B8-%D0%BD%D0%B0%D1%83%D0%BA%D0%B8-%D0%90%D0%BB%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%BA%D1%80%D0%B0%D1%8F-%D0%BE%D1%82-13-%D0%B4%D0%B5%D0%BA%D0%B0%D0%B1%D1%80%D1%8F-2023-%D0%B3-N-6-2-1.pdf",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Комитет по образованию Краснощековского района - Региональные правовые акты и документы",
+          "url": "https://educ-krasnosh.ucoz.ru/index/regionalnye_pravovye_akty_i_dokumenty/0-28",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Стипендии и меры поддержки обучающихся | Детский сад № 24 \"Солнышко\"",
+          "url": "https://ds24.educrub.ru/index.php/page/stipendii-i-mery-podderzhki-obuchayuschikhsya",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Документы | Муниципальное бюджетное дошкольное образовательное учреждение «Детский сад №171»",
+          "url": "https://xn--171-mdd4c4a.xn--p1ai/?page_id=90",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/408196165/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://madou280.ru/wp-content/uploads/2024/09/%D0%9F%D1%80%D0%B8%D0%BA%D0%B0%D0%B7-%D0%9C%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%B0-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B8-%D0%BD%D0%B0%D1%83%D0%BA%D0%B8-%D0%90%D0%BB%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%BA%D1%80%D0%B0%D1%8F-%D0%BE%D1%82-13-%D0%B4%D0%B5%D0%BA%D0%B0%D0%B1%D1%80%D1%8F-2023-%D0%B3-N-6-2-1.pdf",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://madou280.ru/wp-content/uploads/2024/09/%D0%9F%D1%80%D0%B8%D0%BA%D0%B0%D0%B7-%D0%9C%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%B0-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B8-%D0%BD%D0%B0%D1%83%D0%BA%D0%B8-%D0%90%D0%BB%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%BA%D1%80%D0%B0%D1%8F-%D0%BE%D1%82-19-%D0%B0%D0%B2%D0%B3%D1%83%D1%81%D1%82%D0%B0-2024-%D0%B3-N-4-1.pdf",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 41
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "28-doc-first",
+      "query": "\"Амурской области\" \"25.02.2019\" \"59\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Постановление Правительства Амурской области от 25.02.2019 № 59 \"Об утверждении Порядка предоставления единовременной денежной выплаты при рождении первого ребенка\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/42849024/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановления правительства Амурской области за 2019 г - amur-gov.ru",
+          "url": "https://amur-gov.ru/cat/3/2019/page31",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Горячие документы. Амурская область. 2019 год | ГАРАНТ.РУ",
+          "url": "https://www.garant.ru/hotlaw/amur/archive/2019/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "ПОСТАНОВЛЕНИЕ ПРАВИТЕЛЬСТВА АМУРСКОЙ ОБЛАСТИ ОТ 25 ФЕВРАЛЯ 2019 ГОДА №59 «ОБ УТВЕРЖДЕНИИ ПОРЯДКА ПРЕДОСТАВЛЕНИЯ ЕДИНОВРЕМЕННОЙ ДЕНЕЖНОЙ ВЫПЛАТЫ ПРИ РОЖДЕНИИ ПЕРВОГО РЕБЕНКА»",
+          "url": "https://uszn-svob.ru/index.php?catid=8&id=685%3Apostanovlenie-pravitelstva-amurskoj-oblasti-ot-25-fevralya-2019-goda-no59-ob-utverzhdenii-poryadka-predostavleniya-edinovremennoj-denezhnoj-vyplaty-pri-rozhdenii-pervogo-rebenka-6&view=article",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "ГКУ АО УСЗН по г.Свободный, ЗАТО Циолковский, Свободненскому району",
+          "url": "https://www.uszn-svob.ru/index.php?start=18",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "ГКУ АО УСЗН по г.Свободный, ЗАТО Циолковский, Свободненскому району",
+          "url": "https://uszn-svob.ru/index.php?start=366",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Приложение 2",
+          "url": "https://site.cbzeya.ru/sites/default/files/1/1/%D0%BC%D0%B5%D1%80%D1%8B%20%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9%20%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B8.pdf",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Амурской области от 25.02.2019 № 59 Об утверждении Порядка предоставления единовременной денежной выплаты при рождении первого ребенка",
+          "url": "https://www.audar-info.ru/na_reg/regEditArticle/index/type_id/3/doc_id/39934/release_id/50375/sec_id/86721/",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/42849024/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://advpalata28.ru/upload/iblock/0c1/q4gitmtmq0kw25bsn13krg6qgsi0tqz1/Perechen-npa-sots.pomoshch-semyam.pdf",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://uszn-svob.ru/index.php?catid=8&id=685%3Apostanovlenie-pravitelstva-amurskoj-oblasti-ot-25-fevralya-2019-goda-no59-ob-utverzhdenii-poryadka-predostavleniya-edinovremennoj-denezhnoj-vyplaty-pri-rozhdenii-pervogo-rebenka-6&view=article",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 0
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "28-doc-second",
+      "query": "\"Амурской области\" \"25.02.2019\" \"60\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Постановление Правительства Амурской области от 25.02.2019 № 60 Об утверждении Порядка предоставления регионального материнского (семейного) капитала при рождении второго ребенка - amur-gov.ru",
+          "url": "https://amur-gov.ru/doc/94815",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Амурской области от 25.02.2019 № 60 \"Об утверждении Порядка предоставления регионального материнского (семейного) капитала при рождении (усыновлении) второго ребенка\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/42849026/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Амурской области от 25.02.2019 N 60 — Редакция от 07.05.2019 — Контур.Норматив",
+          "url": "https://normativ.kontur.ru/document?documentId=46388&moduleId=118",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Амурской области от 25 февраля 2019 г. N 60 \"Об утверждении Порядка предоставления регионального материнского (семейного) капитала при рождении второго ребенка\" (не вступило в силу) | Горячие документы. Амурская область: ГАРАНТ.РУ",
+          "url": "https://www.garant.ru/hotlaw/amur/1262584/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Амурской области от 25.02.2019 N 60 — Редакция от 25.02.2019 — Контур.Норматив",
+          "url": "https://normativ.kontur.ru/document?documentId=46325&moduleId=118",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Приложение. Порядок предоставления регионального материнского (семейного) капитала при рождении второго ребенка. Постановление Правительства Амурской облсти от 25.02.2019 № 60 \"Об утверждении Порядка предоставления регионального материнского (семейного) капитала при рождении (усыновлении) второго ребенка\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/42849026/53f89421bbdaf741eb2d1ecc4ddb4c33/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Горячие документы. Амурская область. 2019 год | ГАРАНТ.РУ",
+          "url": "https://www.garant.ru/hotlaw/amur/archive/2019/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Приложение N 3. Решение об отказе в выдаче сертификата на предоставление регионального материнского (семеного) капитала. Постановление Правительства Амурской области от 25.02.2019 N 60 \"Об утверждении Порядка предоставления регионального материнского (семейного) капитала при рождении (усыновлении) второго ребенка\" (с изменениями и дополнениями) | Г",
+          "url": "https://base.garant.ru/42849026/24f1ae75063482537b7ee5fc0af1565e/",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/42849026/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://amur-gov.ru/doc/94815",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 0
+        },
+        {
+          "url": "https://svbgp.ru/data/documents/mery_socialnoy_podderzhki_1.pdf",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 558
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "28-doc-third",
+      "query": "\"Амурской области\" \"27.01.2012\" \"32\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Постановление от 27.01.2012 г № 32 Об утверждении Порядка предоставления регионального материнского капитала на улучшение жилищных условий семьям, родившим (усыновившим) третьего или последующего ребенка - amur-gov.ru",
+          "url": "https://amur-gov.ru/doc/41044",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Амурской области от 27.01.2012 № 32 Об утверждении Порядка предоставления регионального материнского капитала на улучшение жилищных условий семьям, родившим (усыновившим) третьего или последующего ребенка - amur-gov.ru",
+          "url": "https://amur-gov.ru/doc/83725",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Амурской области от 27.01.2012 N 32 \"Об утверждении Порядка предоставления регионального материнского капитала семьям, родившим (усыновившим) третьего и последующего ребенка\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/24112695/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Амурской области от 27.01.2012 N 32 \"Об утверждении Порядка предоставления регионального материнского капитала на улучшение жилищных условий семьям, родившим (усыновившим) третьего или последующего ребенка\" | ГАРАНТ",
+          "url": "https://base.garant.ru/24110692/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Амурской области от 27.01.2012 N 32 \"Об утверждении Порядка предоставления регионального материнского капитала на улучшение жилищных условий семьям, родившим (усыновившим) третьего или последующего ребенка\" | ГАРАНТ",
+          "url": "https://base.garant.ru/24128687/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Амурской области от 27.01.2012 N 32 \"Об утверждении Порядка предоставления регионального материнского капитала на улучшение жилищных условий семьям, родившим (усыновившим) третьего или последующего ребенка\" | ГАРАНТ",
+          "url": "https://base.garant.ru/24155979/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Амурской области от 27.01.2012 N 32 \"Об утверждении Порядка предоставления регионального материнского капитала на улучшение жилищных условий семьям, родившим (усыновившим) третьего или последующего ребенка\" | ГАРАНТ",
+          "url": "https://base.garant.ru/24156941/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Амурской области от 27 января 2012 г. N 32 \"Об утверждении Порядка предоставления регионального материнского капитала на улучшение жилищных условий семьям, родившим (усыновившим) третьего или последующего ребенка\" | Горячие документы. Амрская область: ГАРАНТ.РУ",
+          "url": "https://www.garant.ru/hotlaw/amur/381058/",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/24112695/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://amur-gov.ru/doc/41044",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 31
+        },
+        {
+          "url": "https://amur-gov.ru/doc/83725",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 3908
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "28-doc-students",
+      "query": "\"Амурской области\" \"26.09.2024\" \"761\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Постановление Правительства Амурской области от 26.09.2024 N 761 \"Об утверждении Порядка предоставления мер социальной поддержки студенческим семьям\" | ГАРАНТ",
+          "url": "https://base.garant.ru/409166198/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Амурской области от 26.09.2024 N 761 \"Об утверждении Порядка предоставления мер социальной поддержки студенческим семьям\" | ГАРАНТ",
+          "url": "https://base.garant.ru/410469776/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Приложение № 2. Постановление Правительства Амурской области от 10.09.2026 № 630 \"О внесении изменений в постановление Правительства Амурской области от 10.07.2023 № 602\" | ГАРАНТ",
+          "url": "https://base.garant.ru/414904272/e88847e78ccd9fdb54482c7fa15982bf/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Амурская область: список измененных документов. Выпуск за 23 января 2026 года \\ Обзоры законодательства \\ КонсультантПлюс",
+          "url": "https://www.consultant.ru/law/review/reg/rlawc/rlawc0802026-01-23.html",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Приложение. Порядок предоставления мер социальной поддержки студенческим семьям. Постановление Правительства Амурской области от 26.09.2024 N 761 \"Об утверждении Порядка предоставления мер социальной поддержки студенческим семьям\" | ГАРАНТ",
+          "url": "https://base.garant.ru/410469776/89300effb84a59912210b23abe10a68f/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "ПРИЛОЖЕНИЕ",
+          "url": "https://aokb28.su/upload/medialibrary/237/d93fe8highdip203ja7j85jz96egmvse.pdf",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "МЕРЫ ПОДДЕРЖКИ СЕМЕЙ С ДЕТЬМИ",
+          "url": "https://aokb28.su/upload/medialibrary/31f/lgupx0g86urx1mlx2s24gco1pfcf6rjr.pdf",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Новое в законодательстве Амурской области. Выпуск за 11 октября 2024 года \\ Обзоры законодательства \\ КонсультантПлюс",
+          "url": "https://www.consultant.ru/law/review/reg/rlaw/rlaw0802024-10-11.html",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/409166198/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://aokb28.su/upload/medialibrary/237/d93fe8highdip203ja7j85jz96egmvse.pdf",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 623
+        },
+        {
+          "url": "https://aokb28.su/upload/medialibrary/31f/lgupx0g86urx1mlx2s24gco1pfcf6rjr.pdf",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 0
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "28-doc-families",
+      "query": "\"Амурской области\" \"19.01.2005\" \"408-ОЗ\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Закон Амурской области от 19.01.2005 N 408-ОЗ \"О мерах социальной поддержки многодетных семей\" | ГАРАНТ",
+          "url": "https://base.garant.ru/24170841/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Амурской области от 19.01.2005 N 408-ОЗ \"О мерах социальной поддержки многодетных семей\" (с изменениями и дополнениями) (Принят областным Советом народных депутатов 23 декабря 2004 года) | ГАРАНТ",
+          "url": "https://base.garant.ru/24109819/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Амурской области от 19.01.2005 N 408-ОЗ \"О мерах социальной поддержки многодетных семей\" | ГАРАНТ",
+          "url": "https://base.garant.ru/24162724/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Амурской области от 19.01.2005 N 408-ОЗ \"О мерах социальной поддержки многодетных семей\" (Принят областным Советом народных депутатов 23 декабря 2004 года) | ГАРАНТ",
+          "url": "https://base.garant.ru/24192732/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Амурской области от 19.01.2005 N 408-ОЗ \"О мерах социальной поддержки многодетных семей\" | ГАРАНТ",
+          "url": "https://base.garant.ru/24141536/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Законы правительства Амурской области за январь 2005 г - amur-gov.ru",
+          "url": "https://amur-gov.ru/cat/10/2005/1/page1",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Законы правительства Амурской области за 2005 г - amur-gov.ru",
+          "url": "https://amur-gov.ru/cat/10/2005/page10",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Амурской области от 19.01.2005 № 408-ОЗ О мерах социальной поддержки многодетных семей (Принят областным Советом народных депутатов 23 декабря 2004 года) - amur-gov.ru",
+          "url": "https://amur-gov.ru/doc/73359",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/24109819/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://amur-gov.ru/doc/73359",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 0
+        },
+        {
+          "url": "https://www.lawmix.ru/zakonodatelstvo/2383776",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 776
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "28-doc-tax",
+      "query": "\"Амурской области\" \"18.11.2002\" \"142-ОЗ\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Закон Амурской области от 18.11.2002 N 142-ОЗ — Редакция от 30.05.2022 — Контур.Экстерн",
+          "url": "https://www.kontur-extern.ru/info/normativ/document/118/47785-zakon-amurskoy-oblasti-ot-18-11-2002-n-142-oz",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Амурской области от 18.11.2002 N 142-ОЗ \"О транспортном налоге на территории Амурской области\" | ГАРАНТ",
+          "url": "https://base.garant.ru/24195938/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Законы правительства Амурской области за 2002 г - amur-gov.ru",
+          "url": "https://amur-gov.ru/cat/10/2002/page1",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Законы правительства Амурской области за ноябрь 2002 г - amur-gov.ru",
+          "url": "https://amur-gov.ru/cat/10/2002/11/page1",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Амурской области от 18.11.2002 N 142-ОЗ \"О транспортном налоге на территории Амурской области\" (Принят Амурским областным Советом народных депутатов 31 октября 2002 г.) (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/24138955/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Амурской области от 18.11.2002 N 142-ОЗ — Редакция от 05.10.2018 — Контур.Экстерн",
+          "url": "https://www.kontur-extern.ru/info/normativ/document/118/46164-zakon-amurskoy-oblasti-ot-18-11-2002-n-142-oz",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Амурской области от 18.11.2002 N 142-ОЗ — Редакция от 07.05.2019 — Контур.Экстерн",
+          "url": "https://www.kontur-extern.ru/info/normativ/document/118/46374-zakon-amurskoy-oblasti-ot-18-11-2002-n-142-oz",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Амурская область: з № 142-ОЗ от 18.11.2002",
+          "url": "https://www.klerk.ru/doc/411017/",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/24138955/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://www.kontur-extern.ru/info/normativ/document/118/47785-zakon-amurskoy-oblasti-ot-18-11-2002-n-142-oz",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 281
+        },
+        {
+          "url": "https://www.kontur-extern.ru/info/normativ/document/118/46164-zakon-amurskoy-oblasti-ot-18-11-2002-n-142-oz",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 224
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "29-doc-family-law",
+      "query": "\"Архангельской области\" \"05.12.2016\" \"496-30-ОЗ\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Закон Архангельской области от 05.12.2016 N 496-30-ОЗ \"О социальной поддержке семей, воспитывающих детей, в Архангельской области\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/42964582/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Архангельской области от 05.12.2016 N 496-30-ОЗ \"О социальной поддержке семей, воспитывающих детей, в Архангельской области\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/25143349/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Областной закон Архангельской области от 05.12.2016 № 496-30-ОЗ О социальной поддержке семей, воспитывающих детей, в Архангельской области - arkh-gov.ru",
+          "url": "https://arkh-gov.ru/doc/69237",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Прочее правительства Архангельской области от 5.12.2016 г - arkh-gov.ru",
+          "url": "https://arkh-gov.ru/cat/9/2016/12/5/page1",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Архангельская область: список измененных документов. Выпуск за 29 мая 2026 года \\ Обзоры законодательства \\ КонсультантПлюс",
+          "url": "https://www.consultant.ru/law/review/reg/rlawc/rlawc0132026-05-29.html",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Архангельская область: список измененных документов. Выпуск за 3 апреля 2026 года \\ Обзоры законодательства \\ КонсультантПлюс",
+          "url": "https://www.consultant.ru/law/review/reg/rlawc/rlawc0132026-04-03.html",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Архангельская область: список измененных документов. Выпуск за 30 апреля 2026 года \\ Обзоры законодательства \\ КонсультантПлюс",
+          "url": "https://www.consultant.ru/law/review/reg/rlawc/rlawc0132026-04-30.html",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Статья 29. Вступление в силу настоящего закона. Закон Архангельской области от 05.12.2016 N 496-30-ОЗ \"О социальной поддержке семей, воспитывающих детей, в Архангельской области\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/42964582/7a69fb6632f5876efd3160114758a106/",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/42964582/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://arkh-gov.ru/doc/69237",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 920
+        },
+        {
+          "url": "https://www.lawmix.ru/zakonodatelstvo/2530331",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 835
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "29-doc-family-procedures",
+      "query": "\"Архангельской области\" \"30.12.2016\" \"575-пп\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Постановление Правительства Архангельской области от 30.12.2016 N 575-пп \"О мерах по реализации областного закона \"О социальной поддержке семей, воспитывающих детей, в Архангельской области\" | ГАРАНТ",
+          "url": "https://base.garant.ru/25147326/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Архангельской области от 30.12.2016 N 575-пп \"О мерах по реализации областного закона \"О социальной поддержке семей, воспитывающих детей, в Архангельской области\" | ГАРАНТ",
+          "url": "https://base.garant.ru/25147795/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Архангельской области от 30.12.2016 N 575-пп \"О мерах по реализации областного закона \"О социальной поддержке семей, воспитывающих детей, в Архангельской области\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/25147793/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Архангельской области от 30.12.2016 № 575-пп О мерах по реализации областного закона «О социальной поддержке семей, воспитывающих детей, в Архангельской области» - arkh-gov.ru",
+          "url": "https://arkh-gov.ru/doc/69422",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановления правительства Архангельской области от 30.12.2016 г - arkh-gov.ru",
+          "url": "https://arkh-gov.ru/cat/3/2016/12/30/page1",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Архангельской области от 30.12.2016 N 575-пп \"О мерах по реализации областного закона \"О социальной поддержке семей, воспитывающих детей, в Архангельской области\" | ГАРАНТ",
+          "url": "https://base.garant.ru/25131340/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Архангельской области от 30.12.2016 N 575-пп \"О мерах по реализации областного закона \"О социальной поддержке семей, воспитывающих детей, в Архангельской области\" | ГАРАНТ",
+          "url": "https://base.garant.ru/25144536/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Архангельской области от 30.12.2016 N 575-пп \"О мерах по реализации областного закона \"О социальной поддержке семей, воспитывающих детей, в Архангельской области\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/42966284/",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/25147793/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://arkh-gov.ru/doc/69422",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 82
+        },
+        {
+          "url": "https://www.lawmix.ru/zakonodatelstvo/2597756",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 344
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "29-doc-pm-2026",
+      "query": "\"Архангельской области\" \"12.11.2025\" \"997-пп\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Постановление Правительства Архангельской области от 12 ноября 2025 г. N 997-пп \"Об утверждении величины прожиточного минимума в Архангельской области на 2026 год\" (документ не вступил в силу) | Горячие документы. Архангельская область: ГАРАНТ.РУ",
+          "url": "https://www.garant.ru/hotlaw/arhangelsk/1918761/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Справочная информация: \"Величина прожиточного минимума в субъектах Российской Федерации\" (Материал подготовлен специалистами КонсультантПлюс) \\ КонсультантПлюс",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_407365/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Горячие документы. Архангельская область. 22 ноября 2025 | ГАРАНТ.РУ",
+          "url": "https://www.garant.ru/hotlaw/arhangelsk/archive/2025/11/22/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Горячие документы. Архангельская область. Ноябрь 2025 | ГАРАНТ.РУ",
+          "url": "https://www.garant.ru/hotlaw/arhangelsk/archive/2025/11/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Новое в законодательстве Архангельской области. Выпуск за 21 ноября 2025 года \\ Обзоры законодательства \\ КонсультантПлюс",
+          "url": "https://www.consultant.ru/law/review/reg/rlaw/rlaw0132025-11-21.html",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "<table id=\"e1\">",
+          "url": "https://sfr.gov.ru/files/id/press_center/pr/booklet/2026/Posobiya_grajdanam_imeyuschim_detey_2026.pdf",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Горячие документы. Архангельская область. 2025 год | ГАРАНТ.РУ",
+          "url": "https://www.garant.ru/hotlaw/arhangelsk/archive/2025/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Прожиточный минимум 2026 в Архангельской области | calcal.ru",
+          "url": "https://www.calcal.ru/prozhitochnyj-minimum-arhangelskaya-oblast-2026",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://www.garant.ru/hotlaw/arhangelsk/1918761/",
+          "kind": "selected_search_result",
+          "page_readable": true,
+          "line_count": 185
+        },
+        {
+          "url": "https://sfr.gov.ru/files/id/press_center/pr/booklet/2026/Posobiya_grajdanam_imeyuschim_detey_2026.pdf",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 869
+        },
+        {
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_407365/",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 159
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "29-doc-land",
+      "query": "\"Архангельской области\" \"07.10.2003\" \"192-24-ОЗ\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Закон Архангельской области от 07.10.2003 N 192-24-ОЗ \"О порядке предоставления земельных участков для строительства объектов недвижимости на территории Архангельской области\" | ГАРАНТ",
+          "url": "https://base.garant.ru/25110334/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Архангельской области от 07.10.2003 N 192-24-ОЗ \"О порядке предоставления земельных участков для строительства объектов недвижимости на территории Архангельской области\" | ГАРАНТ",
+          "url": "https://base.garant.ru/25191723/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Архангельской области от 07.10.2003 N 192-24-ОЗ \"О порядке предоставления земельных участков для строительства объектов недвижимости на территории Архангельской области\" | ГАРАНТ",
+          "url": "https://base.garant.ru/25219295/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Архангельской области от 07.10.2003 N 192-24-ОЗ \"О порядке предоставления земельных участков отдельным категориям граждан\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/25208610/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Архангельской области от 07.10.2003 N 192-24-ОЗ \"О порядке предоставления земельных участков отдельным категориям граждан\" | ГАРАНТ",
+          "url": "https://base.garant.ru/25229188/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Архангельской области от 07.10.2003 N 192-24-ОЗ \"О порядке предоставления земельных участков отдельным категориям граждан\" | ГАРАНТ",
+          "url": "https://base.garant.ru/25230909/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Архангельской области от 07.10.2003 N 192-24-ОЗ \"О порядке предоставления земельных участков для строительства объектов недвижимости на территории Архангельской области\" | ГАРАНТ",
+          "url": "https://base.garant.ru/25103948/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Архангельской области от 07.10.2003 N 192-24-ОЗ \"О порядке предоставления земельных участков для строительства объектов недвижимости на территории Архангельской области\" | ГАРАНТ",
+          "url": "https://base.garant.ru/25237886/",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/25208610/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://lawmix.ru/zakonodatelstvo/917548",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 0
+        },
+        {
+          "url": "https://murmansk.fish.gov.ru/docs/2902-4982_48.pdf",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 1259
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "29-doc-forest",
+      "query": "\"Архангельской области\" \"27.06.2007\" \"368-19-ОЗ\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Закон Архангельской области от 27.06.2007 N 368-19-ОЗ \"О реализации органами государственной власти Архангельской области государственных полномочий в сфере лесных отношений\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/25251735/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Архангельской области от 27.06.2007 N 368-19-ОЗ \"О реализации органами государственной власти Архангельской области государственных полномочий в сфере лесных отношений\" | ГАРАНТ",
+          "url": "https://base.garant.ru/25106402/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Архангельской области от 27.06.2007 N 368-19-ОЗ \"О реализации органами государственной власти Архангельской области государственных полномочий в сфере лесных отношений\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/25226237/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Архангельской области от 27.06.2007 N 368-19-ОЗ \"О реализации органами государственной власти Архангельской области государственных полномочий в сфере лесных отношений\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/25273257/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Архангельской области от 27.06.2007 N 368-19-ОЗ \"О реализации органами государственной власти Архангельской области государственных полномочий в сфере лесных отношений\" | ГАРАНТ",
+          "url": "https://base.garant.ru/25191320/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Архангельской области от 27.06.2007 N 368-19-ОЗ \"О реализации органами государственной власти Архангельской области государственных полномочий в сфере лесных отношений\" | ГАРАНТ",
+          "url": "https://base.garant.ru/25130925/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Архангельской области от 27.06.2007 N 368-19-ОЗ \"О реализации органами государственной власти Архангельской области государственных полномочий в сфере лесных отношений\" | ГАРАНТ",
+          "url": "https://base.garant.ru/25186051/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Глава I. Общие положения (ст. ст. 1-2). Закон Архангельской области от 27.06.2007 N 368-19-ОЗ \"О реализации органами государственной власти Архангельской области государственных полномочий в сфере лесных отношений\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/25226237/89300effb84a59912210b23abe10a68f/",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/25251735/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://www.lawmix.ru/zakonodatelstvo/917176",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 0
+        },
+        {
+          "url": "https://uios.fedcdo.ru/wp-content/uploads/2019/01/Konkursnaja-rabota-3.pdf",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 0
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "29-doc-orphans",
+      "query": "\"Архангельской области\" \"17.12.2012\" \"591-36-ОЗ\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Закон Архангельской области от 17.12.2012 N 591-36-ОЗ \"О социальной поддержке детей-сирот и детей, оставшихся без попечения родителей, лиц из числа детей-сирот и детей, оставшихся без попечения родителей, в Архангельской области\" | ГАРАНТ",
+          "url": "https://base.garant.ru/25130926/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Архангельской области от 17.12.2012 N 591-36-ОЗ \"О социальной поддержке детей-сирот и детей, оставшихся без попечения родителей, лиц из числа детей-сирот и детей, оставшихся без попечения родителей, в Архангельской области\" | ГАРАНТ",
+          "url": "https://base.garant.ru/25278382/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Архангельской области от 17.12.2012 N 591-36-ОЗ \"О социальной поддержке детей-сирот и детей, оставшихся без попечения родителей, лиц из числа детей-сирот и детей, оставшихся без попечения родителей, в Архангельской области\" | ГАРАНТ",
+          "url": "https://base.garant.ru/25147644/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Областной закон Архангельской области от 17.12.2012 № 591-36-ОЗ О социальной поддержке детей-сирот и детей, оставшихся без попечения родителей, лиц из числа детей-сирот и детей, оставшихся без попечения родителей, в Архангельской области - arkh-gov.ru",
+          "url": "https://arkh-gov.ru/doc/60054",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Архангельской области от 17.12.2012 N 591-36-ОЗ \"О социальной поддержке детей-сирот и детей, оставшихся без попечения родителей, лиц из числа детей-сирот и детей, оставшихся без попечения родителей, в Архангельской области\" | ГАРАНТ",
+          "url": "https://base.garant.ru/25243947/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Архангельской области от 17.12.2012 N 591-36-ОЗ \"О социальной поддержке детей-сирот и детей, оставшихся без попечения родителей, лиц из числа детей-сирот и детей, оставшихся без попечения родителей, в Архангельской области\" | ГАРАНТ",
+          "url": "https://base.garant.ru/25120130/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Архангельской области от 17.12.2012 N 591-36-ОЗ \"О социальной поддержке детей-сирот и детей, оставшихся без попечения родителей, лиц из числа детей-сирот и детей, оставшихся без попечения родителей, в Архангельской области\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/25130057/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "\\ql \n \nЗакон Архангельской области от 17.12.2012 N",
+          "url": "https://www.arhcadet.ru/docs/596-36-OZ.pdf",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/25130057/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://arkh-gov.ru/doc/60054",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 492
+        },
+        {
+          "url": "https://www.arhcadet.ru/docs/596-36-OZ.pdf",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 0
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "29-doc-tax",
+      "query": "\"Архангельской области\" \"01.10.2002\" \"112-16-ОЗ\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Закон Архангельской области от 01.10.2002 N 112-16-ОЗ \"О транспортном налоге\" | ГАРАНТ",
+          "url": "https://base.garant.ru/25168616/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Архангельской области от 01.10.2002 N 112-16-ОЗ \"О транспортном налоге\" | ГАРАНТ",
+          "url": "https://base.garant.ru/25192696/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Архангельская область: з № 112-16-ОЗ от 01.10.2002",
+          "url": "https://www.klerk.ru/doc/411018/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Архангельская область: Закон № 112-16-ОЗ от 01.10.2002",
+          "url": "https://www.klerk.ru/doc/126691/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Областной закон Архангельской области от 01.10.2002 № 112-16-ОЗ - Сейчас.ру",
+          "url": "https://lawmix.ru/zakonodatelstvo/917376",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Архангельская область: Закон № 112-16-ОЗ от 01.10.2002",
+          "url": "https://www.klerk.ru/doc/260411/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Архангельская область: Закон № 112-16-ОЗ от 01.10.2002",
+          "url": "https://www.klerk.ru/doc/135771/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Статья 5. Заключительные положения. Закон Архангельской области от 01.10.2002 N 112-16-ОЗ \"О транспортном налоге\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/25208337/5633a92d35b966c2ba2f1e859e7bdd69/",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/25168616/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://lawmix.ru/zakonodatelstvo/917376",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 877
+        },
+        {
+          "url": "https://www.zakon.zsperm.ru/data/docs/2020/7966900/298940.pdf",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 0
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "29-doc-contract",
+      "query": "\"Архангельской области\" \"15.08.2024\" \"640-пп\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Постановление Правительства Архангельской области от 15.08.2024 N 640-пп \"О порядке и условиях назначения и предоставлении государственной социальной помощи на основании социального контракта\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/409558623/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Архангельской области от 15.08.2024 N 640-пп \"О порядке и условиях назначения и предоставлении государственной социальной помощи на основании социального контракта\" | ГАРАНТ",
+          "url": "https://base.garant.ru/42191132/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Архангельская область: список измененных документов. Выпуск за 15 ноября 2024 года \\ Обзоры законодательства \\ КонсультантПлюс",
+          "url": "https://www.consultant.ru/law/review/reg/rlawc/rlawc0132024-11-15.html",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Архангельская область: список измененных документов. Выпуск за 5 июня 2026 года \\ Обзоры законодательства \\ КонсультантПлюс",
+          "url": "https://www.consultant.ru/law/review/reg/rlawc/rlawc0132026-06-05.html",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Вопрос: Какое следует принять решение органу социальной защиты населения в случае, если заявитель подал заявление о предоставлении социального контракта на основании постановления Правительства Архангельской оласти от 15.08.2024 N 640-пп и умер до принятия решения? (ответ Горячей линии ГАРАНТ, июнь 2025 г.)",
+          "url": "https://base.garant.ru/482397283/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Величина прожиточного минимума в субъектах Российской Федерации на 2025 год, установленная на душу населения, для трудоспособных граждан и для детей",
+          "url": "https://sfr.gov.ru/grazhdanam/dop_info/prozhitochniy_min_deti/velichina_projitochnogo_minimuma_v_subektah_Rossiiskoi_Federacii_na_proshlyy_god/",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/409558623/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "29-doc-budget-2026",
+      "query": "\"Архангельской области\" \"22.12.2025\" \"313-22-ОЗ\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Закон Архангельской области от 22.12.2025 N 313-22-ОЗ \"Об областном бюджете на 2026 год и на плановый период 2027 и 2028 годов\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/413320874/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Статья 15. Приостановление действия отдельных положений областных законов. Закон Архангельской области от 22.12.2025 N 313-22-ОЗ \"Об областном бюджете на 2026 год и на плановый период 2027 и 2028 годов\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/413320874/36bfb7176e3e8bfebe718035887e4efc/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Приложение N 11. Закон Архангельской области от 22.12.2025 N 313-22-ОЗ \"Об областном бюджете на 2026 год и на плановый период 2027 и 2028 годов\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/413320874/10ed0f917186039eb157d3ba4f962ee5/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Архангельской области от 22.12.2025 N 313-22-ОЗ\"Об областном бюджете на 2026 год и на плановый период 2027 и 2028 годов\"(принят Постановлением Архангельского областного Собрания депутатов от 17.12.2025 N 874)",
+          "url": "https://29.mchs.gov.ru/uploads/resource/2026-01-16/5-1-normativnye-pravovye-akty_17685798461261355752.pdf",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "5.1 Нормативные правовые акты - Предупреждение чрезвычайных ситуаций - Главное управление МЧС России по Архангельской области",
+          "url": "https://29.mchs.gov.ru/deyatelnost/grazhdanskaya-zashchita/5-preduprezhdenie-chrezvychaynyh-situaciy/5-1-normativnye-pravovye-akty",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Новое в законодательстве Архангельской области. Выпуск за 26 декабря 2025 года \\ Обзоры законодательства \\ КонсультантПлюс",
+          "url": "https://www.consultant.ru/law/review/reg/rlaw/rlaw0132025-12-26.html",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Статья 10. Государственный долг Архангельской области. Закон Архангельской области от 22.12.2025 N 313-22-ОЗ \"Об областном бюджете на 2026 год и на плановый период 2027 и 2028 годов\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/413320874/3d3a9e2eb4f30c73ea6671464e2a54b5/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Статья 5. Бюджетные ассигнования областного бюджета на 2026 год и на плановый период 2027 и 2028 годов. Закон Архангельской области от 22.12.2025 N 313-22-ОЗ \"Об областном бюджете на 2026 год и на плановый период 2027 и 2028 годов\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/413320874/5633a92d35b966c2ba2f1e859e7bdd69/",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/413320874/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 0
+        },
+        {
+          "url": "https://29.mchs.gov.ru/uploads/resource/2026-01-16/5-1-normativnye-pravovye-akty_17685798461261355752.pdf",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 0
+        },
+        {
+          "url": "https://29.mchs.gov.ru/deyatelnost/grazhdanskaya-zashchita/5-preduprezhdenie-chrezvychaynyh-situaciy/5-1-normativnye-pravovye-akty",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 435
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "30-doc-social-law",
+      "query": "\"Астраханской области\" \"22.12.2016\" \"85/2016-ОЗ\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Закон Астраханской области от 22.12.2016 N 85/2016-ОЗ \"О мерах социальной поддержки и социальной помощи отдельным категориям граждан в Астраханской области\" | ГАРАНТ",
+          "url": "https://base.garant.ru/9210065/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Астраханской области от 22.12.2016 № 85/2016-ОЗ О мерах социальной поддержки и социальной помощи отдельным категориям граждан в Астраханской области - astr-gov.ru",
+          "url": "https://www.astr-gov.ru/doc/72988",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Астраханской области от 22.12.2016 N 85/2016-ОЗ \"О мерах социальной поддержки и социальной помощи отдельным категориям граждан в Астраханской области\" | ГАРАНТ",
+          "url": "https://base.garant.ru/9100053/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Астраханской области от 22.12.2016 N 85/2016-ОЗ \"О мерах социальной поддержки и социальной помощи отдельным категориям граждан в Астраханской области\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/46454144/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Астраханской области от 22.12.2016 N 85/2016-ОЗ \"О мерах социальной поддержки и социальной помощи отдельным категориям граждан в Астраханской области\" | ГАРАНТ",
+          "url": "https://base.garant.ru/9110428/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Астраханской области от 22.12.2016 N",
+          "url": "https://astrakik.ru/wp-content/uploads/2025/12/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD-%D0%90%D1%81%D1%82%D1%80%D0%B0%D1%85%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%B9-%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%B8-%D0%BE%D1%82-22.12.2016-N-85_2016-%D0%9E%D0%97.pdf",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Законы правительства Астраханской области за декабрь 2016 г - astr-gov.ru",
+          "url": "https://astr-gov.ru/cat/10/2016/12/page1",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Законы правительства Астраханской области от 22.12.2016 г - astr-gov.ru",
+          "url": "https://astr-gov.ru/cat/10/2016/12/22/page1",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/46454144/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://www.astr-gov.ru/doc/72988",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 851
+        },
+        {
+          "url": "https://astrakik.ru/wp-content/uploads/2025/12/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD-%D0%90%D1%81%D1%82%D1%80%D0%B0%D1%85%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%B9-%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%B8-%D0%BE%D1%82-22.12.2016-N-85_2016-%D0%9E%D0%97.pdf",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 3007
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "30-doc-pm-2026",
+      "query": "\"Астраханской области\" \"11.11.2025\" \"715-П\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Величина прожиточного минимума в субъектах Российской Федерации на 2026 год, установленная на душу населения, для трудоспособных граждан и для детей",
+          "url": "https://sfr.gov.ru/grazhdanam/dop_info/prozhitochniy_min_deti/velichina_projitochnogo_minimuma_v_subektah_Rossiiskoi_Federacii_na_tekushchiy_god/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Справочная информация: \"Величина прожиточного минимума в субъектах Российской Федерации\" (Материал подготовлен специалистами КонсультантПлюс) \\ КонсультантПлюс",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_407365/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Прожиточный минимум 2026 в Астраханской области | calcal.ru",
+          "url": "https://www.calcal.ru/prozhitochnyj-minimum-astrahanskaya-oblast-2026",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Горячие документы. Астраханская область. 2025 год | ГАРАНТ.РУ",
+          "url": "https://www.garant.ru/hotlaw/astra/archive/2025/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Горячие документы. Астраханская область. 22 ноября 2025 | ГАРАНТ.РУ",
+          "url": "https://www.garant.ru/hotlaw/astra/archive/2025/11/22/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Новое в законодательстве Астраханской области. Выпуск за 21 ноября 2025 года \\ Обзоры законодательства \\ КонсультантПлюс",
+          "url": "https://www.consultant.ru/law/review/reg/rlaw/rlaw3222025-11-21.html",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "<table id=\"e1\">",
+          "url": "https://sfr.gov.ru/files/id/press_center/pr/booklet/2026/Posobiya_grajdanam_imeyuschim_detey_2026.pdf",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Прожиточный минимум в Астраханской области в 2026 году",
+          "url": "https://onbankrot.ru/lists/minimum/astrkhanskaya-oblast/2026",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://www.garant.ru/hotlaw/astra/1918765/",
+          "kind": "selected_search_result",
+          "page_readable": true,
+          "line_count": 185
+        },
+        {
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_407365/",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 0
+        },
+        {
+          "url": "https://sfr.gov.ru/files/id/press_center/pr/booklet/2026/Posobiya_grajdanam_imeyuschim_detey_2026.pdf",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 0
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "30-doc-tax",
+      "query": "\"Астраханской области\" \"22.11.2002\" \"49/2002-ОЗ\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Закон Астраханской области от 22.11.2002 N 49/2002-ОЗ \"О транспортном налоге\" | ГАРАНТ",
+          "url": "https://base.garant.ru/9292890/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Астраханской области от 22.11.2002 N 49/2002-ОЗ (ред. от 19.12.2013) \"О транспортном налоге\" (принят Государственной Думой Астраханской области 14.11.2002)22 ноября 2002 годаN 49/2002-O3ЗАКОНАСТРАХАНСКОЙ ОБЛАСТИО ТРАНСПОРТНОМ НАЛОГЕПринят",
+          "url": "https://www.nalog.gov.ru/html/sites/www.rn30.nalog.ru/doks/%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%BD%D1%8B%D0%B9221102.pdf",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Астраханской области от 22.11.2002 N 49/2002-ОЗ \"О транспортном налоге\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/9106285/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Астраханской области от 22.11.2002 N 49/2002-ОЗ \"О транспортном налоге\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/9283240/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Астраханской области от 22.11.2002 № 49/2002-ОЗ О транспортном налоге - astr-gov.ru",
+          "url": "https://astr-gov.ru/doc/45733",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Астраханской области от 22.11.2002 № 49/2002-ОЗ - Сейчас.ру",
+          "url": "https://www.lawmix.ru/zakonodatelstvo/1268165",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Законы правительства Астраханской области за 2002 г - astr-gov.ru",
+          "url": "https://astr-gov.ru/cat/10/2002/page1",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Астраханской области от 22.11.2002 № 49/2002-ОЗ О транспортном налоге",
+          "url": "https://www.audar-info.ru/na_reg/regEditArticle/index/type_id/1/doc_id/6348/release_id/9229/",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/9106285/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://www.nalog.gov.ru/html/sites/www.rn30.nalog.ru/doks/%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%BD%D1%8B%D0%B9221102.pdf",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 0
+        },
+        {
+          "url": "https://astr-gov.ru/doc/45733",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 0
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "30-doc-contract",
+      "query": "\"Астраханской области\" \"25.12.2023\" \"794-П\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Постановление Правительства Астраханской области от 25.12.2023 № 794-П О Порядке и условиях оказания социальной помощи на основании социального контракта - astr-gov.ru",
+          "url": "https://astr-gov.ru/doc/83251",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Астраханской области от 25.12.2023 N 794-П \"Об отдельных вопросах оказания социальной помощи на основании социального контракта\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/408332919/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановления правительства Астраханской области - astr-gov.ru",
+          "url": "https://astr-gov.ru/cat/3/page1",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановления правительства Астраханской области от 25.12.2023 г - astr-gov.ru",
+          "url": "https://astr-gov.ru/cat/3/2023/12/25/page1",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Нормативные документы — Государственное казенное учреждение Астраханской области «Центр социальной поддержки населения Наримановского района»",
+          "url": "https://narcspn.ru/normativnye-dokumenty",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Астраханской области от 25.12.2023 № 794-П | IPBD.RU",
+          "url": "https://ipbd.ru/doc/3000202401030018/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Астраханская область",
+          "url": "https://epp.genproc.gov.ru/ru/proc_30/activity/legal-education/explain/e277719/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Астраханская область: список измененных документов. Выпуск за 24 июля 2026 года \\ Обзоры законодательства \\ КонсультантПлюс",
+          "url": "https://www.consultant.ru/law/review/reg/rlawc/rlawc3222026-07-24.html",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/408332919/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://astr-gov.ru/doc/83251",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 1274
+        },
+        {
+          "url": "https://narcspn.ru/normativnye-dokumenty",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 68
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "30-doc-camps",
+      "query": "\"Астраханской области\" \"16.11.2020\" \"529-П\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Постановление Министерства образования и науки Астраханской области от 22.03.2021 N 03 \"Об административном регламенте государственного казенного учреждения Астраханской области \"Служба единого заказчика в сфере образования\", подведомственного министерству образования и науки Астраханской области, предоставления государственной услуги \"Предоставлен",
+          "url": "https://base.garant.ru/400485443/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Астраханской области от 10.04.2024 N 227-П \"О внесении изменений в постановления Правительства Астраханской области от 16.11.2020 N 529-П, от 24.12.2020 N 655-П\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/408876959/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Астраханской области от 17.04.2023 N 179-П \"О внесении изменений в постановление Правительства Астраханской области от 16.11.2020 N 529-П\" (документ не действует) | ГАРАНТ",
+          "url": "https://base.garant.ru/406756797/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Новое в законодательстве Астраханской области. Выпуск за 18 апреля 2025 года \\ Обзоры законодательства \\ КонсультантПлюс",
+          "url": "https://www.consultant.ru/law/review/reg/rlaw/rlaw3222025-04-18.html",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Астраханской области от 10.04.2025 N 214-П \"О Порядке предоставления путевок в санаторно-курортные организации, в организации отдыха детей и их оздоровления, расположенные на территории Российской Федерации\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/411877354/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Астраханской области от 10.04.2025 N 214-П \"О Порядке предоставления путевок в санаторно-курортные организации, в организации отдыха детей и их оздоровления, расположенные на территории Российской Федерации\" | ГАРАНТ",
+          "url": "https://base.garant.ru/9170498/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Санаторно-курортный отдых детей",
+          "url": "https://bahtemirschool.com.ru/news/396-%D1%81%D0%B0%D0%BD%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%BE-%D0%BA%D1%83%D1%80%D0%BE%D1%80%D1%82%D0%BD%D1%8B%D0%B9-%D0%BE%D1%82%D0%B4%D1%8B%D1%85-%D0%B4%D0%B5%D1%82%D0%B5%D0%B9",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Новости",
+          "url": "https://bahtemirschool.com.ru/news",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/400485443/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://bahtemirschool.com.ru/news/396-%D1%81%D0%B0%D0%BD%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%BE-%D0%BA%D1%83%D1%80%D0%BE%D1%80%D1%82%D0%BD%D1%8B%D0%B9-%D0%BE%D1%82%D0%B4%D1%8B%D1%85-%D0%B4%D0%B5%D1%82%D0%B5%D0%B9",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 0
+        },
+        {
+          "url": "https://bahtemirschool.com.ru/news",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 1
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "30-doc-land",
+      "query": "\"Астраханской области\" \"04.03.2008\" \"7/2008-ОЗ\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Закон Астраханской области от 04.03.2008 N 7/2008-ОЗ \"Об отдельных вопросах правового регулирования земельных отношений в Астраханской области\" | ГАРАНТ",
+          "url": "https://base.garant.ru/9299351/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Астраханской области от 04.03.2008 N 7/2008-ОЗ \"Об отдельных вопросах правового регулирования земельных отношений в Астраханской области\" | ГАРАНТ",
+          "url": "https://base.garant.ru/9297222/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Астраханской области от 04.03.2008 N 7/2008-ОЗ \"Об отдельных вопросах правового регулирования земельных отношений в Астраханской области\" | ГАРАНТ",
+          "url": "https://base.garant.ru/9296430/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Астраханской области от 04.03.2008 N 7/2008-ОЗ \"Об отдельных вопросах правового регулирования земельных отношений в Астраханской области\" | ГАРАНТ",
+          "url": "https://base.garant.ru/9285723/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Астраханской области от 04.03.2008 № 7/2008-ОЗ Об отдельных вопросах правового регулирования земельных отношений в Астраханской области - astr-gov.ru",
+          "url": "https://astr-gov.ru/doc/59729",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Астраханской области от 04.03.2008 N 7/2008-ОЗ \"Об отдельных вопросах правового регулирования земельных отношений в Астраханской области\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/9122208/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Астраханской области от 04.03.2008 № 7/2008-ОЗ - Сейчас.ру",
+          "url": "https://www.lawmix.ru/zakonodatelstvo/1268169",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Глава 1. Управление и распоряжение земельными участками (ст.ст. 1 - 11). Закон Астраханской области от 04.03.2008 N 7/2008-ОЗ \"Об отдельных вопросах правового регулирования земельных отношений в Астраханской области\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/9122208/89300effb84a59912210b23abe10a68f/",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/9122208/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://astr-gov.ru/doc/59729",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 284
+        },
+        {
+          "url": "https://www.lawmix.ru/zakonodatelstvo/1268169",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 1620
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "30-doc-orphans",
+      "query": "\"Астраханской области\" \"11.02.2002\" \"6/2002-ОЗ\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Закон Астраханской области от 11.02.2002 N 6/2002-ОЗ \"О защите прав детей-сирот и детей, оставшихся без попечения родителей, а также лиц из числа детей-сирот и детей, оставшихся без попечения родителей, в Астраханской области\" | ГАРАНТ",
+          "url": "https://base.garant.ru/9100095/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Астраханской области от 11.02.2002 N 6/2002-ОЗ \"О защите прав детей-сирот и детей, оставшихся без попечения родителей, в Астраханской области\" | ГАРАНТ",
+          "url": "https://base.garant.ru/9293136/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Астраханской области от 11.02.2002 N 6/2002-ОЗ \"О защите прав детей-сирот и детей, оставшихся без попечения родителей, в Астраханской области\" | ГАРАНТ",
+          "url": "https://base.garant.ru/9292877/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Астраханской области от 11.02.2002 № 6/2002-ОЗ О защите прав детей-сирот и детей, оставшихся без попечения родителей, в Астраханской области - astr-gov.ru",
+          "url": "https://www.astr-gov.ru/doc/45694",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Астраханской области от 11.02.2002 № 6/2002-ОЗ - Сейчас.ру",
+          "url": "https://www.lawmix.ru/zakonodatelstvo/1267986",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Астраханской области от 11.02.2002 N 6/2002-ОЗ \"О защите прав детей-сирот и детей, оставшихся без попечения родителей, лиц из числа детей-сирот и детей, оставшихся без попечения родителей, а также лиц, потерявших в период обучения обоих родителей или единственного родителя, в Астраханкой области\" | ГАРАНТ",
+          "url": "https://base.garant.ru/9100918/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Законы правительства Астраханской области за февраль 2002 г - astr-gov.ru",
+          "url": "https://astr-gov.ru/cat/10/2002/2/page1",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Закон Астраханской области от 11.02.2002 N 6/2002-ОЗ \"О защите прав детей-сирот и детей, оставшихся без попечения родителей, лиц из числа детей-сирот и детей, оставшихся без попечения родителей, а также лиц, потерявших в период обучения обоих родителей или единственного родителя, в Астраханской области\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/9104561/",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/9104561/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://www.astr-gov.ru/doc/45694",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 152
+        },
+        {
+          "url": "https://www.lawmix.ru/zakonodatelstvo/1267986",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 1102
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "30-doc-orphans-rent",
+      "query": "\"Астраханской области\" \"29.04.2022\" \"187-П\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Постановления правительства Астраханской области за апрель 2022 г - astr-gov.ru",
+          "url": "https://www.astr-gov.ru/cat/3/2022/4/page1",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Астраханской области от 29.04.2022 N 187-П \"О Порядке и условиях предоставления денежной компенсации платы за одно жилое помещение, расположенное на территории Астраханской области, по договору найма жилого помещения из частного жилищного фонда\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/404568642/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Нормативные документы — Государственное казенное учреждение Астраханской области «Центр социальной поддержки населения Харабалинского района»",
+          "url": "https://harcspn.ru/%D0%BE%D0%BF%D0%B5%D0%BA%D0%B0-%D0%B8-%D0%BF%D0%BE%D0%BF%D0%B5%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE/%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0-%D0%B4%D0%B5%D1%82%D0%B5%D0%B9-%D1%81%D0%B8%D1%80%D0%BE%D1%82-2/%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Нормативные документы - ГКУ АО «Центр социальной поддержки населения Приволжского района»",
+          "url": "https://privsoc.ru/normativnye-dokumenty/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Астраханская область: список измененных документов. Выпуск за 21 февраля 2025 года \\ Обзоры законодательства \\ КонсультантПлюс",
+          "url": "https://www.consultant.ru/law/review/reg/rlawc/rlawc3222025-02-21.html",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Астраханской области от 12.07.2024 N 449-П \"О внесении изменений в постановления Правительства Астраханской области\" | ГАРАНТ",
+          "url": "https://base.garant.ru/409366590/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Законы и другие нормативные акты — Центр социальной поддержки населения Ахтубинского района",
+          "url": "https://aht-cspn.ru/?page_id=3678",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Астраханской области от 01.09.2022 N 412-П \"О внесении изменений в постановление Правительства Астраханской области от 21.03.2005 N 21-П и в Положение о министерстве социального развития и труда Астраханской области, утвержденное постановлением\" | ГАРАНТ",
+          "url": "https://base.garant.ru/405248917/",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/404568642/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 1
+        },
+        {
+          "url": "https://harcspn.ru/%D0%BE%D0%BF%D0%B5%D0%BA%D0%B0-%D0%B8-%D0%BF%D0%BE%D0%BF%D0%B5%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE/%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0-%D0%B4%D0%B5%D1%82%D0%B5%D0%B9-%D1%81%D0%B8%D1%80%D0%BE%D1%82-2/%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 0
+        },
+        {
+          "url": "https://privsoc.ru/normativnye-dokumenty/",
+          "kind": "alternative_search_result",
+          "page_readable": false,
+          "line_count": 1
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    },
+    {
+      "document_id": "30-doc-orphans-housing",
+      "query": "\"Астраханской области\" \"29.04.2022\" \"188-П\"",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "full_current_text_verified": false,
+      "search_candidates": [
+        {
+          "title": "Постановление Правительства Астраханской области от 29.04.2022 № 188-П О Порядке и условиях предоставления единовременной денежной выплаты на приобретение жилого помещения в собственность, а также порядке ее возврата - astr-gov.ru",
+          "url": "https://www.astr-gov.ru/doc/81190",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Астраханской области от 29.04.2022 N 188-П \"О Порядке и условиях предоставления единовременной денежной выплаты на приобретение жилого помещения в собственность, а также порядке ее возврата\" (с изменениями и дополнениями) | ГАРАНТ",
+          "url": "https://base.garant.ru/404568644/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановления правительства Астраханской области за апрель 2022 г - astr-gov.ru",
+          "url": "https://www.astr-gov.ru/cat/3/2022/4/page1",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Астраханская область: список измененных документов. Выпуск за 23 января 2026 года \\ Обзоры законодательства \\ КонсультантПлюс",
+          "url": "https://www.consultant.ru/law/review/reg/rlawc/rlawc3222026-01-23.html",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Нормативные документы — Государственное казенное учреждение Астраханской области «Центр социальной поддержки населения Харабалинского района»",
+          "url": "https://harcspn.ru/%D0%BE%D0%BF%D0%B5%D0%BA%D0%B0-%D0%B8-%D0%BF%D0%BE%D0%BF%D0%B5%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE/%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0-%D0%B4%D0%B5%D1%82%D0%B5%D0%B9-%D1%81%D0%B8%D1%80%D0%BE%D1%82-2/%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Нормативные документы - ГКУ АО «Центр социальной поддержки населения Приволжского района»",
+          "url": "https://privsoc.ru/normativnye-dokumenty/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Постановление Правительства Астраханской области от 12.07.2024 N 449-П \"О внесении изменений в постановления Правительства Астраханской области\" | ГАРАНТ",
+          "url": "https://base.garant.ru/409366590/",
+          "verification": "search_candidate_only"
+        },
+        {
+          "title": "Законы и другие нормативные акты — Центр социальной поддержки населения Ахтубинского района",
+          "url": "https://aht-cspn.ru/?page_id=3678",
+          "verification": "search_candidate_only"
+        }
+      ],
+      "page_attempts": [
+        {
+          "url": "https://base.garant.ru/404568644/",
+          "kind": "selected_search_result",
+          "page_readable": false,
+          "line_count": 0
+        },
+        {
+          "url": "https://www.astr-gov.ru/doc/81190",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 807
+        },
+        {
+          "url": "https://harcspn.ru/%D0%BE%D0%BF%D0%B5%D0%BA%D0%B0-%D0%B8-%D0%BF%D0%BE%D0%BF%D0%B5%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE/%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0-%D0%B4%D0%B5%D1%82%D0%B5%D0%B9-%D1%81%D0%B8%D1%80%D0%BE%D1%82-2/%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/",
+          "kind": "alternative_search_result",
+          "page_readable": true,
+          "line_count": 15
+        }
+      ],
+      "next_action": "Самостоятельно получить текст и приложения, проверить соответствие акта, редакцию и официальную цепочку изменений; при сбое одного сайта продолжить через другие источники."
+    }
+  ]
+}

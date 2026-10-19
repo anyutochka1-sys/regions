@@ -1,9 +1,9 @@
 {
-  "schema": 1,
+  "schema": 2,
   "updated": "2026-10-19",
-  "title": "Документы для подгрузки и уточнения по регионам",
+  "title": "Самостоятельная сверка документов и подтверждённые запросы помощи",
   "alphabetical_basis": "Порядок названий в data/regions.json: Алтайский край, Амурская область, Архангельская область и далее. Республики находятся на букву Р.",
-  "scope_note": "Начат первый проход по документам первых четырёх регионов. Это не завершённая юридическая проверка и не перечень всех возможных мер. Обзоры есть по 89 регионам; полные действующие НПА и условия продолжают сверяться.",
+  "scope_note": "Документальный проход начат по четырём регионам. Список 40 НПА и 29 неподтверждённых ссылок — рабочая очередь ассистента, а не поручение пользователю. Подтверждённых запросов помощи сейчас нет. Наличие всех действующих текстов и завершённая юридическая проверка не заявляются.",
   "receipt_scope": "Сверены data/intake/index.json, archive-inventory.json, существующие региональные reviews, общий XLSX версии 9 и общий файл источников версии 26. Не утверждается наличие прямого доступа к каждому чату. В доступном архиве полных НПА зарегистрированы документы Красноярского края.",
   "previous_clarifications_file": "data/reviews/previous-clarifications.json",
   "previous_source_notes": {
@@ -14,10 +14,11 @@
   },
   "deduplication_rule": "Один акт — один запрос по региону, виду, дате и номеру; одна редакция с приложениями закрывает все связанные вопросы. Старые замечания остаются под прежними ID; полный обзор повторно не запрашивается.",
   "status_definitions": {
-    "needs_current_full_text": "Официальный источник подтверждает реквизиты, но полная действующая редакция не зарегистрирована в доступном своде.",
-    "needs_reference_check": "Реквизиты взяты из обзора, прежнего замечания или поисковой подсказки. Сначала подтвердить официально; не выдавать за установленный акт.",
-    "needs_identification": "Нет надёжных точных реквизитов либо нужен отдельный порядок/муниципальный акт.",
-    "document_inventory_started": "Прежние вопросы сопоставлены с запросами документов; проверка всех условий не завершена."
+    "needs_current_full_text": "Прежнее обозначение отсутствия полного действующего текста в своде; само по себе не является запросом помощи пользователя. С 19.10.2026 заменено на independent_retrieval_in_progress.",
+    "needs_reference_check": "Моя задача: подтвердить реквизиты и действующий акт. Не запрашивать документ у пользователя вслепую.",
+    "needs_identification": "Моя задача: найти точное основание/порядок. Не является запросом ручной подгрузки.",
+    "document_inventory_started": "Прежние вопросы сопоставлены с запросами документов; проверка всех условий не завершена.",
+    "independent_retrieval_in_progress": "Моя рабочая очередь: самостоятельно получить текст, приложения и изменения. Нуждаемость в помощи пользователя не доказана."
   },
   "counts": {
     "regions_total": 89,
@@ -25,10 +26,12 @@
     "regions_document_inventory_started": 4,
     "regions_awaiting_alphabetical_document_audit": 85,
     "full_legal_reviews_completed_in_this_pass": 0,
-    "confirmed_reference_upload_requests": 40,
     "unverified_act_references": 29,
     "identification_tasks": 35,
-    "previous_clarifications_preserved": 808
+    "previous_clarifications_preserved": 808,
+    "confirmed_reference_documents": 40,
+    "assistant_document_tasks": 69,
+    "user_help_requests_confirmed": 0
   },
   "sources": [
     {
@@ -292,9 +295,8 @@
       "date": "2011-08-31",
       "number": "100-ЗС",
       "title": "О материнском (семейном) капитале в Алтайском крае",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
       "why_needed": "Период рождений, переход права, размер 2026 и денежная выплата; в обзоре смешаны разные капиталы.",
       "review_item_ids": [
         "22-1-first",
@@ -308,7 +310,25 @@
         "a-cap"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://www.aksp.ru/docs/npa_gosuslugi/2025/08/100zs.pdf",
+          "https://docs.cntd.ru/document/453110171",
+          "https://base.garant.ru/7337398/",
+          "https://www.consultant.ru/regbase/cgi/online.cgi?req=doc%3Bbase%3DRLAW016%3Bn%3D75012"
+        ]
+      }
     },
     {
       "id": "22-doc-capital-use",
@@ -317,9 +337,8 @@
       "date": "2011-11-10",
       "number": "646",
       "title": "Об утверждении порядков направления средств (части средств) материнского (семейного) капитала в Алтайском крае",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
       "why_needed": "Все направления, сроки распоряжения, ипотека, газификация и документы. Подтверждены только реквизиты из перечня МФЦ.",
       "review_item_ids": [
         "22-1-capital",
@@ -329,7 +348,25 @@
         "a-use"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://base.garant.ru/7338774/",
+          "https://base.garant.ru/7470745/",
+          "https://base.garant.ru/7482567/",
+          "https://base.garant.ru/7484841/"
+        ]
+      }
     },
     {
       "id": "22-doc-capital-grant",
@@ -340,7 +377,6 @@
       "title": "Положение о порядке предоставления материнского (семейного) капитала в Алтайском крае — реквизиты для проверки",
       "request_status": "needs_reference_check",
       "reference_status": "unverified_search_lead",
-      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
       "why_needed": "Порядок выдачи сертификата; точную действующую редакцию и официальную публикацию ещё найти.",
       "review_item_ids": [
         "22-1-capital"
@@ -348,7 +384,10 @@
       "source_ids": [],
       "full_text_recorded_in_available_intake": false,
       "checked_at": "2026-10-19",
-      "where_to_verify": "https://publication.pravo.gov.ru/"
+      "where_to_verify": "https://publication.pravo.gov.ru/",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными."
     },
     {
       "id": "22-doc-families",
@@ -357,9 +396,8 @@
       "date": "2024-03-29",
       "number": "16-ЗС",
       "title": "О мерах социальной поддержки многодетных семей в Алтайском крае",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
       "why_needed": "Заменяет ошибочную ссылку обзора на № 46-ЗС; статус, возраст, категории и полный перечень мер.",
       "review_item_ids": [
         "22-5-status",
@@ -376,7 +414,25 @@
         "a-family"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://base.garant.ru/408803075/",
+          "https://barnaul.press/upload/iblock/a32/cra1zj0793nb7yngq3knkph4ub0gm3uf/078.pdf",
+          "https://akzs.ru/upload/iblock/8b7/iucpgpgd35eyl7vp8fh5sgfhnme8xmn4/%D0%98%D1%82%D0%BE%D0%B3%D0%B8%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D0%90%D0%BB%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D0%BA%D1%80%D0%B0%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE%20%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%D0%BE%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%A1%D0%BE%D0%B1%D1%80%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B7%D0%B0%202024%20%D0%B3%D0%BE%D0%B4%20%28%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F%29.pdf",
+          "https://deti.gov.ru/uploads/magic/ru-RU/Document-0-381-src-1750674134.9229.pdf"
+        ]
+      }
     },
     {
       "id": "22-doc-school",
@@ -385,9 +441,8 @@
       "date": "2017-04-19",
       "number": "125",
       "title": "О предоставлении мер социальной поддержки семьям с детьми в Алтайском крае",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
       "why_needed": "Полное положение о подготовке к школе: 7 500/5 000 руб., повторный первый класс, крайняя дата подачи и необходимые документы.",
       "review_item_ids": [
         "22-5-school"
@@ -396,7 +451,25 @@
         "a-school"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://lawmix.ru/zakonodatelstvo/2630522",
+          "https://kokld.edu22.info/images/documents/shkolnoe_pitanie/postanovlenie-pravitelstva-ak-125-ot-19-04-2017.pdf",
+          "https://www.lawmix.ru/zakonodatelstvo/2630522",
+          "https://base.garant.ru/405063599/"
+        ]
+      }
     },
     {
       "id": "22-doc-meals",
@@ -405,9 +478,8 @@
       "date": "2024-04-02",
       "number": "85",
       "title": "Об утверждении Порядка обеспечения бесплатным одноразовым горячим питанием детей из многодетных семей",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
       "why_needed": "Питание, возраст, образовательные организации и процедура; муниципальные порядки применяются только в соответствующем районе.",
       "review_item_ids": [
         "22-5-food"
@@ -416,7 +488,25 @@
         "a-family"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://base.garant.ru/408819607/",
+          "https://base.garant.ru/408819607/53f89421bbdaf741eb2d1ecc4ddb4c33/",
+          "https://slavg-obr.ru/Obr_sistema/publichnyj_doklad_za_2023-2024_uch-god.pdf",
+          "https://akzs.ru/upload/iblock/8b7/iucpgpgd35eyl7vp8fh5sgfhnme8xmn4/%D0%98%D1%82%D0%BE%D0%B3%D0%B8%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D0%90%D0%BB%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D0%BA%D1%80%D0%B0%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE%20%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%D0%BE%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%A1%D0%BE%D0%B1%D1%80%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B7%D0%B0%202024%20%D0%B3%D0%BE%D0%B4%20%28%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F%29.pdf"
+        ]
+      }
     },
     {
       "id": "22-doc-land",
@@ -425,9 +515,8 @@
       "date": "2015-11-09",
       "number": "98-ЗС",
       "title": "О бесплатном предоставлении в собственность земельных участков",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
       "why_needed": "Правильный земельный закон; очередность, нуждаемость, проживание и условия замены участка выплатой.",
       "review_item_ids": [
         "22-1-landcomp",
@@ -437,7 +526,25 @@
         "a-land-law"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://base.garant.ru/7377102/",
+          "https://mamontovo22.ru/index.php/ru/arenda",
+          "https://pavlovsk-lib.ru/wp-content/uploads/2025/07/5-aprelya-2025_compressed.pdf",
+          "https://www.lawmix.ru/zakonodatelstvo/2039067_1"
+        ]
+      }
     },
     {
       "id": "22-doc-land-payment",
@@ -446,9 +553,8 @@
       "date": "2022-11-30",
       "number": "451",
       "title": "Об утверждении Порядка предоставления компенсационной выплаты взамен предоставления земельного участка в собственность бесплатно",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
       "why_needed": "АКЗС в мае 2026 указывает 200 тыс. руб. для состоящих на учёте семей с 3+ детьми. Проверить полную редакцию и переходные положения, не использовать 350 тыс. за первенца.",
       "review_item_ids": [
         "22-1-landcomp",
@@ -458,7 +564,25 @@
         "a-land"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://base.garant.ru/405843585/53f89421bbdaf741eb2d1ecc4ddb4c33/",
+          "https://base.garant.ru/405843585/",
+          "https://base.garant.ru/413523518/",
+          "https://vodocanal.biysk22.ru/wp-content/uploads/2012/10/%D0%A0%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5-457_25.11.2022-%D1%82%D0%B0%D1%80%D0%B8%D1%84-%D0%BD%D0%B0-%D0%BF%D0%B8%D1%82%D1%8C%D0%B5%D0%B2%D1%83%D1%8E-%D0%B2%D0%BE%D0%B4%D1%83-%D0%BD%D0%B0-2023-%D0%B3%D0%BE%D0%B4.pdf"
+        ]
+      }
     },
     {
       "id": "22-doc-tax",
@@ -467,9 +591,8 @@
       "date": "2002-10-10",
       "number": "66-ЗС",
       "title": "О транспортном налоге на территории Алтайского края",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
       "why_needed": "Правильный закон вместо № 7-ЗС. Нужна статья 3, мощность, количество ТС, категории и применение в 2026; ЕСХН не самостоятельная семейная льгота.",
       "review_item_ids": [
         "22-6-transport",
@@ -479,7 +602,25 @@
         "a-tax"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://www.nalog.gov.ru/rn77/service/tax/d1510413/",
+          "https://www.nalog.gov.ru/rn22/about_fts/docs/4470661/",
+          "https://www.nalog.gov.ru/rn22/service/tax/d1286839/",
+          "https://www.kontur-extern.ru/info/normativ/document/122/7375-zakon-altayskogo-kraya-ot-10-10-2002-n-66-zs"
+        ]
+      }
     },
     {
       "id": "22-doc-child",
@@ -488,9 +629,8 @@
       "date": "2004-10-15",
       "number": "34-ЗС",
       "title": "О ежемесячном пособии на ребенка",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
       "why_needed": "Правильный закон вместо № 10-ЗС: возраст, доход, повышения и коэффициенты; реквизиты подтверждены судебным источником.",
       "review_item_ids": [
         "22-2-child"
@@ -499,7 +639,25 @@
         "a-child"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://base.garant.ru/7482098/",
+          "https://base.garant.ru/7309978/",
+          "https://www.lawmix.ru/zakonodatelstvo/2040513",
+          "https://base.garant.ru/7309978/741609f9002bd54a24e5c49cb5af953b/"
+        ]
+      }
     },
     {
       "id": "22-doc-child-procedure",
@@ -510,7 +668,6 @@
       "title": "Назначение и выплата ежемесячного пособия; учёт и перечень доходов — реквизиты для проверки",
       "request_status": "needs_reference_check",
       "reference_status": "unverified_search_lead",
-      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
       "why_needed": "Нужен полный действующий порядок вместе с приложениями; официальные реквизиты ещё уточнить.",
       "review_item_ids": [
         "22-2-child"
@@ -518,7 +675,10 @@
       "source_ids": [],
       "full_text_recorded_in_available_intake": false,
       "checked_at": "2026-10-19",
-      "where_to_verify": "https://publication.pravo.gov.ru/"
+      "where_to_verify": "https://publication.pravo.gov.ru/",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными."
     },
     {
       "id": "22-doc-guardians",
@@ -527,9 +687,8 @@
       "date": "2007-04-10",
       "number": "29-ЗС",
       "title": "О порядке и размере выплаты денежных средств детям-сиротам и детям, оставшимся без попечения родителей, на содержание в семье опекуна (попечителя), приемной семье",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
       "why_needed": "Проверить полное актуальное наименование, расширенные категории, содержание и индексацию; № 78-ЗС из обзора не подтверждён.",
       "review_item_ids": [
         "22-7-maintenance",
@@ -539,7 +698,25 @@
         "a-guard"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://base.garant.ru/7484786/",
+          "https://pravo.slavbibl.ru/socium/%D1%81%D0%B5%D0%BC%D1%8C%D0%B5/%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5-%D0%B0%D0%BA%D1%82%D1%8B-%D0%B0%D0%BB%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%BA%D1%80%D0%B0%D1%8F/%D0%BE-%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%BA%D0%B5-%D0%B8-%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%D0%B5-%D0%B2%D1%8B%D0%BF%D0%BB%D0%B0%D1%82%D1%8B-%D0%B4%D0%B5%D0%BD%D0%B5%D0%B6%D0%BD%D1%8B%D1%85-%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2-%D0%B4%D0%B5%D1%82%D1%8F%D0%BC-%D1%81%D0%B8%D1%80%D0%BE%D1%82%D0%B0%D0%BC-%D0%B8-%D0%B4%D0%B5%D1%82%D1%8F%D0%BC%2C-%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D1%88%D0%B8%D0%BC%D1%81%D1%8F-%D0%B1%D0%B5%D0%B7-%D0%BF%D0%BE%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D1%80%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9%2C-%D0%BD%D0%B0-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B2-%D1%81%D0%B5%D0%BC%D1%8C%D0%B5-%D0%BE%D0%BF%D0%B5%D0%BA%D1%83%D0%BD%D0%B0-%28%D0%BF%D0%BE%D0%BF%D0%B5%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D1%8F%29%2C-%D0%BF%D1%80%D0%B8%D0%B5%D0%BC%D0%BD%D0%BE%D0%B9-%D1%81%D0%B5%D0%BC%D1%8C%D0%B5",
+          "https://base.garant.ru/7470902/",
+          "https://www.lawmix.ru/zakonodatelstvo/2040138"
+        ]
+      }
     },
     {
       "id": "22-doc-foster",
@@ -548,9 +725,8 @@
       "date": "2009-12-25",
       "number": "110-ЗС",
       "title": "О вознаграждении приемных родителей",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
       "why_needed": "Проверить базу, надбавки, районные коэффициенты и распределение между родителями.",
       "review_item_ids": [
         "22-7-remuneration"
@@ -559,7 +735,25 @@
         "a-foster"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://base.garant.ru/7329854/1cafb24d049dcd1e7707a22d98e9858f/",
+          "https://komitet-kluchy.edu22.info/index.php/opeka-i-popechitelstvo/federalnoe-i-regionalnoe-zakonodatelstvo",
+          "https://koupr.edu22.info/images/%D0%BC%D0%B5%D1%80%D1%8B-%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B8.pdf",
+          "https://www.lawmix.ru/zakonodatelstvo/2039754"
+        ]
+      }
     },
     {
       "id": "22-doc-foster-procedure",
@@ -568,9 +762,8 @@
       "date": "2007-06-21",
       "number": "277",
       "title": "Об утверждении Положения о порядке и условиях выплаты вознаграждения приемным родителям в Алтайском крае",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
       "why_needed": "Действующий порядок выплаты и отказа; старые версии 2017 года не подтверждают правила октября 2026.",
       "review_item_ids": [
         "22-7-remuneration"
@@ -579,7 +772,25 @@
         "a-foster"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://base.garant.ru/7317988/",
+          "https://base.garant.ru/7482985/",
+          "https://komitet-shl.ucoz.ru/opeka/postanovlenie_administracii_altajskogo-277.pdf",
+          "https://www.lawmix.ru/zakonodatelstvo/2049152"
+        ]
+      }
     },
     {
       "id": "22-doc-adoption",
@@ -588,9 +799,8 @@
       "date": "2014-05-08",
       "number": "57",
       "title": "Об утверждении Положения о порядке назначения и выплаты в Алтайском крае единовременного пособия гражданам, усыновившим детей",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
       "why_needed": "Проверить усыновление отдельно от опеки и приёмной семьи; заявленные в обзоре 15 000 руб. при передаче в приёмную семью не подтверждены.",
       "review_item_ids": [
         "22-7-once"
@@ -599,7 +809,25 @@
         "a-adopt"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://base.garant.ru/7473251/",
+          "https://base.garant.ru/7484818/",
+          "https://www.lawmix.ru/zakonodatelstvo/2057264",
+          "https://baevoobr.edu22.info/opeka-i-popechitelstvo/normativno-pravovye-dokumenty"
+        ]
+      }
     },
     {
       "id": "22-doc-contract",
@@ -608,9 +836,8 @@
       "date": "2023-12-25",
       "number": "27/Пр/384",
       "title": "Об утверждении Порядка предоставления материальной помощи на основании социального контракта",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
       "why_needed": "Разделить ИП, ЛПХ, поиск работы, ТЖС, обучение; лимиты, доход, отказ, отчётность и особенности 2026.",
       "review_item_ids": [
         "22-8-business",
@@ -621,7 +848,25 @@
         "a-contract"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://base.garant.ru/411756901/",
+          "https://base.garant.ru/408297575/",
+          "https://xn--b1agjdtacacymm6ivb.xn--p1ai/poleznoe/zakonodatelstvo/prikaz-altayskiy-kray-27-pr-384.html",
+          "https://base.garant.ru/411756901/d8b01b57742d3a84cbe3048d71fc60a9/"
+        ]
+      }
     },
     {
       "id": "22-doc-budget",
@@ -630,9 +875,8 @@
       "date": "2025-12-01",
       "number": "95-ЗС",
       "title": "О краевом бюджете на 2026 год и на плановый период 2027 и 2028 годов",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
       "why_needed": "Размеры и индексация краевого капитала, детского пособия, содержания детей под опекой и вознаграждения. Нужны соответствующие статьи и приложения с изменениями 2026.",
       "review_item_ids": [
         "22-1-capital",
@@ -644,7 +888,25 @@
         "a-budget"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://www.garant.ru/hotlaw/altai/1941602/",
+          "https://base.garant.ru/413397300/",
+          "https://www.consultant.ru/law/review/reg/rlaw/rlaw0162025-12-05.html",
+          "https://www.garant.ru/hotlaw/altai/archive/2025/12/"
+        ]
+      }
     },
     {
       "id": "22-doc-kindergarten-payment",
@@ -653,9 +915,8 @@
       "date": "2023-12-13",
       "number": "68-П",
       "title": "Об утверждении Положения о порядке и условиях компенсации части платы, взимаемой с родителей (законных представителей) за присмотр и уход за ребенком в образовательных организациях Алтайского края, реализующих образовательную программу дошкольного образования",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
       "why_needed": "Дополнение к обзору: проверить критерии нуждаемости, базу расчёта и порядок компенсации; не путать с приоритетом приёма.",
       "review_item_ids": [
         "22-5-kindergarten"
@@ -664,7 +925,25 @@
         "a-kindergarten"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://base.garant.ru/408196165/",
+          "https://xn--274-mdd4c4a.xn--p1ai/?page_id=24",
+          "https://base.garant.ru/408196165/b89690251be5277812a78962f6302560/",
+          "https://xn----234-4ve0acg4alk4gej.xn--p1ai/?page_id=68"
+        ]
+      }
     },
     {
       "id": "28-doc-first",
@@ -673,9 +952,8 @@
       "date": "2019-02-25",
       "number": "59",
       "title": "Об утверждении Порядка предоставления единовременной денежной выплаты при рождении первого ребенка",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
       "why_needed": "Исправить № 599 от 27.12.2018 из обзора; проверить размер 2026, срок и переход права.",
       "review_item_ids": [
         "28-1.1"
@@ -684,7 +962,25 @@
         "b-first"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://base.garant.ru/42849024/",
+          "https://amur-gov.ru/cat/3/2019/page31",
+          "https://www.garant.ru/hotlaw/amur/archive/2019/",
+          "https://uszn-svob.ru/index.php?catid=8&id=685%3Apostanovlenie-pravitelstva-amurskoj-oblasti-ot-25-fevralya-2019-goda-no59-ob-utverzhdenii-poryadka-predostavleniya-edinovremennoj-denezhnoj-vyplaty-pri-rozhdenii-pervogo-rebenka-6&view=article"
+        ]
+      }
     },
     {
       "id": "28-doc-second",
@@ -693,9 +989,8 @@
       "date": "2019-02-25",
       "number": "60",
       "title": "Об утверждении Порядка предоставления регионального материнского (семейного) капитала при рождении второго ребенка",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
       "why_needed": "Формула 30%, размер на дату назначения, ограничения и распоряжение.",
       "review_item_ids": [
         "28-1.2"
@@ -704,7 +999,25 @@
         "b-second"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://amur-gov.ru/doc/94815",
+          "https://base.garant.ru/42849026/",
+          "https://normativ.kontur.ru/document?documentId=46388&moduleId=118",
+          "https://www.garant.ru/hotlaw/amur/1262584/"
+        ]
+      }
     },
     {
       "id": "28-doc-third",
@@ -713,9 +1026,8 @@
       "date": "2012-01-27",
       "number": "32",
       "title": "Порядок предоставления регионального материнского капитала семьям, родившим (усыновившим) третьего и последующего ребенка",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
       "why_needed": "Точное действующее наименование, периоды рождения, третий/четвёртый ребёнок, нуждаемость, целевые направления и выплата без целевых ограничений. Официальная страница содержит иные периоды, чем обзор.",
       "review_item_ids": [
         "28-1.3"
@@ -724,7 +1036,25 @@
         "b-third"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://amur-gov.ru/doc/41044",
+          "https://amur-gov.ru/doc/83725",
+          "https://base.garant.ru/24112695/",
+          "https://base.garant.ru/24110692/"
+        ]
+      }
     },
     {
       "id": "28-doc-students",
@@ -733,9 +1063,8 @@
       "date": "2024-09-26",
       "number": "761",
       "title": "Порядок предоставления мер социальной поддержки студенческим семьям (наименование на дату принятия; актуальное наименование уточнить)",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
       "why_needed": "Все три меры проверить отдельно: единовременная, до 1,5 лет, наём жилья. Условия для одного студента и для двух родителей не смешивать. Нужна редакция после изменений 2026.",
       "review_item_ids": [
         "28-1.5"
@@ -744,7 +1073,25 @@
         "b-student"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://base.garant.ru/409166198/",
+          "https://base.garant.ru/410469776/",
+          "https://base.garant.ru/414904272/e88847e78ccd9fdb54482c7fa15982bf/",
+          "https://www.consultant.ru/law/review/reg/rlawc/rlawc0802026-01-23.html"
+        ]
+      }
     },
     {
       "id": "28-doc-families",
@@ -753,9 +1100,8 @@
       "date": "2005-01-19",
       "number": "408-ОЗ",
       "title": "О мерах социальной поддержки многодетных семей",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
       "why_needed": "Статус и сроки отдельных льгот; ЖКУ, питание, лекарства, проезд, одежда и СПО проверяются раздельно.",
       "review_item_ids": [
         "28-2.2",
@@ -765,7 +1111,25 @@
         "b-multi"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://base.garant.ru/24170841/",
+          "https://base.garant.ru/24109819/",
+          "https://base.garant.ru/24162724/",
+          "https://base.garant.ru/24192732/"
+        ]
+      }
     },
     {
       "id": "28-doc-tax",
@@ -774,9 +1138,8 @@
       "date": "2002-11-18",
       "number": "142-ОЗ",
       "title": "О транспортном налоге на территории Амурской области",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
       "why_needed": "ФНС подтверждает реквизиты, но открытая страница старой редакции. Нужны ограничения, очники, гибриды и налоговый период 2026.",
       "review_item_ids": [
         "28-6.1"
@@ -785,7 +1148,25 @@
         "b-tax"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://www.kontur-extern.ru/info/normativ/document/118/47785-zakon-amurskoy-oblasti-ot-18-11-2002-n-142-oz",
+          "https://base.garant.ru/24195938/",
+          "https://amur-gov.ru/cat/10/2002/page1",
+          "https://amur-gov.ru/cat/10/2002/11/page1"
+        ]
+      }
     },
     {
       "id": "28-doc-third-amend",
@@ -796,7 +1177,6 @@
       "title": "Изменения постановления от 27.01.2012 № 32 — реквизиты для проверки",
       "request_status": "needs_reference_check",
       "reference_status": "overview_or_previous_review_only",
-      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
       "why_needed": "Указано в прежней сверке; получить официальную публикацию и проверить дату начала применения.",
       "review_item_ids": [
         "28-1.3"
@@ -804,7 +1184,10 @@
       "source_ids": [],
       "full_text_recorded_in_available_intake": false,
       "checked_at": "2026-10-19",
-      "where_to_verify": "https://publication.pravo.gov.ru/"
+      "where_to_verify": "https://publication.pravo.gov.ru/",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными."
     },
     {
       "id": "28-doc-students-amend",
@@ -815,7 +1198,6 @@
       "title": "Изменения постановления от 26.09.2024 № 761 — реквизиты для проверки",
       "request_status": "needs_reference_check",
       "reference_status": "unverified_search_lead",
-      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
       "why_needed": "Найти официальную публикацию изменения и новое наименование порядка; не считать найденную поисковую подсказку полной редакцией.",
       "review_item_ids": [
         "28-1.5"
@@ -823,7 +1205,10 @@
       "source_ids": [],
       "full_text_recorded_in_available_intake": false,
       "checked_at": "2026-10-19",
-      "where_to_verify": "https://publication.pravo.gov.ru/"
+      "where_to_verify": "https://publication.pravo.gov.ru/",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными."
     },
     {
       "id": "28-doc-pregnant",
@@ -834,7 +1219,6 @@
       "title": "Выплата беременным из отдалённых территорий — реквизиты для проверки",
       "request_status": "needs_reference_check",
       "reference_status": "overview_or_previous_review_only",
-      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
       "why_needed": "Реквизиты из обзора: перечень территорий, число выплат и расходы.",
       "review_item_ids": [
         "28-1.6"
@@ -842,7 +1226,10 @@
       "source_ids": [],
       "full_text_recorded_in_available_intake": false,
       "checked_at": "2026-10-19",
-      "where_to_verify": "https://publication.pravo.gov.ru/"
+      "where_to_verify": "https://publication.pravo.gov.ru/",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными."
     },
     {
       "id": "28-doc-mortgage-law",
@@ -853,7 +1240,6 @@
       "title": "Социальная поддержка семей в части погашения ипотечных кредитов — реквизиты для проверки",
       "request_status": "needs_reference_check",
       "reference_status": "overview_or_previous_review_only",
-      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
       "why_needed": "Реквизиты из обзора; нужна официальная редакция с изменениями 2026.",
       "review_item_ids": [
         "28-2.1"
@@ -861,7 +1247,10 @@
       "source_ids": [],
       "full_text_recorded_in_available_intake": false,
       "checked_at": "2026-10-19",
-      "where_to_verify": "https://publication.pravo.gov.ru/"
+      "where_to_verify": "https://publication.pravo.gov.ru/",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными."
     },
     {
       "id": "28-doc-mortgage-procedure",
@@ -872,7 +1261,6 @@
       "title": "Порядок ипотечной выплаты — дата и номер из обзора требуют проверки — реквизиты для проверки",
       "request_status": "needs_reference_check",
       "reference_status": "overview_or_previous_review_only",
-      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
       "why_needed": "Не просить акт как установленный: сначала проверить сочетание даты и номера. Отдельно нужно датированное подтверждение возобновления приёма после приостановки.",
       "review_item_ids": [
         "28-2.1"
@@ -880,7 +1268,10 @@
       "source_ids": [],
       "full_text_recorded_in_available_intake": false,
       "checked_at": "2026-10-19",
-      "where_to_verify": "https://publication.pravo.gov.ru/"
+      "where_to_verify": "https://publication.pravo.gov.ru/",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными."
     },
     {
       "id": "28-doc-triplets",
@@ -891,7 +1282,6 @@
       "title": "Жилищная выплата при одновременном рождении трёх и более детей — реквизиты для проверки",
       "request_status": "needs_reference_check",
       "reference_status": "overview_or_previous_review_only",
-      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
       "why_needed": "Проверить точные реквизиты, 3 млн руб., сроки и проживание.",
       "review_item_ids": [
         "28-2.2"
@@ -899,7 +1289,10 @@
       "source_ids": [],
       "full_text_recorded_in_available_intake": false,
       "checked_at": "2026-10-19",
-      "where_to_verify": "https://publication.pravo.gov.ru/"
+      "where_to_verify": "https://publication.pravo.gov.ru/",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными."
     },
     {
       "id": "28-doc-housing",
@@ -910,7 +1303,6 @@
       "title": "Жилищная выплата семьям с шестью и более детьми — реквизиты для проверки",
       "request_status": "needs_reference_check",
       "reference_status": "overview_or_previous_review_only",
-      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
       "why_needed": "Проверить реквизиты, формулу, состав семьи, приоритеты и свидетельство.",
       "review_item_ids": [
         "28-2.3"
@@ -918,7 +1310,10 @@
       "source_ids": [],
       "full_text_recorded_in_available_intake": false,
       "checked_at": "2026-10-19",
-      "where_to_verify": "https://publication.pravo.gov.ru/"
+      "where_to_verify": "https://publication.pravo.gov.ru/",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными."
     },
     {
       "id": "28-doc-land",
@@ -929,7 +1324,6 @@
       "title": "Бесплатное предоставление в собственность граждан земельных участков на территории Амурской области — реквизиты для проверки",
       "request_status": "needs_reference_check",
       "reference_status": "overview_or_previous_review_only",
-      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
       "why_needed": "Сверить официальное наименование, нуждаемость, проживание, учёт и цели участка.",
       "review_item_ids": [
         "28-2.4"
@@ -937,7 +1331,10 @@
       "source_ids": [],
       "full_text_recorded_in_available_intake": false,
       "checked_at": "2026-10-19",
-      "where_to_verify": "https://publication.pravo.gov.ru/"
+      "where_to_verify": "https://publication.pravo.gov.ru/",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными."
     },
     {
       "id": "28-doc-vehicle-seven",
@@ -948,7 +1345,6 @@
       "title": "Автотранспорт и сельхозтехника семьям с семью и более детьми — реквизиты для проверки",
       "request_status": "needs_reference_check",
       "reference_status": "overview_or_previous_review_only",
-      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
       "why_needed": "Проверить лимит, возраст техники, сертификат и право на повторное обращение.",
       "review_item_ids": [
         "28-3.1"
@@ -956,7 +1352,10 @@
       "source_ids": [],
       "full_text_recorded_in_available_intake": false,
       "checked_at": "2026-10-19",
-      "where_to_verify": "https://publication.pravo.gov.ru/"
+      "where_to_verify": "https://publication.pravo.gov.ru/",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными."
     },
     {
       "id": "28-doc-vehicle-five",
@@ -967,7 +1366,6 @@
       "title": "Автотранспорт семьям с пятью и более детьми по социальному контракту — реквизиты для проверки",
       "request_status": "needs_reference_check",
       "reference_status": "overview_or_previous_review_only",
-      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
       "why_needed": "Не объединять с порядком № 381; подтвердить реквизиты и условия.",
       "review_item_ids": [
         "28-3.1"
@@ -975,7 +1373,10 @@
       "source_ids": [],
       "full_text_recorded_in_available_intake": false,
       "checked_at": "2026-10-19",
-      "where_to_verify": "https://publication.pravo.gov.ru/"
+      "where_to_verify": "https://publication.pravo.gov.ru/",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными."
     },
     {
       "id": "28-doc-mother-glory",
@@ -986,7 +1387,6 @@
       "title": "О почётном знаке «Материнская слава» — реквизиты для проверки",
       "request_status": "needs_reference_check",
       "reference_status": "overview_or_previous_review_only",
-      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
       "why_needed": "Проверить число детей, возраст младшего, квоту, поощрение и отдельное основание пенсионной доплаты.",
       "review_item_ids": [
         "28-3.2"
@@ -994,7 +1394,10 @@
       "source_ids": [],
       "full_text_recorded_in_available_intake": false,
       "checked_at": "2026-10-19",
-      "where_to_verify": "https://publication.pravo.gov.ru/"
+      "where_to_verify": "https://publication.pravo.gov.ru/",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными."
     },
     {
       "id": "28-doc-contract",
@@ -1005,7 +1408,6 @@
       "title": "Государственная социальная помощь на основании социального контракта — реквизиты для проверки",
       "request_status": "needs_reference_check",
       "reference_status": "overview_or_previous_review_only",
-      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
       "why_needed": "Нужны официальный порядок с поправками 2026, северная/южная зоны, доход, лимиты и отчётность.",
       "review_item_ids": [
         "28-4"
@@ -1013,7 +1415,10 @@
       "source_ids": [],
       "full_text_recorded_in_available_intake": false,
       "checked_at": "2026-10-19",
-      "where_to_verify": "https://publication.pravo.gov.ru/"
+      "where_to_verify": "https://publication.pravo.gov.ru/",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными."
     },
     {
       "id": "28-doc-adoption",
@@ -1024,7 +1429,6 @@
       "title": "О денежной выплате при передаче ребёнка на воспитание в семью — реквизиты для проверки",
       "request_status": "needs_reference_check",
       "reference_status": "overview_or_previous_review_only",
-      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
       "why_needed": "Все суммы из обзора требуют проверки индексации 2026; отдельно усыновление, опека, ОВЗ и инвалидность.",
       "review_item_ids": [
         "28-5.1"
@@ -1032,7 +1436,10 @@
       "source_ids": [],
       "full_text_recorded_in_available_intake": false,
       "checked_at": "2026-10-19",
-      "where_to_verify": "https://publication.pravo.gov.ru/"
+      "where_to_verify": "https://publication.pravo.gov.ru/",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными."
     },
     {
       "id": "28-doc-guardians",
@@ -1043,7 +1450,6 @@
       "title": "Содержание детей и вознаграждение приёмных родителей — реквизиты для проверки",
       "request_status": "needs_reference_check",
       "reference_status": "overview_or_previous_review_only",
-      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
       "why_needed": "Проверить точное название, индексацию, районы и последние изменения, а не сохранять суммы обзора.",
       "review_item_ids": [
         "28-5.2"
@@ -1051,7 +1457,10 @@
       "source_ids": [],
       "full_text_recorded_in_available_intake": false,
       "checked_at": "2026-10-19",
-      "where_to_verify": "https://publication.pravo.gov.ru/"
+      "where_to_verify": "https://publication.pravo.gov.ru/",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными."
     },
     {
       "id": "28-doc-orphans",
@@ -1062,7 +1471,6 @@
       "title": "Дополнительные гарантии социальной поддержки детей-сирот — реквизиты для проверки",
       "request_status": "needs_reference_check",
       "reference_status": "overview_or_previous_review_only",
-      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
       "why_needed": "Возраст и обучение после 18 лет, районные размеры, право и срок обращения.",
       "review_item_ids": [
         "28-5.3"
@@ -1070,7 +1478,10 @@
       "source_ids": [],
       "full_text_recorded_in_available_intake": false,
       "checked_at": "2026-10-19",
-      "where_to_verify": "https://publication.pravo.gov.ru/"
+      "where_to_verify": "https://publication.pravo.gov.ru/",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными."
     },
     {
       "id": "28-doc-fertility",
@@ -1081,7 +1492,6 @@
       "title": "Региональная программа повышения рождаемости — реквизиты для проверки",
       "request_status": "needs_reference_check",
       "reference_status": "overview_or_previous_review_only",
-      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
       "why_needed": "Проверить действующую программу 2026–2030, подарок новорождённому и сертификат здоровья; программа не заменяет порядок выдачи.",
       "review_item_ids": [
         "28-7"
@@ -1089,7 +1499,10 @@
       "source_ids": [],
       "full_text_recorded_in_available_intake": false,
       "checked_at": "2026-10-19",
-      "where_to_verify": "https://publication.pravo.gov.ru/"
+      "where_to_verify": "https://publication.pravo.gov.ru/",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными."
     },
     {
       "id": "28-doc-svo-family",
@@ -1100,7 +1513,6 @@
       "title": "Поддержка семей участников СВО — реквизиты для проверки",
       "request_status": "needs_reference_check",
       "reference_status": "overview_or_previous_review_only",
-      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
       "why_needed": "Уточнить предмет и действующую редакцию; разделить категории родственников.",
       "review_item_ids": [
         "28-7"
@@ -1108,7 +1520,10 @@
       "source_ids": [],
       "full_text_recorded_in_available_intake": false,
       "checked_at": "2026-10-19",
-      "where_to_verify": "https://publication.pravo.gov.ru/"
+      "where_to_verify": "https://publication.pravo.gov.ru/",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными."
     },
     {
       "id": "28-doc-svo-meals",
@@ -1119,7 +1534,6 @@
       "title": "Питание детей участников СВО — реквизиты для проверки",
       "request_status": "needs_reference_check",
       "reference_status": "overview_or_previous_review_only",
-      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
       "why_needed": "Уточнить предмет, образовательные организации, категории и процедуру.",
       "review_item_ids": [
         "28-7"
@@ -1127,7 +1541,10 @@
       "source_ids": [],
       "full_text_recorded_in_available_intake": false,
       "checked_at": "2026-10-19",
-      "where_to_verify": "https://publication.pravo.gov.ru/"
+      "where_to_verify": "https://publication.pravo.gov.ru/",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными."
     },
     {
       "id": "28-doc-third-monthly",
@@ -1138,7 +1555,6 @@
       "title": "Ежемесячная выплата на третьего и последующих детей до трёх лет — реквизиты для проверки",
       "request_status": "needs_reference_check",
       "reference_status": "overview_or_previous_review_only",
-      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
       "why_needed": "Архивная проверка: для заявленного периода рождений до 31.12.2022 к октябрю 2026 возраст до трёх лет истёк. Не ставить в приоритет действующих карточек.",
       "review_item_ids": [
         "28-1.4"
@@ -1146,7 +1562,10 @@
       "source_ids": [],
       "full_text_recorded_in_available_intake": false,
       "checked_at": "2026-10-19",
-      "where_to_verify": "https://publication.pravo.gov.ru/"
+      "where_to_verify": "https://publication.pravo.gov.ru/",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными."
     },
     {
       "id": "29-doc-family-law",
@@ -1155,9 +1574,8 @@
       "date": "2016-12-05",
       "number": "496-30-ОЗ",
       "title": "О социальной поддержке семей, воспитывающих детей, в Архангельской области",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
       "why_needed": "Капитал, молодые матери, детские пособия и многодетные: возраст, доход, периоды рождения, размеры, сроки и беззаявительность. Не считать разные суммы обзора одной подтверждённой выплатой.",
       "review_item_ids": [
         "29-source-topic-b05d888704c0",
@@ -1172,7 +1590,25 @@
         "audit2930-ark496"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://base.garant.ru/42964582/",
+          "https://base.garant.ru/25143349/",
+          "https://arkh-gov.ru/doc/69237",
+          "https://arkh-gov.ru/cat/9/2016/12/5/page1"
+        ]
+      }
     },
     {
       "id": "29-doc-family-procedures",
@@ -1181,9 +1617,8 @@
       "date": "2016-12-30",
       "number": "575-пп",
       "title": "О мерах по реализации областного закона «О социальной поддержке семей, воспитывающих детей, в Архангельской области»",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
       "why_needed": "Нужны все действующие приложения: пособия, молодые матери, статус, капитал, ЖКУ, расчёт дохода, диплом «Признательность», уход за ребёнком-инвалидом и платное СПО. Доступная копия 2024 года не заменяет редакцию 2026.",
       "review_item_ids": [
         "29-source-topic-b05d888704c0",
@@ -1203,6 +1638,24 @@
         "amendments_through": "2024-07-22",
         "pages": 224,
         "note": "Старую копию повторно подгружать не требуется; нужна действующая редакция и недостающие изменения."
+      },
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://base.garant.ru/25147326/",
+          "https://base.garant.ru/25147795/",
+          "https://base.garant.ru/25147793/",
+          "https://arkh-gov.ru/doc/69422"
+        ]
       }
     },
     {
@@ -1212,9 +1665,8 @@
       "date": "2025-11-12",
       "number": "997-пп",
       "title": "Об утверждении величины прожиточного минимума в Архангельской области на 2026 год",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
       "why_needed": "Полное приложение с перечнем территорий и групп ПМ. Областное среднее, территории Крайнего Севера и приравненные территории не взаимозаменяемы; НАО вести отдельно.",
       "review_item_ids": [
         "29-source-topic-cf411d41b736",
@@ -1226,7 +1678,25 @@
         "audit2930-sfr-pm"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://www.garant.ru/hotlaw/arhangelsk/1918761/",
+          "https://www.consultant.ru/document/cons_doc_LAW_407365/",
+          "https://www.garant.ru/hotlaw/arhangelsk/archive/2025/11/22/",
+          "https://www.garant.ru/hotlaw/arhangelsk/archive/2025/11/"
+        ]
+      }
     },
     {
       "id": "29-doc-land",
@@ -1235,9 +1705,8 @@
       "date": "2003-10-07",
       "number": "192-24-ОЗ",
       "title": "О порядке предоставления земельных участков отдельным категориям граждан",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
       "why_needed": "Постановка в реестр, состав семьи, проживание, очередь, право на участок и согласие на денежную замену.",
       "review_item_ids": [
         "29-source-topic-e44e23c4fdc6"
@@ -1246,7 +1715,25 @@
         "audit2930-arkland"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://base.garant.ru/25110334/",
+          "https://base.garant.ru/25191723/",
+          "https://base.garant.ru/25219295/",
+          "https://base.garant.ru/25208610/"
+        ]
+      }
     },
     {
       "id": "29-doc-forest",
@@ -1255,9 +1742,8 @@
       "date": "2007-06-27",
       "number": "368-19-ОЗ",
       "title": "О реализации органами государственной власти Архангельской области государственных полномочий в сфере лесных отношений",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
       "why_needed": "Древесина многодетным: норматив и периодичность, платность/договор, документы, цели строительства и применимая территория. Не называть норматив бесплатной денежной выплатой.",
       "review_item_ids": [
         "29-source-topic-b4c8b3d607e9"
@@ -1266,7 +1752,25 @@
         "audit2930-arkforest"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://base.garant.ru/25251735/",
+          "https://base.garant.ru/25106402/",
+          "https://base.garant.ru/25226237/",
+          "https://base.garant.ru/25273257/"
+        ]
+      }
     },
     {
       "id": "29-doc-orphans",
@@ -1275,9 +1779,8 @@
       "date": "2012-12-17",
       "number": "591-36-ОЗ",
       "title": "О социальной поддержке детей-сирот и детей, оставшихся без попечения родителей, лиц из числа детей-сирот и детей, оставшихся без попечения родителей, в Архангельской области",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
       "why_needed": "Содержание под опекой, вознаграждение, надбавки и гарантии. Суммы агрегаторов и районные коэффициенты не подтверждены.",
       "review_item_ids": [
         "29-source-topic-05856f0dfcd4"
@@ -1286,7 +1789,25 @@
         "audit2930-ark591"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://base.garant.ru/25130926/",
+          "https://base.garant.ru/25278382/",
+          "https://base.garant.ru/25147644/",
+          "https://arkh-gov.ru/doc/60054"
+        ]
+      }
     },
     {
       "id": "29-doc-tax",
@@ -1295,9 +1816,8 @@
       "date": "2002-10-01",
       "number": "112-16-ОЗ",
       "title": "О транспортном налоге",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
       "why_needed": "Действующие льготы 2026: один автомобиль/одно ТС, мощность, максимальный налог, очники, приёмные семьи и отличие региональной льготы от федеральной.",
       "review_item_ids": [
         "29-source-topic-f9054a190273"
@@ -1306,7 +1826,25 @@
         "audit2930-arktax"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://base.garant.ru/25168616/",
+          "https://base.garant.ru/25192696/",
+          "https://www.klerk.ru/doc/411018/",
+          "https://www.klerk.ru/doc/126691/"
+        ]
+      }
     },
     {
       "id": "29-doc-contract",
@@ -1315,9 +1853,8 @@
       "date": "2024-08-15",
       "number": "640-пп",
       "title": "О порядке и условиях назначения и предоставлении государственной социальной помощи на основании социального контракта",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
       "why_needed": "Отдельно ИП, ЛПХ, работа, обучение, ТЖС, отчётность и повторное обращение. Ремонт на 80 тыс. не считать стандартным направлением без отдельного основания.",
       "review_item_ids": [
         "29-source-topic-a8227180b9c4",
@@ -1327,7 +1864,25 @@
         "audit2930-ark640"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 6,
+        "page_attempt_count": 1,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://base.garant.ru/409558623/",
+          "https://base.garant.ru/42191132/",
+          "https://www.consultant.ru/law/review/reg/rlawc/rlawc0132024-11-15.html",
+          "https://www.consultant.ru/law/review/reg/rlawc/rlawc0132026-06-05.html"
+        ]
+      }
     },
     {
       "id": "29-doc-budget-2026",
@@ -1336,9 +1891,8 @@
       "date": "2025-12-22",
       "number": "313-22-ОЗ",
       "title": "Об областном бюджете на 2026 год и на плановый период 2027 и 2028 годов",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
       "why_needed": "Статьи/приложения об индексации пособий и вознаграждения; дату и коэффициент индексации 2026 подтвердить документом.",
       "review_item_ids": [
         "29-source-topic-b05d888704c0",
@@ -1350,7 +1904,25 @@
         "audit2930-arkbudget"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://base.garant.ru/413320874/",
+          "https://base.garant.ru/413320874/36bfb7176e3e8bfebe718035887e4efc/",
+          "https://base.garant.ru/413320874/10ed0f917186039eb157d3ba4f962ee5/",
+          "https://29.mchs.gov.ru/uploads/resource/2026-01-16/5-1-normativnye-pravovye-akty_17685798461261355752.pdf"
+        ]
+      }
     },
     {
       "id": "30-doc-social-law",
@@ -1359,9 +1931,8 @@
       "date": "2016-12-22",
       "number": "85/2016-ОЗ",
       "title": "О мерах социальной поддержки и социальной помощи отдельным категориям граждан в Астраханской области",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
       "why_needed": "Правильные дата и наименование вместо 07.12.2011 и узкого названия из обзора. Нужны критерии поддержки, капитал, многодетные, инвалидность, детсад, пособия и соцконтракт.",
       "review_item_ids": [
         "30-section-2",
@@ -1380,7 +1951,25 @@
         "audit2930-astra85"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://base.garant.ru/9210065/",
+          "https://www.astr-gov.ru/doc/72988",
+          "https://base.garant.ru/9100053/",
+          "https://base.garant.ru/46454144/"
+        ]
+      }
     },
     {
       "id": "30-doc-pm-2026",
@@ -1389,9 +1978,8 @@
       "date": "2025-11-11",
       "number": "715-П",
       "title": "О величине прожиточного минимума на 2026 год",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
       "why_needed": "Исправить дату 25.09.2025 и перестановку групп в v3: СФР указывает 18 371 на душу, 20 024 трудоспособным, 17 820 детям. Приложить полный акт для всех групп.",
       "review_item_ids": [
         "30-section-1"
@@ -1400,7 +1988,25 @@
         "audit2930-sfr-pm"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://sfr.gov.ru/grazhdanam/dop_info/prozhitochniy_min_deti/velichina_projitochnogo_minimuma_v_subektah_Rossiiskoi_Federacii_na_tekushchiy_god/",
+          "https://www.consultant.ru/document/cons_doc_LAW_407365/",
+          "https://www.calcal.ru/prozhitochnyj-minimum-astrahanskaya-oblast-2026",
+          "https://www.garant.ru/hotlaw/astra/archive/2025/"
+        ]
+      }
     },
     {
       "id": "30-doc-tax",
@@ -1409,9 +2015,8 @@
       "date": "2002-11-22",
       "number": "49/2002-ОЗ",
       "title": "О транспортном налоге",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
       "why_needed": "Правильный закон вместо № 67/2007-ОЗ. Условия льгот для многодетных, инвалидности и семей погибших проверить по статье о льготах за период 2026.",
       "review_item_ids": [
         "30-section-16"
@@ -1420,7 +2025,25 @@
         "audit2930-astratax"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://base.garant.ru/9292890/",
+          "https://www.nalog.gov.ru/html/sites/www.rn30.nalog.ru/doks/%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%BD%D1%8B%D0%B9221102.pdf",
+          "https://base.garant.ru/9106285/",
+          "https://base.garant.ru/9283240/"
+        ]
+      }
     },
     {
       "id": "30-doc-contract",
@@ -1429,9 +2052,8 @@
       "date": "2023-12-25",
       "number": "794-П",
       "title": "Об отдельных вопросах оказания социальной помощи на основании социального контракта",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
       "why_needed": "Точное актуальное наименование и приложения после изменений 2026. В v2/v3 различаются лимиты ЛПХ и «иные направления»; частный сад, наём и ЧОП требуют отдельных пунктов.",
       "review_item_ids": [
         "30-section-14"
@@ -1440,7 +2062,25 @@
         "audit2930-astra794"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://astr-gov.ru/doc/83251",
+          "https://base.garant.ru/408332919/",
+          "https://astr-gov.ru/cat/3/page1",
+          "https://astr-gov.ru/cat/3/2023/12/25/page1"
+        ]
+      }
     },
     {
       "id": "30-doc-camps",
@@ -1449,9 +2089,8 @@
       "date": "2020-11-16",
       "number": "529-П",
       "title": "О Порядке предоставления путевок в санаторно-курортные организации, в организации отдыха детей и их оздоровления, расположенные на территории Российской Федерации",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
       "why_needed": "Исправить дату 29.07.2022 из обзора. Проверить возраст, категории, медицинские показания, периодичность и порядок заявления в 2026.",
       "review_item_ids": [
         "30-section-13"
@@ -1460,7 +2099,30 @@
         "audit2930-astra529"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://base.garant.ru/400485443/",
+          "https://base.garant.ru/408876959/",
+          "https://base.garant.ru/406756797/",
+          "https://www.consultant.ru/law/review/reg/rlaw/rlaw3222025-04-18.html"
+        ]
+      },
+      "current_act_check_warning": {
+        "note": "Повторный поиск обнаружил одноимённый порядок от 10.04.2025 № 214-П. Самостоятельно проверить его официальную публикацию и соотношение с № 529-П от 16.11.2020; старый акт не запрашивать у пользователя как заведомо действующий.",
+        "candidate_url": "https://base.garant.ru/411877354/",
+        "status": "replacement_requires_legal_verification"
+      }
     },
     {
       "id": "30-doc-land",
@@ -1469,9 +2131,8 @@
       "date": "2008-03-04",
       "number": "7/2008-ОЗ",
       "title": "Об отдельных вопросах правового регулирования земельных отношений в Астраханской области",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
       "why_needed": "Действующие условия бесплатного участка, реестр, нуждаемость и очередность. Утверждение обзора об отсутствии денежной замены проверить по действующему праву, а не старому законопроекту.",
       "review_item_ids": [
         "30-section-7",
@@ -1481,7 +2142,25 @@
         "audit2930-astraland"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://base.garant.ru/9299351/",
+          "https://base.garant.ru/9297222/",
+          "https://base.garant.ru/9296430/",
+          "https://base.garant.ru/9285723/"
+        ]
+      }
     },
     {
       "id": "30-doc-orphans",
@@ -1490,9 +2169,8 @@
       "date": "2002-02-11",
       "number": "6/2002-ОЗ",
       "title": "О защите прав детей-сирот и детей, оставшихся без попечения родителей, лиц из числа детей-сирот и детей, оставшихся без попечения родителей, а также лиц, потерявших в период обучения обоих родителей или единственного родителя, в Астраханской области",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
       "why_needed": "Содержание детей, вознаграждение приёмным родителям, надбавки и выпускники: размеры, возраст, индексация и исключения.",
       "review_item_ids": [
         "30-section-12"
@@ -1501,7 +2179,25 @@
         "audit2930-astraorphans"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://base.garant.ru/9100095/",
+          "https://base.garant.ru/9293136/",
+          "https://base.garant.ru/9292877/",
+          "https://www.astr-gov.ru/doc/45694"
+        ]
+      }
     },
     {
       "id": "30-doc-orphans-rent",
@@ -1510,9 +2206,8 @@
       "date": "2022-04-29",
       "number": "187-П",
       "title": "О Порядке и условиях предоставления денежной компенсации платы за одно жилое помещение, расположенное на территории Астраханской области, по договору найма жилого помещения из частного жилищного фонда",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
       "why_needed": "Дополнение к общим словам обзора о жилье детей-сирот: категории, отсутствие жилья, предел компенсации и сроки.",
       "review_item_ids": [
         "30-section-12"
@@ -1521,7 +2216,25 @@
         "audit2930-astraorphans"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://www.astr-gov.ru/cat/3/2022/4/page1",
+          "https://base.garant.ru/404568642/",
+          "https://harcspn.ru/%D0%BE%D0%BF%D0%B5%D0%BA%D0%B0-%D0%B8-%D0%BF%D0%BE%D0%BF%D0%B5%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE/%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0-%D0%B4%D0%B5%D1%82%D0%B5%D0%B9-%D1%81%D0%B8%D1%80%D0%BE%D1%82-2/%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/",
+          "https://privsoc.ru/normativnye-dokumenty/"
+        ]
+      }
     },
     {
       "id": "30-doc-orphans-housing",
@@ -1530,9 +2243,8 @@
       "date": "2022-04-29",
       "number": "188-П",
       "title": "О Порядке и условиях предоставления единовременной денежной выплаты на приобретение жилого помещения в собственность, а также порядке ее возврата",
-      "request_status": "needs_current_full_text",
+      "request_status": "independent_retrieval_in_progress",
       "reference_status": "official_reference_found",
-      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
       "why_needed": "Отдельный порядок жилищной выплаты детям-сиротам; не объединять с обычным предоставлением жилья и наймом.",
       "review_item_ids": [
         "30-section-12"
@@ -1541,7 +2253,25 @@
         "audit2930-astraorphans"
       ],
       "full_text_recorded_in_available_intake": false,
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если более поздние изменения не включены — приложить их с датами вступления в силу.",
+      "previous_request_status": "needs_current_full_text",
+      "internet_check": {
+        "checked_at": "2026-10-19",
+        "evidence_file": "data/reviews/internet-access-check-2026-10-19.json",
+        "search_candidates_found": 8,
+        "page_attempt_count": 3,
+        "full_current_text_verified": false,
+        "result": "Продолжить самостоятельное получение и сверку; необходимость помощи пользователя не подтверждена.",
+        "candidate_urls": [
+          "https://www.astr-gov.ru/doc/81190",
+          "https://base.garant.ru/404568644/",
+          "https://www.astr-gov.ru/cat/3/2022/4/page1",
+          "https://www.consultant.ru/law/review/reg/rlawc/rlawc3222026-01-23.html"
+        ]
+      }
     },
     {
       "id": "29-doc-land-payment-program",
@@ -1552,7 +2282,6 @@
       "title": "Об утверждении государственной программы Архангельской области «Социальная поддержка граждан в Архангельской области»",
       "request_status": "needs_reference_check",
       "reference_status": "unverified_search_lead",
-      "what_to_upload": "Сначала подтвердить официальную публикацию, дату, номер и предмет акта. До этого не считать документ установленным; поправку отдельно не запрашивать, если она включена в полученную действующую редакцию основного акта.",
       "why_needed": "Проверить действующее приложение о выплате взамен земли; суммы 210/260/310 тыс. и этап реестра из обзора пока не подтверждены.",
       "review_item_ids": [
         "29-source-topic-e44e23c4fdc6"
@@ -1560,7 +2289,10 @@
       "source_ids": [],
       "full_text_recorded_in_available_intake": false,
       "checked_at": "2026-10-19",
-      "where_to_verify": "https://publication.pravo.gov.ru/"
+      "where_to_verify": "https://publication.pravo.gov.ru/",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Сначала подтвердить официальную публикацию, дату, номер и предмет акта. До этого не считать документ установленным; поправку отдельно не запрашивать, если она включена в полученную действующую редакцию основного акта."
     },
     {
       "id": "29-doc-land-payment-amendment",
@@ -1571,7 +2303,6 @@
       "title": "Изменение этапа денежной выплаты взамен земельного участка — реквизиты из обзора",
       "request_status": "needs_reference_check",
       "reference_status": "unverified_search_lead",
-      "what_to_upload": "Сначала подтвердить официальную публикацию, дату, номер и предмет акта. До этого не считать документ установленным; поправку отдельно не запрашивать, если она включена в полученную действующую редакцию основного акта.",
       "why_needed": "Подтвердить официальную публикацию и базовый акт; если поправка включена в актуальное приложение № 464-пп, отдельно её повторно не запрашивать.",
       "review_item_ids": [
         "29-source-topic-e44e23c4fdc6"
@@ -1579,7 +2310,10 @@
       "source_ids": [],
       "full_text_recorded_in_available_intake": false,
       "checked_at": "2026-10-19",
-      "where_to_verify": "https://publication.pravo.gov.ru/"
+      "where_to_verify": "https://publication.pravo.gov.ru/",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Сначала подтвердить официальную публикацию, дату, номер и предмет акта. До этого не считать документ установленным; поправку отдельно не запрашивать, если она включена в полученную действующую редакцию основного акта."
     },
     {
       "id": "29-doc-social-assistance-law",
@@ -1590,7 +2324,6 @@
       "title": "О государственной социальной помощи на территории Архангельской области",
       "request_status": "needs_reference_check",
       "reference_status": "unverified_search_lead",
-      "what_to_upload": "Сначала подтвердить официальную публикацию, дату, номер и предмет акта. До этого не считать документ установленным; поправку отдельно не запрашивать, если она включена в полученную действующую редакцию основного акта.",
       "why_needed": "Найден как правовая основа соцпомощи; требуется официальная редакция. Проверить помощь до 6 600 руб. и региональные направления вне федерального соцконтракта.",
       "review_item_ids": [
         "29-source-topic-a8227180b9c4",
@@ -1599,7 +2332,10 @@
       "source_ids": [],
       "full_text_recorded_in_available_intake": false,
       "checked_at": "2026-10-19",
-      "where_to_verify": "https://publication.pravo.gov.ru/"
+      "where_to_verify": "https://publication.pravo.gov.ru/",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Сначала подтвердить официальную публикацию, дату, номер и предмет акта. До этого не считать документ установленным; поправку отдельно не запрашивать, если она включена в полученную действующую редакцию основного акта."
     },
     {
       "id": "29-doc-svo",
@@ -1610,7 +2346,6 @@
       "title": "О предоставлении мер поддержки отдельным категориям граждан",
       "request_status": "needs_reference_check",
       "reference_status": "unverified_search_lead",
-      "what_to_upload": "Сначала подтвердить официальную публикацию, дату, номер и предмет акта. До этого не считать документ установленным; поправку отдельно не запрашивать, если она включена в полученную действующую редакцию основного акта.",
       "why_needed": "Реквизиты взяты из обзора; нужна официальная редакция на октябрь 2026, включая все изменения после июня. Разделить выплату военнослужащему и права семьи при гибели.",
       "review_item_ids": [
         "29-source-topic-37bb106ede8f"
@@ -1618,7 +2353,10 @@
       "source_ids": [],
       "full_text_recorded_in_available_intake": false,
       "checked_at": "2026-10-19",
-      "where_to_verify": "https://publication.pravo.gov.ru/"
+      "where_to_verify": "https://publication.pravo.gov.ru/",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Сначала подтвердить официальную публикацию, дату, номер и предмет акта. До этого не считать документ установленным; поправку отдельно не запрашивать, если она включена в полученную действующую редакцию основного акта."
     },
     {
       "id": "29-doc-reservists",
@@ -1629,7 +2367,6 @@
       "title": "Поддержка граждан, заключивших контракт о пребывании в мобилизационном людском резерве и направленных на специальные сборы",
       "request_status": "needs_reference_check",
       "reference_status": "unverified_search_lead",
-      "what_to_upload": "Сначала подтвердить официальную публикацию, дату, номер и предмет акта. До этого не считать документ установленным; поправку отдельно не запрашивать, если она включена в полученную действующую редакцию основного акта.",
       "why_needed": "Подтвердить официальные реквизиты, полный порядок и последующие изменения; не подтверждать суммы по обзору.",
       "review_item_ids": [
         "29-source-topic-37bb106ede8f"
@@ -1637,7 +2374,10 @@
       "source_ids": [],
       "full_text_recorded_in_available_intake": false,
       "checked_at": "2026-10-19",
-      "where_to_verify": "https://publication.pravo.gov.ru/"
+      "where_to_verify": "https://publication.pravo.gov.ru/",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Сначала подтвердить официальную публикацию, дату, номер и предмет акта. До этого не считать документ установленным; поправку отдельно не запрашивать, если она включена в полученную действующую редакцию основного акта."
     },
     {
       "id": "29-doc-birth-program",
@@ -1648,7 +2388,6 @@
       "title": "Региональная программа повышения рождаемости — поисковая подсказка",
       "request_status": "needs_reference_check",
       "reference_status": "unverified_search_lead",
-      "what_to_upload": "Сначала подтвердить официальную публикацию, дату, номер и предмет акта. До этого не считать документ установленным; поправку отдельно не запрашивать, если она включена в полученную действующую редакцию основного акта.",
       "why_needed": "Это другой акт, чем № 575-пп от 30.12.2016. Найти официальную программу 2026–2030 и отдельные порядки новых мер, отсутствующих в обзоре.",
       "review_item_ids": [
         "29-source-topic-45107c9fd94e"
@@ -1656,7 +2395,10 @@
       "source_ids": [],
       "full_text_recorded_in_available_intake": false,
       "checked_at": "2026-10-19",
-      "where_to_verify": "https://publication.pravo.gov.ru/"
+      "where_to_verify": "https://publication.pravo.gov.ru/",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Сначала подтвердить официальную публикацию, дату, номер и предмет акта. До этого не считать документ установленным; поправку отдельно не запрашивать, если она включена в полученную действующую редакцию основного акта."
     },
     {
       "id": "30-doc-triplets",
@@ -1667,7 +2409,6 @@
       "title": "О Порядке и условиях предоставления единовременной материальной помощи семьям при рождении (усыновлении) одновременно трех и более детей",
       "request_status": "needs_reference_check",
       "reference_status": "unverified_search_lead",
-      "what_to_upload": "Сначала подтвердить официальную публикацию, дату, номер и предмет акта. До этого не считать документ установленным; поправку отдельно не запрашивать, если она включена в полученную действующую редакцию основного акта.",
       "why_needed": "Найденная поисковая подсказка ещё требует официального текста: 100 тыс. на каждого, доход, рождение/усыновление и срок обращения.",
       "review_item_ids": [
         "30-section-3"
@@ -1675,7 +2416,10 @@
       "source_ids": [],
       "full_text_recorded_in_available_intake": false,
       "checked_at": "2026-10-19",
-      "where_to_verify": "https://publication.pravo.gov.ru/"
+      "where_to_verify": "https://publication.pravo.gov.ru/",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Сначала подтвердить официальную публикацию, дату, номер и предмет акта. До этого не считать документ установленным; поправку отдельно не запрашивать, если она включена в полученную действующую редакцию основного акта."
     },
     {
       "id": "30-doc-budget-2026",
@@ -1686,7 +2430,6 @@
       "title": "О бюджете Астраханской области на 2026 год и на плановый период 2027 и 2028 годов",
       "request_status": "needs_reference_check",
       "reference_status": "unverified_search_lead",
-      "what_to_upload": "Сначала подтвердить официальную публикацию, дату, номер и предмет акта. До этого не считать документ установленным; поправку отдельно не запрашивать, если она включена в полученную действующую редакцию основного акта.",
       "why_needed": "Подтвердить официальные реквизиты и приложения, коэффициенты и периоды индексации содержания под опекой, вознаграждения и пособий.",
       "review_item_ids": [
         "30-section-5",
@@ -1697,7 +2440,10 @@
       "source_ids": [],
       "full_text_recorded_in_available_intake": false,
       "checked_at": "2026-10-19",
-      "where_to_verify": "https://publication.pravo.gov.ru/"
+      "where_to_verify": "https://publication.pravo.gov.ru/",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Сначала подтвердить официальную публикацию, дату, номер и предмет акта. До этого не считать документ установленным; поправку отдельно не запрашивать, если она включена в полученную действующую редакцию основного акта."
     }
   ],
   "identification_tasks": [
@@ -1715,7 +2461,9 @@
       "topic": "Первенец 200 тыс., второй ребёнок, миллионный капитал, 30% федерального, двойня/тройня, доплата по ипотеке",
       "next_action": "В обзоре № 92-ЗС от 01.11.2017, № 122-ЗС от 30.06.2022 и № 11-ЗС от 01.04.2013. Существование описанных краевых мер не подтверждено. Найти правильное основание или документально снять кандидата. Отсутствие результата поиска не означает отсутствия меры.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "22-identify-third-monthly",
@@ -1726,7 +2474,9 @@
       "topic": "Ежемесячная на третьего ребёнка до 3 лет",
       "next_action": "Установить правильный порядок и закрытый/действующий период рождений; годы 2013–2026 из обзора не подтверждены.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "22-identify-students",
@@ -1737,7 +2487,9 @@
       "topic": "Поддержка студенческих семей и новые меры 2025–2026",
       "next_action": "Найти действующие краевые акты и порядки, отличить выплату при рождении, помощь беременной студентке и компенсацию найма; в обзоре нет достаточных реквизитов.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "22-identify-young-housing",
@@ -1748,7 +2500,9 @@
       "topic": "Жильё молодым семьям",
       "next_action": "Определить действующую краевую программу и порядок участия, затем муниципалитет; не запрашивать старую программу 2014–2020 как действующую.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "22-identify-utilities",
@@ -1759,7 +2513,9 @@
       "topic": "Порядок компенсации ЖКУ многодетным",
       "next_action": "Кроме закона № 16-ЗС нужен действующий порядок расчёта, нормативы, доли расходов, задолженность и обращение. Номер пока не установлен.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "22-identify-medicine-transit",
@@ -1771,7 +2527,9 @@
       "topic": "Лекарства и проезд",
       "next_action": "Получить отдельные порядки: рецепты и перечень лекарств; денежная компенсация проезда, транспорт и возраст. Номера пока не установлены.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "22-identify-camp-culture",
@@ -1784,7 +2542,9 @@
       "topic": "Отдых, культура, секции и кружки",
       "next_action": "Найти региональные порядки и перечни учреждений; скидка 50% из обзора не подтверждена. Муниципальные и учрежденческие правила не распространять на весь край.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "22-identify-municipal-tax",
@@ -1795,7 +2555,9 @@
       "topic": "Налог на имущество и землю",
       "next_action": "Федеральные вычеты отделить; дополнительные льготы проверять по решениям выбранных муниципалитетов и налоговому периоду.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "22-identify-foster-package",
@@ -1807,7 +2569,9 @@
       "topic": "Передача в приёмную семью и социальный пакет",
       "next_action": "15 тыс. при передаче в приёмную семью из обзора не подтверждены. Указ № 57 касается усыновления; нужен отдельный акт для иной формы устройства, если мера существует.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "28-identify-bam",
@@ -1818,7 +2582,9 @@
       "topic": "Переселение в зоне БАМа",
       "next_action": "Найти действующий порядок, территории, тип непригодного жилья, очередь и финансирование. Реквизитов в обзоре нет.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "28-identify-municipal-tax",
@@ -1829,7 +2595,9 @@
       "topic": "Имущественный налог многодетным",
       "next_action": "Нужны решения конкретных муниципалитетов и налоговый период; тезис о 60 муниципалитетах не заменяет перечень решений.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "28-identify-additional-procedures",
@@ -1841,7 +2609,9 @@
       "topic": "Отдельные порядки реализации многодетных и прочих мер",
       "next_action": "Помимо № 408-ОЗ установить порядки по ЖКУ, лекарствам, проезду, питанию, одежде, СПО, подарку и сертификату здоровья. Общий закон не закрывает эти документы.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "28-identify-indexation",
@@ -1855,7 +2625,9 @@
       "topic": "Размеры 2026 и прожиточный минимум",
       "next_action": "Найти официальные бюджетные/индексационные акты и ПМ по зонам на 2026. Цифры обзорного DOCX не считать подтверждением.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "28-identify-mortgage-intake",
@@ -1866,7 +2638,9 @@
       "topic": "Текущий приём на ипотечную доплату",
       "next_action": "Предыдущий общий файл содержит приостановку и не нашёл подтверждения возобновления после 05.10.2026. Действующий НПА сам по себе не подтверждает открытый приём. Нужна свежая датированная публикация оператора/правительства.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "29-identify-capital-amount-and-deadline",
@@ -1877,7 +2651,9 @@
       "topic": "Капитал: сумма, срок и порядок обращения",
       "next_action": "В одном обзоре 129 591,08 / 125 591,08; беззаявительность одновременно со сроком обращения два месяца. Найти актуальные статьи № 496-30-ОЗ и приложения № 575-пп, акт индексации. Не выбирать цифру по заголовку.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "29-identify-first-child-deadline",
@@ -1888,7 +2664,9 @@
       "topic": "Молодой маме за первенца: срок",
       "next_action": "В обзоре обращение до 12 месяцев. В поисковой выдержке опубликованной копии № 496-30-ОЗ — два месяца. Проверить действующую редакцию и изменение от 25.12.2023 № 50-4-ОЗ в составе основного закона; новую копию уже включённой поправки отдельно не просить.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "29-identify-third-child-archive",
@@ -1899,7 +2677,9 @@
       "topic": "Выплата до трёх лет: архив или действующая мера",
       "next_action": "Если подтверждается предельная дата рождения 31.12.2022, к октябрю 2026 всем таким детям больше трёх лет. Проверять только архивные/переходные права, не представлять как текущую выплату новым семьям.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "29-identify-pm-territories",
@@ -1913,7 +2693,9 @@
       "topic": "ПМ по территории и отдельный НАО",
       "next_action": "Нужен полный перечень территорий № 997-пп. Не подменять территориальный ПМ средним областным и не переносить показатели НАО в область. Для налоговой семейной выплаты отдельно проверить ПМ предыдущего года и группу населения по федеральным правилам.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "29-identify-multifamily",
@@ -1924,7 +2706,9 @@
       "topic": "Многодетные: выплаты, СПО, диплом и доход",
       "next_action": "Сверить размер и сезонность питания, одежды, проезда и топлива; отдельные порядки авто/жилья; СПО и диплом «Признательность», отсутствующие в основном перечне обзора. Статус и срок отдельных льгот не смешивать.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "29-identify-guardians",
@@ -1935,7 +2719,9 @@
       "topic": "Опека: содержание, вознаграждение, приём и усыновление",
       "next_action": "Найти подзаконные порядки к № 591-36-ОЗ и индексацию. Сумма до 263 195,66 руб. из агрегатора не имеет надёжного основания в обзоре; различать формы устройства и федеральные выплаты.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "29-identify-care-and-gaps",
@@ -1946,7 +2732,9 @@
       "topic": "Недостающие в обзоре направления",
       "next_action": "На официальном сайте есть пособие при отсутствии места в детсаду и иные меры. Проверить также уход за ребёнком-инвалидом, молодые/студенческие семьи и жилищные меры. Старые страницы дают только кандидатов; действующие суммы ещё установить.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "29-identify-social-contract-repair",
@@ -1958,7 +2746,9 @@
       "topic": "Ремонт жилья и иная соцпомощь",
       "next_action": "Для 80 тыс. на ремонт и 6 600 руб. помощи найти конкретные региональные пункты, условия и порядок; не объединять с федерально софинансируемыми направлениями соцконтракта.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "30-identify-wrong-capital-reference",
@@ -1969,7 +2759,9 @@
       "topic": "Ошибочная ссылка на капитал и его направления",
       "next_action": "№ 70/2011-ОЗ от 08.11.2011 не подтверждён как основание капитала. Прокуратура указывает п. 5 ч. 2 ст. 11 № 85/2016-ОЗ и третьего/последующего ребёнка до 31.12.2017; v2 называет также второго и целевые сертификаты. Проверить действующее и переходное право, не переносить эти утверждения.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "30-identify-federal-block",
@@ -1980,7 +2772,9 @@
       "topic": "Ошибки федерального блока",
       "next_action": "В v2 8 МРОТ названы месячным порогом семьи и проценты пособия привязаны к возрастным подгруппам; в v3 правило объявлено общим для региональных выплат и расходится доплата маткапитала. Проверить по СФР отдельно; не создавать по этим строкам региональные меры.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "30-identify-third-child-archive",
@@ -1991,7 +2785,9 @@
       "topic": "Выплата до трёх лет: переходное право",
       "next_action": "При предельной дате рождения 31.12.2022 возраст до трёх лет истёк к 2026. Подтвердить переходный режим; фраза обзора «продолжают получать» не доказывает текущих получателей в октябре 2026.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "30-identify-multifamily-clothing",
@@ -2004,7 +2800,9 @@
       "topic": "Многодетные: форма, питание, проезд, СПО",
       "next_action": "Обзоры указывают 3 500 руб. на форму и разную периодичность; прокуратура в апреле 2025 — ежегодно 6 300 руб. Нужны актуальная статья 11 и порядки назначения, критерии нуждаемости, возраст и индексация. Сумму из сообщения 2025 не объявлять размером 2026.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "30-identify-status-and-invalid-laws",
@@ -2017,7 +2815,9 @@
       "topic": "Реквизиты, не прошедшие проверку",
       "next_action": "Проверить ссылки № 62/2024-ОЗ от 24.12.2024, № 2674-ОЗ и № 67/2007-ОЗ; не запрашивать вслепую. Статус проверять по актуальному № 85/2016-ОЗ, транспортный налог — по № 49/2002-ОЗ.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "30-identify-land-cash",
@@ -2028,7 +2828,9 @@
       "topic": "Денежная замена земли: нельзя доказывать отсутствие старым проектом",
       "next_action": "Нужны действующая редакция земельного закона, правовые изменения до октября 2026 и порядок постановки на учёт. Сам факт непринятия прежнего проекта не подтверждает, что иных действующих механизмов нет.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "30-identify-housing",
@@ -2039,7 +2841,9 @@
       "topic": "Жильё молодым и региональная ипотечная доплата",
       "next_action": "В v2/v3 различаются 30/35 и 40/45%; отдельно заявлены региональные 450 тыс., похожие на федеральные. Найти действующую региональную программу/порядок и отделить муниципальное исполнение и федеральные меры.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "30-identify-kindergarten",
@@ -2050,7 +2854,9 @@
       "topic": "Детсад: компенсация и освобождение от платы",
       "next_action": "Нужны порядок к статье 10 № 85/2016-ОЗ, средняя плата 2026 и критерии; максимальная плата не равна средней базе компенсации. Раздельно проверить инвалидность, сиротство и СВО, а также муниципальные решения.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "30-identify-disability",
@@ -2061,7 +2867,9 @@
       "topic": "Инвалидность и кохлеарная имплантация",
       "next_action": "Найти размер детского пособия и индекс 2026, акт о реабилитации после имплантации; оплата операции и последующей реабилитации — разные расходы. Не переносить федеральные выплаты в региональные карточки.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "30-identify-guardians-procedure",
@@ -2072,7 +2880,9 @@
       "topic": "Опека: подзаконные порядки и суммы",
       "next_action": "По № 6/2002-ОЗ найти порядок содержания и вознаграждения, надбавки, возрастные группы и индексацию. 10 736 / 12 884,37 из обзора не подтверждены; федеральные разовые выплаты проверить отдельно.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "30-identify-contract-directions",
@@ -2083,7 +2893,9 @@
       "topic": "Соцконтракт: несовместимые версии лимитов",
       "next_action": "В обоих обзорах ЛПХ смешано с 350 тыс.; в v3 200 тыс. отнесено к ремонту/технике и упомянут ЧОП. Нужен полный актуальный № 794-П: каждое направление, лимит, расходы и особые региональные направления отдельно.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "30-identify-svo",
@@ -2094,7 +2906,9 @@
       "topic": "Семьи СВО: самостоятельные акты",
       "next_action": "Найти точные акты о заключении контракта, выплате семье погибшего, детских выплатах, питании, детсаде и отдыхе. Сумму 2,6 млн и дату 16.03.2026 не считать подтверждёнными без официальной редакции и периода контрактов.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     },
     {
       "id": "30-identify-awards-gas",
@@ -2105,7 +2919,9 @@
       "topic": "Награды, газификация и иные меры",
       "next_action": "Установить точные наименования наград/статусов, размер поощрений, порядок, категории газификации и основания школьной помощи. Не объединять одинаковые расходы по нескольким строкам обзора.",
       "status": "needs_identification",
-      "checked_at": "2026-10-19"
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false
     }
   ],
   "review_item_dispositions": [
@@ -4270,5 +5086,35 @@
         "previous_clarifications_preserved": 808
       }
     }
-  ]
+  ],
+  "scope_correction": {
+    "date": "2026-10-19",
+    "reason": "Прежние 40 позиций показывали потребность проекта в текстах НПА, но не доказывали невозможность самостоятельного поиска. Называть их списком ручной подгрузки было преждевременно. По просьбе пользователя исправлена классификация.",
+    "previous_counts": {
+      "regions_total": 89,
+      "overviews_received": 89,
+      "regions_document_inventory_started": 4,
+      "regions_awaiting_alphabetical_document_audit": 85,
+      "full_legal_reviews_completed_in_this_pass": 0,
+      "confirmed_reference_upload_requests": 40,
+      "unverified_act_references": 29,
+      "identification_tasks": 35,
+      "previous_clarifications_preserved": 808
+    },
+    "evidence_file": "data/reviews/internet-access-check-2026-10-19.json"
+  },
+  "assistance_policy": {
+    "default_owner": "assistant",
+    "user_help_required_by_default": false,
+    "criterion": "Запрос помощи появляется только при конкретном подтверждённом препятствии после самостоятельного поиска текста и приложений через официальные публикации, альтернативные копии и цепочку изменений. В запросе указать точный документ/редакцию, недостающую часть, проверенные пути, причину препятствия и конкретное действие пользователя.",
+    "not_sufficient": [
+      "Отсутствие документа в репозитории",
+      "Наличие только ссылки на разъяснение",
+      "Ошибка или недоступность одного сайта",
+      "Непроверенная актуальность найденной редакции",
+      "Ошибочные или ещё не установленные реквизиты из обзора"
+    ],
+    "certainty_note": "Нельзя доказать отсутствие документа во всём интернете. Фиксируется проверенное препятствие доступа доступными средствами, а не обещание абсолютной невозможности когда-либо найти документ."
+  },
+  "user_help_requests": []
 }

@@ -82,7 +82,7 @@
       "priority": "high"
     }
   ],
-  "strategy": "С 19.10.2026 сверять документы по алфавиту названий data/regions.json. Ранее выполненную работу и замечания сохранять; новые запросы НПА вести в data/reviews/document-requests.json.",
+  "strategy": "Сверять регионы по алфавиту и самостоятельно искать НПА, приложения и изменения. В общий реестр заносить отдельно мою очередь и только подтверждённые запросы помощи пользователя. Нехватка файла в репозитории не означает необходимость его ручной подгрузки.",
   "region_order": [
     "22",
     "28",
@@ -2334,5 +2334,8 @@
     "next_region_id": "31",
     "next_region": "Белгородская область",
     "full_review_complete": false
-  }
+  },
+  "document_retrieval_owner": "assistant",
+  "user_help_requests_file": "data/reviews/document-requests.json",
+  "user_help_requests_confirmed": 0
 }
