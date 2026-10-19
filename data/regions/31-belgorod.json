@@ -2,7 +2,7 @@
   "schema": 1,
   "region_id": "31",
   "jurisdiction": "Белгородская область",
-  "updated": "2026-10-14",
+  "updated": "2026-10-19",
   "measures": [
     {
       "id": "belgorod-regional-capital",
@@ -49,6 +49,9 @@
       "tags": [
         "multi",
         "housing"
+      ],
+      "source_documents_received": [
+        "libfile_f35e37b00b2c8191bd87c4201fac4fef"
       ]
     },
     {
@@ -96,6 +99,9 @@
       "tags": [
         "students",
         "babies"
+      ],
+      "source_documents_received": [
+        "libfile_f35e37b00b2c8191bd87c4201fac4fef"
       ]
     }
   ]

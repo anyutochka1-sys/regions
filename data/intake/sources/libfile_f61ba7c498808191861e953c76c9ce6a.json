@@ -1,0 +1,13 @@
+{
+  "id": "libfile_f61ba7c498808191861e953c76c9ce6a",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_dnr(3).docx",
+  "region_ids": [
+    "80"
+  ],
+  "received_at": "2026-10-19T02:11:23Z",
+  "text_file": "data/intake/texts/8d99029aa2f63298418143c6ae22cce9acf256ec04182c5e66407b57256bd7e7.txt",
+  "text_sha256": "8d99029aa2f63298418143c6ae22cce9acf256ec04182c5e66407b57256bd7e7",
+  "previous_source_ids": [],
+  "duplicate_text_of": null
+}

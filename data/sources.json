@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "last_reviewed": "2026-10-14",
+  "last_reviewed": "2026-10-19",
   "sources": [
     {
       "id": "pravo",
@@ -482,6 +482,54 @@
       "type": "official_agency",
       "check": "daily",
       "jurisdiction": "Воронежская область"
+    },
+    {
+      "id": "80-xn--80azg-xn--80ahqgjaddr-xn--p1ai",
+      "name": "Донецкая Народная Республика — xn--80azg.xn--80ahqgjaddr.xn--p1ai",
+      "type": "regional_official",
+      "url": "https://xn--80azg.xn--80ahqgjaddr.xn--p1ai/",
+      "jurisdiction": "Донецкая Народная Республика",
+      "check": "daily"
+    },
+    {
+      "id": "85-mintrud-zo-gov-ru",
+      "name": "Запорожская область — mintrud.zo.gov.ru",
+      "type": "regional_official",
+      "url": "https://mintrud.zo.gov.ru/",
+      "jurisdiction": "Запорожская область",
+      "check": "daily"
+    },
+    {
+      "id": "84-khegov-ru",
+      "name": "Херсонская область — khegov.ru",
+      "type": "regional_official",
+      "url": "https://khegov.ru/",
+      "jurisdiction": "Херсонская область",
+      "check": "daily"
+    },
+    {
+      "id": "81-sovminlnr-ru",
+      "name": "Луганская Народная Республика — sovminlnr.ru",
+      "type": "regional_official",
+      "url": "https://sovminlnr.ru/",
+      "jurisdiction": "Луганская Народная Республика",
+      "check": "daily"
+    },
+    {
+      "id": "86-www-admugansk-ru",
+      "name": "Ханты-Мансийский автономный округ — Югра — www.admugansk.ru",
+      "type": "regional_official",
+      "url": "https://www.admugansk.ru/",
+      "jurisdiction": "Ханты-Мансийский автономный округ — Югра",
+      "check": "daily"
+    },
+    {
+      "id": "46-kurskpravo-ru",
+      "name": "Курская область — kurskpravo.ru",
+      "type": "regional_official",
+      "url": "https://kurskpravo.ru/",
+      "jurisdiction": "Курская область",
+      "check": "daily"
     }
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "id": "libfile_a35748b7006c81918bcdc95618743648",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_voronezhskaya_oblast (2)(3).docx",
+  "region_ids": [
+    "36"
+  ],
+  "received_at": "2026-10-19T02:11:23Z",
+  "text_file": "data/intake/texts/3f4e28ebe983c266f653781969b3d21fd6502ecfcbabfb6d7e57e08de4addc68.txt",
+  "text_sha256": "3f4e28ebe983c266f653781969b3d21fd6502ecfcbabfb6d7e57e08de4addc68",
+  "previous_source_ids": [
+    "libfile_e40229b5f0d08191aa851e30e24f47e3",
+    "libfile_d7719d7c92148191b015a183a1a8c343",
+    "libfile_88b098ab597c8191a4ff7c6a3d074389"
+  ],
+  "duplicate_text_of": null
+}

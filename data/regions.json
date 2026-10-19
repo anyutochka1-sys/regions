@@ -92,12 +92,12 @@
       "review_file": "data/reviews/31-belgorod.json",
       "last_checked": "2026-10-14",
       "conditions_confirmed_count": 2,
-      "notice": "Карточек с подтверждёнными основными условиями: 2. Полное наполнение и проверка НПА продолжаются.",
+      "notice": "Обзор получен 19.10.2026. Карточек с подтверждёнными основными условиями: 2. Остальные сведения проходят проверку.",
       "source_intake": {
         "received": true,
-        "source_count": 1,
+        "source_count": 2,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -181,30 +181,33 @@
       "review_file": "data/reviews/36-voronezh.json",
       "last_checked": "2026-10-14",
       "conditions_confirmed_count": 1,
-      "notice": "Карточек с подтверждёнными основными условиями: 1. Полное наполнение и проверка НПА продолжаются.",
+      "notice": "Обзор получен 19.10.2026. Карточек с подтверждёнными основными условиями: 1. Остальные сведения проходят проверку.",
       "source_intake": {
         "received": true,
-        "source_count": 3,
+        "source_count": 4,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
       "id": "80",
       "name": "Донецкая Народная Республика",
       "public": true,
-      "status": "regional_collection_started",
-      "data_status": "preliminary",
-      "review_status": "queued",
-      "data_file": null,
+      "status": "regional_base_active",
+      "data_status": "confirmed_catalog_pending_documents",
+      "review_status": "in_progress",
+      "data_file": "80-dnr.json",
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 1,
       "source_intake": {
-        "received": false,
-        "source_count": 0,
+        "received": true,
+        "source_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
-      }
+        "last_inventory": "2026-10-19"
+      },
+      "review_file": "data/reviews/80-dnr.json",
+      "conditions_confirmed_count": 7,
+      "notice": "Обзор получен 19.10.2026. Карточек с подтверждёнными основными условиями: 7. Остальные сведения проходят проверку."
     },
     {
       "id": "79",
@@ -248,18 +251,21 @@
       "id": "85",
       "name": "Запорожская область",
       "public": true,
-      "status": "regional_collection_started",
-      "data_status": "preliminary",
-      "review_status": "queued",
-      "data_file": null,
+      "status": "regional_base_active",
+      "data_status": "confirmed_catalog_pending_documents",
+      "review_status": "in_progress",
+      "data_file": "85-zaporozhye.json",
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
-        "received": false,
-        "source_count": 0,
+        "received": true,
+        "source_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
-      }
+        "last_inventory": "2026-10-19"
+      },
+      "review_file": "data/reviews/85-zaporozhye.json",
+      "conditions_confirmed_count": 4,
+      "notice": "Обзор получен 19.10.2026. Карточек с подтверждёнными основными условиями: 4. Остальные сведения проходят проверку."
     },
     {
       "id": "37",
@@ -510,13 +516,13 @@
       "preliminary_topics_count": 0,
       "review_file": "data/reviews/46-kursk.json",
       "last_checked": "2026-10-14",
-      "conditions_confirmed_count": 1,
-      "notice": "Карточек с подтверждёнными основными условиями: 1. Полное наполнение и проверка НПА продолжаются.",
+      "conditions_confirmed_count": 2,
+      "notice": "Обзор получен 19.10.2026. Карточек с подтверждёнными основными условиями: 2. Остальные сведения проходят проверку.",
       "source_intake": {
         "received": true,
-        "source_count": 1,
+        "source_count": 2,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -541,38 +547,41 @@
       "name": "Липецкая область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "in_progress",
       "data_file": "48-lipetsk.json",
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 1,
+      "preliminary_topics_count": 2,
       "review_file": "data/reviews/48-lipetsk.json",
       "last_checked": "2026-10-14",
       "conditions_confirmed_count": 0,
-      "notice": "Карточек с подтверждёнными основными условиями: 0. Полное наполнение и проверка НПА продолжаются.",
+      "notice": "Обзор получен 19.10.2026. Карточек с подтверждёнными основными условиями: 0. Остальные сведения проходят проверку.",
       "source_intake": {
         "received": true,
-        "source_count": 1,
+        "source_count": 2,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
       "id": "81",
       "name": "Луганская Народная Республика",
       "public": true,
-      "status": "regional_collection_started",
-      "data_status": "preliminary",
-      "review_status": "queued",
-      "data_file": null,
+      "status": "regional_base_active",
+      "data_status": "confirmed_catalog_pending_documents",
+      "review_status": "in_progress",
+      "data_file": "81-lnr.json",
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
-        "received": false,
-        "source_count": 0,
+        "received": true,
+        "source_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
-      }
+        "last_inventory": "2026-10-19"
+      },
+      "review_file": "data/reviews/81-lnr.json",
+      "conditions_confirmed_count": 2,
+      "notice": "Обзор получен 19.10.2026. Карточек с подтверждёнными основными условиями: 2. Остальные сведения проходят проверку."
     },
     {
       "id": "49",
@@ -1503,35 +1512,41 @@
       "id": "86",
       "name": "Ханты-Мансийский автономный округ — Югра",
       "public": true,
-      "status": "regional_collection_started",
-      "data_status": "preliminary",
-      "review_status": "queued",
-      "data_file": null,
+      "status": "regional_base_active",
+      "data_status": "confirmed_catalog_pending_documents",
+      "review_status": "in_progress",
+      "data_file": "86-khmao-yugra.json",
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
-        "received": false,
-        "source_count": 0,
+        "received": true,
+        "source_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
-      }
+        "last_inventory": "2026-10-19"
+      },
+      "review_file": "data/reviews/86-khmao-yugra.json",
+      "conditions_confirmed_count": 1,
+      "notice": "Обзор получен 19.10.2026. Карточек с подтверждёнными основными условиями: 1. Остальные сведения проходят проверку."
     },
     {
       "id": "84",
       "name": "Херсонская область",
       "public": true,
-      "status": "regional_collection_started",
-      "data_status": "preliminary",
-      "review_status": "queued",
-      "data_file": null,
+      "status": "regional_base_active",
+      "data_status": "confirmed_catalog_pending_documents",
+      "review_status": "in_progress",
+      "data_file": "84-kherson.json",
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
-        "received": false,
-        "source_count": 0,
+        "received": true,
+        "source_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
-      }
+        "last_inventory": "2026-10-19"
+      },
+      "review_file": "data/reviews/84-kherson.json",
+      "conditions_confirmed_count": 6,
+      "notice": "Обзор получен 19.10.2026. Карточек с подтверждёнными основными условиями: 6. Остальные сведения проходят проверку."
     },
     {
       "id": "74",
@@ -1610,17 +1625,20 @@
       "name": "Ямало-Ненецкий автономный округ",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
-      "review_status": "queued",
-      "data_file": null,
+      "data_status": "source_received_pending_review",
+      "review_status": "in_progress",
+      "data_file": "89-yanao.json",
       "collection_started": "2026-10-07",
-      "preliminary_topics_count": 0,
+      "preliminary_topics_count": 1,
       "source_intake": {
-        "received": false,
-        "source_count": 0,
+        "received": true,
+        "source_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
-      }
+        "last_inventory": "2026-10-19"
+      },
+      "review_file": "data/reviews/89-yanao.json",
+      "conditions_confirmed_count": 0,
+      "notice": "Обзор получен 19.10.2026. Карточек с подтверждёнными основными условиями: 0. Остальные сведения проходят проверку."
     },
     {
       "id": "76",

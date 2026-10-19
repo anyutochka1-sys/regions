@@ -23,7 +23,7 @@ async function showRegion(scroll=false){
   document.querySelector('#cards').innerHTML=cards;
   document.querySelector('#resultsTitle').textContent=region.name;
   document.querySelector('#directoryCount').textContent=fed.length+' федеральных · '+local.length+' региональных и местных карточек';
-  document.querySelector('#regionalStatus').innerHTML='<p>'+ (local.length?'Показаны все действующие карточки, добавленные в справочник для этого региона.':'Региональные меры пока собираются. Ниже доступны федеральные выплаты и льготы.')+' Перечень пополняется.</p>'+(region.id==='24'?'<p><a href="./krasnoyarsk-audit.html">Посмотреть сверку перечня Красноярского края →</a></p>':'');
+  document.querySelector('#regionalStatus').innerHTML='<p>'+ (local.length?'Показаны все действующие карточки, добавленные в справочник для этого региона.':'Региональные меры пока собираются. Ниже доступны федеральные выплаты и льготы.')+' Перечень пополняется.</p>'+(region.notice?'<p class="small">'+esc(region.notice)+'</p>':'')+(region.id==='24'?'<p><a href="./krasnoyarsk-audit.html">Посмотреть сверку перечня Красноярского края →</a></p>':'');
   document.querySelector('#preliminary').innerHTML=preliminaryHtml(region);
   document.querySelector('#directorySearch').value='';document.querySelector('#searchEmpty').hidden=true;selectedTopics.clear();renderTopicFilters([...fed,...local]);applyDirectoryFilters();
   const url=new URL(location.href);url.searchParams.set('region',region.name);history.replaceState(null,'',url);

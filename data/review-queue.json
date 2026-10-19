@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-07",
+  "updated": "2026-10-19",
   "queue": [
     {
       "region": "Красноярский край",
@@ -365,7 +365,7 @@
     {
       "region_id": "31",
       "region": "Белгородская область",
-      "status": "queued",
+      "status": "in_progress",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -377,7 +377,12 @@
         "опека и приёмные семьи",
         "муниципальные и редкие меры"
       ],
-      "full_review_complete": false
+      "full_review_complete": false,
+      "received": true,
+      "source_received": "2026-10-19",
+      "review_file": "data/reviews/31-belgorod.json",
+      "latest_source_id": "libfile_f35e37b00b2c8191bd87c4201fac4fef",
+      "public_card_count": 2
     },
     {
       "region_id": "32",
@@ -450,7 +455,7 @@
     {
       "region_id": "36",
       "region": "Воронежская область",
-      "status": "queued",
+      "status": "in_progress",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -462,12 +467,17 @@
         "опека и приёмные семьи",
         "муниципальные и редкие меры"
       ],
-      "full_review_complete": false
+      "full_review_complete": false,
+      "received": true,
+      "source_received": "2026-10-19",
+      "review_file": "data/reviews/36-voronezh.json",
+      "latest_source_id": "libfile_a35748b7006c81918bcdc95618743648",
+      "public_card_count": 1
     },
     {
       "region_id": "80",
       "region": "Донецкая Народная Республика",
-      "status": "queued",
+      "status": "in_progress",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -479,7 +489,12 @@
         "опека и приёмные семьи",
         "муниципальные и редкие меры"
       ],
-      "full_review_complete": false
+      "full_review_complete": false,
+      "received": true,
+      "source_received": "2026-10-19",
+      "review_file": "data/reviews/80-dnr.json",
+      "latest_source_id": "libfile_f61ba7c498808191861e953c76c9ce6a",
+      "public_card_count": 7
     },
     {
       "region_id": "79",
@@ -518,7 +533,7 @@
     {
       "region_id": "85",
       "region": "Запорожская область",
-      "status": "queued",
+      "status": "in_progress",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -530,7 +545,12 @@
         "опека и приёмные семьи",
         "муниципальные и редкие меры"
       ],
-      "full_review_complete": false
+      "full_review_complete": false,
+      "received": true,
+      "source_received": "2026-10-19",
+      "review_file": "data/reviews/85-zaporozhye.json",
+      "latest_source_id": "libfile_5010a9344ab88191a84b4d7d0c520ec5",
+      "public_card_count": 4
     },
     {
       "region_id": "37",
@@ -722,7 +742,7 @@
     {
       "region_id": "46",
       "region": "Курская область",
-      "status": "queued",
+      "status": "in_progress",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -734,7 +754,12 @@
         "опека и приёмные семьи",
         "муниципальные и редкие меры"
       ],
-      "full_review_complete": false
+      "full_review_complete": false,
+      "received": true,
+      "source_received": "2026-10-19",
+      "review_file": "data/reviews/46-kursk.json",
+      "latest_source_id": "libfile_896a0eb03bc881918b649af9fedd899d",
+      "public_card_count": 2
     },
     {
       "region_id": "47",
@@ -756,7 +781,7 @@
     {
       "region_id": "48",
       "region": "Липецкая область",
-      "status": "queued",
+      "status": "in_progress",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -768,12 +793,17 @@
         "опека и приёмные семьи",
         "муниципальные и редкие меры"
       ],
-      "full_review_complete": false
+      "full_review_complete": false,
+      "received": true,
+      "source_received": "2026-10-19",
+      "review_file": "data/reviews/48-lipetsk.json",
+      "latest_source_id": "libfile_2067aa19c3e88191b8bd5d2784c88ad4",
+      "public_card_count": 0
     },
     {
       "region_id": "81",
       "region": "Луганская Народная Республика",
-      "status": "queued",
+      "status": "in_progress",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -785,7 +815,12 @@
         "опека и приёмные семьи",
         "муниципальные и редкие меры"
       ],
-      "full_review_complete": false
+      "full_review_complete": false,
+      "received": true,
+      "source_received": "2026-10-19",
+      "review_file": "data/reviews/81-lnr.json",
+      "latest_source_id": "libfile_0f874fe684648191ba6057edf2ec6474",
+      "public_card_count": 2
     },
     {
       "region_id": "49",
@@ -1572,7 +1607,7 @@
     {
       "region_id": "86",
       "region": "Ханты-Мансийский автономный округ — Югра",
-      "status": "queued",
+      "status": "in_progress",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -1584,12 +1619,17 @@
         "опека и приёмные семьи",
         "муниципальные и редкие меры"
       ],
-      "full_review_complete": false
+      "full_review_complete": false,
+      "received": true,
+      "source_received": "2026-10-19",
+      "review_file": "data/reviews/86-khmao-yugra.json",
+      "latest_source_id": "libfile_aad432ab0f448191ab219fbe9b31cf63",
+      "public_card_count": 1
     },
     {
       "region_id": "84",
       "region": "Херсонская область",
-      "status": "queued",
+      "status": "in_progress",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -1601,7 +1641,12 @@
         "опека и приёмные семьи",
         "муниципальные и редкие меры"
       ],
-      "full_review_complete": false
+      "full_review_complete": false,
+      "received": true,
+      "source_received": "2026-10-19",
+      "review_file": "data/reviews/84-kherson.json",
+      "latest_source_id": "libfile_62dcf84fdc548191be6c66dfa3f3e71e",
+      "public_card_count": 6
     },
     {
       "region_id": "20",
@@ -1657,7 +1702,7 @@
     {
       "region_id": "89",
       "region": "Ямало-Ненецкий автономный округ",
-      "status": "queued",
+      "status": "in_progress",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -1669,7 +1714,12 @@
         "опека и приёмные семьи",
         "муниципальные и редкие меры"
       ],
-      "full_review_complete": false
+      "full_review_complete": false,
+      "received": true,
+      "source_received": "2026-10-19",
+      "review_file": "data/reviews/89-yanao.json",
+      "latest_source_id": "libfile_da37cac29210819195cff7a22f3e25e2",
+      "public_card_count": 0
     },
     {
       "region_id": "76",

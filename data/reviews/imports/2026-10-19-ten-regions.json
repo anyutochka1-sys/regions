@@ -1,0 +1,1754 @@
+{
+  "schema": 1,
+  "received": "2026-10-19",
+  "source_count": 10,
+  "scope": "Дополнение существующего справочника только региональными мерами; полный текст исходников хранится отдельно от проверенной выдачи.",
+  "documents": [
+    {
+      "source_id": "libfile_aad432ab0f448191ab219fbe9b31cf63",
+      "region_id": "86",
+      "region": "Ханты-Мансийский автономный округ — Югра",
+      "filename": "mery_podderzhki_semei_khmao_yugra(3).docx",
+      "text_file": "data/intake/texts/dc2c16616ed3e2979725a049e6af2991f7d2a5d4f57654f43afe41dba6147bec.txt",
+      "text_sha256": "dc2c16616ed3e2979725a049e6af2991f7d2a5d4f57654f43afe41dba6147bec",
+      "review_file": "data/reviews/86-khmao-yugra.json",
+      "previous_sources": [],
+      "sections": [
+        {
+          "number": "1",
+          "title": "Прожиточный минимум 2026 года",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "86-1"
+          ]
+        },
+        {
+          "number": "2",
+          "title": "Региональный материнский капитал: двойная программа по 1 млн рублей",
+          "scope": "regional_review",
+          "review_items": [
+            "86-2"
+          ]
+        },
+        {
+          "number": "3",
+          "title": "Ежемесячная выплата за третьего или четвёртого ребёнка до 3 лет",
+          "scope": "regional_review",
+          "review_items": [
+            "86-3"
+          ]
+        },
+        {
+          "number": "4",
+          "title": "ЕДВ при рождении ребёнка (закон № 92-оз)",
+          "scope": "regional_review",
+          "review_items": [
+            "86-4"
+          ]
+        },
+        {
+          "number": "5",
+          "title": "Единое пособие",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "86-5"
+          ]
+        },
+        {
+          "number": "6",
+          "title": "Выплаты при рождении детей по очерёдности (закон № 62-ЗАО — аналог других регионов здесь заменён окружными актами)",
+          "scope": "regional_review",
+          "review_items": [
+            "86-6"
+          ]
+        },
+        {
+          "number": "7",
+          "title": "Многодетные семьи (закон № 63-оз)",
+          "scope": "regional_review",
+          "review_items": [
+            "86-7"
+          ]
+        },
+        {
+          "number": "8",
+          "title": "Жилищные меры",
+          "scope": "regional_review",
+          "review_items": [
+            "86-8"
+          ]
+        },
+        {
+          "number": "9",
+          "title": "Опека, усыновление, приёмные семьи",
+          "scope": "regional_review",
+          "review_items": [
+            "86-9"
+          ]
+        },
+        {
+          "number": "10",
+          "title": "СВО: контрактники и члены их семей",
+          "scope": "regional_review",
+          "review_items": [
+            "86-10"
+          ]
+        },
+        {
+          "number": "11",
+          "title": "Транспортный налог",
+          "scope": "regional_review",
+          "review_items": [
+            "86-11"
+          ]
+        },
+        {
+          "number": "12",
+          "title": "Детские сады и школы",
+          "scope": "regional_review",
+          "review_items": [
+            "86-12"
+          ]
+        },
+        {
+          "number": "13",
+          "title": "«Семейная» налоговая выплата (возврат НДФЛ)",
+          "scope": "regional_review",
+          "review_items": [
+            "86-13"
+          ]
+        },
+        {
+          "number": "14",
+          "title": "Социальный контракт",
+          "scope": "regional_review",
+          "review_items": [
+            "86-14"
+          ]
+        },
+        {
+          "number": "15",
+          "title": "Оздоровление детей",
+          "scope": "regional_review",
+          "review_items": [
+            "86-15"
+          ]
+        },
+        {
+          "number": "16",
+          "title": "Питание беременным и детям до 3 лет",
+          "scope": "regional_review",
+          "review_items": [
+            "86-16"
+          ]
+        },
+        {
+          "number": "17",
+          "title": "КМНС",
+          "scope": "regional_review",
+          "review_items": [
+            "86-17"
+          ]
+        },
+        {
+          "number": "18",
+          "title": "Сводная таблица ключевых актов",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "86-18"
+          ]
+        },
+        {
+          "number": "19",
+          "title": "Оговорки",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "86-19"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "libfile_da37cac29210819195cff7a22f3e25e2",
+      "region_id": "89",
+      "region": "Ямало-Ненецкий автономный округ",
+      "filename": "mery_podderzhki_semei_yanao(3).docx",
+      "text_file": "data/intake/texts/45192250ec0cb4e1544f635af7ffcbfcfe6cc15542049be1b274bc17ea380bce.txt",
+      "text_sha256": "45192250ec0cb4e1544f635af7ffcbfcfe6cc15542049be1b274bc17ea380bce",
+      "review_file": "data/reviews/89-yanao.json",
+      "previous_sources": [],
+      "sections": [
+        {
+          "number": "1",
+          "title": "Резюме: главное на Ямале в 2026 году",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "89-1"
+          ]
+        },
+        {
+          "number": "2",
+          "title": "Прожиточный минимум на 2026 год",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "89-2"
+          ]
+        },
+        {
+          "number": "3",
+          "title": "Федеральный маткапитал в 2026 году",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "89-3"
+          ]
+        },
+        {
+          "number": "4",
+          "title": "Региональный маткапитал ЯНАО — 1 000 000 руб. за третьего",
+          "scope": "regional_review",
+          "review_items": [
+            "89-4"
+          ]
+        },
+        {
+          "number": "5",
+          "title": "Жилищный капитал молодой семьи — до 3 000 000 руб.",
+          "scope": "regional_review",
+          "review_items": [
+            "89-5"
+          ]
+        },
+        {
+          "number": "6",
+          "title": "Единое пособие (федеральное, в высоком ямальском размере)",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "89-6"
+          ]
+        },
+        {
+          "number": "7",
+          "title": "Региональное пособие на ребёнка (закон № 109-ЗАО)",
+          "scope": "regional_review",
+          "review_items": [
+            "89-7"
+          ]
+        },
+        {
+          "number": "8",
+          "title": "Единовременное пособие при рождении второго и последующих детей (закон № 62-ЗАО)",
+          "scope": "regional_review",
+          "review_items": [
+            "89-8"
+          ]
+        },
+        {
+          "number": "9",
+          "title": "Подарочный комплект «Малышу Ямала»",
+          "scope": "regional_review",
+          "review_items": [
+            "89-9"
+          ]
+        },
+        {
+          "number": "10",
+          "title": "Многодетные семьи: льготы и выплаты",
+          "scope": "regional_review",
+          "review_items": [
+            "89-10"
+          ]
+        },
+        {
+          "number": "11",
+          "title": "Социальный контракт",
+          "scope": "regional_review",
+          "review_items": [
+            "89-11"
+          ]
+        },
+        {
+          "number": "12",
+          "title": "Детские сады и уход",
+          "scope": "regional_review",
+          "review_items": [
+            "89-12"
+          ]
+        },
+        {
+          "number": "13",
+          "title": "Опека и приёмные семьи",
+          "scope": "regional_review",
+          "review_items": [
+            "89-13"
+          ]
+        },
+        {
+          "number": "14",
+          "title": "Участники СВО: контракт 4 000 000 руб.",
+          "scope": "regional_review",
+          "review_items": [
+            "89-14"
+          ]
+        },
+        {
+          "number": "15",
+          "title": "Семьи погибших военнослужащих",
+          "scope": "regional_review",
+          "review_items": [
+            "89-15"
+          ]
+        },
+        {
+          "number": "16",
+          "title": "Малоимущие семьи (закон № 55-ЗАО)",
+          "scope": "regional_review",
+          "review_items": [
+            "89-16"
+          ]
+        },
+        {
+          "number": "17",
+          "title": "Налоги",
+          "scope": "regional_review",
+          "review_items": [
+            "89-17"
+          ]
+        },
+        {
+          "number": "18",
+          "title": "ЕДВ при рождении третьего ребёнка: отменена с 01.01.2026",
+          "scope": "regional_review",
+          "review_items": [
+            "89-18"
+          ]
+        },
+        {
+          "number": "19",
+          "title": "Сводная таблица основных актов",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "89-19"
+          ]
+        },
+        {
+          "number": "20",
+          "title": "Оговорки",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "89-20"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "libfile_f61ba7c498808191861e953c76c9ce6a",
+      "region_id": "80",
+      "region": "Донецкая Народная Республика",
+      "filename": "mery_podderzhki_semei_dnr(3).docx",
+      "text_file": "data/intake/texts/8d99029aa2f63298418143c6ae22cce9acf256ec04182c5e66407b57256bd7e7.txt",
+      "text_sha256": "8d99029aa2f63298418143c6ae22cce9acf256ec04182c5e66407b57256bd7e7",
+      "review_file": "data/reviews/80-dnr.json",
+      "previous_sources": [],
+      "sections": [
+        {
+          "number": "1",
+          "title": "Прожиточный минимум на 2026 год",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "80-1"
+          ]
+        },
+        {
+          "number": "2",
+          "title": "Материнский капитал (федеральный)",
+          "scope": "regional_review",
+          "review_items": [
+            "80-2"
+          ]
+        },
+        {
+          "number": "3",
+          "title": "Региональный маткапитал ДНР",
+          "scope": "regional_review",
+          "review_items": [
+            "80-3"
+          ]
+        },
+        {
+          "number": "4",
+          "title": "Единое пособие (федеральное) — с региональными особенностями",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "80-4"
+          ]
+        },
+        {
+          "number": "5",
+          "title": "Многодетные семьи: закон № 200-РЗ",
+          "scope": "regional_review",
+          "review_items": [
+            "80-5"
+          ]
+        },
+        {
+          "number": "6",
+          "title": "Опека, попечительство и приёмные семьи (закон № 230-РЗ)",
+          "scope": "regional_review",
+          "review_items": [
+            "80-6"
+          ]
+        },
+        {
+          "number": "7",
+          "title": "Поддержка участников СВО и их семей",
+          "scope": "regional_review",
+          "review_items": [
+            "80-7"
+          ]
+        },
+        {
+          "number": "8",
+          "title": "Социальный контракт",
+          "scope": "regional_review",
+          "review_items": [
+            "80-8"
+          ]
+        },
+        {
+          "number": "9",
+          "title": "Ежегодная семейная выплата (возврат части НДФЛ)",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "80-9"
+          ]
+        },
+        {
+          "number": "10",
+          "title": "Детские сады и школьное питание",
+          "scope": "regional_review",
+          "review_items": [
+            "80-10"
+          ]
+        },
+        {
+          "number": "11",
+          "title": "Транспортный налог (закон № 28-РЗ)",
+          "scope": "regional_review",
+          "review_items": [
+            "80-11"
+          ]
+        },
+        {
+          "number": "12",
+          "title": "Типичные ошибки и подводные камни ДНР",
+          "scope": "regional_review",
+          "review_items": [
+            "80-12"
+          ]
+        },
+        {
+          "number": "13",
+          "title": "Сводная таблица основных актов",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "80-13"
+          ]
+        },
+        {
+          "number": "14",
+          "title": "Оговорки обзора",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "80-14"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "libfile_0f874fe684648191ba6057edf2ec6474",
+      "region_id": "81",
+      "region": "Луганская Народная Республика",
+      "filename": "mery_podderzhki_semei_lnr(3).docx",
+      "text_file": "data/intake/texts/b271028b0321ae73035f77f7929df1200931de5262b34eef4eda174f0b0df558.txt",
+      "text_sha256": "b271028b0321ae73035f77f7929df1200931de5262b34eef4eda174f0b0df558",
+      "review_file": "data/reviews/81-lnr.json",
+      "previous_sources": [],
+      "sections": [
+        {
+          "number": "1",
+          "title": "Прожиточный минимум на 2026 год",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "81-1"
+          ]
+        },
+        {
+          "number": "2",
+          "title": "Материнский капитал",
+          "scope": "regional_review",
+          "review_items": [
+            "81-2"
+          ]
+        },
+        {
+          "number": "3",
+          "title": "Дополнительные региональные пособия семьям с детьми (закон № 93-I)",
+          "scope": "regional_review",
+          "review_items": [
+            "81-3"
+          ]
+        },
+        {
+          "number": "4",
+          "title": "Единое пособие — с региональной особенностью",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "81-4"
+          ]
+        },
+        {
+          "number": "5",
+          "title": "Многодетные семьи (закон № 111-I)",
+          "scope": "regional_review",
+          "review_items": [
+            "81-5"
+          ]
+        },
+        {
+          "number": "6",
+          "title": "Опека, приёмные семьи, дети-сироты",
+          "scope": "regional_review",
+          "review_items": [
+            "81-6"
+          ]
+        },
+        {
+          "number": "7",
+          "title": "СВО: контракт, выплаты, семьи погибших",
+          "scope": "regional_review",
+          "review_items": [
+            "81-7"
+          ]
+        },
+        {
+          "number": "8",
+          "title": "Социальный контракт (закон № 20-I)",
+          "scope": "regional_review",
+          "review_items": [
+            "81-8"
+          ]
+        },
+        {
+          "number": "9",
+          "title": "Ежегодная семейная выплата (возврат части НДФЛ)",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "81-9"
+          ]
+        },
+        {
+          "number": "10",
+          "title": "Изменения с 1 января 2026 года: завершение переходного периода",
+          "scope": "regional_review",
+          "review_items": [
+            "81-10"
+          ]
+        },
+        {
+          "number": "11",
+          "title": "Транспортный налог (закон № 17-I)",
+          "scope": "regional_review",
+          "review_items": [
+            "81-11"
+          ]
+        },
+        {
+          "number": "12",
+          "title": "Дополнительные меры",
+          "scope": "regional_review",
+          "review_items": [
+            "81-12"
+          ]
+        },
+        {
+          "number": "13",
+          "title": "Куда обращаться",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "81-13"
+          ]
+        },
+        {
+          "number": "14",
+          "title": "Оговорки и точность",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "81-14"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "libfile_5010a9344ab88191a84b4d7d0c520ec5",
+      "region_id": "85",
+      "region": "Запорожская область",
+      "filename": "mery_podderzhki_semei_zaporozhskaya_oblast(3).docx",
+      "text_file": "data/intake/texts/3aa607af9b2e414baf6b95d71ea0f4706f4e5a8d579c405bb0ba99836bb96c99.txt",
+      "text_sha256": "3aa607af9b2e414baf6b95d71ea0f4706f4e5a8d579c405bb0ba99836bb96c99",
+      "review_file": "data/reviews/85-zaporozhye.json",
+      "previous_sources": [],
+      "sections": [
+        {
+          "number": "1",
+          "title": "Общая характеристика",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "85-1"
+          ]
+        },
+        {
+          "number": "2",
+          "title": "Прожиточный минимум 2026",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "85-2"
+          ]
+        },
+        {
+          "number": "3",
+          "title": "Материнский капитал: расширенный доступ для новых регионов",
+          "scope": "regional_review",
+          "review_items": [
+            "85-3"
+          ]
+        },
+        {
+          "number": "4",
+          "title": "Региональный маткапитал",
+          "scope": "regional_review",
+          "review_items": [
+            "85-4"
+          ]
+        },
+        {
+          "number": "5",
+          "title": "Единое пособие: региональные особенности и преференции",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "85-5"
+          ]
+        },
+        {
+          "number": "6",
+          "title": "Переходные региональные выплаты (указ № 310-у от 13.09.2022)",
+          "scope": "regional_review",
+          "review_items": [
+            "85-6"
+          ]
+        },
+        {
+          "number": "7",
+          "title": "Ежемесячное пособие в связи с рождением и воспитанием ребёнка",
+          "scope": "regional_review",
+          "review_items": [
+            "85-7"
+          ]
+        },
+        {
+          "number": "8",
+          "title": "Ежегодное пособие на ребёнка (федеральное, действует в области)",
+          "scope": "regional_review",
+          "review_items": [
+            "85-8"
+          ]
+        },
+        {
+          "number": "9",
+          "title": "Ежегодная семейная налоговая выплата (с 2026)",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "85-9"
+          ]
+        },
+        {
+          "number": "10",
+          "title": "Многодетные семьи: закон № 123 от 12.09.2025",
+          "scope": "regional_review",
+          "review_items": [
+            "85-10"
+          ]
+        },
+        {
+          "number": "11",
+          "title": "Детские сады, питание, беременность",
+          "scope": "regional_review",
+          "review_items": [
+            "85-11"
+          ]
+        },
+        {
+          "number": "12",
+          "title": "Опека, приёмные семьи, усыновление",
+          "scope": "regional_review",
+          "review_items": [
+            "85-12"
+          ]
+        },
+        {
+          "number": "13",
+          "title": "Социальный контракт",
+          "scope": "regional_review",
+          "review_items": [
+            "85-13"
+          ]
+        },
+        {
+          "number": "14",
+          "title": "СВО: контрактные выплаты",
+          "scope": "regional_review",
+          "review_items": [
+            "85-14"
+          ]
+        },
+        {
+          "number": "15",
+          "title": "СВО: семьи погибших",
+          "scope": "regional_review",
+          "review_items": [
+            "85-15"
+          ]
+        },
+        {
+          "number": "16",
+          "title": "Пенсионеры",
+          "scope": "regional_review",
+          "review_items": [
+            "85-16"
+          ]
+        },
+        {
+          "number": "17",
+          "title": "Транспортный налог",
+          "scope": "regional_review",
+          "review_items": [
+            "85-17"
+          ]
+        },
+        {
+          "number": "18",
+          "title": "Сводная таблица основных актов и мер",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "85-18"
+          ]
+        },
+        {
+          "number": "19",
+          "title": "Оговорки и осторожность",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "85-19"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "libfile_62dcf84fdc548191be6c66dfa3f3e71e",
+      "region_id": "84",
+      "region": "Херсонская область",
+      "filename": "mery_podderzhki_semei_khersonskaya_oblast(3).docx",
+      "text_file": "data/intake/texts/bfa2ec50dfd3abb8d84ecd03297cb34ff5761e6a287596e86accc9ce98f78c6f.txt",
+      "text_sha256": "bfa2ec50dfd3abb8d84ecd03297cb34ff5761e6a287596e86accc9ce98f78c6f",
+      "review_file": "data/reviews/84-kherson.json",
+      "previous_sources": [],
+      "sections": [
+        {
+          "number": "1",
+          "title": "Прожиточный минимум на 2026 год",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "84-1"
+          ]
+        },
+        {
+          "number": "2",
+          "title": "Федеральный материнский (семейный) капитал",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "84-2"
+          ]
+        },
+        {
+          "number": "3",
+          "title": "Региональный материнский капитал — 100 000 рублей (введён в конце 2026 года)",
+          "scope": "regional_review",
+          "review_items": [
+            "84-3"
+          ]
+        },
+        {
+          "number": "4",
+          "title": "Федеральные пособия при рождении ребёнка",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "84-4"
+          ]
+        },
+        {
+          "number": "5",
+          "title": "Переходные региональные выплаты (статус — завершены)",
+          "scope": "regional_review",
+          "review_items": [
+            "84-5"
+          ]
+        },
+        {
+          "number": "6",
+          "title": "Многодетные семьи: закон № 15-ЗХО",
+          "scope": "regional_review",
+          "review_items": [
+            "84-6"
+          ]
+        },
+        {
+          "number": "7",
+          "title": "Дети участников СВО (указ губернатора от ноября 2025 года)",
+          "scope": "regional_review",
+          "review_items": [
+            "84-7"
+          ]
+        },
+        {
+          "number": "8",
+          "title": "Ежегодная семейная выплата (возврат НДФЛ, закон № 179-ФЗ)",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "84-8"
+          ]
+        },
+        {
+          "number": "9",
+          "title": "Опека, попечительство и приёмные семьи",
+          "scope": "regional_review",
+          "review_items": [
+            "84-9"
+          ]
+        },
+        {
+          "number": "10",
+          "title": "Поддержка участников СВО: контракт",
+          "scope": "regional_review",
+          "review_items": [
+            "84-10"
+          ]
+        },
+        {
+          "number": "11",
+          "title": "Поддержка участников СВО: ранения, инвалидность, гибель",
+          "scope": "regional_review",
+          "review_items": [
+            "84-11"
+          ]
+        },
+        {
+          "number": "12",
+          "title": "Гражданам, пострадавшим от боевых действий на территории области",
+          "scope": "regional_review",
+          "review_items": [
+            "84-12"
+          ]
+        },
+        {
+          "number": "13",
+          "title": "Выплаты переселенцам и жильё",
+          "scope": "regional_review",
+          "review_items": [
+            "84-13"
+          ]
+        },
+        {
+          "number": "14",
+          "title": "Прочие меры для семей с детьми",
+          "scope": "regional_review",
+          "review_items": [
+            "84-14"
+          ]
+        },
+        {
+          "number": "15",
+          "title": "Налоги: транспортный налог",
+          "scope": "regional_review",
+          "review_items": [
+            "84-15"
+          ]
+        },
+        {
+          "number": "16",
+          "title": "Сводная таблица ключевых мер",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "84-16"
+          ]
+        },
+        {
+          "number": "17",
+          "title": "Важные оговорки и типичные ошибки",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "84-17"
+          ]
+        },
+        {
+          "number": "18",
+          "title": "Куда обращаться",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "84-18"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "libfile_896a0eb03bc881918b649af9fedd899d",
+      "region_id": "46",
+      "region": "Курская область",
+      "filename": "mery_podderzhki_semei_kurskaya_oblast (1)(3).docx",
+      "text_file": "data/intake/texts/06fe78291311deba34f7b88a4d12dc5a7949932084126ed864d52e2c2d5b0f95.txt",
+      "text_sha256": "06fe78291311deba34f7b88a4d12dc5a7949932084126ed864d52e2c2d5b0f95",
+      "review_file": "data/reviews/46-kursk.json",
+      "previous_sources": [
+        {
+          "source_id": "libfile_af8295c5645481919495612c3e369887",
+          "normalized_text_equal": false,
+          "similarity": 0.2817
+        }
+      ],
+      "sections": [
+        {
+          "number": "1",
+          "title": "Прожиточный минимум на 2026 год",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "46-1"
+          ]
+        },
+        {
+          "number": "2",
+          "title": "Областной материнский капитал",
+          "scope": "regional_review",
+          "review_items": [
+            "46-2"
+          ]
+        },
+        {
+          "number": "3",
+          "title": "Ежемесячная выплата из средств областного маткапитала",
+          "scope": "regional_review",
+          "review_items": [
+            "46-2"
+          ]
+        },
+        {
+          "number": "4",
+          "title": "Ежемесячная выплата на третьего и последующих до 3 лет (закон № 108-ЗКО)",
+          "scope": "regional_review",
+          "review_items": [
+            "46-3"
+          ]
+        },
+        {
+          "number": "5",
+          "title": "Единовременная выплата молодой семье за третьего — 300 000 руб.",
+          "scope": "regional_review",
+          "review_items": [
+            "46-3"
+          ]
+        },
+        {
+          "number": "6",
+          "title": "Единовременная выплата студенческой семье — 200 000 руб.",
+          "scope": "regional_review",
+          "review_items": [
+            "46-student-birth"
+          ]
+        },
+        {
+          "number": "7",
+          "title": "Выплата беременной студентке при постановке на учёт — 100 000 руб.",
+          "scope": "regional_review",
+          "review_items": [
+            "46-student-pregnancy"
+          ]
+        },
+        {
+          "number": "8",
+          "title": "Единовременная выплата при одновременном рождении трёх и более детей — 100 000 руб.",
+          "scope": "regional_review",
+          "review_items": [
+            "46-16"
+          ]
+        },
+        {
+          "number": "9",
+          "title": "Пособия малообеспеченным семьям (закон № 108-ЗКО)",
+          "scope": "regional_review",
+          "review_items": [
+            "46-4"
+          ]
+        },
+        {
+          "number": "10",
+          "title": "Единое пособие (федеральное, с региональными особенностями)",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "46-1"
+          ]
+        },
+        {
+          "number": "11",
+          "title": "Школьная форма и спортивная одежда (6+ детей)",
+          "scope": "regional_review",
+          "review_items": [
+            "46-6"
+          ]
+        },
+        {
+          "number": "12",
+          "title": "Многодетные: ЖКУ, обучение, детсады, газификация",
+          "scope": "regional_review",
+          "review_items": [
+            "46-6"
+          ]
+        },
+        {
+          "number": "13",
+          "title": "Земельный участок или компенсация до 200 000 руб.",
+          "scope": "regional_review",
+          "review_items": [
+            "46-5"
+          ]
+        },
+        {
+          "number": "14",
+          "title": "Другие меры многодетным семьям",
+          "scope": "regional_review",
+          "review_items": [
+            "46-6"
+          ]
+        },
+        {
+          "number": "15",
+          "title": "Опека, попечительство, приёмные семьи",
+          "scope": "regional_review",
+          "review_items": [
+            "46-11"
+          ]
+        },
+        {
+          "number": "16",
+          "title": "Поддержка участников СВО и семей",
+          "scope": "regional_review",
+          "review_items": [
+            "46-14"
+          ]
+        },
+        {
+          "number": "17",
+          "title": "Налоговые льготы",
+          "scope": "regional_review",
+          "review_items": [
+            "46-15"
+          ]
+        },
+        {
+          "number": "18",
+          "title": "Социальный контракт",
+          "scope": "regional_review",
+          "review_items": [
+            "46-13"
+          ]
+        },
+        {
+          "number": "19",
+          "title": "Здоровье и питание",
+          "scope": "regional_review",
+          "review_items": [
+            "46-10"
+          ]
+        },
+        {
+          "number": "20",
+          "title": "Сводная таблица основных актов",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "46-17"
+          ]
+        },
+        {
+          "number": "21",
+          "title": "Важные оговорки",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "46-source-notes"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "libfile_2067aa19c3e88191b8bd5d2784c88ad4",
+      "region_id": "48",
+      "region": "Липецкая область",
+      "filename": "mery_podderzhki_semei_lipetskaya_oblast (1)(3).docx",
+      "text_file": "data/intake/texts/37a5b2e11ddb0eab35561e460309bffa422b3521564e28c57a803b54ec8543b0.txt",
+      "text_sha256": "37a5b2e11ddb0eab35561e460309bffa422b3521564e28c57a803b54ec8543b0",
+      "review_file": "data/reviews/48-lipetsk.json",
+      "previous_sources": [
+        {
+          "source_id": "libfile_56f9b237dec08191a47205dfe53b719e",
+          "normalized_text_equal": false,
+          "similarity": 0.1424
+        }
+      ],
+      "sections": [
+        {
+          "number": "1",
+          "title": "Основные нормативные акты региона",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "48-20"
+          ]
+        },
+        {
+          "number": "2",
+          "title": "Прожиточный минимум на 2026 год",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "48-1"
+          ]
+        },
+        {
+          "number": "3",
+          "title": "Федеральный материнский капитал (базовые суммы)",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "48-1"
+          ]
+        },
+        {
+          "number": "4",
+          "title": "Областной материнский капитал (региональный)",
+          "scope": "regional_review",
+          "review_items": [
+            "48-2"
+          ]
+        },
+        {
+          "number": "5",
+          "title": "Единовременная выплата 85 000 руб. за первого ребёнка",
+          "scope": "regional_review",
+          "review_items": [
+            "48-4"
+          ]
+        },
+        {
+          "number": "6",
+          "title": "Единовременная выплата при рождении троих и более детей одновременно",
+          "scope": "regional_review",
+          "review_items": [
+            "48-5"
+          ]
+        },
+        {
+          "number": "7",
+          "title": "Единовременная выплата 300 000 руб. молодым семьям",
+          "scope": "regional_review",
+          "review_items": [
+            "48-3"
+          ]
+        },
+        {
+          "number": "8",
+          "title": "Ежемесячная выплата на третьего ребёнка до 3 лет",
+          "scope": "regional_review",
+          "review_items": [
+            "48-6"
+          ]
+        },
+        {
+          "number": "9",
+          "title": "Пособие на ребёнка (закон № 142-ОЗ)",
+          "scope": "regional_review",
+          "review_items": [
+            "48-7"
+          ]
+        },
+        {
+          "number": "10",
+          "title": "Меры социальной поддержки многодетных семей",
+          "scope": "regional_review",
+          "review_items": [
+            "48-8"
+          ]
+        },
+        {
+          "number": "11",
+          "title": "Компенсация найма (аренды) жилья для молодых семей",
+          "scope": "regional_review",
+          "review_items": [
+            "48-rent"
+          ]
+        },
+        {
+          "number": "12",
+          "title": "Опека, усыновление, приёмные семьи",
+          "scope": "regional_review",
+          "review_items": [
+            "48-14"
+          ]
+        },
+        {
+          "number": "13",
+          "title": "Выплаты детям-сиротам",
+          "scope": "regional_review",
+          "review_items": [
+            "48-14"
+          ]
+        },
+        {
+          "number": "14",
+          "title": "Питание детей и беременных",
+          "scope": "regional_review",
+          "review_items": [
+            "48-19"
+          ]
+        },
+        {
+          "number": "15",
+          "title": "Детские сады и школа",
+          "scope": "regional_review",
+          "review_items": [
+            "48-11",
+            "48-12"
+          ]
+        },
+        {
+          "number": "16",
+          "title": "Социальный контракт",
+          "scope": "regional_review",
+          "review_items": [
+            "48-16"
+          ]
+        },
+        {
+          "number": "17",
+          "title": "Участники СВО и их семьи",
+          "scope": "regional_review",
+          "review_items": [
+            "48-17"
+          ]
+        },
+        {
+          "number": "18",
+          "title": "Транспортный налог (закон № 20-ОЗ)",
+          "scope": "regional_review",
+          "review_items": [
+            "48-18"
+          ]
+        },
+        {
+          "number": "19",
+          "title": "Как оформить",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "48-21"
+          ]
+        },
+        {
+          "number": "20",
+          "title": "Сводная таблица основных выплат",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "48-20"
+          ]
+        },
+        {
+          "number": "21",
+          "title": "Оговорки",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "48-source-notes"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "libfile_a35748b7006c81918bcdc95618743648",
+      "region_id": "36",
+      "region": "Воронежская область",
+      "filename": "mery_podderzhki_semei_voronezhskaya_oblast (2)(3).docx",
+      "text_file": "data/intake/texts/3f4e28ebe983c266f653781969b3d21fd6502ecfcbabfb6d7e57e08de4addc68.txt",
+      "text_sha256": "3f4e28ebe983c266f653781969b3d21fd6502ecfcbabfb6d7e57e08de4addc68",
+      "review_file": "data/reviews/36-voronezh.json",
+      "previous_sources": [
+        {
+          "source_id": "libfile_e40229b5f0d08191aa851e30e24f47e3",
+          "normalized_text_equal": false,
+          "similarity": 0.1454
+        },
+        {
+          "source_id": "libfile_d7719d7c92148191b015a183a1a8c343",
+          "normalized_text_equal": false,
+          "similarity": 0.1454
+        },
+        {
+          "source_id": "libfile_88b098ab597c8191a4ff7c6a3d074389",
+          "normalized_text_equal": false,
+          "similarity": 0.1454
+        }
+      ],
+      "sections": [
+        {
+          "number": "1",
+          "title": "Паспорт региона",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "36-1"
+          ]
+        },
+        {
+          "number": "2",
+          "title": "Прожиточный минимум на 2026 год",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "36-1"
+          ]
+        },
+        {
+          "number": "3",
+          "title": "Федеральный материнский капитал (2026)",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "36-1"
+          ]
+        },
+        {
+          "number": "4",
+          "title": "Региональный материнский капитал — 188 251 руб.",
+          "scope": "regional_review",
+          "review_items": [
+            "36-2"
+          ]
+        },
+        {
+          "number": "5",
+          "title": "Выплата 200 000 руб. за второго ребёнка (мамам до 28 лет)",
+          "scope": "regional_review",
+          "review_items": [
+            "36-3"
+          ]
+        },
+        {
+          "number": "6",
+          "title": "Выплата 350 000 руб. молодым семьям за третьего и последующего",
+          "scope": "regional_review",
+          "review_items": [
+            "36-4"
+          ]
+        },
+        {
+          "number": "7",
+          "title": "ЕДВ на третьего ребёнка до 3 лет — 16 166 руб./мес.",
+          "scope": "regional_review",
+          "review_items": [
+            "36-legacy-third"
+          ]
+        },
+        {
+          "number": "8",
+          "title": "Ежегодная семейная (налоговая) выплата — возврат 7% НДФЛ",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "36-1"
+          ]
+        },
+        {
+          "number": "9",
+          "title": "Питание: компенсация на продукты полноценного питания",
+          "scope": "regional_review",
+          "review_items": [
+            "36-10"
+          ]
+        },
+        {
+          "number": "10",
+          "title": "Многодетные семьи: статус и ключевые меры",
+          "scope": "regional_review",
+          "review_items": [
+            "36-5",
+            "36-6"
+          ]
+        },
+        {
+          "number": "11",
+          "title": "Детские сады и компенсация родительской платы",
+          "scope": "regional_review",
+          "review_items": [
+            "36-8"
+          ]
+        },
+        {
+          "number": "12",
+          "title": "Опека, приёмная семья, усыновление",
+          "scope": "regional_review",
+          "review_items": [
+            "36-11"
+          ]
+        },
+        {
+          "number": "13",
+          "title": "Социальный контракт",
+          "scope": "regional_review",
+          "review_items": [
+            "36-13"
+          ]
+        },
+        {
+          "number": "14",
+          "title": "Оздоровление и «социальная няня»",
+          "scope": "regional_review",
+          "review_items": [
+            "36-12"
+          ]
+        },
+        {
+          "number": "15",
+          "title": "Поддержка семей участников СВО",
+          "scope": "regional_review",
+          "review_items": [
+            "36-14"
+          ]
+        },
+        {
+          "number": "16",
+          "title": "Налоги (транспортный налог)",
+          "scope": "regional_review",
+          "review_items": [
+            "36-15"
+          ]
+        },
+        {
+          "number": "17",
+          "title": "Куда обращаться",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "36-18"
+          ]
+        },
+        {
+          "number": "18",
+          "title": "Сводная таблица ключевых актов",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "36-17"
+          ]
+        },
+        {
+          "number": "19",
+          "title": "Честные оговорки",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "36-source-notes"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "libfile_f35e37b00b2c8191bd87c4201fac4fef",
+      "region_id": "31",
+      "region": "Белгородская область",
+      "filename": "mery_podderzhki_semei_belgorodskaya_oblast (1)(3).docx",
+      "text_file": "data/intake/texts/36f44418d8e992550ff1048d20c5ce92f70a24af614e5f8f4961e8eba4707e95.txt",
+      "text_sha256": "36f44418d8e992550ff1048d20c5ce92f70a24af614e5f8f4961e8eba4707e95",
+      "review_file": "data/reviews/31-belgorod.json",
+      "previous_sources": [
+        {
+          "source_id": "libfile_02eb0a48cfbc81918680fab7f35bf1b3",
+          "normalized_text_equal": false,
+          "similarity": 0.2498
+        }
+      ],
+      "sections": [
+        {
+          "number": "1",
+          "title": "Прожиточный минимум на 2026 год",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "31-1"
+          ]
+        },
+        {
+          "number": "2",
+          "title": "Федеральный материнский капитал в 2026 году",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "31-1"
+          ]
+        },
+        {
+          "number": "3",
+          "title": "Региональный материнский капитал — 150 000 рублей",
+          "scope": "regional_review",
+          "review_items": [
+            "31-2"
+          ]
+        },
+        {
+          "number": "4",
+          "title": "Выплата 300 000 рублей молодым семьям за третьего и последующего ребёнка",
+          "scope": "regional_review",
+          "review_items": [
+            "31-young-third"
+          ]
+        },
+        {
+          "number": "5",
+          "title": "Выплата 100 000 рублей студенческим семьям",
+          "scope": "regional_review",
+          "review_items": [
+            "31-8"
+          ]
+        },
+        {
+          "number": "6",
+          "title": "Выплата 50 000 рублей за пятого и последующих детей",
+          "scope": "regional_review",
+          "review_items": [
+            "31-5"
+          ]
+        },
+        {
+          "number": "7",
+          "title": "ЕДВ на третьего ребёнка до 3 лет",
+          "scope": "regional_review",
+          "review_items": [
+            "31-3"
+          ]
+        },
+        {
+          "number": "8",
+          "title": "Ежемесячное пособие на ребёнка (региональное)",
+          "scope": "regional_review",
+          "review_items": [
+            "31-4"
+          ]
+        },
+        {
+          "number": "9",
+          "title": "Компенсация на детское питание",
+          "scope": "regional_review",
+          "review_items": [
+            "31-food"
+          ]
+        },
+        {
+          "number": "10",
+          "title": "Многодетные семьи: статус и меры",
+          "scope": "regional_review",
+          "review_items": [
+            "31-9"
+          ]
+        },
+        {
+          "number": "11",
+          "title": "Компенсация школьной и спортивной формы — 10 000 рублей",
+          "scope": "regional_review",
+          "review_items": [
+            "31-7"
+          ]
+        },
+        {
+          "number": "12",
+          "title": "Ежегодная семейная выплата (возврат НДФЛ)",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "31-6"
+          ]
+        },
+        {
+          "number": "13",
+          "title": "Детские сады",
+          "scope": "regional_review",
+          "review_items": [
+            "31-12"
+          ]
+        },
+        {
+          "number": "14",
+          "title": "Опека, приёмная семья, усыновление",
+          "scope": "regional_review",
+          "review_items": [
+            "31-14"
+          ]
+        },
+        {
+          "number": "15",
+          "title": "Поддержка участников СВО и их семей",
+          "scope": "regional_review",
+          "review_items": [
+            "31-17"
+          ]
+        },
+        {
+          "number": "16",
+          "title": "Налоговые льготы",
+          "scope": "regional_review",
+          "review_items": [
+            "31-18"
+          ]
+        },
+        {
+          "number": "17",
+          "title": "Социальный контракт",
+          "scope": "regional_review",
+          "review_items": [
+            "31-16"
+          ]
+        },
+        {
+          "number": "18",
+          "title": "Выплата супружеским парам к юбилеям",
+          "scope": "regional_review",
+          "review_items": [
+            "31-anniversary"
+          ]
+        },
+        {
+          "number": "19",
+          "title": "Сводная таблица основных актов",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "31-19"
+          ]
+        },
+        {
+          "number": "20",
+          "title": "Важные оговорки",
+          "scope": "reference_or_federal",
+          "review_items": [
+            "31-source-notes"
+          ]
+        }
+      ]
+    }
+  ],
+  "published_cards_added": [
+    {
+      "region_id": "80",
+      "id": "dnr-school-uniform",
+      "title": "Ежегодная выплата на школьную и спортивную форму"
+    },
+    {
+      "region_id": "80",
+      "id": "dnr-utilities",
+      "title": "Льгота многодетным на оплату жилья и коммунальных услуг"
+    },
+    {
+      "region_id": "80",
+      "id": "dnr-school-transport",
+      "title": "Бесплатный проезд школьникам из многодетных семей"
+    },
+    {
+      "region_id": "80",
+      "id": "dnr-kindergarten-priority",
+      "title": "Первоочередной приём в детский сад"
+    },
+    {
+      "region_id": "80",
+      "id": "dnr-school-meals",
+      "title": "Бесплатное питание школьникам из многодетных семей"
+    },
+    {
+      "region_id": "80",
+      "id": "dnr-prescription-medicines",
+      "title": "Бесплатные лекарства детям до шести лет"
+    },
+    {
+      "region_id": "80",
+      "id": "dnr-culture",
+      "title": "Бесплатное посещение музеев, парков и выставок"
+    },
+    {
+      "region_id": "85",
+      "id": "zaporozhye-utilities",
+      "title": "Компенсация многодетным расходов на жильё и ЖКУ"
+    },
+    {
+      "region_id": "85",
+      "id": "zaporozhye-prescription-medicines",
+      "title": "Бесплатные лекарства детям до шести лет"
+    },
+    {
+      "region_id": "85",
+      "id": "zaporozhye-education-meals",
+      "title": "Бесплатное питание детям из многодетных семей"
+    },
+    {
+      "region_id": "85",
+      "id": "zaporozhye-kindergarten-priority",
+      "title": "Первоочередной приём в детский сад"
+    },
+    {
+      "region_id": "84",
+      "id": "kherson-utilities",
+      "title": "Компенсация многодетным расходов на жильё и ЖКУ"
+    },
+    {
+      "region_id": "84",
+      "id": "kherson-prescription-medicines",
+      "title": "Бесплатные лекарства детям до шести лет"
+    },
+    {
+      "region_id": "84",
+      "id": "kherson-education-meals",
+      "title": "Бесплатное питание детям из многодетных семей"
+    },
+    {
+      "region_id": "84",
+      "id": "kherson-kindergarten-priority",
+      "title": "Первоочередной приём в детский сад"
+    },
+    {
+      "region_id": "84",
+      "id": "kherson-culture",
+      "title": "Бесплатное посещение музеев, парков и выставок"
+    },
+    {
+      "region_id": "84",
+      "id": "kherson-school-uniform",
+      "title": "Компенсация расходов на школьную и спортивную форму"
+    },
+    {
+      "region_id": "81",
+      "id": "lnr-regional-maternity",
+      "title": "Региональное пособие по беременности и родам"
+    },
+    {
+      "region_id": "81",
+      "id": "lnr-older-child",
+      "title": "Региональное пособие малоимущим семьям с детьми от 17 лет"
+    },
+    {
+      "region_id": "86",
+      "id": "khmao-yugra-family-capital",
+      "title": "Югорский семейный капитал"
+    },
+    {
+      "region_id": "46",
+      "id": "kursk-student-birth",
+      "title": "Выплата при рождении ребёнка в студенческой семье"
+    }
+  ],
+  "published_cards_added_count": 21,
+  "verification_complete": false,
+  "publication_note": "В действующую выдачу добавлены только перечисленные карточки с подтверждёнными основными условиями. Остальные разделы сохранены в источниках и очереди проверки. Старые опубликованные карточки сохранены; изменения непроверенными суммами не подменены."
+}

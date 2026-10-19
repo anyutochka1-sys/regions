@@ -2,7 +2,7 @@
   "schema": 1,
   "region_id": "36",
   "jurisdiction": "Воронежская область",
-  "updated": "2026-10-14",
+  "updated": "2026-10-19",
   "measures": [
     {
       "id": "voronezh-second-birth",
@@ -62,6 +62,9 @@
       "tags": [
         "young_family",
         "babies"
+      ],
+      "source_documents_received": [
+        "libfile_a35748b7006c81918bcdc95618743648"
       ]
     }
   ]

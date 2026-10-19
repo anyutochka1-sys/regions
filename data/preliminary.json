@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-07",
+  "updated": "2026-10-19",
   "notice": "Предварительные сведения не являются подтверждением действующей меры или индивидуального права. Точные условия сверяются отдельно.",
   "regions": {
     "10": {
@@ -361,7 +361,8 @@
         "url": "https://minsoc31.ru/",
         "kind": "official_directory",
         "directory_source": "https://mintrud.gov.ru/social/default/index"
-      }
+      },
+      "source_received": "2026-10-19"
     },
     "32": {
       "region_id": "32",
@@ -431,7 +432,8 @@
         "url": "https://govvrn.ru/org/ministerstvo/minsoczaschity-vo",
         "kind": "official_directory",
         "directory_source": "https://mintrud.gov.ru/social/default/index"
-      }
+      },
+      "source_received": "2026-10-19"
     },
     "37": {
       "region_id": "37",
@@ -635,7 +637,8 @@
         "url": "https://trudzan.kursk.ru/",
         "kind": "official_directory",
         "directory_source": "https://mintrud.gov.ru/social/default/index"
-      }
+      },
+      "source_received": "2026-10-19"
     },
     "47": {
       "region_id": "47",
@@ -669,6 +672,17 @@
           "found_at": "2026-10-07",
           "full_review_complete": false,
           "source_access_status": "page_or_search_available"
+        },
+        {
+          "id": "48-20261019-first-birth",
+          "title": "Выплата молодой матери при рождении первенца: условия уточняются",
+          "description": "В новом обзоре описана единовременная выплата матерям 18–24 лет. Проверяются актуальный региональный порядок, гражданство, проживание и срок подачи. До завершения сверки сумма не публикуется как подтверждённая.",
+          "source_url": "https://usp.admlr.lipetsk.ru/",
+          "source_kind": "official",
+          "review_status": "preliminary",
+          "found_at": "2026-10-19",
+          "full_review_complete": false,
+          "source_access_status": "direct_page_unavailable"
         }
       ],
       "materials": [],
@@ -676,7 +690,8 @@
         "url": "https://usp.admlr.lipetsk.ru/",
         "kind": "official_directory",
         "directory_source": "https://mintrud.gov.ru/social/default/index"
-      }
+      },
+      "source_received": "2026-10-19"
     },
     "49": {
       "region_id": "49",
@@ -1292,7 +1307,8 @@
         "url": "https://xn--80azg.xn--80ahqgjaddr.xn--p1ai/2025-07-07/200-rz-o-merah-sotsialnoj-podderzhki-mnogodetnyh-semej-v-donetskoj-narodnoj-respublike-dejstvuyushhaya-redaktsiya-po-sostoyaniyu-na-02-06-2026-g.html",
         "kind": "official_directory",
         "directory_source": "https://mintrud.gov.ru/social/default/index"
-      }
+      },
+      "source_received": "2026-10-19"
     },
     "81": {
       "region_id": "81",
@@ -1306,7 +1322,8 @@
         "url": "https://base.garant.ru/412895733/",
         "kind": "public_legal_reference",
         "directory_source": null
-      }
+      },
+      "source_received": "2026-10-19"
     },
     "83": {
       "region_id": "83",
@@ -1334,7 +1351,8 @@
         "url": "https://gov.khogov.ru/",
         "kind": "official_directory",
         "directory_source": "https://mintrud.gov.ru/social/default/index"
-      }
+      },
+      "source_received": "2026-10-19"
     },
     "85": {
       "region_id": "85",
@@ -1348,7 +1366,8 @@
         "url": "https://zo.gov.ru/mains/sitemap",
         "kind": "official_directory",
         "directory_source": "https://mintrud.gov.ru/social/default/index"
-      }
+      },
+      "source_received": "2026-10-19"
     },
     "86": {
       "region_id": "86",
@@ -1362,7 +1381,8 @@
         "url": "https://deptrud.admhmao.ru/",
         "kind": "official_directory",
         "directory_source": "https://mintrud.gov.ru/social/default/index"
-      }
+      },
+      "source_received": "2026-10-19"
     },
     "87": {
       "region_id": "87",
@@ -1384,13 +1404,26 @@
       "found_at": "2026-10-07",
       "status": "preliminary_collection",
       "full_review_complete": false,
-      "topics": [],
+      "topics": [
+        {
+          "id": "89-20261019-capital",
+          "title": "Региональный материнский капитал: уточняются действующие условия",
+          "description": "Получен новый обзор программы. Периоды рождения, суммы для второго, третьего и последующих детей, гражданство, срок проживания и распоряжение средствами проверяются отдельно. Неподтверждённые суммы не включены в действующие карточки.",
+          "source_url": "https://yanao.ru/press-tsentr/novosti/yamalskie-semi-nachali-poluchat-regionalnyy-matkapital-v-odin-million-rubley-na-tretego-rebenka",
+          "source_kind": "official",
+          "review_status": "preliminary",
+          "found_at": "2026-10-19",
+          "full_review_complete": false,
+          "source_access_status": "direct_page_unavailable"
+        }
+      ],
       "materials": [],
       "authority": {
         "url": "https://dszn.yanao.ru/",
         "kind": "official_directory",
         "directory_source": "https://mintrud.gov.ru/social/default/index"
-      }
+      },
+      "source_received": "2026-10-19"
     },
     "91": {
       "region_id": "91",
