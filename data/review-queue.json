@@ -277,7 +277,7 @@
       "full_review_complete": false,
       "source_intake_received": true,
       "usable_overview_received": true,
-      "source_count": 4,
+      "source_count": 5,
       "inventory_file": "data/intake/all-chats-inventory.json",
       "last_source_received": "2026-10-19",
       "review_file": "data/reviews/74-chelyabinsk.json"
@@ -382,10 +382,12 @@
         "муниципальные и редкие меры"
       ],
       "full_review_complete": false,
-      "source_intake_received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "inventory_file": "data/intake/all-chats-inventory.json"
+      "source_intake_received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "inventory_file": "data/intake/all-chats-inventory.json",
+      "last_source_received": "2026-10-19",
+      "review_file": "data/reviews/29-arkhangelsk.json"
     },
     {
       "region_id": "30",
@@ -513,10 +515,12 @@
         "муниципальные и редкие меры"
       ],
       "full_review_complete": false,
-      "source_intake_received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "inventory_file": "data/intake/all-chats-inventory.json"
+      "source_intake_received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "inventory_file": "data/intake/all-chats-inventory.json",
+      "last_source_received": "2026-10-19",
+      "review_file": "data/reviews/35-vologda.json"
     },
     {
       "region_id": "36",
@@ -828,10 +832,12 @@
         "муниципальные и редкие меры"
       ],
       "full_review_complete": false,
-      "source_intake_received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "inventory_file": "data/intake/all-chats-inventory.json"
+      "source_intake_received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "inventory_file": "data/intake/all-chats-inventory.json",
+      "last_source_received": "2026-10-19",
+      "review_file": "data/reviews/44-kostroma.json"
     },
     {
       "region_id": "23",

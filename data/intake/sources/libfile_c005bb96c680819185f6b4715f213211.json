@@ -1,0 +1,17 @@
+{
+  "id": "libfile_c005bb96c680819185f6b4715f213211",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_kostromskaya_oblast.docx",
+  "region_ids": [
+    "44"
+  ],
+  "received_at": "2026-10-19T07:47:06Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/5d73bec221ecfbe4d6bb46e261c043c6059711d3a979c99d8d54975904b1af1d.txt",
+  "text_sha256": "5d73bec221ecfbe4d6bb46e261c043c6059711d3a979c99d8d54975904b1af1d",
+  "extracted_text_sha256": "5d73bec221ecfbe4d6bb46e261c043c6059711d3a979c99d8d54975904b1af1d",
+  "normalized_text_sha256": "32d1184f783ee0fd1bfad6f91b5f7491571e1cab80ff04d54c17e89e89ee1867",
+  "original_docx_sha256": "072c9feb9e5a499c10f8e2eba47032f89594ff0b6c54b1733ea53d26a2433d04",
+  "duplicate_text_of": null,
+  "usable_overview": true
+}

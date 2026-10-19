@@ -1,0 +1,17 @@
+{
+  "id": "libfile_119265833fa881919deba07052b8307e",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_arkhangelskaya_oblast.docx",
+  "region_ids": [
+    "29"
+  ],
+  "received_at": "2026-10-19T07:47:06Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/7b237072fff38f045675db85b9d3b553166f9c2eb76837e52709d7df4b263255.txt",
+  "text_sha256": "7b237072fff38f045675db85b9d3b553166f9c2eb76837e52709d7df4b263255",
+  "extracted_text_sha256": "7b237072fff38f045675db85b9d3b553166f9c2eb76837e52709d7df4b263255",
+  "normalized_text_sha256": "c7b8414cab70cb258a2bd196348b810786a5e96b00d90bb851dd946acec028c6",
+  "original_docx_sha256": "bffaf4acc9d55f0fd9e64db2c064cba0685b0c36051985042935f9e2b9e4a4f3",
+  "duplicate_text_of": null,
+  "usable_overview": true
+}

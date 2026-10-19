@@ -1,0 +1,17 @@
+{
+  "id": "libfile_3bf12e5c5ad88191a82b9cc84ec9a8e0",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_vologodskaya_oblast (2).docx",
+  "region_ids": [
+    "35"
+  ],
+  "received_at": "2026-10-19T07:47:06Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/192f16fdd942e88a49acb5b3a263a07fd85faf8746ceb7832bd4f2ef4dc97440.txt",
+  "text_sha256": "192f16fdd942e88a49acb5b3a263a07fd85faf8746ceb7832bd4f2ef4dc97440",
+  "extracted_text_sha256": "192f16fdd942e88a49acb5b3a263a07fd85faf8746ceb7832bd4f2ef4dc97440",
+  "normalized_text_sha256": "cb746755dd8bf7f66f3d06501c7f82808616240e893e376b579cec1837fa037b",
+  "original_docx_sha256": "9ca5265672289e69fa21c699229da6d183c7cd8e71774e7d29d384cb13750ec9",
+  "duplicate_text_of": null,
+  "usable_overview": true
+}

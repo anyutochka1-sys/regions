@@ -1,0 +1,17 @@
+{
+  "id": "libfile_7b2d2dcfcd5c819194969e07f978e7b2",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_chelyabinskaya_oblast (2)(1).docx",
+  "region_ids": [
+    "74"
+  ],
+  "received_at": "2026-10-19T07:47:06Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/d8df597e4eec0162bd05d4808620d95b4482f5b14d31b77ff135423a3b4095a8.txt",
+  "text_sha256": "d8df597e4eec0162bd05d4808620d95b4482f5b14d31b77ff135423a3b4095a8",
+  "extracted_text_sha256": "d8df597e4eec0162bd05d4808620d95b4482f5b14d31b77ff135423a3b4095a8",
+  "normalized_text_sha256": "1d18daae9f23a5ffe7e5c1b2a33364650a83fe0b309c4edc9f2cead22c1dced2",
+  "original_docx_sha256": "9d1ca5c0e9a05cd775f8a2d865b2421884c90902444169ba660968d986e7296f",
+  "duplicate_text_of": "libfile_ab661e010de48191b71d98844196ff45",
+  "usable_overview": true
+}
