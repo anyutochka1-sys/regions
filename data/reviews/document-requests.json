@@ -2,8 +2,8 @@
   "schema": 2,
   "updated": "2026-10-19",
   "title": "Самостоятельная сверка документов и подтверждённые запросы помощи",
-  "alphabetical_basis": "Порядок названий в data/regions.json: Алтайский край, Амурская область, Архангельская область и далее. Республики находятся на букву Р.",
-  "scope_note": "Обзоры получены по всем 89 регионам. Инвентаризация документов начата в 8 регионах, полная юридическая проверка не завершена. 61 НПА с подтверждёнными реквизитами и 119 спорных ссылок — самостоятельная работа ассистента. Подтверждённых запросов помощи пользователя: 0.",
+  "alphabetical_basis": "По названию региона без начального слова «Республика»: Адыгея, Республика Алтай, Алтайский край, Амурская область, Архангельская область, Астраханская область; затем регионы на Б. Порядок и стадии: data/reviews/letter-progress.json.",
+  "scope_note": "Текущий приоритет — полная проверка шести регионов на А. Полностью завершённых регионов в этом проходе: 0. Начало инвентаризации не означает готовность карточек и юридической сверки. Сохранены прежняя работа по Б и история уточнений; очередь поиска принадлежит ассистенту.",
   "receipt_scope": "Сверены data/intake/index.json, archive-inventory.json, существующие региональные reviews, общий XLSX версии 9 и общий файл источников версии 26. Не утверждается наличие прямого доступа к каждому чату. В доступном архиве полных НПА зарегистрированы документы Красноярского края.",
   "previous_clarifications_file": "data/reviews/previous-clarifications.json",
   "previous_source_notes": {
@@ -18,19 +18,20 @@
     "needs_reference_check": "Моя задача: подтвердить реквизиты и действующий акт. Не запрашивать документ у пользователя вслепую.",
     "needs_identification": "Моя задача: найти точное основание/порядок. Не является запросом ручной подгрузки.",
     "document_inventory_started": "Прежние вопросы сопоставлены с запросами документов; проверка всех условий не завершена.",
-    "independent_retrieval_in_progress": "Моя рабочая очередь: самостоятельно получить текст, приложения и изменения. Нуждаемость в помощи пользователя не доказана."
+    "independent_retrieval_in_progress": "Моя рабочая очередь: самостоятельно получить текст, приложения и изменения. Нуждаемость в помощи пользователя не доказана.",
+    "copy_obtained_revision_pending": "Нормативная копия получена и сохранена. Последующие изменения, полнота действующей редакции и условия меры ещё сверяются самостоятельно."
   },
   "counts": {
     "regions_total": 89,
     "overviews_received": 89,
-    "regions_document_inventory_started": 8,
-    "regions_awaiting_alphabetical_document_audit": 81,
+    "regions_document_inventory_started": 10,
+    "regions_awaiting_alphabetical_document_audit": 79,
     "full_legal_reviews_completed_in_this_pass": 0,
     "unverified_act_references": 119,
     "identification_tasks": 119,
     "previous_clarifications_preserved": 808,
-    "confirmed_reference_documents": 61,
-    "assistant_document_tasks": 180,
+    "confirmed_reference_documents": 63,
+    "assistant_document_tasks": 182,
     "user_help_requests_confirmed": 0
   },
   "sources": [
@@ -2005,6 +2006,54 @@
       "access": "primary_source_inspected",
       "checked_at": "2026-10-19",
       "note": "Прочитан исходный закон и список изменений. Актуальная консолидированная редакция ещё сверяется."
+    },
+    {
+      "id": "a-copy-6b86c9293071",
+      "url": "https://navigator.adygheya.gov.ru/actions/52/",
+      "description": "Закон Республики Адыгея от 28.09.1994 № 117-1 — официальный источник реквизитов",
+      "access": "official_page",
+      "checked_at": "2026-10-19",
+      "note": "Не является подтверждением всех последующих изменений на дату проверки."
+    },
+    {
+      "id": "a-copy-310c688ed05f",
+      "url": "https://voen-pravo.ru/voennoe_pravo/documents/laws/11101/",
+      "description": "Закон Республики Адыгея от 28.09.1994 № 117-1 — полученная копия",
+      "access": "legal_text_reproduction",
+      "checked_at": "2026-10-19",
+      "note": "Не является подтверждением всех последующих изменений на дату проверки."
+    },
+    {
+      "id": "a-copy-4014666951ba",
+      "url": "https://voen-pravo.ru/voennoe_pravo/documents/laws/6849/",
+      "description": "Закон Астраханской области от 22.12.2016 № 85/2016-ОЗ — полученная копия",
+      "access": "legal_text_reproduction",
+      "checked_at": "2026-10-19",
+      "note": "Не является подтверждением всех последующих изменений на дату проверки."
+    },
+    {
+      "id": "a-copy-276e53a4a2a2",
+      "url": "https://www.nalog.gov.ru/rn77/service/tax/d1471088/",
+      "description": "Закон Республики Алтай от 27.11.2002 № 7-12 — официальный источник реквизитов",
+      "access": "official_page",
+      "checked_at": "2026-10-19",
+      "note": "Не является подтверждением всех последующих изменений на дату проверки."
+    },
+    {
+      "id": "a-copy-6132f0d9fd1a",
+      "url": "https://voen-pravo.ru/voennoe_pravo/documents/laws/8498/",
+      "description": "Закон Республики Алтай от 27.11.2002 № 7-12 — полученная копия",
+      "access": "legal_text_reproduction",
+      "checked_at": "2026-10-19",
+      "note": "Не является подтверждением всех последующих изменений на дату проверки."
+    },
+    {
+      "id": "a-copy-40b38d607357",
+      "url": "https://madou280.ru/wp-content/uploads/2024/09/%D0%9F%D1%80%D0%B8%D0%BA%D0%B0%D0%B7-%D0%9C%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%B0-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B8-%D0%BD%D0%B0%D1%83%D0%BA%D0%B8-%D0%90%D0%BB%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%BA%D1%80%D0%B0%D1%8F-%D0%BE%D1%82-13-%D0%B4%D0%B5%D0%BA%D0%B0%D0%B1%D1%80%D1%8F-2023-%D0%B3-N-6-2-1.pdf",
+      "description": "Приказ Минобрнауки Алтайского края от 13.12.2023 № 68-П — полученная копия",
+      "access": "pdf_copy",
+      "checked_at": "2026-10-19",
+      "note": "Не является подтверждением всех последующих изменений на дату проверки."
     }
   ],
   "document_requests": [
@@ -2635,16 +2684,17 @@
       "date": "2023-12-13",
       "number": "68-П",
       "title": "Об утверждении Положения о порядке и условиях компенсации части платы, взимаемой с родителей (законных представителей) за присмотр и уход за ребенком в образовательных организациях Алтайского края, реализующих образовательную программу дошкольного образования",
-      "request_status": "independent_retrieval_in_progress",
+      "request_status": "copy_obtained_revision_pending",
       "reference_status": "official_reference_found",
       "why_needed": "Дополнение к обзору: проверить критерии нуждаемости, базу расчёта и порядок компенсации; не путать с приоритетом приёма.",
       "review_item_ids": [
         "22-5-kindergarten"
       ],
       "source_ids": [
-        "a-kindergarten"
+        "a-kindergarten",
+        "a-copy-40b38d607357"
       ],
-      "full_text_recorded_in_available_intake": false,
+      "full_text_recorded_in_available_intake": true,
       "checked_at": "2026-10-19",
       "action_owner": "assistant",
       "user_help_required": false,
@@ -2663,7 +2713,12 @@
           "https://base.garant.ru/408196165/b89690251be5277812a78962f6302560/",
           "https://xn----234-4ve0acg4alk4gej.xn--p1ai/?page_id=68"
         ]
-      }
+      },
+      "status_before_copy_obtained": "independent_retrieval_in_progress",
+      "legal_copy_file": "data/legal/22-kindergarten-order-68-P-copy.txt",
+      "legal_copy_index": "data/legal/index.json",
+      "full_current_text_verified": false,
+      "copy_revision_note": "Получена и сохранена конкретная копия; это не подтверждение всех условий 2026. Нужна проверка последующих изменений. Для PDF — текстовая выгрузка страниц; при сомнении сверять оригинальный PDF."
     },
     {
       "id": "28-doc-first",
@@ -3611,7 +3666,7 @@
       "date": "2025-12-22",
       "number": "313-22-ОЗ",
       "title": "Об областном бюджете на 2026 год и на плановый период 2027 и 2028 годов",
-      "request_status": "independent_retrieval_in_progress",
+      "request_status": "copy_obtained_revision_pending",
       "reference_status": "official_reference_found",
       "why_needed": "Статьи/приложения об индексации пособий и вознаграждения; дату и коэффициент индексации 2026 подтвердить документом.",
       "review_item_ids": [
@@ -3623,7 +3678,7 @@
       "source_ids": [
         "audit2930-arkbudget"
       ],
-      "full_text_recorded_in_available_intake": false,
+      "full_text_recorded_in_available_intake": true,
       "checked_at": "2026-10-19",
       "action_owner": "assistant",
       "user_help_required": false,
@@ -3642,7 +3697,12 @@
           "https://base.garant.ru/413320874/10ed0f917186039eb157d3ba4f962ee5/",
           "https://29.mchs.gov.ru/uploads/resource/2026-01-16/5-1-normativnye-pravovye-akty_17685798461261355752.pdf"
         ]
-      }
+      },
+      "status_before_copy_obtained": "independent_retrieval_in_progress",
+      "legal_copy_file": "data/legal/29-budget-law-313-22-original-2026-01-12.txt",
+      "legal_copy_index": "data/legal/index.json",
+      "full_current_text_verified": false,
+      "copy_revision_note": "Получена и сохранена конкретная копия; это не подтверждение всех условий 2026. Нужна проверка последующих изменений. Для PDF — текстовая выгрузка страниц; при сомнении сверять оригинальный PDF."
     },
     {
       "id": "30-doc-social-law",
@@ -3651,7 +3711,7 @@
       "date": "2016-12-22",
       "number": "85/2016-ОЗ",
       "title": "О мерах социальной поддержки и социальной помощи отдельным категориям граждан в Астраханской области",
-      "request_status": "independent_retrieval_in_progress",
+      "request_status": "copy_obtained_revision_pending",
       "reference_status": "official_reference_found",
       "why_needed": "Правильные дата и наименование вместо 07.12.2011 и узкого названия из обзора. Нужны критерии поддержки, капитал, многодетные, инвалидность, детсад, пособия и соцконтракт.",
       "review_item_ids": [
@@ -3668,9 +3728,10 @@
         "30-section-17"
       ],
       "source_ids": [
-        "audit2930-astra85"
+        "audit2930-astra85",
+        "a-copy-4014666951ba"
       ],
-      "full_text_recorded_in_available_intake": false,
+      "full_text_recorded_in_available_intake": true,
       "checked_at": "2026-10-19",
       "action_owner": "assistant",
       "user_help_required": false,
@@ -3689,7 +3750,12 @@
           "https://base.garant.ru/9100053/",
           "https://base.garant.ru/46454144/"
         ]
-      }
+      },
+      "status_before_copy_obtained": "independent_retrieval_in_progress",
+      "legal_copy_file": "data/legal/30-social-law-85-2016-2026-06-19.txt",
+      "legal_copy_index": "data/legal/index.json",
+      "full_current_text_verified": false,
+      "copy_revision_note": "Получена и сохранена конкретная копия; это не подтверждение всех условий 2026. Нужна проверка последующих изменений. Для PDF — текстовая выгрузка страниц; при сомнении сверять оригинальный PDF."
     },
     {
       "id": "30-doc-pm-2026",
@@ -9022,6 +9088,64 @@
         "full_current_text_verified": false,
         "result": "Самостоятельный поиск и сверка продолжаются; подтверждённого препятствия, требующего помощи пользователя, нет."
       }
+    },
+    {
+      "id": "01-doc-family",
+      "region_id": "01",
+      "kind": "Закон",
+      "date": "1994-09-28",
+      "number": "117-1",
+      "title": "Закон Республики Адыгея от 28.09.1994 № 117-1",
+      "reference_status": "official_reference_found",
+      "why_needed": "Нормативная сверка мер соответствующего региона; полная текущая редакция ещё проверяется.",
+      "review_item_ids": [
+        "01-section-2",
+        "01-section-7",
+        "01-section-19"
+      ],
+      "source_ids": [
+        "a-copy-6b86c9293071",
+        "a-copy-310c688ed05f"
+      ],
+      "overview_source_ids": [],
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Самостоятельно проверить текущую редакцию и последующие изменения; полученную копию повторно не запрашивать.",
+      "request_status": "copy_obtained_revision_pending",
+      "legal_copy_file": "data/legal/01-family-law-117-1-2026-08-06.txt",
+      "legal_copy_index": "data/legal/index.json",
+      "full_current_text_verified": false,
+      "full_text_recorded_in_available_intake": true,
+      "copy_revision_note": "Получена и сохранена конкретная копия; это не подтверждение всех условий 2026. Нужна проверка последующих изменений. Для PDF — текстовая выгрузка страниц; при сомнении сверять оригинальный PDF."
+    },
+    {
+      "id": "04-doc-tax",
+      "region_id": "04",
+      "kind": "Закон",
+      "date": "2002-11-27",
+      "number": "7-12",
+      "title": "Закон Республики Алтай от 27.11.2002 № 7-12",
+      "reference_status": "official_reference_found",
+      "why_needed": "Нормативная сверка мер соответствующего региона; полная текущая редакция ещё проверяется.",
+      "review_item_ids": [
+        "04-9"
+      ],
+      "source_ids": [
+        "a-copy-276e53a4a2a2",
+        "a-copy-6132f0d9fd1a"
+      ],
+      "overview_source_ids": [],
+      "checked_at": "2026-10-19",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "required_material": "Самостоятельно проверить текущую редакцию и последующие изменения; полученную копию повторно не запрашивать.",
+      "request_status": "copy_obtained_revision_pending",
+      "legal_copy_file": "data/legal/04-transport-law-7-12-2026-03-27.txt",
+      "legal_copy_index": "data/legal/index.json",
+      "full_current_text_verified": false,
+      "full_text_recorded_in_available_intake": true,
+      "copy_revision_note": "Получена и сохранена конкретная копия; это не подтверждение всех условий 2026. Нужна проверка последующих изменений. Для PDF — текстовая выгрузка страниц; при сомнении сверять оригинальный PDF."
     }
   ],
   "identification_tasks": [
@@ -13280,6 +13404,32 @@
   "regions": [
     {
       "position": 1,
+      "region_id": "01",
+      "region": "Республика Адыгея",
+      "status": "document_inventory_started",
+      "full_legal_review_complete": false,
+      "document_request_count": 1,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/01-adygea.json",
+      "overview_received": true,
+      "letter_progress_file": "data/reviews/letter-progress.json"
+    },
+    {
+      "position": 2,
+      "region_id": "04",
+      "region": "Республика Алтай",
+      "status": "document_inventory_started",
+      "full_legal_review_complete": false,
+      "document_request_count": 1,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 32,
+      "existing_review_file": "data/reviews/04-altai-republic.json",
+      "overview_received": true,
+      "letter_progress_file": "data/reviews/letter-progress.json"
+    },
+    {
+      "position": 3,
       "region_id": "22",
       "region": "Алтайский край",
       "status": "document_inventory_started",
@@ -13291,7 +13441,7 @@
       "overview_received": true
     },
     {
-      "position": 2,
+      "position": 4,
       "region_id": "28",
       "region": "Амурская область",
       "status": "document_inventory_started",
@@ -13303,7 +13453,7 @@
       "overview_received": true
     },
     {
-      "position": 3,
+      "position": 5,
       "region_id": "29",
       "region": "Архангельская область",
       "status": "document_inventory_started",
@@ -13315,7 +13465,7 @@
       "overview_received": true
     },
     {
-      "position": 4,
+      "position": 6,
       "region_id": "30",
       "region": "Астраханская область",
       "status": "document_inventory_started",
@@ -13327,541 +13477,7 @@
       "overview_received": true
     },
     {
-      "position": 5,
-      "region_id": "31",
-      "region": "Белгородская область",
-      "status": "document_inventory_started",
-      "full_legal_review_complete": false,
-      "document_request_count": 4,
-      "references_to_identify_count": 19,
-      "previous_clarification_count": 20,
-      "existing_review_file": "data/reviews/31-belgorod.json",
-      "overview_received": true,
-      "last_document_audit": "2026-10-19",
-      "document_audit_file": "data/reviews/b-regions-audit-2026-10-19.json",
-      "document_inventory_first_pass_complete": true
-    },
-    {
-      "position": 6,
-      "region_id": "32",
-      "region": "Брянская область",
-      "status": "document_inventory_started",
-      "full_legal_review_complete": false,
-      "document_request_count": 12,
-      "references_to_identify_count": 15,
-      "previous_clarification_count": 0,
-      "existing_review_file": "data/reviews/32-bryansk.json",
-      "overview_received": true,
-      "last_document_audit": "2026-10-19",
-      "document_audit_file": "data/reviews/b-regions-audit-2026-10-19.json",
-      "document_inventory_first_pass_complete": true
-    },
-    {
       "position": 7,
-      "region_id": "33",
-      "region": "Владимирская область",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 0,
-      "existing_review_file": null,
-      "overview_received": true
-    },
-    {
-      "position": 8,
-      "region_id": "34",
-      "region": "Волгоградская область",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 0,
-      "existing_review_file": null,
-      "overview_received": true
-    },
-    {
-      "position": 9,
-      "region_id": "35",
-      "region": "Вологодская область",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 0,
-      "existing_review_file": "data/reviews/35-vologda.json",
-      "overview_received": true
-    },
-    {
-      "position": 10,
-      "region_id": "36",
-      "region": "Воронежская область",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 18,
-      "existing_review_file": "data/reviews/36-voronezh.json",
-      "overview_received": true
-    },
-    {
-      "position": 11,
-      "region_id": "80",
-      "region": "Донецкая Народная Республика",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 0,
-      "existing_review_file": "data/reviews/80-dnr.json",
-      "overview_received": true
-    },
-    {
-      "position": 12,
-      "region_id": "79",
-      "region": "Еврейская автономная область",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 0,
-      "existing_review_file": null,
-      "overview_received": true
-    },
-    {
-      "position": 13,
-      "region_id": "75",
-      "region": "Забайкальский край",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 19,
-      "existing_review_file": "data/reviews/75-zabaikal.json",
-      "overview_received": true
-    },
-    {
-      "position": 14,
-      "region_id": "85",
-      "region": "Запорожская область",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 0,
-      "existing_review_file": "data/reviews/85-zaporozhye.json",
-      "overview_received": true
-    },
-    {
-      "position": 15,
-      "region_id": "37",
-      "region": "Ивановская область",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 0,
-      "existing_review_file": null,
-      "overview_received": true
-    },
-    {
-      "position": 16,
-      "region_id": "38",
-      "region": "Иркутская область",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 25,
-      "existing_review_file": null,
-      "overview_received": true
-    },
-    {
-      "position": 17,
-      "region_id": "07",
-      "region": "Кабардино-Балкарская Республика",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 0,
-      "existing_review_file": "data/reviews/07-kabardino-balkaria.json",
-      "overview_received": true
-    },
-    {
-      "position": 18,
-      "region_id": "39",
-      "region": "Калининградская область",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 0,
-      "existing_review_file": null,
-      "overview_received": true
-    },
-    {
-      "position": 19,
-      "region_id": "40",
-      "region": "Калужская область",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 18,
-      "existing_review_file": null,
-      "overview_received": true
-    },
-    {
-      "position": 20,
-      "region_id": "41",
-      "region": "Камчатский край",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 13,
-      "existing_review_file": "data/reviews/41-kamchatka.json",
-      "overview_received": true
-    },
-    {
-      "position": 21,
-      "region_id": "09",
-      "region": "Карачаево-Черкесская Республика",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 0,
-      "existing_review_file": "data/reviews/09-karachay-cherkessia.json",
-      "overview_received": true
-    },
-    {
-      "position": 22,
-      "region_id": "42",
-      "region": "Кемеровская область — Кузбасс",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 75,
-      "existing_review_file": null,
-      "overview_received": true
-    },
-    {
-      "position": 23,
-      "region_id": "43",
-      "region": "Кировская область",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 0,
-      "existing_review_file": "data/reviews/43-kirov.json",
-      "overview_received": true
-    },
-    {
-      "position": 24,
-      "region_id": "44",
-      "region": "Костромская область",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 0,
-      "existing_review_file": "data/reviews/44-kostroma.json",
-      "overview_received": true
-    },
-    {
-      "position": 25,
-      "region_id": "23",
-      "region": "Краснодарский край",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 0,
-      "existing_review_file": null,
-      "overview_received": true
-    },
-    {
-      "position": 26,
-      "region_id": "24",
-      "region": "Красноярский край",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 7,
-      "existing_review_file": "data/reviews/24-krasnoyarsk.json",
-      "overview_received": true
-    },
-    {
-      "position": 27,
-      "region_id": "45",
-      "region": "Курганская область",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 0,
-      "existing_review_file": "data/reviews/45-kurgan.json",
-      "overview_received": true
-    },
-    {
-      "position": 28,
-      "region_id": "46",
-      "region": "Курская область",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 18,
-      "existing_review_file": "data/reviews/46-kursk.json",
-      "overview_received": true
-    },
-    {
-      "position": 29,
-      "region_id": "47",
-      "region": "Ленинградская область",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 0,
-      "existing_review_file": null,
-      "overview_received": true
-    },
-    {
-      "position": 30,
-      "region_id": "48",
-      "region": "Липецкая область",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 21,
-      "existing_review_file": "data/reviews/48-lipetsk.json",
-      "overview_received": true
-    },
-    {
-      "position": 31,
-      "region_id": "81",
-      "region": "Луганская Народная Республика",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 0,
-      "existing_review_file": "data/reviews/81-lnr.json",
-      "overview_received": true
-    },
-    {
-      "position": 32,
-      "region_id": "49",
-      "region": "Магаданская область",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 20,
-      "existing_review_file": "data/reviews/49-magadan.json",
-      "overview_received": true
-    },
-    {
-      "position": 33,
-      "region_id": "77",
-      "region": "Москва",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 0,
-      "existing_review_file": null,
-      "overview_received": true
-    },
-    {
-      "position": 34,
-      "region_id": "50",
-      "region": "Московская область",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 0,
-      "existing_review_file": null,
-      "overview_received": true
-    },
-    {
-      "position": 35,
-      "region_id": "51",
-      "region": "Мурманская область",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 0,
-      "existing_review_file": null,
-      "overview_received": true
-    },
-    {
-      "position": 36,
-      "region_id": "83",
-      "region": "Ненецкий автономный округ",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 0,
-      "existing_review_file": null,
-      "overview_received": true
-    },
-    {
-      "position": 37,
-      "region_id": "52",
-      "region": "Нижегородская область",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 0,
-      "existing_review_file": null,
-      "overview_received": true
-    },
-    {
-      "position": 38,
-      "region_id": "53",
-      "region": "Новгородская область",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 0,
-      "existing_review_file": null,
-      "overview_received": true
-    },
-    {
-      "position": 39,
-      "region_id": "54",
-      "region": "Новосибирская область",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 0,
-      "existing_review_file": null,
-      "overview_received": true
-    },
-    {
-      "position": 40,
-      "region_id": "55",
-      "region": "Омская область",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 39,
-      "existing_review_file": null,
-      "overview_received": true
-    },
-    {
-      "position": 41,
-      "region_id": "56",
-      "region": "Оренбургская область",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 0,
-      "existing_review_file": "data/reviews/56-orenburg.json",
-      "overview_received": true
-    },
-    {
-      "position": 42,
-      "region_id": "57",
-      "region": "Орловская область",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 0,
-      "existing_review_file": null,
-      "overview_received": true
-    },
-    {
-      "position": 43,
-      "region_id": "58",
-      "region": "Пензенская область",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 0,
-      "existing_review_file": "data/reviews/58-penza.json",
-      "overview_received": true
-    },
-    {
-      "position": 44,
-      "region_id": "59",
-      "region": "Пермский край",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 19,
-      "existing_review_file": "data/reviews/59-perm.json",
-      "overview_received": true
-    },
-    {
-      "position": 45,
-      "region_id": "25",
-      "region": "Приморский край",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 22,
-      "existing_review_file": "data/reviews/25-primorye.json",
-      "overview_received": true
-    },
-    {
-      "position": 46,
-      "region_id": "60",
-      "region": "Псковская область",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 0,
-      "existing_review_file": null,
-      "overview_received": true
-    },
-    {
-      "position": 47,
-      "region_id": "01",
-      "region": "Республика Адыгея",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 0,
-      "existing_review_file": null,
-      "overview_received": true
-    },
-    {
-      "position": 48,
-      "region_id": "04",
-      "region": "Республика Алтай",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 32,
-      "existing_review_file": "data/reviews/04-altai-republic.json",
-      "overview_received": true
-    },
-    {
-      "position": 49,
       "region_id": "02",
       "region": "Республика Башкортостан",
       "status": "document_inventory_started",
@@ -13876,7 +13492,37 @@
       "document_inventory_first_pass_complete": true
     },
     {
-      "position": 50,
+      "position": 8,
+      "region_id": "31",
+      "region": "Белгородская область",
+      "status": "document_inventory_started",
+      "full_legal_review_complete": false,
+      "document_request_count": 4,
+      "references_to_identify_count": 19,
+      "previous_clarification_count": 20,
+      "existing_review_file": "data/reviews/31-belgorod.json",
+      "overview_received": true,
+      "last_document_audit": "2026-10-19",
+      "document_audit_file": "data/reviews/b-regions-audit-2026-10-19.json",
+      "document_inventory_first_pass_complete": true
+    },
+    {
+      "position": 9,
+      "region_id": "32",
+      "region": "Брянская область",
+      "status": "document_inventory_started",
+      "full_legal_review_complete": false,
+      "document_request_count": 12,
+      "references_to_identify_count": 15,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/32-bryansk.json",
+      "overview_received": true,
+      "last_document_audit": "2026-10-19",
+      "document_audit_file": "data/reviews/b-regions-audit-2026-10-19.json",
+      "document_inventory_first_pass_complete": true
+    },
+    {
+      "position": 10,
       "region_id": "03",
       "region": "Республика Бурятия",
       "status": "document_inventory_started",
@@ -13891,7 +13537,55 @@
       "document_inventory_first_pass_complete": true
     },
     {
-      "position": 51,
+      "position": 11,
+      "region_id": "33",
+      "region": "Владимирская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 12,
+      "region_id": "34",
+      "region": "Волгоградская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 13,
+      "region_id": "35",
+      "region": "Вологодская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/35-vologda.json",
+      "overview_received": true
+    },
+    {
+      "position": 14,
+      "region_id": "36",
+      "region": "Воронежская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 18,
+      "existing_review_file": "data/reviews/36-voronezh.json",
+      "overview_received": true
+    },
+    {
+      "position": 15,
       "region_id": "05",
       "region": "Республика Дагестан",
       "status": "awaiting_alphabetical_document_audit",
@@ -13903,7 +13597,67 @@
       "overview_received": true
     },
     {
-      "position": 52,
+      "position": 16,
+      "region_id": "80",
+      "region": "Донецкая Народная Республика",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/80-dnr.json",
+      "overview_received": true
+    },
+    {
+      "position": 17,
+      "region_id": "79",
+      "region": "Еврейская автономная область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 18,
+      "region_id": "75",
+      "region": "Забайкальский край",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 19,
+      "existing_review_file": "data/reviews/75-zabaikal.json",
+      "overview_received": true
+    },
+    {
+      "position": 19,
+      "region_id": "85",
+      "region": "Запорожская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/85-zaporozhye.json",
+      "overview_received": true
+    },
+    {
+      "position": 20,
+      "region_id": "37",
+      "region": "Ивановская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 21,
       "region_id": "06",
       "region": "Республика Ингушетия",
       "status": "awaiting_alphabetical_document_audit",
@@ -13915,7 +13669,43 @@
       "overview_received": true
     },
     {
-      "position": 53,
+      "position": 22,
+      "region_id": "38",
+      "region": "Иркутская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 25,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 23,
+      "region_id": "07",
+      "region": "Кабардино-Балкарская Республика",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/07-kabardino-balkaria.json",
+      "overview_received": true
+    },
+    {
+      "position": 24,
+      "region_id": "39",
+      "region": "Калининградская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 25,
       "region_id": "08",
       "region": "Республика Калмыкия",
       "status": "awaiting_alphabetical_document_audit",
@@ -13927,7 +13717,43 @@
       "overview_received": true
     },
     {
-      "position": 54,
+      "position": 26,
+      "region_id": "40",
+      "region": "Калужская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 18,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 27,
+      "region_id": "41",
+      "region": "Камчатский край",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 13,
+      "existing_review_file": "data/reviews/41-kamchatka.json",
+      "overview_received": true
+    },
+    {
+      "position": 28,
+      "region_id": "09",
+      "region": "Карачаево-Черкесская Республика",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/09-karachay-cherkessia.json",
+      "overview_received": true
+    },
+    {
+      "position": 29,
       "region_id": "10",
       "region": "Республика Карелия",
       "status": "awaiting_alphabetical_document_audit",
@@ -13939,7 +13765,31 @@
       "overview_received": true
     },
     {
-      "position": 55,
+      "position": 30,
+      "region_id": "42",
+      "region": "Кемеровская область — Кузбасс",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 75,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 31,
+      "region_id": "43",
+      "region": "Кировская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/43-kirov.json",
+      "overview_received": true
+    },
+    {
+      "position": 32,
       "region_id": "11",
       "region": "Республика Коми",
       "status": "awaiting_alphabetical_document_audit",
@@ -13951,7 +13801,43 @@
       "overview_received": true
     },
     {
-      "position": 56,
+      "position": 33,
+      "region_id": "44",
+      "region": "Костромская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/44-kostroma.json",
+      "overview_received": true
+    },
+    {
+      "position": 34,
+      "region_id": "23",
+      "region": "Краснодарский край",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 35,
+      "region_id": "24",
+      "region": "Красноярский край",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 7,
+      "existing_review_file": "data/reviews/24-krasnoyarsk.json",
+      "overview_received": true
+    },
+    {
+      "position": 36,
       "region_id": "91",
       "region": "Республика Крым",
       "status": "awaiting_alphabetical_document_audit",
@@ -13963,7 +13849,79 @@
       "overview_received": true
     },
     {
-      "position": 57,
+      "position": 37,
+      "region_id": "45",
+      "region": "Курганская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/45-kurgan.json",
+      "overview_received": true
+    },
+    {
+      "position": 38,
+      "region_id": "46",
+      "region": "Курская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 18,
+      "existing_review_file": "data/reviews/46-kursk.json",
+      "overview_received": true
+    },
+    {
+      "position": 39,
+      "region_id": "47",
+      "region": "Ленинградская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 40,
+      "region_id": "48",
+      "region": "Липецкая область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 21,
+      "existing_review_file": "data/reviews/48-lipetsk.json",
+      "overview_received": true
+    },
+    {
+      "position": 41,
+      "region_id": "81",
+      "region": "Луганская Народная Республика",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/81-lnr.json",
+      "overview_received": true
+    },
+    {
+      "position": 42,
+      "region_id": "49",
+      "region": "Магаданская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 20,
+      "existing_review_file": "data/reviews/49-magadan.json",
+      "overview_received": true
+    },
+    {
+      "position": 43,
       "region_id": "12",
       "region": "Республика Марий Эл",
       "status": "awaiting_alphabetical_document_audit",
@@ -13975,7 +13933,7 @@
       "overview_received": true
     },
     {
-      "position": 58,
+      "position": 44,
       "region_id": "13",
       "region": "Республика Мордовия",
       "status": "awaiting_alphabetical_document_audit",
@@ -13987,67 +13945,175 @@
       "overview_received": true
     },
     {
-      "position": 59,
-      "region_id": "14",
-      "region": "Республика Саха (Якутия)",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 32,
-      "existing_review_file": "data/reviews/14-yakutia.json",
-      "overview_received": true
-    },
-    {
-      "position": 60,
-      "region_id": "15",
-      "region": "Республика Северная Осетия — Алания",
+      "position": 45,
+      "region_id": "77",
+      "region": "Москва",
       "status": "awaiting_alphabetical_document_audit",
       "full_legal_review_complete": false,
       "document_request_count": 0,
       "references_to_identify_count": 0,
       "previous_clarification_count": 0,
-      "existing_review_file": "data/reviews/15-north-ossetia.json",
-      "overview_received": true
-    },
-    {
-      "position": 61,
-      "region_id": "16",
-      "region": "Республика Татарстан",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 21,
-      "existing_review_file": "data/reviews/16-tatarstan.json",
-      "overview_received": true
-    },
-    {
-      "position": 62,
-      "region_id": "17",
-      "region": "Республика Тыва",
-      "status": "awaiting_alphabetical_document_audit",
-      "full_legal_review_complete": false,
-      "document_request_count": 0,
-      "references_to_identify_count": 0,
-      "previous_clarification_count": 27,
       "existing_review_file": null,
       "overview_received": true
     },
     {
-      "position": 63,
-      "region_id": "19",
-      "region": "Республика Хакасия",
+      "position": 46,
+      "region_id": "50",
+      "region": "Московская область",
       "status": "awaiting_alphabetical_document_audit",
       "full_legal_review_complete": false,
       "document_request_count": 0,
       "references_to_identify_count": 0,
-      "previous_clarification_count": 32,
+      "previous_clarification_count": 0,
       "existing_review_file": null,
       "overview_received": true
     },
     {
-      "position": 64,
+      "position": 47,
+      "region_id": "51",
+      "region": "Мурманская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 48,
+      "region_id": "83",
+      "region": "Ненецкий автономный округ",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 49,
+      "region_id": "52",
+      "region": "Нижегородская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 50,
+      "region_id": "53",
+      "region": "Новгородская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 51,
+      "region_id": "54",
+      "region": "Новосибирская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 52,
+      "region_id": "55",
+      "region": "Омская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 39,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 53,
+      "region_id": "56",
+      "region": "Оренбургская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/56-orenburg.json",
+      "overview_received": true
+    },
+    {
+      "position": 54,
+      "region_id": "57",
+      "region": "Орловская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 55,
+      "region_id": "58",
+      "region": "Пензенская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/58-penza.json",
+      "overview_received": true
+    },
+    {
+      "position": 56,
+      "region_id": "59",
+      "region": "Пермский край",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 19,
+      "existing_review_file": "data/reviews/59-perm.json",
+      "overview_received": true
+    },
+    {
+      "position": 57,
+      "region_id": "25",
+      "region": "Приморский край",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 22,
+      "existing_review_file": "data/reviews/25-primorye.json",
+      "overview_received": true
+    },
+    {
+      "position": 58,
+      "region_id": "60",
+      "region": "Псковская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 59,
       "region_id": "61",
       "region": "Ростовская область",
       "status": "awaiting_alphabetical_document_audit",
@@ -14059,7 +14125,7 @@
       "overview_received": true
     },
     {
-      "position": 65,
+      "position": 60,
       "region_id": "62",
       "region": "Рязанская область",
       "status": "awaiting_alphabetical_document_audit",
@@ -14071,7 +14137,7 @@
       "overview_received": true
     },
     {
-      "position": 66,
+      "position": 61,
       "region_id": "63",
       "region": "Самарская область",
       "status": "awaiting_alphabetical_document_audit",
@@ -14083,7 +14149,7 @@
       "overview_received": true
     },
     {
-      "position": 67,
+      "position": 62,
       "region_id": "78",
       "region": "Санкт-Петербург",
       "status": "awaiting_alphabetical_document_audit",
@@ -14095,7 +14161,7 @@
       "overview_received": true
     },
     {
-      "position": 68,
+      "position": 63,
       "region_id": "64",
       "region": "Саратовская область",
       "status": "awaiting_alphabetical_document_audit",
@@ -14107,7 +14173,19 @@
       "overview_received": true
     },
     {
-      "position": 69,
+      "position": 64,
+      "region_id": "14",
+      "region": "Республика Саха (Якутия)",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 32,
+      "existing_review_file": "data/reviews/14-yakutia.json",
+      "overview_received": true
+    },
+    {
+      "position": 65,
       "region_id": "65",
       "region": "Сахалинская область",
       "status": "awaiting_alphabetical_document_audit",
@@ -14119,7 +14197,7 @@
       "overview_received": true
     },
     {
-      "position": 70,
+      "position": 66,
       "region_id": "66",
       "region": "Свердловская область",
       "status": "awaiting_alphabetical_document_audit",
@@ -14131,7 +14209,7 @@
       "overview_received": true
     },
     {
-      "position": 71,
+      "position": 67,
       "region_id": "92",
       "region": "Севастополь",
       "status": "awaiting_alphabetical_document_audit",
@@ -14143,7 +14221,19 @@
       "overview_received": true
     },
     {
-      "position": 72,
+      "position": 68,
+      "region_id": "15",
+      "region": "Республика Северная Осетия — Алания",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/15-north-ossetia.json",
+      "overview_received": true
+    },
+    {
+      "position": 69,
       "region_id": "67",
       "region": "Смоленская область",
       "status": "awaiting_alphabetical_document_audit",
@@ -14155,7 +14245,7 @@
       "overview_received": true
     },
     {
-      "position": 73,
+      "position": 70,
       "region_id": "26",
       "region": "Ставропольский край",
       "status": "awaiting_alphabetical_document_audit",
@@ -14167,7 +14257,7 @@
       "overview_received": true
     },
     {
-      "position": 74,
+      "position": 71,
       "region_id": "68",
       "region": "Тамбовская область",
       "status": "awaiting_alphabetical_document_audit",
@@ -14179,7 +14269,19 @@
       "overview_received": true
     },
     {
-      "position": 75,
+      "position": 72,
+      "region_id": "16",
+      "region": "Республика Татарстан",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 21,
+      "existing_review_file": "data/reviews/16-tatarstan.json",
+      "overview_received": true
+    },
+    {
+      "position": 73,
       "region_id": "69",
       "region": "Тверская область",
       "status": "awaiting_alphabetical_document_audit",
@@ -14191,7 +14293,7 @@
       "overview_received": true
     },
     {
-      "position": 76,
+      "position": 74,
       "region_id": "70",
       "region": "Томская область",
       "status": "awaiting_alphabetical_document_audit",
@@ -14203,7 +14305,7 @@
       "overview_received": true
     },
     {
-      "position": 77,
+      "position": 75,
       "region_id": "71",
       "region": "Тульская область",
       "status": "awaiting_alphabetical_document_audit",
@@ -14215,7 +14317,19 @@
       "overview_received": true
     },
     {
-      "position": 78,
+      "position": 76,
+      "region_id": "17",
+      "region": "Республика Тыва",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 27,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 77,
       "region_id": "72",
       "region": "Тюменская область",
       "status": "awaiting_alphabetical_document_audit",
@@ -14227,7 +14341,7 @@
       "overview_received": true
     },
     {
-      "position": 79,
+      "position": 78,
       "region_id": "18",
       "region": "Удмуртская Республика",
       "status": "awaiting_alphabetical_document_audit",
@@ -14239,7 +14353,7 @@
       "overview_received": true
     },
     {
-      "position": 80,
+      "position": 79,
       "region_id": "73",
       "region": "Ульяновская область",
       "status": "awaiting_alphabetical_document_audit",
@@ -14251,7 +14365,7 @@
       "overview_received": true
     },
     {
-      "position": 81,
+      "position": 80,
       "region_id": "27",
       "region": "Хабаровский край",
       "status": "awaiting_alphabetical_document_audit",
@@ -14260,6 +14374,18 @@
       "references_to_identify_count": 0,
       "previous_clarification_count": 21,
       "existing_review_file": "data/reviews/27-khabarovsk.json",
+      "overview_received": true
+    },
+    {
+      "position": 81,
+      "region_id": "19",
+      "region": "Республика Хакасия",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 32,
+      "existing_review_file": null,
       "overview_received": true
     },
     {
@@ -14466,5 +14592,7 @@
       "03"
     ],
     "note": "По прямому указанию пользователя включены Башкортостан и Бурятия без учёта слова «Республика». Порядок остальных регионов сайта сохранён."
-  }
+  },
+  "workflow_file": "AGENTS.md",
+  "letter_progress_file": "data/reviews/letter-progress.json"
 }

@@ -755,5 +755,7 @@
   ],
   "document_inventory_checked_at": "2026-10-19",
   "document_register_file": "data/reviews/document-requests.json",
-  "document_inventory_status": "started_full_text_required"
+  "document_inventory_status": "started_full_text_required",
+  "letter_progress_file": "data/reviews/letter-progress.json",
+  "full_legal_review_complete": false
 }

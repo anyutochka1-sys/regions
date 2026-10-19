@@ -20,7 +20,8 @@
       "public_card_count": 1,
       "status": "received_review_incomplete",
       "unique_text_count": 1,
-      "last_inventory": "2026-10-19"
+      "last_inventory": "2026-10-19",
+      "letter_progress_file": "data/reviews/letter-progress.json"
     },
     {
       "region_id": "28",
@@ -35,7 +36,8 @@
       "public_card_count": 4,
       "status": "received_review_incomplete",
       "unique_text_count": 1,
-      "last_inventory": "2026-10-19"
+      "last_inventory": "2026-10-19",
+      "letter_progress_file": "data/reviews/letter-progress.json"
     },
     {
       "region_id": "29",
@@ -52,7 +54,8 @@
       "unique_text_count": 1,
       "last_inventory": "2026-10-19",
       "document_register_file": "data/reviews/document-requests.json",
-      "last_document_audit": "2026-10-19"
+      "last_document_audit": "2026-10-19",
+      "letter_progress_file": "data/reviews/letter-progress.json"
     },
     {
       "region_id": "30",
@@ -75,7 +78,8 @@
       "unique_text_count": 2,
       "last_inventory": "2026-10-19",
       "document_register_file": "data/reviews/document-requests.json",
-      "last_document_audit": "2026-10-19"
+      "last_document_audit": "2026-10-19",
+      "letter_progress_file": "data/reviews/letter-progress.json"
     },
     {
       "region_id": "31",
@@ -776,11 +780,12 @@
         "libfile_b3da5e3609988191819adb2f73dedeb8",
         "libfile_699ed1fb29a48191a2aaa3bc6915f6e0"
       ],
-      "review_status": "queued",
+      "review_status": "in_progress",
       "public_card_count": 0,
       "status": "received_review_incomplete",
       "unique_text_count": 1,
-      "last_inventory": "2026-10-19"
+      "last_inventory": "2026-10-19",
+      "letter_progress_file": "data/reviews/letter-progress.json"
     },
     {
       "region_id": "04",
@@ -795,7 +800,8 @@
       "public_card_count": 3,
       "status": "received_review_incomplete",
       "unique_text_count": 1,
-      "last_inventory": "2026-10-19"
+      "last_inventory": "2026-10-19",
+      "letter_progress_file": "data/reviews/letter-progress.json"
     },
     {
       "region_id": "02",

@@ -272,7 +272,11 @@
       "action": "Отсутствие транспортной льготы многодетным перепроверить по ФНС на 2026. Федеральные вычеты 5 / 7 м² и шесть соток не считать региональными.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Республика_Алтай.docx"
+      "received_file": "Меры_поддержки_семей_Республика_Алтай.docx",
+      "document_request_ids": [
+        "04-doc-tax"
+      ],
+      "legal_copy_file": "data/legal/04-transport-law-7-12-2026-03-27.txt"
     },
     {
       "id": "04-10",
@@ -365,5 +369,7 @@
       "received_file": "Меры_поддержки_семей_Республика_Алтай.docx"
     }
   ],
-  "unpublished_candidates": []
+  "unpublished_candidates": [],
+  "letter_progress_file": "data/reviews/letter-progress.json",
+  "full_legal_review_complete": false
 }

@@ -1,0 +1,446 @@
+{
+  "schema": 1,
+  "region_id": "01",
+  "jurisdiction": "Республика Адыгея",
+  "received": "2026-10-19",
+  "last_checked": "2026-10-19",
+  "status": "in_progress",
+  "coverage_note": "Сопоставлены 4 одинаковые присланные версии (1 уникальный текст); далее проверяются дополнительные меры и нормативные тексты. Проверка региона не завершена.",
+  "source_document": "mery_podderzhki_semei_adygeya(1).docx",
+  "source_text_file": "data/intake/texts/6bb7df57e0dab183c38cf3deffb01882d9d4c4437aa3c8923fd1743ca5790574.txt",
+  "source_documents": [
+    {
+      "id": "libfile_09de67a1118c819195c27eeea5e14d39",
+      "text_file": "data/intake/texts/6bb7df57e0dab183c38cf3deffb01882d9d4c4437aa3c8923fd1743ca5790574.txt",
+      "text_sha256": "6bb7df57e0dab183c38cf3deffb01882d9d4c4437aa3c8923fd1743ca5790574"
+    },
+    {
+      "id": "libfile_df1e25ec52f88191890cc14d6dd9d2f7",
+      "text_file": "data/intake/texts/6bb7df57e0dab183c38cf3deffb01882d9d4c4437aa3c8923fd1743ca5790574.txt",
+      "text_sha256": "6bb7df57e0dab183c38cf3deffb01882d9d4c4437aa3c8923fd1743ca5790574"
+    },
+    {
+      "id": "libfile_b3da5e3609988191819adb2f73dedeb8",
+      "text_file": "data/intake/texts/6bb7df57e0dab183c38cf3deffb01882d9d4c4437aa3c8923fd1743ca5790574.txt",
+      "text_sha256": "6bb7df57e0dab183c38cf3deffb01882d9d4c4437aa3c8923fd1743ca5790574"
+    },
+    {
+      "id": "libfile_699ed1fb29a48191a2aaa3bc6915f6e0",
+      "text_file": "data/intake/texts/6bb7df57e0dab183c38cf3deffb01882d9d4c4437aa3c8923fd1743ca5790574.txt",
+      "text_sha256": "6bb7df57e0dab183c38cf3deffb01882d9d4c4437aa3c8923fd1743ca5790574"
+    }
+  ],
+  "items": [
+    {
+      "id": "01-section-1",
+      "region": "Республика Адыгея",
+      "title": "Общие сведения и прожиточный минимум на 2026 год",
+      "source_section": "1",
+      "source_ids": [
+        "libfile_09de67a1118c819195c27eeea5e14d39",
+        "libfile_df1e25ec52f88191890cc14d6dd9d2f7",
+        "libfile_b3da5e3609988191819adb2f73dedeb8",
+        "libfile_699ed1fb29a48191a2aaa3bc6915f6e0"
+      ],
+      "status": "needs_review",
+      "action": "Сверить утверждения раздела с действующей нормативной базой, проверить все подмеры, исключения и сроки. Исходный обзор не считать подтверждением права.",
+      "action_owner": "assistant",
+      "user_help_required": false
+    },
+    {
+      "id": "01-section-2",
+      "region": "Республика Адыгея",
+      "title": "Региональный маткапитал — 100 000 рублей",
+      "source_section": "2",
+      "source_ids": [
+        "libfile_09de67a1118c819195c27eeea5e14d39",
+        "libfile_df1e25ec52f88191890cc14d6dd9d2f7",
+        "libfile_b3da5e3609988191819adb2f73dedeb8",
+        "libfile_699ed1fb29a48191a2aaa3bc6915f6e0"
+      ],
+      "status": "needs_review",
+      "action": "Сверить утверждения раздела с действующей нормативной базой, проверить все подмеры, исключения и сроки. Исходный обзор не считать подтверждением права.",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_request_ids": [
+        "01-doc-family"
+      ],
+      "legal_copy_file": "data/legal/01-family-law-117-1-2026-08-06.txt"
+    },
+    {
+      "id": "01-section-3",
+      "region": "Республика Адыгея",
+      "title": "Новая мера 2025 года — 300 000 рублей молодой семье за третьего ребёнка",
+      "source_section": "3",
+      "source_ids": [
+        "libfile_09de67a1118c819195c27eeea5e14d39",
+        "libfile_df1e25ec52f88191890cc14d6dd9d2f7",
+        "libfile_b3da5e3609988191819adb2f73dedeb8",
+        "libfile_699ed1fb29a48191a2aaa3bc6915f6e0"
+      ],
+      "status": "needs_review",
+      "action": "Сверить утверждения раздела с действующей нормативной базой, проверить все подмеры, исключения и сроки. Исходный обзор не считать подтверждением права.",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "verification_note_2026_10_19": "Первоначальная редакция № 448 запрещает суммирование с выплатой 100 тысяч. Однако выявлены изменения № 473 от 06.11.2025 и № 502 от 30.12.2025, а также № 154 от 13.11.2025 к порядку № 110. Нельзя переносить ограничение старой редакции либо заявлять 400 тысяч до проверки полных изменений и текущего порядка."
+    },
+    {
+      "id": "01-section-4",
+      "region": "Республика Адыгея",
+      "title": "Выплаты молодым мамам и студенческим семьям",
+      "source_section": "4",
+      "source_ids": [
+        "libfile_09de67a1118c819195c27eeea5e14d39",
+        "libfile_df1e25ec52f88191890cc14d6dd9d2f7",
+        "libfile_b3da5e3609988191819adb2f73dedeb8",
+        "libfile_699ed1fb29a48191a2aaa3bc6915f6e0"
+      ],
+      "status": "needs_review",
+      "action": "Сверить утверждения раздела с действующей нормативной базой, проверить все подмеры, исключения и сроки. Исходный обзор не считать подтверждением права.",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "verification_note_2026_10_19": "Официальный навигатор указывает закон № 534 от 08.06.2026 и порядок № 136 от 30.06.2026, а не дату 22.06.2026 из обзора; допускается единственный родитель. Для 25 тысяч указаны № 351 от 05.08.2024 и № 228 от 28.12.2024; для беременных студенток № 425 от 28.12.2024 и № 6 от 27.01.2025. Полные текущие порядки ещё сверяются."
+    },
+    {
+      "id": "01-section-5",
+      "region": "Республика Адыгея",
+      "title": "ЕДВ на третьего ребёнка до 3 лет — мера закрыта",
+      "source_section": "5",
+      "source_ids": [
+        "libfile_09de67a1118c819195c27eeea5e14d39",
+        "libfile_df1e25ec52f88191890cc14d6dd9d2f7",
+        "libfile_b3da5e3609988191819adb2f73dedeb8",
+        "libfile_699ed1fb29a48191a2aaa3bc6915f6e0"
+      ],
+      "status": "needs_review",
+      "action": "Сверить утверждения раздела с действующей нормативной базой, проверить все подмеры, исключения и сроки. Исходный обзор не считать подтверждением права.",
+      "action_owner": "assistant",
+      "user_help_required": false
+    },
+    {
+      "id": "01-section-6",
+      "region": "Республика Адыгея",
+      "title": "Классическое пособие на ребёнка",
+      "source_section": "6",
+      "source_ids": [
+        "libfile_09de67a1118c819195c27eeea5e14d39",
+        "libfile_df1e25ec52f88191890cc14d6dd9d2f7",
+        "libfile_b3da5e3609988191819adb2f73dedeb8",
+        "libfile_699ed1fb29a48191a2aaa3bc6915f6e0"
+      ],
+      "status": "needs_review",
+      "action": "Сверить утверждения раздела с действующей нормативной базой, проверить все подмеры, исключения и сроки. Исходный обзор не считать подтверждением права.",
+      "action_owner": "assistant",
+      "user_help_required": false
+    },
+    {
+      "id": "01-section-7",
+      "region": "Республика Адыгея",
+      "title": "Меры многодетным семьям (закон № 117-1)",
+      "source_section": "7",
+      "source_ids": [
+        "libfile_09de67a1118c819195c27eeea5e14d39",
+        "libfile_df1e25ec52f88191890cc14d6dd9d2f7",
+        "libfile_b3da5e3609988191819adb2f73dedeb8",
+        "libfile_699ed1fb29a48191a2aaa3bc6915f6e0"
+      ],
+      "status": "needs_review",
+      "action": "Сверить утверждения раздела с действующей нормативной базой, проверить все подмеры, исключения и сроки. Исходный обзор не считать подтверждением права.",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_request_ids": [
+        "01-doc-family"
+      ],
+      "legal_copy_file": "data/legal/01-family-law-117-1-2026-08-06.txt"
+    },
+    {
+      "id": "01-section-8",
+      "region": "Республика Адыгея",
+      "title": "Земля для многодетных",
+      "source_section": "8",
+      "source_ids": [
+        "libfile_09de67a1118c819195c27eeea5e14d39",
+        "libfile_df1e25ec52f88191890cc14d6dd9d2f7",
+        "libfile_b3da5e3609988191819adb2f73dedeb8",
+        "libfile_699ed1fb29a48191a2aaa3bc6915f6e0"
+      ],
+      "status": "needs_review",
+      "action": "Сверить утверждения раздела с действующей нормативной базой, проверить все подмеры, исключения и сроки. Исходный обзор не считать подтверждением права.",
+      "action_owner": "assistant",
+      "user_help_required": false
+    },
+    {
+      "id": "01-section-9",
+      "region": "Республика Адыгея",
+      "title": "Жильё",
+      "source_section": "9",
+      "source_ids": [
+        "libfile_09de67a1118c819195c27eeea5e14d39",
+        "libfile_df1e25ec52f88191890cc14d6dd9d2f7",
+        "libfile_b3da5e3609988191819adb2f73dedeb8",
+        "libfile_699ed1fb29a48191a2aaa3bc6915f6e0"
+      ],
+      "status": "needs_review",
+      "action": "Сверить утверждения раздела с действующей нормативной базой, проверить все подмеры, исключения и сроки. Исходный обзор не считать подтверждением права.",
+      "action_owner": "assistant",
+      "user_help_required": false
+    },
+    {
+      "id": "01-section-10",
+      "region": "Республика Адыгея",
+      "title": "Питание в школах",
+      "source_section": "10",
+      "source_ids": [
+        "libfile_09de67a1118c819195c27eeea5e14d39",
+        "libfile_df1e25ec52f88191890cc14d6dd9d2f7",
+        "libfile_b3da5e3609988191819adb2f73dedeb8",
+        "libfile_699ed1fb29a48191a2aaa3bc6915f6e0"
+      ],
+      "status": "needs_review",
+      "action": "Сверить утверждения раздела с действующей нормативной базой, проверить все подмеры, исключения и сроки. Исходный обзор не считать подтверждением права.",
+      "action_owner": "assistant",
+      "user_help_required": false
+    },
+    {
+      "id": "01-section-11",
+      "region": "Республика Адыгея",
+      "title": "Детские сады",
+      "source_section": "11",
+      "source_ids": [
+        "libfile_09de67a1118c819195c27eeea5e14d39",
+        "libfile_df1e25ec52f88191890cc14d6dd9d2f7",
+        "libfile_b3da5e3609988191819adb2f73dedeb8",
+        "libfile_699ed1fb29a48191a2aaa3bc6915f6e0"
+      ],
+      "status": "needs_review",
+      "action": "Сверить утверждения раздела с действующей нормативной базой, проверить все подмеры, исключения и сроки. Исходный обзор не считать подтверждением права.",
+      "action_owner": "assistant",
+      "user_help_required": false
+    },
+    {
+      "id": "01-section-12",
+      "region": "Республика Адыгея",
+      "title": "Опека и приёмные семьи",
+      "source_section": "12",
+      "source_ids": [
+        "libfile_09de67a1118c819195c27eeea5e14d39",
+        "libfile_df1e25ec52f88191890cc14d6dd9d2f7",
+        "libfile_b3da5e3609988191819adb2f73dedeb8",
+        "libfile_699ed1fb29a48191a2aaa3bc6915f6e0"
+      ],
+      "status": "needs_review",
+      "action": "Сверить утверждения раздела с действующей нормативной базой, проверить все подмеры, исключения и сроки. Исходный обзор не считать подтверждением права.",
+      "action_owner": "assistant",
+      "user_help_required": false
+    },
+    {
+      "id": "01-section-13",
+      "region": "Республика Адыгея",
+      "title": "Оздоровление и отдых",
+      "source_section": "13",
+      "source_ids": [
+        "libfile_09de67a1118c819195c27eeea5e14d39",
+        "libfile_df1e25ec52f88191890cc14d6dd9d2f7",
+        "libfile_b3da5e3609988191819adb2f73dedeb8",
+        "libfile_699ed1fb29a48191a2aaa3bc6915f6e0"
+      ],
+      "status": "needs_review",
+      "action": "Сверить утверждения раздела с действующей нормативной базой, проверить все подмеры, исключения и сроки. Исходный обзор не считать подтверждением права.",
+      "action_owner": "assistant",
+      "user_help_required": false
+    },
+    {
+      "id": "01-section-14",
+      "region": "Республика Адыгея",
+      "title": "Социальный контракт",
+      "source_section": "14",
+      "source_ids": [
+        "libfile_09de67a1118c819195c27eeea5e14d39",
+        "libfile_df1e25ec52f88191890cc14d6dd9d2f7",
+        "libfile_b3da5e3609988191819adb2f73dedeb8",
+        "libfile_699ed1fb29a48191a2aaa3bc6915f6e0"
+      ],
+      "status": "needs_review",
+      "action": "Сверить утверждения раздела с действующей нормативной базой, проверить все подмеры, исключения и сроки. Исходный обзор не считать подтверждением права.",
+      "action_owner": "assistant",
+      "user_help_required": false
+    },
+    {
+      "id": "01-section-15",
+      "region": "Республика Адыгея",
+      "title": "СВО: выплаты за контракт",
+      "source_section": "15",
+      "source_ids": [
+        "libfile_09de67a1118c819195c27eeea5e14d39",
+        "libfile_df1e25ec52f88191890cc14d6dd9d2f7",
+        "libfile_b3da5e3609988191819adb2f73dedeb8",
+        "libfile_699ed1fb29a48191a2aaa3bc6915f6e0"
+      ],
+      "status": "needs_review",
+      "action": "Сверить утверждения раздела с действующей нормативной базой, проверить все подмеры, исключения и сроки. Исходный обзор не считать подтверждением права.",
+      "action_owner": "assistant",
+      "user_help_required": false
+    },
+    {
+      "id": "01-section-16",
+      "region": "Республика Адыгея",
+      "title": "СВО: ранения, гибель, семьи",
+      "source_section": "16",
+      "source_ids": [
+        "libfile_09de67a1118c819195c27eeea5e14d39",
+        "libfile_df1e25ec52f88191890cc14d6dd9d2f7",
+        "libfile_b3da5e3609988191819adb2f73dedeb8",
+        "libfile_699ed1fb29a48191a2aaa3bc6915f6e0"
+      ],
+      "status": "needs_review",
+      "action": "Сверить утверждения раздела с действующей нормативной базой, проверить все подмеры, исключения и сроки. Исходный обзор не считать подтверждением права.",
+      "action_owner": "assistant",
+      "user_help_required": false
+    },
+    {
+      "id": "01-section-17",
+      "region": "Республика Адыгея",
+      "title": "Налоги",
+      "source_section": "17",
+      "source_ids": [
+        "libfile_09de67a1118c819195c27eeea5e14d39",
+        "libfile_df1e25ec52f88191890cc14d6dd9d2f7",
+        "libfile_b3da5e3609988191819adb2f73dedeb8",
+        "libfile_699ed1fb29a48191a2aaa3bc6915f6e0"
+      ],
+      "status": "needs_review",
+      "action": "Сверить утверждения раздела с действующей нормативной базой, проверить все подмеры, исключения и сроки. Исходный обзор не считать подтверждением права.",
+      "action_owner": "assistant",
+      "user_help_required": false
+    },
+    {
+      "id": "01-section-18",
+      "region": "Республика Адыгея",
+      "title": "Награды и прочее",
+      "source_section": "18",
+      "source_ids": [
+        "libfile_09de67a1118c819195c27eeea5e14d39",
+        "libfile_df1e25ec52f88191890cc14d6dd9d2f7",
+        "libfile_b3da5e3609988191819adb2f73dedeb8",
+        "libfile_699ed1fb29a48191a2aaa3bc6915f6e0"
+      ],
+      "status": "needs_review",
+      "action": "Сверить утверждения раздела с действующей нормативной базой, проверить все подмеры, исключения и сроки. Исходный обзор не считать подтверждением права.",
+      "action_owner": "assistant",
+      "user_help_required": false
+    },
+    {
+      "id": "01-section-19",
+      "region": "Республика Адыгея",
+      "title": "Сводная таблица ключевых нормативных актов",
+      "source_section": "19",
+      "source_ids": [
+        "libfile_09de67a1118c819195c27eeea5e14d39",
+        "libfile_df1e25ec52f88191890cc14d6dd9d2f7",
+        "libfile_b3da5e3609988191819adb2f73dedeb8",
+        "libfile_699ed1fb29a48191a2aaa3bc6915f6e0"
+      ],
+      "status": "needs_review",
+      "action": "Сверить утверждения раздела с действующей нормативной базой, проверить все подмеры, исключения и сроки. Исходный обзор не считать подтверждением права.",
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_request_ids": [
+        "01-doc-family"
+      ],
+      "legal_copy_file": "data/legal/01-family-law-117-1-2026-08-06.txt"
+    },
+    {
+      "id": "01-section-20",
+      "region": "Республика Адыгея",
+      "title": "Контакты",
+      "source_section": "20",
+      "source_ids": [
+        "libfile_09de67a1118c819195c27eeea5e14d39",
+        "libfile_df1e25ec52f88191890cc14d6dd9d2f7",
+        "libfile_b3da5e3609988191819adb2f73dedeb8",
+        "libfile_699ed1fb29a48191a2aaa3bc6915f6e0"
+      ],
+      "status": "needs_review",
+      "action": "Сверить утверждения раздела с действующей нормативной базой, проверить все подмеры, исключения и сроки. Исходный обзор не считать подтверждением права.",
+      "action_owner": "assistant",
+      "user_help_required": false
+    },
+    {
+      "id": "01-section-21",
+      "region": "Республика Адыгея",
+      "title": "Важные оговорки",
+      "source_section": "21",
+      "source_ids": [
+        "libfile_09de67a1118c819195c27eeea5e14d39",
+        "libfile_df1e25ec52f88191890cc14d6dd9d2f7",
+        "libfile_b3da5e3609988191819adb2f73dedeb8",
+        "libfile_699ed1fb29a48191a2aaa3bc6915f6e0"
+      ],
+      "status": "needs_review",
+      "action": "Сверить утверждения раздела с действующей нормативной базой, проверить все подмеры, исключения и сроки. Исходный обзор не считать подтверждением права.",
+      "action_owner": "assistant",
+      "user_help_required": false
+    },
+    {
+      "id": "01-extra-birth-additional",
+      "region": "Республика Адыгея",
+      "title": "Дополнительное региональное пособие при рождении ребёнка",
+      "source_section": null,
+      "status": "needs_legal_verification",
+      "discovery_source": "https://navigator.adygheya.gov.ru/actions/43/",
+      "action": "Мера найдена дополнительно к присланному обзору. Получить полные действующие нормативные основания и проверить условия до публикации карточки.",
+      "action_owner": "assistant",
+      "user_help_required": false
+    },
+    {
+      "id": "01-extra-disabled-care",
+      "region": "Республика Адыгея",
+      "title": "Дополнительное пособие по уходу за ребёнком-инвалидом",
+      "source_section": null,
+      "status": "needs_legal_verification",
+      "discovery_source": "https://navigator.adygheya.gov.ru/actions/58/",
+      "action": "Мера найдена дополнительно к присланному обзору. Получить полные действующие нормативные основания и проверить условия до публикации карточки.",
+      "action_owner": "assistant",
+      "user_help_required": false
+    },
+    {
+      "id": "01-extra-pku",
+      "region": "Республика Адыгея",
+      "title": "Выплата детям с фенилкетонурией",
+      "source_section": null,
+      "status": "needs_legal_verification",
+      "discovery_source": "https://navigator.adygheya.gov.ru/actions/44/",
+      "action": "Мера найдена дополнительно к присланному обзору. Получить полные действующие нормативные основания и проверить условия до публикации карточки.",
+      "action_owner": "assistant",
+      "user_help_required": false
+    },
+    {
+      "id": "01-extra-orthopedics",
+      "region": "Республика Адыгея",
+      "title": "Обеспечение протезно-ортопедическими изделиями",
+      "source_section": null,
+      "status": "needs_legal_verification",
+      "discovery_source": "https://navigator.adygheya.gov.ru/actions/45/",
+      "action": "Мера найдена дополнительно к присланному обзору. Получить полные действующие нормативные основания и проверить условия до публикации карточки.",
+      "action_owner": "assistant",
+      "user_help_required": false
+    },
+    {
+      "id": "01-extra-spo-compensation",
+      "region": "Республика Адыгея",
+      "title": "Компенсация стоимости обучения в СПО многодетной малоимущей семье",
+      "source_section": null,
+      "status": "needs_legal_verification",
+      "discovery_source": "https://navigator.adygheya.gov.ru/actions/53/",
+      "action": "Мера найдена дополнительно к присланному обзору. Получить полные действующие нормативные основания и проверить условия до публикации карточки.",
+      "action_owner": "assistant",
+      "user_help_required": false
+    }
+  ],
+  "full_legal_review_complete": false,
+  "action_owner": "assistant",
+  "user_help_required": false,
+  "letter_progress_file": "data/reviews/letter-progress.json",
+  "legal_reading_evidence_file": "data/reviews/a-internet-check-2026-10-19.json",
+  "normative_retrieval_file": "data/reviews/a-legal-retrieval-attempts-2026-10-19.json"
+}

@@ -1,0 +1,162 @@
+{
+  "schema": 1,
+  "updated": "2026-10-19",
+  "workflow_file": "AGENTS.md",
+  "active_letter": "А",
+  "active_region_id": "01",
+  "status": "in_progress",
+  "full_review_complete": false,
+  "regions_total": 6,
+  "regions_complete": 0,
+  "region_ids": [
+    "01",
+    "04",
+    "22",
+    "28",
+    "29",
+    "30"
+  ],
+  "next_letter": "Б",
+  "next_letter_allowed": false,
+  "user_help_requests_confirmed": 0,
+  "completion_rule": "Все присланные источники → поиск дополнительных мер → нормативная сверка каждой меры → карточки сайта → только подтверждённые запросы недоступных документов. Список ссылок не завершает букву.",
+  "status_explanation": "Работа по А не завершена. По Б сохранена прежняя инвентаризация; к ней вернуться после А. Фоновой работы между ответами не заявляется.",
+  "regions": [
+    {
+      "region_id": "01",
+      "region": "Республика Адыгея",
+      "review_file": "data/reviews/01-adygea.json",
+      "source_versions": 4,
+      "unique_overview_texts": 1,
+      "source_ids": [
+        "libfile_09de67a1118c819195c27eeea5e14d39",
+        "libfile_df1e25ec52f88191890cc14d6dd9d2f7",
+        "libfile_b3da5e3609988191819adb2f73dedeb8",
+        "libfile_699ed1fb29a48191a2aaa3bc6915f6e0"
+      ],
+      "status": "in_progress",
+      "full_review_complete": false,
+      "stages": {
+        "user_documents": "compared",
+        "additional_measure_search": "in_progress",
+        "normative_verification": "in_progress",
+        "website_cards": "not_complete",
+        "unavailable_document_requests": "not_complete"
+      },
+      "remaining_scope": "Нормативные редакции и все условия, поиск дополнительных мер, карточки, итоговая сверка и только затем обоснованные запросы помощи."
+    },
+    {
+      "region_id": "04",
+      "region": "Республика Алтай",
+      "review_file": "data/reviews/04-altai-republic.json",
+      "source_versions": 1,
+      "unique_overview_texts": 1,
+      "source_ids": [
+        "libfile_d459c7e782f48191b8cb2ccba20f91a3"
+      ],
+      "status": "in_progress",
+      "full_review_complete": false,
+      "stages": {
+        "user_documents": "compared",
+        "additional_measure_search": "not_complete",
+        "normative_verification": "in_progress",
+        "website_cards": "not_complete",
+        "unavailable_document_requests": "not_complete"
+      },
+      "remaining_scope": "Нормативные редакции и все условия, поиск дополнительных мер, карточки, итоговая сверка и только затем обоснованные запросы помощи."
+    },
+    {
+      "region_id": "22",
+      "region": "Алтайский край",
+      "review_file": "data/reviews/22-altai-krai.json",
+      "source_versions": 1,
+      "unique_overview_texts": 1,
+      "source_ids": [
+        "libfile_acc595b7ef408191af900145bea5e1a2"
+      ],
+      "status": "in_progress",
+      "full_review_complete": false,
+      "stages": {
+        "user_documents": "compared",
+        "additional_measure_search": "not_complete",
+        "normative_verification": "in_progress",
+        "website_cards": "not_complete",
+        "unavailable_document_requests": "not_complete"
+      },
+      "remaining_scope": "Нормативные редакции и все условия, поиск дополнительных мер, карточки, итоговая сверка и только затем обоснованные запросы помощи."
+    },
+    {
+      "region_id": "28",
+      "region": "Амурская область",
+      "review_file": "data/reviews/28-amur.json",
+      "source_versions": 1,
+      "unique_overview_texts": 1,
+      "source_ids": [
+        "libfile_f18dd4f421f48191838e5345f57b7fa8"
+      ],
+      "status": "in_progress",
+      "full_review_complete": false,
+      "stages": {
+        "user_documents": "compared",
+        "additional_measure_search": "not_complete",
+        "normative_verification": "in_progress",
+        "website_cards": "not_complete",
+        "unavailable_document_requests": "not_complete"
+      },
+      "remaining_scope": "Нормативные редакции и все условия, поиск дополнительных мер, карточки, итоговая сверка и только затем обоснованные запросы помощи."
+    },
+    {
+      "region_id": "29",
+      "region": "Архангельская область",
+      "review_file": "data/reviews/29-arkhangelsk.json",
+      "source_versions": 1,
+      "unique_overview_texts": 1,
+      "source_ids": [
+        "libfile_119265833fa881919deba07052b8307e"
+      ],
+      "status": "in_progress",
+      "full_review_complete": false,
+      "stages": {
+        "user_documents": "compared",
+        "additional_measure_search": "not_complete",
+        "normative_verification": "in_progress",
+        "website_cards": "not_complete",
+        "unavailable_document_requests": "not_complete"
+      },
+      "remaining_scope": "Нормативные редакции и все условия, поиск дополнительных мер, карточки, итоговая сверка и только затем обоснованные запросы помощи."
+    },
+    {
+      "region_id": "30",
+      "region": "Астраханская область",
+      "review_file": "data/reviews/30-astrakhan.json",
+      "source_versions": 7,
+      "unique_overview_texts": 2,
+      "source_ids": [
+        "libfile_06aab8f50a008191b31b32d2b3b66594",
+        "libfile_8792cc1a5a6c8191ab1a2aa0d32ea830",
+        "libfile_c37670b1c33081918b8da2903bfa0176",
+        "libfile_351b7b4525708191b568bdef2f24848a",
+        "libfile_3040e19099a081919a6745b63abce93c",
+        "libfile_c0358e8d14b88191863143e0a71b2474",
+        "libfile_7995a4be40e88191a8bf9eee55f641b3"
+      ],
+      "status": "in_progress",
+      "full_review_complete": false,
+      "stages": {
+        "user_documents": "compared",
+        "additional_measure_search": "not_complete",
+        "normative_verification": "in_progress",
+        "website_cards": "not_complete",
+        "unavailable_document_requests": "not_complete"
+      },
+      "remaining_scope": "Нормативные редакции и все условия, поиск дополнительных мер, карточки, итоговая сверка и только затем обоснованные запросы помощи."
+    }
+  ],
+  "research_evidence_files": [
+    "data/reviews/a-internet-check-2026-10-19.json",
+    "data/reviews/a-legal-retrieval-attempts-2026-10-19.json",
+    "data/legal/index.json"
+  ],
+  "current_findings_file": "docs/a-adygea-verification-2026-10-19.md",
+  "published_new_cards_in_current_pass": 0
+}
