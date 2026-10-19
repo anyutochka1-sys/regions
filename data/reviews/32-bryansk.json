@@ -1,0 +1,475 @@
+{
+  "schema": 1,
+  "region_id": "32",
+  "jurisdiction": "Брянская область",
+  "received": "2026-10-19",
+  "status": "in_progress",
+  "coverage_note": "Обзор принят целиком. Первый проход по документам не равен полной юридической проверке. Непроверенные утверждения не публикуются.",
+  "source_text_file": "data/intake/texts/1f979803c05c3fcf1a2ace3d9f976694dad4361ea82a1a6019786236a01531e7.txt",
+  "source_document": "mery_podderzhki_semei_bryanskaya_oblast.docx",
+  "items": [
+    {
+      "id": "32-1",
+      "region": "Брянская область",
+      "title": "Общие сведения и федеральные меры",
+      "source_section": "1",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_654b16a627fc819182748aeefa97f4c3"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "32-doc-pm",
+        "32-doc-benefit-reference",
+        "32-doc-benefit-amend"
+      ],
+      "identification_task_ids": [
+        "32-identify-1"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "32-2",
+      "region": "Брянская область",
+      "title": "Единовременные выплаты при рождении (региональные)",
+      "source_section": "2",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_654b16a627fc819182748aeefa97f4c3"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "32-doc-family",
+        "32-doc-young",
+        "32-doc-family-amend"
+      ],
+      "identification_task_ids": [
+        "32-identify-2"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "32-3",
+      "region": "Брянская область",
+      "title": "Областной материнский (семейный) капитал",
+      "source_section": "3",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_654b16a627fc819182748aeefa97f4c3"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "32-doc-capital",
+        "32-doc-capital-amend",
+        "32-doc-capital-certificate",
+        "32-doc-capital-home",
+        "32-doc-capital-repair",
+        "32-doc-capital-education",
+        "32-doc-capital-adaptation"
+      ],
+      "identification_task_ids": [
+        "32-identify-3"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "32-4",
+      "region": "Брянская область",
+      "title": "Земля и выплата взамен участка",
+      "source_section": "4",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_654b16a627fc819182748aeefa97f4c3"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "32-doc-land"
+      ],
+      "identification_task_ids": [
+        "32-identify-4"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "32-5",
+      "region": "Брянская область",
+      "title": "Молодые семьи: жильё и выплаты",
+      "source_section": "5",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_654b16a627fc819182748aeefa97f4c3"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "32-doc-family",
+        "32-doc-housing-program"
+      ],
+      "identification_task_ids": [
+        "32-identify-5"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "32-6",
+      "region": "Брянская область",
+      "title": "Многодетные семьи: комплекс мер (ст. 13.2 закона № 12-З)",
+      "source_section": "6",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_654b16a627fc819182748aeefa97f4c3"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "32-doc-family",
+        "32-doc-land"
+      ],
+      "identification_task_ids": [
+        "32-identify-6"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "32-7",
+      "region": "Брянская область",
+      "title": "Питание в школах (г. Брянск)",
+      "source_section": "7",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_654b16a627fc819182748aeefa97f4c3"
+      ],
+      "official_urls": [],
+      "document_request_ids": [],
+      "identification_task_ids": [
+        "32-identify-7"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "32-8",
+      "region": "Брянская область",
+      "title": "Детские сады",
+      "source_section": "8",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_654b16a627fc819182748aeefa97f4c3"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "32-doc-kg"
+      ],
+      "identification_task_ids": [
+        "32-identify-8"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "32-9",
+      "region": "Брянская область",
+      "title": "Дети-инвалиды",
+      "source_section": "9",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_654b16a627fc819182748aeefa97f4c3"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "32-doc-family",
+        "32-doc-tax",
+        "32-doc-capital-adaptation"
+      ],
+      "identification_task_ids": [
+        "32-identify-9"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "32-10",
+      "region": "Брянская область",
+      "title": "Опека, приёмные семьи, сироты",
+      "source_section": "10",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_654b16a627fc819182748aeefa97f4c3"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "32-doc-guardian",
+        "32-doc-foster",
+        "32-doc-adopt",
+        "32-doc-adopt-help",
+        "32-doc-orphan",
+        "32-doc-guard-amend"
+      ],
+      "identification_task_ids": [
+        "32-identify-10"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "32-11",
+      "region": "Брянская область",
+      "title": "Оздоровление детей",
+      "source_section": "11",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_654b16a627fc819182748aeefa97f4c3"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "32-doc-camps"
+      ],
+      "identification_task_ids": [
+        "32-identify-11"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "32-12",
+      "region": "Брянская область",
+      "title": "Социальный контракт",
+      "source_section": "12",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_654b16a627fc819182748aeefa97f4c3"
+      ],
+      "official_urls": [],
+      "document_request_ids": [],
+      "identification_task_ids": [
+        "32-identify-12"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "32-13",
+      "region": "Брянская область",
+      "title": "Семьи участников СВО",
+      "source_section": "13",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_654b16a627fc819182748aeefa97f4c3"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "32-doc-svo"
+      ],
+      "identification_task_ids": [
+        "32-identify-13"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "32-14",
+      "region": "Брянская область",
+      "title": "Чернобыльский блок (регион пострадавший)",
+      "source_section": "14",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_654b16a627fc819182748aeefa97f4c3"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "32-doc-family"
+      ],
+      "identification_task_ids": [
+        "32-identify-14"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "32-15",
+      "region": "Брянская область",
+      "title": "Студенческие семьи и беременные студентки",
+      "source_section": "15",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_654b16a627fc819182748aeefa97f4c3"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "32-doc-family",
+        "32-doc-student"
+      ],
+      "identification_task_ids": [
+        "32-identify-15"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "32-16",
+      "region": "Брянская область",
+      "title": "Налоги",
+      "source_section": "16",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_654b16a627fc819182748aeefa97f4c3"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "32-doc-tax",
+        "32-doc-tax-amend"
+      ],
+      "identification_task_ids": [
+        "32-identify-16"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "32-17",
+      "region": "Брянская область",
+      "title": "Двойня и тройня: сводка выплат",
+      "source_section": "17",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_654b16a627fc819182748aeefa97f4c3"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "32-doc-family",
+        "32-doc-capital",
+        "32-doc-young",
+        "32-doc-capital-certificate",
+        "32-doc-capital-home",
+        "32-doc-capital-repair",
+        "32-doc-capital-education",
+        "32-doc-capital-adaptation"
+      ],
+      "identification_task_ids": [
+        "32-identify-17"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "32-18",
+      "region": "Брянская область",
+      "title": "Сводная таблица нормативных актов",
+      "source_section": "18",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_654b16a627fc819182748aeefa97f4c3"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "32-doc-pm",
+        "32-doc-family",
+        "32-doc-capital",
+        "32-doc-young",
+        "32-doc-student",
+        "32-doc-land",
+        "32-doc-kg",
+        "32-doc-guardian",
+        "32-doc-foster",
+        "32-doc-adopt",
+        "32-doc-adopt-help",
+        "32-doc-orphan",
+        "32-doc-camps",
+        "32-doc-svo",
+        "32-doc-tax",
+        "32-doc-tax-amend",
+        "32-doc-housing-program",
+        "32-doc-benefit-reference",
+        "32-doc-benefit-amend",
+        "32-doc-capital-amend",
+        "32-doc-guard-amend",
+        "32-doc-family-amend",
+        "32-doc-capital-certificate",
+        "32-doc-capital-home",
+        "32-doc-capital-repair",
+        "32-doc-capital-education",
+        "32-doc-capital-adaptation"
+      ],
+      "identification_task_ids": [
+        "32-identify-18"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "32-19",
+      "region": "Брянская область",
+      "title": "Контакты и порядок обращения",
+      "source_section": "19",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_654b16a627fc819182748aeefa97f4c3"
+      ],
+      "official_urls": [],
+      "document_request_ids": [],
+      "identification_task_ids": [
+        "32-identify-19"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    }
+  ],
+  "last_checked": "2026-10-19",
+  "document_inventory_checked_at": "2026-10-19",
+  "document_register_file": "data/reviews/document-requests.json",
+  "document_inventory_status": "first_pass_recorded_legal_review_incomplete",
+  "document_audit_file": "data/reviews/b-regions-audit-2026-10-19.json",
+  "full_legal_review_complete": false,
+  "action_owner": "assistant",
+  "user_help_required": false,
+  "document_audit_note_2026_10_19": "Не смешивать два акта № 97-З: капитал 2011 и спорную ссылку обзора на пособие 2022. Отдельно сверить базовый закон и изменения 2026. Для капитала учесть пять самостоятельных порядков: сертификат, жильё, ремонт, образование, адаптация. Денежная альтернатива земле, новая выплата молодым семьям и беременным обучающимся требуют текущих редакций. Чернобыльские федеральные компенсации отделить от областных выплат на питание; городские нормы питания не распространять на всю область.",
+  "document_audit_sources_compared": [
+    {
+      "id": "libfile_654b16a627fc819182748aeefa97f4c3",
+      "text_file": "data/intake/texts/1f979803c05c3fcf1a2ace3d9f976694dad4361ea82a1a6019786236a01531e7.txt",
+      "text_sha256": "1f979803c05c3fcf1a2ace3d9f976694dad4361ea82a1a6019786236a01531e7"
+    }
+  ]
+}

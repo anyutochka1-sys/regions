@@ -1,0 +1,460 @@
+{
+  "schema": 1,
+  "region_id": "02",
+  "jurisdiction": "Республика Башкортостан",
+  "received": "2026-10-19",
+  "status": "in_progress",
+  "coverage_note": "Обзор принят целиком. Первый проход по документам не равен полной юридической проверке. Непроверенные утверждения не публикуются.",
+  "source_text_file": "data/intake/texts/1eeb11433ebe8cbfef2a6bd94ed569b8124fa65702cacf88bf3cd9663a17b327.txt",
+  "source_document": "mery_podderzhki_semei_bashkortostan(1).docx",
+  "items": [
+    {
+      "id": "02-1",
+      "region": "Республика Башкортостан",
+      "title": "ОБЩИЕ СВЕДЕНИЯ (ФЕДЕРАЛЬНЫЕ МЕРЫ В РЕСПУБЛИКЕ)",
+      "source_section": "1",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_db78841dbe308191bab7f57bbe6a0cbe",
+        "libfile_d4ddd5b14fd88191a1088b63b042bb3b"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "02-doc-pm"
+      ],
+      "identification_task_ids": [
+        "02-identify-1"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "02-2",
+      "region": "Республика Башкортостан",
+      "title": "ЕДИНОВРЕМЕННАЯ ВЫПЛАТА МНОГОДЕТНЫМ СЕМЬЯМ С 8 И БОЛЕЕ ДЕТЬМИ (АНАЛОГ РЕГИОНАЛЬНОГО МАТКАПИТАЛА)",
+      "source_section": "2",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_db78841dbe308191bab7f57bbe6a0cbe",
+        "libfile_d4ddd5b14fd88191a1088b63b042bb3b"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "02-doc-multi-law",
+        "02-doc-multi-rules"
+      ],
+      "identification_task_ids": [
+        "02-identify-2"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "02-3",
+      "region": "Республика Башкортостан",
+      "title": "ЕЖЕМЕСЯЧНЫЕ ВЫПЛАТЫ НА ТРЕТЬЕГО И ПОСЛЕДУЮЩЕГО РЕБЁНКА И ПРИ МНОГОПЛОДНОЙ БЕРЕМЕННОСТИ",
+      "source_section": "3",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_db78841dbe308191bab7f57bbe6a0cbe",
+        "libfile_d4ddd5b14fd88191a1088b63b042bb3b"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "02-doc-multi-law",
+        "02-doc-multi-rules",
+        "02-doc-third",
+        "02-doc-twins"
+      ],
+      "identification_task_ids": [
+        "02-identify-3"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "02-4",
+      "region": "Республика Башкортостан",
+      "title": "ЕЖЕМЕСЯЧНОЕ ПОСОБИЕ НА РЕБЁНКА (МАЛОИМУЩИМ)",
+      "source_section": "4",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_db78841dbe308191bab7f57bbe6a0cbe",
+        "libfile_d4ddd5b14fd88191a1088b63b042bb3b"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "02-doc-child-law",
+        "02-doc-child-amend"
+      ],
+      "identification_task_ids": [
+        "02-identify-4"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "02-5",
+      "region": "Республика Башкортостан",
+      "title": "МНОГОДЕТНЫЕ СЕМЬИ — ЖИЛИЩНЫЕ И ЗЕМЕЛЬНЫЕ МЕРЫ",
+      "source_section": "5",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_db78841dbe308191bab7f57bbe6a0cbe",
+        "libfile_d4ddd5b14fd88191a1088b63b042bb3b"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "02-doc-multi-law",
+        "02-doc-land-law",
+        "02-doc-land-money"
+      ],
+      "identification_task_ids": [
+        "02-identify-5"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "02-6",
+      "region": "Республика Башкортостан",
+      "title": "МНОГОДЕТНЫЕ СЕМЬИ — ЖИЛИЩНО-КОММУНАЛЬНЫЕ И ПРОЧИЕ ЛЬГОТЫ",
+      "source_section": "6",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_db78841dbe308191bab7f57bbe6a0cbe",
+        "libfile_d4ddd5b14fd88191a1088b63b042bb3b"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "02-doc-multi-law",
+        "02-doc-multi-rules",
+        "02-doc-svo"
+      ],
+      "identification_task_ids": [
+        "02-identify-6"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "02-7",
+      "region": "Республика Башкортостан",
+      "title": "ПИТАНИЕ В ШКОЛАХ",
+      "source_section": "7",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_db78841dbe308191bab7f57bbe6a0cbe",
+        "libfile_d4ddd5b14fd88191a1088b63b042bb3b"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "02-doc-multi-law",
+        "02-doc-multi-rules",
+        "02-doc-food-svo",
+        "02-doc-food-disabled",
+        "02-doc-food-standard",
+        "02-doc-food-order",
+        "02-doc-ufa-food",
+        "02-doc-svo"
+      ],
+      "identification_task_ids": [
+        "02-identify-7"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "02-8",
+      "region": "Республика Башкортостан",
+      "title": "ДЕТСКИЕ САДЫ",
+      "source_section": "8",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_db78841dbe308191bab7f57bbe6a0cbe",
+        "libfile_d4ddd5b14fd88191a1088b63b042bb3b"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "02-doc-kg",
+        "02-doc-kg-rate"
+      ],
+      "identification_task_ids": [
+        "02-identify-8"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "02-9",
+      "region": "Республика Башкортостан",
+      "title": "ДЕТИ-ИНВАЛИДЫ И ДЕТИ С ОВЗ",
+      "source_section": "9",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_db78841dbe308191bab7f57bbe6a0cbe",
+        "libfile_d4ddd5b14fd88191a1088b63b042bb3b"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "02-doc-multi-law",
+        "02-doc-child-law",
+        "02-doc-food-disabled",
+        "02-doc-tax"
+      ],
+      "identification_task_ids": [
+        "02-identify-9"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "02-10",
+      "region": "Республика Башкортостан",
+      "title": "ОПЕКА, ПРИЁМНЫЕ СЕМЬИ, ДЕТИ-СИРОТЫ",
+      "source_section": "10",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_db78841dbe308191bab7f57bbe6a0cbe",
+        "libfile_d4ddd5b14fd88191a1088b63b042bb3b"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "02-doc-child-law",
+        "02-doc-orphan-law",
+        "02-doc-orphan-certificate"
+      ],
+      "identification_task_ids": [
+        "02-identify-10"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "02-11",
+      "region": "Республика Башкортостан",
+      "title": "ОЗДОРОВЛЕНИЕ И ОТДЫХ",
+      "source_section": "11",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_db78841dbe308191bab7f57bbe6a0cbe",
+        "libfile_d4ddd5b14fd88191a1088b63b042bb3b"
+      ],
+      "official_urls": [],
+      "document_request_ids": [],
+      "identification_task_ids": [
+        "02-identify-11"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "02-12",
+      "region": "Республика Башкортостан",
+      "title": "СЕМЬИ УЧАСТНИКОВ СВО (ПЕРЕЧЕНЬ ИЗ БОЛЕЕ 56 МЕР)",
+      "source_section": "12",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_db78841dbe308191bab7f57bbe6a0cbe",
+        "libfile_d4ddd5b14fd88191a1088b63b042bb3b"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "02-doc-food-svo",
+        "02-doc-svo",
+        "02-doc-svo-income",
+        "02-doc-svo-death",
+        "02-doc-svo-sanatorium",
+        "02-doc-ufa-contract",
+        "02-doc-ufa-contract-amend"
+      ],
+      "identification_task_ids": [
+        "02-identify-12"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "02-13",
+      "region": "Республика Башкортостан",
+      "title": "СОЦИАЛЬНЫЙ КОНТРАКТ (АСПК)",
+      "source_section": "13",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_db78841dbe308191bab7f57bbe6a0cbe",
+        "libfile_d4ddd5b14fd88191a1088b63b042bb3b"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "02-doc-contract",
+        "02-doc-contract-plan"
+      ],
+      "identification_task_ids": [
+        "02-identify-13"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "02-14",
+      "region": "Республика Башкортостан",
+      "title": "НАЛОГОВЫЕ ЛЬГОТЫ",
+      "source_section": "14",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_db78841dbe308191bab7f57bbe6a0cbe",
+        "libfile_d4ddd5b14fd88191a1088b63b042bb3b"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "02-doc-tax",
+        "02-doc-tax-amend"
+      ],
+      "identification_task_ids": [
+        "02-identify-14"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "02-15",
+      "region": "Республика Башкортостан",
+      "title": "ПРОЧИЕ МЕРЫ",
+      "source_section": "15",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_db78841dbe308191bab7f57bbe6a0cbe",
+        "libfile_d4ddd5b14fd88191a1088b63b042bb3b"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "02-doc-multi-law"
+      ],
+      "identification_task_ids": [
+        "02-identify-15"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "02-16",
+      "region": "Республика Башкортостан",
+      "title": "СВОДНАЯ ТАБЛИЦА НОРМАТИВНЫХ АКТОВ",
+      "source_section": "16",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_db78841dbe308191bab7f57bbe6a0cbe",
+        "libfile_d4ddd5b14fd88191a1088b63b042bb3b"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "02-doc-pm",
+        "02-doc-multi-law",
+        "02-doc-multi-rules",
+        "02-doc-third",
+        "02-doc-twins",
+        "02-doc-child-law",
+        "02-doc-child-amend",
+        "02-doc-land-law",
+        "02-doc-land-money",
+        "02-doc-kg",
+        "02-doc-kg-rate",
+        "02-doc-orphan-law",
+        "02-doc-orphan-certificate",
+        "02-doc-food-svo",
+        "02-doc-food-disabled",
+        "02-doc-food-standard",
+        "02-doc-food-order",
+        "02-doc-ufa-food",
+        "02-doc-contract",
+        "02-doc-contract-plan",
+        "02-doc-svo",
+        "02-doc-svo-income",
+        "02-doc-svo-death",
+        "02-doc-svo-sanatorium",
+        "02-doc-ufa-contract",
+        "02-doc-ufa-contract-amend",
+        "02-doc-tax",
+        "02-doc-tax-amend"
+      ],
+      "identification_task_ids": [
+        "02-identify-16"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    },
+    {
+      "id": "02-17",
+      "region": "Республика Башкортостан",
+      "title": "КУДА ОБРАЩАТЬСЯ",
+      "source_section": "17",
+      "status": "needs_review",
+      "action": "Самостоятельно сверить нормативное основание, текущие условия, размеры, возрастные окна, доход, сроки, исключения и уровень регулирования.",
+      "source_ids": [
+        "libfile_db78841dbe308191bab7f57bbe6a0cbe",
+        "libfile_d4ddd5b14fd88191a1088b63b042bb3b"
+      ],
+      "official_urls": [],
+      "document_request_ids": [],
+      "identification_task_ids": [
+        "02-identify-17"
+      ],
+      "action_owner": "assistant",
+      "user_help_required": false,
+      "document_audit_note_2026_10_19": "Первый проход записан в общий реестр. Существующий статус и исходные утверждения не означают завершённую юридическую проверку или запрос пользователю."
+    }
+  ],
+  "last_checked": "2026-10-19",
+  "document_inventory_checked_at": "2026-10-19",
+  "document_register_file": "data/reviews/document-requests.json",
+  "document_inventory_status": "first_pass_recorded_legal_review_incomplete",
+  "document_audit_file": "data/reviews/b-regions-audit-2026-10-19.json",
+  "full_legal_review_complete": false,
+  "action_owner": "assistant",
+  "user_help_required": false,
+  "document_audit_note_2026_10_19": "Разделить разовую выплату семье с восемью детьми и материнский капитал. Проверить архивные выплаты до трёх лет, возрастные окна и утрату силы порядков. Уфимские нормы питания и контрактные выплаты не распространять на всю республику. Утверждение обзора об отмене и восстановлении налоговой льготы не доказано: найденное разъяснение ФНС относится к налоговому периоду 2024. Для ЖКУ, молочной кухни, леса, лагерей и жилищных программ нужны отдельные порядки.",
+  "document_audit_sources_compared": [
+    {
+      "id": "libfile_db78841dbe308191bab7f57bbe6a0cbe",
+      "text_file": "data/intake/texts/1eeb11433ebe8cbfef2a6bd94ed569b8124fa65702cacf88bf3cd9663a17b327.txt",
+      "text_sha256": "1eeb11433ebe8cbfef2a6bd94ed569b8124fa65702cacf88bf3cd9663a17b327"
+    },
+    {
+      "id": "libfile_d4ddd5b14fd88191a1088b63b042bb3b",
+      "text_file": "data/intake/texts/1eeb11433ebe8cbfef2a6bd94ed569b8124fa65702cacf88bf3cd9663a17b327.txt",
+      "text_sha256": "1eeb11433ebe8cbfef2a6bd94ed569b8124fa65702cacf88bf3cd9663a17b327"
+    }
+  ]
+}

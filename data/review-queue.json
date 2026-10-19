@@ -295,12 +295,14 @@
       "usable_overview_received": true,
       "source_count": 5,
       "inventory_file": "data/intake/all-chats-inventory.json",
-      "alphabetical_document_audit_status": "awaiting_alphabetical_document_audit"
+      "alphabetical_document_audit_status": "first_pass_recorded_legal_review_incomplete",
+      "document_register_file": "data/reviews/document-requests.json",
+      "document_audit_file": "data/reviews/b-regions-audit-2026-10-19.json"
     },
     {
       "region_id": "32",
       "region": "Брянская область",
-      "status": "queued",
+      "status": "in_progress",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -317,7 +319,10 @@
       "usable_overview_received": true,
       "source_count": 1,
       "inventory_file": "data/intake/all-chats-inventory.json",
-      "alphabetical_document_audit_status": "awaiting_alphabetical_document_audit"
+      "alphabetical_document_audit_status": "first_pass_recorded_legal_review_incomplete",
+      "review_file": "data/reviews/32-bryansk.json",
+      "document_register_file": "data/reviews/document-requests.json",
+      "document_audit_file": "data/reviews/b-regions-audit-2026-10-19.json"
     },
     {
       "region_id": "33",
@@ -1292,7 +1297,7 @@
     {
       "region_id": "02",
       "region": "Республика Башкортостан",
-      "status": "queued",
+      "status": "in_progress",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -1309,12 +1314,15 @@
       "usable_overview_received": true,
       "source_count": 2,
       "inventory_file": "data/intake/all-chats-inventory.json",
-      "alphabetical_document_audit_status": "awaiting_alphabetical_document_audit"
+      "alphabetical_document_audit_status": "first_pass_recorded_legal_review_incomplete",
+      "review_file": "data/reviews/02-bashkortostan.json",
+      "document_register_file": "data/reviews/document-requests.json",
+      "document_audit_file": "data/reviews/b-regions-audit-2026-10-19.json"
     },
     {
       "region_id": "03",
       "region": "Республика Бурятия",
-      "status": "queued",
+      "status": "in_progress",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -1331,7 +1339,10 @@
       "usable_overview_received": true,
       "source_count": 1,
       "inventory_file": "data/intake/all-chats-inventory.json",
-      "alphabetical_document_audit_status": "awaiting_alphabetical_document_audit"
+      "alphabetical_document_audit_status": "first_pass_recorded_legal_review_incomplete",
+      "review_file": "data/reviews/03-buryatia.json",
+      "document_register_file": "data/reviews/document-requests.json",
+      "document_audit_file": "data/reviews/b-regions-audit-2026-10-19.json"
     },
     {
       "region_id": "05",
@@ -2329,11 +2340,25 @@
       "22",
       "28",
       "29",
-      "30"
+      "30",
+      "02",
+      "31",
+      "32",
+      "03"
     ],
-    "next_region_id": "31",
-    "next_region": "Белгородская область",
-    "full_review_complete": false
+    "next_region_id": "33",
+    "next_region": "Владимирская область",
+    "full_review_complete": false,
+    "last_completed_inventory_scope": {
+      "letter": "Б",
+      "region_ids": [
+        "02",
+        "31",
+        "32",
+        "03"
+      ],
+      "full_legal_review_complete": false
+    }
   },
   "document_retrieval_owner": "assistant",
   "user_help_requests_file": "data/reviews/document-requests.json",
