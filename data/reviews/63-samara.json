@@ -1931,6 +1931,118 @@
           "lead": "Новые изменения к №222/493, №821/494, №1060 и закону №122-ГД не подтверждены; нормы с 01.04.2027 не применялись."
         }
       ]
+    },
+    {
+      "date": "2026-10-19",
+      "baseline_monitoring_date": "2026-10-12",
+      "result": "incomplete_official_source_access",
+      "confirmed_changes": [],
+      "public_cards_changed": [],
+      "full_legal_review_complete": false,
+      "data_blob_sha": "1eb5a8dd9069969a26f7e68e436aac74d34798b4",
+      "source_access": [
+        {
+          "url": "https://publication.pravo.gov.ru/",
+          "result": "timeout"
+        },
+        {
+          "url": "https://pravo.samregion.ru/",
+          "result": "unavailable"
+        },
+        {
+          "url": "https://publication.pravo.gov.ru/document/6300202610070002",
+          "result": "unavailable"
+        },
+        {
+          "url": "https://publication.pravo.gov.ru/document/6301202608310003",
+          "result": "unavailable"
+        },
+        {
+          "url": "https://publication.pravo.gov.ru/document/6301202608310005",
+          "result": "unavailable"
+        },
+        {
+          "url": "https://sociosam.ru/",
+          "result": "available"
+        },
+        {
+          "url": "https://tgl.ru/",
+          "result": "available"
+        },
+        {
+          "url": "https://samadm.ru/",
+          "result": "unavailable"
+        },
+        {
+          "url": "https://sfr.gov.ru/branches/samara",
+          "result": "available"
+        }
+      ],
+      "scope": "Текущие карточки и перечень проверки прочитаны; выполнен поиск новых НПА, архивных переходов, мер СВО и муниципальных изменений. Полная постатейная сверка не завершена из-за недоступности обязательных официальных текстов.",
+      "limitations": "Поисковые фрагменты, СМИ и обзоры используются для обнаружения документов, не для подтверждения действующей полной редакции. Не установлено отсутствие изменений.",
+      "future_effective_date_guard": "Самарские нормы с 01.04.2027 не применены. Сведения о будущих изменениях сохранены отдельно от текущих правил.",
+      "observations": [
+        {
+          "source_item": "13.15",
+          "request_groups": [
+            27
+          ],
+          "status": "needs_review",
+          "document": "Постановление Правительства Самарской области от 05.10.2026 №643, поправка к №811 от 26.10.2021",
+          "official_url": "https://publication.pravo.gov.ru/document/6300202610070002",
+          "discovery_url": "https://base.garant.ru/415031702/",
+          "reported_change": "Продление периода предоставления социальной выплаты на газификацию до 2029 года.",
+          "old_value": "Текущая полная редакция в журнале не подтверждена.",
+          "new_value": "Не применено; требуется полный официальный текст и дата вступления в силу.",
+          "application_opening_confirmed": false
+        },
+        {
+          "source_item": "4.5",
+          "request_groups": [
+            1,
+            11
+          ],
+          "status": "needs_review",
+          "publication_date": "2026-10-12",
+          "official_url": "https://sociosam.ru/news/11%20000%20%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D0%B9%20%D0%BD%D0%B0%20%D1%88%D0%BA%D0%BE%D0%BB%D1%8C%D0%BD%D1%83%D1%8E%20%D1%84%D0%BE%D1%80%D0%BC%D1%83%20%D1%83%D1%81%D0%BF%D0%B5%D0%B9%D1%82%D0%B5%20%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%B8%D1%82%D1%8C%20%D0%B2%D1%8B%D0%BF%D0%BB%D0%B0%D1%82%D1%83.php",
+          "observation": "Повторное сообщение органа соцзащиты о 11 000 руб. и приёме до 31 октября; это напоминание, не подтверждённая новая сумма. НПА и полные условия остаются для сверки."
+        },
+        {
+          "source_items": [
+            "6.3",
+            "16.3"
+          ],
+          "request_groups": [
+            30
+          ],
+          "status": "needs_review",
+          "documents": [
+            "17.09.2025 №1710-п/1",
+            "29.12.2025 №2836-п/1"
+          ],
+          "official_urls": [
+            "https://do.tgl.ru/index.php?category=postanovleniya&do=cat",
+            "https://do.tgl.ru/files/of_docs/postanovleniya/13343-ua.pdf"
+          ],
+          "observation": "Найдена официальная ссылка на поправку к регламенту компенсации детсада. В индексах документов встречается пометка об утрате силы, но она не подтверждена полным актом. Не смешивать с №1710-п/1 от 01.07.2026 о спортивных разрядах. Полный действующий порядок и 30% не подтверждены."
+        },
+        {
+          "request_groups": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "status": "needs_review",
+          "documents": [
+            "№122-ГД от 16.07.2004",
+            "№1060 от 18.12.2023",
+            "№222/493",
+            "№821/494"
+          ],
+          "observation": "Новые изменения и будущие даты по доступным полным официальным текстам не подтверждены."
+        }
+      ]
     }
   ]
 }
