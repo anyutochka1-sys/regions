@@ -1,0 +1,656 @@
+{
+  "schema": 1,
+  "region_id": "30",
+  "jurisdiction": "Астраханская область",
+  "received": "2026-10-14",
+  "status": "in_progress",
+  "coverage_note": "Получены семь файлов с двумя различными текстами обзора. Их расхождения сохранены. Начата документальная сверка; действующие редакции и полные условия ещё не подтверждены.",
+  "source_documents": [
+    {
+      "id": "libfile_06aab8f50a008191b31b32d2b3b66594",
+      "filename": "mery_podderzhki_semei_astrahanskaya_oblast_v2(1).docx",
+      "text_file": "data/intake/texts/28bd76bb6e800f08c308b5eac2fcf40c19fd8be5c41355a7c7e09f19a9948708.txt",
+      "duplicate_text_of": null,
+      "received_at": "2026-10-19T02:07:15.360559Z"
+    },
+    {
+      "id": "libfile_8792cc1a5a6c8191ab1a2aa0d32ea830",
+      "filename": "mery_podderzhki_semei_astrahanskaya_oblast_v2(2).docx",
+      "text_file": "data/intake/texts/28bd76bb6e800f08c308b5eac2fcf40c19fd8be5c41355a7c7e09f19a9948708.txt",
+      "duplicate_text_of": "libfile_06aab8f50a008191b31b32d2b3b66594",
+      "received_at": "2026-10-19T02:19:29.911555Z"
+    },
+    {
+      "id": "libfile_c37670b1c33081918b8da2903bfa0176",
+      "filename": "mery_podderzhki_semei_astrahanskaya_oblast_v2.docx",
+      "text_file": "data/intake/texts/28bd76bb6e800f08c308b5eac2fcf40c19fd8be5c41355a7c7e09f19a9948708.txt",
+      "duplicate_text_of": "libfile_06aab8f50a008191b31b32d2b3b66594",
+      "received_at": "2026-10-18T16:03:17.739676Z"
+    },
+    {
+      "id": "libfile_351b7b4525708191b568bdef2f24848a",
+      "filename": "mery_podderzhki_semei_astrahanskaya_oblast_v3(1).docx",
+      "text_file": "data/intake/texts/1e45d5b8d9049a0ab4e1bd7a07bf8687b0d240c1914fdf5622856269896be747.txt",
+      "duplicate_text_of": null,
+      "received_at": "2026-10-18T16:03:17.849043Z"
+    },
+    {
+      "id": "libfile_3040e19099a081919a6745b63abce93c",
+      "filename": "mery_podderzhki_semei_astrahanskaya_oblast_v3(2).docx",
+      "text_file": "data/intake/texts/1e45d5b8d9049a0ab4e1bd7a07bf8687b0d240c1914fdf5622856269896be747.txt",
+      "duplicate_text_of": "libfile_351b7b4525708191b568bdef2f24848a",
+      "received_at": "2026-10-19T02:07:14.812921Z"
+    },
+    {
+      "id": "libfile_c0358e8d14b88191863143e0a71b2474",
+      "filename": "mery_podderzhki_semei_astrahanskaya_oblast_v3(3).docx",
+      "text_file": "data/intake/texts/1e45d5b8d9049a0ab4e1bd7a07bf8687b0d240c1914fdf5622856269896be747.txt",
+      "duplicate_text_of": "libfile_351b7b4525708191b568bdef2f24848a",
+      "received_at": "2026-10-19T02:19:29.301682Z"
+    },
+    {
+      "id": "libfile_7995a4be40e88191a8bf9eee55f641b3",
+      "filename": "mery_podderzhki_semei_astrahanskaya_oblast_v3.docx",
+      "text_file": "data/intake/texts/1e45d5b8d9049a0ab4e1bd7a07bf8687b0d240c1914fdf5622856269896be747.txt",
+      "duplicate_text_of": "libfile_351b7b4525708191b568bdef2f24848a",
+      "received_at": "2026-10-14T10:13:04.138457Z"
+    }
+  ],
+  "items": [
+    {
+      "id": "30-section-1",
+      "region": "Астраханская область",
+      "title": "Общие сведения. Прожиточный минимум 2026 года",
+      "source_section": "1",
+      "source_heading_versions": [
+        {
+          "source_id": "libfile_06aab8f50a008191b31b32d2b3b66594",
+          "title": "Общие сведения. Прожиточный минимум и базовые федеральные выплаты"
+        },
+        {
+          "source_id": "libfile_351b7b4525708191b568bdef2f24848a",
+          "title": "Общие сведения. Прожиточный минимум 2026 года"
+        }
+      ],
+      "status": "needs_review",
+      "action": "Сопоставить две версии обзора, затем проверить полный действующий НПА. Суммы и условия обзора не считать подтверждёнными.",
+      "source_ids": [
+        "libfile_06aab8f50a008191b31b32d2b3b66594",
+        "libfile_351b7b4525708191b568bdef2f24848a"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "30-doc-pm-2026"
+      ],
+      "identification_task_ids": [
+        "30-identify-federal-block"
+      ],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
+    },
+    {
+      "id": "30-section-2",
+      "region": "Астраханская область",
+      "title": "Региональный маткапитал",
+      "source_section": "2",
+      "source_heading_versions": [
+        {
+          "source_id": "libfile_06aab8f50a008191b31b32d2b3b66594",
+          "title": "Региональный маткапитал (мера закрыта)"
+        },
+        {
+          "source_id": "libfile_351b7b4525708191b568bdef2f24848a",
+          "title": "Региональный маткапитал"
+        }
+      ],
+      "status": "needs_review",
+      "action": "Сопоставить две версии обзора, затем проверить полный действующий НПА. Суммы и условия обзора не считать подтверждёнными.",
+      "source_ids": [
+        "libfile_06aab8f50a008191b31b32d2b3b66594",
+        "libfile_351b7b4525708191b568bdef2f24848a"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "30-doc-social-law"
+      ],
+      "identification_task_ids": [
+        "30-identify-wrong-capital-reference"
+      ],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
+    },
+    {
+      "id": "30-section-3",
+      "region": "Астраханская область",
+      "title": "Единовременные выплаты при рождении детей",
+      "source_section": "3",
+      "source_heading_versions": [
+        {
+          "source_id": "libfile_06aab8f50a008191b31b32d2b3b66594",
+          "title": "Единовременные выплаты при рождении"
+        },
+        {
+          "source_id": "libfile_351b7b4525708191b568bdef2f24848a",
+          "title": "Единовременные выплаты при рождении детей"
+        }
+      ],
+      "status": "needs_review",
+      "action": "Сопоставить две версии обзора, затем проверить полный действующий НПА. Суммы и условия обзора не считать подтверждёнными.",
+      "source_ids": [
+        "libfile_06aab8f50a008191b31b32d2b3b66594",
+        "libfile_351b7b4525708191b568bdef2f24848a"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "30-doc-social-law",
+        "30-doc-triplets"
+      ],
+      "identification_task_ids": [],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
+    },
+    {
+      "id": "30-section-4",
+      "region": "Астраханская область",
+      "title": "ЕДВ на третьего ребёнка до 3 лет",
+      "source_section": "4",
+      "source_heading_versions": [
+        {
+          "source_id": "libfile_06aab8f50a008191b31b32d2b3b66594",
+          "title": "ЕДВ в связи с рождением третьего ребёнка до 3 лет (мера ограничена)"
+        },
+        {
+          "source_id": "libfile_351b7b4525708191b568bdef2f24848a",
+          "title": "ЕДВ на третьего ребёнка до 3 лет"
+        }
+      ],
+      "status": "needs_review",
+      "action": "Сопоставить две версии обзора, затем проверить полный действующий НПА. Суммы и условия обзора не считать подтверждёнными.",
+      "source_ids": [
+        "libfile_06aab8f50a008191b31b32d2b3b66594",
+        "libfile_351b7b4525708191b568bdef2f24848a"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "30-doc-social-law"
+      ],
+      "identification_task_ids": [
+        "30-identify-third-child-archive"
+      ],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
+    },
+    {
+      "id": "30-section-5",
+      "region": "Астраханская область",
+      "title": "Пособия и выплаты малоимущим семьям",
+      "source_section": "5",
+      "source_heading_versions": [
+        {
+          "source_id": "libfile_06aab8f50a008191b31b32d2b3b66594",
+          "title": "Пособия малоимущим семьям"
+        },
+        {
+          "source_id": "libfile_351b7b4525708191b568bdef2f24848a",
+          "title": "Пособия и выплаты малоимущим семьям"
+        }
+      ],
+      "status": "needs_review",
+      "action": "Сопоставить две версии обзора, затем проверить полный действующий НПА. Суммы и условия обзора не считать подтверждёнными.",
+      "source_ids": [
+        "libfile_06aab8f50a008191b31b32d2b3b66594",
+        "libfile_351b7b4525708191b568bdef2f24848a"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "30-doc-social-law",
+        "30-doc-budget-2026"
+      ],
+      "identification_task_ids": [
+        "30-identify-status-and-invalid-laws"
+      ],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
+    },
+    {
+      "id": "30-section-6",
+      "region": "Астраханская область",
+      "title": "Многодетные семьи: основной блок льгот",
+      "source_section": "6",
+      "source_heading_versions": [
+        {
+          "source_id": "libfile_06aab8f50a008191b31b32d2b3b66594",
+          "title": "Меры поддержки многодетных семей"
+        },
+        {
+          "source_id": "libfile_351b7b4525708191b568bdef2f24848a",
+          "title": "Многодетные семьи: основной блок льгот"
+        }
+      ],
+      "status": "needs_review",
+      "action": "Сопоставить две версии обзора, затем проверить полный действующий НПА. Суммы и условия обзора не считать подтверждёнными.",
+      "source_ids": [
+        "libfile_06aab8f50a008191b31b32d2b3b66594",
+        "libfile_351b7b4525708191b568bdef2f24848a"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "30-doc-social-law",
+        "30-doc-budget-2026"
+      ],
+      "identification_task_ids": [
+        "30-identify-multifamily-clothing",
+        "30-identify-status-and-invalid-laws"
+      ],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
+    },
+    {
+      "id": "30-section-7",
+      "region": "Астраханская область",
+      "title": "Земля: участок или денежная замена",
+      "source_section": "7",
+      "source_heading_versions": [
+        {
+          "source_id": "libfile_06aab8f50a008191b31b32d2b3b66594",
+          "title": "Земельные участки и выплаты взамен участка"
+        },
+        {
+          "source_id": "libfile_351b7b4525708191b568bdef2f24848a",
+          "title": "Земля: участок или денежная замена"
+        }
+      ],
+      "status": "needs_review",
+      "action": "Сопоставить две версии обзора, затем проверить полный действующий НПА. Суммы и условия обзора не считать подтверждёнными.",
+      "source_ids": [
+        "libfile_06aab8f50a008191b31b32d2b3b66594",
+        "libfile_351b7b4525708191b568bdef2f24848a"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "30-doc-land"
+      ],
+      "identification_task_ids": [
+        "30-identify-land-cash"
+      ],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
+    },
+    {
+      "id": "30-section-8",
+      "region": "Астраханская область",
+      "title": "Жильё",
+      "source_section": "8",
+      "source_heading_versions": [
+        {
+          "source_id": "libfile_06aab8f50a008191b31b32d2b3b66594",
+          "title": "Жилищные меры"
+        },
+        {
+          "source_id": "libfile_351b7b4525708191b568bdef2f24848a",
+          "title": "Жильё"
+        }
+      ],
+      "status": "needs_review",
+      "action": "Сопоставить две версии обзора, затем проверить полный действующий НПА. Суммы и условия обзора не считать подтверждёнными.",
+      "source_ids": [
+        "libfile_06aab8f50a008191b31b32d2b3b66594",
+        "libfile_351b7b4525708191b568bdef2f24848a"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "30-doc-land"
+      ],
+      "identification_task_ids": [
+        "30-identify-housing"
+      ],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
+    },
+    {
+      "id": "30-section-9",
+      "region": "Астраханская область",
+      "title": "Питание в школах",
+      "source_section": "9",
+      "source_heading_versions": [
+        {
+          "source_id": "libfile_06aab8f50a008191b31b32d2b3b66594",
+          "title": "Питание в школах"
+        },
+        {
+          "source_id": "libfile_351b7b4525708191b568bdef2f24848a",
+          "title": "Питание в школах"
+        }
+      ],
+      "status": "needs_review",
+      "action": "Сопоставить две версии обзора, затем проверить полный действующий НПА. Суммы и условия обзора не считать подтверждёнными.",
+      "source_ids": [
+        "libfile_06aab8f50a008191b31b32d2b3b66594",
+        "libfile_351b7b4525708191b568bdef2f24848a"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "30-doc-social-law"
+      ],
+      "identification_task_ids": [
+        "30-identify-multifamily-clothing"
+      ],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
+    },
+    {
+      "id": "30-section-10",
+      "region": "Астраханская область",
+      "title": "Детские сады",
+      "source_section": "10",
+      "source_heading_versions": [
+        {
+          "source_id": "libfile_06aab8f50a008191b31b32d2b3b66594",
+          "title": "Детские сады"
+        },
+        {
+          "source_id": "libfile_351b7b4525708191b568bdef2f24848a",
+          "title": "Детские сады"
+        }
+      ],
+      "status": "needs_review",
+      "action": "Сопоставить две версии обзора, затем проверить полный действующий НПА. Суммы и условия обзора не считать подтверждёнными.",
+      "source_ids": [
+        "libfile_06aab8f50a008191b31b32d2b3b66594",
+        "libfile_351b7b4525708191b568bdef2f24848a"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "30-doc-social-law"
+      ],
+      "identification_task_ids": [
+        "30-identify-kindergarten"
+      ],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
+    },
+    {
+      "id": "30-section-11",
+      "region": "Астраханская область",
+      "title": "Дети-инвалиды",
+      "source_section": "11",
+      "source_heading_versions": [
+        {
+          "source_id": "libfile_06aab8f50a008191b31b32d2b3b66594",
+          "title": "Дети-инвалиды"
+        },
+        {
+          "source_id": "libfile_351b7b4525708191b568bdef2f24848a",
+          "title": "Дети-инвалиды"
+        }
+      ],
+      "status": "needs_review",
+      "action": "Сопоставить две версии обзора, затем проверить полный действующий НПА. Суммы и условия обзора не считать подтверждёнными.",
+      "source_ids": [
+        "libfile_06aab8f50a008191b31b32d2b3b66594",
+        "libfile_351b7b4525708191b568bdef2f24848a"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "30-doc-social-law",
+        "30-doc-budget-2026"
+      ],
+      "identification_task_ids": [
+        "30-identify-disability"
+      ],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
+    },
+    {
+      "id": "30-section-12",
+      "region": "Астраханская область",
+      "title": "Опека и приёмные семьи",
+      "source_section": "12",
+      "source_heading_versions": [
+        {
+          "source_id": "libfile_06aab8f50a008191b31b32d2b3b66594",
+          "title": "Опека и приёмные семьи"
+        },
+        {
+          "source_id": "libfile_351b7b4525708191b568bdef2f24848a",
+          "title": "Опека и приёмные семьи"
+        }
+      ],
+      "status": "needs_review",
+      "action": "Сопоставить две версии обзора, затем проверить полный действующий НПА. Суммы и условия обзора не считать подтверждёнными.",
+      "source_ids": [
+        "libfile_06aab8f50a008191b31b32d2b3b66594",
+        "libfile_351b7b4525708191b568bdef2f24848a"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "30-doc-orphans",
+        "30-doc-orphans-rent",
+        "30-doc-orphans-housing",
+        "30-doc-budget-2026"
+      ],
+      "identification_task_ids": [
+        "30-identify-guardians-procedure"
+      ],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
+    },
+    {
+      "id": "30-section-13",
+      "region": "Астраханская область",
+      "title": "Оздоровление детей",
+      "source_section": "13",
+      "source_heading_versions": [
+        {
+          "source_id": "libfile_06aab8f50a008191b31b32d2b3b66594",
+          "title": "Оздоровление и отдых детей"
+        },
+        {
+          "source_id": "libfile_351b7b4525708191b568bdef2f24848a",
+          "title": "Оздоровление детей"
+        }
+      ],
+      "status": "needs_review",
+      "action": "Сопоставить две версии обзора, затем проверить полный действующий НПА. Суммы и условия обзора не считать подтверждёнными.",
+      "source_ids": [
+        "libfile_06aab8f50a008191b31b32d2b3b66594",
+        "libfile_351b7b4525708191b568bdef2f24848a"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "30-doc-camps"
+      ],
+      "identification_task_ids": [],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
+    },
+    {
+      "id": "30-section-14",
+      "region": "Астраханская область",
+      "title": "Соцконтракт",
+      "source_section": "14",
+      "source_heading_versions": [
+        {
+          "source_id": "libfile_06aab8f50a008191b31b32d2b3b66594",
+          "title": "Социальный контракт"
+        },
+        {
+          "source_id": "libfile_351b7b4525708191b568bdef2f24848a",
+          "title": "Соцконтракт"
+        }
+      ],
+      "status": "needs_review",
+      "action": "Сопоставить две версии обзора, затем проверить полный действующий НПА. Суммы и условия обзора не считать подтверждёнными.",
+      "source_ids": [
+        "libfile_06aab8f50a008191b31b32d2b3b66594",
+        "libfile_351b7b4525708191b568bdef2f24848a"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "30-doc-social-law",
+        "30-doc-contract"
+      ],
+      "identification_task_ids": [
+        "30-identify-contract-directions"
+      ],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
+    },
+    {
+      "id": "30-section-15",
+      "region": "Астраханская область",
+      "title": "Поддержка участников СВО и их семей",
+      "source_section": "15",
+      "source_heading_versions": [
+        {
+          "source_id": "libfile_06aab8f50a008191b31b32d2b3b66594",
+          "title": "Поддержка участников СВО и их семей"
+        },
+        {
+          "source_id": "libfile_351b7b4525708191b568bdef2f24848a",
+          "title": "Поддержка участников СВО и их семей"
+        }
+      ],
+      "status": "needs_review",
+      "action": "Сопоставить две версии обзора, затем проверить полный действующий НПА. Суммы и условия обзора не считать подтверждёнными.",
+      "source_ids": [
+        "libfile_06aab8f50a008191b31b32d2b3b66594",
+        "libfile_351b7b4525708191b568bdef2f24848a"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "30-doc-social-law"
+      ],
+      "identification_task_ids": [
+        "30-identify-svo"
+      ],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
+    },
+    {
+      "id": "30-section-16",
+      "region": "Астраханская область",
+      "title": "Транспортный налог",
+      "source_section": "16",
+      "source_heading_versions": [
+        {
+          "source_id": "libfile_06aab8f50a008191b31b32d2b3b66594",
+          "title": "Налоговые льготы"
+        },
+        {
+          "source_id": "libfile_351b7b4525708191b568bdef2f24848a",
+          "title": "Транспортный налог"
+        }
+      ],
+      "status": "needs_review",
+      "action": "Сопоставить две версии обзора, затем проверить полный действующий НПА. Суммы и условия обзора не считать подтверждёнными.",
+      "source_ids": [
+        "libfile_06aab8f50a008191b31b32d2b3b66594",
+        "libfile_351b7b4525708191b568bdef2f24848a"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "30-doc-tax"
+      ],
+      "identification_task_ids": [
+        "30-identify-status-and-invalid-laws"
+      ],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
+    },
+    {
+      "id": "30-section-17",
+      "region": "Астраханская область",
+      "title": "Прочие меры",
+      "source_section": "17",
+      "source_heading_versions": [
+        {
+          "source_id": "libfile_06aab8f50a008191b31b32d2b3b66594",
+          "title": "Прочие меры"
+        },
+        {
+          "source_id": "libfile_351b7b4525708191b568bdef2f24848a",
+          "title": "Прочие меры"
+        }
+      ],
+      "status": "needs_review",
+      "action": "Сопоставить две версии обзора, затем проверить полный действующий НПА. Суммы и условия обзора не считать подтверждёнными.",
+      "source_ids": [
+        "libfile_06aab8f50a008191b31b32d2b3b66594",
+        "libfile_351b7b4525708191b568bdef2f24848a"
+      ],
+      "official_urls": [],
+      "document_request_ids": [
+        "30-doc-social-law"
+      ],
+      "identification_task_ids": [
+        "30-identify-multifamily-clothing",
+        "30-identify-awards-gas"
+      ],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
+    },
+    {
+      "id": "30-section-18",
+      "region": "Астраханская область",
+      "title": "Сводная таблица основных выплат и нормативных актов",
+      "source_section": "18",
+      "source_heading_versions": [
+        {
+          "source_id": "libfile_06aab8f50a008191b31b32d2b3b66594",
+          "title": "Сводная таблица ключевых нормативных актов"
+        },
+        {
+          "source_id": "libfile_351b7b4525708191b568bdef2f24848a",
+          "title": "Сводная таблица основных выплат и нормативных актов"
+        }
+      ],
+      "status": "needs_review",
+      "action": "Сопоставить две версии обзора, затем проверить полный действующий НПА. Суммы и условия обзора не считать подтверждёнными.",
+      "source_ids": [
+        "libfile_06aab8f50a008191b31b32d2b3b66594",
+        "libfile_351b7b4525708191b568bdef2f24848a"
+      ],
+      "official_urls": [],
+      "document_request_ids": [],
+      "identification_task_ids": []
+    },
+    {
+      "id": "30-section-19",
+      "region": "Астраханская область",
+      "title": "Контакты",
+      "source_section": "19",
+      "source_heading_versions": [
+        {
+          "source_id": "libfile_06aab8f50a008191b31b32d2b3b66594",
+          "title": "Контакты"
+        },
+        {
+          "source_id": "libfile_351b7b4525708191b568bdef2f24848a",
+          "title": "Контакты"
+        }
+      ],
+      "status": "needs_review",
+      "action": "Сопоставить две версии обзора, затем проверить полный действующий НПА. Суммы и условия обзора не считать подтверждёнными.",
+      "source_ids": [
+        "libfile_06aab8f50a008191b31b32d2b3b66594",
+        "libfile_351b7b4525708191b568bdef2f24848a"
+      ],
+      "official_urls": [],
+      "document_request_ids": [],
+      "identification_task_ids": []
+    },
+    {
+      "id": "30-section-20",
+      "region": "Астраханская область",
+      "title": "Важные оговорки",
+      "source_section": "20",
+      "source_heading_versions": [
+        {
+          "source_id": "libfile_06aab8f50a008191b31b32d2b3b66594",
+          "title": "Важные оговорки"
+        },
+        {
+          "source_id": "libfile_351b7b4525708191b568bdef2f24848a",
+          "title": "Важные оговорки"
+        }
+      ],
+      "status": "needs_review",
+      "action": "Сопоставить две версии обзора, затем проверить полный действующий НПА. Суммы и условия обзора не считать подтверждёнными.",
+      "source_ids": [
+        "libfile_06aab8f50a008191b31b32d2b3b66594",
+        "libfile_351b7b4525708191b568bdef2f24848a"
+      ],
+      "official_urls": [],
+      "document_request_ids": [],
+      "identification_task_ids": []
+    }
+  ],
+  "document_inventory_checked_at": "2026-10-19",
+  "document_register_file": "data/reviews/document-requests.json",
+  "document_inventory_status": "started_full_text_required",
+  "document_audit_started": "2026-10-19"
+}

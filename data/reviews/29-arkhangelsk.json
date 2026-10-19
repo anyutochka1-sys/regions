@@ -3,19 +3,27 @@
   "region_id": "29",
   "jurisdiction": "Архангельская область",
   "received": "2026-10-19",
-  "status": "source_received_pending_review",
+  "status": "in_progress",
   "coverage_note": "Обзор принят целиком. Непроверенные утверждения не участвуют в действующей выдаче сайта.",
   "items": [
     {
       "id": "29-source-topic-cf411d41b736",
       "region": "Архангельская область",
       "title": "Прожиточный минимум на 2026 год",
-      "status": "out_of_regional_scope",
+      "status": "needs_document",
       "action": "Сверить действующий региональный НПА, размер и индексацию, периоды рождения, категории, доход, сроки и исключения. Анонсы и будущие изменения отделить от действующих правил.",
       "source_ids": [
         "libfile_119265833fa881919deba07052b8307e"
       ],
-      "official_urls": []
+      "official_urls": [],
+      "document_request_ids": [
+        "29-doc-pm-2026"
+      ],
+      "identification_task_ids": [
+        "29-identify-pm-territories"
+      ],
+      "previous_review_status": "out_of_regional_scope",
+      "document_audit_note_2026_10_19": "ПМ устанавливается региональным постановлением и нужен для условий мер. Исправлена прежняя автоматическая пометка out_of_regional_scope; суммы и территориальное приложение ещё сверяются."
     },
     {
       "id": "29-source-topic-684de9807c41",
@@ -26,7 +34,9 @@
       "source_ids": [
         "libfile_119265833fa881919deba07052b8307e"
       ],
-      "official_urls": []
+      "official_urls": [],
+      "document_request_ids": [],
+      "identification_task_ids": []
     },
     {
       "id": "29-source-topic-b05d888704c0",
@@ -37,7 +47,16 @@
       "source_ids": [
         "libfile_119265833fa881919deba07052b8307e"
       ],
-      "official_urls": []
+      "official_urls": [],
+      "document_request_ids": [
+        "29-doc-family-law",
+        "29-doc-family-procedures",
+        "29-doc-budget-2026"
+      ],
+      "identification_task_ids": [
+        "29-identify-capital-amount-and-deadline"
+      ],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
     },
     {
       "id": "29-source-topic-e23be2d5527c",
@@ -48,7 +67,14 @@
       "source_ids": [
         "libfile_119265833fa881919deba07052b8307e"
       ],
-      "official_urls": []
+      "official_urls": [],
+      "document_request_ids": [
+        "29-doc-pm-2026"
+      ],
+      "identification_task_ids": [
+        "29-identify-pm-territories"
+      ],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
     },
     {
       "id": "29-source-topic-c8655020da4a",
@@ -59,7 +85,15 @@
       "source_ids": [
         "libfile_119265833fa881919deba07052b8307e"
       ],
-      "official_urls": []
+      "official_urls": [],
+      "document_request_ids": [
+        "29-doc-family-law",
+        "29-doc-family-procedures"
+      ],
+      "identification_task_ids": [
+        "29-identify-third-child-archive"
+      ],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
     },
     {
       "id": "29-source-topic-d43b662c2608",
@@ -70,7 +104,15 @@
       "source_ids": [
         "libfile_119265833fa881919deba07052b8307e"
       ],
-      "official_urls": []
+      "official_urls": [],
+      "document_request_ids": [
+        "29-doc-family-law",
+        "29-doc-family-procedures"
+      ],
+      "identification_task_ids": [
+        "29-identify-first-child-deadline"
+      ],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
     },
     {
       "id": "29-source-topic-f8188f4c993a",
@@ -81,7 +123,14 @@
       "source_ids": [
         "libfile_119265833fa881919deba07052b8307e"
       ],
-      "official_urls": []
+      "official_urls": [],
+      "document_request_ids": [
+        "29-doc-family-law",
+        "29-doc-family-procedures",
+        "29-doc-budget-2026"
+      ],
+      "identification_task_ids": [],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
     },
     {
       "id": "29-source-topic-b4c8b3d607e9",
@@ -92,7 +141,17 @@
       "source_ids": [
         "libfile_119265833fa881919deba07052b8307e"
       ],
-      "official_urls": []
+      "official_urls": [],
+      "document_request_ids": [
+        "29-doc-family-law",
+        "29-doc-family-procedures",
+        "29-doc-forest",
+        "29-doc-budget-2026"
+      ],
+      "identification_task_ids": [
+        "29-identify-multifamily"
+      ],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
     },
     {
       "id": "29-source-topic-e44e23c4fdc6",
@@ -103,7 +162,15 @@
       "source_ids": [
         "libfile_119265833fa881919deba07052b8307e"
       ],
-      "official_urls": []
+      "official_urls": [],
+      "document_request_ids": [
+        "29-doc-family-law",
+        "29-doc-land",
+        "29-doc-land-payment-program",
+        "29-doc-land-payment-amendment"
+      ],
+      "identification_task_ids": [],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
     },
     {
       "id": "29-source-topic-05856f0dfcd4",
@@ -114,7 +181,15 @@
       "source_ids": [
         "libfile_119265833fa881919deba07052b8307e"
       ],
-      "official_urls": []
+      "official_urls": [],
+      "document_request_ids": [
+        "29-doc-orphans",
+        "29-doc-budget-2026"
+      ],
+      "identification_task_ids": [
+        "29-identify-guardians"
+      ],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
     },
     {
       "id": "29-source-topic-37bb106ede8f",
@@ -125,7 +200,13 @@
       "source_ids": [
         "libfile_119265833fa881919deba07052b8307e"
       ],
-      "official_urls": []
+      "official_urls": [],
+      "document_request_ids": [
+        "29-doc-svo",
+        "29-doc-reservists"
+      ],
+      "identification_task_ids": [],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
     },
     {
       "id": "29-source-topic-f9054a190273",
@@ -136,7 +217,12 @@
       "source_ids": [
         "libfile_119265833fa881919deba07052b8307e"
       ],
-      "official_urls": []
+      "official_urls": [],
+      "document_request_ids": [
+        "29-doc-tax"
+      ],
+      "identification_task_ids": [],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
     },
     {
       "id": "29-source-topic-47d005a7b6f5",
@@ -147,7 +233,14 @@
       "source_ids": [
         "libfile_119265833fa881919deba07052b8307e"
       ],
-      "official_urls": []
+      "official_urls": [],
+      "document_request_ids": [
+        "29-doc-pm-2026"
+      ],
+      "identification_task_ids": [
+        "29-identify-pm-territories"
+      ],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
     },
     {
       "id": "29-source-topic-a8227180b9c4",
@@ -158,7 +251,17 @@
       "source_ids": [
         "libfile_119265833fa881919deba07052b8307e"
       ],
-      "official_urls": []
+      "official_urls": [],
+      "document_request_ids": [
+        "29-doc-pm-2026",
+        "29-doc-contract",
+        "29-doc-social-assistance-law"
+      ],
+      "identification_task_ids": [
+        "29-identify-pm-territories",
+        "29-identify-social-contract-repair"
+      ],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
     },
     {
       "id": "29-source-topic-45107c9fd94e",
@@ -169,7 +272,19 @@
       "source_ids": [
         "libfile_119265833fa881919deba07052b8307e"
       ],
-      "official_urls": []
+      "official_urls": [],
+      "document_request_ids": [
+        "29-doc-family-law",
+        "29-doc-family-procedures",
+        "29-doc-contract",
+        "29-doc-social-assistance-law",
+        "29-doc-birth-program"
+      ],
+      "identification_task_ids": [
+        "29-identify-care-and-gaps",
+        "29-identify-social-contract-repair"
+      ],
+      "document_audit_note_2026_10_19": "Сопоставлено с реестром документов; сведения обзора не подтверждены полностью. Требуются связанные тексты НПА и уточнения."
     },
     {
       "id": "29-source-topic-e9fba3461df5",
@@ -180,7 +295,9 @@
       "source_ids": [
         "libfile_119265833fa881919deba07052b8307e"
       ],
-      "official_urls": []
+      "official_urls": [],
+      "document_request_ids": [],
+      "identification_task_ids": []
     },
     {
       "id": "29-source-topic-8c72aa2fa722",
@@ -191,7 +308,9 @@
       "source_ids": [
         "libfile_119265833fa881919deba07052b8307e"
       ],
-      "official_urls": []
+      "official_urls": [],
+      "document_request_ids": [],
+      "identification_task_ids": []
     },
     {
       "id": "29-source-topic-c8c9c973a1c8",
@@ -202,7 +321,9 @@
       "source_ids": [
         "libfile_119265833fa881919deba07052b8307e"
       ],
-      "official_urls": []
+      "official_urls": [],
+      "document_request_ids": [],
+      "identification_task_ids": []
     }
   ],
   "source_documents": [
@@ -214,5 +335,8 @@
       "duplicate_text_of": null
     }
   ],
-  "last_source_received": "2026-10-19"
+  "last_source_received": "2026-10-19",
+  "document_inventory_checked_at": "2026-10-19",
+  "document_register_file": "data/reviews/document-requests.json",
+  "document_inventory_status": "started_full_text_required"
 }

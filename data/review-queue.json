@@ -178,7 +178,7 @@
     {
       "region_id": "22",
       "region": "Алтайский край",
-      "status": "queued",
+      "status": "in_progress",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -201,7 +201,7 @@
     {
       "region_id": "28",
       "region": "Амурская область",
-      "status": "queued",
+      "status": "in_progress",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -224,7 +224,7 @@
     {
       "region_id": "29",
       "region": "Архангельская область",
-      "status": "queued",
+      "status": "in_progress",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -243,12 +243,13 @@
       "inventory_file": "data/intake/all-chats-inventory.json",
       "last_source_received": "2026-10-19",
       "review_file": "data/reviews/29-arkhangelsk.json",
-      "alphabetical_document_audit_status": "awaiting_alphabetical_document_audit"
+      "alphabetical_document_audit_status": "started_full_text_required",
+      "document_register_file": "data/reviews/document-requests.json"
     },
     {
       "region_id": "30",
       "region": "Астраханская область",
-      "status": "queued",
+      "status": "in_progress",
       "topics": [
         "выплаты при рождении детей",
         "поддержка беременных и молодых родителей",
@@ -265,7 +266,9 @@
       "usable_overview_received": true,
       "source_count": 7,
       "inventory_file": "data/intake/all-chats-inventory.json",
-      "alphabetical_document_audit_status": "awaiting_alphabetical_document_audit"
+      "alphabetical_document_audit_status": "started_full_text_required",
+      "document_register_file": "data/reviews/document-requests.json",
+      "review_file": "data/reviews/30-astrakhan.json"
     },
     {
       "region_id": "31",
@@ -2324,10 +2327,12 @@
     "started": "2026-10-19",
     "regions_started": [
       "22",
-      "28"
+      "28",
+      "29",
+      "30"
     ],
-    "next_region_id": "29",
-    "next_region": "Архангельская область",
+    "next_region_id": "31",
+    "next_region": "Белгородская область",
     "full_review_complete": false
   }
 }

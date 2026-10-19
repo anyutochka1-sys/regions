@@ -57,11 +57,13 @@
       "source_ids": [
         "libfile_119265833fa881919deba07052b8307e"
       ],
-      "review_status": "source_received_pending_review",
+      "review_status": "in_progress",
       "public_card_count": 0,
       "status": "received_review_incomplete",
       "unique_text_count": 1,
-      "last_inventory": "2026-10-19"
+      "last_inventory": "2026-10-19",
+      "document_register_file": "data/reviews/document-requests.json",
+      "last_document_audit": "2026-10-19"
     },
     {
       "region_id": "30",
@@ -78,11 +80,13 @@
         "libfile_c0358e8d14b88191863143e0a71b2474",
         "libfile_7995a4be40e88191a8bf9eee55f641b3"
       ],
-      "review_status": "queued",
+      "review_status": "in_progress",
       "public_card_count": 0,
       "status": "received_review_incomplete",
       "unique_text_count": 2,
-      "last_inventory": "2026-10-19"
+      "last_inventory": "2026-10-19",
+      "document_register_file": "data/reviews/document-requests.json",
+      "last_document_audit": "2026-10-19"
     },
     {
       "region_id": "31",
