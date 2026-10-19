@@ -1,0 +1,17 @@
+{
+  "id": "libfile_9783d88725a88191a75536fb5d14fd81",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_lipetskaya_oblast (1)(1).docx",
+  "region_ids": [
+    "48"
+  ],
+  "received_at": "2026-10-18T16:03:06.910504Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/37a5b2e11ddb0eab35561e460309bffa422b3521564e28c57a803b54ec8543b0.txt",
+  "text_sha256": "37a5b2e11ddb0eab35561e460309bffa422b3521564e28c57a803b54ec8543b0",
+  "original_docx_sha256": "9d4fe90a42b972d097dff2276635e7de82e04613b1d5074885a721ca20634d68",
+  "extracted_text_sha256": "37a5b2e11ddb0eab35561e460309bffa422b3521564e28c57a803b54ec8543b0",
+  "normalized_text_sha256": "c7ba9e84b050bc9945a8ea8ee9c6e4a4aea11b9006a3aa6d485f83a5d53c41b4",
+  "duplicate_text_of": "libfile_2067aa19c3e88191b8bd5d2784c88ad4",
+  "usable_overview": true
+}

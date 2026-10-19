@@ -1,0 +1,17 @@
+{
+  "id": "libfile_834ceda7498481918481c3536228a6a3",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_krasnodarskiy_krai(3).docx",
+  "region_ids": [
+    "23"
+  ],
+  "received_at": "2026-10-19T02:19:26.026289Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/8c52ab257b42a724234e35994f6bf3ad90b3b237f8651292fc530e3fc6fa796c.txt",
+  "text_sha256": "8c52ab257b42a724234e35994f6bf3ad90b3b237f8651292fc530e3fc6fa796c",
+  "original_docx_sha256": "c18adc1ca070ebab26be08ce9c97cb40824b364270a1b827acbf3cc1b28cdd8b",
+  "extracted_text_sha256": "8c52ab257b42a724234e35994f6bf3ad90b3b237f8651292fc530e3fc6fa796c",
+  "normalized_text_sha256": "7032437fabdd04aa9dd9c24af16ffdb87a7ac9ebe135ae52575f106a91c06923",
+  "duplicate_text_of": "libfile_c80847880e48819187bb9a5f6e6c8e45",
+  "usable_overview": true
+}

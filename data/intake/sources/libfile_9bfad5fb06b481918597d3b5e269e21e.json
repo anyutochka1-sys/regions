@@ -1,0 +1,17 @@
+{
+  "id": "libfile_9bfad5fb06b481918597d3b5e269e21e",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_kareliya.docx",
+  "region_ids": [
+    "10"
+  ],
+  "received_at": "2026-10-18T16:07:56.244377Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/47a7d66e66036ac0a826d2d724a4acbfeb8e61c773a8de62162f849efe0d703d.txt",
+  "text_sha256": "47a7d66e66036ac0a826d2d724a4acbfeb8e61c773a8de62162f849efe0d703d",
+  "original_docx_sha256": "45053bfdb82f98a0263ce176ffc528198746452bff0970899940e2558472d657",
+  "extracted_text_sha256": "47a7d66e66036ac0a826d2d724a4acbfeb8e61c773a8de62162f849efe0d703d",
+  "normalized_text_sha256": "f360126295b7636055f0261f64596f4b2ce704f82e78912a40b58df0c03d7eb8",
+  "duplicate_text_of": "libfile_c4cac2cac82881919d3416dc47acb5c5",
+  "usable_overview": true
+}

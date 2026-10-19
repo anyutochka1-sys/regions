@@ -1,0 +1,17 @@
+{
+  "id": "libfile_db6b7464e6a08191ae2d284a3d93568f",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_volgogradskaya_oblast(1).docx",
+  "region_ids": [
+    "34"
+  ],
+  "received_at": "2026-10-18T16:03:17.431951Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/559b8f199d9977860f89685950a388a426e38cb4ac877fdc6c811098393a24e6.txt",
+  "text_sha256": "559b8f199d9977860f89685950a388a426e38cb4ac877fdc6c811098393a24e6",
+  "original_docx_sha256": "993fa689f9482e888e86687d3e398f2e7540c7f05a3dc29bade8bfaa9975efe2",
+  "extracted_text_sha256": "559b8f199d9977860f89685950a388a426e38cb4ac877fdc6c811098393a24e6",
+  "normalized_text_sha256": "d11a6af9865b655ec927c9b8f45f5a1c452913879d757106a14401488d5294cd",
+  "duplicate_text_of": null,
+  "usable_overview": true
+}

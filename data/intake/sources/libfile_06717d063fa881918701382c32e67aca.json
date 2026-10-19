@@ -1,0 +1,17 @@
+{
+  "id": "libfile_06717d063fa881918701382c32e67aca",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_sevastopol(3).docx",
+  "region_ids": [
+    "92"
+  ],
+  "received_at": "2026-10-19T02:19:26.143349Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/4ff99b2ceacd438d97394ddf23a0e1e140e22ec69ac233acce68abdd42728d83.txt",
+  "text_sha256": "4ff99b2ceacd438d97394ddf23a0e1e140e22ec69ac233acce68abdd42728d83",
+  "original_docx_sha256": "9309d3f4bc81e699e86720c3a6a32a98a6f3a109bc3587534db14204688e8762",
+  "extracted_text_sha256": "4ff99b2ceacd438d97394ddf23a0e1e140e22ec69ac233acce68abdd42728d83",
+  "normalized_text_sha256": "c0a82895f6b9ca263f73d3864ad8ee89eb1ab8d37a4ef3c257d3542a30a6611c",
+  "duplicate_text_of": "libfile_03624b5ba23c8191b8683fefbb56c49a",
+  "usable_overview": true
+}

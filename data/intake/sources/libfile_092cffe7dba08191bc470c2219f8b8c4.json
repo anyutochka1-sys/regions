@@ -1,0 +1,17 @@
+{
+  "id": "libfile_092cffe7dba08191bc470c2219f8b8c4",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_respublika_komi(1).docx",
+  "region_ids": [
+    "11"
+  ],
+  "received_at": "2026-10-19T02:19:34.088894Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/fed03bd3e5f379cff78801876bc7350df10262274d0fe858f6f7ee80dd14a4f4.txt",
+  "text_sha256": "fed03bd3e5f379cff78801876bc7350df10262274d0fe858f6f7ee80dd14a4f4",
+  "original_docx_sha256": "60ad0e352b9485d9ea39361a8ff35177c3aa766198b4919b76a10c94c68635b0",
+  "extracted_text_sha256": "fed03bd3e5f379cff78801876bc7350df10262274d0fe858f6f7ee80dd14a4f4",
+  "normalized_text_sha256": "99a0a56dd8befe597fe01fe8dc5d194ea5f3828957c96c075036e2333f11d226",
+  "duplicate_text_of": null,
+  "usable_overview": true
+}

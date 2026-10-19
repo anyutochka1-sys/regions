@@ -1,0 +1,17 @@
+{
+  "id": "libfile_0cbae81ec450819199c3d6489ed90a45",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_novgorodskaya_oblast.docx",
+  "region_ids": [
+    "53"
+  ],
+  "received_at": "2026-10-18T16:08:02.006669Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/920de93d6b7328db679c5f233d5dde6bbb017da5f42ae68b09f77058e0b8edde.txt",
+  "text_sha256": "920de93d6b7328db679c5f233d5dde6bbb017da5f42ae68b09f77058e0b8edde",
+  "original_docx_sha256": "eb0d1be9c9d82bd816fdf8106d4567516fb8df74b789ba0d44c5de12eef25ba2",
+  "extracted_text_sha256": "920de93d6b7328db679c5f233d5dde6bbb017da5f42ae68b09f77058e0b8edde",
+  "normalized_text_sha256": "3ddb0bf85b9daaf3634c678d090e3488273a894e8bf3a9aa27eaf6d659794de3",
+  "duplicate_text_of": "libfile_34097f817c9c819183cefc34a87459c3",
+  "usable_overview": true
+}

@@ -1,0 +1,17 @@
+{
+  "id": "libfile_1a96abd4b6c88191bf89d6d77ab041e8",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_khmao_yugra(2).docx",
+  "region_ids": [
+    "86"
+  ],
+  "received_at": "2026-10-19T02:06:59.048783Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/dc2c16616ed3e2979725a049e6af2991f7d2a5d4f57654f43afe41dba6147bec.txt",
+  "text_sha256": "dc2c16616ed3e2979725a049e6af2991f7d2a5d4f57654f43afe41dba6147bec",
+  "original_docx_sha256": "c2f213d998532b70ba7c4498388387c54460ead97b8069053a0444ce71c03a84",
+  "extracted_text_sha256": "dc2c16616ed3e2979725a049e6af2991f7d2a5d4f57654f43afe41dba6147bec",
+  "normalized_text_sha256": "0a2ddcfd006b50177e0ee5323446324e0b021358c39e6aca2bd606c7c6abf6e3",
+  "duplicate_text_of": "libfile_aad432ab0f448191ab219fbe9b31cf63",
+  "usable_overview": true
+}

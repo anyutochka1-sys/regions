@@ -1,0 +1,17 @@
+{
+  "id": "libfile_327530c99970819187b9473a5c8f1f24",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_ivanovskaya_oblast (1).docx",
+  "region_ids": [
+    "37"
+  ],
+  "received_at": "2026-10-18T16:07:56.446922Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/4d05ce08168ac30358a02e40cc7c9f26cfe1f7fd0378cab45f8c802cafb75346.txt",
+  "text_sha256": "4d05ce08168ac30358a02e40cc7c9f26cfe1f7fd0378cab45f8c802cafb75346",
+  "original_docx_sha256": "8627ddb2a3d5ecb2c8a4ed758ba78b19a2db3dd189333e50aeaaa906abb4f50d",
+  "extracted_text_sha256": "4d05ce08168ac30358a02e40cc7c9f26cfe1f7fd0378cab45f8c802cafb75346",
+  "normalized_text_sha256": "38deb999043f6305995e46fa675d86ac96938978e61ed5a0d102f3ede331df0e",
+  "duplicate_text_of": "libfile_1ad1e9e50da481918db4e270eb619b39",
+  "usable_overview": true
+}

@@ -19,9 +19,11 @@
       "notice": "Карточек с подтверждёнными основными условиями: 1. Полное наполнение и проверка НПА продолжаются.",
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -40,9 +42,11 @@
       "notice": "Карточек с подтверждёнными основными условиями: 4. Полное наполнение и проверка НПА продолжаются.",
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -57,9 +61,11 @@
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": false,
+        "usable_overview_received": false,
         "source_count": 0,
+        "unique_text_count": 0,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -67,16 +73,18 @@
       "name": "Астраханская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
-        "received": false,
-        "source_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 7,
+        "unique_text_count": 2,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -95,7 +103,9 @@
       "notice": "Обзор получен 19.10.2026. Карточек с подтверждёнными основными условиями: 2. Остальные сведения проходят проверку.",
       "source_intake": {
         "received": true,
-        "source_count": 2,
+        "usable_overview_received": true,
+        "source_count": 5,
+        "unique_text_count": 2,
         "index_file": "data/intake/index.json",
         "last_inventory": "2026-10-19"
       }
@@ -105,16 +115,18 @@
       "name": "Брянская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -122,16 +134,18 @@
       "name": "Владимирская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -139,16 +153,18 @@
       "name": "Волгоградская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
-        "received": false,
-        "source_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 4,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -163,9 +179,11 @@
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": false,
+        "usable_overview_received": false,
         "source_count": 0,
+        "unique_text_count": 0,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -184,7 +202,9 @@
       "notice": "Обзор получен 19.10.2026. Карточек с подтверждёнными основными условиями: 1. Остальные сведения проходят проверку.",
       "source_intake": {
         "received": true,
-        "source_count": 4,
+        "usable_overview_received": true,
+        "source_count": 7,
+        "unique_text_count": 2,
         "index_file": "data/intake/index.json",
         "last_inventory": "2026-10-19"
       }
@@ -201,7 +221,9 @@
       "preliminary_topics_count": 1,
       "source_intake": {
         "received": true,
-        "source_count": 1,
+        "usable_overview_received": true,
+        "source_count": 4,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
         "last_inventory": "2026-10-19"
       },
@@ -214,16 +236,18 @@
       "name": "Еврейская автономная область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -242,9 +266,11 @@
       "notice": "Карточек с подтверждёнными основными условиями: 5. Полное наполнение и проверка НПА продолжаются.",
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -259,7 +285,9 @@
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": true,
-        "source_count": 1,
+        "usable_overview_received": true,
+        "source_count": 4,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
         "last_inventory": "2026-10-19"
       },
@@ -272,16 +300,18 @@
       "name": "Ивановская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": true,
-        "source_count": 1,
+        "usable_overview_received": true,
+        "source_count": 3,
+        "unique_text_count": 2,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -289,16 +319,18 @@
       "name": "Иркутская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 2,
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 2,
+        "unique_text_count": 2,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -313,9 +345,11 @@
       "preliminary_topics_count": 1,
       "source_intake": {
         "received": false,
+        "usable_overview_received": false,
         "source_count": 0,
+        "unique_text_count": 0,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -323,16 +357,18 @@
       "name": "Калининградская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 1,
       "source_intake": {
-        "received": false,
-        "source_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -340,16 +376,18 @@
       "name": "Калужская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -368,9 +406,11 @@
       "notice": "Карточек с подтверждёнными основными условиями: 2. Полное наполнение и проверка НПА продолжаются.",
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -385,9 +425,11 @@
       "preliminary_topics_count": 1,
       "source_intake": {
         "received": false,
+        "usable_overview_received": false,
         "source_count": 0,
+        "unique_text_count": 0,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -395,16 +437,18 @@
       "name": "Кемеровская область — Кузбасс",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -419,9 +463,11 @@
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": false,
+        "usable_overview_received": false,
         "source_count": 0,
+        "unique_text_count": 0,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -436,9 +482,11 @@
       "preliminary_topics_count": 1,
       "source_intake": {
         "received": false,
+        "usable_overview_received": false,
         "source_count": 0,
+        "unique_text_count": 0,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -446,16 +494,18 @@
       "name": "Краснодарский край",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": true,
-        "source_count": 2,
+        "usable_overview_received": true,
+        "source_count": 6,
+        "unique_text_count": 2,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -482,9 +532,11 @@
       "last_checked": "2026-10-08",
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 3,
+        "unique_text_count": 2,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -499,9 +551,11 @@
       "preliminary_topics_count": 1,
       "source_intake": {
         "received": false,
+        "usable_overview_received": false,
         "source_count": 0,
+        "unique_text_count": 0,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -520,7 +574,9 @@
       "notice": "Обзор получен 19.10.2026. Карточек с подтверждёнными основными условиями: 2. Остальные сведения проходят проверку.",
       "source_intake": {
         "received": true,
-        "source_count": 2,
+        "usable_overview_received": true,
+        "source_count": 5,
+        "unique_text_count": 2,
         "index_file": "data/intake/index.json",
         "last_inventory": "2026-10-19"
       }
@@ -530,16 +586,18 @@
       "name": "Ленинградская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 3,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -558,7 +616,9 @@
       "notice": "Обзор получен 19.10.2026. Карточек с подтверждёнными основными условиями: 0. Остальные сведения проходят проверку.",
       "source_intake": {
         "received": true,
-        "source_count": 2,
+        "usable_overview_received": true,
+        "source_count": 5,
+        "unique_text_count": 2,
         "index_file": "data/intake/index.json",
         "last_inventory": "2026-10-19"
       }
@@ -575,7 +635,9 @@
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": true,
-        "source_count": 1,
+        "usable_overview_received": true,
+        "source_count": 4,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
         "last_inventory": "2026-10-19"
       },
@@ -599,9 +661,11 @@
       "notice": "Карточек с подтверждёнными основными условиями: 1. Полное наполнение и проверка НПА продолжаются.",
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -609,16 +673,18 @@
       "name": "Москва",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 1,
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 2,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -626,16 +692,18 @@
       "name": "Московская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 2,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -643,16 +711,18 @@
       "name": "Мурманская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
-        "received": false,
-        "source_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 2,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -660,16 +730,18 @@
       "name": "Ненецкий автономный округ",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
-        "received": false,
-        "source_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 3,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -677,16 +749,18 @@
       "name": "Нижегородская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 2,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -694,16 +768,18 @@
       "name": "Новгородская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 1,
       "source_intake": {
-        "received": false,
-        "source_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 2,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -711,7 +787,7 @@
       "name": "Новосибирская область",
       "public": true,
       "status": "regional_base_active",
-      "data_status": "verified_core",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "source_ids": [
         "nso-social",
@@ -724,9 +800,11 @@
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -734,16 +812,18 @@
       "name": "Омская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -758,9 +838,11 @@
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": false,
+        "usable_overview_received": false,
         "source_count": 0,
+        "unique_text_count": 0,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -768,16 +850,18 @@
       "name": "Орловская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -792,9 +876,11 @@
       "preliminary_topics_count": 1,
       "source_intake": {
         "received": false,
+        "usable_overview_received": false,
         "source_count": 0,
+        "unique_text_count": 0,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -820,9 +906,11 @@
       "clarification_file": "data/reviews/59-perm-clarifications.md",
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 2,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -841,9 +929,11 @@
       "notice": "Карточек с подтверждёнными основными условиями: 4. Полное наполнение и проверка НПА продолжаются.",
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -851,16 +941,18 @@
       "name": "Псковская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
-        "received": false,
-        "source_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -868,16 +960,18 @@
       "name": "Республика Адыгея",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 3,
       "source_intake": {
-        "received": false,
-        "source_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 4,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -896,9 +990,11 @@
       "notice": "Карточек с подтверждёнными основными условиями: 3. Полное наполнение и проверка НПА продолжаются.",
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -906,16 +1002,18 @@
       "name": "Республика Башкортостан",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 2,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -934,9 +1032,11 @@
       "notice": "Три карточки с подтверждёнными основными условиями. Полное наполнение и проверка НПА продолжаются.",
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -951,9 +1051,11 @@
       "preliminary_topics_count": 1,
       "source_intake": {
         "received": false,
+        "usable_overview_received": false,
         "source_count": 0,
+        "unique_text_count": 0,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -968,9 +1070,11 @@
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": false,
+        "usable_overview_received": false,
         "source_count": 0,
+        "unique_text_count": 0,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -978,16 +1082,18 @@
       "name": "Республика Калмыкия",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
-        "received": false,
-        "source_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 4,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -995,16 +1101,18 @@
       "name": "Республика Карелия",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
-        "received": false,
-        "source_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 2,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1012,16 +1120,18 @@
       "name": "Республика Коми",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
-        "received": false,
-        "source_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 2,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1029,16 +1139,18 @@
       "name": "Республика Крым",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
-        "received": false,
-        "source_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 4,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1053,9 +1165,11 @@
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": false,
+        "usable_overview_received": false,
         "source_count": 0,
+        "unique_text_count": 0,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1070,9 +1184,11 @@
       "preliminary_topics_count": 1,
       "source_intake": {
         "received": false,
+        "usable_overview_received": false,
         "source_count": 0,
+        "unique_text_count": 0,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1091,9 +1207,11 @@
       "notice": "Четыре карточки с подтверждёнными основными условиями. Полное наполнение и проверка НПА продолжаются.",
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1108,9 +1226,11 @@
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": false,
+        "usable_overview_received": false,
         "source_count": 0,
+        "unique_text_count": 0,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1132,9 +1252,11 @@
       ],
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 2,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1142,16 +1264,18 @@
       "name": "Республика Тыва",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 1,
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1159,16 +1283,18 @@
       "name": "Республика Хакасия",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1176,16 +1302,18 @@
       "name": "Ростовская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 1,
       "source_intake": {
         "received": true,
-        "source_count": 2,
+        "usable_overview_received": true,
+        "source_count": 6,
+        "unique_text_count": 2,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1193,16 +1321,18 @@
       "name": "Рязанская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 1,
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1225,9 +1355,11 @@
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1235,16 +1367,18 @@
       "name": "Санкт-Петербург",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 2,
       "source_intake": {
-        "received": false,
-        "source_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 2,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1252,16 +1386,18 @@
       "name": "Саратовская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
-        "received": false,
-        "source_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 4,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1280,9 +1416,11 @@
       "notice": "Карточек с подтверждёнными основными условиями: 3. Полное наполнение и проверка НПА продолжаются.",
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1290,16 +1428,18 @@
       "name": "Свердловская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 2,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1307,16 +1447,18 @@
       "name": "Севастополь",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
-        "received": false,
-        "source_count": 0,
+        "received": true,
+        "usable_overview_received": true,
+        "source_count": 4,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1324,16 +1466,18 @@
       "name": "Смоленская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1348,9 +1492,11 @@
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": false,
+        "usable_overview_received": false,
         "source_count": 0,
+        "unique_text_count": 0,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1369,9 +1515,11 @@
       "notice": "Карточек с подтверждёнными основными условиями: 0. Полное наполнение и проверка НПА продолжаются.",
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1379,16 +1527,18 @@
       "name": "Тверская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 1,
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1396,16 +1546,18 @@
       "name": "Томская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 1,
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1424,9 +1576,11 @@
       "notice": "Карточек с подтверждёнными основными условиями: 1. Полное наполнение и проверка НПА продолжаются.",
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1448,9 +1602,11 @@
       ],
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 2,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1465,9 +1621,11 @@
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": false,
+        "usable_overview_received": false,
         "source_count": 0,
+        "unique_text_count": 0,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1482,9 +1640,11 @@
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": false,
+        "usable_overview_received": false,
         "source_count": 0,
+        "unique_text_count": 0,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1503,9 +1663,11 @@
       "notice": "Карточек с подтверждёнными основными условиями: 3. Полное наполнение и проверка НПА продолжаются.",
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1520,7 +1682,9 @@
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": true,
-        "source_count": 1,
+        "usable_overview_received": true,
+        "source_count": 4,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
         "last_inventory": "2026-10-19"
       },
@@ -1540,7 +1704,9 @@
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": true,
-        "source_count": 1,
+        "usable_overview_received": true,
+        "source_count": 4,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
         "last_inventory": "2026-10-19"
       },
@@ -1553,16 +1719,18 @@
       "name": "Челябинская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 1,
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 3,
+        "unique_text_count": 2,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1577,9 +1745,11 @@
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": false,
+        "usable_overview_received": false,
         "source_count": 0,
+        "unique_text_count": 0,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1594,9 +1764,11 @@
       "preliminary_topics_count": 0,
       "source_intake": {
         "received": false,
+        "usable_overview_received": false,
         "source_count": 0,
+        "unique_text_count": 0,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1615,9 +1787,11 @@
       "notice": "Карточек с подтверждёнными основными условиями: 2. Полное наполнение и проверка НПА продолжаются.",
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     },
     {
@@ -1632,7 +1806,9 @@
       "preliminary_topics_count": 1,
       "source_intake": {
         "received": true,
-        "source_count": 1,
+        "usable_overview_received": true,
+        "source_count": 4,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
         "last_inventory": "2026-10-19"
       },
@@ -1645,16 +1821,18 @@
       "name": "Ярославская область",
       "public": true,
       "status": "regional_collection_started",
-      "data_status": "preliminary",
+      "data_status": "source_received_pending_review",
       "review_status": "queued",
       "data_file": null,
       "collection_started": "2026-10-07",
       "preliminary_topics_count": 1,
       "source_intake": {
         "received": true,
+        "usable_overview_received": true,
         "source_count": 1,
+        "unique_text_count": 1,
         "index_file": "data/intake/index.json",
-        "last_inventory": "2026-10-14"
+        "last_inventory": "2026-10-19"
       }
     }
   ]

@@ -1,0 +1,17 @@
+{
+  "id": "libfile_b0fbb6d1a484819185ffc2af9996e818",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_murmanskaya_oblast.docx",
+  "region_ids": [
+    "51"
+  ],
+  "received_at": "2026-10-18T16:07:56.415913Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/443c9e69dc36849e4f6144a1935580c3f490394bdbcd3846855115ab19e892f1.txt",
+  "text_sha256": "443c9e69dc36849e4f6144a1935580c3f490394bdbcd3846855115ab19e892f1",
+  "original_docx_sha256": "52904f16afecaedcfeb8c7c3b7ff1d540f7bdc87e0e614bd806dcf9eec8b80cc",
+  "extracted_text_sha256": "443c9e69dc36849e4f6144a1935580c3f490394bdbcd3846855115ab19e892f1",
+  "normalized_text_sha256": "5c292160fb578306e4d714906f21694c62007f48713f60a7d1bbc30b07b8e872",
+  "duplicate_text_of": "libfile_aee22e3c157c81918a3d6f5c21024822",
+  "usable_overview": true
+}

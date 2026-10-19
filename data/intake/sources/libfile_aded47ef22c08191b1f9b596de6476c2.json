@@ -1,0 +1,17 @@
+{
+  "id": "libfile_aded47ef22c08191b1f9b596de6476c2",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_khersonskaya_oblast(2).docx",
+  "region_ids": [
+    "84"
+  ],
+  "received_at": "2026-10-19T02:07:04.343779Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/bfa2ec50dfd3abb8d84ecd03297cb34ff5761e6a287596e86accc9ce98f78c6f.txt",
+  "text_sha256": "bfa2ec50dfd3abb8d84ecd03297cb34ff5761e6a287596e86accc9ce98f78c6f",
+  "original_docx_sha256": "fdd9258204319d978a46fd3ad5c88c0494c23e896d9934cdf18454a5c38df2e4",
+  "extracted_text_sha256": "bfa2ec50dfd3abb8d84ecd03297cb34ff5761e6a287596e86accc9ce98f78c6f",
+  "normalized_text_sha256": "3b77b65b9ef29364ed23e0fbee44182ce9afebf15c2de85d075aeaab4e6b4acf",
+  "duplicate_text_of": "libfile_62dcf84fdc548191be6c66dfa3f3e71e",
+  "usable_overview": true
+}

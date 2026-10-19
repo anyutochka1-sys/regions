@@ -1,0 +1,17 @@
+{
+  "id": "libfile_9681a1679e9c81919e0186b1c4b592bf",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_krym.docx",
+  "region_ids": [
+    "91"
+  ],
+  "received_at": "2026-10-14T10:13:01.497982Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/ed4504a2f1bf455436d2c605716de8dc42b7d690a0096d12a49bce1efcd39882.txt",
+  "text_sha256": "ed4504a2f1bf455436d2c605716de8dc42b7d690a0096d12a49bce1efcd39882",
+  "original_docx_sha256": "7af9ff57f713e3d37eb20000a72389db51e225b9e65724372dd484f68067e3d7",
+  "extracted_text_sha256": "ed4504a2f1bf455436d2c605716de8dc42b7d690a0096d12a49bce1efcd39882",
+  "normalized_text_sha256": "be68da6e03a8135473275c00af416edacebbfcd501842ae64487009cc0e2a13c",
+  "duplicate_text_of": "libfile_470329c53bd081918f7d7c0131214343",
+  "usable_overview": true
+}

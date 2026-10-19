@@ -1,0 +1,17 @@
+{
+  "id": "libfile_f37c53bd15b48191b7e98a954df51da6",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_lnr(1).docx",
+  "region_ids": [
+    "81"
+  ],
+  "received_at": "2026-10-18T16:03:01.497300Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/b271028b0321ae73035f77f7929df1200931de5262b34eef4eda174f0b0df558.txt",
+  "text_sha256": "b271028b0321ae73035f77f7929df1200931de5262b34eef4eda174f0b0df558",
+  "original_docx_sha256": "214a6a7d8fc23b7694e2dec5d660566391f12964674c6785d7c4b9a563c58af7",
+  "extracted_text_sha256": "b271028b0321ae73035f77f7929df1200931de5262b34eef4eda174f0b0df558",
+  "normalized_text_sha256": "c9438456b49c851aa10448a390de3d9651fa8efc691e581467a5da4482905b19",
+  "duplicate_text_of": "libfile_0f874fe684648191ba6057edf2ec6474",
+  "usable_overview": true
+}

@@ -1,0 +1,17 @@
+{
+  "id": "libfile_522496af9c9481918701f72999c3e6fa",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_nenetskiy_ao.docx",
+  "region_ids": [
+    "83"
+  ],
+  "received_at": "2026-10-14T10:13:03.322448Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/40413ec2caac0ec29061413b380ab5433db41a480eedb1ada0caf7a90439a518.txt",
+  "text_sha256": "40413ec2caac0ec29061413b380ab5433db41a480eedb1ada0caf7a90439a518",
+  "original_docx_sha256": "2f946c4ae9a51ef49a3bcafdbc7c42d7680acd97ef264feb9199f4679e522c34",
+  "extracted_text_sha256": "40413ec2caac0ec29061413b380ab5433db41a480eedb1ada0caf7a90439a518",
+  "normalized_text_sha256": "c37126b809f3b1df6217caeec73a04aadac6b0a79fb961334c15272826b5f6c5",
+  "duplicate_text_of": "libfile_523ec770e9c881919a9bb07dada35c66",
+  "usable_overview": true
+}

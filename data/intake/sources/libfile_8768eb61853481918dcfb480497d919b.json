@@ -1,0 +1,17 @@
+{
+  "id": "libfile_8768eb61853481918dcfb480497d919b",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_sankt_peterburg(1).docx",
+  "region_ids": [
+    "78"
+  ],
+  "received_at": "2026-10-19T02:19:37.341047Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/1841cf7da688e91950c1d83adf844a0ed157325fbefa01fcebe07a1a9139c6d9.txt",
+  "text_sha256": "1841cf7da688e91950c1d83adf844a0ed157325fbefa01fcebe07a1a9139c6d9",
+  "original_docx_sha256": "205e033449220c13f6e4870126956c230e558564efabfa4c68dc94f3a8938778",
+  "extracted_text_sha256": "1841cf7da688e91950c1d83adf844a0ed157325fbefa01fcebe07a1a9139c6d9",
+  "normalized_text_sha256": "e492341ec154a7f1f074ae65afd1b7674406badf8cfaacb78928b53ec040ca18",
+  "duplicate_text_of": null,
+  "usable_overview": true
+}

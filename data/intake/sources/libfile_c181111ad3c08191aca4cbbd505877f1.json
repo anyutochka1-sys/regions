@@ -1,0 +1,17 @@
+{
+  "id": "libfile_c181111ad3c08191aca4cbbd505877f1",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_zaporozhskaya_oblast(1).docx",
+  "region_ids": [
+    "85"
+  ],
+  "received_at": "2026-10-18T16:03:01.747297Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/3aa607af9b2e414baf6b95d71ea0f4706f4e5a8d579c405bb0ba99836bb96c99.txt",
+  "text_sha256": "3aa607af9b2e414baf6b95d71ea0f4706f4e5a8d579c405bb0ba99836bb96c99",
+  "original_docx_sha256": "07c243d32098c49a6961fd64b4b595954c9800cf75e6e2705286ae9ca58257ea",
+  "extracted_text_sha256": "3aa607af9b2e414baf6b95d71ea0f4706f4e5a8d579c405bb0ba99836bb96c99",
+  "normalized_text_sha256": "cebf9283fe072ea8bd490eb5e8f32cf97d9a1c2e156fd135b33e349f32907064",
+  "duplicate_text_of": "libfile_5010a9344ab88191a84b4d7d0c520ec5",
+  "usable_overview": true
+}

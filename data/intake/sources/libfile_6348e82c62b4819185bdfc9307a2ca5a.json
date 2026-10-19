@@ -1,0 +1,17 @@
+{
+  "id": "libfile_6348e82c62b4819185bdfc9307a2ca5a",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_saratovskaya_oblast.docx",
+  "region_ids": [
+    "64"
+  ],
+  "received_at": "2026-10-14T10:13:04.293101Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/c51864864316f594ed7d3d2bf8e15258b8fff9076078af08e86181b61d3726ed.txt",
+  "text_sha256": "c51864864316f594ed7d3d2bf8e15258b8fff9076078af08e86181b61d3726ed",
+  "original_docx_sha256": "87d091930f510941388362f6a2155e86d44202cab4f8871923a53aeacf2cd974",
+  "extracted_text_sha256": "c51864864316f594ed7d3d2bf8e15258b8fff9076078af08e86181b61d3726ed",
+  "normalized_text_sha256": "ce3c87a3616b8497c36ce722dadf432843d9169ad7e04c467d928cb17870522b",
+  "duplicate_text_of": "libfile_1a5b32e4b9cc8191b539e35f4e7eeb6e",
+  "usable_overview": true
+}

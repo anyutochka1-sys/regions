@@ -1,0 +1,17 @@
+{
+  "id": "libfile_93af9dda81e081919c4865246ccbdaae",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_belgorodskaya_oblast (1)(2).docx",
+  "region_ids": [
+    "31"
+  ],
+  "received_at": "2026-10-19T02:07:05.036162Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/36f44418d8e992550ff1048d20c5ce92f70a24af614e5f8f4961e8eba4707e95.txt",
+  "text_sha256": "36f44418d8e992550ff1048d20c5ce92f70a24af614e5f8f4961e8eba4707e95",
+  "original_docx_sha256": "4742db94103f3a71116bde7dd36d33f61a24e0f7741ed7c05dac7f175caf5203",
+  "extracted_text_sha256": "36f44418d8e992550ff1048d20c5ce92f70a24af614e5f8f4961e8eba4707e95",
+  "normalized_text_sha256": "6621ff18c7c24549a38005c38bfa516520c0484669aaa91888c8300dd66cab21",
+  "duplicate_text_of": "libfile_f35e37b00b2c8191bd87c4201fac4fef",
+  "usable_overview": true
+}

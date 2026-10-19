@@ -1,0 +1,17 @@
+{
+  "id": "libfile_49dbfab531148191bd4bb7b692e2ed84",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_kalmykiya(2).docx",
+  "region_ids": [
+    "08"
+  ],
+  "received_at": "2026-10-19T02:07:17.094979Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/970e8f11467862fde3c5a270194c0db26c787b5825ee12316131e47d2fa80f11.txt",
+  "text_sha256": "970e8f11467862fde3c5a270194c0db26c787b5825ee12316131e47d2fa80f11",
+  "original_docx_sha256": "cc73a4d4f054a0211da33409e89a3b10d32e169a2ef2d74b97bb9eb0c7369e94",
+  "extracted_text_sha256": "970e8f11467862fde3c5a270194c0db26c787b5825ee12316131e47d2fa80f11",
+  "normalized_text_sha256": "7786814b6eb720d41b219c85314b2987ff53f18d7c220c40fffdd24b077abf36",
+  "duplicate_text_of": "libfile_5f5d5ca37018819182e92a5f4de31ae8",
+  "usable_overview": true
+}

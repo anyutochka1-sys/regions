@@ -1,0 +1,17 @@
+{
+  "id": "libfile_6e2e975724c08191b4464f03e25eeb99",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_kurskaya_oblast (1).docx",
+  "region_ids": [
+    "46"
+  ],
+  "received_at": "2026-10-14T10:13:01.483999Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/06fe78291311deba34f7b88a4d12dc5a7949932084126ed864d52e2c2d5b0f95.txt",
+  "text_sha256": "06fe78291311deba34f7b88a4d12dc5a7949932084126ed864d52e2c2d5b0f95",
+  "original_docx_sha256": "c0275dd0fd05250539d9f87ea56ad03c2e8e378ae07ae1b88f6ef9353a8f03db",
+  "extracted_text_sha256": "06fe78291311deba34f7b88a4d12dc5a7949932084126ed864d52e2c2d5b0f95",
+  "normalized_text_sha256": "e793cc669c674a1b5cc61ee03cfd59ce2272687c94e98157eb6de87b0875dd12",
+  "duplicate_text_of": "libfile_896a0eb03bc881918b649af9fedd899d",
+  "usable_overview": true
+}

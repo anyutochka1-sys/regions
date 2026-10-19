@@ -1,0 +1,17 @@
+{
+  "id": "libfile_9f94e519dc8c8191b916620670fc322f",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_pskovskaya_oblast.docx",
+  "region_ids": [
+    "60"
+  ],
+  "received_at": "2026-10-18T16:08:02.440373Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/fbff831c392d86716a0c8a8e889f6104a2451f72ed471be839f267a8a3615232.txt",
+  "text_sha256": "fbff831c392d86716a0c8a8e889f6104a2451f72ed471be839f267a8a3615232",
+  "original_docx_sha256": "697281fe90ccfefd31812a39fb0329ae8b1f16db68551efcedc5015c1453889c",
+  "extracted_text_sha256": "fbff831c392d86716a0c8a8e889f6104a2451f72ed471be839f267a8a3615232",
+  "normalized_text_sha256": "1e22196d1fdcf755f4573a266e53b4c6e7c62cff28e4fab09750d2f7101c9bbc",
+  "duplicate_text_of": null,
+  "usable_overview": true
+}

@@ -1,0 +1,17 @@
+{
+  "id": "libfile_7995a4be40e88191a8bf9eee55f641b3",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_astrahanskaya_oblast_v3.docx",
+  "region_ids": [
+    "30"
+  ],
+  "received_at": "2026-10-14T10:13:04.138457Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/1e45d5b8d9049a0ab4e1bd7a07bf8687b0d240c1914fdf5622856269896be747.txt",
+  "text_sha256": "1e45d5b8d9049a0ab4e1bd7a07bf8687b0d240c1914fdf5622856269896be747",
+  "original_docx_sha256": "2564b66af02e525b8229105d184343c74bfb729343af1e1e2d92ce6ff8aa3fe6",
+  "extracted_text_sha256": "1e45d5b8d9049a0ab4e1bd7a07bf8687b0d240c1914fdf5622856269896be747",
+  "normalized_text_sha256": "80e601e85089ab08e9caa98644ec3d9659f3116ae17b542376ec6e6903c02926",
+  "duplicate_text_of": "libfile_351b7b4525708191b568bdef2f24848a",
+  "usable_overview": true
+}

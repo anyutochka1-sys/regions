@@ -2,10 +2,10 @@
   "schema": 1,
   "updated": "2026-10-19",
   "scope": "Все доступные ранее и сейчас присланные региональные обзоры и тексты. Факт приёма отдельно от проверки и публикации.",
-  "source_count": 76,
-  "unique_text_count": 61,
-  "received_regions_count": 55,
-  "not_received_regions_count": 34,
+  "source_count": 162,
+  "unique_text_count": 80,
+  "received_regions_count": 70,
+  "not_received_regions_count": 19,
   "regions": [
     {
       "region_id": "22",
@@ -18,7 +18,9 @@
       ],
       "review_status": "in_progress",
       "public_card_count": 1,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "28",
@@ -31,7 +33,9 @@
       ],
       "review_status": "in_progress",
       "public_card_count": 4,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "29",
@@ -42,32 +46,49 @@
       "source_ids": [],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "not_received",
+      "unique_text_count": 0,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "30",
       "region": "Астраханская область",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 7,
+      "source_ids": [
+        "libfile_06aab8f50a008191b31b32d2b3b66594",
+        "libfile_8792cc1a5a6c8191ab1a2aa0d32ea830",
+        "libfile_c37670b1c33081918b8da2903bfa0176",
+        "libfile_351b7b4525708191b568bdef2f24848a",
+        "libfile_3040e19099a081919a6745b63abce93c",
+        "libfile_c0358e8d14b88191863143e0a71b2474",
+        "libfile_7995a4be40e88191a8bf9eee55f641b3"
+      ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "received_review_incomplete",
+      "unique_text_count": 2,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "31",
       "region": "Белгородская область",
       "received": true,
       "usable_overview_received": true,
-      "source_count": 2,
+      "source_count": 5,
       "source_ids": [
         "libfile_02eb0a48cfbc81918680fab7f35bf1b3",
-        "libfile_f35e37b00b2c8191bd87c4201fac4fef"
+        "libfile_f35e37b00b2c8191bd87c4201fac4fef",
+        "libfile_4c3aa5b9c25881919d87d72d956fec20",
+        "libfile_93af9dda81e081919c4865246ccbdaae",
+        "libfile_073c28a89f3c819184b3b9529ea657c3"
       ],
       "review_status": "in_progress",
       "public_card_count": 2,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 2,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "32",
@@ -80,7 +101,9 @@
       ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "33",
@@ -93,18 +116,27 @@
       ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "34",
       "region": "Волгоградская область",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 4,
+      "source_ids": [
+        "libfile_db6b7464e6a08191ae2d284a3d93568f",
+        "libfile_0e34097cffcc8191b5de817465649e06",
+        "libfile_7996e5acd168819194f8f154bf755eff",
+        "libfile_3f99bd457a5081918c1ad4a61efc2c23"
+      ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "35",
@@ -115,36 +147,48 @@
       "source_ids": [],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "not_received",
+      "unique_text_count": 0,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "36",
       "region": "Воронежская область",
       "received": true,
       "usable_overview_received": true,
-      "source_count": 4,
+      "source_count": 7,
       "source_ids": [
         "libfile_e40229b5f0d08191aa851e30e24f47e3",
         "libfile_d7719d7c92148191b015a183a1a8c343",
         "libfile_88b098ab597c8191a4ff7c6a3d074389",
-        "libfile_a35748b7006c81918bcdc95618743648"
+        "libfile_a35748b7006c81918bcdc95618743648",
+        "libfile_352b62a9bab881918163c8fa29f8d26a",
+        "libfile_3f7bbdbc10408191a71f2c269f97f249",
+        "libfile_90df7d5772788191be4b862930c51460"
       ],
       "review_status": "in_progress",
       "public_card_count": 1,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 2,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "80",
       "region": "Донецкая Народная Республика",
       "received": true,
       "usable_overview_received": true,
-      "source_count": 1,
+      "source_count": 4,
       "source_ids": [
-        "libfile_f61ba7c498808191861e953c76c9ce6a"
+        "libfile_f61ba7c498808191861e953c76c9ce6a",
+        "libfile_d07aca0dfc7c819182ae258ceb478034",
+        "libfile_5ba3c0abe618819198a1937cda4bfb41",
+        "libfile_0500a9348af4819181f8e63f1575e4dd"
       ],
       "review_status": "in_progress",
       "public_card_count": 7,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "79",
@@ -157,7 +201,9 @@
       ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "75",
@@ -170,33 +216,44 @@
       ],
       "review_status": "in_progress",
       "public_card_count": 5,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "85",
       "region": "Запорожская область",
       "received": true,
       "usable_overview_received": true,
-      "source_count": 1,
+      "source_count": 4,
       "source_ids": [
-        "libfile_5010a9344ab88191a84b4d7d0c520ec5"
+        "libfile_5010a9344ab88191a84b4d7d0c520ec5",
+        "libfile_c181111ad3c08191aca4cbbd505877f1",
+        "libfile_923ff6c4a4ac81919696f9fac7b171c4",
+        "libfile_0e162d4a81488191b3e228a944b5036a"
       ],
       "review_status": "in_progress",
       "public_card_count": 4,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "37",
       "region": "Ивановская область",
       "received": true,
       "usable_overview_received": true,
-      "source_count": 1,
+      "source_count": 3,
       "source_ids": [
-        "libfile_25ac051f24548191979b739405d4e918"
+        "libfile_25ac051f24548191979b739405d4e918",
+        "libfile_1ad1e9e50da481918db4e270eb619b39",
+        "libfile_327530c99970819187b9473a5c8f1f24"
       ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 2,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "38",
@@ -210,7 +267,9 @@
       ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 2,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "07",
@@ -221,18 +280,24 @@
       "source_ids": [],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "not_received",
+      "unique_text_count": 0,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "39",
       "region": "Калининградская область",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "source_ids": [
+        "libfile_bcc153fa5e9c81919f5aa2cff94dc7ab"
+      ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "40",
@@ -245,7 +310,9 @@
       ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "41",
@@ -258,7 +325,9 @@
       ],
       "review_status": "in_progress",
       "public_card_count": 2,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "09",
@@ -269,7 +338,9 @@
       "source_ids": [],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "not_received",
+      "unique_text_count": 0,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "42",
@@ -282,7 +353,9 @@
       ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "43",
@@ -293,7 +366,9 @@
       "source_ids": [],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "not_received",
+      "unique_text_count": 0,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "44",
@@ -304,21 +379,29 @@
       "source_ids": [],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "not_received",
+      "unique_text_count": 0,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "23",
       "region": "Краснодарский край",
       "received": true,
       "usable_overview_received": true,
-      "source_count": 2,
+      "source_count": 6,
       "source_ids": [
         "libfile_b108c01fe8348191a2dee1c4591dd86b",
-        "libfile_55746e66484c8191a77c3223baa1834a"
+        "libfile_55746e66484c8191a77c3223baa1834a",
+        "libfile_c80847880e48819187bb9a5f6e6c8e45",
+        "libfile_2fb341412fa881919a8e3a8ac18a1592",
+        "libfile_834ceda7498481918481c3536228a6a3",
+        "libfile_9842886303048191958b24fe58559b9a"
       ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 2,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "24",
@@ -333,7 +416,9 @@
       ],
       "review_status": "in_progress",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 2,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "45",
@@ -344,21 +429,28 @@
       "source_ids": [],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "not_received",
+      "unique_text_count": 0,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "46",
       "region": "Курская область",
       "received": true,
       "usable_overview_received": true,
-      "source_count": 2,
+      "source_count": 5,
       "source_ids": [
         "libfile_af8295c5645481919495612c3e369887",
-        "libfile_896a0eb03bc881918b649af9fedd899d"
+        "libfile_896a0eb03bc881918b649af9fedd899d",
+        "libfile_ceb0d2ef2a288191932c000fa6708114",
+        "libfile_52eb782fe33881918183abd11b0f10a9",
+        "libfile_6e2e975724c08191b4464f03e25eeb99"
       ],
       "review_status": "in_progress",
       "public_card_count": 2,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 2,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "47",
@@ -373,34 +465,46 @@
       ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "48",
       "region": "Липецкая область",
       "received": true,
       "usable_overview_received": true,
-      "source_count": 2,
+      "source_count": 5,
       "source_ids": [
         "libfile_56f9b237dec08191a47205dfe53b719e",
-        "libfile_2067aa19c3e88191b8bd5d2784c88ad4"
+        "libfile_2067aa19c3e88191b8bd5d2784c88ad4",
+        "libfile_9783d88725a88191a75536fb5d14fd81",
+        "libfile_8d793fd909d081919ef97310e7e4b235",
+        "libfile_baf90249f7f48191ae6ceaa6566d8c71"
       ],
       "review_status": "in_progress",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 2,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "81",
       "region": "Луганская Народная Республика",
       "received": true,
       "usable_overview_received": true,
-      "source_count": 1,
+      "source_count": 4,
       "source_ids": [
-        "libfile_0f874fe684648191ba6057edf2ec6474"
+        "libfile_0f874fe684648191ba6057edf2ec6474",
+        "libfile_f37c53bd15b48191b7e98a954df51da6",
+        "libfile_19dd9f36a6888191a6b184515a654586",
+        "libfile_bba1e52731148191958135a1477512d9"
       ],
       "review_status": "in_progress",
       "public_card_count": 2,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "49",
@@ -413,7 +517,9 @@
       ],
       "review_status": "in_progress",
       "public_card_count": 1,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "77",
@@ -427,7 +533,9 @@
       ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "50",
@@ -441,29 +549,42 @@
       ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "51",
       "region": "Мурманская область",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 2,
+      "source_ids": [
+        "libfile_aee22e3c157c81918a3d6f5c21024822",
+        "libfile_b0fbb6d1a484819185ffc2af9996e818"
+      ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "83",
       "region": "Ненецкий автономный округ",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 3,
+      "source_ids": [
+        "libfile_523ec770e9c881919a9bb07dada35c66",
+        "libfile_9ebf4c8b64a08191a4740c6bc663fe1a",
+        "libfile_522496af9c9481918701f72999c3e6fa"
+      ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "52",
@@ -477,18 +598,25 @@
       ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "53",
       "region": "Новгородская область",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 2,
+      "source_ids": [
+        "libfile_34097f817c9c819183cefc34a87459c3",
+        "libfile_0cbae81ec450819199c3d6489ed90a45"
+      ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "54",
@@ -501,7 +629,9 @@
       ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "55",
@@ -514,7 +644,9 @@
       ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "56",
@@ -525,7 +657,9 @@
       "source_ids": [],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "not_received",
+      "unique_text_count": 0,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "57",
@@ -538,7 +672,9 @@
       ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "58",
@@ -549,7 +685,9 @@
       "source_ids": [],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "not_received",
+      "unique_text_count": 0,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "59",
@@ -563,7 +701,9 @@
       ],
       "review_status": "in_progress",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "25",
@@ -576,29 +716,42 @@
       ],
       "review_status": "in_progress",
       "public_card_count": 4,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "60",
       "region": "Псковская область",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 1,
+      "source_ids": [
+        "libfile_9f94e519dc8c8191b916620670fc322f"
+      ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "01",
       "region": "Республика Адыгея",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 4,
+      "source_ids": [
+        "libfile_09de67a1118c819195c27eeea5e14d39",
+        "libfile_df1e25ec52f88191890cc14d6dd9d2f7",
+        "libfile_b3da5e3609988191819adb2f73dedeb8",
+        "libfile_699ed1fb29a48191a2aaa3bc6915f6e0"
+      ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "04",
@@ -611,7 +764,9 @@
       ],
       "review_status": "in_progress",
       "public_card_count": 3,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "02",
@@ -625,7 +780,9 @@
       ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "03",
@@ -638,7 +795,9 @@
       ],
       "review_status": "in_progress",
       "public_card_count": 3,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "05",
@@ -649,7 +808,9 @@
       "source_ids": [],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "not_received",
+      "unique_text_count": 0,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "06",
@@ -660,51 +821,77 @@
       "source_ids": [],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "not_received",
+      "unique_text_count": 0,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "08",
       "region": "Республика Калмыкия",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 4,
+      "source_ids": [
+        "libfile_5f5d5ca37018819182e92a5f4de31ae8",
+        "libfile_49dbfab531148191bd4bb7b692e2ed84",
+        "libfile_3c65a0daa208819194196c2ebaf55a24",
+        "libfile_d57ba4630cfc819180b9e59be5c98972"
+      ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "10",
       "region": "Республика Карелия",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 2,
+      "source_ids": [
+        "libfile_c4cac2cac82881919d3416dc47acb5c5",
+        "libfile_9bfad5fb06b481918597d3b5e269e21e"
+      ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "11",
       "region": "Республика Коми",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 2,
+      "source_ids": [
+        "libfile_092cffe7dba08191bc470c2219f8b8c4",
+        "libfile_15c6294a2fb48191bf5b3c7b8d10884c"
+      ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "91",
       "region": "Республика Крым",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 4,
+      "source_ids": [
+        "libfile_470329c53bd081918f7d7c0131214343",
+        "libfile_3728ac211c6c8191ad251907f35b6a54",
+        "libfile_83f1790b0f2081918eb93c97709bb3a1",
+        "libfile_9681a1679e9c81919e0186b1c4b592bf"
+      ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "12",
@@ -715,7 +902,9 @@
       "source_ids": [],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "not_received",
+      "unique_text_count": 0,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "13",
@@ -726,7 +915,9 @@
       "source_ids": [],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "not_received",
+      "unique_text_count": 0,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "14",
@@ -739,7 +930,9 @@
       ],
       "review_status": "in_progress",
       "public_card_count": 4,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "15",
@@ -750,7 +943,9 @@
       "source_ids": [],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "not_received",
+      "unique_text_count": 0,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "16",
@@ -764,7 +959,9 @@
       ],
       "review_status": "in_progress",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "17",
@@ -777,7 +974,9 @@
       ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "19",
@@ -790,21 +989,29 @@
       ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "61",
       "region": "Ростовская область",
       "received": true,
-      "usable_overview_received": false,
-      "source_count": 2,
+      "usable_overview_received": true,
+      "source_count": 6,
       "source_ids": [
         "libfile_e67c82d0edbc81919d180224ae37bad8",
-        "libfile_53a678c9a6508191b2173dfdbe7bb6da"
+        "libfile_53a678c9a6508191b2173dfdbe7bb6da",
+        "libfile_0f709b85c5c08191b060c4e77cb231a3",
+        "libfile_d092c6f289cc8191be1facf1c08c70a5",
+        "libfile_4ad14a9d83bc819189918ad17da588c7",
+        "libfile_b6859eb2a6c08191ba841a0493d5a744"
       ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "received_title_only"
+      "status": "received_review_incomplete",
+      "unique_text_count": 2,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "62",
@@ -817,7 +1024,9 @@
       ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "63",
@@ -830,29 +1039,43 @@
       ],
       "review_status": "awaiting_sources",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "78",
       "region": "Санкт-Петербург",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 2,
+      "source_ids": [
+        "libfile_8768eb61853481918dcfb480497d919b",
+        "libfile_0c2d8d36b2888191822f822a959d4cc9"
+      ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "64",
       "region": "Саратовская область",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 4,
+      "source_ids": [
+        "libfile_1a5b32e4b9cc8191b539e35f4e7eeb6e",
+        "libfile_f4fced25fcb481919bb65f1964fce4e0",
+        "libfile_84df7d38a8088191accec88310b23f71",
+        "libfile_6348e82c62b4819185bdfc9307a2ca5a"
+      ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "65",
@@ -865,7 +1088,9 @@
       ],
       "review_status": "in_progress",
       "public_card_count": 3,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "66",
@@ -879,18 +1104,27 @@
       ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "92",
       "region": "Севастополь",
-      "received": false,
-      "usable_overview_received": false,
-      "source_count": 0,
-      "source_ids": [],
+      "received": true,
+      "usable_overview_received": true,
+      "source_count": 4,
+      "source_ids": [
+        "libfile_03624b5ba23c8191b8683fefbb56c49a",
+        "libfile_3a1ea11b963c8191a29f5d134d5b3165",
+        "libfile_06717d063fa881918701382c32e67aca",
+        "libfile_17d51ee09e408191aae0729d43719c4b"
+      ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "67",
@@ -903,7 +1137,9 @@
       ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "26",
@@ -914,7 +1150,9 @@
       "source_ids": [],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "not_received",
+      "unique_text_count": 0,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "68",
@@ -927,7 +1165,9 @@
       ],
       "review_status": "in_progress",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "69",
@@ -940,7 +1180,9 @@
       ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "70",
@@ -953,7 +1195,9 @@
       ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "71",
@@ -966,7 +1210,9 @@
       ],
       "review_status": "in_progress",
       "public_card_count": 1,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "72",
@@ -980,7 +1226,9 @@
       ],
       "review_status": "in_progress",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "18",
@@ -991,7 +1239,9 @@
       "source_ids": [],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "not_received",
+      "unique_text_count": 0,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "73",
@@ -1002,7 +1252,9 @@
       "source_ids": [],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "not_received",
+      "unique_text_count": 0,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "27",
@@ -1015,33 +1267,45 @@
       ],
       "review_status": "in_progress",
       "public_card_count": 3,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "86",
       "region": "Ханты-Мансийский автономный округ — Югра",
       "received": true,
       "usable_overview_received": true,
-      "source_count": 1,
+      "source_count": 4,
       "source_ids": [
-        "libfile_aad432ab0f448191ab219fbe9b31cf63"
+        "libfile_aad432ab0f448191ab219fbe9b31cf63",
+        "libfile_47171096fc14819193abd4f9009227b2",
+        "libfile_1a96abd4b6c88191bf89d6d77ab041e8",
+        "libfile_73327fad8cb48191915ffe2a51118f4b"
       ],
       "review_status": "in_progress",
       "public_card_count": 1,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "84",
       "region": "Херсонская область",
       "received": true,
       "usable_overview_received": true,
-      "source_count": 1,
+      "source_count": 4,
       "source_ids": [
-        "libfile_62dcf84fdc548191be6c66dfa3f3e71e"
+        "libfile_62dcf84fdc548191be6c66dfa3f3e71e",
+        "libfile_c0614e886c4c8191bd0cfb9d9834651e",
+        "libfile_aded47ef22c08191b1f9b596de6476c2",
+        "libfile_91d22bc592c8819196b55a7728c27fcd"
       ],
       "review_status": "in_progress",
       "public_card_count": 6,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "74",
@@ -1056,7 +1320,9 @@
       ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 2,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "20",
@@ -1067,7 +1333,9 @@
       "source_ids": [],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "not_received",
+      "unique_text_count": 0,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "21",
@@ -1078,7 +1346,9 @@
       "source_ids": [],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "not_received"
+      "status": "not_received",
+      "unique_text_count": 0,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "87",
@@ -1091,20 +1361,27 @@
       ],
       "review_status": "in_progress",
       "public_card_count": 2,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "89",
       "region": "Ямало-Ненецкий автономный округ",
       "received": true,
       "usable_overview_received": true,
-      "source_count": 1,
+      "source_count": 4,
       "source_ids": [
-        "libfile_da37cac29210819195cff7a22f3e25e2"
+        "libfile_da37cac29210819195cff7a22f3e25e2",
+        "libfile_e4902dfa90708191ab5ded684d23b6c0",
+        "libfile_b4ac6075dba0819195a9c37a6e5c42dc",
+        "libfile_ec9a77ba7b70819195f8bbe256537bd4"
       ],
       "review_status": "in_progress",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     },
     {
       "region_id": "76",
@@ -1117,7 +1394,9 @@
       ],
       "review_status": "queued",
       "public_card_count": 0,
-      "status": "received_review_incomplete"
+      "status": "received_review_incomplete",
+      "unique_text_count": 1,
+      "last_inventory": "2026-10-19"
     }
   ],
   "sources": [
@@ -1988,6 +2267,1469 @@
         "libfile_02eb0a48cfbc81918680fab7f35bf1b3"
       ],
       "duplicate_text_of": null
+    },
+    {
+      "id": "libfile_09de67a1118c819195c27eeea5e14d39",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_adygeya(1).docx",
+      "region_ids": [
+        "01"
+      ],
+      "received_at": "2026-10-18T16:03:21.108947Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/6bb7df57e0dab183c38cf3deffb01882d9d4c4437aa3c8923fd1743ca5790574.txt",
+      "text_sha256": "6bb7df57e0dab183c38cf3deffb01882d9d4c4437aa3c8923fd1743ca5790574",
+      "original_docx_sha256": "4f9d33ca3488d1de0d6cced717fe3b2d80d43df81e34697b1ccf4a7318ab7e1d",
+      "extracted_text_sha256": "6bb7df57e0dab183c38cf3deffb01882d9d4c4437aa3c8923fd1743ca5790574",
+      "normalized_text_sha256": "d00c91ef98510ac18aa3f7f419a78e541cc11ce98f05b52346672f40e16c4f50",
+      "duplicate_text_of": null,
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_df1e25ec52f88191890cc14d6dd9d2f7",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_adygeya(2).docx",
+      "region_ids": [
+        "01"
+      ],
+      "received_at": "2026-10-19T02:07:20.318656Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/6bb7df57e0dab183c38cf3deffb01882d9d4c4437aa3c8923fd1743ca5790574.txt",
+      "text_sha256": "6bb7df57e0dab183c38cf3deffb01882d9d4c4437aa3c8923fd1743ca5790574",
+      "original_docx_sha256": "4f9d33ca3488d1de0d6cced717fe3b2d80d43df81e34697b1ccf4a7318ab7e1d",
+      "extracted_text_sha256": "6bb7df57e0dab183c38cf3deffb01882d9d4c4437aa3c8923fd1743ca5790574",
+      "normalized_text_sha256": "d00c91ef98510ac18aa3f7f419a78e541cc11ce98f05b52346672f40e16c4f50",
+      "duplicate_text_of": "libfile_09de67a1118c819195c27eeea5e14d39",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_b3da5e3609988191819adb2f73dedeb8",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_adygeya(3).docx",
+      "region_ids": [
+        "01"
+      ],
+      "received_at": "2026-10-19T02:19:33.366819Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/6bb7df57e0dab183c38cf3deffb01882d9d4c4437aa3c8923fd1743ca5790574.txt",
+      "text_sha256": "6bb7df57e0dab183c38cf3deffb01882d9d4c4437aa3c8923fd1743ca5790574",
+      "original_docx_sha256": "4f9d33ca3488d1de0d6cced717fe3b2d80d43df81e34697b1ccf4a7318ab7e1d",
+      "extracted_text_sha256": "6bb7df57e0dab183c38cf3deffb01882d9d4c4437aa3c8923fd1743ca5790574",
+      "normalized_text_sha256": "d00c91ef98510ac18aa3f7f419a78e541cc11ce98f05b52346672f40e16c4f50",
+      "duplicate_text_of": "libfile_09de67a1118c819195c27eeea5e14d39",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_699ed1fb29a48191a2aaa3bc6915f6e0",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_adygeya.docx",
+      "region_ids": [
+        "01"
+      ],
+      "received_at": "2026-10-14T10:13:03.078789Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/6bb7df57e0dab183c38cf3deffb01882d9d4c4437aa3c8923fd1743ca5790574.txt",
+      "text_sha256": "6bb7df57e0dab183c38cf3deffb01882d9d4c4437aa3c8923fd1743ca5790574",
+      "original_docx_sha256": "4f9d33ca3488d1de0d6cced717fe3b2d80d43df81e34697b1ccf4a7318ab7e1d",
+      "extracted_text_sha256": "6bb7df57e0dab183c38cf3deffb01882d9d4c4437aa3c8923fd1743ca5790574",
+      "normalized_text_sha256": "d00c91ef98510ac18aa3f7f419a78e541cc11ce98f05b52346672f40e16c4f50",
+      "duplicate_text_of": "libfile_09de67a1118c819195c27eeea5e14d39",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_06aab8f50a008191b31b32d2b3b66594",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_astrahanskaya_oblast_v2(1).docx",
+      "region_ids": [
+        "30"
+      ],
+      "received_at": "2026-10-19T02:07:15.360559Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/28bd76bb6e800f08c308b5eac2fcf40c19fd8be5c41355a7c7e09f19a9948708.txt",
+      "text_sha256": "28bd76bb6e800f08c308b5eac2fcf40c19fd8be5c41355a7c7e09f19a9948708",
+      "original_docx_sha256": "7edc6e0650286c4f9ebf57d1a32c3b6d2570a1cd63d2a0dacfb83928f18036b9",
+      "extracted_text_sha256": "28bd76bb6e800f08c308b5eac2fcf40c19fd8be5c41355a7c7e09f19a9948708",
+      "normalized_text_sha256": "ac6956647912881288c0dc810e6fa01838c1022c5b8343d46572b7ffbb94748d",
+      "duplicate_text_of": null,
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_8792cc1a5a6c8191ab1a2aa0d32ea830",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_astrahanskaya_oblast_v2(2).docx",
+      "region_ids": [
+        "30"
+      ],
+      "received_at": "2026-10-19T02:19:29.911555Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/28bd76bb6e800f08c308b5eac2fcf40c19fd8be5c41355a7c7e09f19a9948708.txt",
+      "text_sha256": "28bd76bb6e800f08c308b5eac2fcf40c19fd8be5c41355a7c7e09f19a9948708",
+      "original_docx_sha256": "7edc6e0650286c4f9ebf57d1a32c3b6d2570a1cd63d2a0dacfb83928f18036b9",
+      "extracted_text_sha256": "28bd76bb6e800f08c308b5eac2fcf40c19fd8be5c41355a7c7e09f19a9948708",
+      "normalized_text_sha256": "ac6956647912881288c0dc810e6fa01838c1022c5b8343d46572b7ffbb94748d",
+      "duplicate_text_of": "libfile_06aab8f50a008191b31b32d2b3b66594",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_c37670b1c33081918b8da2903bfa0176",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_astrahanskaya_oblast_v2.docx",
+      "region_ids": [
+        "30"
+      ],
+      "received_at": "2026-10-18T16:03:17.739676Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/28bd76bb6e800f08c308b5eac2fcf40c19fd8be5c41355a7c7e09f19a9948708.txt",
+      "text_sha256": "28bd76bb6e800f08c308b5eac2fcf40c19fd8be5c41355a7c7e09f19a9948708",
+      "original_docx_sha256": "7edc6e0650286c4f9ebf57d1a32c3b6d2570a1cd63d2a0dacfb83928f18036b9",
+      "extracted_text_sha256": "28bd76bb6e800f08c308b5eac2fcf40c19fd8be5c41355a7c7e09f19a9948708",
+      "normalized_text_sha256": "ac6956647912881288c0dc810e6fa01838c1022c5b8343d46572b7ffbb94748d",
+      "duplicate_text_of": "libfile_06aab8f50a008191b31b32d2b3b66594",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_351b7b4525708191b568bdef2f24848a",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_astrahanskaya_oblast_v3(1).docx",
+      "region_ids": [
+        "30"
+      ],
+      "received_at": "2026-10-18T16:03:17.849043Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/1e45d5b8d9049a0ab4e1bd7a07bf8687b0d240c1914fdf5622856269896be747.txt",
+      "text_sha256": "1e45d5b8d9049a0ab4e1bd7a07bf8687b0d240c1914fdf5622856269896be747",
+      "original_docx_sha256": "2564b66af02e525b8229105d184343c74bfb729343af1e1e2d92ce6ff8aa3fe6",
+      "extracted_text_sha256": "1e45d5b8d9049a0ab4e1bd7a07bf8687b0d240c1914fdf5622856269896be747",
+      "normalized_text_sha256": "80e601e85089ab08e9caa98644ec3d9659f3116ae17b542376ec6e6903c02926",
+      "duplicate_text_of": null,
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_3040e19099a081919a6745b63abce93c",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_astrahanskaya_oblast_v3(2).docx",
+      "region_ids": [
+        "30"
+      ],
+      "received_at": "2026-10-19T02:07:14.812921Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/1e45d5b8d9049a0ab4e1bd7a07bf8687b0d240c1914fdf5622856269896be747.txt",
+      "text_sha256": "1e45d5b8d9049a0ab4e1bd7a07bf8687b0d240c1914fdf5622856269896be747",
+      "original_docx_sha256": "2564b66af02e525b8229105d184343c74bfb729343af1e1e2d92ce6ff8aa3fe6",
+      "extracted_text_sha256": "1e45d5b8d9049a0ab4e1bd7a07bf8687b0d240c1914fdf5622856269896be747",
+      "normalized_text_sha256": "80e601e85089ab08e9caa98644ec3d9659f3116ae17b542376ec6e6903c02926",
+      "duplicate_text_of": "libfile_351b7b4525708191b568bdef2f24848a",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_c0358e8d14b88191863143e0a71b2474",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_astrahanskaya_oblast_v3(3).docx",
+      "region_ids": [
+        "30"
+      ],
+      "received_at": "2026-10-19T02:19:29.301682Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/1e45d5b8d9049a0ab4e1bd7a07bf8687b0d240c1914fdf5622856269896be747.txt",
+      "text_sha256": "1e45d5b8d9049a0ab4e1bd7a07bf8687b0d240c1914fdf5622856269896be747",
+      "original_docx_sha256": "2564b66af02e525b8229105d184343c74bfb729343af1e1e2d92ce6ff8aa3fe6",
+      "extracted_text_sha256": "1e45d5b8d9049a0ab4e1bd7a07bf8687b0d240c1914fdf5622856269896be747",
+      "normalized_text_sha256": "80e601e85089ab08e9caa98644ec3d9659f3116ae17b542376ec6e6903c02926",
+      "duplicate_text_of": "libfile_351b7b4525708191b568bdef2f24848a",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_7995a4be40e88191a8bf9eee55f641b3",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_astrahanskaya_oblast_v3.docx",
+      "region_ids": [
+        "30"
+      ],
+      "received_at": "2026-10-14T10:13:04.138457Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/1e45d5b8d9049a0ab4e1bd7a07bf8687b0d240c1914fdf5622856269896be747.txt",
+      "text_sha256": "1e45d5b8d9049a0ab4e1bd7a07bf8687b0d240c1914fdf5622856269896be747",
+      "original_docx_sha256": "2564b66af02e525b8229105d184343c74bfb729343af1e1e2d92ce6ff8aa3fe6",
+      "extracted_text_sha256": "1e45d5b8d9049a0ab4e1bd7a07bf8687b0d240c1914fdf5622856269896be747",
+      "normalized_text_sha256": "80e601e85089ab08e9caa98644ec3d9659f3116ae17b542376ec6e6903c02926",
+      "duplicate_text_of": "libfile_351b7b4525708191b568bdef2f24848a",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_4c3aa5b9c25881919d87d72d956fec20",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_belgorodskaya_oblast (1)(1).docx",
+      "region_ids": [
+        "31"
+      ],
+      "received_at": "2026-10-18T16:03:08.347732Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/36f44418d8e992550ff1048d20c5ce92f70a24af614e5f8f4961e8eba4707e95.txt",
+      "text_sha256": "36f44418d8e992550ff1048d20c5ce92f70a24af614e5f8f4961e8eba4707e95",
+      "original_docx_sha256": "4742db94103f3a71116bde7dd36d33f61a24e0f7741ed7c05dac7f175caf5203",
+      "extracted_text_sha256": "36f44418d8e992550ff1048d20c5ce92f70a24af614e5f8f4961e8eba4707e95",
+      "normalized_text_sha256": "6621ff18c7c24549a38005c38bfa516520c0484669aaa91888c8300dd66cab21",
+      "duplicate_text_of": "libfile_f35e37b00b2c8191bd87c4201fac4fef",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_93af9dda81e081919c4865246ccbdaae",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_belgorodskaya_oblast (1)(2).docx",
+      "region_ids": [
+        "31"
+      ],
+      "received_at": "2026-10-19T02:07:05.036162Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/36f44418d8e992550ff1048d20c5ce92f70a24af614e5f8f4961e8eba4707e95.txt",
+      "text_sha256": "36f44418d8e992550ff1048d20c5ce92f70a24af614e5f8f4961e8eba4707e95",
+      "original_docx_sha256": "4742db94103f3a71116bde7dd36d33f61a24e0f7741ed7c05dac7f175caf5203",
+      "extracted_text_sha256": "36f44418d8e992550ff1048d20c5ce92f70a24af614e5f8f4961e8eba4707e95",
+      "normalized_text_sha256": "6621ff18c7c24549a38005c38bfa516520c0484669aaa91888c8300dd66cab21",
+      "duplicate_text_of": "libfile_f35e37b00b2c8191bd87c4201fac4fef",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_073c28a89f3c819184b3b9529ea657c3",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_belgorodskaya_oblast (1).docx",
+      "region_ids": [
+        "31"
+      ],
+      "received_at": "2026-10-14T10:13:02.880931Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/36f44418d8e992550ff1048d20c5ce92f70a24af614e5f8f4961e8eba4707e95.txt",
+      "text_sha256": "36f44418d8e992550ff1048d20c5ce92f70a24af614e5f8f4961e8eba4707e95",
+      "original_docx_sha256": "4742db94103f3a71116bde7dd36d33f61a24e0f7741ed7c05dac7f175caf5203",
+      "extracted_text_sha256": "36f44418d8e992550ff1048d20c5ce92f70a24af614e5f8f4961e8eba4707e95",
+      "normalized_text_sha256": "6621ff18c7c24549a38005c38bfa516520c0484669aaa91888c8300dd66cab21",
+      "duplicate_text_of": "libfile_f35e37b00b2c8191bd87c4201fac4fef",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_d07aca0dfc7c819182ae258ceb478034",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_dnr(1).docx",
+      "region_ids": [
+        "80"
+      ],
+      "received_at": "2026-10-18T16:03:01.768240Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/8d99029aa2f63298418143c6ae22cce9acf256ec04182c5e66407b57256bd7e7.txt",
+      "text_sha256": "8d99029aa2f63298418143c6ae22cce9acf256ec04182c5e66407b57256bd7e7",
+      "original_docx_sha256": "7d7fad2abc55cb858d3cbd5ec7d822eb6ae0805d6f7c80a164c0db9d03e5b9ef",
+      "extracted_text_sha256": "8d99029aa2f63298418143c6ae22cce9acf256ec04182c5e66407b57256bd7e7",
+      "normalized_text_sha256": "7341b080210d118221c4d3e55987246160aa6f5fcb6ad0853d214966126672a6",
+      "duplicate_text_of": "libfile_f61ba7c498808191861e953c76c9ce6a",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_5ba3c0abe618819198a1937cda4bfb41",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_dnr(2).docx",
+      "region_ids": [
+        "80"
+      ],
+      "received_at": "2026-10-19T02:06:59.015013Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/8d99029aa2f63298418143c6ae22cce9acf256ec04182c5e66407b57256bd7e7.txt",
+      "text_sha256": "8d99029aa2f63298418143c6ae22cce9acf256ec04182c5e66407b57256bd7e7",
+      "original_docx_sha256": "7d7fad2abc55cb858d3cbd5ec7d822eb6ae0805d6f7c80a164c0db9d03e5b9ef",
+      "extracted_text_sha256": "8d99029aa2f63298418143c6ae22cce9acf256ec04182c5e66407b57256bd7e7",
+      "normalized_text_sha256": "7341b080210d118221c4d3e55987246160aa6f5fcb6ad0853d214966126672a6",
+      "duplicate_text_of": "libfile_f61ba7c498808191861e953c76c9ce6a",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_0500a9348af4819181f8e63f1575e4dd",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_dnr.docx",
+      "region_ids": [
+        "80"
+      ],
+      "received_at": "2026-10-14T10:13:02.160301Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/8d99029aa2f63298418143c6ae22cce9acf256ec04182c5e66407b57256bd7e7.txt",
+      "text_sha256": "8d99029aa2f63298418143c6ae22cce9acf256ec04182c5e66407b57256bd7e7",
+      "original_docx_sha256": "7d7fad2abc55cb858d3cbd5ec7d822eb6ae0805d6f7c80a164c0db9d03e5b9ef",
+      "extracted_text_sha256": "8d99029aa2f63298418143c6ae22cce9acf256ec04182c5e66407b57256bd7e7",
+      "normalized_text_sha256": "7341b080210d118221c4d3e55987246160aa6f5fcb6ad0853d214966126672a6",
+      "duplicate_text_of": "libfile_f61ba7c498808191861e953c76c9ce6a",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_1ad1e9e50da481918db4e270eb619b39",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_ivanovskaya_oblast (1)(1).docx",
+      "region_ids": [
+        "37"
+      ],
+      "received_at": "2026-10-19T02:19:39.353439Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/4d05ce08168ac30358a02e40cc7c9f26cfe1f7fd0378cab45f8c802cafb75346.txt",
+      "text_sha256": "4d05ce08168ac30358a02e40cc7c9f26cfe1f7fd0378cab45f8c802cafb75346",
+      "original_docx_sha256": "8627ddb2a3d5ecb2c8a4ed758ba78b19a2db3dd189333e50aeaaa906abb4f50d",
+      "extracted_text_sha256": "4d05ce08168ac30358a02e40cc7c9f26cfe1f7fd0378cab45f8c802cafb75346",
+      "normalized_text_sha256": "38deb999043f6305995e46fa675d86ac96938978e61ed5a0d102f3ede331df0e",
+      "duplicate_text_of": null,
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_327530c99970819187b9473a5c8f1f24",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_ivanovskaya_oblast (1).docx",
+      "region_ids": [
+        "37"
+      ],
+      "received_at": "2026-10-18T16:07:56.446922Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/4d05ce08168ac30358a02e40cc7c9f26cfe1f7fd0378cab45f8c802cafb75346.txt",
+      "text_sha256": "4d05ce08168ac30358a02e40cc7c9f26cfe1f7fd0378cab45f8c802cafb75346",
+      "original_docx_sha256": "8627ddb2a3d5ecb2c8a4ed758ba78b19a2db3dd189333e50aeaaa906abb4f50d",
+      "extracted_text_sha256": "4d05ce08168ac30358a02e40cc7c9f26cfe1f7fd0378cab45f8c802cafb75346",
+      "normalized_text_sha256": "38deb999043f6305995e46fa675d86ac96938978e61ed5a0d102f3ede331df0e",
+      "duplicate_text_of": "libfile_1ad1e9e50da481918db4e270eb619b39",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_bcc153fa5e9c81919f5aa2cff94dc7ab",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_kaliningradskaya_oblast.docx",
+      "region_ids": [
+        "39"
+      ],
+      "received_at": "2026-10-18T16:08:02.490802Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/11c13bbbb79f0f236735ef2be5fb4f8f279b9617d4ee36ce16207dee47e67605.txt",
+      "text_sha256": "11c13bbbb79f0f236735ef2be5fb4f8f279b9617d4ee36ce16207dee47e67605",
+      "original_docx_sha256": "28f73d7a6f09e7a79cd44aa8bb75ae85a4bb49ff6a6d6299f4e1fce3166b136b",
+      "extracted_text_sha256": "11c13bbbb79f0f236735ef2be5fb4f8f279b9617d4ee36ce16207dee47e67605",
+      "normalized_text_sha256": "dc7db958d926022c4e232944d66d36a2f07083655f90b9ad6abd2821cb4053fb",
+      "duplicate_text_of": null,
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_5f5d5ca37018819182e92a5f4de31ae8",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_kalmykiya(1).docx",
+      "region_ids": [
+        "08"
+      ],
+      "received_at": "2026-10-18T16:03:18.244398Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/970e8f11467862fde3c5a270194c0db26c787b5825ee12316131e47d2fa80f11.txt",
+      "text_sha256": "970e8f11467862fde3c5a270194c0db26c787b5825ee12316131e47d2fa80f11",
+      "original_docx_sha256": "cc73a4d4f054a0211da33409e89a3b10d32e169a2ef2d74b97bb9eb0c7369e94",
+      "extracted_text_sha256": "970e8f11467862fde3c5a270194c0db26c787b5825ee12316131e47d2fa80f11",
+      "normalized_text_sha256": "7786814b6eb720d41b219c85314b2987ff53f18d7c220c40fffdd24b077abf36",
+      "duplicate_text_of": null,
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_49dbfab531148191bd4bb7b692e2ed84",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_kalmykiya(2).docx",
+      "region_ids": [
+        "08"
+      ],
+      "received_at": "2026-10-19T02:07:17.094979Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/970e8f11467862fde3c5a270194c0db26c787b5825ee12316131e47d2fa80f11.txt",
+      "text_sha256": "970e8f11467862fde3c5a270194c0db26c787b5825ee12316131e47d2fa80f11",
+      "original_docx_sha256": "cc73a4d4f054a0211da33409e89a3b10d32e169a2ef2d74b97bb9eb0c7369e94",
+      "extracted_text_sha256": "970e8f11467862fde3c5a270194c0db26c787b5825ee12316131e47d2fa80f11",
+      "normalized_text_sha256": "7786814b6eb720d41b219c85314b2987ff53f18d7c220c40fffdd24b077abf36",
+      "duplicate_text_of": "libfile_5f5d5ca37018819182e92a5f4de31ae8",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_3c65a0daa208819194196c2ebaf55a24",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_kalmykiya(3).docx",
+      "region_ids": [
+        "08"
+      ],
+      "received_at": "2026-10-19T02:19:32.674761Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/970e8f11467862fde3c5a270194c0db26c787b5825ee12316131e47d2fa80f11.txt",
+      "text_sha256": "970e8f11467862fde3c5a270194c0db26c787b5825ee12316131e47d2fa80f11",
+      "original_docx_sha256": "cc73a4d4f054a0211da33409e89a3b10d32e169a2ef2d74b97bb9eb0c7369e94",
+      "extracted_text_sha256": "970e8f11467862fde3c5a270194c0db26c787b5825ee12316131e47d2fa80f11",
+      "normalized_text_sha256": "7786814b6eb720d41b219c85314b2987ff53f18d7c220c40fffdd24b077abf36",
+      "duplicate_text_of": "libfile_5f5d5ca37018819182e92a5f4de31ae8",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_d57ba4630cfc819180b9e59be5c98972",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_kalmykiya.docx",
+      "region_ids": [
+        "08"
+      ],
+      "received_at": "2026-10-14T10:13:02.270806Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/970e8f11467862fde3c5a270194c0db26c787b5825ee12316131e47d2fa80f11.txt",
+      "text_sha256": "970e8f11467862fde3c5a270194c0db26c787b5825ee12316131e47d2fa80f11",
+      "original_docx_sha256": "cc73a4d4f054a0211da33409e89a3b10d32e169a2ef2d74b97bb9eb0c7369e94",
+      "extracted_text_sha256": "970e8f11467862fde3c5a270194c0db26c787b5825ee12316131e47d2fa80f11",
+      "normalized_text_sha256": "7786814b6eb720d41b219c85314b2987ff53f18d7c220c40fffdd24b077abf36",
+      "duplicate_text_of": "libfile_5f5d5ca37018819182e92a5f4de31ae8",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_c4cac2cac82881919d3416dc47acb5c5",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_kareliya(1).docx",
+      "region_ids": [
+        "10"
+      ],
+      "received_at": "2026-10-19T02:19:34.841036Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/47a7d66e66036ac0a826d2d724a4acbfeb8e61c773a8de62162f849efe0d703d.txt",
+      "text_sha256": "47a7d66e66036ac0a826d2d724a4acbfeb8e61c773a8de62162f849efe0d703d",
+      "original_docx_sha256": "45053bfdb82f98a0263ce176ffc528198746452bff0970899940e2558472d657",
+      "extracted_text_sha256": "47a7d66e66036ac0a826d2d724a4acbfeb8e61c773a8de62162f849efe0d703d",
+      "normalized_text_sha256": "f360126295b7636055f0261f64596f4b2ce704f82e78912a40b58df0c03d7eb8",
+      "duplicate_text_of": null,
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_9bfad5fb06b481918597d3b5e269e21e",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_kareliya.docx",
+      "region_ids": [
+        "10"
+      ],
+      "received_at": "2026-10-18T16:07:56.244377Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/47a7d66e66036ac0a826d2d724a4acbfeb8e61c773a8de62162f849efe0d703d.txt",
+      "text_sha256": "47a7d66e66036ac0a826d2d724a4acbfeb8e61c773a8de62162f849efe0d703d",
+      "original_docx_sha256": "45053bfdb82f98a0263ce176ffc528198746452bff0970899940e2558472d657",
+      "extracted_text_sha256": "47a7d66e66036ac0a826d2d724a4acbfeb8e61c773a8de62162f849efe0d703d",
+      "normalized_text_sha256": "f360126295b7636055f0261f64596f4b2ce704f82e78912a40b58df0c03d7eb8",
+      "duplicate_text_of": "libfile_c4cac2cac82881919d3416dc47acb5c5",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_c0614e886c4c8191bd0cfb9d9834651e",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_khersonskaya_oblast(1).docx",
+      "region_ids": [
+        "84"
+      ],
+      "received_at": "2026-10-18T16:03:05.751468Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/bfa2ec50dfd3abb8d84ecd03297cb34ff5761e6a287596e86accc9ce98f78c6f.txt",
+      "text_sha256": "bfa2ec50dfd3abb8d84ecd03297cb34ff5761e6a287596e86accc9ce98f78c6f",
+      "original_docx_sha256": "fdd9258204319d978a46fd3ad5c88c0494c23e896d9934cdf18454a5c38df2e4",
+      "extracted_text_sha256": "bfa2ec50dfd3abb8d84ecd03297cb34ff5761e6a287596e86accc9ce98f78c6f",
+      "normalized_text_sha256": "3b77b65b9ef29364ed23e0fbee44182ce9afebf15c2de85d075aeaab4e6b4acf",
+      "duplicate_text_of": "libfile_62dcf84fdc548191be6c66dfa3f3e71e",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_aded47ef22c08191b1f9b596de6476c2",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_khersonskaya_oblast(2).docx",
+      "region_ids": [
+        "84"
+      ],
+      "received_at": "2026-10-19T02:07:04.343779Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/bfa2ec50dfd3abb8d84ecd03297cb34ff5761e6a287596e86accc9ce98f78c6f.txt",
+      "text_sha256": "bfa2ec50dfd3abb8d84ecd03297cb34ff5761e6a287596e86accc9ce98f78c6f",
+      "original_docx_sha256": "fdd9258204319d978a46fd3ad5c88c0494c23e896d9934cdf18454a5c38df2e4",
+      "extracted_text_sha256": "bfa2ec50dfd3abb8d84ecd03297cb34ff5761e6a287596e86accc9ce98f78c6f",
+      "normalized_text_sha256": "3b77b65b9ef29364ed23e0fbee44182ce9afebf15c2de85d075aeaab4e6b4acf",
+      "duplicate_text_of": "libfile_62dcf84fdc548191be6c66dfa3f3e71e",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_91d22bc592c8819196b55a7728c27fcd",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_khersonskaya_oblast.docx",
+      "region_ids": [
+        "84"
+      ],
+      "received_at": "2026-10-14T10:13:03.302826Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/bfa2ec50dfd3abb8d84ecd03297cb34ff5761e6a287596e86accc9ce98f78c6f.txt",
+      "text_sha256": "bfa2ec50dfd3abb8d84ecd03297cb34ff5761e6a287596e86accc9ce98f78c6f",
+      "original_docx_sha256": "fdd9258204319d978a46fd3ad5c88c0494c23e896d9934cdf18454a5c38df2e4",
+      "extracted_text_sha256": "bfa2ec50dfd3abb8d84ecd03297cb34ff5761e6a287596e86accc9ce98f78c6f",
+      "normalized_text_sha256": "3b77b65b9ef29364ed23e0fbee44182ce9afebf15c2de85d075aeaab4e6b4acf",
+      "duplicate_text_of": "libfile_62dcf84fdc548191be6c66dfa3f3e71e",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_47171096fc14819193abd4f9009227b2",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_khmao_yugra(1).docx",
+      "region_ids": [
+        "86"
+      ],
+      "received_at": "2026-10-18T16:03:00.454873Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/dc2c16616ed3e2979725a049e6af2991f7d2a5d4f57654f43afe41dba6147bec.txt",
+      "text_sha256": "dc2c16616ed3e2979725a049e6af2991f7d2a5d4f57654f43afe41dba6147bec",
+      "original_docx_sha256": "c2f213d998532b70ba7c4498388387c54460ead97b8069053a0444ce71c03a84",
+      "extracted_text_sha256": "dc2c16616ed3e2979725a049e6af2991f7d2a5d4f57654f43afe41dba6147bec",
+      "normalized_text_sha256": "0a2ddcfd006b50177e0ee5323446324e0b021358c39e6aca2bd606c7c6abf6e3",
+      "duplicate_text_of": "libfile_aad432ab0f448191ab219fbe9b31cf63",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_1a96abd4b6c88191bf89d6d77ab041e8",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_khmao_yugra(2).docx",
+      "region_ids": [
+        "86"
+      ],
+      "received_at": "2026-10-19T02:06:59.048783Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/dc2c16616ed3e2979725a049e6af2991f7d2a5d4f57654f43afe41dba6147bec.txt",
+      "text_sha256": "dc2c16616ed3e2979725a049e6af2991f7d2a5d4f57654f43afe41dba6147bec",
+      "original_docx_sha256": "c2f213d998532b70ba7c4498388387c54460ead97b8069053a0444ce71c03a84",
+      "extracted_text_sha256": "dc2c16616ed3e2979725a049e6af2991f7d2a5d4f57654f43afe41dba6147bec",
+      "normalized_text_sha256": "0a2ddcfd006b50177e0ee5323446324e0b021358c39e6aca2bd606c7c6abf6e3",
+      "duplicate_text_of": "libfile_aad432ab0f448191ab219fbe9b31cf63",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_73327fad8cb48191915ffe2a51118f4b",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_khmao_yugra.docx",
+      "region_ids": [
+        "86"
+      ],
+      "received_at": "2026-10-14T10:13:00.035132Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/dc2c16616ed3e2979725a049e6af2991f7d2a5d4f57654f43afe41dba6147bec.txt",
+      "text_sha256": "dc2c16616ed3e2979725a049e6af2991f7d2a5d4f57654f43afe41dba6147bec",
+      "original_docx_sha256": "c2f213d998532b70ba7c4498388387c54460ead97b8069053a0444ce71c03a84",
+      "extracted_text_sha256": "dc2c16616ed3e2979725a049e6af2991f7d2a5d4f57654f43afe41dba6147bec",
+      "normalized_text_sha256": "0a2ddcfd006b50177e0ee5323446324e0b021358c39e6aca2bd606c7c6abf6e3",
+      "duplicate_text_of": "libfile_aad432ab0f448191ab219fbe9b31cf63",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_c80847880e48819187bb9a5f6e6c8e45",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_krasnodarskiy_krai(1).docx",
+      "region_ids": [
+        "23"
+      ],
+      "received_at": "2026-10-18T16:03:12.653185Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/8c52ab257b42a724234e35994f6bf3ad90b3b237f8651292fc530e3fc6fa796c.txt",
+      "text_sha256": "8c52ab257b42a724234e35994f6bf3ad90b3b237f8651292fc530e3fc6fa796c",
+      "original_docx_sha256": "c18adc1ca070ebab26be08ce9c97cb40824b364270a1b827acbf3cc1b28cdd8b",
+      "extracted_text_sha256": "8c52ab257b42a724234e35994f6bf3ad90b3b237f8651292fc530e3fc6fa796c",
+      "normalized_text_sha256": "7032437fabdd04aa9dd9c24af16ffdb87a7ac9ebe135ae52575f106a91c06923",
+      "duplicate_text_of": null,
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_2fb341412fa881919a8e3a8ac18a1592",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_krasnodarskiy_krai(2).docx",
+      "region_ids": [
+        "23"
+      ],
+      "received_at": "2026-10-19T02:07:10.004654Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/8c52ab257b42a724234e35994f6bf3ad90b3b237f8651292fc530e3fc6fa796c.txt",
+      "text_sha256": "8c52ab257b42a724234e35994f6bf3ad90b3b237f8651292fc530e3fc6fa796c",
+      "original_docx_sha256": "c18adc1ca070ebab26be08ce9c97cb40824b364270a1b827acbf3cc1b28cdd8b",
+      "extracted_text_sha256": "8c52ab257b42a724234e35994f6bf3ad90b3b237f8651292fc530e3fc6fa796c",
+      "normalized_text_sha256": "7032437fabdd04aa9dd9c24af16ffdb87a7ac9ebe135ae52575f106a91c06923",
+      "duplicate_text_of": "libfile_c80847880e48819187bb9a5f6e6c8e45",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_834ceda7498481918481c3536228a6a3",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_krasnodarskiy_krai(3).docx",
+      "region_ids": [
+        "23"
+      ],
+      "received_at": "2026-10-19T02:19:26.026289Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/8c52ab257b42a724234e35994f6bf3ad90b3b237f8651292fc530e3fc6fa796c.txt",
+      "text_sha256": "8c52ab257b42a724234e35994f6bf3ad90b3b237f8651292fc530e3fc6fa796c",
+      "original_docx_sha256": "c18adc1ca070ebab26be08ce9c97cb40824b364270a1b827acbf3cc1b28cdd8b",
+      "extracted_text_sha256": "8c52ab257b42a724234e35994f6bf3ad90b3b237f8651292fc530e3fc6fa796c",
+      "normalized_text_sha256": "7032437fabdd04aa9dd9c24af16ffdb87a7ac9ebe135ae52575f106a91c06923",
+      "duplicate_text_of": "libfile_c80847880e48819187bb9a5f6e6c8e45",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_9842886303048191958b24fe58559b9a",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_krasnodarskiy_krai.docx",
+      "region_ids": [
+        "23"
+      ],
+      "received_at": "2026-10-14T10:13:04.133902Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/8c52ab257b42a724234e35994f6bf3ad90b3b237f8651292fc530e3fc6fa796c.txt",
+      "text_sha256": "8c52ab257b42a724234e35994f6bf3ad90b3b237f8651292fc530e3fc6fa796c",
+      "original_docx_sha256": "c18adc1ca070ebab26be08ce9c97cb40824b364270a1b827acbf3cc1b28cdd8b",
+      "extracted_text_sha256": "8c52ab257b42a724234e35994f6bf3ad90b3b237f8651292fc530e3fc6fa796c",
+      "normalized_text_sha256": "7032437fabdd04aa9dd9c24af16ffdb87a7ac9ebe135ae52575f106a91c06923",
+      "duplicate_text_of": "libfile_c80847880e48819187bb9a5f6e6c8e45",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_470329c53bd081918f7d7c0131214343",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_krym(1).docx",
+      "region_ids": [
+        "91"
+      ],
+      "received_at": "2026-10-18T16:03:13.245741Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/ed4504a2f1bf455436d2c605716de8dc42b7d690a0096d12a49bce1efcd39882.txt",
+      "text_sha256": "ed4504a2f1bf455436d2c605716de8dc42b7d690a0096d12a49bce1efcd39882",
+      "original_docx_sha256": "7af9ff57f713e3d37eb20000a72389db51e225b9e65724372dd484f68067e3d7",
+      "extracted_text_sha256": "ed4504a2f1bf455436d2c605716de8dc42b7d690a0096d12a49bce1efcd39882",
+      "normalized_text_sha256": "be68da6e03a8135473275c00af416edacebbfcd501842ae64487009cc0e2a13c",
+      "duplicate_text_of": null,
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_3728ac211c6c8191ad251907f35b6a54",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_krym(2).docx",
+      "region_ids": [
+        "91"
+      ],
+      "received_at": "2026-10-19T02:07:14.565021Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/ed4504a2f1bf455436d2c605716de8dc42b7d690a0096d12a49bce1efcd39882.txt",
+      "text_sha256": "ed4504a2f1bf455436d2c605716de8dc42b7d690a0096d12a49bce1efcd39882",
+      "original_docx_sha256": "7af9ff57f713e3d37eb20000a72389db51e225b9e65724372dd484f68067e3d7",
+      "extracted_text_sha256": "ed4504a2f1bf455436d2c605716de8dc42b7d690a0096d12a49bce1efcd39882",
+      "normalized_text_sha256": "be68da6e03a8135473275c00af416edacebbfcd501842ae64487009cc0e2a13c",
+      "duplicate_text_of": "libfile_470329c53bd081918f7d7c0131214343",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_83f1790b0f2081918eb93c97709bb3a1",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_krym(3).docx",
+      "region_ids": [
+        "91"
+      ],
+      "received_at": "2026-10-19T02:19:26.073115Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/ed4504a2f1bf455436d2c605716de8dc42b7d690a0096d12a49bce1efcd39882.txt",
+      "text_sha256": "ed4504a2f1bf455436d2c605716de8dc42b7d690a0096d12a49bce1efcd39882",
+      "original_docx_sha256": "7af9ff57f713e3d37eb20000a72389db51e225b9e65724372dd484f68067e3d7",
+      "extracted_text_sha256": "ed4504a2f1bf455436d2c605716de8dc42b7d690a0096d12a49bce1efcd39882",
+      "normalized_text_sha256": "be68da6e03a8135473275c00af416edacebbfcd501842ae64487009cc0e2a13c",
+      "duplicate_text_of": "libfile_470329c53bd081918f7d7c0131214343",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_9681a1679e9c81919e0186b1c4b592bf",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_krym.docx",
+      "region_ids": [
+        "91"
+      ],
+      "received_at": "2026-10-14T10:13:01.497982Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/ed4504a2f1bf455436d2c605716de8dc42b7d690a0096d12a49bce1efcd39882.txt",
+      "text_sha256": "ed4504a2f1bf455436d2c605716de8dc42b7d690a0096d12a49bce1efcd39882",
+      "original_docx_sha256": "7af9ff57f713e3d37eb20000a72389db51e225b9e65724372dd484f68067e3d7",
+      "extracted_text_sha256": "ed4504a2f1bf455436d2c605716de8dc42b7d690a0096d12a49bce1efcd39882",
+      "normalized_text_sha256": "be68da6e03a8135473275c00af416edacebbfcd501842ae64487009cc0e2a13c",
+      "duplicate_text_of": "libfile_470329c53bd081918f7d7c0131214343",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_ceb0d2ef2a288191932c000fa6708114",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_kurskaya_oblast (1)(1).docx",
+      "region_ids": [
+        "46"
+      ],
+      "received_at": "2026-10-18T16:03:06.556778Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/06fe78291311deba34f7b88a4d12dc5a7949932084126ed864d52e2c2d5b0f95.txt",
+      "text_sha256": "06fe78291311deba34f7b88a4d12dc5a7949932084126ed864d52e2c2d5b0f95",
+      "original_docx_sha256": "c0275dd0fd05250539d9f87ea56ad03c2e8e378ae07ae1b88f6ef9353a8f03db",
+      "extracted_text_sha256": "06fe78291311deba34f7b88a4d12dc5a7949932084126ed864d52e2c2d5b0f95",
+      "normalized_text_sha256": "e793cc669c674a1b5cc61ee03cfd59ce2272687c94e98157eb6de87b0875dd12",
+      "duplicate_text_of": "libfile_896a0eb03bc881918b649af9fedd899d",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_52eb782fe33881918183abd11b0f10a9",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_kurskaya_oblast (1)(2).docx",
+      "region_ids": [
+        "46"
+      ],
+      "received_at": "2026-10-19T02:07:05.208560Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/06fe78291311deba34f7b88a4d12dc5a7949932084126ed864d52e2c2d5b0f95.txt",
+      "text_sha256": "06fe78291311deba34f7b88a4d12dc5a7949932084126ed864d52e2c2d5b0f95",
+      "original_docx_sha256": "c0275dd0fd05250539d9f87ea56ad03c2e8e378ae07ae1b88f6ef9353a8f03db",
+      "extracted_text_sha256": "06fe78291311deba34f7b88a4d12dc5a7949932084126ed864d52e2c2d5b0f95",
+      "normalized_text_sha256": "e793cc669c674a1b5cc61ee03cfd59ce2272687c94e98157eb6de87b0875dd12",
+      "duplicate_text_of": "libfile_896a0eb03bc881918b649af9fedd899d",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_6e2e975724c08191b4464f03e25eeb99",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_kurskaya_oblast (1).docx",
+      "region_ids": [
+        "46"
+      ],
+      "received_at": "2026-10-14T10:13:01.483999Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/06fe78291311deba34f7b88a4d12dc5a7949932084126ed864d52e2c2d5b0f95.txt",
+      "text_sha256": "06fe78291311deba34f7b88a4d12dc5a7949932084126ed864d52e2c2d5b0f95",
+      "original_docx_sha256": "c0275dd0fd05250539d9f87ea56ad03c2e8e378ae07ae1b88f6ef9353a8f03db",
+      "extracted_text_sha256": "06fe78291311deba34f7b88a4d12dc5a7949932084126ed864d52e2c2d5b0f95",
+      "normalized_text_sha256": "e793cc669c674a1b5cc61ee03cfd59ce2272687c94e98157eb6de87b0875dd12",
+      "duplicate_text_of": "libfile_896a0eb03bc881918b649af9fedd899d",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_9783d88725a88191a75536fb5d14fd81",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_lipetskaya_oblast (1)(1).docx",
+      "region_ids": [
+        "48"
+      ],
+      "received_at": "2026-10-18T16:03:06.910504Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/37a5b2e11ddb0eab35561e460309bffa422b3521564e28c57a803b54ec8543b0.txt",
+      "text_sha256": "37a5b2e11ddb0eab35561e460309bffa422b3521564e28c57a803b54ec8543b0",
+      "original_docx_sha256": "9d4fe90a42b972d097dff2276635e7de82e04613b1d5074885a721ca20634d68",
+      "extracted_text_sha256": "37a5b2e11ddb0eab35561e460309bffa422b3521564e28c57a803b54ec8543b0",
+      "normalized_text_sha256": "c7ba9e84b050bc9945a8ea8ee9c6e4a4aea11b9006a3aa6d485f83a5d53c41b4",
+      "duplicate_text_of": "libfile_2067aa19c3e88191b8bd5d2784c88ad4",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_8d793fd909d081919ef97310e7e4b235",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_lipetskaya_oblast (1)(2).docx",
+      "region_ids": [
+        "48"
+      ],
+      "received_at": "2026-10-19T02:07:04.806133Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/37a5b2e11ddb0eab35561e460309bffa422b3521564e28c57a803b54ec8543b0.txt",
+      "text_sha256": "37a5b2e11ddb0eab35561e460309bffa422b3521564e28c57a803b54ec8543b0",
+      "original_docx_sha256": "9d4fe90a42b972d097dff2276635e7de82e04613b1d5074885a721ca20634d68",
+      "extracted_text_sha256": "37a5b2e11ddb0eab35561e460309bffa422b3521564e28c57a803b54ec8543b0",
+      "normalized_text_sha256": "c7ba9e84b050bc9945a8ea8ee9c6e4a4aea11b9006a3aa6d485f83a5d53c41b4",
+      "duplicate_text_of": "libfile_2067aa19c3e88191b8bd5d2784c88ad4",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_baf90249f7f48191ae6ceaa6566d8c71",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_lipetskaya_oblast (1).docx",
+      "region_ids": [
+        "48"
+      ],
+      "received_at": "2026-10-14T10:13:01.438615Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/37a5b2e11ddb0eab35561e460309bffa422b3521564e28c57a803b54ec8543b0.txt",
+      "text_sha256": "37a5b2e11ddb0eab35561e460309bffa422b3521564e28c57a803b54ec8543b0",
+      "original_docx_sha256": "9d4fe90a42b972d097dff2276635e7de82e04613b1d5074885a721ca20634d68",
+      "extracted_text_sha256": "37a5b2e11ddb0eab35561e460309bffa422b3521564e28c57a803b54ec8543b0",
+      "normalized_text_sha256": "c7ba9e84b050bc9945a8ea8ee9c6e4a4aea11b9006a3aa6d485f83a5d53c41b4",
+      "duplicate_text_of": "libfile_2067aa19c3e88191b8bd5d2784c88ad4",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_f37c53bd15b48191b7e98a954df51da6",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_lnr(1).docx",
+      "region_ids": [
+        "81"
+      ],
+      "received_at": "2026-10-18T16:03:01.497300Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/b271028b0321ae73035f77f7929df1200931de5262b34eef4eda174f0b0df558.txt",
+      "text_sha256": "b271028b0321ae73035f77f7929df1200931de5262b34eef4eda174f0b0df558",
+      "original_docx_sha256": "214a6a7d8fc23b7694e2dec5d660566391f12964674c6785d7c4b9a563c58af7",
+      "extracted_text_sha256": "b271028b0321ae73035f77f7929df1200931de5262b34eef4eda174f0b0df558",
+      "normalized_text_sha256": "c9438456b49c851aa10448a390de3d9651fa8efc691e581467a5da4482905b19",
+      "duplicate_text_of": "libfile_0f874fe684648191ba6057edf2ec6474",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_19dd9f36a6888191a6b184515a654586",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_lnr(2).docx",
+      "region_ids": [
+        "81"
+      ],
+      "received_at": "2026-10-19T02:06:59.064810Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/b271028b0321ae73035f77f7929df1200931de5262b34eef4eda174f0b0df558.txt",
+      "text_sha256": "b271028b0321ae73035f77f7929df1200931de5262b34eef4eda174f0b0df558",
+      "original_docx_sha256": "214a6a7d8fc23b7694e2dec5d660566391f12964674c6785d7c4b9a563c58af7",
+      "extracted_text_sha256": "b271028b0321ae73035f77f7929df1200931de5262b34eef4eda174f0b0df558",
+      "normalized_text_sha256": "c9438456b49c851aa10448a390de3d9651fa8efc691e581467a5da4482905b19",
+      "duplicate_text_of": "libfile_0f874fe684648191ba6057edf2ec6474",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_bba1e52731148191958135a1477512d9",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_lnr.docx",
+      "region_ids": [
+        "81"
+      ],
+      "received_at": "2026-10-14T10:13:02.689101Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/b271028b0321ae73035f77f7929df1200931de5262b34eef4eda174f0b0df558.txt",
+      "text_sha256": "b271028b0321ae73035f77f7929df1200931de5262b34eef4eda174f0b0df558",
+      "original_docx_sha256": "214a6a7d8fc23b7694e2dec5d660566391f12964674c6785d7c4b9a563c58af7",
+      "extracted_text_sha256": "b271028b0321ae73035f77f7929df1200931de5262b34eef4eda174f0b0df558",
+      "normalized_text_sha256": "c9438456b49c851aa10448a390de3d9651fa8efc691e581467a5da4482905b19",
+      "duplicate_text_of": "libfile_0f874fe684648191ba6057edf2ec6474",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_aee22e3c157c81918a3d6f5c21024822",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_murmanskaya_oblast(1).docx",
+      "region_ids": [
+        "51"
+      ],
+      "received_at": "2026-10-19T02:19:39.060361Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/443c9e69dc36849e4f6144a1935580c3f490394bdbcd3846855115ab19e892f1.txt",
+      "text_sha256": "443c9e69dc36849e4f6144a1935580c3f490394bdbcd3846855115ab19e892f1",
+      "original_docx_sha256": "52904f16afecaedcfeb8c7c3b7ff1d540f7bdc87e0e614bd806dcf9eec8b80cc",
+      "extracted_text_sha256": "443c9e69dc36849e4f6144a1935580c3f490394bdbcd3846855115ab19e892f1",
+      "normalized_text_sha256": "5c292160fb578306e4d714906f21694c62007f48713f60a7d1bbc30b07b8e872",
+      "duplicate_text_of": null,
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_b0fbb6d1a484819185ffc2af9996e818",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_murmanskaya_oblast.docx",
+      "region_ids": [
+        "51"
+      ],
+      "received_at": "2026-10-18T16:07:56.415913Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/443c9e69dc36849e4f6144a1935580c3f490394bdbcd3846855115ab19e892f1.txt",
+      "text_sha256": "443c9e69dc36849e4f6144a1935580c3f490394bdbcd3846855115ab19e892f1",
+      "original_docx_sha256": "52904f16afecaedcfeb8c7c3b7ff1d540f7bdc87e0e614bd806dcf9eec8b80cc",
+      "extracted_text_sha256": "443c9e69dc36849e4f6144a1935580c3f490394bdbcd3846855115ab19e892f1",
+      "normalized_text_sha256": "5c292160fb578306e4d714906f21694c62007f48713f60a7d1bbc30b07b8e872",
+      "duplicate_text_of": "libfile_aee22e3c157c81918a3d6f5c21024822",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_523ec770e9c881919a9bb07dada35c66",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_nenetskiy_ao(1).docx",
+      "region_ids": [
+        "83"
+      ],
+      "received_at": "2026-10-18T16:07:35.478928Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/40413ec2caac0ec29061413b380ab5433db41a480eedb1ada0caf7a90439a518.txt",
+      "text_sha256": "40413ec2caac0ec29061413b380ab5433db41a480eedb1ada0caf7a90439a518",
+      "original_docx_sha256": "2f946c4ae9a51ef49a3bcafdbc7c42d7680acd97ef264feb9199f4679e522c34",
+      "extracted_text_sha256": "40413ec2caac0ec29061413b380ab5433db41a480eedb1ada0caf7a90439a518",
+      "normalized_text_sha256": "c37126b809f3b1df6217caeec73a04aadac6b0a79fb961334c15272826b5f6c5",
+      "duplicate_text_of": null,
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_9ebf4c8b64a08191a4740c6bc663fe1a",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_nenetskiy_ao(2).docx",
+      "region_ids": [
+        "83"
+      ],
+      "received_at": "2026-10-19T02:19:33.576566Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/40413ec2caac0ec29061413b380ab5433db41a480eedb1ada0caf7a90439a518.txt",
+      "text_sha256": "40413ec2caac0ec29061413b380ab5433db41a480eedb1ada0caf7a90439a518",
+      "original_docx_sha256": "2f946c4ae9a51ef49a3bcafdbc7c42d7680acd97ef264feb9199f4679e522c34",
+      "extracted_text_sha256": "40413ec2caac0ec29061413b380ab5433db41a480eedb1ada0caf7a90439a518",
+      "normalized_text_sha256": "c37126b809f3b1df6217caeec73a04aadac6b0a79fb961334c15272826b5f6c5",
+      "duplicate_text_of": "libfile_523ec770e9c881919a9bb07dada35c66",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_522496af9c9481918701f72999c3e6fa",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_nenetskiy_ao.docx",
+      "region_ids": [
+        "83"
+      ],
+      "received_at": "2026-10-14T10:13:03.322448Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/40413ec2caac0ec29061413b380ab5433db41a480eedb1ada0caf7a90439a518.txt",
+      "text_sha256": "40413ec2caac0ec29061413b380ab5433db41a480eedb1ada0caf7a90439a518",
+      "original_docx_sha256": "2f946c4ae9a51ef49a3bcafdbc7c42d7680acd97ef264feb9199f4679e522c34",
+      "extracted_text_sha256": "40413ec2caac0ec29061413b380ab5433db41a480eedb1ada0caf7a90439a518",
+      "normalized_text_sha256": "c37126b809f3b1df6217caeec73a04aadac6b0a79fb961334c15272826b5f6c5",
+      "duplicate_text_of": "libfile_523ec770e9c881919a9bb07dada35c66",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_34097f817c9c819183cefc34a87459c3",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_novgorodskaya_oblast(1).docx",
+      "region_ids": [
+        "53"
+      ],
+      "received_at": "2026-10-19T02:19:39.950380Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/920de93d6b7328db679c5f233d5dde6bbb017da5f42ae68b09f77058e0b8edde.txt",
+      "text_sha256": "920de93d6b7328db679c5f233d5dde6bbb017da5f42ae68b09f77058e0b8edde",
+      "original_docx_sha256": "eb0d1be9c9d82bd816fdf8106d4567516fb8df74b789ba0d44c5de12eef25ba2",
+      "extracted_text_sha256": "920de93d6b7328db679c5f233d5dde6bbb017da5f42ae68b09f77058e0b8edde",
+      "normalized_text_sha256": "3ddb0bf85b9daaf3634c678d090e3488273a894e8bf3a9aa27eaf6d659794de3",
+      "duplicate_text_of": null,
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_0cbae81ec450819199c3d6489ed90a45",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_novgorodskaya_oblast.docx",
+      "region_ids": [
+        "53"
+      ],
+      "received_at": "2026-10-18T16:08:02.006669Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/920de93d6b7328db679c5f233d5dde6bbb017da5f42ae68b09f77058e0b8edde.txt",
+      "text_sha256": "920de93d6b7328db679c5f233d5dde6bbb017da5f42ae68b09f77058e0b8edde",
+      "original_docx_sha256": "eb0d1be9c9d82bd816fdf8106d4567516fb8df74b789ba0d44c5de12eef25ba2",
+      "extracted_text_sha256": "920de93d6b7328db679c5f233d5dde6bbb017da5f42ae68b09f77058e0b8edde",
+      "normalized_text_sha256": "3ddb0bf85b9daaf3634c678d090e3488273a894e8bf3a9aa27eaf6d659794de3",
+      "duplicate_text_of": "libfile_34097f817c9c819183cefc34a87459c3",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_9f94e519dc8c8191b916620670fc322f",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_pskovskaya_oblast.docx",
+      "region_ids": [
+        "60"
+      ],
+      "received_at": "2026-10-18T16:08:02.440373Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/fbff831c392d86716a0c8a8e889f6104a2451f72ed471be839f267a8a3615232.txt",
+      "text_sha256": "fbff831c392d86716a0c8a8e889f6104a2451f72ed471be839f267a8a3615232",
+      "original_docx_sha256": "697281fe90ccfefd31812a39fb0329ae8b1f16db68551efcedc5015c1453889c",
+      "extracted_text_sha256": "fbff831c392d86716a0c8a8e889f6104a2451f72ed471be839f267a8a3615232",
+      "normalized_text_sha256": "1e22196d1fdcf755f4573a266e53b4c6e7c62cff28e4fab09750d2f7101c9bbc",
+      "duplicate_text_of": null,
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_092cffe7dba08191bc470c2219f8b8c4",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_respublika_komi(1).docx",
+      "region_ids": [
+        "11"
+      ],
+      "received_at": "2026-10-19T02:19:34.088894Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/fed03bd3e5f379cff78801876bc7350df10262274d0fe858f6f7ee80dd14a4f4.txt",
+      "text_sha256": "fed03bd3e5f379cff78801876bc7350df10262274d0fe858f6f7ee80dd14a4f4",
+      "original_docx_sha256": "60ad0e352b9485d9ea39361a8ff35177c3aa766198b4919b76a10c94c68635b0",
+      "extracted_text_sha256": "fed03bd3e5f379cff78801876bc7350df10262274d0fe858f6f7ee80dd14a4f4",
+      "normalized_text_sha256": "99a0a56dd8befe597fe01fe8dc5d194ea5f3828957c96c075036e2333f11d226",
+      "duplicate_text_of": null,
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_15c6294a2fb48191bf5b3c7b8d10884c",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_respublika_komi.docx",
+      "region_ids": [
+        "11"
+      ],
+      "received_at": "2026-10-18T16:07:55.596721Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/fed03bd3e5f379cff78801876bc7350df10262274d0fe858f6f7ee80dd14a4f4.txt",
+      "text_sha256": "fed03bd3e5f379cff78801876bc7350df10262274d0fe858f6f7ee80dd14a4f4",
+      "original_docx_sha256": "60ad0e352b9485d9ea39361a8ff35177c3aa766198b4919b76a10c94c68635b0",
+      "extracted_text_sha256": "fed03bd3e5f379cff78801876bc7350df10262274d0fe858f6f7ee80dd14a4f4",
+      "normalized_text_sha256": "99a0a56dd8befe597fe01fe8dc5d194ea5f3828957c96c075036e2333f11d226",
+      "duplicate_text_of": "libfile_092cffe7dba08191bc470c2219f8b8c4",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_0f709b85c5c08191b060c4e77cb231a3",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_rostovskaya_oblast (1)(1).docx",
+      "region_ids": [
+        "61"
+      ],
+      "received_at": "2026-10-18T16:03:12.231035Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/a1ba1c18ff0969e757abb5e109d21bee86e6c8686d2a42c7e048acb02e56805f.txt",
+      "text_sha256": "a1ba1c18ff0969e757abb5e109d21bee86e6c8686d2a42c7e048acb02e56805f",
+      "original_docx_sha256": "f6676b1bb80c4211a12a412d99d86dff31c845173783273e7c588dd454c7b516",
+      "extracted_text_sha256": "a1ba1c18ff0969e757abb5e109d21bee86e6c8686d2a42c7e048acb02e56805f",
+      "normalized_text_sha256": "cf55ec2b83596f2f429fff71688f69e75ee5b178c5766979d65dddbdd0912b7c",
+      "duplicate_text_of": null,
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_d092c6f289cc8191be1facf1c08c70a5",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_rostovskaya_oblast (1)(2).docx",
+      "region_ids": [
+        "61"
+      ],
+      "received_at": "2026-10-19T02:07:09.562599Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/a1ba1c18ff0969e757abb5e109d21bee86e6c8686d2a42c7e048acb02e56805f.txt",
+      "text_sha256": "a1ba1c18ff0969e757abb5e109d21bee86e6c8686d2a42c7e048acb02e56805f",
+      "original_docx_sha256": "f6676b1bb80c4211a12a412d99d86dff31c845173783273e7c588dd454c7b516",
+      "extracted_text_sha256": "a1ba1c18ff0969e757abb5e109d21bee86e6c8686d2a42c7e048acb02e56805f",
+      "normalized_text_sha256": "cf55ec2b83596f2f429fff71688f69e75ee5b178c5766979d65dddbdd0912b7c",
+      "duplicate_text_of": "libfile_0f709b85c5c08191b060c4e77cb231a3",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_4ad14a9d83bc819189918ad17da588c7",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_rostovskaya_oblast (1)(3).docx",
+      "region_ids": [
+        "61"
+      ],
+      "received_at": "2026-10-19T02:19:25.633216Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/a1ba1c18ff0969e757abb5e109d21bee86e6c8686d2a42c7e048acb02e56805f.txt",
+      "text_sha256": "a1ba1c18ff0969e757abb5e109d21bee86e6c8686d2a42c7e048acb02e56805f",
+      "original_docx_sha256": "f6676b1bb80c4211a12a412d99d86dff31c845173783273e7c588dd454c7b516",
+      "extracted_text_sha256": "a1ba1c18ff0969e757abb5e109d21bee86e6c8686d2a42c7e048acb02e56805f",
+      "normalized_text_sha256": "cf55ec2b83596f2f429fff71688f69e75ee5b178c5766979d65dddbdd0912b7c",
+      "duplicate_text_of": "libfile_0f709b85c5c08191b060c4e77cb231a3",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_b6859eb2a6c08191ba841a0493d5a744",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_rostovskaya_oblast (1).docx",
+      "region_ids": [
+        "61"
+      ],
+      "received_at": "2026-10-14T10:13:02.710844Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/a1ba1c18ff0969e757abb5e109d21bee86e6c8686d2a42c7e048acb02e56805f.txt",
+      "text_sha256": "a1ba1c18ff0969e757abb5e109d21bee86e6c8686d2a42c7e048acb02e56805f",
+      "original_docx_sha256": "f6676b1bb80c4211a12a412d99d86dff31c845173783273e7c588dd454c7b516",
+      "extracted_text_sha256": "a1ba1c18ff0969e757abb5e109d21bee86e6c8686d2a42c7e048acb02e56805f",
+      "normalized_text_sha256": "cf55ec2b83596f2f429fff71688f69e75ee5b178c5766979d65dddbdd0912b7c",
+      "duplicate_text_of": "libfile_0f709b85c5c08191b060c4e77cb231a3",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_8768eb61853481918dcfb480497d919b",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_sankt_peterburg(1).docx",
+      "region_ids": [
+        "78"
+      ],
+      "received_at": "2026-10-19T02:19:37.341047Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/1841cf7da688e91950c1d83adf844a0ed157325fbefa01fcebe07a1a9139c6d9.txt",
+      "text_sha256": "1841cf7da688e91950c1d83adf844a0ed157325fbefa01fcebe07a1a9139c6d9",
+      "original_docx_sha256": "205e033449220c13f6e4870126956c230e558564efabfa4c68dc94f3a8938778",
+      "extracted_text_sha256": "1841cf7da688e91950c1d83adf844a0ed157325fbefa01fcebe07a1a9139c6d9",
+      "normalized_text_sha256": "e492341ec154a7f1f074ae65afd1b7674406badf8cfaacb78928b53ec040ca18",
+      "duplicate_text_of": null,
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_0c2d8d36b2888191822f822a959d4cc9",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_sankt_peterburg.docx",
+      "region_ids": [
+        "78"
+      ],
+      "received_at": "2026-10-18T16:07:56.420136Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/1841cf7da688e91950c1d83adf844a0ed157325fbefa01fcebe07a1a9139c6d9.txt",
+      "text_sha256": "1841cf7da688e91950c1d83adf844a0ed157325fbefa01fcebe07a1a9139c6d9",
+      "original_docx_sha256": "205e033449220c13f6e4870126956c230e558564efabfa4c68dc94f3a8938778",
+      "extracted_text_sha256": "1841cf7da688e91950c1d83adf844a0ed157325fbefa01fcebe07a1a9139c6d9",
+      "normalized_text_sha256": "e492341ec154a7f1f074ae65afd1b7674406badf8cfaacb78928b53ec040ca18",
+      "duplicate_text_of": "libfile_8768eb61853481918dcfb480497d919b",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_1a5b32e4b9cc8191b539e35f4e7eeb6e",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_saratovskaya_oblast(1).docx",
+      "region_ids": [
+        "64"
+      ],
+      "received_at": "2026-10-18T16:03:10.845351Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/c51864864316f594ed7d3d2bf8e15258b8fff9076078af08e86181b61d3726ed.txt",
+      "text_sha256": "c51864864316f594ed7d3d2bf8e15258b8fff9076078af08e86181b61d3726ed",
+      "original_docx_sha256": "87d091930f510941388362f6a2155e86d44202cab4f8871923a53aeacf2cd974",
+      "extracted_text_sha256": "c51864864316f594ed7d3d2bf8e15258b8fff9076078af08e86181b61d3726ed",
+      "normalized_text_sha256": "ce3c87a3616b8497c36ce722dadf432843d9169ad7e04c467d928cb17870522b",
+      "duplicate_text_of": null,
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_f4fced25fcb481919bb65f1964fce4e0",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_saratovskaya_oblast(2).docx",
+      "region_ids": [
+        "64"
+      ],
+      "received_at": "2026-10-19T02:07:08.853779Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/c51864864316f594ed7d3d2bf8e15258b8fff9076078af08e86181b61d3726ed.txt",
+      "text_sha256": "c51864864316f594ed7d3d2bf8e15258b8fff9076078af08e86181b61d3726ed",
+      "original_docx_sha256": "87d091930f510941388362f6a2155e86d44202cab4f8871923a53aeacf2cd974",
+      "extracted_text_sha256": "c51864864316f594ed7d3d2bf8e15258b8fff9076078af08e86181b61d3726ed",
+      "normalized_text_sha256": "ce3c87a3616b8497c36ce722dadf432843d9169ad7e04c467d928cb17870522b",
+      "duplicate_text_of": "libfile_1a5b32e4b9cc8191b539e35f4e7eeb6e",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_84df7d38a8088191accec88310b23f71",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_saratovskaya_oblast(3).docx",
+      "region_ids": [
+        "64"
+      ],
+      "received_at": "2026-10-19T02:19:01.585221Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/c51864864316f594ed7d3d2bf8e15258b8fff9076078af08e86181b61d3726ed.txt",
+      "text_sha256": "c51864864316f594ed7d3d2bf8e15258b8fff9076078af08e86181b61d3726ed",
+      "original_docx_sha256": "87d091930f510941388362f6a2155e86d44202cab4f8871923a53aeacf2cd974",
+      "extracted_text_sha256": "c51864864316f594ed7d3d2bf8e15258b8fff9076078af08e86181b61d3726ed",
+      "normalized_text_sha256": "ce3c87a3616b8497c36ce722dadf432843d9169ad7e04c467d928cb17870522b",
+      "duplicate_text_of": "libfile_1a5b32e4b9cc8191b539e35f4e7eeb6e",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_6348e82c62b4819185bdfc9307a2ca5a",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_saratovskaya_oblast.docx",
+      "region_ids": [
+        "64"
+      ],
+      "received_at": "2026-10-14T10:13:04.293101Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/c51864864316f594ed7d3d2bf8e15258b8fff9076078af08e86181b61d3726ed.txt",
+      "text_sha256": "c51864864316f594ed7d3d2bf8e15258b8fff9076078af08e86181b61d3726ed",
+      "original_docx_sha256": "87d091930f510941388362f6a2155e86d44202cab4f8871923a53aeacf2cd974",
+      "extracted_text_sha256": "c51864864316f594ed7d3d2bf8e15258b8fff9076078af08e86181b61d3726ed",
+      "normalized_text_sha256": "ce3c87a3616b8497c36ce722dadf432843d9169ad7e04c467d928cb17870522b",
+      "duplicate_text_of": "libfile_1a5b32e4b9cc8191b539e35f4e7eeb6e",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_03624b5ba23c8191b8683fefbb56c49a",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_sevastopol(1).docx",
+      "region_ids": [
+        "92"
+      ],
+      "received_at": "2026-10-18T16:03:13.123788Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/4ff99b2ceacd438d97394ddf23a0e1e140e22ec69ac233acce68abdd42728d83.txt",
+      "text_sha256": "4ff99b2ceacd438d97394ddf23a0e1e140e22ec69ac233acce68abdd42728d83",
+      "original_docx_sha256": "9309d3f4bc81e699e86720c3a6a32a98a6f3a109bc3587534db14204688e8762",
+      "extracted_text_sha256": "4ff99b2ceacd438d97394ddf23a0e1e140e22ec69ac233acce68abdd42728d83",
+      "normalized_text_sha256": "c0a82895f6b9ca263f73d3864ad8ee89eb1ab8d37a4ef3c257d3542a30a6611c",
+      "duplicate_text_of": null,
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_3a1ea11b963c8191a29f5d134d5b3165",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_sevastopol(2).docx",
+      "region_ids": [
+        "92"
+      ],
+      "received_at": "2026-10-19T02:07:11.100208Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/4ff99b2ceacd438d97394ddf23a0e1e140e22ec69ac233acce68abdd42728d83.txt",
+      "text_sha256": "4ff99b2ceacd438d97394ddf23a0e1e140e22ec69ac233acce68abdd42728d83",
+      "original_docx_sha256": "9309d3f4bc81e699e86720c3a6a32a98a6f3a109bc3587534db14204688e8762",
+      "extracted_text_sha256": "4ff99b2ceacd438d97394ddf23a0e1e140e22ec69ac233acce68abdd42728d83",
+      "normalized_text_sha256": "c0a82895f6b9ca263f73d3864ad8ee89eb1ab8d37a4ef3c257d3542a30a6611c",
+      "duplicate_text_of": "libfile_03624b5ba23c8191b8683fefbb56c49a",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_06717d063fa881918701382c32e67aca",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_sevastopol(3).docx",
+      "region_ids": [
+        "92"
+      ],
+      "received_at": "2026-10-19T02:19:26.143349Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/4ff99b2ceacd438d97394ddf23a0e1e140e22ec69ac233acce68abdd42728d83.txt",
+      "text_sha256": "4ff99b2ceacd438d97394ddf23a0e1e140e22ec69ac233acce68abdd42728d83",
+      "original_docx_sha256": "9309d3f4bc81e699e86720c3a6a32a98a6f3a109bc3587534db14204688e8762",
+      "extracted_text_sha256": "4ff99b2ceacd438d97394ddf23a0e1e140e22ec69ac233acce68abdd42728d83",
+      "normalized_text_sha256": "c0a82895f6b9ca263f73d3864ad8ee89eb1ab8d37a4ef3c257d3542a30a6611c",
+      "duplicate_text_of": "libfile_03624b5ba23c8191b8683fefbb56c49a",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_17d51ee09e408191aae0729d43719c4b",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_sevastopol.docx",
+      "region_ids": [
+        "92"
+      ],
+      "received_at": "2026-10-14T10:13:02.512858Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/4ff99b2ceacd438d97394ddf23a0e1e140e22ec69ac233acce68abdd42728d83.txt",
+      "text_sha256": "4ff99b2ceacd438d97394ddf23a0e1e140e22ec69ac233acce68abdd42728d83",
+      "original_docx_sha256": "9309d3f4bc81e699e86720c3a6a32a98a6f3a109bc3587534db14204688e8762",
+      "extracted_text_sha256": "4ff99b2ceacd438d97394ddf23a0e1e140e22ec69ac233acce68abdd42728d83",
+      "normalized_text_sha256": "c0a82895f6b9ca263f73d3864ad8ee89eb1ab8d37a4ef3c257d3542a30a6611c",
+      "duplicate_text_of": "libfile_03624b5ba23c8191b8683fefbb56c49a",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_db6b7464e6a08191ae2d284a3d93568f",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_volgogradskaya_oblast(1).docx",
+      "region_ids": [
+        "34"
+      ],
+      "received_at": "2026-10-18T16:03:17.431951Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/559b8f199d9977860f89685950a388a426e38cb4ac877fdc6c811098393a24e6.txt",
+      "text_sha256": "559b8f199d9977860f89685950a388a426e38cb4ac877fdc6c811098393a24e6",
+      "original_docx_sha256": "993fa689f9482e888e86687d3e398f2e7540c7f05a3dc29bade8bfaa9975efe2",
+      "extracted_text_sha256": "559b8f199d9977860f89685950a388a426e38cb4ac877fdc6c811098393a24e6",
+      "normalized_text_sha256": "d11a6af9865b655ec927c9b8f45f5a1c452913879d757106a14401488d5294cd",
+      "duplicate_text_of": null,
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_0e34097cffcc8191b5de817465649e06",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_volgogradskaya_oblast(2).docx",
+      "region_ids": [
+        "34"
+      ],
+      "received_at": "2026-10-19T02:07:14.584542Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/559b8f199d9977860f89685950a388a426e38cb4ac877fdc6c811098393a24e6.txt",
+      "text_sha256": "559b8f199d9977860f89685950a388a426e38cb4ac877fdc6c811098393a24e6",
+      "original_docx_sha256": "993fa689f9482e888e86687d3e398f2e7540c7f05a3dc29bade8bfaa9975efe2",
+      "extracted_text_sha256": "559b8f199d9977860f89685950a388a426e38cb4ac877fdc6c811098393a24e6",
+      "normalized_text_sha256": "d11a6af9865b655ec927c9b8f45f5a1c452913879d757106a14401488d5294cd",
+      "duplicate_text_of": "libfile_db6b7464e6a08191ae2d284a3d93568f",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_7996e5acd168819194f8f154bf755eff",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_volgogradskaya_oblast(3).docx",
+      "region_ids": [
+        "34"
+      ],
+      "received_at": "2026-10-19T02:19:25.974737Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/559b8f199d9977860f89685950a388a426e38cb4ac877fdc6c811098393a24e6.txt",
+      "text_sha256": "559b8f199d9977860f89685950a388a426e38cb4ac877fdc6c811098393a24e6",
+      "original_docx_sha256": "993fa689f9482e888e86687d3e398f2e7540c7f05a3dc29bade8bfaa9975efe2",
+      "extracted_text_sha256": "559b8f199d9977860f89685950a388a426e38cb4ac877fdc6c811098393a24e6",
+      "normalized_text_sha256": "d11a6af9865b655ec927c9b8f45f5a1c452913879d757106a14401488d5294cd",
+      "duplicate_text_of": "libfile_db6b7464e6a08191ae2d284a3d93568f",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_3f99bd457a5081918c1ad4a61efc2c23",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_volgogradskaya_oblast.docx",
+      "region_ids": [
+        "34"
+      ],
+      "received_at": "2026-10-14T10:13:29.127819Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/559b8f199d9977860f89685950a388a426e38cb4ac877fdc6c811098393a24e6.txt",
+      "text_sha256": "559b8f199d9977860f89685950a388a426e38cb4ac877fdc6c811098393a24e6",
+      "original_docx_sha256": "993fa689f9482e888e86687d3e398f2e7540c7f05a3dc29bade8bfaa9975efe2",
+      "extracted_text_sha256": "559b8f199d9977860f89685950a388a426e38cb4ac877fdc6c811098393a24e6",
+      "normalized_text_sha256": "d11a6af9865b655ec927c9b8f45f5a1c452913879d757106a14401488d5294cd",
+      "duplicate_text_of": "libfile_db6b7464e6a08191ae2d284a3d93568f",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_352b62a9bab881918163c8fa29f8d26a",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_voronezhskaya_oblast (2)(1).docx",
+      "region_ids": [
+        "36"
+      ],
+      "received_at": "2026-10-18T16:03:07.421700Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/3f4e28ebe983c266f653781969b3d21fd6502ecfcbabfb6d7e57e08de4addc68.txt",
+      "text_sha256": "3f4e28ebe983c266f653781969b3d21fd6502ecfcbabfb6d7e57e08de4addc68",
+      "original_docx_sha256": "709dd60389fc0d9143ab6965e98b0583d230ce97d3389e6fb34fa9339d603101",
+      "extracted_text_sha256": "3f4e28ebe983c266f653781969b3d21fd6502ecfcbabfb6d7e57e08de4addc68",
+      "normalized_text_sha256": "5bd6fabb53c514967c77913785402af5b46d55a85c98170842a842a2d9068bb5",
+      "duplicate_text_of": "libfile_a35748b7006c81918bcdc95618743648",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_3f7bbdbc10408191a71f2c269f97f249",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_voronezhskaya_oblast (2)(2).docx",
+      "region_ids": [
+        "36"
+      ],
+      "received_at": "2026-10-19T02:07:05.468108Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/3f4e28ebe983c266f653781969b3d21fd6502ecfcbabfb6d7e57e08de4addc68.txt",
+      "text_sha256": "3f4e28ebe983c266f653781969b3d21fd6502ecfcbabfb6d7e57e08de4addc68",
+      "original_docx_sha256": "709dd60389fc0d9143ab6965e98b0583d230ce97d3389e6fb34fa9339d603101",
+      "extracted_text_sha256": "3f4e28ebe983c266f653781969b3d21fd6502ecfcbabfb6d7e57e08de4addc68",
+      "normalized_text_sha256": "5bd6fabb53c514967c77913785402af5b46d55a85c98170842a842a2d9068bb5",
+      "duplicate_text_of": "libfile_a35748b7006c81918bcdc95618743648",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_90df7d5772788191be4b862930c51460",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_voronezhskaya_oblast (2).docx",
+      "region_ids": [
+        "36"
+      ],
+      "received_at": "2026-10-14T10:13:01.482208Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/3f4e28ebe983c266f653781969b3d21fd6502ecfcbabfb6d7e57e08de4addc68.txt",
+      "text_sha256": "3f4e28ebe983c266f653781969b3d21fd6502ecfcbabfb6d7e57e08de4addc68",
+      "original_docx_sha256": "709dd60389fc0d9143ab6965e98b0583d230ce97d3389e6fb34fa9339d603101",
+      "extracted_text_sha256": "3f4e28ebe983c266f653781969b3d21fd6502ecfcbabfb6d7e57e08de4addc68",
+      "normalized_text_sha256": "5bd6fabb53c514967c77913785402af5b46d55a85c98170842a842a2d9068bb5",
+      "duplicate_text_of": "libfile_a35748b7006c81918bcdc95618743648",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_e4902dfa90708191ab5ded684d23b6c0",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_yanao(1).docx",
+      "region_ids": [
+        "89"
+      ],
+      "received_at": "2026-10-18T16:03:02.397880Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/45192250ec0cb4e1544f635af7ffcbfcfe6cc15542049be1b274bc17ea380bce.txt",
+      "text_sha256": "45192250ec0cb4e1544f635af7ffcbfcfe6cc15542049be1b274bc17ea380bce",
+      "original_docx_sha256": "a022cd85b219f94f77c23cdc2e9f74b29017e24f188e77683187260d125f29de",
+      "extracted_text_sha256": "45192250ec0cb4e1544f635af7ffcbfcfe6cc15542049be1b274bc17ea380bce",
+      "normalized_text_sha256": "50cd20a0d89e7d4c2c117a1d869d122e9d40cd7b2eaf0e64d24fecdbf6f6af2c",
+      "duplicate_text_of": "libfile_da37cac29210819195cff7a22f3e25e2",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_b4ac6075dba0819195a9c37a6e5c42dc",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_yanao(2).docx",
+      "region_ids": [
+        "89"
+      ],
+      "received_at": "2026-10-19T02:06:59.027553Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/45192250ec0cb4e1544f635af7ffcbfcfe6cc15542049be1b274bc17ea380bce.txt",
+      "text_sha256": "45192250ec0cb4e1544f635af7ffcbfcfe6cc15542049be1b274bc17ea380bce",
+      "original_docx_sha256": "a022cd85b219f94f77c23cdc2e9f74b29017e24f188e77683187260d125f29de",
+      "extracted_text_sha256": "45192250ec0cb4e1544f635af7ffcbfcfe6cc15542049be1b274bc17ea380bce",
+      "normalized_text_sha256": "50cd20a0d89e7d4c2c117a1d869d122e9d40cd7b2eaf0e64d24fecdbf6f6af2c",
+      "duplicate_text_of": "libfile_da37cac29210819195cff7a22f3e25e2",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_ec9a77ba7b70819195f8bbe256537bd4",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_yanao.docx",
+      "region_ids": [
+        "89"
+      ],
+      "received_at": "2026-10-14T10:13:02.087952Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/45192250ec0cb4e1544f635af7ffcbfcfe6cc15542049be1b274bc17ea380bce.txt",
+      "text_sha256": "45192250ec0cb4e1544f635af7ffcbfcfe6cc15542049be1b274bc17ea380bce",
+      "original_docx_sha256": "a022cd85b219f94f77c23cdc2e9f74b29017e24f188e77683187260d125f29de",
+      "extracted_text_sha256": "45192250ec0cb4e1544f635af7ffcbfcfe6cc15542049be1b274bc17ea380bce",
+      "normalized_text_sha256": "50cd20a0d89e7d4c2c117a1d869d122e9d40cd7b2eaf0e64d24fecdbf6f6af2c",
+      "duplicate_text_of": "libfile_da37cac29210819195cff7a22f3e25e2",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_c181111ad3c08191aca4cbbd505877f1",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_zaporozhskaya_oblast(1).docx",
+      "region_ids": [
+        "85"
+      ],
+      "received_at": "2026-10-18T16:03:01.747297Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/3aa607af9b2e414baf6b95d71ea0f4706f4e5a8d579c405bb0ba99836bb96c99.txt",
+      "text_sha256": "3aa607af9b2e414baf6b95d71ea0f4706f4e5a8d579c405bb0ba99836bb96c99",
+      "original_docx_sha256": "07c243d32098c49a6961fd64b4b595954c9800cf75e6e2705286ae9ca58257ea",
+      "extracted_text_sha256": "3aa607af9b2e414baf6b95d71ea0f4706f4e5a8d579c405bb0ba99836bb96c99",
+      "normalized_text_sha256": "cebf9283fe072ea8bd490eb5e8f32cf97d9a1c2e156fd135b33e349f32907064",
+      "duplicate_text_of": "libfile_5010a9344ab88191a84b4d7d0c520ec5",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_923ff6c4a4ac81919696f9fac7b171c4",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_zaporozhskaya_oblast(2).docx",
+      "region_ids": [
+        "85"
+      ],
+      "received_at": "2026-10-19T02:06:59.034580Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/3aa607af9b2e414baf6b95d71ea0f4706f4e5a8d579c405bb0ba99836bb96c99.txt",
+      "text_sha256": "3aa607af9b2e414baf6b95d71ea0f4706f4e5a8d579c405bb0ba99836bb96c99",
+      "original_docx_sha256": "07c243d32098c49a6961fd64b4b595954c9800cf75e6e2705286ae9ca58257ea",
+      "extracted_text_sha256": "3aa607af9b2e414baf6b95d71ea0f4706f4e5a8d579c405bb0ba99836bb96c99",
+      "normalized_text_sha256": "cebf9283fe072ea8bd490eb5e8f32cf97d9a1c2e156fd135b33e349f32907064",
+      "duplicate_text_of": "libfile_5010a9344ab88191a84b4d7d0c520ec5",
+      "usable_overview": true
+    },
+    {
+      "id": "libfile_0e162d4a81488191b3e228a944b5036a",
+      "origin": "user_uploaded_docx",
+      "original_filename": "mery_podderzhki_semei_zaporozhskaya_oblast.docx",
+      "region_ids": [
+        "85"
+      ],
+      "received_at": "2026-10-14T10:13:01.463322Z",
+      "collected_at": "2026-10-19",
+      "text_file": "data/intake/texts/3aa607af9b2e414baf6b95d71ea0f4706f4e5a8d579c405bb0ba99836bb96c99.txt",
+      "text_sha256": "3aa607af9b2e414baf6b95d71ea0f4706f4e5a8d579c405bb0ba99836bb96c99",
+      "original_docx_sha256": "07c243d32098c49a6961fd64b4b595954c9800cf75e6e2705286ae9ca58257ea",
+      "extracted_text_sha256": "3aa607af9b2e414baf6b95d71ea0f4706f4e5a8d579c405bb0ba99836bb96c99",
+      "normalized_text_sha256": "cebf9283fe072ea8bd490eb5e8f32cf97d9a1c2e156fd135b33e349f32907064",
+      "duplicate_text_of": "libfile_5010a9344ab88191a84b4d7d0c520ec5",
+      "usable_overview": true
     }
-  ]
+  ],
+  "usable_overview_regions_count": 70
 }

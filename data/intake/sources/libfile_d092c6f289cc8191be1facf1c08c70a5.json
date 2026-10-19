@@ -1,0 +1,17 @@
+{
+  "id": "libfile_d092c6f289cc8191be1facf1c08c70a5",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_rostovskaya_oblast (1)(2).docx",
+  "region_ids": [
+    "61"
+  ],
+  "received_at": "2026-10-19T02:07:09.562599Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/a1ba1c18ff0969e757abb5e109d21bee86e6c8686d2a42c7e048acb02e56805f.txt",
+  "text_sha256": "a1ba1c18ff0969e757abb5e109d21bee86e6c8686d2a42c7e048acb02e56805f",
+  "original_docx_sha256": "f6676b1bb80c4211a12a412d99d86dff31c845173783273e7c588dd454c7b516",
+  "extracted_text_sha256": "a1ba1c18ff0969e757abb5e109d21bee86e6c8686d2a42c7e048acb02e56805f",
+  "normalized_text_sha256": "cf55ec2b83596f2f429fff71688f69e75ee5b178c5766979d65dddbdd0912b7c",
+  "duplicate_text_of": "libfile_0f709b85c5c08191b060c4e77cb231a3",
+  "usable_overview": true
+}

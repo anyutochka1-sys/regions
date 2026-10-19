@@ -1,0 +1,17 @@
+{
+  "id": "libfile_09de67a1118c819195c27eeea5e14d39",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_adygeya(1).docx",
+  "region_ids": [
+    "01"
+  ],
+  "received_at": "2026-10-18T16:03:21.108947Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/6bb7df57e0dab183c38cf3deffb01882d9d4c4437aa3c8923fd1743ca5790574.txt",
+  "text_sha256": "6bb7df57e0dab183c38cf3deffb01882d9d4c4437aa3c8923fd1743ca5790574",
+  "original_docx_sha256": "4f9d33ca3488d1de0d6cced717fe3b2d80d43df81e34697b1ccf4a7318ab7e1d",
+  "extracted_text_sha256": "6bb7df57e0dab183c38cf3deffb01882d9d4c4437aa3c8923fd1743ca5790574",
+  "normalized_text_sha256": "d00c91ef98510ac18aa3f7f419a78e541cc11ce98f05b52346672f40e16c4f50",
+  "duplicate_text_of": null,
+  "usable_overview": true
+}

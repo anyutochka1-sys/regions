@@ -1,0 +1,17 @@
+{
+  "id": "libfile_bcc153fa5e9c81919f5aa2cff94dc7ab",
+  "origin": "user_uploaded_docx",
+  "original_filename": "mery_podderzhki_semei_kaliningradskaya_oblast.docx",
+  "region_ids": [
+    "39"
+  ],
+  "received_at": "2026-10-18T16:08:02.490802Z",
+  "collected_at": "2026-10-19",
+  "text_file": "data/intake/texts/11c13bbbb79f0f236735ef2be5fb4f8f279b9617d4ee36ce16207dee47e67605.txt",
+  "text_sha256": "11c13bbbb79f0f236735ef2be5fb4f8f279b9617d4ee36ce16207dee47e67605",
+  "original_docx_sha256": "28f73d7a6f09e7a79cd44aa8bb75ae85a4bb49ff6a6d6299f4e1fce3166b136b",
+  "extracted_text_sha256": "11c13bbbb79f0f236735ef2be5fb4f8f279b9617d4ee36ce16207dee47e67605",
+  "normalized_text_sha256": "dc7db958d926022c4e232944d66d36a2f07083655f90b9ad6abd2821cb4053fb",
+  "duplicate_text_of": null,
+  "usable_overview": true
+}
