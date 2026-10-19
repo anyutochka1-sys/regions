@@ -19,7 +19,11 @@
       "official_urls": [
         "https://www.mihuszn.ru/"
       ],
-      "received_file": "Меры_поддержки_семей_Амурская_область.docx"
+      "received_file": "Меры_поддержки_семей_Амурская_область.docx",
+      "document_request_ids": [
+        "28-doc-first"
+      ],
+      "identification_task_ids": []
     },
     {
       "id": "28-1.2",
@@ -35,7 +39,11 @@
       "received_file": "Меры_поддержки_семей_Амурская_область.docx",
       "linked_measures": [
         "amur-capital-second"
-      ]
+      ],
+      "document_request_ids": [
+        "28-doc-second"
+      ],
+      "identification_task_ids": []
     },
     {
       "id": "28-1.3",
@@ -47,7 +55,12 @@
       "official_urls": [
         "https://www.mihuszn.ru/"
       ],
-      "received_file": "Меры_поддержки_семей_Амурская_область.docx"
+      "received_file": "Меры_поддержки_семей_Амурская_область.docx",
+      "document_request_ids": [
+        "28-doc-third",
+        "28-doc-third-amend"
+      ],
+      "identification_task_ids": []
     },
     {
       "id": "28-1.4",
@@ -59,7 +72,11 @@
       "official_urls": [
         "https://www.mihuszn.ru/"
       ],
-      "received_file": "Меры_поддержки_семей_Амурская_область.docx"
+      "received_file": "Меры_поддержки_семей_Амурская_область.docx",
+      "document_request_ids": [
+        "28-doc-third-monthly"
+      ],
+      "identification_task_ids": []
     },
     {
       "id": "28-1.5",
@@ -76,7 +93,12 @@
         "amur-student-first",
         "amur-student-monthly",
         "amur-student-rent"
-      ]
+      ],
+      "document_request_ids": [
+        "28-doc-students",
+        "28-doc-students-amend"
+      ],
+      "identification_task_ids": []
     },
     {
       "id": "28-1.6",
@@ -88,7 +110,11 @@
       "official_urls": [
         "https://www.mihuszn.ru/"
       ],
-      "received_file": "Меры_поддержки_семей_Амурская_область.docx"
+      "received_file": "Меры_поддержки_семей_Амурская_область.docx",
+      "document_request_ids": [
+        "28-doc-pregnant"
+      ],
+      "identification_task_ids": []
     },
     {
       "id": "28-2.1",
@@ -100,7 +126,14 @@
       "official_urls": [
         "https://www.mihuszn.ru/"
       ],
-      "received_file": "Меры_поддержки_семей_Амурская_область.docx"
+      "received_file": "Меры_поддержки_семей_Амурская_область.docx",
+      "document_request_ids": [
+        "28-doc-mortgage-law",
+        "28-doc-mortgage-procedure"
+      ],
+      "identification_task_ids": [
+        "28-identify-mortgage-intake"
+      ]
     },
     {
       "id": "28-2.2",
@@ -112,7 +145,12 @@
       "official_urls": [
         "https://www.mihuszn.ru/"
       ],
-      "received_file": "Меры_поддержки_семей_Амурская_область.docx"
+      "received_file": "Меры_поддержки_семей_Амурская_область.docx",
+      "document_request_ids": [
+        "28-doc-families",
+        "28-doc-triplets"
+      ],
+      "identification_task_ids": []
     },
     {
       "id": "28-2.3",
@@ -124,7 +162,11 @@
       "official_urls": [
         "https://www.mihuszn.ru/"
       ],
-      "received_file": "Меры_поддержки_семей_Амурская_область.docx"
+      "received_file": "Меры_поддержки_семей_Амурская_область.docx",
+      "document_request_ids": [
+        "28-doc-housing"
+      ],
+      "identification_task_ids": []
     },
     {
       "id": "28-2.4",
@@ -136,7 +178,11 @@
       "official_urls": [
         "https://www.mihuszn.ru/"
       ],
-      "received_file": "Меры_поддержки_семей_Амурская_область.docx"
+      "received_file": "Меры_поддержки_семей_Амурская_область.docx",
+      "document_request_ids": [
+        "28-doc-land"
+      ],
+      "identification_task_ids": []
     },
     {
       "id": "28-2.5",
@@ -148,7 +194,11 @@
       "official_urls": [
         "https://www.mihuszn.ru/"
       ],
-      "received_file": "Меры_поддержки_семей_Амурская_область.docx"
+      "received_file": "Меры_поддержки_семей_Амурская_область.docx",
+      "document_request_ids": [],
+      "identification_task_ids": [
+        "28-identify-bam"
+      ]
     },
     {
       "id": "28-3",
@@ -160,7 +210,13 @@
       "official_urls": [
         "https://www.mihuszn.ru/"
       ],
-      "received_file": "Меры_поддержки_семей_Амурская_область.docx"
+      "received_file": "Меры_поддержки_семей_Амурская_область.docx",
+      "document_request_ids": [
+        "28-doc-families"
+      ],
+      "identification_task_ids": [
+        "28-identify-additional-procedures"
+      ]
     },
     {
       "id": "28-3.1",
@@ -172,7 +228,12 @@
       "official_urls": [
         "https://www.mihuszn.ru/"
       ],
-      "received_file": "Меры_поддержки_семей_Амурская_область.docx"
+      "received_file": "Меры_поддержки_семей_Амурская_область.docx",
+      "document_request_ids": [
+        "28-doc-vehicle-seven",
+        "28-doc-vehicle-five"
+      ],
+      "identification_task_ids": []
     },
     {
       "id": "28-3.2",
@@ -184,7 +245,11 @@
       "official_urls": [
         "https://www.mihuszn.ru/"
       ],
-      "received_file": "Меры_поддержки_семей_Амурская_область.docx"
+      "received_file": "Меры_поддержки_семей_Амурская_область.docx",
+      "document_request_ids": [
+        "28-doc-mother-glory"
+      ],
+      "identification_task_ids": []
     },
     {
       "id": "28-3.3",
@@ -196,7 +261,9 @@
       "official_urls": [
         "https://www.mihuszn.ru/"
       ],
-      "received_file": "Меры_поддержки_семей_Амурская_область.docx"
+      "received_file": "Меры_поддержки_семей_Амурская_область.docx",
+      "document_request_ids": [],
+      "identification_task_ids": []
     },
     {
       "id": "28-4",
@@ -208,7 +275,13 @@
       "official_urls": [
         "https://www.mihuszn.ru/"
       ],
-      "received_file": "Меры_поддержки_семей_Амурская_область.docx"
+      "received_file": "Меры_поддержки_семей_Амурская_область.docx",
+      "document_request_ids": [
+        "28-doc-contract"
+      ],
+      "identification_task_ids": [
+        "28-identify-indexation"
+      ]
     },
     {
       "id": "28-5.1",
@@ -220,7 +293,13 @@
       "official_urls": [
         "https://www.mihuszn.ru/"
       ],
-      "received_file": "Меры_поддержки_семей_Амурская_область.docx"
+      "received_file": "Меры_поддержки_семей_Амурская_область.docx",
+      "document_request_ids": [
+        "28-doc-adoption"
+      ],
+      "identification_task_ids": [
+        "28-identify-indexation"
+      ]
     },
     {
       "id": "28-5.2",
@@ -232,7 +311,13 @@
       "official_urls": [
         "https://www.mihuszn.ru/"
       ],
-      "received_file": "Меры_поддержки_семей_Амурская_область.docx"
+      "received_file": "Меры_поддержки_семей_Амурская_область.docx",
+      "document_request_ids": [
+        "28-doc-guardians"
+      ],
+      "identification_task_ids": [
+        "28-identify-indexation"
+      ]
     },
     {
       "id": "28-5.3",
@@ -244,7 +329,13 @@
       "official_urls": [
         "https://www.mihuszn.ru/"
       ],
-      "received_file": "Меры_поддержки_семей_Амурская_область.docx"
+      "received_file": "Меры_поддержки_семей_Амурская_область.docx",
+      "document_request_ids": [
+        "28-doc-orphans"
+      ],
+      "identification_task_ids": [
+        "28-identify-indexation"
+      ]
     },
     {
       "id": "28-6.1",
@@ -256,7 +347,11 @@
       "official_urls": [
         "https://www.mihuszn.ru/"
       ],
-      "received_file": "Меры_поддержки_семей_Амурская_область.docx"
+      "received_file": "Меры_поддержки_семей_Амурская_область.docx",
+      "document_request_ids": [
+        "28-doc-tax"
+      ],
+      "identification_task_ids": []
     },
     {
       "id": "28-6.2",
@@ -268,7 +363,11 @@
       "official_urls": [
         "https://www.mihuszn.ru/"
       ],
-      "received_file": "Меры_поддержки_семей_Амурская_область.docx"
+      "received_file": "Меры_поддержки_семей_Амурская_область.docx",
+      "document_request_ids": [],
+      "identification_task_ids": [
+        "28-identify-municipal-tax"
+      ]
     },
     {
       "id": "28-7",
@@ -280,7 +379,15 @@
       "official_urls": [
         "https://www.mihuszn.ru/"
       ],
-      "received_file": "Меры_поддержки_семей_Амурская_область.docx"
+      "received_file": "Меры_поддержки_семей_Амурская_область.docx",
+      "document_request_ids": [
+        "28-doc-fertility",
+        "28-doc-svo-family",
+        "28-doc-svo-meals"
+      ],
+      "identification_task_ids": [
+        "28-identify-additional-procedures"
+      ]
     },
     {
       "id": "28-8",
@@ -292,7 +399,9 @@
       "official_urls": [
         "https://www.mihuszn.ru/"
       ],
-      "received_file": "Меры_поддержки_семей_Амурская_область.docx"
+      "received_file": "Меры_поддержки_семей_Амурская_область.docx",
+      "document_request_ids": [],
+      "identification_task_ids": []
     },
     {
       "id": "28-9",
@@ -304,8 +413,13 @@
       "official_urls": [
         "https://www.mihuszn.ru/"
       ],
-      "received_file": "Меры_поддержки_семей_Амурская_область.docx"
+      "received_file": "Меры_поддержки_семей_Амурская_область.docx",
+      "document_request_ids": [],
+      "identification_task_ids": []
     }
   ],
-  "unpublished_candidates": []
+  "unpublished_candidates": [],
+  "document_inventory_checked_at": "2026-10-19",
+  "document_register_file": "data/reviews/document-requests.json",
+  "document_inventory_status": "started_full_text_required"
 }

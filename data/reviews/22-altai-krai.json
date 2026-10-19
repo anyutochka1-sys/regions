@@ -31,7 +31,13 @@
       "official_urls": [
         "https://rubtsovsk.org/node/o-predostavlenii-regionalnogo-materinskogo-kapitala-0"
       ],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [
+        "22-doc-capital"
+      ],
+      "identification_task_ids": [
+        "22-identify-birth-payments"
+      ]
     },
     {
       "id": "22-1-second",
@@ -43,7 +49,13 @@
       "official_urls": [
         "https://rubtsovsk.org/node/o-predostavlenii-regionalnogo-materinskogo-kapitala-0"
       ],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [
+        "22-doc-capital"
+      ],
+      "identification_task_ids": [
+        "22-identify-birth-payments"
+      ]
     },
     {
       "id": "22-1-third",
@@ -55,7 +67,13 @@
       "official_urls": [
         "https://rubtsovsk.org/node/o-predostavlenii-regionalnogo-materinskogo-kapitala-0"
       ],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [
+        "22-doc-capital"
+      ],
+      "identification_task_ids": [
+        "22-identify-birth-payments"
+      ]
     },
     {
       "id": "22-1-capital",
@@ -72,7 +90,14 @@
       "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
       "linked_measures": [
         "altai-krai-capital"
-      ]
+      ],
+      "document_request_ids": [
+        "22-doc-capital",
+        "22-doc-capital-use",
+        "22-doc-capital-grant",
+        "22-doc-budget"
+      ],
+      "identification_task_ids": []
     },
     {
       "id": "22-1-dfo",
@@ -84,7 +109,13 @@
       "official_urls": [
         "https://rubtsovsk.org/node/o-predostavlenii-regionalnogo-materinskogo-kapitala-0"
       ],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [
+        "22-doc-capital"
+      ],
+      "identification_task_ids": [
+        "22-identify-birth-payments"
+      ]
     },
     {
       "id": "22-1-twins",
@@ -96,7 +127,11 @@
       "official_urls": [
         "https://rubtsovsk.org/node/o-predostavlenii-regionalnogo-materinskogo-kapitala-0"
       ],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [],
+      "identification_task_ids": [
+        "22-identify-birth-payments"
+      ]
     },
     {
       "id": "22-1-landcomp",
@@ -108,7 +143,12 @@
       "official_urls": [
         "https://rubtsovsk.org/node/o-predostavlenii-regionalnogo-materinskogo-kapitala-0"
       ],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [
+        "22-doc-land",
+        "22-doc-land-payment"
+      ],
+      "identification_task_ids": []
     },
     {
       "id": "22-2-third",
@@ -118,7 +158,11 @@
       "action": "Проверить период рождений: переходные выплаты обычно ограничены детьми до 2023. Период 2013–2026 и отсутствие проверки дохода нельзя переносить без НПА.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [],
+      "identification_task_ids": [
+        "22-identify-third-monthly"
+      ]
     },
     {
       "id": "22-2-child",
@@ -128,7 +172,13 @@
       "action": "№ 10-ЗС, повышение 50% одиноким, возраст 16 / 18 требуют проверки: актуальный закон, база, коэффициенты, доход и сроки.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [
+        "22-doc-child",
+        "22-doc-child-procedure",
+        "22-doc-budget"
+      ],
+      "identification_task_ids": []
     },
     {
       "id": "22-2-students",
@@ -138,7 +188,11 @@
       "action": "Нужны акты, суммы и условия: очная форма, возраст, место обучения, период рождения. Не смешивать с федеральным переходом на бюджет.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [],
+      "identification_task_ids": [
+        "22-identify-students"
+      ]
     },
     {
       "id": "22-3-mortgage",
@@ -148,7 +202,11 @@
       "action": "Участие края в программе не подтверждено; похоже на меру ДФО. Не публиковать по № 11-ЗС. Нужны принятый акт, оператор и свежий перечень ДОМ.РФ.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [],
+      "identification_task_ids": [
+        "22-identify-birth-payments"
+      ]
     },
     {
       "id": "22-3-capital",
@@ -158,7 +216,12 @@
       "action": "Направление подтверждено УСЗН, но капитал — 95 525 ₽ за третьего и последующих. Первый взнос отдельно проверить по закону.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [
+        "22-doc-capital",
+        "22-doc-capital-use"
+      ],
+      "identification_task_ids": []
     },
     {
       "id": "22-4-land",
@@ -168,7 +231,13 @@
       "action": "№ 100-ЗС от 16.12.2014 не проверен; № 100-ЗС от 31.08.2011 регулирует капитал. Найти правильный земельный акт, нуждаемость, очередь, срок и компенсацию.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [
+        "22-doc-land",
+        "22-doc-land-payment"
+      ],
+      "identification_task_ids": [],
+      "document_audit_note_2026_10_19": "Реквизиты уточнены: закон от 09.11.2015 № 98-ЗС и постановление от 30.11.2022 № 451. АКЗС 12–13.05.2026 разъясняет 200 тыс. руб., 3+ детей, учёт и проживание не менее 5 лет; требуется полная действующая редакция. Прежнее замечание сохранено как история."
     },
     {
       "id": "22-4-young",
@@ -178,7 +247,11 @@
       "action": "Проверить подпрограмму, 30 / 35%, возраст до 35, нуждаемость, собственные средства, платёжеспособность и очередь.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [],
+      "identification_task_ids": [
+        "22-identify-young-housing"
+      ]
     },
     {
       "id": "22-4-federal",
@@ -188,7 +261,9 @@
       "action": "Федеральная выплата за третьего ребёнка не равна программе «Семейная ипотека». Исключить из региональных карточек.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [],
+      "identification_task_ids": []
     },
     {
       "id": "22-5-status",
@@ -198,7 +273,11 @@
       "action": "№ 46-ЗС от 03.12.2004 не сверен. Получить правильный акт, бессрочность статуса, возраст для мер, учёт пасынков и падчериц.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [
+        "22-doc-families"
+      ],
+      "identification_task_ids": []
     },
     {
       "id": "22-5-utilities",
@@ -208,7 +287,13 @@
       "action": "Проверить текущую формулу, нормы, доход и категории. Приоритет для 6+ детей не подтверждён.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [
+        "22-doc-families"
+      ],
+      "identification_task_ids": [
+        "22-identify-utilities"
+      ]
     },
     {
       "id": "22-5-food",
@@ -218,7 +303,12 @@
       "action": "Проверить категорию, доход до двух ПМ для школьных нужд и форму помощи; не смешивать с выплатой на форму.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [
+        "22-doc-families",
+        "22-doc-meals"
+      ],
+      "identification_task_ids": []
     },
     {
       "id": "22-5-school",
@@ -233,7 +323,11 @@
       "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
       "linked_measures": [
         "altai-krai-school-preparation"
-      ]
+      ],
+      "document_request_ids": [
+        "22-doc-school"
+      ],
+      "identification_task_ids": []
     },
     {
       "id": "22-5-medicine",
@@ -243,7 +337,13 @@
       "action": "УСЗН подтверждает бесплатные лекарства по рецепту. Получить точный порядок и перечень.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [
+        "22-doc-families"
+      ],
+      "identification_task_ids": [
+        "22-identify-medicine-transit"
+      ]
     },
     {
       "id": "22-5-transit",
@@ -253,7 +353,13 @@
       "action": "Официальное разъяснение Рубцовска говорит о компенсационной выплате, не о безусловно бесплатном проезде. Проверить размер, транспорт и возраст.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [
+        "22-doc-families"
+      ],
+      "identification_task_ids": [
+        "22-identify-medicine-transit"
+      ]
     },
     {
       "id": "22-5-kindergarten",
@@ -263,7 +369,12 @@
       "action": "Подтверждён общим разъяснением; получить порядок, учреждения и дату проверки статуса.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [
+        "22-doc-families",
+        "22-doc-kindergarten-payment"
+      ],
+      "identification_task_ids": []
     },
     {
       "id": "22-5-camps",
@@ -273,7 +384,13 @@
       "action": "Приоритет подтверждён, но размер оплаты, сезон, категория и доход требуют отдельного порядка.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [
+        "22-doc-families"
+      ],
+      "identification_task_ids": [
+        "22-identify-camp-culture"
+      ]
     },
     {
       "id": "22-5-culture",
@@ -283,7 +400,13 @@
       "action": "Уточнить объекты, периодичность, статус и региональное или федеральное основание.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [
+        "22-doc-families"
+      ],
+      "identification_task_ids": [
+        "22-identify-camp-culture"
+      ]
     },
     {
       "id": "22-5-sections",
@@ -293,7 +416,13 @@
       "action": "Скидка 50% и бесплатное обучение малоимущим не подтверждены. Запросить НПА и перечень учреждений.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [
+        "22-doc-families"
+      ],
+      "identification_task_ids": [
+        "22-identify-camp-culture"
+      ]
     },
     {
       "id": "22-6-transport",
@@ -303,7 +432,12 @@
       "action": "№ 7-ЗС от 27.11.2002, 150 л.с. и полное освобождение не подтверждены. Проверить ФНС на 2026, получателя и ограничения.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [
+        "22-doc-tax"
+      ],
+      "identification_task_ids": [],
+      "document_audit_note_2026_10_19": "ФНС для периода 2026 указывает закон от 10.10.2002 № 66-ЗС, включая изменение от 28.11.2025 № 93-ЗС. Условия мощности и категории ещё не проверены по полному тексту."
     },
     {
       "id": "22-6-property",
@@ -313,7 +447,11 @@
       "action": "Федеральные вычеты отделить; отсутствие муниципальных допльгот нельзя объявлять по всему краю.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [],
+      "identification_task_ids": [
+        "22-identify-municipal-tax"
+      ]
     },
     {
       "id": "22-6-agriculture",
@@ -323,7 +461,11 @@
       "action": "ЕСХН — налоговый режим; освобождение ТС относится к транспортному налогу. Проверить основание, не публиковать как семейную меру.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [
+        "22-doc-tax"
+      ],
+      "identification_task_ids": []
     },
     {
       "id": "22-7-maintenance",
@@ -333,7 +475,12 @@
       "action": "12 912 / 16 536 ₽, повышение 50%, коэффициенты 1,15–1,30 и № 78-ЗС требуют бюджета 2026 и действующего акта.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [
+        "22-doc-guardians",
+        "22-doc-budget"
+      ],
+      "identification_task_ids": []
     },
     {
       "id": "22-7-remuneration",
@@ -343,7 +490,13 @@
       "action": "Для 4 539 + 1 215 ₽ получить индексацию, районный коэффициент и надбавки за 3+ детей и инвалидность.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [
+        "22-doc-foster",
+        "22-doc-foster-procedure",
+        "22-doc-budget"
+      ],
+      "identification_task_ids": []
     },
     {
       "id": "22-7-once",
@@ -353,7 +506,13 @@
       "action": "Проверить региональный характер, выплату на ребёнка или один раз; не смешивать с федеральным пособием.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [
+        "22-doc-adoption"
+      ],
+      "identification_task_ids": [
+        "22-identify-foster-package"
+      ]
     },
     {
       "id": "22-7-package",
@@ -363,7 +522,13 @@
       "action": "Разделить отдых, оздоровление и проезд. Получить категории детей, доход и процедуры.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [
+        "22-doc-guardians"
+      ],
+      "identification_task_ids": [
+        "22-identify-foster-package"
+      ]
     },
     {
       "id": "22-8-business",
@@ -373,7 +538,11 @@
       "action": "Индексация 350 000 → 355 580 ₽ не подтверждена. Проверить федеральный максимум 350 000 ₽ и региональный порядок 2026.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [
+        "22-doc-contract"
+      ],
+      "identification_task_ids": []
     },
     {
       "id": "22-8-lph",
@@ -383,7 +552,11 @@
       "action": "ЛПХ не равно бизнесу на 350 000 ₽ и обычно не ограничено 50 000 ₽. Проверить максимум 200 000 ₽ и целевые расходы.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [
+        "22-doc-contract"
+      ],
+      "identification_task_ids": []
     },
     {
       "id": "22-8-other",
@@ -393,7 +566,11 @@
       "action": "Поиск работы, обучение и ТЖС сверить отдельно; лечение не объявлять самостоятельным направлением без НПА. Нужны ПМ, сроки и лимиты обучения.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [
+        "22-doc-contract"
+      ],
+      "identification_task_ids": []
     },
     {
       "id": "22-9",
@@ -403,7 +580,9 @@
       "action": "Переписать после проверки. Чужие суммы не сохранять как действующие меры Алтайского края.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [],
+      "identification_task_ids": []
     },
     {
       "id": "22-10",
@@ -415,7 +594,9 @@
       "official_urls": [
         "https://rubtsovsk.org/node/o-predostavlenii-regionalnogo-materinskogo-kapitala-0"
       ],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [],
+      "identification_task_ids": []
     },
     {
       "id": "22-section-1",
@@ -425,7 +606,9 @@
       "action": "Сохранён полный раздел обзора. Найти действующие правовые основания по каждой подмере, сверить суммы 2026 года, круг получателей, сроки, документы и каналы подачи; федеральные и муниципальные меры отделить от региональных.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [],
+      "identification_task_ids": []
     },
     {
       "id": "22-section-2",
@@ -435,7 +618,9 @@
       "action": "Сохранён полный раздел обзора. Найти действующие правовые основания по каждой подмере, сверить суммы 2026 года, круг получателей, сроки, документы и каналы подачи; федеральные и муниципальные меры отделить от региональных.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [],
+      "identification_task_ids": []
     },
     {
       "id": "22-section-3",
@@ -445,7 +630,9 @@
       "action": "Сохранён полный раздел обзора. Найти действующие правовые основания по каждой подмере, сверить суммы 2026 года, круг получателей, сроки, документы и каналы подачи; федеральные и муниципальные меры отделить от региональных.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [],
+      "identification_task_ids": []
     },
     {
       "id": "22-section-4",
@@ -455,7 +642,9 @@
       "action": "Сохранён полный раздел обзора. Найти действующие правовые основания по каждой подмере, сверить суммы 2026 года, круг получателей, сроки, документы и каналы подачи; федеральные и муниципальные меры отделить от региональных.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [],
+      "identification_task_ids": []
     },
     {
       "id": "22-section-5",
@@ -465,7 +654,9 @@
       "action": "Сохранён полный раздел обзора. Найти действующие правовые основания по каждой подмере, сверить суммы 2026 года, круг получателей, сроки, документы и каналы подачи; федеральные и муниципальные меры отделить от региональных.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [],
+      "identification_task_ids": []
     },
     {
       "id": "22-section-6",
@@ -475,7 +666,9 @@
       "action": "Сохранён полный раздел обзора. Найти действующие правовые основания по каждой подмере, сверить суммы 2026 года, круг получателей, сроки, документы и каналы подачи; федеральные и муниципальные меры отделить от региональных.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [],
+      "identification_task_ids": []
     },
     {
       "id": "22-section-7",
@@ -485,7 +678,9 @@
       "action": "Сохранён полный раздел обзора. Найти действующие правовые основания по каждой подмере, сверить суммы 2026 года, круг получателей, сроки, документы и каналы подачи; федеральные и муниципальные меры отделить от региональных.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [],
+      "identification_task_ids": []
     },
     {
       "id": "22-section-8",
@@ -495,7 +690,9 @@
       "action": "Сохранён полный раздел обзора. Найти действующие правовые основания по каждой подмере, сверить суммы 2026 года, круг получателей, сроки, документы и каналы подачи; федеральные и муниципальные меры отделить от региональных.",
       "status": "needs_document",
       "official_urls": [],
-      "received_file": "Меры_поддержки_семей_Алтайский_край.docx"
+      "received_file": "Меры_поддержки_семей_Алтайский_край.docx",
+      "document_request_ids": [],
+      "identification_task_ids": []
     }
   ],
   "unpublished_candidates": [
@@ -555,5 +752,8 @@
         "school"
       ]
     }
-  ]
+  ],
+  "document_inventory_checked_at": "2026-10-19",
+  "document_register_file": "data/reviews/document-requests.json",
+  "document_inventory_status": "started_full_text_required"
 }

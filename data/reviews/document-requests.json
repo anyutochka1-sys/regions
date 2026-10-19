@@ -1,0 +1,2939 @@
+{
+  "schema": 1,
+  "updated": "2026-10-19",
+  "title": "Документы для подгрузки и уточнения по регионам",
+  "alphabetical_basis": "Порядок названий в data/regions.json: Алтайский край, Амурская область, Архангельская область и далее. Республики находятся на букву Р.",
+  "scope_note": "Начат первый проход по документам двух регионов. Это не завершённая юридическая проверка и не перечень всех возможных льгот. Обзоры получены по 89 регионам; полные НПА и действующие условия ещё проверяются.",
+  "receipt_scope": "Сверены data/intake/index.json, archive-inventory.json, существующие региональные reviews, общий XLSX версии 9 и общий файл источников версии 26. Не утверждается наличие прямого доступа к каждому чату. В доступном архиве полных НПА зарегистрированы документы Красноярского края.",
+  "previous_clarifications_file": "data/reviews/previous-clarifications.json",
+  "previous_source_notes": {
+    "filename": "Istochniki_dlya_proverki_s_noutbuka.md",
+    "version": 26,
+    "sha256": "97fb7924e5f2e050241a07ec1426bea9c4b72c30de1b478d7a700a85e6d152fa",
+    "used_for": "Проверка ранее полученных источников и статуса приёма ипотечной доплаты в Амурской области."
+  },
+  "deduplication_rule": "Один акт — один запрос по региону, виду, дате и номеру; одна редакция с приложениями закрывает все связанные вопросы. Старые замечания остаются под прежними ID; полный обзор повторно не запрашивается.",
+  "status_definitions": {
+    "needs_current_full_text": "Официальный источник подтверждает реквизиты, но полная действующая редакция не зарегистрирована в доступном своде.",
+    "needs_reference_check": "Реквизиты взяты из обзора, прежнего замечания или поисковой подсказки. Сначала подтвердить официально; не выдавать за установленный акт.",
+    "needs_identification": "Нет надёжных точных реквизитов либо нужен отдельный порядок/муниципальный акт.",
+    "document_inventory_started": "Прежние вопросы сопоставлены с запросами документов; проверка всех условий не завершена."
+  },
+  "counts": {
+    "regions_total": 89,
+    "overviews_received": 89,
+    "regions_document_inventory_started": 2,
+    "regions_awaiting_alphabetical_document_audit": 87,
+    "full_legal_reviews_completed_in_this_pass": 0,
+    "confirmed_reference_upload_requests": 22,
+    "unverified_act_references": 21,
+    "identification_tasks": 14,
+    "previous_clarifications_preserved": 808
+  },
+  "sources": [
+    {
+      "id": "a-cap",
+      "url": "https://rubtsovsk.org/node/o-predostavlenii-regionalnogo-materinskogo-kapitala-0",
+      "description": "УСЗН на официальном сайте Рубцовска, 14.08.2026",
+      "access": "official_page",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "a-mfc",
+      "url": "https://mfc22.ru/family/services-family/6804/",
+      "description": "МФЦ Алтайского края: региональный материнский капитал",
+      "access": "official_page",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "a-use",
+      "url": "https://portal.mfc22.ru/portal/service/info?id=261",
+      "description": "МФЦ: направление средств капитала; подтверждение реквизитов в поисковой выдержке, страница отвечает ошибкой 500",
+      "access": "official_search_excerpt",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "a-land",
+      "url": "https://akzs.ru/conf/2706/",
+      "description": "АКЗС, интернет-конференция 12–13.05.2026; земля и компенсация",
+      "access": "official_page",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "a-land-law",
+      "url": "https://www.akzs.ru/conf/2601/",
+      "description": "АКЗС, 11.04.2023; подтверждает реквизиты № 98-ЗС, условия 2023 года не считать актуальными",
+      "access": "official_page",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "a-school",
+      "url": "https://rubtsovsk.org/node/vyplaty-dlya-podgotovki-k-shkole-detey-iz-mnogodetnykh-semey",
+      "description": "УСЗН на официальном сайте Рубцовска, 28.05.2026",
+      "access": "official_page",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "a-family",
+      "url": "https://klmkomitet.edu22.info/besplatnoe-pitanie-dlya-shkolnikov",
+      "description": "Комитет образования Калманского района: реквизиты № 16-ЗС и № 85; доступна поисковая выдержка, прямое чтение завершилось тайм-аутом",
+      "access": "official_search_excerpt",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "a-tax",
+      "url": "https://www.nalog.gov.ru/rn77/service/tax/d1510413/",
+      "description": "ФНС: транспортный налог, Алтайский край, налоговый период 2026; закон № 66-ЗС с изменением № 93-ЗС от 28.11.2025",
+      "access": "official_page",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "a-guard",
+      "url": "https://komitet-als.edu22.info/opeka-i-popechitelstvo/zakonodatelstvo-reguliruyushchee-voprosy-opeki-i-popechitelstva",
+      "description": "Комитет образования Алейского района: реквизиты № 29-ЗС; доступна поисковая выдержка",
+      "access": "official_search_excerpt",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "a-foster",
+      "url": "https://komitet-kluchy.edu22.info/index.php/opeka-i-popechitelstvo/federalnoe-i-regionalnoe-zakonodatelstvo",
+      "description": "Комитет образования Ключевского района: реквизиты № 110-ЗС и № 277; поисковая выдержка, прямое чтение завершилось тайм-аутом",
+      "access": "official_search_excerpt",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "a-adopt",
+      "url": "https://baevoobr.edu22.info/opeka-i-popechitelstvo/normativno-pravovye-dokumenty",
+      "description": "Комитет образования Баевского района: указ № 57; доступна поисковая выдержка",
+      "access": "official_search_excerpt",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "a-child",
+      "url": "https://8kas.sudrf.ru/modules.php?case_id=35108046&case_uid=81f466f4-8f34-4c4c-a0bb-e7fd35d9f84b&delo_id=2800001&name=sud_delo&name_op=case&new=2800001&srv_num=1",
+      "description": "Восьмой кассационный суд: ссылка на закон № 34-ЗС; это подтверждение реквизитов, не редакции на октябрь 2026",
+      "access": "official_search_excerpt",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "a-contract",
+      "url": "https://8kas.sudrf.ru/modules.php?case_id=40588014&case_uid=3f93d824-651e-4047-a003-3f5c821a0b48&delo_id=2800001&name=sud_delo&name_op=case&new=2800001&srv_num=1",
+      "description": "Восьмой кассационный суд: приказ № 27/Пр/384; это подтверждение реквизитов, не актуальности всех условий",
+      "access": "official_search_excerpt",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "a-budget",
+      "url": "https://www.akzs.ru/akzs/committees/detailinfo/106154/",
+      "description": "АКЗС: реквизиты закона о бюджете № 95-ЗС; доступна поисковая выдержка",
+      "access": "official_search_excerpt",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "a-kindergarten",
+      "url": "https://ds168brn.edu22.info/svedeniya-ob-organizacii/stipendii-i-inye-vidy-materialnoj-podderzhki.html",
+      "description": "Официальный сайт детсада № 168 Барнаула: приказ № 68-П; доступна поисковая выдержка",
+      "access": "official_search_excerpt",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "b-first",
+      "url": "https://www.uszn-svob.ru/index.php?catid=8&id=877%3Aob-utverzhdenii-poryadka-predostavleniya-edinovremennoj-denezhnoj-vyplaty-pri-rozhdenii-pervogo-rebenka&view=article",
+      "description": "УСЗН Свободного: № 59 от 25.02.2019; поисковая выдержка",
+      "access": "official_search_excerpt",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "b-second",
+      "url": "https://uszn-svob.ru/index.php?catid=2&id=196%3Anovosti-ot-upravleniya-sotsialnoj-zashchity-naseleniya-po-g-svobodnyj-zato-tsiolkovskij-svobodnenskomu-rajonu&view=article",
+      "description": "УСЗН Свободного: № 59 и № 60 от 25.02.2019; поисковая выдержка",
+      "access": "official_search_excerpt",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "b-third",
+      "url": "https://www.mihuszn.ru/regionalmaternitycapital",
+      "description": "УСЗН Михайловского района: ссылка на постановление № 32; размещённые условия по периодам расходятся с обзором",
+      "access": "official_page",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "b-student",
+      "url": "https://www.svbhospital.ru/?p=47331",
+      "description": "ГБУЗ АО «Свободненская межрайонная больница», 27.02.2026: сведения Минобразования и ссылка на № 761",
+      "access": "official_page",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "b-multi",
+      "url": "https://uszn-svob.ru/index.php?catid=8&id=607%3Amery-sotsialnoj-podderzhki-mnogodetnym-semyam&view=article",
+      "description": "УСЗН Свободного: реквизиты № 408-ОЗ; поисковая выдержка",
+      "access": "official_search_excerpt",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "b-tax",
+      "url": "https://www.nalog.gov.ru/rn28/about_fts/docs/4470932/",
+      "description": "ФНС: реквизиты № 142-ОЗ, страница старой редакции; условия 2026 нужно проверить отдельно",
+      "access": "official_search_excerpt",
+      "checked_at": "2026-10-19"
+    }
+  ],
+  "document_requests": [
+    {
+      "id": "22-doc-capital",
+      "region_id": "22",
+      "kind": "Закон",
+      "date": "2011-08-31",
+      "number": "100-ЗС",
+      "title": "О материнском (семейном) капитале в Алтайском крае",
+      "request_status": "needs_current_full_text",
+      "reference_status": "official_reference_found",
+      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "why_needed": "Период рождений, переход права, размер 2026 и денежная выплата; в обзоре смешаны разные капиталы.",
+      "review_item_ids": [
+        "22-1-first",
+        "22-1-second",
+        "22-1-third",
+        "22-1-capital",
+        "22-1-dfo",
+        "22-3-capital"
+      ],
+      "source_ids": [
+        "a-cap"
+      ],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "22-doc-capital-use",
+      "region_id": "22",
+      "kind": "Постановление Администрации",
+      "date": "2011-11-10",
+      "number": "646",
+      "title": "Об утверждении порядков направления средств (части средств) материнского (семейного) капитала в Алтайском крае",
+      "request_status": "needs_current_full_text",
+      "reference_status": "official_reference_found",
+      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "why_needed": "Все направления, сроки распоряжения, ипотека, газификация и документы. Подтверждены только реквизиты из перечня МФЦ.",
+      "review_item_ids": [
+        "22-1-capital",
+        "22-3-capital"
+      ],
+      "source_ids": [
+        "a-use"
+      ],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "22-doc-capital-grant",
+      "region_id": "22",
+      "kind": "Постановление Администрации",
+      "date": "2011-11-10",
+      "number": "647",
+      "title": "Положение о порядке предоставления материнского (семейного) капитала в Алтайском крае — реквизиты для проверки",
+      "request_status": "needs_reference_check",
+      "reference_status": "unverified_search_lead",
+      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
+      "why_needed": "Порядок выдачи сертификата; точную действующую редакцию и официальную публикацию ещё найти.",
+      "review_item_ids": [
+        "22-1-capital"
+      ],
+      "source_ids": [],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19",
+      "where_to_verify": "https://publication.pravo.gov.ru/"
+    },
+    {
+      "id": "22-doc-families",
+      "region_id": "22",
+      "kind": "Закон",
+      "date": "2024-03-29",
+      "number": "16-ЗС",
+      "title": "О мерах социальной поддержки многодетных семей в Алтайском крае",
+      "request_status": "needs_current_full_text",
+      "reference_status": "official_reference_found",
+      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "why_needed": "Заменяет ошибочную ссылку обзора на № 46-ЗС; статус, возраст, категории и полный перечень мер.",
+      "review_item_ids": [
+        "22-5-status",
+        "22-5-utilities",
+        "22-5-food",
+        "22-5-medicine",
+        "22-5-transit",
+        "22-5-kindergarten",
+        "22-5-camps",
+        "22-5-culture",
+        "22-5-sections"
+      ],
+      "source_ids": [
+        "a-family"
+      ],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "22-doc-school",
+      "region_id": "22",
+      "kind": "Постановление Правительства",
+      "date": "2017-04-19",
+      "number": "125",
+      "title": "О предоставлении мер социальной поддержки семьям с детьми в Алтайском крае",
+      "request_status": "needs_current_full_text",
+      "reference_status": "official_reference_found",
+      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "why_needed": "Полное положение о подготовке к школе: 7 500/5 000 руб., повторный первый класс, крайняя дата подачи и необходимые документы.",
+      "review_item_ids": [
+        "22-5-school"
+      ],
+      "source_ids": [
+        "a-school"
+      ],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "22-doc-meals",
+      "region_id": "22",
+      "kind": "Постановление Правительства",
+      "date": "2024-04-02",
+      "number": "85",
+      "title": "Об утверждении Порядка обеспечения бесплатным одноразовым горячим питанием детей из многодетных семей",
+      "request_status": "needs_current_full_text",
+      "reference_status": "official_reference_found",
+      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "why_needed": "Питание, возраст, образовательные организации и процедура; муниципальные порядки применяются только в соответствующем районе.",
+      "review_item_ids": [
+        "22-5-food"
+      ],
+      "source_ids": [
+        "a-family"
+      ],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "22-doc-land",
+      "region_id": "22",
+      "kind": "Закон",
+      "date": "2015-11-09",
+      "number": "98-ЗС",
+      "title": "О бесплатном предоставлении в собственность земельных участков",
+      "request_status": "needs_current_full_text",
+      "reference_status": "official_reference_found",
+      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "why_needed": "Правильный земельный закон; очередность, нуждаемость, проживание и условия замены участка выплатой.",
+      "review_item_ids": [
+        "22-1-landcomp",
+        "22-4-land"
+      ],
+      "source_ids": [
+        "a-land-law"
+      ],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "22-doc-land-payment",
+      "region_id": "22",
+      "kind": "Постановление Правительства",
+      "date": "2022-11-30",
+      "number": "451",
+      "title": "Об утверждении Порядка предоставления компенсационной выплаты взамен предоставления земельного участка в собственность бесплатно",
+      "request_status": "needs_current_full_text",
+      "reference_status": "official_reference_found",
+      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "why_needed": "АКЗС в мае 2026 указывает 200 тыс. руб. для состоящих на учёте семей с 3+ детьми. Проверить полную редакцию и переходные положения, не использовать 350 тыс. за первенца.",
+      "review_item_ids": [
+        "22-1-landcomp",
+        "22-4-land"
+      ],
+      "source_ids": [
+        "a-land"
+      ],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "22-doc-tax",
+      "region_id": "22",
+      "kind": "Закон",
+      "date": "2002-10-10",
+      "number": "66-ЗС",
+      "title": "О транспортном налоге на территории Алтайского края",
+      "request_status": "needs_current_full_text",
+      "reference_status": "official_reference_found",
+      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "why_needed": "Правильный закон вместо № 7-ЗС. Нужна статья 3, мощность, количество ТС, категории и применение в 2026; ЕСХН не самостоятельная семейная льгота.",
+      "review_item_ids": [
+        "22-6-transport",
+        "22-6-agriculture"
+      ],
+      "source_ids": [
+        "a-tax"
+      ],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "22-doc-child",
+      "region_id": "22",
+      "kind": "Закон",
+      "date": "2004-10-15",
+      "number": "34-ЗС",
+      "title": "О ежемесячном пособии на ребенка",
+      "request_status": "needs_current_full_text",
+      "reference_status": "official_reference_found",
+      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "why_needed": "Правильный закон вместо № 10-ЗС: возраст, доход, повышения и коэффициенты; реквизиты подтверждены судебным источником.",
+      "review_item_ids": [
+        "22-2-child"
+      ],
+      "source_ids": [
+        "a-child"
+      ],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "22-doc-child-procedure",
+      "region_id": "22",
+      "kind": "Постановление Администрации",
+      "date": "2014-04-17",
+      "number": "184",
+      "title": "Назначение и выплата ежемесячного пособия; учёт и перечень доходов — реквизиты для проверки",
+      "request_status": "needs_reference_check",
+      "reference_status": "unverified_search_lead",
+      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
+      "why_needed": "Нужен полный действующий порядок вместе с приложениями; официальные реквизиты ещё уточнить.",
+      "review_item_ids": [
+        "22-2-child"
+      ],
+      "source_ids": [],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19",
+      "where_to_verify": "https://publication.pravo.gov.ru/"
+    },
+    {
+      "id": "22-doc-guardians",
+      "region_id": "22",
+      "kind": "Закон",
+      "date": "2007-04-10",
+      "number": "29-ЗС",
+      "title": "О порядке и размере выплаты денежных средств детям-сиротам и детям, оставшимся без попечения родителей, на содержание в семье опекуна (попечителя), приемной семье",
+      "request_status": "needs_current_full_text",
+      "reference_status": "official_reference_found",
+      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "why_needed": "Проверить полное актуальное наименование, расширенные категории, содержание и индексацию; № 78-ЗС из обзора не подтверждён.",
+      "review_item_ids": [
+        "22-7-maintenance",
+        "22-7-package"
+      ],
+      "source_ids": [
+        "a-guard"
+      ],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "22-doc-foster",
+      "region_id": "22",
+      "kind": "Закон",
+      "date": "2009-12-25",
+      "number": "110-ЗС",
+      "title": "О вознаграждении приемных родителей",
+      "request_status": "needs_current_full_text",
+      "reference_status": "official_reference_found",
+      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "why_needed": "Проверить базу, надбавки, районные коэффициенты и распределение между родителями.",
+      "review_item_ids": [
+        "22-7-remuneration"
+      ],
+      "source_ids": [
+        "a-foster"
+      ],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "22-doc-foster-procedure",
+      "region_id": "22",
+      "kind": "Постановление Администрации",
+      "date": "2007-06-21",
+      "number": "277",
+      "title": "Об утверждении Положения о порядке и условиях выплаты вознаграждения приемным родителям в Алтайском крае",
+      "request_status": "needs_current_full_text",
+      "reference_status": "official_reference_found",
+      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "why_needed": "Действующий порядок выплаты и отказа; старые версии 2017 года не подтверждают правила октября 2026.",
+      "review_item_ids": [
+        "22-7-remuneration"
+      ],
+      "source_ids": [
+        "a-foster"
+      ],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "22-doc-adoption",
+      "region_id": "22",
+      "kind": "Указ Губернатора",
+      "date": "2014-05-08",
+      "number": "57",
+      "title": "Об утверждении Положения о порядке назначения и выплаты в Алтайском крае единовременного пособия гражданам, усыновившим детей",
+      "request_status": "needs_current_full_text",
+      "reference_status": "official_reference_found",
+      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "why_needed": "Проверить усыновление отдельно от опеки и приёмной семьи; заявленные в обзоре 15 000 руб. при передаче в приёмную семью не подтверждены.",
+      "review_item_ids": [
+        "22-7-once"
+      ],
+      "source_ids": [
+        "a-adopt"
+      ],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "22-doc-contract",
+      "region_id": "22",
+      "kind": "Приказ Минсоцзащиты",
+      "date": "2023-12-25",
+      "number": "27/Пр/384",
+      "title": "Об утверждении Порядка предоставления материальной помощи на основании социального контракта",
+      "request_status": "needs_current_full_text",
+      "reference_status": "official_reference_found",
+      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "why_needed": "Разделить ИП, ЛПХ, поиск работы, ТЖС, обучение; лимиты, доход, отказ, отчётность и особенности 2026.",
+      "review_item_ids": [
+        "22-8-business",
+        "22-8-lph",
+        "22-8-other"
+      ],
+      "source_ids": [
+        "a-contract"
+      ],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "22-doc-budget",
+      "region_id": "22",
+      "kind": "Закон",
+      "date": "2025-12-01",
+      "number": "95-ЗС",
+      "title": "О краевом бюджете на 2026 год и на плановый период 2027 и 2028 годов",
+      "request_status": "needs_current_full_text",
+      "reference_status": "official_reference_found",
+      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "why_needed": "Размеры и индексация краевого капитала, детского пособия, содержания детей под опекой и вознаграждения. Нужны соответствующие статьи и приложения с изменениями 2026.",
+      "review_item_ids": [
+        "22-1-capital",
+        "22-2-child",
+        "22-7-maintenance",
+        "22-7-remuneration"
+      ],
+      "source_ids": [
+        "a-budget"
+      ],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "22-doc-kindergarten-payment",
+      "region_id": "22",
+      "kind": "Приказ Минобрнауки",
+      "date": "2023-12-13",
+      "number": "68-П",
+      "title": "Об утверждении Положения о порядке и условиях компенсации части платы, взимаемой с родителей (законных представителей) за присмотр и уход за ребенком в образовательных организациях Алтайского края, реализующих образовательную программу дошкольного образования",
+      "request_status": "needs_current_full_text",
+      "reference_status": "official_reference_found",
+      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "why_needed": "Дополнение к обзору: проверить критерии нуждаемости, базу расчёта и порядок компенсации; не путать с приоритетом приёма.",
+      "review_item_ids": [
+        "22-5-kindergarten"
+      ],
+      "source_ids": [
+        "a-kindergarten"
+      ],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "28-doc-first",
+      "region_id": "28",
+      "kind": "Постановление Правительства",
+      "date": "2019-02-25",
+      "number": "59",
+      "title": "Об утверждении Порядка предоставления единовременной денежной выплаты при рождении первого ребенка",
+      "request_status": "needs_current_full_text",
+      "reference_status": "official_reference_found",
+      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "why_needed": "Исправить № 599 от 27.12.2018 из обзора; проверить размер 2026, срок и переход права.",
+      "review_item_ids": [
+        "28-1.1"
+      ],
+      "source_ids": [
+        "b-first"
+      ],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "28-doc-second",
+      "region_id": "28",
+      "kind": "Постановление Правительства",
+      "date": "2019-02-25",
+      "number": "60",
+      "title": "Об утверждении Порядка предоставления регионального материнского (семейного) капитала при рождении второго ребенка",
+      "request_status": "needs_current_full_text",
+      "reference_status": "official_reference_found",
+      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "why_needed": "Формула 30%, размер на дату назначения, ограничения и распоряжение.",
+      "review_item_ids": [
+        "28-1.2"
+      ],
+      "source_ids": [
+        "b-second"
+      ],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "28-doc-third",
+      "region_id": "28",
+      "kind": "Постановление Правительства",
+      "date": "2012-01-27",
+      "number": "32",
+      "title": "Порядок предоставления регионального материнского капитала семьям, родившим (усыновившим) третьего и последующего ребенка",
+      "request_status": "needs_current_full_text",
+      "reference_status": "official_reference_found",
+      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "why_needed": "Точное действующее наименование, периоды рождения, третий/четвёртый ребёнок, нуждаемость, целевые направления и выплата без целевых ограничений. Официальная страница содержит иные периоды, чем обзор.",
+      "review_item_ids": [
+        "28-1.3"
+      ],
+      "source_ids": [
+        "b-third"
+      ],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "28-doc-students",
+      "region_id": "28",
+      "kind": "Постановление Правительства",
+      "date": "2024-09-26",
+      "number": "761",
+      "title": "Порядок предоставления мер социальной поддержки студенческим семьям (наименование на дату принятия; актуальное наименование уточнить)",
+      "request_status": "needs_current_full_text",
+      "reference_status": "official_reference_found",
+      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "why_needed": "Все три меры проверить отдельно: единовременная, до 1,5 лет, наём жилья. Условия для одного студента и для двух родителей не смешивать. Нужна редакция после изменений 2026.",
+      "review_item_ids": [
+        "28-1.5"
+      ],
+      "source_ids": [
+        "b-student"
+      ],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "28-doc-families",
+      "region_id": "28",
+      "kind": "Закон",
+      "date": "2005-01-19",
+      "number": "408-ОЗ",
+      "title": "О мерах социальной поддержки многодетных семей",
+      "request_status": "needs_current_full_text",
+      "reference_status": "official_reference_found",
+      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "why_needed": "Статус и сроки отдельных льгот; ЖКУ, питание, лекарства, проезд, одежда и СПО проверяются раздельно.",
+      "review_item_ids": [
+        "28-2.2",
+        "28-3"
+      ],
+      "source_ids": [
+        "b-multi"
+      ],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "28-doc-tax",
+      "region_id": "28",
+      "kind": "Закон",
+      "date": "2002-11-18",
+      "number": "142-ОЗ",
+      "title": "О транспортном налоге на территории Амурской области",
+      "request_status": "needs_current_full_text",
+      "reference_status": "official_reference_found",
+      "what_to_upload": "Полный текст в редакции, действующей на 19.10.2026, со всеми приложениями; если редакция составлена до этой даты — последующие изменения и даты их вступления в силу.",
+      "why_needed": "ФНС подтверждает реквизиты, но открытая страница старой редакции. Нужны ограничения, очники, гибриды и налоговый период 2026.",
+      "review_item_ids": [
+        "28-6.1"
+      ],
+      "source_ids": [
+        "b-tax"
+      ],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "28-doc-third-amend",
+      "region_id": "28",
+      "kind": "Постановление Правительства",
+      "date": "2026-09-21",
+      "number": "653",
+      "title": "Изменения постановления от 27.01.2012 № 32 — реквизиты для проверки",
+      "request_status": "needs_reference_check",
+      "reference_status": "overview_or_previous_review_only",
+      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
+      "why_needed": "Указано в прежней сверке; получить официальную публикацию и проверить дату начала применения.",
+      "review_item_ids": [
+        "28-1.3"
+      ],
+      "source_ids": [],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19",
+      "where_to_verify": "https://publication.pravo.gov.ru/"
+    },
+    {
+      "id": "28-doc-students-amend",
+      "region_id": "28",
+      "kind": "Постановление Правительства",
+      "date": "2026-01-13",
+      "number": "3",
+      "title": "Изменения постановления от 26.09.2024 № 761 — реквизиты для проверки",
+      "request_status": "needs_reference_check",
+      "reference_status": "unverified_search_lead",
+      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
+      "why_needed": "Найти официальную публикацию изменения и новое наименование порядка; не считать найденную поисковую подсказку полной редакцией.",
+      "review_item_ids": [
+        "28-1.5"
+      ],
+      "source_ids": [],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19",
+      "where_to_verify": "https://publication.pravo.gov.ru/"
+    },
+    {
+      "id": "28-doc-pregnant",
+      "region_id": "28",
+      "kind": "Постановление Правительства",
+      "date": "2019-07-01",
+      "number": "348",
+      "title": "Выплата беременным из отдалённых территорий — реквизиты для проверки",
+      "request_status": "needs_reference_check",
+      "reference_status": "overview_or_previous_review_only",
+      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
+      "why_needed": "Реквизиты из обзора: перечень территорий, число выплат и расходы.",
+      "review_item_ids": [
+        "28-1.6"
+      ],
+      "source_ids": [],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19",
+      "where_to_verify": "https://publication.pravo.gov.ru/"
+    },
+    {
+      "id": "28-doc-mortgage-law",
+      "region_id": "28",
+      "kind": "Закон",
+      "date": "2024-06-14",
+      "number": "502-ОЗ",
+      "title": "Социальная поддержка семей в части погашения ипотечных кредитов — реквизиты для проверки",
+      "request_status": "needs_reference_check",
+      "reference_status": "overview_or_previous_review_only",
+      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
+      "why_needed": "Реквизиты из обзора; нужна официальная редакция с изменениями 2026.",
+      "review_item_ids": [
+        "28-2.1"
+      ],
+      "source_ids": [],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19",
+      "where_to_verify": "https://publication.pravo.gov.ru/"
+    },
+    {
+      "id": "28-doc-mortgage-procedure",
+      "region_id": "28",
+      "kind": "Постановление Правительства",
+      "date": "2024-06-30",
+      "number": "391",
+      "title": "Порядок ипотечной выплаты — дата и номер из обзора требуют проверки — реквизиты для проверки",
+      "request_status": "needs_reference_check",
+      "reference_status": "overview_or_previous_review_only",
+      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
+      "why_needed": "Не просить акт как установленный: сначала проверить сочетание даты и номера. Отдельно нужно датированное подтверждение возобновления приёма после приостановки.",
+      "review_item_ids": [
+        "28-2.1"
+      ],
+      "source_ids": [],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19",
+      "where_to_verify": "https://publication.pravo.gov.ru/"
+    },
+    {
+      "id": "28-doc-triplets",
+      "region_id": "28",
+      "kind": "Постановление Правительства",
+      "date": "2022-09-02",
+      "number": "886",
+      "title": "Жилищная выплата при одновременном рождении трёх и более детей — реквизиты для проверки",
+      "request_status": "needs_reference_check",
+      "reference_status": "overview_or_previous_review_only",
+      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
+      "why_needed": "Проверить точные реквизиты, 3 млн руб., сроки и проживание.",
+      "review_item_ids": [
+        "28-2.2"
+      ],
+      "source_ids": [],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19",
+      "where_to_verify": "https://publication.pravo.gov.ru/"
+    },
+    {
+      "id": "28-doc-housing",
+      "region_id": "28",
+      "kind": "Постановление Правительства",
+      "date": "2013-07-08",
+      "number": "305",
+      "title": "Жилищная выплата семьям с шестью и более детьми — реквизиты для проверки",
+      "request_status": "needs_reference_check",
+      "reference_status": "overview_or_previous_review_only",
+      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
+      "why_needed": "Проверить реквизиты, формулу, состав семьи, приоритеты и свидетельство.",
+      "review_item_ids": [
+        "28-2.3"
+      ],
+      "source_ids": [],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19",
+      "where_to_verify": "https://publication.pravo.gov.ru/"
+    },
+    {
+      "id": "28-doc-land",
+      "region_id": "28",
+      "kind": "Закон",
+      "date": "2015-02-10",
+      "number": "489-ОЗ",
+      "title": "Бесплатное предоставление в собственность граждан земельных участков на территории Амурской области — реквизиты для проверки",
+      "request_status": "needs_reference_check",
+      "reference_status": "overview_or_previous_review_only",
+      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
+      "why_needed": "Сверить официальное наименование, нуждаемость, проживание, учёт и цели участка.",
+      "review_item_ids": [
+        "28-2.4"
+      ],
+      "source_ids": [],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19",
+      "where_to_verify": "https://publication.pravo.gov.ru/"
+    },
+    {
+      "id": "28-doc-vehicle-seven",
+      "region_id": "28",
+      "kind": "Постановление Правительства",
+      "date": "2012-07-13",
+      "number": "381",
+      "title": "Автотранспорт и сельхозтехника семьям с семью и более детьми — реквизиты для проверки",
+      "request_status": "needs_reference_check",
+      "reference_status": "overview_or_previous_review_only",
+      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
+      "why_needed": "Проверить лимит, возраст техники, сертификат и право на повторное обращение.",
+      "review_item_ids": [
+        "28-3.1"
+      ],
+      "source_ids": [],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19",
+      "where_to_verify": "https://publication.pravo.gov.ru/"
+    },
+    {
+      "id": "28-doc-vehicle-five",
+      "region_id": "28",
+      "kind": "Постановление Правительства",
+      "date": "2021-07-06",
+      "number": "448",
+      "title": "Автотранспорт семьям с пятью и более детьми по социальному контракту — реквизиты для проверки",
+      "request_status": "needs_reference_check",
+      "reference_status": "overview_or_previous_review_only",
+      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
+      "why_needed": "Не объединять с порядком № 381; подтвердить реквизиты и условия.",
+      "review_item_ids": [
+        "28-3.1"
+      ],
+      "source_ids": [],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19",
+      "where_to_verify": "https://publication.pravo.gov.ru/"
+    },
+    {
+      "id": "28-doc-mother-glory",
+      "region_id": "28",
+      "kind": "Закон",
+      "date": "2006-12-28",
+      "number": "280-ОЗ",
+      "title": "О почётном знаке «Материнская слава» — реквизиты для проверки",
+      "request_status": "needs_reference_check",
+      "reference_status": "overview_or_previous_review_only",
+      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
+      "why_needed": "Проверить число детей, возраст младшего, квоту, поощрение и отдельное основание пенсионной доплаты.",
+      "review_item_ids": [
+        "28-3.2"
+      ],
+      "source_ids": [],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19",
+      "where_to_verify": "https://publication.pravo.gov.ru/"
+    },
+    {
+      "id": "28-doc-contract",
+      "region_id": "28",
+      "kind": "Постановление Правительства",
+      "date": "2021-03-18",
+      "number": "149",
+      "title": "Государственная социальная помощь на основании социального контракта — реквизиты для проверки",
+      "request_status": "needs_reference_check",
+      "reference_status": "overview_or_previous_review_only",
+      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
+      "why_needed": "Нужны официальный порядок с поправками 2026, северная/южная зоны, доход, лимиты и отчётность.",
+      "review_item_ids": [
+        "28-4"
+      ],
+      "source_ids": [],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19",
+      "where_to_verify": "https://publication.pravo.gov.ru/"
+    },
+    {
+      "id": "28-doc-adoption",
+      "region_id": "28",
+      "kind": "Закон",
+      "date": "2018-12-25",
+      "number": "308-ОЗ",
+      "title": "О денежной выплате при передаче ребёнка на воспитание в семью — реквизиты для проверки",
+      "request_status": "needs_reference_check",
+      "reference_status": "overview_or_previous_review_only",
+      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
+      "why_needed": "Все суммы из обзора требуют проверки индексации 2026; отдельно усыновление, опека, ОВЗ и инвалидность.",
+      "review_item_ids": [
+        "28-5.1"
+      ],
+      "source_ids": [],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19",
+      "where_to_verify": "https://publication.pravo.gov.ru/"
+    },
+    {
+      "id": "28-doc-guardians",
+      "region_id": "28",
+      "kind": "Закон",
+      "date": "2008-11-24",
+      "number": "131-ОЗ",
+      "title": "Содержание детей и вознаграждение приёмных родителей — реквизиты для проверки",
+      "request_status": "needs_reference_check",
+      "reference_status": "overview_or_previous_review_only",
+      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
+      "why_needed": "Проверить точное название, индексацию, районы и последние изменения, а не сохранять суммы обзора.",
+      "review_item_ids": [
+        "28-5.2"
+      ],
+      "source_ids": [],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19",
+      "where_to_verify": "https://publication.pravo.gov.ru/"
+    },
+    {
+      "id": "28-doc-orphans",
+      "region_id": "28",
+      "kind": "Закон",
+      "date": "2005-04-11",
+      "number": "472-ОЗ",
+      "title": "Дополнительные гарантии социальной поддержки детей-сирот — реквизиты для проверки",
+      "request_status": "needs_reference_check",
+      "reference_status": "overview_or_previous_review_only",
+      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
+      "why_needed": "Возраст и обучение после 18 лет, районные размеры, право и срок обращения.",
+      "review_item_ids": [
+        "28-5.3"
+      ],
+      "source_ids": [],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19",
+      "where_to_verify": "https://publication.pravo.gov.ru/"
+    },
+    {
+      "id": "28-doc-fertility",
+      "region_id": "28",
+      "kind": "Постановление Правительства",
+      "date": "2023-07-10",
+      "number": "602",
+      "title": "Региональная программа повышения рождаемости — реквизиты для проверки",
+      "request_status": "needs_reference_check",
+      "reference_status": "overview_or_previous_review_only",
+      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
+      "why_needed": "Проверить действующую программу 2026–2030, подарок новорождённому и сертификат здоровья; программа не заменяет порядок выдачи.",
+      "review_item_ids": [
+        "28-7"
+      ],
+      "source_ids": [],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19",
+      "where_to_verify": "https://publication.pravo.gov.ru/"
+    },
+    {
+      "id": "28-doc-svo-family",
+      "region_id": "28",
+      "kind": "Постановление Правительства",
+      "date": "2022-12-30",
+      "number": "1338",
+      "title": "Поддержка семей участников СВО — реквизиты для проверки",
+      "request_status": "needs_reference_check",
+      "reference_status": "overview_or_previous_review_only",
+      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
+      "why_needed": "Уточнить предмет и действующую редакцию; разделить категории родственников.",
+      "review_item_ids": [
+        "28-7"
+      ],
+      "source_ids": [],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19",
+      "where_to_verify": "https://publication.pravo.gov.ru/"
+    },
+    {
+      "id": "28-doc-svo-meals",
+      "region_id": "28",
+      "kind": "Постановление Правительства",
+      "date": "2022-11-07",
+      "number": "1070",
+      "title": "Питание детей участников СВО — реквизиты для проверки",
+      "request_status": "needs_reference_check",
+      "reference_status": "overview_or_previous_review_only",
+      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
+      "why_needed": "Уточнить предмет, образовательные организации, категории и процедуру.",
+      "review_item_ids": [
+        "28-7"
+      ],
+      "source_ids": [],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19",
+      "where_to_verify": "https://publication.pravo.gov.ru/"
+    },
+    {
+      "id": "28-doc-third-monthly",
+      "region_id": "28",
+      "kind": "Постановление Правительства",
+      "date": "2012-06-28",
+      "number": "338",
+      "title": "Ежемесячная выплата на третьего и последующих детей до трёх лет — реквизиты для проверки",
+      "request_status": "needs_reference_check",
+      "reference_status": "overview_or_previous_review_only",
+      "what_to_upload": "Сначала подтвердить орган, дату, номер и предмет акта по официальной публикации; до этого не считать реквизиты установленными.",
+      "why_needed": "Архивная проверка: для заявленного периода рождений до 31.12.2022 к октябрю 2026 возраст до трёх лет истёк. Не ставить в приоритет действующих карточек.",
+      "review_item_ids": [
+        "28-1.4"
+      ],
+      "source_ids": [],
+      "full_text_recorded_in_available_intake": false,
+      "checked_at": "2026-10-19",
+      "where_to_verify": "https://publication.pravo.gov.ru/"
+    }
+  ],
+  "identification_tasks": [
+    {
+      "id": "22-identify-birth-payments",
+      "region_id": "22",
+      "review_item_ids": [
+        "22-1-first",
+        "22-1-second",
+        "22-1-third",
+        "22-1-dfo",
+        "22-1-twins",
+        "22-3-mortgage"
+      ],
+      "topic": "Первенец 200 тыс., второй ребёнок, миллионный капитал, 30% федерального, двойня/тройня, доплата по ипотеке",
+      "next_action": "В обзоре № 92-ЗС от 01.11.2017, № 122-ЗС от 30.06.2022 и № 11-ЗС от 01.04.2013. Существование описанных краевых мер не подтверждено. Найти правильное основание или документально снять кандидата. Отсутствие результата поиска не означает отсутствия меры.",
+      "status": "needs_identification",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "22-identify-third-monthly",
+      "region_id": "22",
+      "review_item_ids": [
+        "22-2-third"
+      ],
+      "topic": "Ежемесячная на третьего ребёнка до 3 лет",
+      "next_action": "Установить правильный порядок и закрытый/действующий период рождений; годы 2013–2026 из обзора не подтверждены.",
+      "status": "needs_identification",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "22-identify-students",
+      "region_id": "22",
+      "review_item_ids": [
+        "22-2-students"
+      ],
+      "topic": "Поддержка студенческих семей и новые меры 2025–2026",
+      "next_action": "Найти действующие краевые акты и порядки, отличить выплату при рождении, помощь беременной студентке и компенсацию найма; в обзоре нет достаточных реквизитов.",
+      "status": "needs_identification",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "22-identify-young-housing",
+      "region_id": "22",
+      "review_item_ids": [
+        "22-4-young"
+      ],
+      "topic": "Жильё молодым семьям",
+      "next_action": "Определить действующую краевую программу и порядок участия, затем муниципалитет; не запрашивать старую программу 2014–2020 как действующую.",
+      "status": "needs_identification",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "22-identify-utilities",
+      "region_id": "22",
+      "review_item_ids": [
+        "22-5-utilities"
+      ],
+      "topic": "Порядок компенсации ЖКУ многодетным",
+      "next_action": "Кроме закона № 16-ЗС нужен действующий порядок расчёта, нормативы, доли расходов, задолженность и обращение. Номер пока не установлен.",
+      "status": "needs_identification",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "22-identify-medicine-transit",
+      "region_id": "22",
+      "review_item_ids": [
+        "22-5-medicine",
+        "22-5-transit"
+      ],
+      "topic": "Лекарства и проезд",
+      "next_action": "Получить отдельные порядки: рецепты и перечень лекарств; денежная компенсация проезда, транспорт и возраст. Номера пока не установлены.",
+      "status": "needs_identification",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "22-identify-camp-culture",
+      "region_id": "22",
+      "review_item_ids": [
+        "22-5-camps",
+        "22-5-culture",
+        "22-5-sections"
+      ],
+      "topic": "Отдых, культура, секции и кружки",
+      "next_action": "Найти региональные порядки и перечни учреждений; скидка 50% из обзора не подтверждена. Муниципальные и учрежденческие правила не распространять на весь край.",
+      "status": "needs_identification",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "22-identify-municipal-tax",
+      "region_id": "22",
+      "review_item_ids": [
+        "22-6-property"
+      ],
+      "topic": "Налог на имущество и землю",
+      "next_action": "Федеральные вычеты отделить; дополнительные льготы проверять по решениям выбранных муниципалитетов и налоговому периоду.",
+      "status": "needs_identification",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "22-identify-foster-package",
+      "region_id": "22",
+      "review_item_ids": [
+        "22-7-once",
+        "22-7-package"
+      ],
+      "topic": "Передача в приёмную семью и социальный пакет",
+      "next_action": "15 тыс. при передаче в приёмную семью из обзора не подтверждены. Указ № 57 касается усыновления; нужен отдельный акт для иной формы устройства, если мера существует.",
+      "status": "needs_identification",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "28-identify-bam",
+      "region_id": "28",
+      "review_item_ids": [
+        "28-2.5"
+      ],
+      "topic": "Переселение в зоне БАМа",
+      "next_action": "Найти действующий порядок, территории, тип непригодного жилья, очередь и финансирование. Реквизитов в обзоре нет.",
+      "status": "needs_identification",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "28-identify-municipal-tax",
+      "region_id": "28",
+      "review_item_ids": [
+        "28-6.2"
+      ],
+      "topic": "Имущественный налог многодетным",
+      "next_action": "Нужны решения конкретных муниципалитетов и налоговый период; тезис о 60 муниципалитетах не заменяет перечень решений.",
+      "status": "needs_identification",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "28-identify-additional-procedures",
+      "region_id": "28",
+      "review_item_ids": [
+        "28-3",
+        "28-7"
+      ],
+      "topic": "Отдельные порядки реализации многодетных и прочих мер",
+      "next_action": "Помимо № 408-ОЗ установить порядки по ЖКУ, лекарствам, проезду, питанию, одежде, СПО, подарку и сертификату здоровья. Общий закон не закрывает эти документы.",
+      "status": "needs_identification",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "28-identify-indexation",
+      "region_id": "28",
+      "review_item_ids": [
+        "28-5.1",
+        "28-5.2",
+        "28-5.3",
+        "28-4"
+      ],
+      "topic": "Размеры 2026 и прожиточный минимум",
+      "next_action": "Найти официальные бюджетные/индексационные акты и ПМ по зонам на 2026. Цифры обзорного DOCX не считать подтверждением.",
+      "status": "needs_identification",
+      "checked_at": "2026-10-19"
+    },
+    {
+      "id": "28-identify-mortgage-intake",
+      "region_id": "28",
+      "review_item_ids": [
+        "28-2.1"
+      ],
+      "topic": "Текущий приём на ипотечную доплату",
+      "next_action": "Предыдущий общий файл содержит приостановку и не нашёл подтверждения возобновления после 05.10.2026. Действующий НПА сам по себе не подтверждает открытый приём. Нужна свежая датированная публикация оператора/правительства.",
+      "status": "needs_identification",
+      "checked_at": "2026-10-19"
+    }
+  ],
+  "review_item_dispositions": [
+    {
+      "region_id": "22",
+      "review_item_id": "22-1-first",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "22-doc-capital"
+      ],
+      "identification_task_ids": [
+        "22-identify-birth-payments"
+      ]
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-1-second",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "22-doc-capital"
+      ],
+      "identification_task_ids": [
+        "22-identify-birth-payments"
+      ]
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-1-third",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "22-doc-capital"
+      ],
+      "identification_task_ids": [
+        "22-identify-birth-payments"
+      ]
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-1-capital",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "22-doc-capital",
+        "22-doc-capital-use",
+        "22-doc-capital-grant",
+        "22-doc-budget"
+      ],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-1-dfo",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "22-doc-capital"
+      ],
+      "identification_task_ids": [
+        "22-identify-birth-payments"
+      ]
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-1-twins",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [],
+      "identification_task_ids": [
+        "22-identify-birth-payments"
+      ]
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-1-landcomp",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "22-doc-land",
+        "22-doc-land-payment"
+      ],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-2-third",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [],
+      "identification_task_ids": [
+        "22-identify-third-monthly"
+      ]
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-2-child",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "22-doc-child",
+        "22-doc-child-procedure",
+        "22-doc-budget"
+      ],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-2-students",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [],
+      "identification_task_ids": [
+        "22-identify-students"
+      ]
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-3-mortgage",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [],
+      "identification_task_ids": [
+        "22-identify-birth-payments"
+      ]
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-3-capital",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "22-doc-capital",
+        "22-doc-capital-use"
+      ],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-4-land",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "22-doc-land",
+        "22-doc-land-payment"
+      ],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-4-young",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [],
+      "identification_task_ids": [
+        "22-identify-young-housing"
+      ]
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-4-federal",
+      "status": "federal_separate_review",
+      "document_request_ids": [],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-5-status",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "22-doc-families"
+      ],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-5-utilities",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "22-doc-families"
+      ],
+      "identification_task_ids": [
+        "22-identify-utilities"
+      ]
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-5-food",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "22-doc-families",
+        "22-doc-meals"
+      ],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-5-school",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "22-doc-school"
+      ],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-5-medicine",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "22-doc-families"
+      ],
+      "identification_task_ids": [
+        "22-identify-medicine-transit"
+      ]
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-5-transit",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "22-doc-families"
+      ],
+      "identification_task_ids": [
+        "22-identify-medicine-transit"
+      ]
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-5-kindergarten",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "22-doc-families",
+        "22-doc-kindergarten-payment"
+      ],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-5-camps",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "22-doc-families"
+      ],
+      "identification_task_ids": [
+        "22-identify-camp-culture"
+      ]
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-5-culture",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "22-doc-families"
+      ],
+      "identification_task_ids": [
+        "22-identify-camp-culture"
+      ]
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-5-sections",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "22-doc-families"
+      ],
+      "identification_task_ids": [
+        "22-identify-camp-culture"
+      ]
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-6-transport",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "22-doc-tax"
+      ],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-6-property",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [],
+      "identification_task_ids": [
+        "22-identify-municipal-tax"
+      ]
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-6-agriculture",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "22-doc-tax"
+      ],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-7-maintenance",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "22-doc-guardians",
+        "22-doc-budget"
+      ],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-7-remuneration",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "22-doc-foster",
+        "22-doc-foster-procedure",
+        "22-doc-budget"
+      ],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-7-once",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "22-doc-adoption"
+      ],
+      "identification_task_ids": [
+        "22-identify-foster-package"
+      ]
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-7-package",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "22-doc-guardians"
+      ],
+      "identification_task_ids": [
+        "22-identify-foster-package"
+      ]
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-8-business",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "22-doc-contract"
+      ],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-8-lph",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "22-doc-contract"
+      ],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-8-other",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "22-doc-contract"
+      ],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-9",
+      "status": "summary_or_section_followup",
+      "document_request_ids": [],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-10",
+      "status": "summary_or_section_followup",
+      "document_request_ids": [],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-section-1",
+      "status": "summary_or_section_followup",
+      "document_request_ids": [],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-section-2",
+      "status": "summary_or_section_followup",
+      "document_request_ids": [],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-section-3",
+      "status": "summary_or_section_followup",
+      "document_request_ids": [],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-section-4",
+      "status": "summary_or_section_followup",
+      "document_request_ids": [],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-section-5",
+      "status": "summary_or_section_followup",
+      "document_request_ids": [],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-section-6",
+      "status": "summary_or_section_followup",
+      "document_request_ids": [],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-section-7",
+      "status": "summary_or_section_followup",
+      "document_request_ids": [],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "22",
+      "review_item_id": "22-section-8",
+      "status": "summary_or_section_followup",
+      "document_request_ids": [],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "28",
+      "review_item_id": "28-1.1",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "28-doc-first"
+      ],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "28",
+      "review_item_id": "28-1.2",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "28-doc-second"
+      ],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "28",
+      "review_item_id": "28-1.3",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "28-doc-third",
+        "28-doc-third-amend"
+      ],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "28",
+      "review_item_id": "28-1.4",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "28-doc-third-monthly"
+      ],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "28",
+      "review_item_id": "28-1.5",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "28-doc-students",
+        "28-doc-students-amend"
+      ],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "28",
+      "review_item_id": "28-1.6",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "28-doc-pregnant"
+      ],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "28",
+      "review_item_id": "28-2.1",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "28-doc-mortgage-law",
+        "28-doc-mortgage-procedure"
+      ],
+      "identification_task_ids": [
+        "28-identify-mortgage-intake"
+      ]
+    },
+    {
+      "region_id": "28",
+      "review_item_id": "28-2.2",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "28-doc-families",
+        "28-doc-triplets"
+      ],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "28",
+      "review_item_id": "28-2.3",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "28-doc-housing"
+      ],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "28",
+      "review_item_id": "28-2.4",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "28-doc-land"
+      ],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "28",
+      "review_item_id": "28-2.5",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [],
+      "identification_task_ids": [
+        "28-identify-bam"
+      ]
+    },
+    {
+      "region_id": "28",
+      "review_item_id": "28-3",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "28-doc-families"
+      ],
+      "identification_task_ids": [
+        "28-identify-additional-procedures"
+      ]
+    },
+    {
+      "region_id": "28",
+      "review_item_id": "28-3.1",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "28-doc-vehicle-seven",
+        "28-doc-vehicle-five"
+      ],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "28",
+      "review_item_id": "28-3.2",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "28-doc-mother-glory"
+      ],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "28",
+      "review_item_id": "28-3.3",
+      "status": "federal_separate_review",
+      "document_request_ids": [],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "28",
+      "review_item_id": "28-4",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "28-doc-contract"
+      ],
+      "identification_task_ids": [
+        "28-identify-indexation"
+      ]
+    },
+    {
+      "region_id": "28",
+      "review_item_id": "28-5.1",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "28-doc-adoption"
+      ],
+      "identification_task_ids": [
+        "28-identify-indexation"
+      ]
+    },
+    {
+      "region_id": "28",
+      "review_item_id": "28-5.2",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "28-doc-guardians"
+      ],
+      "identification_task_ids": [
+        "28-identify-indexation"
+      ]
+    },
+    {
+      "region_id": "28",
+      "review_item_id": "28-5.3",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "28-doc-orphans"
+      ],
+      "identification_task_ids": [
+        "28-identify-indexation"
+      ]
+    },
+    {
+      "region_id": "28",
+      "review_item_id": "28-6.1",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "28-doc-tax"
+      ],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "28",
+      "review_item_id": "28-6.2",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [],
+      "identification_task_ids": [
+        "28-identify-municipal-tax"
+      ]
+    },
+    {
+      "region_id": "28",
+      "review_item_id": "28-7",
+      "status": "linked_to_document_or_identification_task",
+      "document_request_ids": [
+        "28-doc-fertility",
+        "28-doc-svo-family",
+        "28-doc-svo-meals"
+      ],
+      "identification_task_ids": [
+        "28-identify-additional-procedures"
+      ]
+    },
+    {
+      "region_id": "28",
+      "review_item_id": "28-8",
+      "status": "summary_or_section_followup",
+      "document_request_ids": [],
+      "identification_task_ids": []
+    },
+    {
+      "region_id": "28",
+      "review_item_id": "28-9",
+      "status": "summary_or_section_followup",
+      "document_request_ids": [],
+      "identification_task_ids": []
+    }
+  ],
+  "regions": [
+    {
+      "position": 1,
+      "region_id": "22",
+      "region": "Алтайский край",
+      "status": "document_inventory_started",
+      "full_legal_review_complete": false,
+      "document_request_count": 16,
+      "references_to_identify_count": 2,
+      "previous_clarification_count": 45,
+      "existing_review_file": "data/reviews/22-altai-krai.json",
+      "overview_received": true
+    },
+    {
+      "position": 2,
+      "region_id": "28",
+      "region": "Амурская область",
+      "status": "document_inventory_started",
+      "full_legal_review_complete": false,
+      "document_request_count": 6,
+      "references_to_identify_count": 19,
+      "previous_clarification_count": 24,
+      "existing_review_file": "data/reviews/28-amur.json",
+      "overview_received": true
+    },
+    {
+      "position": 3,
+      "region_id": "29",
+      "region": "Архангельская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/29-arkhangelsk.json",
+      "overview_received": true
+    },
+    {
+      "position": 4,
+      "region_id": "30",
+      "region": "Астраханская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 5,
+      "region_id": "31",
+      "region": "Белгородская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 20,
+      "existing_review_file": "data/reviews/31-belgorod.json",
+      "overview_received": true
+    },
+    {
+      "position": 6,
+      "region_id": "32",
+      "region": "Брянская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 7,
+      "region_id": "33",
+      "region": "Владимирская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 8,
+      "region_id": "34",
+      "region": "Волгоградская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 9,
+      "region_id": "35",
+      "region": "Вологодская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/35-vologda.json",
+      "overview_received": true
+    },
+    {
+      "position": 10,
+      "region_id": "36",
+      "region": "Воронежская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 18,
+      "existing_review_file": "data/reviews/36-voronezh.json",
+      "overview_received": true
+    },
+    {
+      "position": 11,
+      "region_id": "80",
+      "region": "Донецкая Народная Республика",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/80-dnr.json",
+      "overview_received": true
+    },
+    {
+      "position": 12,
+      "region_id": "79",
+      "region": "Еврейская автономная область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 13,
+      "region_id": "75",
+      "region": "Забайкальский край",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 19,
+      "existing_review_file": "data/reviews/75-zabaikal.json",
+      "overview_received": true
+    },
+    {
+      "position": 14,
+      "region_id": "85",
+      "region": "Запорожская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/85-zaporozhye.json",
+      "overview_received": true
+    },
+    {
+      "position": 15,
+      "region_id": "37",
+      "region": "Ивановская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 16,
+      "region_id": "38",
+      "region": "Иркутская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 25,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 17,
+      "region_id": "07",
+      "region": "Кабардино-Балкарская Республика",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/07-kabardino-balkaria.json",
+      "overview_received": true
+    },
+    {
+      "position": 18,
+      "region_id": "39",
+      "region": "Калининградская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 19,
+      "region_id": "40",
+      "region": "Калужская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 18,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 20,
+      "region_id": "41",
+      "region": "Камчатский край",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 13,
+      "existing_review_file": "data/reviews/41-kamchatka.json",
+      "overview_received": true
+    },
+    {
+      "position": 21,
+      "region_id": "09",
+      "region": "Карачаево-Черкесская Республика",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/09-karachay-cherkessia.json",
+      "overview_received": true
+    },
+    {
+      "position": 22,
+      "region_id": "42",
+      "region": "Кемеровская область — Кузбасс",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 75,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 23,
+      "region_id": "43",
+      "region": "Кировская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/43-kirov.json",
+      "overview_received": true
+    },
+    {
+      "position": 24,
+      "region_id": "44",
+      "region": "Костромская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/44-kostroma.json",
+      "overview_received": true
+    },
+    {
+      "position": 25,
+      "region_id": "23",
+      "region": "Краснодарский край",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 26,
+      "region_id": "24",
+      "region": "Красноярский край",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 7,
+      "existing_review_file": "data/reviews/24-krasnoyarsk.json",
+      "overview_received": true
+    },
+    {
+      "position": 27,
+      "region_id": "45",
+      "region": "Курганская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/45-kurgan.json",
+      "overview_received": true
+    },
+    {
+      "position": 28,
+      "region_id": "46",
+      "region": "Курская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 18,
+      "existing_review_file": "data/reviews/46-kursk.json",
+      "overview_received": true
+    },
+    {
+      "position": 29,
+      "region_id": "47",
+      "region": "Ленинградская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 30,
+      "region_id": "48",
+      "region": "Липецкая область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 21,
+      "existing_review_file": "data/reviews/48-lipetsk.json",
+      "overview_received": true
+    },
+    {
+      "position": 31,
+      "region_id": "81",
+      "region": "Луганская Народная Республика",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/81-lnr.json",
+      "overview_received": true
+    },
+    {
+      "position": 32,
+      "region_id": "49",
+      "region": "Магаданская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 20,
+      "existing_review_file": "data/reviews/49-magadan.json",
+      "overview_received": true
+    },
+    {
+      "position": 33,
+      "region_id": "77",
+      "region": "Москва",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 34,
+      "region_id": "50",
+      "region": "Московская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 35,
+      "region_id": "51",
+      "region": "Мурманская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 36,
+      "region_id": "83",
+      "region": "Ненецкий автономный округ",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 37,
+      "region_id": "52",
+      "region": "Нижегородская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 38,
+      "region_id": "53",
+      "region": "Новгородская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 39,
+      "region_id": "54",
+      "region": "Новосибирская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 40,
+      "region_id": "55",
+      "region": "Омская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 39,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 41,
+      "region_id": "56",
+      "region": "Оренбургская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/56-orenburg.json",
+      "overview_received": true
+    },
+    {
+      "position": 42,
+      "region_id": "57",
+      "region": "Орловская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 43,
+      "region_id": "58",
+      "region": "Пензенская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/58-penza.json",
+      "overview_received": true
+    },
+    {
+      "position": 44,
+      "region_id": "59",
+      "region": "Пермский край",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 19,
+      "existing_review_file": "data/reviews/59-perm.json",
+      "overview_received": true
+    },
+    {
+      "position": 45,
+      "region_id": "25",
+      "region": "Приморский край",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 22,
+      "existing_review_file": "data/reviews/25-primorye.json",
+      "overview_received": true
+    },
+    {
+      "position": 46,
+      "region_id": "60",
+      "region": "Псковская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 47,
+      "region_id": "01",
+      "region": "Республика Адыгея",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 48,
+      "region_id": "04",
+      "region": "Республика Алтай",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 32,
+      "existing_review_file": "data/reviews/04-altai-republic.json",
+      "overview_received": true
+    },
+    {
+      "position": 49,
+      "region_id": "02",
+      "region": "Республика Башкортостан",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 50,
+      "region_id": "03",
+      "region": "Республика Бурятия",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 24,
+      "existing_review_file": "data/reviews/03-buryatia.json",
+      "overview_received": true
+    },
+    {
+      "position": 51,
+      "region_id": "05",
+      "region": "Республика Дагестан",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/05-dagestan.json",
+      "overview_received": true
+    },
+    {
+      "position": 52,
+      "region_id": "06",
+      "region": "Республика Ингушетия",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/06-ingushetia.json",
+      "overview_received": true
+    },
+    {
+      "position": 53,
+      "region_id": "08",
+      "region": "Республика Калмыкия",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 54,
+      "region_id": "10",
+      "region": "Республика Карелия",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 55,
+      "region_id": "11",
+      "region": "Республика Коми",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 56,
+      "region_id": "91",
+      "region": "Республика Крым",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 57,
+      "region_id": "12",
+      "region": "Республика Марий Эл",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/12-mari-el.json",
+      "overview_received": true
+    },
+    {
+      "position": 58,
+      "region_id": "13",
+      "region": "Республика Мордовия",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/13-mordovia.json",
+      "overview_received": true
+    },
+    {
+      "position": 59,
+      "region_id": "14",
+      "region": "Республика Саха (Якутия)",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 32,
+      "existing_review_file": "data/reviews/14-yakutia.json",
+      "overview_received": true
+    },
+    {
+      "position": 60,
+      "region_id": "15",
+      "region": "Республика Северная Осетия — Алания",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/15-north-ossetia.json",
+      "overview_received": true
+    },
+    {
+      "position": 61,
+      "region_id": "16",
+      "region": "Республика Татарстан",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 21,
+      "existing_review_file": "data/reviews/16-tatarstan.json",
+      "overview_received": true
+    },
+    {
+      "position": 62,
+      "region_id": "17",
+      "region": "Республика Тыва",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 27,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 63,
+      "region_id": "19",
+      "region": "Республика Хакасия",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 32,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 64,
+      "region_id": "61",
+      "region": "Ростовская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 1,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 65,
+      "region_id": "62",
+      "region": "Рязанская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 20,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 66,
+      "region_id": "63",
+      "region": "Самарская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 30,
+      "existing_review_file": "data/reviews/63-samara.json",
+      "overview_received": true
+    },
+    {
+      "position": 67,
+      "region_id": "78",
+      "region": "Санкт-Петербург",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 68,
+      "region_id": "64",
+      "region": "Саратовская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 69,
+      "region_id": "65",
+      "region": "Сахалинская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 14,
+      "existing_review_file": "data/reviews/65-sakhalin.json",
+      "overview_received": true
+    },
+    {
+      "position": 70,
+      "region_id": "66",
+      "region": "Свердловская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/66-sverdlovsk.json",
+      "overview_received": true
+    },
+    {
+      "position": 71,
+      "region_id": "92",
+      "region": "Севастополь",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 72,
+      "region_id": "67",
+      "region": "Смоленская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 73,
+      "region_id": "26",
+      "region": "Ставропольский край",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/26-stavropol.json",
+      "overview_received": true
+    },
+    {
+      "position": 74,
+      "region_id": "68",
+      "region": "Тамбовская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 20,
+      "existing_review_file": "data/reviews/68-tambov.json",
+      "overview_received": true
+    },
+    {
+      "position": 75,
+      "region_id": "69",
+      "region": "Тверская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 76,
+      "region_id": "70",
+      "region": "Томская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 12,
+      "existing_review_file": null,
+      "overview_received": true
+    },
+    {
+      "position": 77,
+      "region_id": "71",
+      "region": "Тульская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 36,
+      "existing_review_file": "data/reviews/71-tula.json",
+      "overview_received": true
+    },
+    {
+      "position": 78,
+      "region_id": "72",
+      "region": "Тюменская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 28,
+      "existing_review_file": "data/reviews/72-tyumen.json",
+      "overview_received": true
+    },
+    {
+      "position": 79,
+      "region_id": "18",
+      "region": "Удмуртская Республика",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/18-udmurtia.json",
+      "overview_received": true
+    },
+    {
+      "position": 80,
+      "region_id": "73",
+      "region": "Ульяновская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/73-ulyanovsk.json",
+      "overview_received": true
+    },
+    {
+      "position": 81,
+      "region_id": "27",
+      "region": "Хабаровский край",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 21,
+      "existing_review_file": "data/reviews/27-khabarovsk.json",
+      "overview_received": true
+    },
+    {
+      "position": 82,
+      "region_id": "86",
+      "region": "Ханты-Мансийский автономный округ — Югра",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/86-khmao-yugra.json",
+      "overview_received": true
+    },
+    {
+      "position": 83,
+      "region_id": "84",
+      "region": "Херсонская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/84-kherson.json",
+      "overview_received": true
+    },
+    {
+      "position": 84,
+      "region_id": "74",
+      "region": "Челябинская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/74-chelyabinsk.json",
+      "overview_received": true
+    },
+    {
+      "position": 85,
+      "region_id": "20",
+      "region": "Чеченская Республика",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/20-chechnya.json",
+      "overview_received": true
+    },
+    {
+      "position": 86,
+      "region_id": "21",
+      "region": "Чувашская Республика",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/21-chuvashia.json",
+      "overview_received": true
+    },
+    {
+      "position": 87,
+      "region_id": "87",
+      "region": "Чукотский автономный округ",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 55,
+      "existing_review_file": "data/reviews/87-chukotka.json",
+      "overview_received": true
+    },
+    {
+      "position": 88,
+      "region_id": "89",
+      "region": "Ямало-Ненецкий автономный округ",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": "data/reviews/89-yanao.json",
+      "overview_received": true
+    },
+    {
+      "position": 89,
+      "region_id": "76",
+      "region": "Ярославская область",
+      "status": "awaiting_alphabetical_document_audit",
+      "full_legal_review_complete": false,
+      "document_request_count": 0,
+      "references_to_identify_count": 0,
+      "previous_clarification_count": 0,
+      "existing_review_file": null,
+      "overview_received": true
+    }
+  ]
+}
