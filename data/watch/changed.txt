@@ -1,5 +1,4 @@
 sfr
-nso-social
 samara-edu
 krsk-prosecutor
 krsk-gov-channel
@@ -7,9 +6,9 @@ krsk-gazette
 krsk-city
 krsk-city-edu
 samara-social-services
-krsk-csp
 perm-law
 perm-museum
+perm-zoo
 tyumen-msp
 yakutia-uszn
 yakutia-parliament-media
@@ -18,12 +17,12 @@ far-east-zskk-ru
 far-east-cspnpk-ru
 far-east-deti-gov-ru
 far-east-duma-khv-ru
+regions-oct14-usznval-ru
 regions-oct14-xn--80aapampemcchfmo7a3c9ehj-xn--p1ai
 regions-oct14-schekino-ru
 regions-oct14-xn--80atapud1a-xn--p1ai
 regions-oct14-uspnongudai-ru
 regions-oct14-rubtsovsk-org
-regions-oct14-mfc22-ru
 80-xn--80azg-xn--80ahqgjaddr-xn--p1ai
 84-khegov-ru
 86-www-admugansk-ru
