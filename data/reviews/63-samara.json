@@ -2043,6 +2043,100 @@
           "observation": "Новые изменения и будущие даты по доступным полным официальным текстам не подтверждены."
         }
       ]
+    },
+    {
+      "date": "2026-10-26",
+      "baseline_monitoring_date": "2026-10-19",
+      "result": "incomplete_official_source_access",
+      "confirmed_changes": [],
+      "public_cards_changed": [],
+      "full_legal_review_complete": false,
+      "data_blob_sha": "1eb5a8dd9069969a26f7e68e436aac74d34798b4",
+      "source_access": [
+        {
+          "url": "https://publication.pravo.gov.ru/",
+          "result": "timeout"
+        },
+        {
+          "url": "https://pravo.samregion.ru/",
+          "result": "unavailable"
+        },
+        {
+          "url": "https://samregion.ru/",
+          "result": "unavailable"
+        },
+        {
+          "url": "https://sociosam.ru/",
+          "result": "timeout_on_direct_open; indexed official service pages available"
+        },
+        {
+          "url": "https://sociosam.ru/service/%D0%A1%D0%9E%D0%A6%D0%98%D0%90%D0%9B%D0%AC%20%D0%9F%D0%9E%D0%94%D0%94%D0%95%D0%A0%D0%96%D0%9A%D0%90%20%D0%A1%D0%95%D0%9C%D0%95%D0%99%20%D0%A1%20%D0%94%D0%95%D0%A2%D0%AC%D0%9C%D0%98/mnogodetnaya-semya/",
+          "result": "available_via_search_index"
+        },
+        {
+          "url": "https://samadm.ru/",
+          "result": "timeout"
+        },
+        {
+          "url": "https://tgl.ru/",
+          "result": "available"
+        },
+        {
+          "url": "https://sfr.gov.ru/branches/samara",
+          "result": "available"
+        }
+      ],
+      "scope": "Текущие 6 карточек и все 96 позиций перечня прочитаны; выполнен поиск публикаций после 19.10.2026, архивных переходов, мер СВО и муниципальных изменений.",
+      "limitations": "Обязательные полные официальные редакции publication.pravo.gov.ru и pravo.samregion.ru недоступны. Индексированные официальные страницы и зеркала не подменяют полный действующий НПА.",
+      "future_effective_date_guard": "Нормы с 01.04.2027 не применены. Отдельно учтена будущая дата 01.11.2026, обнаруженная в неофициальном тексте акта по СВО; до подтверждения полным официальным НПА карточки не менялись.",
+      "observations": [
+        {
+          "source_items": [
+            "1.5",
+            "2.10"
+          ],
+          "request_groups": [
+            1
+          ],
+          "status": "current_public_information_consistent",
+          "official_url": "https://sociosam.ru/service/%D0%A1%D0%9E%D0%A6%D0%98%D0%90%D0%9B%D0%AC%20%D0%9F%D0%9E%D0%94%D0%94%D0%95%D0%A0%D0%96%D0%9A%D0%90%20%D0%A1%D0%95%D0%9C%D0%95%D0%99%20%D0%A1%20%D0%94%D0%95%D0%A2%D0%AC%D0%9C%D0%98/mnogodetnaya-semya/",
+          "observation": "Официальная страница соцзащиты, проиндексированная 26.10.2026, по-прежнему указывает 100 000 руб. семейного капитала и 50 000/350 000 руб. при рождении близнецов; нового изменения не подтверждено."
+        },
+        {
+          "source_item": "13.15",
+          "request_groups": [
+            27
+          ],
+          "status": "needs_review",
+          "document": "Постановление Правительства Самарской области от 05.10.2026 №643",
+          "official_url": "https://publication.pravo.gov.ru/document/6300202610070002",
+          "observation": "Официальный поисковый результат подтверждает реквизиты акта, но полный текст и дата вступления в силу недоступны; продление выплаты на газификацию до 2029 года не применено к карточкам."
+        },
+        {
+          "request_groups": [
+            3,
+            4,
+            2,
+            1
+          ],
+          "status": "no_new_confirmed_change",
+          "documents": [
+            "приказ №222 от 17.04.2025 и приказ №493 от 28.08.2026",
+            "приказ №821 от 05.11.2024 и приказ №494 от 28.08.2026",
+            "постановление №1060 от 18.12.2023",
+            "Закон №122-ГД от 16.07.2004"
+          ],
+          "observation": "Новые подтверждённые поправки по отслеживаемым актам не установлены; одноимённые/однономерные акты разграничены."
+        },
+        {
+          "scope": "svo_measures",
+          "status": "needs_review",
+          "document": "Постановление Правительства Самарской области от 04.08.2026 №493",
+          "discovery_url": "https://sam-pravo.ru/postanovlenie/2026/08/04/n-493/",
+          "reported_change": "В доступном неофициальном тексте указана смена размера выплаты отдельным контрактникам с 01.11.2026; полный официальный акт не получен.",
+          "observation": "Не смешивать с приказом министерства №493 от 28.08.2026 о выплате студенческим семьям. До подтверждения первичным источником карточку и текущий статус не менять."
+        }
+      ]
     }
   ]
 }
