@@ -4371,6 +4371,65 @@
           "observation": "Найден заголовок поправок в сфере поддержки семей участников СВО. Полный документ недоступен; дата, номер и применимость не установлены."
         }
       ]
+    },
+    {
+      "date": "2026-10-26",
+      "baseline_monitoring_date": "2026-10-19",
+      "result": "incomplete_official_source_access",
+      "confirmed_changes": [],
+      "public_cards_changed": [],
+      "full_legal_review_complete": false,
+      "data_blob_sha": "97d0faa144523dbc00ee91812e89894c0ae641a9",
+      "source_access": [
+        {
+          "url": "https://zakon.krskstate.ru/",
+          "result": "timeout"
+        },
+        {
+          "url": "https://publication.pravo.gov.ru/",
+          "result": "timeout"
+        },
+        {
+          "url": "https://krskstate.ru/",
+          "result": "unavailable"
+        },
+        {
+          "url": "https://szn24.ru/",
+          "result": "timeout"
+        },
+        {
+          "url": "https://www.admkrsk.ru/",
+          "result": "available"
+        },
+        {
+          "url": "https://sfr.gov.ru/branches/krasnoyarsk/",
+          "result": "available"
+        }
+      ],
+      "scope": "Текущие 76 карточек, 70 позиций основного перечня и 25 пунктов СВО прочитаны; выполнен поиск публикаций после 19.10.2026, архивных переходов, мер СВО и муниципальных изменений.",
+      "limitations": "Обязательные полные официальные редакции на порталах НПА недоступны. Поисковые фрагменты и зеркала использованы только для обнаружения документов, не для подтверждения действующей редакции.",
+      "observations": [
+        {
+          "status": "no_new_confirmed_change",
+          "period": "2026-10-20/2026-10-26",
+          "observation": "По доступным официальным страницам администрации Красноярска и СФР новых подтверждённых изменений карточек не установлено; окончательно подтвердить отсутствие изменений нельзя из-за недоступности порталов НПА."
+        },
+        {
+          "source_items": [
+            20,
+            21
+          ],
+          "status": "needs_review",
+          "document": "Приказ Минсоцполитики Красноярского края от 05.10.2026 №103-Н",
+          "observation": "Полный официальный текст и применимость к срокам выдачи/замены удостоверений «Материнская слава» по-прежнему не получены; данные карточек не менялись."
+        },
+        {
+          "scope": "svo_items",
+          "status": "needs_review",
+          "official_url": "https://zakon.krskstate.ru/0/doc/126733",
+          "observation": "Полный текст найденного ранее пакета поправок о поддержке семей участников СВО остаётся недоступен; дата, номер и применимость не подтверждены."
+        }
+      ]
     }
   ],
   "whole_scope_audit": {
