@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "created": "2026-10-27",
+  "file": "docs/exports/Список_документов_Гарант.docx",
+  "sha256": "69e0a993685aae69a49b64872a815d2c847c640f14a64388dd5ce43a1c792c8d",
+  "bytes": 62448,
+  "regions": 89,
+  "document_references": 510,
+  "confirmed_references": 83,
+  "copies_already_received_among_confirmed": 12,
+  "unverified_lookup_references": 427,
+  "pages": 32,
+  "source_manifest": "data/reviews/garant-export-checklist-2026-10-27.json",
+  "source_commit": "a143fb341d7066623d22eb17d219f5dcca5a3c9d",
+  "verification": "Сверены 89 заголовков регионов и все 510 уникальных идентификаторов с исходной описью; документ отрисован, страницы просмотрены, границы текста проверены. Юридическая сверка реквизитов этим экспортом не расширена."
+}
