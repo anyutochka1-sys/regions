@@ -1,11 +1,11 @@
 sfr
+krsk-prosecutor
 krsk-gov-channel
 krsk-gazette
 krsk-city
 krsk-city-edu
 krsk-college
 samara-social-services
-krsk-csp
 krsk-rcss
 perm-law
 perm-museum
@@ -13,7 +13,7 @@ yakutia-uszn
 yakutia-parliament-media
 far-east-soczashita-chita-ru
 far-east-zskk-ru
-far-east-www-mydoc49-ru
+far-east-xn--h1alcedd-xn--d1aqf-xn--p1ai
 far-east-cspnpk-ru
 far-east-deti-gov-ru
 far-east-duma-khv-ru
