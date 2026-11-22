@@ -1,4 +1,4 @@
-sfr
+krsk-prosecutor
 krsk-gov-channel
 krsk-gazette
 krsk-city
@@ -7,11 +7,9 @@ krsk-college
 samara-social-services
 krsk-rcss
 perm-law
-perm-museum
 yakutia-parliament-media
 far-east-uszn-svob-ru
 far-east-soczashita-chita-ru
-far-east-zskk-ru
 far-east-xn--h1alcedd-xn--d1aqf-xn--p1ai
 far-east-cspnpk-ru
 far-east-deti-gov-ru
@@ -20,6 +18,6 @@ regions-oct14-schekino-ru
 regions-oct14-xn--80atapud1a-xn--p1ai
 regions-oct14-uspnongudai-ru
 regions-oct14-rubtsovsk-org
-regions-oct14-mfc22-ru
 84-khegov-ru
 86-www-admugansk-ru
+46-kurskpravo-ru
