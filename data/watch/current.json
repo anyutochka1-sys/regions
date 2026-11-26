@@ -1,337 +1,337 @@
 {
   "pravo": {
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": false,
     "error": "<urlopen error timed out>"
   },
   "sfr": {
-    "sha256": "5c793fcb5265bae029c21496315563286deb8e2c6707f3328f7a0ea17fcf8ff5",
-    "checked": "2026-11-25",
+    "sha256": "31e7f1725f7145897c8688ca707e63e80fd53febc98e50b89be5e5b841209d0c",
+    "checked": "2026-11-26",
     "ok": true
   },
   "krsk-law": {
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": false,
     "error": "<urlopen error timed out>"
   },
   "krsk-gov": {
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": false,
     "error": "<urlopen error timed out>"
   },
   "samara-gov": {
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": false,
     "error": "<urlopen error timed out>"
   },
   "samara-law": {
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": false,
     "error": "<urlopen error timed out>"
   },
   "nso-social": {
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": false,
     "error": "<urlopen error timed out>"
   },
   "nso-gov": {
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": false,
     "error": "<urlopen error timed out>"
   },
   "samara-governor": {
     "sha256": "b29762277ce89204bfec18e54315f53a5d5f76fbd2d799a38d72f462441a91ab",
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": true
   },
   "samara-edu": {
-    "sha256": "b513158457d23d6c84362630c761ceb0cc830ab2863219fa5cee38448f783467",
-    "checked": "2026-11-25",
-    "ok": true
+    "checked": "2026-11-26",
+    "ok": false,
+    "error": "<urlopen error timed out>"
   },
   "krsk-prosecutor": {
-    "sha256": "a5a8b7e346d16ae7e754fba493d3da7c9a472965c275b04adfce0ba830ac07d8",
-    "checked": "2026-11-25",
+    "sha256": "545b46084fd0f7096caf709bbea6e390de0e2502f890fcd166912a1fbd8d099f",
+    "checked": "2026-11-26",
     "ok": true
   },
   "krsk-gov-channel": {
-    "sha256": "0301b256deb2da0984dfa811f7446030dbde75a4d5d0c9922cf74cd0cb06fc22",
-    "checked": "2026-11-25",
+    "sha256": "66a43aea733cc926839f243724edd9327174c239501eee25dbf6e5c99f2b20de",
+    "checked": "2026-11-26",
     "ok": true
   },
   "krsk-gazette": {
-    "sha256": "c1b7b21b755cea850cce0c4afd0c8fcdf8a0363e5e411bdf1574ae77625c6e95",
-    "checked": "2026-11-25",
+    "sha256": "a3266a9cd35c855cf888328c159d59176c3e4837682a0c188eebc7f9b4a0fe96",
+    "checked": "2026-11-26",
     "ok": true
   },
   "krsk-city": {
-    "sha256": "27fe367767c674593dd68b2f997d0aee76d12db363feeb7a58a915694adfef34",
-    "checked": "2026-11-25",
+    "sha256": "1e86b8c611c85a239c3046890c2d9586a1703c084837305ce34172086fbdb70c",
+    "checked": "2026-11-26",
     "ok": true
   },
   "krsk-city-edu": {
-    "sha256": "9a96fee1ba2aa88de31c3ccbd4074bba2849e4f0b7b7a438395d3bb2d7df5a04",
-    "checked": "2026-11-25",
+    "sha256": "81bd37db851ad663fe6119e5d4a859a5b151f683bbe9cad986bf56a83e632d31",
+    "checked": "2026-11-26",
     "ok": true
   },
   "krsk-college": {
-    "sha256": "baff9f1cb07d24a9c0f566fb2ac9d0eaed2ce15dc178e922a648a1ed49e8d841",
-    "checked": "2026-11-25",
+    "sha256": "13e8e0eb983aab50e1ee3afbacf7021eaa14136bf9e127fb7a5239d38b6a88b6",
+    "checked": "2026-11-26",
     "ok": true
   },
   "samara-social-services": {
-    "sha256": "beedb23fda69d4c8828fd86902b22430c568aa2866934d60bff1a0f5d99b5dd1",
-    "checked": "2026-11-25",
-    "ok": true
+    "checked": "2026-11-26",
+    "ok": false,
+    "error": "<urlopen error timed out>"
   },
   "krsk-csp": {
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": false,
     "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
   },
   "krsk-rcss": {
-    "sha256": "9df6c135757433f64f050756a7cc4f3ee35780e828b4e85f857149ea2a91ca5f",
-    "checked": "2026-11-25",
+    "sha256": "552286bf66cc856a54c810df027391496e5305525e94cb7deeb1cb3752e5094c",
+    "checked": "2026-11-26",
     "ok": true
   },
   "perm-csv": {
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": false,
     "error": "HTTP Error 403: Forbidden"
   },
   "perm-csv-www": {
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": false,
     "error": "HTTP Error 403: Forbidden"
   },
   "perm-law": {
-    "sha256": "70a0437080a40358c7e8214c8920a6188771e60c74c4754b4850bf68b727f389",
-    "checked": "2026-11-25",
+    "sha256": "dfd9fd4f9c0da80273204b86fda2213e622f1fa725b3e0ece6a0673d7f37f286",
+    "checked": "2026-11-26",
     "ok": true
   },
   "perm-museum": {
-    "sha256": "107004086ed5fffa97530e9b81e6dbbc01d3c79e9484a1948c8d8798d818b979",
-    "checked": "2026-11-25",
+    "sha256": "a3bab43e262df2764647bc019ba4355cc6be64751ff11367b59ee9466aed679d",
+    "checked": "2026-11-26",
     "ok": true
   },
   "perm-zoo": {
     "sha256": "7b80ae6817ec9c0461849d2b43a0baa28eea90a3061a82ce39705268c9cb4157",
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": true
   },
   "tatar-social": {
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": false,
     "error": "<urlopen error timed out>"
   },
   "tyumen-msp": {
-    "sha256": "6b61880ee00770935df9d2858ad42b144f4020f4474d61bdeb80f9d3b35071b4",
-    "checked": "2026-11-25",
-    "ok": true
+    "checked": "2026-11-26",
+    "ok": false,
+    "error": "<urlopen error timed out>"
   },
   "buryatia-cspn": {
-    "sha256": "d284455ac9ce87a8d3eedf0cd9a0aa73eef8d96a6e8d2a4f3345d514def22f94",
-    "checked": "2026-11-25",
-    "ok": true
+    "checked": "2026-11-26",
+    "ok": false,
+    "error": "<urlopen error timed out>"
   },
   "buryatia-cspn-www": {
-    "sha256": "92f2c71d7225d82c2315473764d9efe8d4faa02dbc33732bcf59cd4229d508ed",
-    "checked": "2026-11-25",
-    "ok": true
+    "checked": "2026-11-26",
+    "ok": false,
+    "error": "<urlopen error timed out>"
   },
   "yakutia-uszn": {
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": false,
     "error": "HTTP Error 403: Forbidden"
   },
   "yakutia-parliament-media": {
-    "sha256": "bb01ef7b6d9cc05b699c53f3b205b2f24c2f04775029ab046e641f60aca8275d",
-    "checked": "2026-11-25",
+    "sha256": "266f5c712b6a856cb5191bb6cbc4e9b53d5b4bff1788433b200549675993aed8",
+    "checked": "2026-11-26",
     "ok": true
   },
   "far-east-www-mihuszn-ru": {
     "sha256": "129b629ff31e59cb7feb4ccebec6ac07b6355ed750b2a0dd759b0b8e5a1d9fe0",
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": true
   },
   "far-east-uszn-svob-ru": {
-    "sha256": "f009da1c20c941d853cb3fd7105bd3110887fe749d7cc49a2e7360e7e104d641",
-    "checked": "2026-11-25",
+    "sha256": "25fce3e7f7b4a4078625a9e383f4fd29427371adabd9b764cede5be3e0897e1d",
+    "checked": "2026-11-26",
     "ok": true
   },
   "far-east-soczashita-chita-ru": {
-    "sha256": "4d23a615c9e70e04ef3dd05ee284934e8b8e5aa5c0e152552d9d62ee02455fb5",
-    "checked": "2026-11-25",
+    "sha256": "0f1c7b72b1bccb81e86b585bedadc18147defebbfc6ac75b25fadfdca6c0c7b7",
+    "checked": "2026-11-26",
     "ok": true
   },
   "far-east-zskk-ru": {
-    "sha256": "a60aaa6dae2876f1acc14ca5d493ab82d742b3ffdfa4f651f1438895dbe4f3cb",
-    "checked": "2026-11-25",
+    "sha256": "33324978dfa1fe0136f46e5889b88c4551dd462c8ac0509aff4d3f6aa0ced36c",
+    "checked": "2026-11-26",
     "ok": true
   },
   "far-east-www-mydoc49-ru": {
     "sha256": "8de7f62ca925ee78010046819e0954fc4476d0b6427a0d86439ea9fea28cf7a4",
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": true
   },
   "far-east-xn--h1alcedd-xn--d1aqf-xn--p1ai": {
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": false,
     "error": "HTTP Error 403: Forbidden"
   },
   "far-east-cspnpk-ru": {
-    "sha256": "1514ee1f6e81a575bab75730f9e1c205acc5261995a00a5f580c0a58197022e6",
-    "checked": "2026-11-25",
+    "sha256": "ef9966305956c752a179cef7909ad2b3f584d513d240570ecdbc2db50ceb7a61",
+    "checked": "2026-11-26",
     "ok": true
   },
   "far-east-deti-gov-ru": {
-    "sha256": "fc83f855d5db134f96f64960f84760f56ecaae89c98351ada4376459b3909900",
-    "checked": "2026-11-25",
+    "sha256": "24da75dd70bcdb9a17abab544215bd627f491e49363e6d5beace89a3057be558",
+    "checked": "2026-11-26",
     "ok": true
   },
   "far-east-msz-sakhalin-gov-ru": {
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": false,
     "error": "<urlopen error timed out>"
   },
   "far-east-minzdrav-sakhalin-gov-ru": {
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": false,
     "error": "<urlopen error timed out>"
   },
   "far-east-mszn27-ru": {
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": false,
     "error": "<urlopen error timed out>"
   },
   "far-east-kgkucspnkms-mszn27-ru": {
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": false,
     "error": "<urlopen error timed out>"
   },
   "far-east-mfc27-ru": {
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": false,
     "error": "<urlopen error timed out>"
   },
   "far-east-duma-khv-ru": {
-    "sha256": "e94c921044902a90f97849b708f9f0ba69d1eb8441a9a86e070fb896609d2dd0",
-    "checked": "2026-11-25",
+    "sha256": "d17835198c7abfdaeda7b14b922a5b721b61e3df3de2ba0010c6a0973b6318ed",
+    "checked": "2026-11-26",
     "ok": true
   },
   "regions-oct14-usznval-ru": {
-    "sha256": "f60cf2b579f357ff40a446a5a4e42919a5345050ddd8183315239dcadb295dad",
-    "checked": "2026-11-25",
-    "ok": true
+    "checked": "2026-11-26",
+    "ok": false,
+    "error": "<urlopen error timed out>"
   },
   "regions-oct14-belregion-ru": {
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": false,
     "error": "<urlopen error timed out>"
   },
   "regions-oct14-zakonbelregion-ru": {
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": false,
     "error": "<urlopen error timed out>"
   },
   "regions-oct14-mso-kursk-ru": {
     "sha256": "d0db68a344d1ad23628a7baec8bdbdf58a763073717bd3cf01ebba3d3478e8ef",
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": true
   },
   "regions-oct14-adm2-rkursk-ru": {
     "sha256": "d0db68a344d1ad23628a7baec8bdbdf58a763073717bd3cf01ebba3d3478e8ef",
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": true
   },
   "regions-oct14-mydocuments36-ru": {
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": false,
     "error": "<urlopen error timed out>"
   },
   "regions-oct14-www-govvrn-ru": {
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": false,
     "error": "<urlopen error timed out>"
   },
   "regions-oct14-xn--80aapampemcchfmo7a3c9ehj-xn--p1ai": {
-    "sha256": "573b67d7356a3cf2b23d7d631647d97e60339a38600b59011b3d28a0cfb59cff",
-    "checked": "2026-11-25",
+    "sha256": "f94db576e23c180bdf8a5b0f97c97cae672b00f27f17745d7795417249ef0e6f",
+    "checked": "2026-11-26",
     "ok": true
   },
   "regions-oct14-schekino-ru": {
-    "sha256": "697e1fa96a15389d590a33afbf73dc536bea7e0eacc585919cefc6a2c41dc8ba",
-    "checked": "2026-11-25",
+    "sha256": "fde0aa726e1071fee508b31b6b4dc5f4f1ae5d4dcd995c0734f6ff204bdf1fcc",
+    "checked": "2026-11-26",
     "ok": true
   },
   "regions-oct14-xn--80atapud1a-xn--p1ai": {
-    "sha256": "0b42a24bc0d6862f235808bd62dae5656895960ebfb857bcb5142b3efee5e86b",
-    "checked": "2026-11-25",
+    "sha256": "2044f4f566398e7b538f390d1a30ed2ba6a01a61e8e1fcd42ba46f6c1d8d49d0",
+    "checked": "2026-11-26",
     "ok": true
   },
   "regions-oct14-www-xn--80atapud1a-xn--p1ai": {
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": false,
     "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.xn--80atapud1a.xn--p1ai'. (_ssl.c:1081)>"
   },
   "regions-oct14-uspnongudai-ru": {
-    "sha256": "6109747269a7c6be33fbb83dad999408514b617e5b1769bd53bcfb88299a6fd5",
-    "checked": "2026-11-25",
+    "sha256": "839b428e4eb1a8f26b4a0df9ecb27d4a447ed482cfcda0724f19567122706ec7",
+    "checked": "2026-11-26",
     "ok": true
   },
   "regions-oct14-www-uspnongudai-ru": {
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": false,
     "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>"
   },
   "regions-oct14-rubtsovsk-org": {
-    "sha256": "8e5c10fddb5dd5851cb5d4f4d4b693d0443b607315b3086897d5def1da83df97",
-    "checked": "2026-11-25",
+    "sha256": "714f1d64368f32b9d20c054c9c79a31e02fbc0f0afbe40b0bf4fb1900348493b",
+    "checked": "2026-11-26",
     "ok": true
   },
   "regions-oct14-mfc22-ru": {
-    "sha256": "6007fbd55622e97d6ef5d843f1c292ca37d8f25d139f3fe0a3bc7f2bf415602c",
-    "checked": "2026-11-25",
+    "sha256": "8a82931a218b06bb74a7f1b25e9f28d305cbaef36a77f4f3dc24bad770c6f437",
+    "checked": "2026-11-26",
     "ok": true
   },
   "regions-oct14-pravo-govvrn-ru": {
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": false,
     "error": "<urlopen error timed out>"
   },
   "regions-oct14-talcrb-zdrav36-ru": {
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": false,
     "error": "<urlopen error timed out>"
   },
   "80-xn--80azg-xn--80ahqgjaddr-xn--p1ai": {
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": false,
     "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
   },
   "85-mintrud-zo-gov-ru": {
-    "sha256": "56d3c7efdd19841cbb224eb10fea0c32bc0617ed1f315c2ed75265a2f9a18721",
-    "checked": "2026-11-25",
+    "sha256": "df65f9b041e2800fc89ed419aa78698a87705cfac54ea0d3d9b1c1f5577f7e84",
+    "checked": "2026-11-26",
     "ok": true
   },
   "84-khegov-ru": {
-    "sha256": "dd98862bf259e44bb83cc12c3032c23aa9ccdb20be2eff3971c2779bea101715",
-    "checked": "2026-11-25",
+    "sha256": "79877bde66ac997fdfba648c600b1dc6906051665731d1675558b927f010be86",
+    "checked": "2026-11-26",
     "ok": true
   },
   "81-sovminlnr-ru": {
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "ok": false,
     "error": "<urlopen error timed out>"
   },
   "86-www-admugansk-ru": {
-    "sha256": "adfe29dc361336d6a77a7a82fb7dc8a98ae63e3086b797672a21c806f8fcc9d6",
-    "checked": "2026-11-25",
+    "sha256": "85db3040535c88d28cd05161361905e896d5e5b0b77c48ec526d95b138554637",
+    "checked": "2026-11-26",
     "ok": true
   },
   "46-kurskpravo-ru": {
-    "sha256": "0f7f4c51114530fa2bdf68f2dd914000271440cfd4c1326d25a14a39198237bf",
-    "checked": "2026-11-25",
+    "sha256": "77ec992097ad9b7238aa640a6732ee1060f5168b7a9b850dab3b18126f556e71",
+    "checked": "2026-11-26",
     "ok": true
   }
 }
